@@ -1,0 +1,26 @@
+name: save news
+
+on:
+  # push:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: "*/5 * * * *"
+ 
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      - name: excute shell
+        run: chmod +x ./news/scripts/*.sh && for f in ./news/scripts/*.sh ; do [ -x "$f" ] && [ ! -d "$f" ] && echo $f && "$f" ; done
+      - name: excute ruby
+        run: chmod +x ./news/scripts/*.rb && for f in ./news/scripts/*.rb ; do [ -x "$f" ] && [ ! -d "$f" ] && echo $f && ruby $f ; done
+      - name: excute python
+        run: chmod +x ./news/scripts/*.py && for f in ./news/scripts/*.py ; do [ -x "$f" ] && [ ! -d "$f" ] && echo $f && python3 $f ; done
+      - name: config git
+        run: git config --global user.email "hemengzhi88@gmail.com"&&git config --global user.name "genkin-he"
+      - name: submit
+        run: git add . && git commit -m "save post" && git push origin main
