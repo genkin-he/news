@@ -1,26 +1,2018 @@
-<!DOCTYPE html>
-	<html>
-	  <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
-		<title>Application Error</title>
-		<style media="screen">
-		  html,body,iframe {
-			margin: 0;
-			padding: 0;
-		  }
-		  html,body {
-			height: 100%;
-			overflow: hidden;
-		  }
-		  iframe {
-			width: 100%;
-			height: 100%;
-			border: 0;
-		  }
-		</style>
-	  </head>
-	  <body>
-		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
-	  </body>
-	</html>
+{
+    "items": "50",
+    "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+    "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+    "feed": [
+        {
+            "title": "SEC Sues Silvergate Over 'Misleading' Statements Following FTX Collapse",
+            "url": "https://decrypt.co/237976/sec-sues-silvergate-misleading-statements-ftx-collapse",
+            "time_published": "20240701T202752",
+            "authors": [
+                "Andrew Hayward"
+            ],
+            "summary": "Shuttered crypto-friendly bank Silvergate and three former executives have been charged with securities violations by the SEC. Here's why.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": -0.151015,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Why Rivian Stock Surged Today",
+            "url": "https://www.fool.com/investing/2024/07/01/why-rivian-stock-surged-today/",
+            "time_published": "20240701T202315",
+            "authors": [
+                "Keith Noonan"
+            ],
+            "summary": "The EV stock posted big gains after bullish coverage from analysts.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/782293/gettyimages-1292531161.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.658903"
+                }
+            ],
+            "overall_sentiment_score": 0.298331,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CCORF",
+                    "relevance_score": "0.121037",
+                    "ticker_sentiment_score": "0.129679",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SPGI",
+                    "relevance_score": "0.121037",
+                    "ticker_sentiment_score": "0.292551",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Biden Administration Halts 211-Mile Ambler Road Project In Alaska To Protect Environment, Native Communities - South32  ( OTC:SOUHY ) , Trilogy Metals  ( AMEX:TMQ ) ",
+            "url": "https://www.benzinga.com/government/24/07/39584173/biden-administration-halts-211-mile-ambler-road-project-in-alaska-to-protect-environment-native-comm",
+            "time_published": "20240701T202225",
+            "authors": [
+                "Stjepan Kalinic"
+            ],
+            "summary": "The Biden Administration has officially halted plans for the Ambler Road in Alaska, a decision that significantly impedes potential mining developments in the region. Announced initially in April, the move aims to protect the environment and uphold the interests of local communities.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2024/07/01/Driving-Down-The-Nabesna-Road-Deep-Into-.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.13351,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SHTLF",
+                    "relevance_score": "0.083833",
+                    "ticker_sentiment_score": "0.214762",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Market Whales and Their Recent Bets on Wayfair Options - Wayfair  ( NYSE:W ) ",
+            "url": "https://www.benzinga.com/insights/options/24/07/39583961/market-whales-and-their-recent-bets-on-wayfair-options",
+            "time_published": "20240701T201641",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Deep-pocketed investors have adopted a bullish approach towards Wayfair W, and it's something market players shouldn't ignore. Our tracking of public options records at Benzinga unveiled this significant move today.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2023/movers_image_18.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": 0.213826,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "W",
+                    "relevance_score": "0.803061",
+                    "ticker_sentiment_score": "0.309489",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cipher Mining's Options Frenzy: What You Need to Know - Cipher Mining  ( NASDAQ:CIFR ) ",
+            "url": "https://www.benzinga.com/insights/options/24/07/39583956/cipher-minings-options-frenzy-what-you-need-to-know",
+            "time_published": "20240701T201636",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Investors with a lot of money to spend have taken a bullish stance on Cipher Mining CIFR. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2023/movers_image_18.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.150576,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CIFR",
+                    "relevance_score": "0.702434",
+                    "ticker_sentiment_score": "0.365525",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.245339",
+                    "ticker_sentiment_score": "0.241963",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Market Whales and Their Recent Bets on IREN Options - Iris Energy  ( NASDAQ:IREN ) ",
+            "url": "https://www.benzinga.com/insights/options/24/07/39583953/market-whales-and-their-recent-bets-on-iren-options",
+            "time_published": "20240701T201631",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Investors with a lot of money to spend have taken a bullish stance on Iris Energy IREN. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2023/movers_image_18.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.962106"
+                }
+            ],
+            "overall_sentiment_score": 0.183666,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IREN",
+                    "relevance_score": "0.657566",
+                    "ticker_sentiment_score": "0.290881",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.295867",
+                    "ticker_sentiment_score": "0.123396",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Uniti Group Inc. To Report Second Quarter 2024 Financial Results and Host Conference Call - Uniti Group  ( NASDAQ:UNIT ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583912/uniti-group-inc-to-report-second-quarter-2024-financial-results-and-host-conference-call",
+            "time_published": "20240701T201533",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "LITTLE ROCK, Ark., July 01, 2024 ( GLOBE NEWSWIRE ) -- Uniti Group Inc. ( \"Uniti\" ) UNIT announced today that it will report its second quarter 2024 financial results prior to the opening of trading on the Nasdaq Stock Exchange on August 1, 2024.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                }
+            ],
+            "overall_sentiment_score": 0.203898,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UNIT",
+                    "relevance_score": "0.791876",
+                    "ticker_sentiment_score": "0.282094",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "LAKESIDE HOLDING LIMITED ANNOUNCES CLOSING OF UPSIZED $6.75 MILLION INITIAL PUBLIC OFFERING - Lakeside Holding  ( NASDAQ:LSH ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583869/lakeside-holding-limited-announces-closing-of-upsized-6-75-million-initial-public-offering",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Itasca, IL, July 01, 2024 ( GLOBE NEWSWIRE ) -- Lakeside Holding Limited ( \"Lakeside\" or the \"Company\" ) LSH, a U.S.-based integrated cross-border supply chain solution provider with a strategic focus on the Asian market, today announced the closing of its previously announced initial public ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.972756"
+                }
+            ],
+            "overall_sentiment_score": 0.096587,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LSH",
+                    "relevance_score": "0.3115",
+                    "ticker_sentiment_score": "0.129777",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apollo Senior Floating Rate Fund Inc. and Apollo Tactical Income Fund Inc. Declare Pre-Merger Distributions",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907072/0/en/Apollo-Senior-Floating-Rate-Fund-Inc-and-Apollo-Tactical-Income-Fund-Inc-Declare-Pre-Merger-Distributions.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Apollo Tactical Income Fund"
+            ],
+            "summary": "NEW YORK, July 01, 2024 ( GLOBE NEWSWIRE ) -- Apollo Senior Floating Rate Fund Inc. ( NYSE: AFT ) and Apollo Tactical Income Fund Inc. ( NYSE: AIF ) today declared pre-merger distributions to their respective stockholders. The specific distribution dates and amounts are detailed below.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/849f27df-fe9a-4b5e-b1a5-6bfb4b767ef9",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.132909,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MFIC",
+                    "relevance_score": "0.59972",
+                    "ticker_sentiment_score": "0.162735",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ARMOUR Residential REIT, Inc. Confirms July 2024 Common Share and Series C Preferred Share Dividends - ARMOUR Residential REIT  ( NYSE:ARR ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583870/armour-residential-reit-inc-confirms-july-2024-common-share-and-series-c-preferred-share-dividends",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "VERO BEACH, Florida, July 01, 2024 ( GLOBE NEWSWIRE ) -- ARMOUR Residential REIT, Inc. ARR ( \"ARMOUR\" or the \"Company\" ) today confirmed the July 2024 cash dividend for the Company's Common Stock, consistent with the previous guidance which the Company released on June 24, 2024.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999491"
+                }
+            ],
+            "overall_sentiment_score": 0.217594,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ARR",
+                    "relevance_score": "0.295867",
+                    "ticker_sentiment_score": "0.1562",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "FinWise Bancorp to Host Second Quarter 2024 Webcast and Conference Call on Thursday, July 25, 2024",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907069/0/en/FinWise-Bancorp-to-Host-Second-Quarter-2024-Webcast-and-Conference-Call-on-Thursday-July-25-2024.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "FinWise Bank"
+            ],
+            "summary": "MURRAY, Utah, July 01, 2024 ( GLOBE NEWSWIRE ) -- FinWise Bancorp ( NASDAQ: FINW ) ( \"FinWise\" or the \"Company\" ) , the parent company of FinWise Bank, today announced that it will report its second quarter 2024 results and host a webcast and conference call after the market close on Thursday, ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/dd6c4cf8-aa16-492d-a8b9-17b0c966a339",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.187974,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "APG",
+                    "relevance_score": "0.132368",
+                    "ticker_sentiment_score": "0.107761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FINW",
+                    "relevance_score": "0.382925",
+                    "ticker_sentiment_score": "0.123887",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "FinWise Bancorp to Host Second Quarter 2024 Webcast and Conference Call on Thursday, July 25, 2024 - FinWise  ( NASDAQ:FINW ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583871/finwise-bancorp-to-host-second-quarter-2024-webcast-and-conference-call-on-thursday-july-25-2024",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "MURRAY, Utah, July 01, 2024 ( GLOBE NEWSWIRE ) -- FinWise Bancorp FINW ( \"FinWise\" or the \"Company\" ) , the parent company of FinWise Bank, today announced that it will report its second quarter 2024 results and host a webcast and conference call after the market close on Thursday, July 25, 2024.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.206499,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "APG",
+                    "relevance_score": "0.11983",
+                    "ticker_sentiment_score": "0.102934",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FINW",
+                    "relevance_score": "0.348919",
+                    "ticker_sentiment_score": "0.108356",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "U.S. Energy Corp. Announces Transformative Acquisition Targeting Helium Production",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907068/10245/en/U-S-Energy-Corp-Announces-Transformative-Acquisition-Targeting-Helium-Production.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "U.S. Energy Corp."
+            ],
+            "summary": "HOUSTON, July 01, 2024 ( GLOBE NEWSWIRE ) -- U.S. Energy Corporation ( NASDAQ: USEG, \"U.S. Energy\" or the \"Company\" ) today announced that the Company has closed a transaction ( the \"Agreement\" ) with Wavetech Helium Inc ( \"Wavetech\" or \"WT\" ) for the acquisition of operated acreage targeting ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/a647fa18-0229-43ce-91e5-6fdb9c705249/image2.png",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.818451"
+                }
+            ],
+            "overall_sentiment_score": 0.291635,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DSSMY",
+                    "relevance_score": "0.053992",
+                    "ticker_sentiment_score": "0.149998",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HECOF",
+                    "relevance_score": "0.03601",
+                    "ticker_sentiment_score": "0.145814",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Goodness Growth Holdings Announces Name Change to Vireo Growth Inc.",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907071/0/en/Goodness-Growth-Holdings-Announces-Name-Change-to-Vireo-Growth-Inc.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Goodness Growth Holdings"
+            ],
+            "summary": "- Subordinate voting shares expected to begin trading under new ticker symbols on July ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/b350a17c-6078-4df4-bf15-503d2f95e227",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.361351,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Uniti Group Inc. To Report Second Quarter 2024 Financial Results and Host Conference Call",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907075/35697/en/Uniti-Group-Inc-To-Report-Second-Quarter-2024-Financial-Results-and-Host-Conference-Call.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Uniti Group Inc."
+            ],
+            "summary": "LITTLE ROCK, Ark., July 01, 2024 ( GLOBE NEWSWIRE ) -- Uniti Group Inc. ( \"Uniti\" ) ( Nasdaq: UNIT ) announced today that it will report its second quarter 2024 financial results prior to the opening of trading on the Nasdaq Stock Exchange on August 1, 2024.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/b065ce09-4401-49b3-a72d-688f19428158",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.214271,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UNIT",
+                    "relevance_score": "0.910514",
+                    "ticker_sentiment_score": "0.299533",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "J & J SNACK FOODS SCHEDULES FISCAL 2024 THIRD QUARTER EARNINGS CONFERENCE CALL AND WEBCAST",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907064/18519/en/J-J-SNACK-FOODS-SCHEDULES-FISCAL-2024-THIRD-QUARTER-EARNINGS-CONFERENCE-CALL-AND-WEBCAST.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "J & J Snack Foods Corp."
+            ],
+            "summary": "Mount Laurel, N.J., July 01, 2024 ( GLOBE NEWSWIRE ) -- J & J Snack Foods Corp. ( NASDAQ: JJSF ) announced today that it has scheduled a conference call and webcast to discuss its fiscal 2024 third quarter financial results on Tuesday, August 6, 2024, at 10:00 am Eastern time.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/117cac1f-056c-4a86-b56f-b537230a9850",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.112264,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.123526",
+                    "ticker_sentiment_score": "0.070683",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "JJSF",
+                    "relevance_score": "0.359014",
+                    "ticker_sentiment_score": "0.113243",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "UMH PROPERTIES, INC. DECLARES COMMON AND PREFERRED DIVIDENDS",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907073/0/en/UMH-PROPERTIES-INC-DECLARES-COMMON-AND-PREFERRED-DIVIDENDS.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "UMH Properties",
+                "Inc."
+            ],
+            "summary": "FREEHOLD, NJ, July 01, 2024 ( GLOBE NEWSWIRE ) -- On July 1, 2024, the Board of Directors of UMH Properties, Inc. ( NYSE:UMH ) ( TASE:UMH ) declared its quarterly cash dividend on the Company's Common Stock of $0.215 per share payable September 16, 2024, to shareholders of record at the close of ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/932ef0a6-0dc9-4100-9e24-33b4670fd0b2",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.905476"
+                }
+            ],
+            "overall_sentiment_score": 0.217263,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UMH",
+                    "relevance_score": "0.539306",
+                    "ticker_sentiment_score": "0.231007",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apollo Senior Floating Rate Fund Inc. and Apollo Tactical Income Fund Inc. Declare Pre-Merger Distributions",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907074/0/en/Apollo-Senior-Floating-Rate-Fund-Inc-and-Apollo-Tactical-Income-Fund-Inc-Declare-Pre-Merger-Distributions.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Apollo Senior Floating Rate Fund"
+            ],
+            "summary": "NEW YORK, July 01, 2024 ( GLOBE NEWSWIRE ) -- Apollo Senior Floating Rate Fund Inc. ( NYSE: AFT ) and Apollo Tactical Income Fund Inc. ( NYSE: AIF ) today declared pre-merger distributions to their respective stockholders. The specific distribution dates and amounts are detailed below.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/07242e96-0503-4ba2-b624-3c07d3ccb814",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.132909,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MFIC",
+                    "relevance_score": "0.59972",
+                    "ticker_sentiment_score": "0.162735",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "CubeSmart Announces the Date of Its Second Quarter 2024 Earnings Release and Conference Call",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907067/0/en/CubeSmart-Announces-the-Date-of-Its-Second-Quarter-2024-Earnings-Release-and-Conference-Call.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "CubeSmart"
+            ],
+            "summary": "MALVERN, Pa., July 01, 2024 ( GLOBE NEWSWIRE ) -- CubeSmart ( NYSE: CUBE ) today announced that the Company will release financial results for the three-month period ended June 30, 2024 after the market close on Thursday, August 1, 2024. An accompanying conference call will be held at 11:00 a.m.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/b4a5ab1c-e832-4a24-9061-363fb0731dd0",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.349758,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CUBE",
+                    "relevance_score": "0.76367",
+                    "ticker_sentiment_score": "0.287374",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "LAKESIDE HOLDING LIMITED ANNOUNCES CLOSING OF UPSIZED $6.75 MILLION INITIAL PUBLIC OFFERING",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907070/0/en/LAKESIDE-HOLDING-LIMITED-ANNOUNCES-CLOSING-OF-UPSIZED-6-75-MILLION-INITIAL-PUBLIC-OFFERING.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Lakeside Holding Ltd."
+            ],
+            "summary": "Itasca, IL, July 01, 2024 ( GLOBE NEWSWIRE ) -- Lakeside Holding Limited ( \"Lakeside\" or the \"Company\" ) ( Nasdaq: LSH ) , a U.S.-based integrated cross-border supply chain solution provider with a strategic focus on the Asian market, today announced the closing of its previously announced ...",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.94762"
+                }
+            ],
+            "overall_sentiment_score": 0.082508,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LSH",
+                    "relevance_score": "0.333257",
+                    "ticker_sentiment_score": "0.148484",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apollo Senior Floating Rate Fund Inc. and Apollo Tactical Income Fund Inc. Declare Pre-Merger Distributions - Apollo Tactical Income  ( NYSE:AIF ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583876/apollo-senior-floating-rate-fund-inc-and-apollo-tactical-income-fund-inc-declare-pre-merger-distri",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, July 01, 2024 ( GLOBE NEWSWIRE ) -- Apollo Senior Floating Rate Fund Inc. AFT and Apollo Tactical Income Fund Inc. AIF today declared pre-merger distributions to their respective stockholders. The specific distribution dates and amounts are detailed below.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.2594,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "APOS",
+                    "relevance_score": "0.112532",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MFIC",
+                    "relevance_score": "0.328819",
+                    "ticker_sentiment_score": "0.252502",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ARMOUR Residential REIT, Inc. Confirms July 2024 Common Share and Series C Preferred Share Dividends",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907065/12288/en/ARMOUR-Residential-REIT-Inc-Confirms-July-2024-Common-Share-and-Series-C-Preferred-Share-Dividends.html",
+            "time_published": "20240701T201500",
+            "authors": [
+                "ARMOUR Residential REIT",
+                "Inc."
+            ],
+            "summary": "VERO BEACH, Florida, July 01, 2024 ( GLOBE NEWSWIRE ) -- ARMOUR Residential REIT, Inc. ( NYSE: ARR and ARR-PRC ) ( \"ARMOUR\" or the \"Company\" ) today confirmed the July 2024 cash dividend for the Company's Common Stock, consistent with the previous guidance which the Company released on June 24, ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d49bb2ff-61f7-4f65-b3de-fba67c4cfb2a",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.976913"
+                }
+            ],
+            "overall_sentiment_score": 0.199213,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ARR",
+                    "relevance_score": "0.33514",
+                    "ticker_sentiment_score": "0.183655",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apollo Senior Floating Rate Fund Inc. and Apollo Tactical Income Fund Inc. Declare Pre-Merger Distributions - Apollo Senior Floating  ( NYSE:AFT ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583865/apollo-senior-floating-rate-fund-inc-and-apollo-tactical-income-fund-inc-declare-pre-merger-distri",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, July 01, 2024 ( GLOBE NEWSWIRE ) -- Apollo Senior Floating Rate Fund Inc. AFT and Apollo Tactical Income Fund Inc. AIF today declared pre-merger distributions to their respective stockholders. The specific distribution dates and amounts are detailed below.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Mergers",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.2594,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "APOS",
+                    "relevance_score": "0.112532",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MFIC",
+                    "relevance_score": "0.328819",
+                    "ticker_sentiment_score": "0.252502",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "U.S. Energy Corp. Announces Transformative Acquisition Targeting Helium Production - US Energy  ( NASDAQ:USEG ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583873/u-s-energy-corp-announces-transformative-acquisition-targeting-helium-production",
+            "time_published": "20240701T201500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "HOUSTON, July 01, 2024 ( GLOBE NEWSWIRE ) -- U.S. Energy Corporation USEG \"U.S.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/a647fa18-0229-43ce-91e5-6fdb9c705249/image2.png",
+            "source": "Benzinga",
+            "category_within_source": "Mergers",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.988915"
+                }
+            ],
+            "overall_sentiment_score": 0.289705,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DSSMY",
+                    "relevance_score": "0.052037",
+                    "ticker_sentiment_score": "0.149938",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HECOF",
+                    "relevance_score": "0.034705",
+                    "ticker_sentiment_score": "0.145306",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Sun Communities, Inc. Announces Dates for Second Quarter 2024 Earnings Release and Conference Call - Sun Communities  ( NYSE:SUI ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583754/sun-communities-inc-announces-dates-for-second-quarter-2024-earnings-release-and-conference-call",
+            "time_published": "20240701T201258",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Southfield, MI, July 01, 2024 ( GLOBE NEWSWIRE ) -- Sun Communities, Inc.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.242876,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SUI",
+                    "relevance_score": "0.539306",
+                    "ticker_sentiment_score": "0.33689",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Sun Communities, Inc. Announces Dates for Second Quarter 2024 Earnings Release and Conference Call",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907062/0/en/Sun-Communities-Inc-Announces-Dates-for-Second-Quarter-2024-Earnings-Release-and-Conference-Call.html",
+            "time_published": "20240701T201200",
+            "authors": [
+                "Sun Communities",
+                "Inc."
+            ],
+            "summary": "Southfield, MI, July 01, 2024 ( GLOBE NEWSWIRE ) -- Sun Communities, Inc. ( NYSE: SUI ) ( the \"Company\" ) , a real estate investment trust ( \"REIT\" ) that owns and operates, or has an interest in, manufactured housing and recreational vehicle communities and marinas ( collectively, the ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/456251cc-3a75-4d99-8712-5377f1787246",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.261649,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SUI",
+                    "relevance_score": "0.688096",
+                    "ticker_sentiment_score": "0.404124",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Stock Market Today: Stocks Close Higher Ahead of Powell Speech",
+            "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-stocks-close-higher-ahead-of-powell-speech",
+            "time_published": "20240701T201122",
+            "authors": [
+                "Karee Venema"
+            ],
+            "summary": "Stocks started a historically strong month on a positive note as investors looked ahead to several key events scheduled for the holiday-shortened week. As a reminder, the stock and bond markets will close early Wednesday and stay shuttered Thursday for the Fourth of July holiday.",
+            "banner_image": "https://cdn.mos.cms.futurecdn.net/hwgJ7osrMtUWhk5koeVme7-320-80.png",
+            "source": "Kiplinger",
+            "category_within_source": "n/a",
+            "source_domain": "www.kiplinger.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.257697,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BLK",
+                    "relevance_score": "0.193723",
+                    "ticker_sentiment_score": "0.029088",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "0.148104",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "0.148104",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "0.169401",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SPR",
+                    "relevance_score": "0.193723",
+                    "ticker_sentiment_score": "0.175024",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NIO",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CMA",
+                    "relevance_score": "0.06515",
+                    "ticker_sentiment_score": "-0.102128",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "0.148104",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BA",
+                    "relevance_score": "0.317254",
+                    "ticker_sentiment_score": "0.306393",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "EXCLUSIVE: Tesla Delivery Prediction Expert Expects Lower Numbers Than Analysts, Says China 'Not Exactly A Recovery' - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/07/39583595/exclusive-tesla-delivery-prediction-expert-expects-lower-deliveries-than-analysts-s",
+            "time_published": "20240701T200816",
+            "authors": [
+                "Chris Katje"
+            ],
+            "summary": "Electric vehicle leader Tesla Inc TSLA is expected to report second-quarter deliveries this week, with estimates seeing a decline on a year-over-year basis from the prior fiscal year. Analysts and Tesla experts are sharing their estimates ahead of the highly anticipated report.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2024/07/01/tesla-china-ai.png?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.019195,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.044386",
+                    "ticker_sentiment_score": "0.092598",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AWON",
+                    "relevance_score": "0.044386",
+                    "ticker_sentiment_score": "0.127933",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.852138",
+                    "ticker_sentiment_score": "0.061753",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.044386",
+                    "ticker_sentiment_score": "-0.251746",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Seacoast Banking Corporation of Florida to Announce Second Quarter Earnings Results July 25, 2024 - Seacoast Banking  ( NASDAQ:SBCF ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583543/seacoast-banking-corporation-of-florida-to-announce-second-quarter-earnings-results-july-25-2024",
+            "time_published": "20240701T200630",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "STUART, Fla., July 01, 2024 ( GLOBE NEWSWIRE ) -- Seacoast Banking Corporation of Florida SBCF, a bank holding company whose operating entity is Seacoast Bank, today announced it will release second quarter 2024 results on July 25th, after the market closes.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.181953,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SBCF",
+                    "relevance_score": "0.570165",
+                    "ticker_sentiment_score": "0.225397",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Seacoast Banking Corporation of Florida to Announce Second Quarter Earnings Results July 25, 2024",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907061/0/en/Seacoast-Banking-Corporation-of-Florida-to-Announce-Second-Quarter-Earnings-Results-July-25-2024.html",
+            "time_published": "20240701T200600",
+            "authors": [
+                "Seacoast Banking Corporation of Florida"
+            ],
+            "summary": "Investors May Listen to Live Webcast Investors May Listen to Live ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/916ac304-654b-498a-851d-f52d3ce65a03",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.156267,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SBCF",
+                    "relevance_score": "0.546745",
+                    "ticker_sentiment_score": "0.239055",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "AllianceBernstein Global High Income Fund, Inc. RELEASES MONTHLY PORTFOLIO UPDATE - Alliancebernstein Glb  ( NYSE:AWF ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/n39583519/alliancebernstein-global-high-income-fund-inc-releases-monthly-portfolio-update",
+            "time_published": "20240701T200600",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "NEW YORK, July 1, 2024 /PRNewswire/ -- AllianceBernstein Global High Income Fund, Inc. [NYSE: AWF] ( the \"Fund\" ) today released its monthly portfolio update as of May 31, 2024. 2 ) CCO Holdings 4.50%, 08/15/30 - 06/01/33 3 ) Dominican Republic Intl Bond 8.625%, 04/20/27",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.202977,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AB",
+                    "relevance_score": "0.554365",
+                    "ticker_sentiment_score": "0.44689",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "RCL",
+                    "relevance_score": "0.200688",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Phillips Edison & Company Announces Appointment of Devin Murphy to Board of Directors - Phillips Edison  ( NASDAQ:PECO ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583491/phillips-edison-company-announces-appointment-of-devin-murphy-to-board-of-directors",
+            "time_published": "20240701T200549",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "CINCINNATI, July 01, 2024 ( GLOBE NEWSWIRE ) -- Phillips Edison & Company, Inc.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.203786,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.046363",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CXW",
+                    "relevance_score": "0.138464",
+                    "ticker_sentiment_score": "0.036923",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AIV",
+                    "relevance_score": "0.092569",
+                    "ticker_sentiment_score": "0.031518",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.183895",
+                    "ticker_sentiment_score": "0.011952",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Star Equity Holdings Announces Board Changes - Star Equity Hldgs  ( NASDAQ:STRR ) , Star Equity Hldgs  ( NASDAQ:STRRP ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583483/star-equity-holdings-announces-board-changes",
+            "time_published": "20240701T200539",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "OLD GREENWICH, Conn., July 01, 2024 ( GLOBE NEWSWIRE ) -- Star Equity Holdings, Inc. STRR STRRP ) ) ) ( \"Star\" or the \"Company\" ) , a diversified holding company, announced today changes in the composition of its board of directors ( the \"Board\" ) to better reflect the current businesses owned by ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.142956,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HCSG",
+                    "relevance_score": "0.021237",
+                    "ticker_sentiment_score": "0.001873",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STRR",
+                    "relevance_score": "0.06365",
+                    "ticker_sentiment_score": "0.090117",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RJF",
+                    "relevance_score": "0.021237",
+                    "ticker_sentiment_score": "0.100526",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RLBY",
+                    "relevance_score": "0.021237",
+                    "ticker_sentiment_score": "0.100526",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Matrix Service Company Set to Join Russell 3000® Index",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907041/19499/en/Matrix-Service-Company-Set-to-Join-Russell-3000-Index.html",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Matrix Service Company"
+            ],
+            "summary": "TULSA, Okla., July 01, 2024 ( GLOBE NEWSWIRE ) -- Matrix Service Company ( NASDAQ: MTRX ) ( \"Matrix Service Company,\" \"Matrix\", or \"the Company\" ) , a leading engineering and construction contractor to the energy and industrial markets, today announced its addition to the Russell 3000® Index, ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/a0086981-2353-4a4c-9923-614a3a33a637",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.992549"
+                }
+            ],
+            "overall_sentiment_score": 0.284971,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MTRX",
+                    "relevance_score": "0.332403",
+                    "ticker_sentiment_score": "0.381182",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Versus Systems Announces Strategic Restructuring, New Interim CEO, and Key Investor Engagement - Versus Systems  ( NASDAQ:VS ) , Versus Systems  ( NASDAQ:VSSYW ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583429/versus-systems-announces-strategic-restructuring-new-interim-ceo-and-key-investor-engagement",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "VANCOUVER, British Columbia, July 01, 2024 ( GLOBE NEWSWIRE ) -- Versus Systems, Inc. VS, a pioneering technology company in interactive entertainment, is pleased to announce the appointment of a new Interim Chief Executive Officer.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.384617,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VS",
+                    "relevance_score": "0.612033",
+                    "ticker_sentiment_score": "0.603102",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "PTEFF",
+                    "relevance_score": "0.085936",
+                    "ticker_sentiment_score": "0.164819",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Codexis Finalizes Purchase Agreement with Crosswalk Therapeutics for Gene Therapy Assets",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907044/24825/en/Codexis-Finalizes-Purchase-Agreement-with-Crosswalk-Therapeutics-for-Gene-Therapy-Assets.html",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Codexis",
+                "Inc."
+            ],
+            "summary": "REDWOOD CITY, Calif., July 01, 2024 ( GLOBE NEWSWIRE ) -- Codexis, Inc. ( NASDAQ: CDXS ) , a leading enzyme engineering company, today announced it has entered into an asset purchase agreement with Crosswalk Therapeutics for the Company's investigational Fabry and Pompe disease compounds.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/ebbfa755-c2db-4783-aace-43c700ba3369",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.614606"
+                }
+            ],
+            "overall_sentiment_score": 0.192763,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CDXS",
+                    "relevance_score": "0.896558",
+                    "ticker_sentiment_score": "0.331139",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Adeia Enters into Multi-Year IP License Agreement with X Corp.",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907043/0/en/Adeia-Enters-into-Multi-Year-IP-License-Agreement-with-X-Corp.html",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Adeia Holdings Inc."
+            ],
+            "summary": "SAN JOSE, Calif., July 01, 2024 ( GLOBE NEWSWIRE ) -- Adeia Inc. ( Nasdaq: ADEA ) , the company whose patented innovations enhance billions of devices and shape the way the world explores and experiences entertainment, has entered into a multi-year license agreement with X Corp., the owner of ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/e975336c-f745-4a6b-917f-d485714ba932",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [],
+            "overall_sentiment_score": 0.538564,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ADEA",
+                    "relevance_score": "0.585687",
+                    "ticker_sentiment_score": "0.726195",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Financial Institutions, Inc. Schedules Second Quarter 2024 Earnings Release and Conference Call",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907042/9870/en/Financial-Institutions-Inc-Schedules-Second-Quarter-2024-Earnings-Release-and-Conference-Call.html",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Financial Institutions",
+                "Inc."
+            ],
+            "summary": "WARSAW, N.Y., July 01, 2024 ( GLOBE NEWSWIRE ) -- Financial Institutions, Inc. ( NASDAQ: FISI ) ( the \"Company\" ) , the parent company of Five Star Bank and Courier Capital, LLC, will release results for the second quarter ending June 30, 2024 after the market closes on July 25, 2024.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/f076cfbe-37ba-4db2-9f42-ce96491ef00f",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.138652,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FISI",
+                    "relevance_score": "0.673107",
+                    "ticker_sentiment_score": "0.16098",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Star Equity Holdings Announces Board Changes",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907058/11704/en/Star-Equity-Holdings-Announces-Board-Changes.html",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Star Equity Holdings",
+                "Inc."
+            ],
+            "summary": "Appoints Three New Independent Directors Appoints Three New Independent Directors ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/3599cc5f-a13a-444e-a506-7126733e4a9a",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.13835,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HCSG",
+                    "relevance_score": "0.02164",
+                    "ticker_sentiment_score": "0.00188",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STRR",
+                    "relevance_score": "0.064856",
+                    "ticker_sentiment_score": "0.097204",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RJF",
+                    "relevance_score": "0.02164",
+                    "ticker_sentiment_score": "0.100768",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RLBY",
+                    "relevance_score": "0.02164",
+                    "ticker_sentiment_score": "0.100768",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Meta to Announce Second Quarter 2024 Results - Meta Platforms  ( NASDAQ:META ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/n39583451/meta-to-announce-second-quarter-2024-results",
+            "time_published": "20240701T200500",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "MENLO PARK, Calif., July 1, 2024 /PRNewswire/ -- Meta Platforms, Inc. META announced today that the company's second quarter 2024 financial results will be released after market close on Wednesday, July 31, 2024. Meta will host a conference call to discuss its results at 2:00 p.m. PT / 5:00 p.m.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.152339,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.532941",
+                    "ticker_sentiment_score": "0.19834",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Y-mAbs Appoints Seasoned Biopharma Executive Peter Pfreundschuh as Chief Financial Officer - Y-mAbs Therapeutics  ( NASDAQ:YMAB ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583428/y-mabs-appoints-seasoned-biopharma-executive-peter-pfreundschuh-as-chief-financial-officer",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, July 01, 2024 ( GLOBE NEWSWIRE ) -- Y-mAbs Therapeutics, Inc. ( the \"Company\" or \"Y-mAbs\" ) YMAB, a commercial-stage biopharmaceutical company focused on the development and commercialization of novel radioimmunotherapy and antibody-based therapeutic products for the treatment of ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.22327,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FREQ",
+                    "relevance_score": "0.064104",
+                    "ticker_sentiment_score": "0.013003",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "URGN",
+                    "relevance_score": "0.064104",
+                    "ticker_sentiment_score": "0.013003",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "YMAB",
+                    "relevance_score": "0.190667",
+                    "ticker_sentiment_score": "0.066376",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AZN",
+                    "relevance_score": "0.064104",
+                    "ticker_sentiment_score": "0.013003",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "VYGR",
+                    "relevance_score": "0.064104",
+                    "ticker_sentiment_score": "0.013003",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "JNJ",
+                    "relevance_score": "0.064104",
+                    "ticker_sentiment_score": "0.013003",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Matrix Service Company Set to Join Russell 3000® Index - Matrix Service  ( NASDAQ:MTRX ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583468/matrix-service-company-set-to-join-russell-3000-index",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "TULSA, Okla., July 01, 2024 ( GLOBE NEWSWIRE ) -- Matrix Service Company MTRX ( \"Matrix Service Company,\" \"Matrix\", or \"the Company\" ) , a leading engineering and construction contractor to the energy and industrial markets, today announced its addition to the Russell 3000® Index, effective ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999355"
+                }
+            ],
+            "overall_sentiment_score": 0.285059,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MTRX",
+                    "relevance_score": "0.349945",
+                    "ticker_sentiment_score": "0.375724",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "LDNXF",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Phillips Edison & Company Announces Appointment of Devin Murphy to Board of Directors",
+            "url": "https://www.globenewswire.com/news-release/2024/07/01/2907060/0/en/Phillips-Edison-Company-Announces-Appointment-of-Devin-Murphy-to-Board-of-Directors.html",
+            "time_published": "20240701T200500",
+            "authors": [
+                "Phillips Edison & Company",
+                "Inc."
+            ],
+            "summary": "CINCINNATI, July 01, 2024 ( GLOBE NEWSWIRE ) -- Phillips Edison & Company, Inc. ( Nasdaq: PECO ) ( \"PECO\" or the \"Company\" ) , one of the nation's largest owners and operators of grocery-anchored neighborhood shopping centers, today announced that on June 25, 2024, its Board of Directors ( the ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/4774c085-bff2-4653-9ecc-dde27a3090ae",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.977154"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.152063,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.040416",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CXW",
+                    "relevance_score": "0.120834",
+                    "ticker_sentiment_score": "0.035673",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AIV",
+                    "relevance_score": "0.080728",
+                    "ticker_sentiment_score": "0.031729",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.160633",
+                    "ticker_sentiment_score": "0.010871",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Rapid7 Agrees to Acquire Cyber Asset Attack Surface Management Company, Noetic Cyber, to Give Customers More Comprehensive Visibility of Their Attack Surface - Rapid7  ( NASDAQ:RPD ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583301/rapid7-agrees-to-acquire-cyber-asset-attack-surface-management-company-noetic-cyber-to-give-custom",
+            "time_published": "20240701T200100",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "BOSTON, July 01, 2024 ( GLOBE NEWSWIRE ) -- Rapid7, Inc. RPD, a leader in extended risk and threat detection, today announced it has signed a definitive agreement to acquire Noetic Cyber, an innovator and a leader in cyber asset attack surface management ( CAASM ) .",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Mergers",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.092207,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IT",
+                    "relevance_score": "0.034039",
+                    "ticker_sentiment_score": "-0.027815",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RPD",
+                    "relevance_score": "0.361228",
+                    "ticker_sentiment_score": "0.168382",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Experts say latest SCOTUS opinions will limit SEC power over crypto",
+            "url": "https://cointelegraph.com/news/scotus-sec-opinions-enforcement-crypto",
+            "time_published": "20240701T200058",
+            "authors": [
+                "Turner Wright"
+            ],
+            "summary": "The conservative members of the U.S. Supreme Court sided with two majority opinions that could have lasting implications for federal agencies to enforce laws.",
+            "banner_image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2024-07/009821a7-3bd2-4fc1-98bb-153e1a8e25fb.jpg",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.085001,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "If You Invested $1000 In This Stock 10 Years Ago, You Would Have $5,200 Today - AutoZone  ( NYSE:AZO ) ",
+            "url": "https://www.benzinga.com/insights/news/24/07/39583271/if-you-invested-1000-in-this-stock-10-years-ago-you-would-have-5-200-today",
+            "time_published": "20240701T200028",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "AutoZone AZO has outperformed the market over the past 10 years by 7.35% on an annualized basis producing an average annual return of 18.1%. Currently, AutoZone has a market capitalization of $48.25 billion.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2023/valuestock_image_4.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.238974,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AZO",
+                    "relevance_score": "0.95919",
+                    "ticker_sentiment_score": "0.384695",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "RAJANT SPONSORS EASTERN KENTUCKY'S 10TH ANNIVERSARY SOAR SUMMIT 2024",
+            "url": "https://www.benzinga.com/pressreleases/24/07/g39583249/rajant-sponsors-eastern-kentuckys-10th-anniversary-soar-summit-2024",
+            "time_published": "20240701T200000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Morehead, Kentucky ( USA ) , July 01, 2024 ( GLOBE NEWSWIRE ) -- Rajant Corporation, the pioneer of Kinetic Mesh® wireless networks, is the proud Video Sponsor for the 10thanniversary of the Shaping Our Appalachian Region ( SOAR ) Summit 2024.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.277134,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.072655",
+                    "ticker_sentiment_score": "0.116071",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Cineverse Reports Fourth Quarter and Fiscal Year 2024 Results - Cineverse  ( NASDAQ:CNVS ) ",
+            "url": "https://www.benzinga.com/pressreleases/24/07/n39583259/cineverse-reports-fourth-quarter-and-fiscal-year-2024-results",
+            "time_published": "20240701T200000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "LOS ANGELES, July 1, 2024 /PRNewswire/ -- Cineverse Corp. ( \"Cineverse\" or the \"Company\" ) CNVS, a global streaming technology and entertainment company, today announced its financial results for the quarter and fiscal year ended March 31, 2024 ( \"FY 2024\" ) .",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999999"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.263999,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.014738",
+                    "ticker_sentiment_score": "-0.013691",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ROKU",
+                    "relevance_score": "0.014738",
+                    "ticker_sentiment_score": "0.06837",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "KNAMF",
+                    "relevance_score": "0.014738",
+                    "ticker_sentiment_score": "0.045796",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PARA",
+                    "relevance_score": "0.014738",
+                    "ticker_sentiment_score": "0.11342",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CNVS",
+                    "relevance_score": "0.274401",
+                    "ticker_sentiment_score": "0.208883",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GPRO",
+                    "relevance_score": "0.014738",
+                    "ticker_sentiment_score": "0.139979",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BZFD",
+                    "relevance_score": "0.014738",
+                    "ticker_sentiment_score": "0.09193",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Opinion: Why Trump shouldn't celebrate the immunity ruling just yet",
+            "url": "https://www.cnn.com/2024/07/01/opinions/trump-immunity-ruling-evidentiary-hearing-eisen-perry-kolb/index.html",
+            "time_published": "20240701T195800",
+            "authors": [],
+            "summary": "Editor's Note: Norman Eisen is a CNN legal analyst and editor of \"Trying Trump: A Guide to His First Election Interference Criminal Trial.\" He served as counsel to the House Judiciary Committee for the first impeachment and trial of then-President Donald Trump. is the founding partner at Perry ...",
+            "banner_image": "https://media.cnn.com/api/v1/images/stellar/prod/sotomayor-s-exlarge16x9.jpg?c=16x9&q=w_1280,c_fill",
+            "source": "CNN",
+            "category_within_source": "Markets",
+            "source_domain": "www.cnn.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.007352,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DSSMY",
+                    "relevance_score": "0.064856",
+                    "ticker_sentiment_score": "0.032441",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.02164",
+                    "ticker_sentiment_score": "0.151521",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Warren Buffett changes his will: Know what will happen to his Rs 10+ lakh crore net worth after he dies",
+            "url": "https://www.financialexpress.com/life/lifestyle-warren-buffett-changes-his-will-know-what-will-happen-to-his-rs-10-lakh-crore-net-worth-after-he-dies-3540854/",
+            "time_published": "20240701T195218",
+            "authors": [
+                "FE Lifestyle"
+            ],
+            "summary": "Warren Buffett, the legendary Chairman of Berkshire Hathaway, has once again revised his will. With a staggering net worth of $128.4 billion ( Rs 10,71,408 crore ) , Buffett discussed his new posthumous financial plans with the Wall Street Journal, which includes halting his generous ...",
+            "banner_image": "https://www.financialexpress.com/wp-content/uploads/2024/07/warren-buffett.jpg",
+            "source": "The Financial Express",
+            "category_within_source": "n/a",
+            "source_domain": "www.financialexpress.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.477632,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.227716",
+                    "ticker_sentiment_score": "0.420984",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        }
+    ]
+}
