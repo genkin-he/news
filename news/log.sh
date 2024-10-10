@@ -6,7 +6,7 @@ log_file="./news/log.md"
 current_hour=$(date +%H)
 current_minute=$(date +%M)
 
-# if [ $current_hour -eq 11 ] && [ $current_minute -ge 0 ] && [ $current_minute -le 9 ]; then
+if [ $current_hour -eq 11 ] && [ $current_minute -ge 0 ] && [ $current_minute -le 9 ]; then
     # 清空 log.md 文件，如果文件不存在则创建
     > $log_file
 
@@ -29,4 +29,4 @@ current_minute=$(date +%M)
             fi
         fi
     done
-# fi
+fi
