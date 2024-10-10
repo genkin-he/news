@@ -44,7 +44,7 @@ def run():
         body = response.read().decode("utf-8")
         posts = json.loads(body)["data"]
         for index in range(len(posts)):
-            if index < 3:
+            if index < 2:
                 post = posts[index]
                 id = post["id"]
                 title = post["attributes"]["title"]
