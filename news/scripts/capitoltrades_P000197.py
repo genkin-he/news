@@ -1,0 +1,78 @@
+# -*- coding: UTF-8 -*-
+
+import logging
+import urllib.request  # 发送请求
+import json
+import re
+from util.util import history_posts
+from bs4 import BeautifulSoup
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+}
+base_url = "https://www.capitoltrades.com/"
+filename = "./news/data/capitoltrades/P000197.json"
+
+
+def get_detail(link):
+    print("capitoltrades P000197: ", link)
+    request = urllib.request.Request(link, None, headers)
+    response = urllib.request.urlopen(request)
+    resp = response.read().decode("utf-8")
+    soup = BeautifulSoup(resp, 'lxml')
+    if "buzz" in link:
+        title = soup.select("header h1")[0].string
+        description = str(soup.select(".tweet-body_root__RNPsG")[0])
+    else:
+        title = soup.select("header h1")[0].string
+        description = str(soup.select(".prose")[0])
+    return [title, description]
+
+def run():
+    # 读取保存的文件
+    data = history_posts(filename)
+    articles = data["articles"]
+    links = data["links"]
+    insert = False
+
+    # request中放入参数，请求头信息
+    request = urllib.request.Request(
+        "https://www.capitoltrades.com/politicians/P000197", None, headers
+    )
+    # urlopen打开链接（发送请求获取响应）
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        body = response.read().decode("utf-8")
+        items = body.split("Related Reading")
+        if len(items) == 0:
+            return
+        body = items[1]
+        result = re.findall(r'.*?\\"href\\":\\"/(.*?)\\"*', body)
+        for index in range(len(result)):
+            if index < 3:
+                link = base_url + result[index]
+                if link in ",".join(links):
+                    print("capitoltrades P000197 exists link: ", link)
+                    break
+                detail = get_detail(link)
+                title = detail[0]
+                description = detail[1]
+                if description != "":
+                  insert = True
+                  articles.insert(
+                      0, {"title": title, "description": description, "link": link}
+                  )
+        if len(articles) > 0 and insert:
+            if len(articles) > 10:
+                articles = articles[:10]
+            with open(filename, "w") as f:
+                f.write(json.dumps({"data": articles}))
+    else:
+        print("capitoltrades P000197 request error: ", response)
+
+
+try:
+    run()
+except Exception as e:
+    print("capitoltrades P000197 exec error: ", repr(e))
+    logging.exception(e)
