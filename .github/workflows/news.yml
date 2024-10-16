@@ -27,7 +27,7 @@ jobs:
       - name: excute shell
         run: chmod +x ./news/scripts/*.sh && for f in ./news/scripts/*.sh ; do [ -x "$f" ] && [ ! -d "$f" ] && echo $f && "$f" ; done
       - name: after excute
-        run: chmod +x ./news/*.sh && for f in ./news/*.sh ; do [ -x "$f" ] && [ ! -d "$f" ] && echo $f && "$f" ; done
+        run: chmod +x ./news/*.py && for f in ./news/*.py ; do [ -x "$f" ] && [ ! -d "$f" ] && echo $f && python3 $f ; done
       - name: config git
         run: git config --global user.email "hemengzhi88@gmail.com"&&git config --global user.name "genkin-he"
       - name: submit
