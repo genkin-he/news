@@ -41,4 +41,5 @@ if 0 <= current_minute <= 9 and current_hour == 11:
                 if is_folder_older_than_one_day(folder_path):
                     f.write(f"【{folder_name}】最后修改时间: {get_folder_last_modified_time(folder_path)}\n")
 else:
-    print("Not in the execution time range. Skipping.")
+    # 打印中文说明并带上当前时间的小时和分钟部分
+    print(f"不在执行时间范围内。当前时间: {current_time.hour}时{current_time.minute}分")
