@@ -32,7 +32,7 @@ current_time = datetime.now()
 current_minute = current_time.minute
 current_hour = current_time.hour
 
-if 0 <= current_minute <= 9 and current_hour == 11:
+if 0 <= current_minute <= 9 and current_hour == 4:
     with open(log_file, "w") as f:
         f.write("文件夹最后修改时间 (超过一天)\n")
         for folder_name in os.listdir(directory):
