@@ -38,11 +38,11 @@ def log_old_folders():
     if 30 <= current_minute <= 39 and current_hour == 10:
         with open(log_file, "w") as f:
             # 写入标题和当前时间
-            f.write(f"文件夹最后修改时间 (超过一天) - {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"文件夹最后修改时间 (超过一天) - {current_time.strftime('%Y-%m-%d %H:%M:%S')}<br>")
             for folder_name in os.listdir(directory):
                 folder_path = os.path.join(directory, folder_name)
                 if os.path.isdir(folder_path) and is_folder_older_than_one_day(folder_path):
-                    f.write(f"【{folder_name}】最后修改时间: {get_folder_last_modified_time(folder_path)}\n")
+                    f.write(f"【{folder_name}】最后修改时间: {get_folder_last_modified_time(folder_path)}<br>")
     else:
         # 打印中文说明并带上当前时间的小时和分钟部分
         print(f"不在执行时间范围内。当前时间: {current_time.hour}时{current_time.minute}分")
