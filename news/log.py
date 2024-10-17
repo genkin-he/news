@@ -34,7 +34,8 @@ current_hour = current_time.hour
 
 if 0 <= current_minute <= 9 and current_hour == 4:
     with open(log_file, "w") as f:
-        f.write("文件夹最后修改时间 (超过一天)\n")
+        # 写入标题和当前时间
+        f.write(f"文件夹最后修改时间 (超过一天) - {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
         for folder_name in os.listdir(directory):
             folder_path = os.path.join(directory, folder_name)
             if os.path.isdir(folder_path):
