@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import logging
 import urllib.request  # 发送请求
 import json
@@ -17,63 +17,71 @@ filename = "./news/data/sina/list_us_stock.json"
 def get_detail(link):
     print("sina us link: ", link)
     request = urllib.request.Request(link, None, headers)
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        resp = response.read().decode("utf-8")
-        soup = BeautifulSoup(resp, 'lxml')
-        return str(soup.select(".article")[0])
-    else:
-        print("sina us request: {} error: ".format(link), response)
+    try:
+        response = urllib.request.urlopen(request)
+        if response.status == 200:
+            resp = response.read().decode("utf-8")
+            soup = BeautifulSoup(resp, 'lxml')
+            return str(soup.select(".article")[0])
+        else:
+            print("sina us request: {} error: ".format(link), response)
+            return ""
+    except Exception as e:
+        print("Error fetching details for link {}: {}".format(link, e))
         return ""
-    
+
+def fetch_posts():
+    request = urllib.request.Request(
+        "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2518&k=&num=10&page=1", None, headers
+    )
+    try:
+        response = urllib.request.urlopen(request)
+        if response.status == 200:
+            body = response.read().decode("utf-8")
+            return json.loads(body)["result"]["data"]
+        else:
+            print("sina us request error: ", response)
+            return []
+    except Exception as e:
+        print("Error fetching posts: {}".format(e))
+        return []
+
 def run():
     data = history_posts(filename)
     articles = data["articles"]
     links = data["links"]
     insert = False
-    
-    # request中放入参数，请求头信息
-    request = urllib.request.Request(
-        "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2518&k=&num=10&page=1", None, headers
-    )
-    # urlopen打开链接（发送请求获取响应）
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        body = response.read().decode("utf-8")
-        posts = json.loads(body)["result"]["data"]
-        for post in posts:
-            link = post["url"]
-            title = post["title"]
-            id = post["oid"]
-            summary = post["intro"]
-            author = post["author"]
-            if link in ",".join(links):
-                print("sina us exists link: ", link)
-                break
-            description = get_detail(link)
-            if description != "":
-                insert = True
-                articles.insert(
-                    0,
-                    {
-                        "id": id,
-                        "title": title,
-                        "description": description,
-                        "link": link,
-                        "summary": summary,
-                        "author": author,
-                        "pub_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                    },
-                )
-                    
-        if len(articles) > 0 and insert:
-            if len(articles) > 20:
-                articles = articles[:20]
-            with open(filename, "w") as f:
-                f.write(json.dumps({"data": articles}))
-    else:
-        print("sina us request error: ", response)
 
+    posts = fetch_posts()
+    for post in posts:
+        link = post["url"]
+        title = post["title"]
+        id = post["oid"]
+        summary = post["intro"]
+        author = post["author"]
+        if link in ",".join(links):
+            print("sina us exists link: ", link)
+            break
+        description = get_detail(link)
+        if description:
+            insert = True
+            articles.insert(
+                0,
+                {
+                    "id": id,
+                    "title": title,
+                    "description": description,
+                    "link": link,
+                    "summary": summary,
+                    "author": author,
+                    "pub_date": (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S")
+                },
+            )
+
+    if articles and insert:
+        articles = articles[:20]
+        with open(filename, "w") as f:
+            f.write(json.dumps({"data": articles}))
 
 try:
     run()

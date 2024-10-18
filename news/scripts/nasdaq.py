@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import logging
 import urllib.request  # 发送请求
 import json
@@ -92,7 +92,7 @@ def run():
                           "title": title,
                           "description": description,
                           "link": link,
-                          "pub_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                          "pub_date": (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
                       },
                   )
         if len(articles) > 0 and insert:
