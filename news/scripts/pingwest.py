@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import history_posts
+from util.util import current_time, history_posts
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -87,7 +87,7 @@ def run(link):
                         "title": title,
                         "description": description,
                         "link": link,
-                        "pub_date": (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
+                        "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
                     },
                 )
 

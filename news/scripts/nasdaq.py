@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts
+from util.util import current_time, history_posts
 from bs4 import BeautifulSoup
 import gzip
 
@@ -92,7 +92,7 @@ def run():
                           "title": title,
                           "description": description,
                           "link": link,
-                          "pub_date": (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
+                          "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
                       },
                   )
         if len(articles) > 0 and insert:

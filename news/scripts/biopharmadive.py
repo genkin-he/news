@@ -4,7 +4,7 @@ import urllib.request  # 发送请求
 from datetime import datetime, timezone, timedelta
 import json
 import re
-from util.util import history_posts, parse_time
+from util.util import history_posts, parse_time, current_time
 from bs4 import BeautifulSoup
 
 headers = {
@@ -92,7 +92,7 @@ def run(link):
                         "title": title,
                         "description": description,
                         "link": link,
-                        "pub_date": (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
+                        "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
                     },
                 )
 

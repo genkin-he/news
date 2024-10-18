@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
 path = "./news/scripts/util/urls.json"
 
@@ -44,3 +44,7 @@ def has_chinese(string):
             return True
  
     return False
+
+def current_time():
+    # 获取当前时间(北京时间)
+    return datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
