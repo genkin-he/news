@@ -1,0 +1,6 @@
+
+curl --globoff --request GET "https://www.theedgesingapore.com/latest-news-echobox.rss" --header \
+"User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" --header \
+"Cookie: _gcl_au=1.1.969995829.1720003356; _ga=GA1.1.729348812.1720003356; fb_event_id=5884090192; _hjSessionUser_2183084=eyJpZCI6ImI4ZWRjNWQxLTY4ZWItNTdlMS1hZWMxLTEyMDAzYWE3ZmM3NyIsImNyZWF0ZWQiOjE3MjAwMDMzNTc1NzcsImV4aXN0aW5nIjpmYWxzZX0=; _hjSession_2183084=eyJpZCI6IjM2YmMwOTdiLTlkYzQtNGJjOS04YWNmLTVlYTU5Mzk2MDYxMCIsImMiOjE3MjAwMDMzNTc1NzgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxfQ==; cf_clearance=4rLxB7hu4cL_JkHQXHsbDT_5PmAdRWuvUDLIbpQX0Ys-1720003357-1.0.1.1-e.AhZ05RLyCQLeTr_Xm1q9Eiwf0KUagWd57QMzrkw6YBw.bhbGgAa.0FpFeGmKrRQqbl1IxCIeFxjtFFYaddrQ; prism_610460166=5aeda909-da54-414e-b655-dcd579ffcab1; SESSb8918c06e3a0cd68e7681b1bdad6d33f=G6CrAOadxoVBYPpTYHp_EEeAzXNfzLZVEe4Ls9o6xMM; _ga_HW9YHNHZKP=GS1.1.1720003356.1.0.1720003370.46.0.0; _ga_ZE4T0DWL53=GS1.1.1720003367.1.0.1720003370.0.0.0" -o \
+./news/data/theedgesingapore.xml
+# 无法采集，有 cloudflare
