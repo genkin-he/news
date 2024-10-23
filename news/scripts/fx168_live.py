@@ -14,19 +14,20 @@ headers = {
     "cache-control": "no-cache",
     "pragma": "no-cache",
     "priority": "u=1, i",
-    "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+    "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
     "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "cross-site",
     "site-channel": "001",
     "Referer": "https://www.fx168news.com/",
     "Referrer-Policy": "strict-origin-when-cross-origin",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
 }
 base_url = "https://www.fx168news.com/"
 filename = "./news/data/fx168/live.json"
+
 
 def run():
     # 读取保存的文件
@@ -63,7 +64,7 @@ def run():
                         {
                             "title": description,
                             "id": id,
-                            "description": description,
+                            "description": "",
                             "link": link,
                             "pub_date": pub_date,
                         },
