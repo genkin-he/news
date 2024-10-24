@@ -72,7 +72,7 @@ def run(link):
         soup = BeautifulSoup(response["data"]["list"], "lxml")
         items = soup.select("article")
         for index in range(len(items)):
-            if index > 10:
+            if index > 1:
                 break
             title_element = items[index].select_one(".title > a")
             if not title_element:
