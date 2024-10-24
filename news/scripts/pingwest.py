@@ -41,7 +41,7 @@ def get_detail(link):
     if response.status == 200:
         resp = response.read().decode("utf-8")
         body = BeautifulSoup(resp, "lxml")
-        soup = body.select(".article-style")[0]
+        soup = body.find(class_="article-style")
 
         ad_elements = soup.select(".ad")
         # 移除这些元素
@@ -72,10 +72,13 @@ def run(link):
         soup = BeautifulSoup(response["data"]["list"], "lxml")
         items = soup.select("article")
         for index in range(len(items)):
-            if index > 1:
+            if index > 10:
                 break
-            link = "https:{}".format(items[index].select(".title > a")[0]["href"].strip())
-            title = items[index].select(".title > a")[0].text.strip()
+            title_element = items[index].select_one(".title > a")
+            if not title_element:
+                title_element = items[index].select_one(".text > a")
+            link = "https:{}".format(title_element["href"].strip())
+            title = title_element.text.strip()
             if link in ",".join(_links):
                 break
             description = get_detail(link)
