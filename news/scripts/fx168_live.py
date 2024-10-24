@@ -8,22 +8,23 @@ import time
 from util.util import history_posts
 
 headers = {
-    "_pcc": "kSyGze6TxKDH4UgFIISjgtLCOwmcBxApKukjftenhR8p1dxka+zs8dKF2pL+eXlB7qM1ZeD8jSm0Kn/h8bz8rU2mduVSk5jh7kncePtmAPsHJ28ZLvao2zSGGwHXBBpvTUx2Lgaj8V7QxjNGRm7FNw47BwYOoPRwsvT6kv7xqUc=",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "_pcc": "OM4RLb019Gy7Jfj91OxTD9bGA84rsPNIlAsP2Z9SB4/RBH3UXfoEqzPqdOF6fmDxjCHFDDOQKtCMBoKvyYBeUfMYmhQ8YOq+KZ1VSPOMP2nIK4VnPJQ5LxRbDtTPhLdZ2Wt07b53LL3CkFaTo5GflfR81/kkXFOYqAcGI7NgJGA=",
     "accept": "application/json, text/plain, */*",
     "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
     "cache-control": "no-cache",
     "pragma": "no-cache",
     "priority": "u=1, i",
-    "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+    "sec-ch-ua": '"Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "cross-site",
     "site-channel": "001",
+    "t": "",
     "Referer": "https://www.fx168news.com/",
     "Referrer-Policy": "strict-origin-when-cross-origin",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
 }
 base_url = "https://www.fx168news.com/"
 filename = "./news/data/fx168/live.json"
@@ -49,7 +50,7 @@ def run():
         body = response.read().decode("utf-8")
         result = json.loads(body)["data"]["items"]
         for index in range(len(result)):
-            if index < 10:
+            if index < 3:
                 id = result[index]["fastNewsId"]
                 link = "https://www.fx168news.com/express/fastnews/{}".format(id)
                 if link in ",".join(links):
