@@ -24,13 +24,17 @@ def get_detail(link):
     if response.status == 200:
         resp = response.read().decode("utf-8")
         body = BeautifulSoup(resp, 'lxml')
-        soup = body.select(".caas-body")[0]
-        
-        ad_elements = soup.select('.caas-da, .view-cmts-cta-wrapper')
+        soup = body.select_one(".article .body")
+
+        # 过滤 <div data-testid="view-comments"></div> 的 div
+        ad_elements = soup.select('div[data-testid="inarticle-ad"]')
+        view_comment = soup.select_one('div[data-testid="view-comments"]')
+        if view_comment:
+            view_comment.decompose()
         # 移除这些元素
         for element in ad_elements:
             element.decompose()
-        return [str(soup), body.select(".caas-attr-time-style > time")[0]['datetime'].replace('Z', '+08:00')]
+        return [str(soup), body.select_one(".byline-attr-time-style > time")['datetime'].replace('Z', '+08:00')]
     else:
         print("yahoo_finance_us request: {} error: ".format(link), response)
         return ""
@@ -89,11 +93,11 @@ def run():
             with open(filename, "w") as f:
                 f.write(json.dumps({"data": _articles}))
     else:
-        print("yahoo us request error: ", response)
+        print("yahoo_finance_us request error: ", response)
 
 
 try:
     run()
 except Exception as e:
-    print("yahoo us exec error: ", repr(e))
+    print("yahoo_finance_us exec error: ", repr(e))
     logging.exception(e)
