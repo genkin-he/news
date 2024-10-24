@@ -14,11 +14,11 @@ headers = {
     "cache-control": "no-cache",
     "pragma": "no-cache",
     "priority": "u=0, i",
-    "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+    "sec-ch-ua": '"Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"',
     "sec-ch-ua-arch": '"arm"',
     "sec-ch-ua-bitness": '"64"',
-    "sec-ch-ua-full-version": '"128.0.6613.138"',
-    "sec-ch-ua-full-version-list": '"Chromium";v="128.0.6613.138", "Not;A=Brand";v="24.0.0.0", "Google Chrome";v="128.0.6613.138"',
+    "sec-ch-ua-full-version": '"129.0.6668.103"',
+    "sec-ch-ua-full-version-list": '"Google Chrome";v="129.0.6668.103", "Not=A?Brand";v="8.0.0.0", "Chromium";v="129.0.6668.103"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-model": '""',
     "sec-ch-ua-platform": '"macOS"',
@@ -28,7 +28,7 @@ headers = {
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
-    "cookie": "_gid=GA1.2.449000181.1727426772; _pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIFYAODgdgGZ%2BAFg4AmfhwAMARin9eQ6SAC%2BQA; _pcid=%7B%22browserId%22%3A%22m1khatllnsq3v5iv%22%7D; __pnahc=0; __qca=P0-1797951138-1727426771953; cX_P=m1khatllnsq3v5iv; __pat=-14400000; __pid=.etf.com; __pil=en_US; FCNEC=%5B%5B%22AKsRol-KjpAWWIXYfmWIXdMnl991c-CHl9fNsd9RT8fbDjAccumkpeWSVWIawr2BeSRbwt5GBWySkgf_8FDYZQ7K3P4kXyWO7Fp1THwnypNC98Xxto6vU5WNTrbN-qDjuZzQDwlN_-2JFcoSNvwstMXPyLpBIYtkXA%3D%3D%22%5D%5D; __gads=ID=2304be3f9af063c9:T=1727426771:RT=1727432962:S=ALNI_MboRxC4514igGybFtPmXthgP7_Wrg; __gpi=UID=00000f20419ca802:T=1727426771:RT=1727432962:S=ALNI_MYgoPIQIilCju1wYDVg0Gm_zjy-EQ; __eoi=ID=ada6aa49a3a35f85:T=1727426771:RT=1727432962:S=AA-AfjZyXGqyWJ0uTYg_JRk_5PGo; _gat_G-NFBGF6073J=1; _ga=GA1.1.93062885.1727426771; _ga_NFBGF6073J=GS1.1.1727432559.2.1.1727432964.38.0.0; __adblocker=false; cf_clearance=Kgoin2AOH.NmP5Tsr2ZoCRa0_PaznQmCqia7NuVCCgg-1727432965-1.2.1.1-FNVMSKQiiGgDRwv157Y1aV9ifOa6HFZngoleUReKLV28zL.TULfbNJ_xTs7hTK6vsRCnKwEy9COMjfSfXRpC6Z1_JDhPYl7T0zU48RX5YBWFu4jx8ASDC3BQWQYv1hK6ycNFfqhQInhkpCe0gy_TXoKo9.aoOHDBdC4ySsw46bZYy.fy8PmXqEjbOPYZGADfwz6MSICeH5ko5KGfTqTm4WnmXLIX3mGI3tkDkErBr6pdc8TtFmMENer06_s63dnc73dpeWRsc1cKiwoo85wFqS0uaKz6eDq9O.gvPSmjzFC4FeTEpeM9C0DB5vzafZ1Rbtw8IukgAX99tNwBFfBUU3NaTEvzreDzZ15HAX_vn711YsK1u7a9Olr29su0S1zTvvVjlcbX2tEtwRTjTcdgEQ; __pvi=eyJpZCI6InYtbTFra3F3ZndjeGVzbG4yNCIsImRvbWFpbiI6Ii5ldGYuY29tIiwidGltZSI6MTcyNzQzMjk2Nzc4NX0%3D; __tbc=%7Bkpex%7DK7u4uKN9sGLKh7MITohUYx95FdtggQ3w_U33m1heb2xTRRif_AqPojRPKKlo0Foa; xbc=%7Bkpex%7DGabJte8ORgVD3LewbRzghJE45TBInetKF_Olx88n7ew-UP1bGOFOUsSUITLYRHt-IlKx2xsJDID9UVXg5dG-zybIP6zhyGzFnDN2Hx4VLoNwp9q6rvzPlDmzODFbuKSe3v7k7g70mvEE7A0oZ4zEMQ",
+    "cookie": "cf_clearance=bn3ZNX7YuOCrB0pVWlqH972Vup7xE8vwbUeI2RoutqI-1729750906-1.2.1.1-xXHYeJSAIqGYwHq_IKhlBJpCnkV62pgKYyt1oYgP918M0SeoZcRmV0j2WN4Tb6_u5YYZY8vP7wMCLRx0CiwnSaFFVfJvwe_ZnsLBbwkIWbc4iz9dGaY6X3sAvPaPIztWbHHW58DwCyA9OAagarcU9pukw2pezug0CVkADANBgcgI7OkNRahiZe8BP_BXsax5.VTp_a9dRkveGZWT3Rm4FYhOJtyttzm8s9ydKlVq6CGM6MvHZ4ZVa4qrRasT3umXv7i9GR8wPMsXaokd7Zs0g8xQwO5js_wdi2NSi5krWgL_kiEZI_OGoeE9Vunv3DyOXl3zSptsPGIiyQiVwynaxr2w6Y.N_20X6emIzRssAjFG8aKSF1JcoxeOSeHddwqgKFuSL5cVmwm51F.Ey2CQAg; __adblocker=false; _ga_NFBGF6073J=GS1.1.1729750906.1.0.1729750906.60.0.0; _ga=GA1.2.714329511.1729750907; _gid=GA1.2.206263124.1729750907; _gat_G-NFBGF6073J=1; _pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIFYAODgdgGZ%2BAFg4AmfhwAMARin9eQ6SAC%2BQA; _pcid=%7B%22browserId%22%3A%22m2mx11ufcklv3hbz%22%7D; __pnahc=0; __tbc=%7Bkpex%7Da1vSLn4D15zkb57e8-s1fF9ABhtwFnW1oEcv8vVfyXxTRRif_AqPojRPKKlo0Foa; __pat=-14400000; __pvi=eyJpZCI6InYtbTJteDExdWx4MHpzaTZjYiIsImRvbWFpbiI6Ii5ldGYuY29tIiwidGltZSI6MTcyOTc1MDkwNzc4Nn0%3D; xbc=%7Bkpex%7DRKnfCRF533vcTP8QeRKI1Q_-iTexBy0K4O9DcGEtJb8; cX_P=m2mx11ufcklv3hbz; FCNEC=%5B%5B%22AKsRol-EirP7pCqxRTV7IPmMxhrhj_YvKgCW3_3Yd3EtifutMVylE3cxK5equXckr_1hzkHVLw0u66G55vZ1k7Yf2KyqjS--GQ8FiZJGnTeW_7eB_9C5wov1VtyltjT85PWDcaB1F_nJBSF7n0pCR-bSIRqS2c2FsQ%3D%3D%22%5D%5D; __qca=P0-1663847813-1729750907210; cX_G=cx%3A1iyu0v5olso5116s1q5p1yd6t0%3A21bfik1fsces5",
 }
 
 base_url = "https://www.etf.com/news"

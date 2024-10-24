@@ -46,7 +46,7 @@ def run():
     data = {
         "flag": int(round(time.time() * 1000)),
         "MethodName": "YiAPP.APP.SHOP%7CYiAPP.APP.SHOP.uNews.PC_SearchNewsInfoList",
-        "queryparams": "%7B%22ShopUser%22:%2280889%22,%22ColumnCode%22:%222361%22,%22page%22:%221%22,%22rows%22:%2210%22%7D",
+        "queryparams": "%7B%22ShopUser%22:%2280889%22,%22ColumnCode%22:%22%22,%22page%22:%221%22,%22rows%22:%2210%22%7D",
         "sikw": 1,
     }
     # request中放入参数，请求头信息
@@ -63,6 +63,9 @@ def run():
         body = response.read().decode("utf-8")
         result = json.loads(body)["data"]["data"]
         for index in range(len(result)):
+            # 跳过第一个
+            if index == 0:
+                continue
             if index < 3:
                 id = result[index]["NewsCode"]
                 link = "https://www.leinews.com/n{}/detail.html".format(id)
