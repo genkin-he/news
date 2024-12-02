@@ -15,6 +15,6 @@ log() {
 
 log "Starting request to Alpha Vantage API..."
 
-curl --globoff --request GET "${URL}?${PARAMS}" --header "User-Agent: ${USER_AGENT}" -o "${OUTPUT_FILE}"
+curl --connect-timeout 10 -m 20  --globoff --request GET "${URL}?${PARAMS}" --header "User-Agent: ${USER_AGENT}" -o "${OUTPUT_FILE}"
 
 log "Alpha Vantage Request completed."

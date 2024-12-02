@@ -24,10 +24,10 @@ log() {
 
 log "Starting request to 36kr API..."
 
-# curl --globoff --request POST "$url" \
-#      --header "User-Agent: $user_agent" \
-#      --header "Content-Type: $content_type" \
-#      --data "$data" \
-#      -o "$output_file"
+curl --connect-timeout 10 -m 20 --globoff --request POST "$url" \
+     --header "User-Agent: $user_agent" \
+     --header "Content-Type: $content_type" \
+     --data "$data" \
+     -o "$output_file"
 
 log "36kr Request completed."

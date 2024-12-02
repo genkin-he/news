@@ -4,8 +4,7 @@ import urllib.request  # 发送请求
 import json
 import re
 
-from bs4 import BeautifulSoup
-from util.util import current_time, history_posts, parse_time
+from util.util import current_time, history_posts
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -70,7 +69,7 @@ def run():
         body = response.read().decode("utf-8")
         posts = json.loads(body)["data"]["items"]
         for index in range(len(posts)):
-            if index < 10:
+            if index < 3:
                 kind = posts[index]["resource_type"]
                 post = posts[index]["resource"]
                 id = post["id"]
