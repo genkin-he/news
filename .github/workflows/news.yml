@@ -1,0 +1,49 @@
+name: save news
+
+on:
+  repository_dispatch:
+    types: [run]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Execute Python scripts
+        run: |
+          chmod +x ./news/scripts/*.py
+          for f in ./news/scripts/*.py; do
+            [ -x "$f" ] && [ ! -d "$f" ] && echo $f && python3 $f
+          done
+          
+      - name: Execute shell scripts
+        run: |
+          chmod +x ./news/scripts/*.sh
+          for f in ./news/scripts/*.sh; do
+            [ -x "$f" ] && [ ! -d "$f" ] && echo $f && "$f"
+          done
+          
+      - name: Configure Git
+        run: |
+          git config --global user.email "hemengzhi88@gmail.com"
+          git config --global user.name "genkin-he"
+          
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "save post"
+          git push origin main
