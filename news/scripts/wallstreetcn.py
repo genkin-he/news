@@ -74,7 +74,6 @@ def run():
                 post = posts[index]["resource"]
                 id = post["id"]
                 title = post["title"]
-                print(post)
                 image = ""
                 if "image" in post and post["image"]:
                     image = post["image"]["uri"]
