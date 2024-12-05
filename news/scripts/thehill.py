@@ -32,23 +32,19 @@ filename = "./news/data/thehill/list.json"
 def get_detail(link):
     print("thehill link: ", link)
     request = urllib.request.Request(link, None, headers)
-    try:
-        response = urllib.request.urlopen(request)
-        if response.status == 200:
-            resp = response.read().decode("utf-8")
-            body = BeautifulSoup(resp, "lxml")
-            soup = body.select(".article__text")[0]
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        resp = response.read().decode("utf-8")
+        body = BeautifulSoup(resp, "lxml")
+        soup = body.select(".article__text")[0]
 
-            ad_elements = soup.select(".ad-unit,.hardwall")
-            # 移除这些元素
-            for element in ad_elements:
-                element.decompose()
-            return str(soup).strip()
-        else:
-            print("thehill request: {} error: ".format(link), response.status)
-            return ""
-    except Exception as e:
-        print("thehill request: {} exception: ".format(link), e)
+        ad_elements = soup.select(".ad-unit,.hardwall")
+        # 移除这些元素
+        for element in ad_elements:
+            element.decompose()
+        return str(soup).strip()
+    else:
+        print("thehill request: {} error: ".format(link), response.status)
         return ""
 
 
