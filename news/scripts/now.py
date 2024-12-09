@@ -48,7 +48,7 @@ def run(link):
                 break
             id = items[index]["newsId"]
             title = items[index]["title"]
-            description = items[index]["summary"].replace('<p><a rel="nofollow" href="http://www.mobilemagazinehk.com">瀏覽MOBILE網頁</a></p>', "")
+            description = items[index]["summary"].replace("<a rel='nofollow' href=\"http://www.mobilemagazinehk.com\">\u700f\u89bdMOBILE\u7db2\u9801</a>", "")
             image = items[index]["imageUrl"]
             link = "https://news.now.com/home/technology/player?newsId={}".format(id)
             category = items[index]["categoryName"]
