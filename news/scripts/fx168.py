@@ -70,7 +70,7 @@ def run():
             if index < 1:
                 id = result[index]["newsId"]
                 url_code = result[index]["urlCode"]
-                link = "hhttps://www.fx168news.com/article/{}".format(url_code)
+                link = "https://www.fx168news.com/article/{}".format(url_code)
                 if link in ",".join(links):
                     print("fx168 news exists link: ", link)
                     break
