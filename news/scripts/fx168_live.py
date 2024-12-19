@@ -5,8 +5,7 @@ import urllib.request  # 发送请求
 import json
 import re
 import time
-from util.util import history_posts, md5
-from util.save import insert_posts_to_db
+from util.util import history_posts
 headers = {
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
     "_pcc": "dBoIC52Ioh64p7ckrGL8ryuwot1RPdSitM9BTNtaoNlVLhnLoFEaehJOn1SViYrf7lt303A4qjUUtDoSbcdlHdGioyU7N7igsoNKcge9yMAnxx+FzWsQQz5fcqsIAc/Yigj3leAEnYw/TGvC8v8C38tGRGFUQ9pGJ8BfWYQKDDo=",
@@ -35,7 +34,6 @@ def run():
     data = history_posts(filename)
     articles = data["articles"]
     links = data["links"]
-    insert_posts = []
     insert = False
 
     # request中放入参数，请求头信息
@@ -71,25 +69,12 @@ def run():
                             "pub_date": pub_date,
                         },
                     )
-                    insert_posts.insert(0,{
-                        "title": description,
-                        "content": "",
-                        "link": link,
-                        "pub_date": pub_date,
-                        "image": "",
-                        "author": "",
-                        "source": "fx168",
-                        "external_id": id,
-                        "uuid": md5(link),
-                        "kind": 2
-                    })
         if len(articles) > 0 and insert:
             if len(articles) > 10:
                 articles = articles[:10]
             with open(filename, "w") as f:
                 f.write(json.dumps({"data": articles}))
 
-        insert_posts_to_db(insert_posts)
     else:
         print("fx168 live news request error: ", response)
 

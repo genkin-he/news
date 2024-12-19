@@ -44,11 +44,6 @@ jobs:
             [ -x "$f" ] && [ ! -d "$f" ] && echo $f && "$f"
           done
 
-      - name: End script
-        run: |
-          chmod +x ./news/scripts/util/end.py
-          python3 ./news/scripts/util/end.py
-          
       - name: Configure Git
         run: |
           git config --global user.email "hemengzhi88@gmail.com"
