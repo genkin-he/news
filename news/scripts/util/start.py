@@ -1,0 +1,1 @@
+print("start collect news")
