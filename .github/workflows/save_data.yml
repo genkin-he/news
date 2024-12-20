@@ -31,8 +31,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip uninstall psycopg2
-          pip uninstall psycopg2-binary
           pip install psycopg2-binary
         
       - name: Execute Python scripts

@@ -35,6 +35,9 @@ def save_posts():
         data = history_posts(filepath)
         if len(data["articles"]) > 0:
             for article in data["articles"]:
+                if "kind" not in article:
+                    print("file: ", filepath, "article: ", article, "kind not in article")
+                    article["kind"] = 1
                 if not isinstance(article["kind"], (int)):
                     article["kind"] = 1
 
