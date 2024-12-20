@@ -30,6 +30,7 @@ jobs:
           
       - name: Install dependencies
         run: |
+          pip uninstall psycopg2
           pip install psycopg2-binary
           pip install -r requirements.txt
         
