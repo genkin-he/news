@@ -25,15 +25,15 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.13'
           cache: 'pip'
           
       - name: Install dependencies
         run: |
+          pip install -r requirements.txt
           pip uninstall psycopg2
           pip uninstall psycopg2-binary
           pip install psycopg2-binary
-          pip install -r requirements.txt
         
       - name: Execute Python scripts
         run: |
