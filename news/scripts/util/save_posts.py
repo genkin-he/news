@@ -42,13 +42,13 @@ def save_posts():
                     article["kind"] = 1
 
                 insert_post = {
-                    "title": article["title"],
-                    "description": article["description"],
-                    "link": article["link"],
-                    "pub_date": article["pub_date"],
-                    "source": article["source"],
-                    "kind": article["kind"],
-                    "language": article["language"],
+                    "title": article.get("title", ""),
+                    "description": article.get("description", ""),
+                    "link": article.get("link", ""),
+                    "pub_date": article.get("pub_date", ""),
+                    "source": article.get("source", ""),
+                    "kind": article.get("kind", 1),
+                    "language": article.get("language", ""),
                 }
 
                 # 可选字段
