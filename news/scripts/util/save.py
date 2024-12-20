@@ -57,16 +57,19 @@ def insert_posts_to_db(posts_data):
         conn.rollback()
         print(f"Error inserting data into PostgreSQL: {e}")
 
-def select_posts_pg():
+def all_posts_uuid():
     conn = get_pg_connection()
     try:
         with conn.cursor() as cursor:
-            select_query = sql.SQL("SELECT * FROM posts")
+            select_query = sql.SQL("SELECT uuid FROM posts")
             cursor.execute(select_query)
             result = cursor.fetchall()
-            return result
+            # 将结果转换为一维列表
+            uuids = [row[0] for row in result]
+            return uuids
     except Exception as e:
-        raise RuntimeError("Error selecting data from PostgreSQL") from e
+        print(f"Error selecting uuids from PostgreSQL: {e}")
+        return []
 
 def close_pg_connection():
     global _pg_connection

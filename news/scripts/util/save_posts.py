@@ -1,5 +1,5 @@
 from util import history_posts, md5
-from save import insert_posts_to_db
+from save import all_posts_uuid, close_pg_connection, insert_posts_to_db
 import os
 import glob
 
@@ -14,6 +14,7 @@ def save_posts():
     # 获取所有json文件路径
     filepaths = glob.glob(os.path.join(data_dir, "**/*.json"), recursive=True)
     insert_posts = []
+    uuids = all_posts_uuid()
     for filepath in filepaths:
         data = history_posts(filepath)
         if len(data["articles"]) > 0:
@@ -40,12 +41,14 @@ def save_posts():
                     insert_post["author"] = article["author"]
                 if article["link"]:
                     insert_post["uuid"] = md5(article["link"])
-
-                insert_posts.append(insert_post)
+                    
+                if insert_post["uuid"] not in uuids:
+                    insert_posts.append(insert_post)
         else:
             print("filepath: ", filepath, "articles: ", data["articles"])
 
     if len(insert_posts) > 0:
         insert_posts_to_db(insert_posts)
+    close_pg_connection()
 
 save_posts()
