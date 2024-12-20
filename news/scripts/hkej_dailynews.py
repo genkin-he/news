@@ -4,7 +4,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import history_posts
+from util.util import current_time, history_posts
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -55,10 +55,19 @@ def run():
                 title = item[1]
                 description = get_detail(link)
                 if description != "":
-                  insert = True
-                  articles.insert(
-                      0, {"title": title, "description": description, "link": link}
-                  )
+                    insert = True
+                    articles.insert(
+                        0,
+                        {
+                            "title": title,
+                            "description": description,
+                            "link": link,
+                            "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                            "source": "hkej",
+                            "kind": 1,
+                            "language": "zh-HK",
+                        },
+                    )
         if len(articles) > 0 and insert:
             if len(articles) > 10:
                 articles = articles[:10]

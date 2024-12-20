@@ -62,6 +62,9 @@ def run():
                             "summary": summary,
                             "author": author,
                             "pub_date": pub_date,
+                            "source": "yahoo_us",
+                            "kind": 1,
+                            "language": "en",
                         },
                     )
                         

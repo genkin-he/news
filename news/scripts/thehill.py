@@ -88,6 +88,8 @@ def run():
                             "kind": kind,
                             "link": link,
                             "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                            "source": "thehill",
+                            "language": "en",
                         },
                     )
         if len(articles) > 0 and insert:

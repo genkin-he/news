@@ -86,6 +86,9 @@ def run(link):
                         "description": description,
                         "link": link,
                         "pub_date": pub_date,
+                        "source": "pharmexec",
+                        "kind": 1,
+                        "language": "en",
                     },
                 )
 

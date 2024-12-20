@@ -55,6 +55,9 @@ def run():
                             "description": description,
                             "link": link,
                             "pub_date": pub_date,
+                            "source": "investing_cn",
+                            "kind": 1,
+                            "language": "zh-CN",
                         },
                     )
         if len(articles) > 0 and insert:

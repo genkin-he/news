@@ -140,6 +140,9 @@ def run():
                         "pub_date": pub_date,
                         "link": link,
                         "author": "hibor",
+                        "source": "hibor",
+                        "kind": 1,
+                        "language": "zh-CN",
                     },
                 )
         if len(articles) > 0 and insert:

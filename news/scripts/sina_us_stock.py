@@ -74,7 +74,10 @@ def run():
                     "link": link,
                     "summary": summary,
                     "author": author,
-                    "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S")
+                    "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                    "source": "sina_us_stock",
+                    "kind": 1,
+                    "language": "zh-CN",
                 },
             )
 

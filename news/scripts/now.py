@@ -65,6 +65,9 @@ def run(link):
                         "image": image,
                         "category": category,
                         "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                        "source": "now",
+                        "kind": 1,
+                        "language": "zh-CN",
                     },
                 )
 

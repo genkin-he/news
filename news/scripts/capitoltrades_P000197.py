@@ -4,7 +4,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import history_posts
+from util.util import current_time, history_posts
 from bs4 import BeautifulSoup
 
 headers = {
@@ -19,7 +19,7 @@ def get_detail(link):
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     resp = response.read().decode("utf-8")
-    soup = BeautifulSoup(resp, 'lxml')
+    soup = BeautifulSoup(resp, "lxml")
     if "buzz" in link:
         title = soup.select("header h1")[0].string
         description = str(soup.select(".tweet-body_root__RNPsG")[0])
@@ -27,6 +27,7 @@ def get_detail(link):
         title = soup.select("header h1")[0].string
         description = str(soup.select(".prose")[0])
     return [title, description]
+
 
 def run():
     # 读取保存的文件
@@ -58,10 +59,19 @@ def run():
                 title = detail[0]
                 description = detail[1]
                 if description != "":
-                  insert = True
-                  articles.insert(
-                      0, {"title": title, "description": description, "link": link}
-                  )
+                    insert = True
+                    articles.insert(
+                        0,
+                        {
+                            "title": title,
+                            "description": description,
+                            "link": link,
+                            "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                            "source": "capitoltrades",
+                            "kind": 1,
+                            "language": "en",
+                        },
+                    )
         if len(articles) > 0 and insert:
             if len(articles) > 10:
                 articles = articles[:10]

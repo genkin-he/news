@@ -170,6 +170,9 @@ def run():
                             "description": description,
                             "link": link,
                             "pub_date": pub_date,
+                            "source": "infoq",
+                            "kind": 1,
+                            "language": "zh-CN",
                         },
                     )
         if len(articles) > 0 and insert:

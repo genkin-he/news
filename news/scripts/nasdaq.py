@@ -93,6 +93,9 @@ def run():
                           "description": description,
                           "link": link,
                           "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                          "source": "nasdaq",
+                          "kind": 1,
+                          "language": "en",
                       },
                   )
         if len(articles) > 0 and insert:

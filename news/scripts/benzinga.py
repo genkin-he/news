@@ -50,6 +50,9 @@ def run():
                           "image": image,
                           "link": link,
                           "pub_date": pub_date,
+                          "source": "benzinga",
+                          "kind": 1,
+                          "language": "en"
                       },
                   )
         if len(articles) > 0 and insert:

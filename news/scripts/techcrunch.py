@@ -3,7 +3,7 @@ from datetime import datetime
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts
+from util.util import current_time, history_posts
 from bs4 import BeautifulSoup
 
 headers = {
@@ -89,6 +89,10 @@ def run():
                         "description": description,
                         "link": link,
                         "author": "TechCrunch",
+                        "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                        "source": "techcrunch",
+                        "kind": 1,
+                        "language": "en",
                     },
                 )
         if len(articles) > 0 and insert:

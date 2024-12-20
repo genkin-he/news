@@ -89,6 +89,9 @@ def run():
                         "description": description,
                         "link": link,
                         "pub_date": pub_date,
+                        "source": "yahoo_finance_us",
+                        "kind": 1,
+                        "language": "en",
                     },
                 )
                     

@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts
+from util.util import current_time, history_posts
 from bs4 import BeautifulSoup
 
 headers = {
@@ -47,6 +47,10 @@ def run():
                         "title": title,
                         "description": description,
                         "link": link,
+                        "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                        "source": "lieyun",
+                        "kind": 1,
+                        "language": "zh-CN",
                     },
                 )
                     

@@ -93,6 +93,9 @@ def run(link):
                         "description": description,
                         "link": link,
                         "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                        "source": "biopharmadive",
+                        "kind": 1,
+                        "language": "en"
                     },
                 )
 

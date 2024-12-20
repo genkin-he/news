@@ -87,6 +87,9 @@ def run():
                             "link": link,
                             "image": image,
                             "pub_date": pub_date,
+                            "source": "leinews",
+                            "kind": 1,
+                            "language": "zh-CN",
                         },
                     )
         if len(articles) > 0 and insert:

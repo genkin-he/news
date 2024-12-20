@@ -89,6 +89,9 @@ def run():
                             "link": link,
                             "image": image,
                             "pub_date": pub_date,
+                            "source": "fx168",
+                            "kind": 1,
+                            "language": "en",
                         },
                     )
         if len(articles) > 0 and insert:

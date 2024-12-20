@@ -29,7 +29,7 @@ def insert_posts_to_db(posts_data):
         with conn.cursor() as cursor:
             insert_query = sql.SQL(
                 """
-                INSERT INTO posts (title, content, link, pub_date, image, author, source, external_id, uuid, kind) 
+                INSERT INTO posts (title, content, link, pub_date, image, author, source, external_id, uuid, kind, language) 
                 VALUES %s
                 ON CONFLICT (uuid) 
                 DO NOTHING
@@ -46,7 +46,8 @@ def insert_posts_to_db(posts_data):
                     post.get("source", ""), 
                     post.get("external_id", ""), 
                     post.get("uuid", ""), 
-                    post.get("kind", 1)
+                    post.get("kind", 1),
+                    post.get("language", "zh-CN")
                 )
                 for post in posts_data
             ]

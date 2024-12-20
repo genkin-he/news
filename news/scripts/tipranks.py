@@ -75,6 +75,9 @@ def run():
                           "link": link,
                           "author": author,
                           "pub_date": pub_date,
+                          "source": "tipranks",
+                          "kind": 1,
+                          "language": "en",
                       },
                   )
         if len(articles) > 0 and insert:

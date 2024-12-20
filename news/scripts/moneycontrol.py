@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts
+from util.util import current_time, history_posts
 from bs4 import BeautifulSoup
 
 headers = {
@@ -72,7 +72,11 @@ def run():
                         "title": title,
                         "description": description,
                         "link": link,
-                        "author": "MoneyControl"
+                        "author": "MoneyControl",
+                        "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                        "source": "moneycontrol",
+                        "kind": 1,
+                        "language": "en",
                     },
                 )
         if len(articles) > 0 and insert:

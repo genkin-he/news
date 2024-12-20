@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import history_posts
+from util.util import current_time, history_posts
 
 headers = {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
@@ -11,16 +11,16 @@ headers = {
     "cache-control": "no-cache",
     "pragma": "no-cache",
     "priority": "u=0, i",
-    "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
     "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "document",
     "sec-fetch-mode": "navigate",
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
     "cookie": "exp_pref=APAC; country_code=HK; seen_uk=1",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
 }
 
 base_url = "https://www.bloomberg.com"
@@ -63,7 +63,7 @@ def get_detail(link):
                         if ele["type"] == "text" and ele["value"].lstrip() != "":
                             paragraph = paragraph + ele["value"]
                 elif sentence["type"] == "entity" and sentence["subType"] == "security":
-                  for ele in sentence["content"]:
+                    for ele in sentence["content"]:
                         if ele["type"] == "text" and ele["value"].lstrip() != "":
                             text_count = text_count + 1
                             paragraph = paragraph + ele["value"]
@@ -80,9 +80,13 @@ def run():
     articles = data["articles"]
     urls = data["links"]
     insert = False
-    
+
     # request中放入参数，请求头信息
-    request = urllib.request.Request("https://www.bloomberg.com/lineup-next/api/paginate?id=archive_story_list&page=phx-markets&variation=archive&type=lineup_content", None, headers)
+    request = urllib.request.Request(
+        "https://www.bloomberg.com/lineup-next/api/paginate?id=archive_story_list&page=phx-markets&variation=archive&type=lineup_content",
+        None,
+        headers,
+    )
     # urlopen打开链接（发送请求获取响应）
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -107,7 +111,16 @@ def run():
                 if description != "":
                     insert = True
                     articles.insert(
-                        0, {"title": title, "description": description, "link": link}
+                        0,
+                        {
+                            "title": title,
+                            "description": description,
+                            "link": link,
+                            "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
+                            "source": "bloomberg",
+                            "kind": 1,
+                            "language": "en",
+                        },
                     )
         if len(articles) > 0 and insert:
             if len(articles) > 10:
