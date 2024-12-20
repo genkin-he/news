@@ -85,7 +85,7 @@ def run(link):
                         "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
                         "source": "now_finance",
                         "kind": 1,
-                        "language": "zh-CN",
+                        "language": "zh-HK",
                     },
                 )
 
