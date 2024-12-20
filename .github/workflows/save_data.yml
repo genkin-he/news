@@ -35,5 +35,5 @@ jobs:
         
       - name: Execute Python scripts
         run: |
-          chmod +x ./news/scripts/*.py
-          python3
+          chmod +x ./news/scripts/util/save_posts.py
+          python3 ./news/scripts/util/save_posts.py
