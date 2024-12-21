@@ -57,7 +57,7 @@ def insert_posts_to_db(posts_data):
         conn.rollback()
         print(f"Error inserting data into PostgreSQL: {e}")
 
-def all_posts_uuid():
+def all_posts_uuids():
     conn = get_pg_connection()
     try:
         with conn.cursor() as cursor:

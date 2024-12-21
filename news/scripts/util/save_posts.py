@@ -1,5 +1,5 @@
 from util import history_posts, md5
-from save import close_pg_connection, insert_posts_to_db
+from save import all_posts_uuids, close_pg_connection, insert_posts_to_db
 import os
 import subprocess
 from datetime import datetime, timedelta
@@ -15,23 +15,9 @@ def save_posts():
     data_dir = os.path.join(current_dir, "data")
     # 获取所有json文件路径
     filepaths = glob.glob(os.path.join(data_dir, "**/*.json"), recursive=True)
+    uuids = all_posts_uuids()
     insert_posts = []
     for filepath in filepaths:
-        # 获取文件最后修改时间
-        git_cmd = ["git", "log", "-1", "--format=%ct", filepath]
-        try:
-            last_modified = int(subprocess.check_output(git_cmd).decode().strip())
-            last_modified_time = datetime.fromtimestamp(last_modified)
-            current_time = datetime.now()
-            
-            # 如果文件修改时间不在5分钟内,跳过处理
-            if current_time - last_modified_time > timedelta(minutes=5):
-                print("file: ", filepath, "last modified time: ", last_modified_time, "current time: ", current_time)
-                continue
-        except:
-            # 如果获取git信息失败,继续处理文件
-            print("file: ", filepath, "get git info failed")
-            pass
         data = history_posts(filepath)
         if len(data["articles"]) > 0:
             for article in data["articles"]:
@@ -60,7 +46,9 @@ def save_posts():
                     insert_post["author"] = article["author"]
                 if article["link"]:
                     insert_post["uuid"] = md5(article["link"])
-                insert_posts.append(insert_post)
+                    
+                if insert_post["uuid"] not in uuids:
+                    insert_posts.append(insert_post)
         else:
             print("filepath: ", filepath, "articles: ", data["articles"])
 
