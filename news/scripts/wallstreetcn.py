@@ -105,7 +105,7 @@ def run():
                             "pub_date": current_time().strftime("%Y-%m-%d %H:%M:%S"),
                             "source": "wallstreetcn",
                             "kind": 1,
-                            "language": "en",
+                            "language": "zh-CN",
                         },
                     )
         if len(articles) > 0 and insert:

@@ -69,7 +69,7 @@ def run():
                             "pub_date": pub_date,
                             "source": "fx168",
                             "kind": 2,
-                            "language": "en",
+                            "language": "zh-CN",
                         },
                     )
         if len(articles) > 0 and insert:
