@@ -1,5 +1,6 @@
 import os
-import requests
+import urllib.request
+import json
 
 def send_feishu_webhook(message):
     webhook_url = os.getenv("feishu_webhook")
@@ -12,9 +13,14 @@ def send_feishu_webhook(message):
             "text": message
         }
     }
-    response = requests.post(webhook_url, headers=headers, json=payload)
-    if response.status_code != 200:
-        print(f"发送飞书消息失败: {response.status_code}, {response.text}")
+    data = json.dumps(payload).encode("utf-8")
+    request = urllib.request.Request(webhook_url, data=data, headers=headers)
+    try:
+        response = urllib.request.urlopen(request)
+        if response.status != 200:
+            print(f"发送飞书消息失败: {response.status}, {response.read().decode('utf-8')}")
+    except urllib.error.URLError as e:
+        print(f"发送飞书消息失败: {e.reason}")
 
 def check_and_send_action_errors():
     action_errors = os.getenv("ACTION_ERRORS")
