@@ -35,35 +35,31 @@ def get_detail(link):
     print("yahoo_finance_us link: ", link)
     current_links.append(link)
     request = urllib.request.Request(link, None, headers)
-    try:
-        response = urllib.request.urlopen(request)
-        if response.status == 200:
-            try:
-                resp = response.read().decode("utf-8")
-            except UnicodeDecodeError:
-                return ["", ""]
-            body = BeautifulSoup(resp, "lxml")
-            soup = body.select_one(".article .body")
-
-            # 过滤 <div data-testid="view-comments"></div> 的 div
-            ad_elements = soup.select('div[data-testid="inarticle-ad"]')
-            view_comment = soup.select_one('div[data-testid="view-comments"]')
-            if view_comment:
-                view_comment.decompose()
-            # 移除这些元素
-            for element in ad_elements:
-                element.decompose()
-            return [
-                str(soup),
-                body.select_one(".byline-attr-time-style > time")["datetime"].replace(
-                    "Z", "+08:00"
-                ),
-            ]
-        else:
-            print("yahoo_finance_us request: {} error: ".format(link), response)
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        try:
+            resp = response.read().decode("utf-8")
+        except UnicodeDecodeError:
             return ["", ""]
-    except urllib.error.URLError as e:
-        logging.error("yahoo_finance_us exec error: ", e)
+        body = BeautifulSoup(resp, "lxml")
+        soup = body.select_one(".article .body")
+
+        # 过滤 <div data-testid="view-comments"></div> 的 div
+        ad_elements = soup.select('div[data-testid="inarticle-ad"]')
+        view_comment = soup.select_one('div[data-testid="view-comments"]')
+        if view_comment:
+            view_comment.decompose()
+        # 移除这些元素
+        for element in ad_elements:
+            element.decompose()
+        return [
+            str(soup),
+            body.select_one(".byline-attr-time-style > time")["datetime"].replace(
+                "Z", "+08:00"
+            ),
+        ]
+    else:
+        print("yahoo_finance_us request: {} error: ".format(link), response)
         return ["", ""]
 
 def run():

@@ -15,12 +15,9 @@ def send_feishu_webhook(message):
     }
     data = json.dumps(payload).encode("utf-8")
     request = urllib.request.Request(webhook_url, data=data, headers=headers)
-    try:
-        response = urllib.request.urlopen(request)
-        if response.status != 200:
-            print(f"发送飞书消息失败: {response.status}, {response.read().decode('utf-8')}")
-    except urllib.error.URLError as e:
-        print(f"发送飞书消息失败: {e.reason}")
+    response = urllib.request.urlopen(request)
+    if response.status != 200:
+        print(f"发送飞书消息失败: {response.status}, {response.read().decode('utf-8')}")
 
 def check_and_send_action_errors():
     action_errors = os.getenv("ACTION_ERRORS")

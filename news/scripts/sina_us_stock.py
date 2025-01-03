@@ -18,33 +18,26 @@ filename = "./news/data/sina/list_us_stock.json"
 def get_detail(link):
     print("sina us link: ", link)
     request = urllib.request.Request(link, None, headers)
-    try:
-        response = urllib.request.urlopen(request)
-        if response.status == 200:
-            resp = response.read().decode("utf-8")
-            soup = BeautifulSoup(resp, 'lxml')
-            return str(soup.select(".article")[0])
-        else:
-            print("sina us request: {} error: ".format(link), response)
-            return ""
-    except Exception as e:
-        print("Error fetching details for link {}: {}".format(link, e))
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        resp = response.read().decode("utf-8")
+        soup = BeautifulSoup(resp, 'lxml')
+        return str(soup.select(".article")[0])
+    else:
+        print("sina us request: {} error: ".format(link), response)
         return ""
+    
 
 def fetch_posts():
     request = urllib.request.Request(
         "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2518&k=&num=10&page=1", None, headers
     )
-    try:
-        response = urllib.request.urlopen(request)
-        if response.status == 200:
-            body = response.read().decode("utf-8")
-            return json.loads(body)["result"]["data"]
-        else:
-            print("sina us request error: ", response)
-            return []
-    except Exception as e:
-        print("Error fetching posts: {}".format(e))
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        body = response.read().decode("utf-8")
+        return json.loads(body)["result"]["data"]
+    else:
+        print("sina us request error: ", response)
         return []
 
 def run():

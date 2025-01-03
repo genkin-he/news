@@ -36,32 +36,27 @@ def get_detail(link):
     print("yahoo_finance_asia link: ", link)
     current_links.append(link)
     request = urllib.request.Request(quote(link, safe="/:"), None, headers)
-    try:
-        response = urllib.request.urlopen(request)
-        if response.status == 200:
-            try:
-                resp = response.read().decode("utf-8")
-            except UnicodeDecodeError:
-                return ["", ""]
-            body = BeautifulSoup(resp, "lxml")
-            soup = body.select_one(".caas-body")
-
-            # 过滤 <div data-testid="view-comments"></div> 的 div
-            ad_elements = soup.select('div[data-testid="inarticle-ad"]')
-            view_comment = soup.select_one('div[data-testid="view-comments"]')
-            if view_comment:
-                view_comment.decompose()
-            # 移除这些元素
-            for element in ad_elements:
-                element.decompose()
-            return str(soup)
-        else:
-            print("yahoo_finance_asia request: {} error: ".format(link), response)
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        try:
+            resp = response.read().decode("utf-8")
+        except UnicodeDecodeError:
             return ""
-    except urllib.error.URLError as e:
-        logging.error("yahoo_finance_asia exec error: ", e)
-        return ""
+        body = BeautifulSoup(resp, "lxml")
+        soup = body.select_one(".caas-body")
 
+        # 过滤 <div data-testid="view-comments"></div> 的 div
+        ad_elements = soup.select('div[data-testid="inarticle-ad"]')
+        view_comment = soup.select_one('div[data-testid="view-comments"]')
+        if view_comment:
+            view_comment.decompose()
+        # 移除这些元素
+        for element in ad_elements:
+            element.decompose()
+        return str(soup)
+    else:
+        print("yahoo_finance_asia request: {} error: ".format(link), response)
+        return ""
 
 def run():
     data = history_posts(filename)
