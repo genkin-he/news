@@ -101,7 +101,8 @@ def run(link):
 
 
 try:
-    run("https://www.businesswire.com/portal/site/home/news/")
+    # run("https://www.businesswire.com/portal/site/home/news/")
+    print("businesswire exec 超时")
 except Exception as e:
     print("businesswire exec error: ", repr(e))
     traceback.print_exc()

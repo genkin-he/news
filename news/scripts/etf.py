@@ -111,5 +111,5 @@ try:
     run(base_url)
 except Exception as e:
     print("etf exec error: ", repr(e))
-    traceback.print_exc()
     log_action_error(f"etf exec error: {repr(e)}\n")
+    traceback.print_exc()

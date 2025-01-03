@@ -1,8 +1,8 @@
 import os
 
 def clear_action_errors_env_var():
-    if 'ACTION_ERRORS' in os.environ:
-        os.environ['ACTION_ERRORS'] = ''
+    if "ACTION_ERRORS" in os.environ:
+        os.environ["ACTION_ERRORS"] = ""
     print("环境变量 ACTION_ERRORS 已写入空值")
 
 if __name__ == "__main__":

@@ -76,5 +76,5 @@ def log_action_error(error_message):
     记录操作错误信息到环境变量 ACTION_ERRORS
     :param error_message: 错误信息
     """
-    append_to_env_var('ACTION_ERRORS', error_message)
+    append_to_env_var("ACTION_ERRORS", error_message)
     return

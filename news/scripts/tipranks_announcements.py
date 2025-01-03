@@ -57,7 +57,7 @@ def run():
                 id = post["_id"]
                 title = post["title"]
                 image = ""
-                if post["image"]:
+                if "image" in post and post["image"]:
                     image = post["image"]["src"]
                 link = post["link"]
                 author = post["author"]["name"]
