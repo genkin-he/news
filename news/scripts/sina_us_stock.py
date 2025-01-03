@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from datetime import datetime, timezone, timedelta
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 from util.util import history_posts,current_time, log_action_error
@@ -90,4 +91,5 @@ try:
     run()
 except Exception as e:
     print("sina us exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"sina us exec error: {repr(e)}\n")

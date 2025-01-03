@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 from util.util import current_time, current_time_string, history_posts, log_action_error
@@ -107,4 +108,5 @@ try:
     run("https://www.coindesk.com/business")
 except Exception as e:
     print("coindesk exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"coindesk exec error: {repr(e)}\n")

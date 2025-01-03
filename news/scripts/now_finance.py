@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from datetime import datetime
 import logging
+import traceback
 from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
@@ -103,4 +104,5 @@ try:
     run("https://finance.now.com/news/newsList.php?type=world")
 except Exception as e:
     print("now_finance exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"now_finance exec error: {repr(e)}\n")

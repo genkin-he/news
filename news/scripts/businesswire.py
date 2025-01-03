@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 from util.util import history_posts, has_chinese,current_time, log_action_error
@@ -106,4 +107,5 @@ try:
     print("businesswire request timeout")
 except Exception as e:
     print("businesswire exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"businesswire exec error: {repr(e)}\n")

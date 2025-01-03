@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
@@ -105,4 +106,5 @@ try:
     run("https://std.stheadline.com/realtime/%E5%8D%B3%E6%99%82")
 except Exception as e:
     print("stheadline exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"stheadline exec error: {repr(e)}\n")

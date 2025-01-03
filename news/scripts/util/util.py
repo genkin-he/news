@@ -63,6 +63,16 @@ def append_to_env_var(var_name, data):
     :param var_name: 环境变量名称
     :param data: 需要追加的数据
     """
-    current_value = os.environ.get(var_name, '')
-    new_value = current_value + '\n' + data if current_value else data
-    os.environ[var_name] = new_value
+    if var_name in os.environ:
+        current_value = os.environ.get(var_name, '')
+        new_value = current_value + data
+        os.environ[var_name] = new_value
+    else:
+        os.environ[var_name] = data
+
+def log_action_error(error_message):
+    """
+    记录操作错误信息到环境变量 ACTION_ERRORS
+    :param error_message: 错误信息
+    """
+    append_to_env_var('ACTION_ERRORS', error_message)

@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from datetime import datetime
 import logging
+import traceback
 from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
@@ -85,10 +86,12 @@ try:
     run("https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1")
 except Exception as e:
     print("now 121exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"now 121exec error: {repr(e)}\n")
 
 try:
     run("https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1")
 except Exception as e:
     print("now 502exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"now 502exec error: {repr(e)}\n")

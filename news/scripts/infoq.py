@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from datetime import datetime
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 from util.util import history_posts, log_action_error
@@ -188,4 +189,5 @@ try:
     run()
 except Exception as e:
     print("infoq exec error: ", e)
+    traceback.print_exc()
     log_action_error(f"infoq exec error: {repr(e)}\n")

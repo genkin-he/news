@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 import re
@@ -99,4 +100,5 @@ try:
     print("屏蔽 stop capitoltrades P000197")
 except Exception as e:
     print("capitoltrades P000197 exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"capitoltrades P000197 exec error: {repr(e)}\n")

@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
@@ -128,4 +129,5 @@ try:
     run()
 except Exception as e:
     print("yahoo_finance_asia exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"yahoo_finance_asia exec error: {repr(e)}\n")

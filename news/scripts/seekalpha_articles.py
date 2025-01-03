@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 from util.util import current_time, history_posts, log_action_error, parse_time
@@ -106,4 +107,5 @@ try:
     run()
 except Exception as e:
     print("seekalpha_articles exec error: ", e)
+    traceback.print_exc()
     log_action_error(f"seekalpha_articles exec error: {repr(e)}\n")

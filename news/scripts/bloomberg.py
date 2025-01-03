@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 import re
@@ -136,4 +137,5 @@ try:
     print("机器人点击验证无法通过 stop bloomberg")
 except Exception as e:
     print("bloomberg exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"bloomberg exec error: {repr(e)}\n")

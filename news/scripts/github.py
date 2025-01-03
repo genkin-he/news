@@ -1,9 +1,9 @@
 import os
-import time
+import traceback
 import urllib.request
 import json
 
-from news.scripts.util.util import log_action_error
+from util.util import log_action_error
 
 headers = {
     "Accept": "application/vnd.github+json",
@@ -41,7 +41,9 @@ def delete_workflow_runs():
 
 if __name__ == "__main__":
     try:
-        delete_workflow_runs()
+        # delete_workflow_runs()
+        log_action_error(f"github actions 删除 workflow runs 成功\n")
     except Exception as e:
         print(f"github actions 删除 workflow runs 过程中发生错误: {str(e)}")
+        traceback.print_exc()
         log_action_error(f"github actions 删除 workflow runs 过程中发生错误: {str(e)}\n")

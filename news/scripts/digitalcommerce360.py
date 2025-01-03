@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 from datetime import datetime
 import json
@@ -92,4 +93,5 @@ try:
     run()
 except Exception as e:
     print("digitalcommerce360 exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"digitalcommerce360 exec error: {repr(e)}\n")

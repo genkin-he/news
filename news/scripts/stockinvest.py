@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 import re
@@ -102,4 +103,5 @@ try:
     run("https://stockinvest.us/digest/category/analysis-and-ideas")
 except Exception as e:
     print("stockinvest exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"stockinvest exec error: {repr(e)}\n")

@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+import traceback
 import urllib.request  # 发送请求
 import json
 import re
@@ -93,16 +94,19 @@ try:
     run("https://www.tipranks.com/api/news/posts?per_page=5&category=article")
 except Exception as e:
     print("tipranks article exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"tipranks article exec error: {repr(e)}\n")
     
 try:
     run("https://www.tipranks.com/api/news/posts?per_page=5&category=global-markets")
 except Exception as e:
     print("tipranks global-markets exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"tipranks global-markets exec error: {repr(e)}\n")
     
 try:
     run("https://www.tipranks.com/api/news/posts?per_page=5&topic=dividend-stocks")
 except Exception as e:
     print("tipranks dividend-stocks exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"tipranks dividend-stocks exec error: {repr(e)}\n")

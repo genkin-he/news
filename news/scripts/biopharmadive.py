@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 from datetime import datetime, timezone, timedelta
 import json
@@ -114,4 +115,5 @@ try:
     run("https://www.biopharmadive.com/press-release/")
 except Exception as e:
     print("biopharmadive exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"biopharmadive exec error: {repr(e)}\n")

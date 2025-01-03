@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 import urllib.request  # 发送请求
 import json
 import re
@@ -93,4 +94,5 @@ try:
     run()
 except Exception as e:
     print("tipranks exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"tipranks exec error: {repr(e)}\n")

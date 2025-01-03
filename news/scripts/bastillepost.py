@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import logging
+import traceback
 from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
@@ -104,4 +105,5 @@ try:
     run("https://www.bastillepost.com/hongkong/category/138491-%e5%9c%b0%e7%94%a2")
 except Exception as e:
     print("bastillepost exec error: ", repr(e))
+    traceback.print_exc()
     log_action_error(f"bastillepost exec error: {repr(e)}\n")
