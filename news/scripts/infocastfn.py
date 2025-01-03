@@ -1,0 +1,115 @@
+# -*- coding: UTF-8 -*-
+import logging
+import urllib.request  # 发送请求
+import json
+from util.util import current_time, current_time_string, history_posts
+from bs4 import BeautifulSoup
+import re
+
+headers = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "accept": "application/json, text/javascript, */*; q=0.01",
+    "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "pragma": "no-cache",
+    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"macOS"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest",
+    "cookie": "COOKIE_SUPPORT=true; __utmc=226899781; __utmz=226899781.1734921819.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=226899781.Member; JSESSIONID=8842425BBDE89336DC2C7D0F4D27C781; GUEST_LANGUAGE_ID=en_US; _gid=GA1.2.532396498.1735809056; _gat_gtag_UA_62880165_3=1; __utma=226899781.1824658911.1734921819.1734921819.1735809056.2; __utmt=1; __utmt_~2=1; lang=en_US; _ga_Z5M39XPJM0=GS1.1.1735809055.3.1.1735809098.0.0.0; _ga=GA1.1.1824658911.1734921819; __utmb=226899781.11.10.1735809056",
+    "Referer": "https://www.infocastfn.com/web/guest/infocast-news",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+}
+
+base_url = "https://www.infocastfn.com"
+filename = "./news/data/infocastfn/list.json"
+current_links = []
+post_count = 0
+
+
+def get_detail(link):
+    print("infocastfn link: ", link)
+    request = urllib.request.Request(link, headers=headers)
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        resp = response.read().decode("utf-8")
+        lxml = BeautifulSoup(resp, "lxml")
+        soup = lxml.select("#newsBody")[0]
+
+        ad_elements = soup.select(".ad")
+        # 移除这些元素
+        for element in ad_elements:
+            element.decompose()
+
+        return str(soup).strip()
+    else:
+        print("infocastfn request: {} error: ".format(link), response)
+        return ""
+
+
+def run():
+    post_count = 0
+    data = history_posts(filename)
+    articles = data["articles"]
+    links = data["links"]
+    insert = False
+
+    # request中放入参数，请求头信息
+    data = b"sEcho=5&iColumns=3&sColumns=datetime%2Cheadline%2Cid&iDisplayStart=0&iDisplayLength=20&iSortingCols=1&iSortCol_0=0&sSortDir_0=desc&bSortable_0=true&bSortable_1=true&bSortable_2=true&jcomparatorName=com.infocast.iweb.comparator.news.NewsJComparator&locale=zh_CN&numProcessingRec=&searchCriteria=%7B%22type%22:%22%22,%22stockCode%22:%22%22,%22grpCode%22:%22NwsType%22%7D"
+    request = urllib.request.Request(
+        "https://www.infocastfn.com/fn/ajax/news/InfocastNewsJsonResult",
+        data=data,
+        headers=headers,
+        method="POST",
+    )
+    # urlopen打开链接（发送请求获取响应）
+    response = urllib.request.urlopen(request)
+    if response.status == 200:
+        resp = response.read().decode("utf-8")
+        nodes = json.loads(resp)["aaData"]
+        for node in nodes:
+            if post_count >= 4:
+                break
+            link = "https://www.infocastfn.com/fn/ajax/news/newsDetail?newsId={}&locale=zh_CN".format(
+                node[2]
+            )
+            if link in ",".join(links):
+                print("infocastfn exists link: ", link)
+                break
+            title = node[1]
+            post_count = post_count + 1
+            description = get_detail(link)
+            if description != "":
+                insert = True
+                articles.insert(
+                    0,
+                    {
+                        "title": title,
+                        "description": description,
+                        "pub_date": current_time_string(),
+                        "link": link,
+                        "source": "infocastfn",
+                        "kind": 2,
+                        "language": "zh-CN",
+                        "id": node[2],
+                    },
+                )
+        if len(articles) > 0 and insert:
+            if len(articles) > 10:
+                articles = articles[:10]
+            with open(filename, "w") as f:
+                f.write(json.dumps({"data": articles}))
+    else:
+        print("infocastfn request error: ", response)
+
+
+try:
+    run()
+except Exception as e:
+    print("infocastfn exec error: ", repr(e))
+    logging.exception(e)
