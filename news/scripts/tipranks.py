@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import history_posts, parse_time
+from util.util import history_posts, log_action_error, parse_time
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -93,4 +93,4 @@ try:
     run()
 except Exception as e:
     print("tipranks exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"tipranks exec error: {repr(e)}\n")

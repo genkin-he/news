@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import history_posts,current_time
+from util.util import history_posts,current_time, log_action_error
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -103,4 +103,4 @@ try:
     run(base_url)
 except Exception as e:
     print("bioon exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"bioon exec error: {repr(e)}\n")

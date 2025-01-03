@@ -4,7 +4,7 @@ from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 from bs4 import BeautifulSoup
 
 headers = {
@@ -105,4 +105,4 @@ try:
     run("https://std.stheadline.com/realtime/%E5%8D%B3%E6%99%82")
 except Exception as e:
     print("stheadline exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"stheadline exec error: {repr(e)}\n")

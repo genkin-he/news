@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 from bs4 import BeautifulSoup
 
 headers = {
@@ -67,4 +67,4 @@ try:
     run()
 except Exception as e:
     print("lieyun exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"lieyun exec error: {repr(e)}\n")

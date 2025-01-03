@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts, parse_time
+from util.util import current_time, history_posts, log_action_error, parse_time
 from bs4 import BeautifulSoup
 
 headers = {
@@ -102,4 +102,4 @@ try:
     run("https://stockinvest.us/digest/category/analysis-and-ideas")
 except Exception as e:
     print("stockinvest exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"stockinvest exec error: {repr(e)}\n")

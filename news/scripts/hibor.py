@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts
+from util.util import history_posts, log_action_error
 from bs4 import BeautifulSoup
 import re
 
@@ -158,4 +158,4 @@ try:
     run()
 except Exception as e:
     print("hibor exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"hibor exec error: {repr(e)}\n")

@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -110,4 +110,4 @@ try:
     run(base_url)
 except Exception as e:
     print("etf exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"etf exec error: {repr(e)}\n")

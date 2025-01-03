@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -102,4 +102,4 @@ try:
     run("https://www.iyiou.com/news")
 except Exception as e:
     print("iyiou exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"iyiou exec error: {repr(e)}\n")

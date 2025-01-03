@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts, has_chinese,current_time
+from util.util import history_posts, has_chinese,current_time, log_action_error
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -106,4 +106,4 @@ try:
     print("businesswire request timeout")
 except Exception as e:
     print("businesswire exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"businesswire exec error: {repr(e)}\n")

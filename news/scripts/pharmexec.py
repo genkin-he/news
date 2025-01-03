@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts, parse_time
+from util.util import history_posts, log_action_error, parse_time
 from datetime import datetime
 from bs4 import BeautifulSoup
 
@@ -106,4 +106,4 @@ try:
     run("https://www.pharmexec.com/rss")
 except Exception as e:
     print("pharmexec exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"pharmexec exec error: {repr(e)}\n")

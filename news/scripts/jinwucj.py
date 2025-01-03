@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts, parse_time
+from util.util import history_posts, log_action_error, parse_time
 from bs4 import BeautifulSoup
 
 headers = {
@@ -89,4 +89,4 @@ try:
     run()
 except Exception as e:
     print("jinwucj exec error: ", e)
-    logging.exception(e)
+    log_action_error(f"jinwucj exec error: {repr(e)}\n")

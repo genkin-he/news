@@ -4,7 +4,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 from bs4 import BeautifulSoup
 
 headers = {
@@ -99,4 +99,4 @@ try:
     print("屏蔽 stop capitoltrades P000197")
 except Exception as e:
     print("capitoltrades P000197 exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"capitoltrades P000197 exec error: {repr(e)}\n")

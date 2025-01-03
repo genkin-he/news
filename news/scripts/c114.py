@@ -2,7 +2,7 @@
 import logging
 import urllib.request  # 发送请求
 import json
-from util.util import current_time, current_time_string, history_posts
+from util.util import current_time, current_time_string, history_posts, log_action_error
 from bs4 import BeautifulSoup
 import re
 
@@ -102,4 +102,4 @@ try:
     run()
 except Exception as e:
     print("c114 exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"c114 exec error: {repr(e)}\n")

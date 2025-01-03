@@ -2,6 +2,7 @@
 import json
 from datetime import datetime, timezone, timedelta
 import hashlib
+import os
 
 path = "./news/scripts/util/urls.json"
 
@@ -55,3 +56,13 @@ def md5(string):
 
 def current_time_string():
     return current_time().strftime("%Y-%m-%d %H:%M:%S")
+
+def append_to_env_var(var_name, data):
+    """
+    往指定环境变量追加数据
+    :param var_name: 环境变量名称
+    :param data: 需要追加的数据
+    """
+    current_value = os.environ.get(var_name, '')
+    new_value = current_value + '\n' + data if current_value else data
+    os.environ[var_name] = new_value

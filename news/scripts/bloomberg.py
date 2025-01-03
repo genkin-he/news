@@ -3,7 +3,7 @@ import logging
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 
 headers = {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
@@ -136,4 +136,4 @@ try:
     print("机器人点击验证无法通过 stop bloomberg")
 except Exception as e:
     print("bloomberg exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"bloomberg exec error: {repr(e)}\n")

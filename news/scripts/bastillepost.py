@@ -4,7 +4,7 @@ from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 from bs4 import BeautifulSoup
 
 headers = {
@@ -104,4 +104,4 @@ try:
     run("https://www.bastillepost.com/hongkong/category/138491-%e5%9c%b0%e7%94%a2")
 except Exception as e:
     print("bastillepost exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"bastillepost exec error: {repr(e)}\n")

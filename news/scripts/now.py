@@ -5,7 +5,7 @@ from urllib.parse import quote
 import urllib.request  # 发送请求
 import json
 import re
-from util.util import current_time, history_posts
+from util.util import current_time, history_posts, log_action_error
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -85,10 +85,10 @@ try:
     run("https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1")
 except Exception as e:
     print("now 121exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"now 121exec error: {repr(e)}\n")
 
 try:
     run("https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1")
 except Exception as e:
     print("now 502exec error: ", repr(e))
-    logging.exception(e)
+    log_action_error(f"now 502exec error: {repr(e)}\n")

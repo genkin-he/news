@@ -6,6 +6,7 @@ on:
 
 env:
   token: ${{ secrets.TOKEN }}
+  feishu_webhook: ${{ secrets.Feishu_Webhook }}
 
 jobs:
   build:
@@ -25,6 +26,11 @@ jobs:
           
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Execute before actions
+        run: |
+          chmod +x ./news/scripts/callbacks/before_actions.py
+          python3 ./news/scripts/callbacks/before_actions.py
         
       - name: Execute Python scripts
         run: |
@@ -35,6 +41,11 @@ jobs:
         run: |
           chmod +x ./news/scripts/*.sh
           find ./news/scripts/*.sh -type f -perm -u=x -print0 | xargs -0 -n 1 -P 4 sh
+
+      - name: Execute after actions
+        run: |
+          chmod +x ./news/scripts/callbacks/after_actions.py
+          python3 ./news/scripts/callbacks/after_actions.py
 
       - name: Configure Git
         run: |

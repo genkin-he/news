@@ -3,6 +3,8 @@ import time
 import urllib.request
 import json
 
+from news.scripts.util.util import log_action_error
+
 headers = {
     "Accept": "application/vnd.github+json",
     "Authorization": f"Bearer {os.environ.get('token')}", # 从环境变量获取 token
@@ -38,4 +40,8 @@ def delete_workflow_runs():
             print(f"删除运行记录 ID: {run_id} 失败: {str(e)}")
 
 if __name__ == "__main__":
-    delete_workflow_runs()
+    try:
+        delete_workflow_runs()
+    except Exception as e:
+        print(f"github actions 删除 workflow runs 过程中发生错误: {str(e)}")
+        log_action_error(f"github actions 删除 workflow runs 过程中发生错误: {str(e)}\n")
