@@ -4,6 +4,9 @@ on:
   repository_dispatch:
     types: [run]
 
+env:
+  token: ${{ secrets.TOKEN }}
+
 jobs:
   build:
     runs-on: macos-latest
