@@ -69,6 +69,7 @@ def append_to_env_var(var_name, data):
         os.environ[var_name] = new_value
     else:
         os.environ[var_name] = data
+    return
 
 def log_action_error(error_message):
     """
@@ -76,3 +77,4 @@ def log_action_error(error_message):
     :param error_message: 错误信息
     """
     append_to_env_var('ACTION_ERRORS', error_message)
+    return

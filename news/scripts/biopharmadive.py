@@ -5,7 +5,7 @@ import urllib.request  # 发送请求
 from datetime import datetime, timezone, timedelta
 import json
 import re
-from util.util import history_posts, log_action_error, parse_time, current_time
+from util.util import history_posts, log_action_error, current_time
 from bs4 import BeautifulSoup
 
 headers = {
