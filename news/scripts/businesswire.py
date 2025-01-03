@@ -3,7 +3,7 @@ import logging
 import traceback
 import urllib.request  # 发送请求
 import json
-from util.util import history_posts, has_chinese,current_time, log_action_error
+from util.util import history_posts, has_chinese, current_time, log_action_error
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -13,17 +13,15 @@ headers = {
     "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
     "cache-control": "no-cache",
     "pragma": "no-cache",
-    "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "document",
     "sec-fetch-mode": "navigate",
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
-    "DNT": "1",
-    "Host": "www.businesswire.com",
     "upgrade-insecure-requests": "1",
-    "cookie": "f5avraaaaaaaaaaaaaaaa_session_=LOBGKMJDLBLOFGAGHOKDAIMPMJAHPAPKGKEFADBHHJJCJDKJEOCALIBILNPHOPMPFEJDBMONLCOFCIPACCIANCCJFJMNJJIOFOLGBNNJGGLAKFNDPHIKAJCLHCCGBPNO; _gcl_au=1.1.1138836933.1725261422; _ga=GA1.1.836911480.1725261423; hubspotutk=d2febbe79b52fd64b53d775bd0c6e287; __hssrc=1; OptanonAlertBoxClosed=2024-09-02T07:19:07.128Z; ak_bmsc=9504B952F7E3FE9A242638EF860D6C6D~000000000000000000000000000000~YAAQs8HJF8tdeJmRAQAAGZA7shiAHPuz8W3DLDZrBIdFi+LiEN8rodH+hNFIp8y0DoyHSdgrVIp1XtVM6fvHmEdxbIUJPnLgFu5f8jUNLuNYX8MG2xiR8KUNAElr7tdAAr0FSmkPufeOqpOP1QwcOrInaFVwi7dDvFgkoJ3VJ4acnCcqo9F5NRCv8CSxoshvGhiU9qiF4ggFsgA+XZlzxTdwBpRNRIn2ArC8Jy9fxh928yRCB2mDilljRKjQ9pHrxxQfA3kp7u2RO+i0znpiGHosSduAri2r8VMwMg8GDB073CU9pXTpWYUzvVE+3lBXvme7I/X8yq9YrYoNMi3pugPpH4Bn9lgUVnhmchDBwuEBZnkviHOjImPbNT34FZp1b/qxrq/c+W2PlctCYPoI0PTyILmQrzv5JFC/SrRP85anJ30axOaPGVLzraS2Ftst+g/QWVzLm5LGMw==; __hstc=241090844.d2febbe79b52fd64b53d775bd0c6e287.1725261433591.1725261433591.1725272135885.2; portal.JSESSIONID=XLb5mVQNZypMkQHnhV4c0x1hnThwxTQgJvhmLjNmj9Kmp7nlXYZC!2023601388!-481950389; TS01d0bfe4=0102e294408e66faebdbb710f1e420c9931ea4c2aa41cc75a6bac4ac00319f8bb2c02526a6ec9a769c308660e715feb9370b3b61e353a961ee9dfad0cb2e1a9c866fad187e8e2c51734a0131537d76f0182b503ff3; TS01c09a27=0102e2944048d352681ad6b440182c19c33782875b1359f4d330502669f92b79350eba8c9caf6ea9b79b2e8cb09242a9defa3049af11ea8163dc6589e42e916000b66a243c; bm_sv=B5A0F47C1FC207D26C565292AE095C4D~YAAQddgjF/rB25iRAQAAxulQshj2pR28Vbgw3Pyc/jLkn43fAkqoC6Wez4BfPFcctdGIRZyX7hBmXkq7on6S0wR1l3rlmzEPZVbQ2jZzNJDpNv4Lk8lfsDFEFf7Spv1udy4LR8x3I/BAOUtBm97GdGssbDwe+1SMSm25hbCtscVeQhLZJm2kQYwSacxwJZDNUW6L74AE3Q5SPplo/sGAZ5pInx4gJRs/+h1/E77LWhKMGJgg2FfB0YjIbbqH9qS+uAtc9fmiwg==~1; OptanonConsent=isIABGlobal=false&datestamp=Mon+Sep+02+2024+18%3A38%3A52+GMT%2B0800+(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&version=6.4.0&hosts=&consentId=f5a2fc7f-4244-43bb-9518-d85b5a16100f&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CC0005%3A1&geolocation=CN%3BSC&AwaitingReconsent=false; _ga_ZQWF70T3FK=GS1.1.1725272130.2.1.1725273533.55.0.0; __hssc=241090844.14.1725272135885",
+    "cookie": "ak_bmsc=CB9A666C9AFDAA687BD4A7B12EA8D00C~000000000000000000000000000000~YAAQddgjF9t0Z7aTAQAA2E6jLBoSuVV/cgF2p+cU6idOPFKsmknXFK/lSsJi7Ehkvss3gx0Qq+lGtR2kInYhhh6dT2wcELPDRsi5DPf1DYxsBiWJFaX0FmHmOOMP6g2xHq3tGPyut8tCjBGKN/wBtALD3iUxSFLmEoKr5nQuQghyF4dGmFW3Oo6qGBjHFLQO5NcvyHGue3R6V3m+XpNl6JdmEgdnh4movzQ9qFTmjAXQ8y2wo4Hk8TsVKFJeG77narlH3PcW/yOIHw2eS6hfON/hWYhfR/uPTpx85ULn3GfIZJrt08qLW0PD1SaPCdBo+Fa0FNTf4DolTHWpNShJf9Z7eCWt93jbAMvNVvrR/sFTYAiF29jPP4lglBxqG13NwlP7uJPppKuIu4VBLro7SKkrjcO++q8ZiDis6pl0mWxfBDQfpLhlmvF16OiivATtuSu2yF1FCKZx; TS01c09a27=0102e294407eb02dbb7f53767e62fefdb01347c7bea8112bcf472493e7323c4a3c9dca2045c538c94e01eaff60b22566b8a72008af3c9e80ff34e046170eb16b70549063bd; bm_sv=231F2EB612C6405F95E8D7732732C8A5~YAAQddgjF950Z7aTAQAAnVCjLBo32lbXFq+QrprlXhkvCYOx3uCadOJzZ1q/0OfaG2rOXocVz23Wan2XCuX+EPxsrMeASAdFxs6qUaMdmuN9BIY9oyE6qPQE2WKbpDlQjO2+Am7LQk0sCbczvPx2klapZXa5cql1B84BP4nHoZzqB7MG0AX2MUCNntiTQEbSz10SYXPBwIqUYMUNS0lSvxe93/3bFutJquacr08nf/Zz+j44fhzMNLxpOTfKuHku1MoWqCbX~1; _gcl_au=1.1.1282362216.1735915688; _ga=GA1.1.1345429448.1735915689; _ga_ZQWF70T3FK=GS1.1.1735915688.1.0.1735915688.60.0.0; __hstc=241090844.a1a57f9bd44d63b2a99b2f7f77683144.1735915689304.1735915689304.1735915689304.1; hubspotutk=a1a57f9bd44d63b2a99b2f7f77683144; __hssrc=1; __hssc=241090844.1.1735915689304; OptanonAlertBoxClosed=2025-01-03T14:48:35.655Z; OptanonConsent=isIABGlobal=false&datestamp=Fri+Jan+03+2025+22%3A48%3A35+GMT%2B0800+(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&version=6.4.0&hosts=&consentId=57f50885-b1c9-4e84-a9c7-d84d75de24cb&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CC0005%3A1",
 }
 
 base_url = "https://www.businesswire.com/"
@@ -103,8 +101,7 @@ def run(link):
 
 
 try:
-    # run("https://www.businesswire.com/portal/site/home/news/")
-    print("businesswire request timeout")
+    run("https://www.businesswire.com/portal/site/home/news/")
 except Exception as e:
     print("businesswire exec error: ", repr(e))
     traceback.print_exc()
