@@ -107,11 +107,9 @@ def run():
     else:
         util.log_action_error("infocastfn request error: {}".format(response))
 
-
 # util.execute_with_timeout(run)
 try:
-    # run()
-    print("infocastfn 汇港资讯网站挂了")
+    run()
 except Exception as e:
     print("infocastfn exec error: ", repr(e))
     traceback.print_exc()
