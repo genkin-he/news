@@ -1,0 +1,61 @@
+name: save news
+
+on:
+  repository_dispatch:
+    types: [run]
+
+env:
+  token: ${{ secrets.TOKEN }}
+  feishu_webhook: ${{ secrets.Feishu_Webhook }}
+  tradingview_cookie: ${{ secrets.Tradingview_Cookie }}
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Execute before actions
+        run: |
+          chmod +x ./news/scripts/callbacks/before_actions.py
+          python3 ./news/scripts/callbacks/before_actions.py || true
+        
+      - name: Execute Python scripts
+        run: |
+          chmod +x ./news/scripts/*.py
+          find ./news/scripts/*.py -type f -perm -u=x -print0 | xargs -0 -n 1 -P 2 -I {} sh -c 'python3 {} || true'
+
+      - name: Execute shell scripts
+        run: |
+          chmod +x ./news/scripts/*.sh
+          find ./news/scripts/*.sh -type f -perm -u=x -print0 | xargs -0 -n 1 -P 2 sh || true
+
+      - name: Execute after actions
+        run: |
+          chmod +x ./news/scripts/callbacks/after_actions.py
+          python3 ./news/scripts/callbacks/after_actions.py || true
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "hemengzhi88@gmail.com"
+          git config --global user.name "genkin-he"
+          
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+          git pull --rebase origin main
+          git push origin main
