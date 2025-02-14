@@ -1,8 +1,80 @@
 {
-    "items": "45",
+    "items": "41",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Estonian Nationals Plead Guilty in $577 Million Crypto HashFlare Ponzi Scheme",
+            "url": "https://decrypt.co/305924/estonian-nationals-plead-guilty-in-577-million-crypto-hashflare-ponzi-scheme",
+            "time_published": "20250214T045020",
+            "authors": [
+                "Vismaya V"
+            ],
+            "summary": "The pair, who face 20 years in prison, lacked the necessary computing power to carry out the crypto mining they had promised to investors.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2019/05/argyle-coin-ponzi-sec-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": -0.138863,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:PLBT",
+                    "relevance_score": "0.173958",
+                    "ticker_sentiment_score": "-0.154503",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "China central bank issues US$8.2 billion in bills in Hong Kong to stabilise yuan",
+            "url": "https://www.scmp.com/business/banking-finance/article/3298642/china-issues-us82-billion-bills-hong-kong-stabilise-yuan-amid-trade-tensions",
+            "time_published": "20250214T043010",
+            "authors": [
+                "Aileen Chuang"
+            ],
+            "summary": "Move is the latest in a series by China's central bank that support Hong Kong's status as a global hub for offshore yuan business.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/14/bd5ee176-885f-47e3-a205-280aef8a9569_25a483ee.jpg?itok=7ikoWOlC&v=1739507408",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.928139"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.134453,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BACHY",
+                    "relevance_score": "0.065327",
+                    "ticker_sentiment_score": "-0.01405",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:CNY",
+                    "relevance_score": "0.318074",
+                    "ticker_sentiment_score": "-0.023422",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Pulse Seismic Inc. Reports 2024 Financial Results and Declares Regular and Special Dividends",
             "url": "https://www.globenewswire.com/news-release/2025/02/14/3026409/0/en/Pulse-Seismic-Inc-Reports-2024-Financial-Results-and-Declares-Regular-and-Special-Dividends.html",
@@ -24,6 +96,99 @@
             "overall_sentiment_score": 0.252963,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Digital Realty Trust  ( DLR )  Q4 2024 Earnings Call Transcript",
+            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/13/digital-realty-trust-dlr-q4-2024-earnings-call-tra/",
+            "time_published": "20250214T040013",
+            "authors": [
+                "Motley Fool Transcribing"
+            ],
+            "summary": "DLR earnings call for the period ending December 31, 2024.",
+            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999993"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.278245,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EVR",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.129552",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "C",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.140066",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.112277",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.140066",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BX",
+                    "relevance_score": "0.013422",
+                    "ticker_sentiment_score": "0.08839",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.140066",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.140066",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ECL",
+                    "relevance_score": "0.004474",
+                    "ticker_sentiment_score": "0.144479",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.008948",
+                    "ticker_sentiment_score": "0.074193",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "Gamestop's Potential Bitcoin Move A 'Hail Mary,' Says Peter Schiff -Crypto Themed On Company Rips 440% - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
@@ -1953,272 +2118,6 @@
                     "ticker": "HOOD",
                     "relevance_score": "0.254307",
                     "ticker_sentiment_score": "0.212338",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, TOP RANKED GLOBAL COUNSEL, Encourages GSK plc Investors to Secure Counsel Before Important Deadline in Securities Class Action - GSK - GSK  ( NYSE:GSK ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43718624/rosen-top-ranked-global-counsel-encourages-gsk-plc-investors-to-secure-counsel-before-important-de",
-            "time_published": "20250214T014700",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of American Depositary Receipts ( \"ADRs\" ) of GSK plc GSK between February 5, 2020 and August 14, 2022, both dates inclusive ( the \"Class Period\" ) , of the important April ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.124041,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.054732",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GSK",
-                    "relevance_score": "0.507601",
-                    "ticker_sentiment_score": "-0.003266",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Intellia Therapeutics, Inc. Shareholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Against NTLA - Intellia Therapeutics  ( NASDAQ:NTLA ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43718433/intellia-therapeutics-inc-shareholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-inves",
-            "time_published": "20250214T012706",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds stockholders that a class action was filed on behalf of all investors who purchased or otherwise acquired Intellia Therapeutics, Inc. NTLA securities between June 30, 2024 and January 28, 2025.",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.079396,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NTLA",
-                    "relevance_score": "0.636698",
-                    "ticker_sentiment_score": "0.036757",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Yerba\u00e9 Expands Georgia Distribution Through Savannah Distributing Company Inc. and Announces Grant of Equity Incentives",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026390/0/en/Yerba%C3%A9-Expands-Georgia-Distribution-Through-Savannah-Distributing-Company-Inc-and-Announces-Grant-of-Equity-Incentives.html",
-            "time_published": "20250214T012600",
-            "authors": [
-                "Yerba\u00e9 Brands Corp."
-            ],
-            "summary": "SCOTTSDALE, Ariz., Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Yerba\u00e9 Brands Corp. ( TSX-V: YERB.U. OTCQX: YERBF ) ( \"Yerba\u00e9\" or the \"Company\" ) , a plant-based functional beverage company, today announced a new partnership with Savannah Distributing Company Inc. ( \"Savannah Distributing\" ) to distribute ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/a1488eea-052b-467f-b2a3-e53b1b9cb826",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.253421,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "YERBF",
-                    "relevance_score": "0.169975",
-                    "ticker_sentiment_score": "0.098853",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.0428",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Trump-Modi Meeting: India To Amp Up US Weapons Purchases, Will Receive F-35 Stealth Fighters - Lockheed Martin  ( NYSE:LMT ) ",
-            "url": "https://www.benzinga.com/25/02/43718396/trump-modi-meeting-india-to-amp-up-us-weapons-purchases-will-receive-f-35-stealth-fighters",
-            "time_published": "20250214T012022",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "President Donald Trump has announced that the United States will escalate its military sales to India from 2025, which will include the supply of F-35 fighter jets.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/13/Modi-Visits-US.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.173641,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SSTK",
-                    "relevance_score": "0.118647",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LMT",
-                    "relevance_score": "0.345674",
-                    "ticker_sentiment_score": "-0.095648",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "BE Resources Announces Application for Resumption of Trading and Corporate Updates",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026389/0/en/BE-Resources-Announces-Application-for-Resumption-of-Trading-and-Corporate-Updates.html",
-            "time_published": "20250214T011900",
-            "authors": [
-                "BE Resources Inc."
-            ],
-            "summary": "TORONTO, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- BE Resources Inc. ( the \"Company\" or \"BE Resources\" ) ( TSXV: BER.H ) is pleased to provide the following corporate update and announce that, further to its press release dated January 6, 2025, the TSX Venture Exchange ( the \"Exchange\" ) has accepted ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/fb625a82-123b-4398-8eb3-c74f1fa01a8f",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": 0.125476,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "SEC Acknowledges Grayscale's XRP ETF Proposal, Setting Stage for Federal Review",
-            "url": "https://decrypt.co/305912/sec-acknowledges-grayscales-xrp-etf-proposal-setting-stage-for-federal-review",
-            "time_published": "20250214T011407",
-            "authors": [
-                "Vince Dioquino"
-            ],
-            "summary": "Details on Grayscale's filing show a comprehensive framework for what could be the industry's first spot XRP fund.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Shutterstock_2253092361-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.977154"
-                }
-            ],
-            "overall_sentiment_score": 0.19085,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.081552",
-                    "ticker_sentiment_score": "0.183999",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.081552",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "These 3 Companies Crushed Quarterly Expectations: PLTR, NFLX, RCL",
-            "url": "https://www.zacks.com/stock/news/2415892/these-3-companies-crushed-quarterly-expectations-pltr-nflx-rcl",
-            "time_published": "20250214T011300",
-            "authors": [
-                "Derek Lewis"
-            ],
-            "summary": "Throughout the Q4 reporting period, three companies, Netflix, Palantir, and Royal Caribbean, all posted notably strong results.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/61/16595.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.839681"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.463009,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NFLX",
-                    "relevance_score": "0.370602",
-                    "ticker_sentiment_score": "0.463901",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "RCL",
-                    "relevance_score": "0.370602",
-                    "ticker_sentiment_score": "0.272316",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
