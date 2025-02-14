@@ -1,8 +1,30 @@
 {
-    "items": "49",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Pulse Seismic Inc. Reports 2024 Financial Results and Declares Regular and Special Dividends",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026409/0/en/Pulse-Seismic-Inc-Reports-2024-Financial-Results-and-Declares-Regular-and-Special-Dividends.html",
+            "time_published": "20250214T041400",
+            "authors": [
+                "Pulse Seismic Inc."
+            ],
+            "summary": "CALGARY, Alberta, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Pulse Seismic Inc. ( TSX:PSD ) ( OTCQX:PLSDF ) ( \"Pulse\" or the \"Company\" ) is pleased to report its financial and operating results for the year ended December 31, 2024. The audited consolidated financial statements, accompanying notes and ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/4a98ae31-8e1a-49c1-b4e2-7184b0efc326",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999606"
+                }
+            ],
+            "overall_sentiment_score": 0.252963,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Gamestop's Potential Bitcoin Move A 'Hail Mary,' Says Peter Schiff -Crypto Themed On Company Rips 440% - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
             "url": "https://www.benzinga.com/25/02/43719682/peter-schiff-says-gamestop-has-thrown-a-hail-mary-by-considering-bitcoin-investments-draws-parallels-with-michael",
@@ -60,6 +82,41 @@
                     "ticker": "CRYPTO:BNB",
                     "relevance_score": "0.193465",
                     "ticker_sentiment_score": "-0.097911",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Japan's China investment drops 60% in 10 years as firms rethink strategies",
+            "url": "https://www.scmp.com/economy/china-economy/article/3298635/japans-china-investment-drops-60-10-years-firms-rethink-strategies",
+            "time_published": "20250214T035521",
+            "authors": [
+                "Luna Sun"
+            ],
+            "summary": "Geopolitical considerations and intense competition from domestic firms have led Japanese companies to move their China investments elsewhere.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/14/bc3116ed-fc97-4d5d-99ad-cf7736f62803_bb937deb.jpg?itok=YuFgZRrb&v=1739505321",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.54554"
+                }
+            ],
+            "overall_sentiment_score": 0.087438,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NISTF",
+                    "relevance_score": "0.060236",
+                    "ticker_sentiment_score": "-0.065",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:JPY",
+                    "relevance_score": "0.12013",
+                    "ticker_sentiment_score": "0.009134",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -141,6 +198,93 @@
                     "ticker": "ARM",
                     "relevance_score": "0.303175",
                     "ticker_sentiment_score": "0.103501",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Twilio  ( TWLO )  Q4 2024 Earnings Call Transcript",
+            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/13/twilio-twlo-q4-2024-earnings-call-transcript/",
+            "time_published": "20250214T034512",
+            "authors": [
+                "Motley Fool Transcribing"
+            ],
+            "summary": "TWLO earnings call for the period ending December 31, 2024.",
+            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.301674,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "0.078409",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BCS",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "0.065665",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MDNDF",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "0.080212",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "0.104661",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BNS",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "0.059212",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "0.059212",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "APG",
+                    "relevance_score": "0.009067",
+                    "ticker_sentiment_score": "0.206467",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.004533",
+                    "ticker_sentiment_score": "-0.058359",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -2076,253 +2220,6 @@
                     "relevance_score": "0.370602",
                     "ticker_sentiment_score": "0.272316",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Neumora Therapeutics, Inc. Shareholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Against NMRA - Neumora Therapeutics  ( NASDAQ:NMRA ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43718056/neumora-therapeutics-inc-shareholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-invest",
-            "time_published": "20250214T010255",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds stockholders that a class action was filed on behalf of all persons or entities who purchased or otherwise acquired Neumora Therapeutics, Inc.",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.858979"
-                }
-            ],
-            "overall_sentiment_score": 0.063113,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NMRA",
-                    "relevance_score": "0.379051",
-                    "ticker_sentiment_score": "0.12809",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "EzFill Holdings Announces Pricing of $15 Million Public Offering and Closing of Share Exchange with NextNRG",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026385/0/en/EzFill-Holdings-Announces-Pricing-of-15-Million-Public-Offering-and-Closing-of-Share-Exchange-with-NextNRG.html",
-            "time_published": "20250214T010100",
-            "authors": [
-                "Inc.",
-                "EzFill Holdings"
-            ],
-            "summary": "NextNRG, Inc. will Trade Under the New Ticker Nasdaq: NXXT NextNRG, Inc. will Trade Under the New Ticker ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/19390236-1423-4270-a207-81c091d1ea15",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.990893"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.327331,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "STT",
-                    "relevance_score": "0.043898",
-                    "ticker_sentiment_score": "0.123823",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EZFL",
-                    "relevance_score": "0.525759",
-                    "ticker_sentiment_score": "0.38373",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Elastic N.V. Shareholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Stockholders of the Class Action Against ESTC - Elastic  ( NYSE:ESTC ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43718047/elastic-n-v-shareholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-stockholders-of-the",
-            "time_published": "20250214T010056",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds stockholders that a class action was filed on behalf of all persons and entities that purchased or otherwise acquired Elastic N.V. ESTC securities between May 31, 2024 and August 29, 2024.",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.089388,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ESTC",
-                    "relevance_score": "0.422897",
-                    "ticker_sentiment_score": "0.164468",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Telus  ( TU )  Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
-            "url": "https://www.zacks.com/stock/news/2415891/telus-tu-q4-earnings-taking-a-look-at-key-metrics-versus-estimates",
-            "time_published": "20250214T010002",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Although the revenue and EPS for Telus (TU) give a sense of how its business performed in the quarter ended December 2024, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.247144,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "NMRA Investor Reminder: Kessler Topaz Meltzer & Check, LLP Reminds Investors of Deadline in Securities Fraud Class Action Lawsuit Filed Against Neumora Therapeutics, Inc. - Neumora Therapeutics  ( NASDAQ:NMRA ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43718001/nmra-investor-reminder-kessler-topaz-meltzer-check-llp-reminds-investors-of-deadline-in-securities",
-            "time_published": "20250214T005542",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "RADNOR, Pa., Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) informs investors that a securities class action lawsuit has been filed in the United States District Court for the Southern District of New York against Neumora Therapeutics, ...",
-            "banner_image": "https://ml.globenewswire.com/media/405ec490-b904-4a5e-85a7-710cdebe280d/small/ktmc-logo-rgb-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.063481,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NMRA",
-                    "relevance_score": "0.238718",
-                    "ticker_sentiment_score": "-0.010991",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Why Iron Mountain Stock Plummeted by Over 7% on Thursday",
-            "url": "https://www.fool.com/investing/2025/02/13/why-iron-mountain-stock-plummeted-by-over-7-on-thu/",
-            "time_published": "20250214T005430",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "Iron Mountain ( NYSE: IRM ) didn't quite end its 2024 on a high note, at least as far as its fundamentals were concerned. Thursday morning, the company released its fourth-quarter and full-year 2024 results, and investors weren't all that pleased with them.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807696/concerned-young-person-with-head-in-hands-gazing-at-a-screen.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.988915"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.168959,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IRM",
-                    "relevance_score": "0.701875",
-                    "ticker_sentiment_score": "0.2364",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Icon PLC Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Stockholders of the Class Action Against ICLR - Icon  ( NASDAQ:ICLR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43717996/icon-plc-stockholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-stockholders-of-the-cl",
-            "time_published": "20250214T005219",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds stockholders that a class action was filed on behalf of all purchasers of ICON PLC ICLR ordinary shares between July 27, 2023 and October 23, 2024. ICON is a clinical research organization ( CRO ) .",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.01702,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ICLR",
-                    "relevance_score": "0.421485",
-                    "ticker_sentiment_score": "0.130633",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
