@@ -69,14 +69,14 @@ def run():
         # 获取 data-cy-id="list-article" 的 div 的所有子 div
         nodes = soup.select('div[data-cy-id="list-article"] > div')
         for node in nodes:
-            if post_count >= 2:
+            if post_count >= 10:
                 break
             link = str(node.select_one("article > div:first-child > a")["href"].strip())
             print("simplywall link: ", link)
             image = str(node.select_one("article > div:first-child img")["src"].strip())
             if link in ",".join(links):
                 print("simplywall exists link: ", link)
-                break
+                continue
             title = str(node.select_one("article > div:nth-of-type(2) h2").text.strip())
             post_count = post_count + 1
             description = get_detail(link)
@@ -97,7 +97,7 @@ def run():
                 )
         if len(articles) > 0 and insert:
             if len(articles) > 10:
-                articles = articles[:10]
+                articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
         util.log_action_error("simplywall request error: {}".format(response))

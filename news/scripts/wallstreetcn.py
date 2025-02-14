@@ -80,48 +80,47 @@ def run():
         body = response.read().decode("utf-8")
         posts = json.loads(body)["data"]["items"]
         for index in range(len(posts)):
-            if index < 3:
-                kind = posts[index]["resource_type"]
-                post = posts[index]["resource"]
-                id = post["id"]
-                title = post["title"]
-                image = ""
-                
-                if kind == "live":
-                    image = "images" in post and post["images"] and len(post["images"]) > 0 and post["images"][0]["uri"]
-                elif "image" in post and post["image"]:
-                    image = post["image"]["uri"]
-                author = ""
-                if "author" in post and post["author"]:
-                    author = post["author"]["display_name"]
+            kind = posts[index]["resource_type"]
+            post = posts[index]["resource"]
+            id = post["id"]
+            title = post["title"]
+            image = ""
+            
+            if kind == "live":
+                image = "images" in post and post["images"] and len(post["images"]) > 0 and post["images"][0]["uri"]
+            elif "image" in post and post["image"]:
+                image = post["image"]["uri"]
+            author = ""
+            if "author" in post and post["author"]:
+                author = post["author"]["display_name"]
 
-                link = post["uri"]
-                if link in ",".join(links):
-                    print("wallstreetcn exists link: ", link)
-                    break
-                description = get_detail(id, kind)
-                if description != "":
-                    if kind == "live":
-                        description = "{} <p><img src='{}' /></p>".format(description, image)
-                    insert = True
-                    articles.insert(
-                        0,
-                        {
-                            "id": id,
-                            "title": title,
-                            "description": description,
-                            "image": image,
-                            "link": link,
-                            "author": author,
-                            "pub_date": util.current_time_string(),
-                            "source": "wallstreetcn",
-                            "kind": 1,
-                            "language": "zh-CN",
-                        },
-                    )
+            link = post["uri"]
+            if link in ",".join(links):
+                print("wallstreetcn exists link: ", link)
+                continue
+            description = get_detail(id, kind)
+            if description != "":
+                if kind == "live":
+                    description = "{} <p><img src='{}' /></p>".format(description, image)
+                insert = True
+                articles.insert(
+                    0,
+                    {
+                        "id": id,
+                        "title": title,
+                        "description": description,
+                        "image": image,
+                        "link": link,
+                        "author": author,
+                        "pub_date": util.current_time_string(),
+                        "source": "wallstreetcn",
+                        "kind": 1,
+                        "language": "zh-CN",
+                    },
+                )
         if len(articles) > 0 and insert:
             if len(articles) > 10:
-                articles = articles[:10]
+                articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
         util.log_action_error("wallstreetcn request error: {}".format(response))
