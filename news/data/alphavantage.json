@@ -1,8 +1,130 @@
 {
-    "items": "41",
+    "items": "43",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Envision Energy Secures 58.5MW Wind Turbine Contract for Libmanan Wind Power Project in the Philippines",
+            "url": "https://www.benzinga.com/pressreleases/25/02/n43723507/envision-energy-secures-58-5mw-wind-turbine-contract-for-libmanan-wind-power-project-in-the-philip",
+            "time_published": "20250214T095500",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "Envision Energy secured contract to supply 58.5MW wind turbines for Aboitiz's Libmanan Wind Power Project in the Philippines.",
+            "banner_image": "https://mma.prnewswire.com/media/2620453/Envision_Energy_supply_58_5_MW_Wind_Turbines_Aboitiz_s_Libmanan.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [],
+            "overall_sentiment_score": 0.459075,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ABZPF",
+                    "relevance_score": "0.317869",
+                    "ticker_sentiment_score": "0.437931",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Plasma Backed By Peter Theil And Tether's Paolo Ardoino Raises $20M To Develop Bitcoin-Based Stablecoin Network",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43723477/billionaire-peter-theil-backed-crypto-startup-plasma-raises-20m-to-develop-bitcoin-based-s",
+            "time_published": "20250214T094712",
+            "authors": [
+                "Namrata Sen"
+            ],
+            "summary": "Crypto startup Plasma has successfully raised $20 million in a funding round. The funds will be used to develop a Bitcoin-based blockchain specifically for stablecoins. What Happened: The fundraising round, spearheaded by Framework Ventures, will support the launch of Plasma's testnet and ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/14/Cryptocurrency-Photo-by-Avi-Rozen-on-Shu.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.9973"
+                }
+            ],
+            "overall_sentiment_score": 0.286754,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.200688",
+                    "ticker_sentiment_score": "0.193573",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.297061",
+                    "ticker_sentiment_score": "0.223381",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.101154",
+                    "ticker_sentiment_score": "0.154969",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:USDT",
+                    "relevance_score": "0.200688",
+                    "ticker_sentiment_score": "0.133455",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Arthur Hayes Says Trump Coin Will Lead Bitcoin If Market Sentiment Turns Favorable, Calls Memecoin 'Purest And Most Honest Popularity Metric'",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43723429/arthur-hayes-says-trump-coin-will-lead-bitcoin-if-market-sentiment-turns-favorable-calls-m",
+            "time_published": "20250214T093642",
+            "authors": [
+                "Aniket Verma"
+            ],
+            "summary": "Arthur Hayes, co-founder of cryptocurrency exchange BitMEX and Chief Investment Officer at Maelstrom Fund, predicted Thursday that a positive shift in the cryptocurrency market sentiment could propel Official Trump TRUMP/USD ahead of Bitcoin BTC/USD.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/14/Cryptocurrency-Photo-by-Igor-Faun-on-Shu.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.336353,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.328819",
+                    "ticker_sentiment_score": "0.459513",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.222838",
+                    "ticker_sentiment_score": "-0.207208",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
         {
             "title": "Mark Zuckerberg's Meta Faces Backlash As Laid-Off Workers Say They Were Unfairly Targeted Despite Strong Performance Records - Meta Platforms  ( NASDAQ:META ) ",
             "url": "https://www.benzinga.com/25/02/43723246/meta-faces-backlash-as-laid-off-workers-say-they-were-unfairly-targeted-despite-strong-performance-records",
@@ -41,6 +163,120 @@
             ]
         },
         {
+            "title": "With Little Moves and Big Results, Devon Energy Is Succeeding in ExxonMobil and Chevron's Shadow",
+            "url": "https://www.fool.com/investing/2025/02/14/big-results-devon-energy-exxonmobil-chevron/",
+            "time_published": "20250214T092000",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "Devon Energy ( NYSE: DVN ) recently completed the acquisition of assets in the Williston Basin ( in the northern central U.S. ) worth roughly $5 billion. That's a tiny deal relative to the roughly $53 billion Hess ( NYSE: HES ) acquisition that Chevron ( NYSE: CVX ) is attempting to complete.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807274%2F25_02_08-roughnecks-at-work-_mf-dload-1201x798-36b7a2e.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.235017,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CVX",
+                    "relevance_score": "0.565145",
+                    "ticker_sentiment_score": "0.311496",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "DVN",
+                    "relevance_score": "0.525907",
+                    "ticker_sentiment_score": "0.316307",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "HES",
+                    "relevance_score": "0.154785",
+                    "ticker_sentiment_score": "0.105434",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "XOM",
+                    "relevance_score": "0.525907",
+                    "ticker_sentiment_score": "0.286992",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Elon Musk's Boring Company To Build 'Dubai Loop' To Handle Upto 100,000 Passengers Per Hour, Slashing Travel Time With Electric Vehicles",
+            "url": "https://www.benzinga.com/25/02/43723200/billionaire-elon-musks-boring-company-to-resolve-traffic-outside-us-with-its-loop-system-but-without-a-deadline",
+            "time_published": "20250214T091739",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "The Roads and Transport Authority of Dubai has entered into a Memorandum of Understanding with 'The Boring Company' to put up a loop system in Dubai, the Elon Musk-owned company said in a statement on Thursday. What Happened: The project, nicknamed Dubai Loop, will initially have 11 stations and ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/14/Russian-MPs-Demand-Names-Of-Opposition-F.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.108209,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "1 High-Yield Dividend Growth Stock Down 12% to Buy Right Now",
+            "url": "https://www.fool.com/investing/2025/02/14/1-high-yield-dividend-growth-stock-down-12-to-buy/",
+            "time_published": "20250214T091500",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "Vici Properties ( NYSE: VICI ) is not a stock for the faint of heart, given that it is highly focused on leasing properties to just one type of business. But the business on which this real estate investment trust ( REIT ) is focused is a good one.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807269%2F21_05_24-five-people-at-a-casino-table-with-an-employee-dealing-cards-_gettyimages-185118796.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.623304"
+                }
+            ],
+            "overall_sentiment_score": 0.227766,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VICI",
+                    "relevance_score": "0.646817",
+                    "ticker_sentiment_score": "0.34331",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Form 8.5  ( EPT/RI )  - Alliance Pharma plc",
             "url": "https://www.globenewswire.com/news-release/2025/02/14/3026486/0/en/Form-8-5-EPT-RI-Alliance-Pharma-plc.html",
             "time_published": "20250214T091300",
@@ -61,6 +297,69 @@
             "overall_sentiment_score": 0.160819,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Is AMD Stock a Buy Now?",
+            "url": "https://www.fool.com/investing/2025/02/14/is-amd-stock-a-buy-now/",
+            "time_published": "20250214T091000",
+            "authors": [
+                "Leo Sun"
+            ],
+            "summary": "The underdog chipmaker still has pretty sharp teeth.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807258/an-illustration-of-a-semiconductor.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999499"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.239809,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.452384",
+                    "ticker_sentiment_score": "0.187267",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.053271",
+                    "ticker_sentiment_score": "-0.054011",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SNEJF",
+                    "relevance_score": "0.053271",
+                    "ticker_sentiment_score": "-0.054011",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.360005",
+                    "ticker_sentiment_score": "0.32588",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
         },
         {
             "title": "Form 8.5  ( EPT/RI )  - Thruvision Group plc",
@@ -156,6 +455,181 @@
             ]
         },
         {
+            "title": "Form 8.5  ( EPT/RI )  - Dowlais Group plc",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026475/0/en/Form-8-5-EPT-RI-Dowlais-Group-plc.html",
+            "time_published": "20250214T090300",
+            "authors": [
+                "INVESTEC BANK PLC"
+            ],
+            "summary": "FORM ...",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.160819,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "VEON's Kyivstar and the Come Back Alive Foundation Raise USD 2.6 Million for Demining in Ukraine",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026470/0/en/VEON-s-Kyivstar-and-the-Come-Back-Alive-Foundation-Raise-USD-2-6-Million-for-Demining-in-Ukraine.html",
+            "time_published": "20250214T090000",
+            "authors": [
+                "VEON Ltd."
+            ],
+            "summary": "Dubai and Kyiv, February 14, 2025: VEON Ltd. ( Nasdaq: VEON ) , a global digital operator, announces that VEON's wholly owned digital operator in Ukraine Kyivstar, together with the Come Back Alive Foundation, has jointly raised nearly UAH 107 million ( USD 2.6 million ) for the We Live Here 2.0 ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/3a431b22-b647-4855-ab72-b3a8aa08a08f",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.295524,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VEON",
+                    "relevance_score": "0.372912",
+                    "ticker_sentiment_score": "0.334091",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "2 Warren Buffett Stocks to Hold Forever",
+            "url": "https://www.fool.com/investing/2025/02/14/2-warren-buffett-stocks-to-hold-forever/",
+            "time_published": "20250214T090000",
+            "authors": [
+                "John Ballard"
+            ],
+            "summary": "Many investors are drawn to Warren Buffett's investing style. Buying shares of exceptional companies at fair prices can lead to spectacular results over the long term. There's no better place to find \"forever\" worthy investments than Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) itself.Here ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807134/warren-buffett-investor.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.875462"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.406191,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AXP",
+                    "relevance_score": "0.065506",
+                    "ticker_sentiment_score": "0.167364",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.065506",
+                    "ticker_sentiment_score": "0.167364",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.318897",
+                    "ticker_sentiment_score": "0.334985",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.194763",
+                    "ticker_sentiment_score": "0.339951",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "This Warren Buffett Index Fund Could Turn $400 Per Month Into $868,200",
+            "url": "https://www.fool.com/investing/2025/02/14/warren-buffett-index-fund-turn-400-into-868200/",
+            "time_published": "20250214T090000",
+            "authors": [
+                "Trevor Jennewine"
+            ],
+            "summary": "Warren Buffett is one of the most successful investors in U.S. history. Under his control, Berkshire Hathaway shares have returned about 20% annually since 1965. And brilliant investments engineered by Buffett played an important role in that shareholder value creation.Naturally, Buffett has ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807446%2Fmoney-21.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999894"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.274389,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.061631",
+                    "ticker_sentiment_score": "0.172086",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.061631",
+                    "ticker_sentiment_score": "0.172086",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SPGI",
+                    "relevance_score": "0.061631",
+                    "ticker_sentiment_score": "0.069048",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.061631",
+                    "ticker_sentiment_score": "0.172086",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.061631",
+                    "ticker_sentiment_score": "0.370837",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
             "title": "VEON's Kyivstar and the Come Back Alive Foundation Raise USD 2.6 Million for Demining in Ukraine - VEON  ( NASDAQ:VEON ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43723011/veons-kyivstar-and-the-come-back-alive-foundation-raise-usd-2-6-million-for-demining-in-ukraine",
             "time_published": "20250214T090000",
@@ -183,6 +657,54 @@
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
+        },
+        {
+            "title": "3 Steps to Protect Your Retirement Accounts, No Matter What Happens In the Stock Market",
+            "url": "https://www.fool.com/retirement/2025/02/14/3-steps-to-protect-your-retirement-accounts-no-mat/",
+            "time_published": "20250214T090000",
+            "authors": [
+                "Katie Brockman"
+            ],
+            "summary": "While the stock market is still thriving, some investors may be feeling wary about the future. Spiking inflation could cause the Federal Reserve to shift its plans for interest rates in 2025, which could potentially affect the stock market.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807488%2Fperson-sitting-at-a-desk-looking-at-a-laptop-and-documents.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999612"
+                }
+            ],
+            "overall_sentiment_score": -0.031927,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Form 8.5  ( EPT/RI - De La Rue plc",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026468/0/en/Form-8-5-EPT-RI-De-La-Rue-plc.html",
+            "time_published": "20250214T085500",
+            "authors": [
+                "INVESTEC BANK PLC"
+            ],
+            "summary": "FORM ...",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.160819,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Should You Forget Amazon? Why These Unstoppable Stocks Are Better Buys.",
@@ -476,6 +998,53 @@
             "overall_sentiment_score": 0.248674,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Zacks Industry Outlook Molson Coors, The Boston Beer and Compania Cervecerias Unidas",
+            "url": "https://www.zacks.com/stock/news/2415901/zacks-industry-outlook-molson-coors-the-boston-beer-and-compania-cervecerias-unidas",
+            "time_published": "20250214T082300",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Molson Coors, The Boston Beer and Compania Cervecerias Unidas have been highlighted in this Industry Outlook article.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/83/1159.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.996023"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.976671"
+                }
+            ],
+            "overall_sentiment_score": 0.153672,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CCU",
+                    "relevance_score": "0.145291",
+                    "ticker_sentiment_score": "0.160901",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SAM",
+                    "relevance_score": "0.169166",
+                    "ticker_sentiment_score": "0.217063",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
         },
         {
             "title": "This Little-Known E-Commerce Powerhouse Stock Could Skyrocket on Feb. 19",
@@ -897,6 +1466,53 @@
             ]
         },
         {
+            "title": "Hims & Hers Health  ( HIMS )  Surges 27.7%: Is This an Indication of Further Gains?",
+            "url": "https://www.zacks.com/stock/news/2415898/hims-hers-health-hims-surges-277-is-this-an-indication-of-further-gains",
+            "time_published": "20250214T075500",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Hims & Hers Health (HIMS) saw its shares surge in the last session with trading volume being higher than average. The latest trend in earnings estimate revisions may not translate into further price increase in the near term.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default94.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.972476"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.266934,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HIMS",
+                    "relevance_score": "0.656549",
+                    "ticker_sentiment_score": "0.428307",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NYXH",
+                    "relevance_score": "0.570165",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Essent Group Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Essent Group  ( NYSE:ESNT ) ",
             "url": "https://www.benzinga.com/25/02/43722302/essent-group-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
             "time_published": "20250214T075223",
@@ -1275,533 +1891,6 @@
                     "relevance_score": "0.110973",
                     "ticker_sentiment_score": "-0.07675",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Moderna Gears Up For Q4 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts - Moderna  ( NASDAQ:MRNA ) ",
-            "url": "https://www.benzinga.com/25/02/43721679/moderna-gears-up-for-q4-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
-            "time_published": "20250214T071548",
-            "authors": [
-                "Avi Kapoor"
-            ],
-            "summary": "Moderna, Inc. MRNA will release its fourth-quarter financial results, before the opening bell, on Friday, Feb. 14, 2025. Analysts expect the Cambridge, Massachusetts-based company to report a quarterly loss at $2.68 per share, versus earnings of 55 cents per share in the year-ago period.",
-            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/02/14021457/image-128-1024x579.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.614606"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": 0.159787,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MRNA",
-                    "relevance_score": "0.560594",
-                    "ticker_sentiment_score": "0.388867",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Jeff Bezos' Blue Origin To Lay Off 10% Employees Despite Successful Launch To Orbit: Report",
-            "url": "https://www.benzinga.com/25/02/43721476/bezos-blue-origin-to-lay-off-10-employees-despite-successful-launch-to-orbit-report",
-            "time_published": "20250214T070459",
-            "authors": [
-                "Anan Ashraf"
-            ],
-            "summary": "Jeff Bezos' space company Blue Origin is reportedly laying off about 10 percent of its workforce despite a successful launch of its New Glenn launch vehicle in January. What Happened: The layoff is expected to impact roughly 1400 of Blue Origin's 14000 employees, Reuters reported, citing company ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/14/Blue-Origin.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.004794,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ASTS",
-                    "relevance_score": "0.115232",
-                    "ticker_sentiment_score": "-0.078949",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Zacks Investment Ideas feature highlights Alibaba, JD.com, Baidu, KWEB and Apple",
-            "url": "https://www.zacks.com/stock/news/2415895/zacks-investment-ideas-feature-highlights-alibaba-jdcom-baidu-kweb-and-apple",
-            "time_published": "20250214T070300",
-            "authors": [
-                "Zacks Investment Research"
-            ],
-            "summary": "Alibaba, JD.com, Baidu, KWEB and Apple have been highlighted in this Investment Ideas article.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/3b/720.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99676"
-                }
-            ],
-            "overall_sentiment_score": 0.14871,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.30928",
-                    "ticker_sentiment_score": "0.120412",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.188683",
-                    "ticker_sentiment_score": "0.007467",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BACHY",
-                    "relevance_score": "0.063425",
-                    "ticker_sentiment_score": "0.093307",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BIDU",
-                    "relevance_score": "0.188683",
-                    "ticker_sentiment_score": "0.076416",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Claudia Sheinbaum Says Mexican Government May Sue Google Over 'Gulf Of Mexico' Name Change - Alphabet  ( NASDAQ:GOOG ) , Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/25/02/43721460/google-under-fire-as-mexico-considers-lawsuit-over-gulf-of-mexico-name-change",
-            "time_published": "20250214T070154",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Mexican President Claudia Sheinbaum said Thursday that her government may file a civil lawsuit against Alphabet Inc.'s GOOG GOOGL Google for labeling the Gulf of Mexico as the \"Gulf of America\" on its maps, following a controversial decree by U.S. President Donald Trump.",
-            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/02/14013926/Screenshot-2025-02-14-at-12.09.13%E2%80%AFPM-1024x615.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.105975,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.227007",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.436009",
-                    "ticker_sentiment_score": "-0.060331",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.227007",
-                    "ticker_sentiment_score": "0.066481",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Apple, Tesla And Other MAG 7 Peers Too Expensive? Top Hedge Fund Challenges 'Overvaluation' Concerns - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/02/43721445/apple-tesla-and-other-mag-7-peers-too-expensive-top-hedge-fund-challenges-overvaluation-concerns",
-            "time_published": "20250214T070102",
-            "authors": [
-                "Namrata Sen"
-            ],
-            "summary": "Top Hedge Fund Bridgewater Associates has questioned the widespread notion that the 'Magnificent Seven' stocks are overvalued, while the rest of the S&P 500 stocks are comparatively undervalued.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/14/Wall-Street-Cautiously-Optimistic-About-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.890401"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.226581,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.097144",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.097144",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.234307",
-                    "ticker_sentiment_score": "0.296898",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.097144",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.097144",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.097144",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.07913",
-                    "ticker_sentiment_score": "0.033438",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "AKVA group ASA: Q4 2024 financial reporting",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026448/0/en/AKVA-group-ASA-Q4-2024-financial-reporting.html",
-            "time_published": "20250214T070100",
-            "authors": [
-                "AKVA group ASA"
-            ],
-            "summary": "Record high Sea Based order intake.",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/5f6f0118-6573-4f36-9b8c-00c2d2d49981",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999976"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": 0.248604,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Jack Ma tours Alibaba's Freshippo supermarket in central China",
-            "url": "https://www.scmp.com/tech/big-tech/article/3298674/jack-ma-tours-alibabas-freshippo-supermarket-central-china-after-xianyu-visit",
-            "time_published": "20250214T070044",
-            "authors": [
-                "Ann Cao"
-            ],
-            "summary": "The Alibaba founder was spotted visiting one of the company's grocery stores just days after visiting its Hangzhou campus.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/14/95be1f13-dc9f-45f3-897a-faaafd9b7f95_ae971be4.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Money",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.153483,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.570165",
-                    "ticker_sentiment_score": "0.158329",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Equinor ASA: Notifiable trading",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026434/0/en/Equinor-ASA-Notifiable-trading.html",
-            "time_published": "20250214T070000",
-            "authors": [
-                "Equinor ASA"
-            ],
-            "summary": "Allocation of shares to certain primary insiders and their close associates in Equinor ( OSE: EQNR, NYSE: EQNR ) under Equinor's share savings plan.",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/e60cd9f0-14f4-48a6-8ef3-351dd8211a6c",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.462691,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Caledonia Mining Corporation Plc: Appointments of Stefan Buys and Lesley Goldwasser as Non-Executive Directors - Caledonia Mining  ( AMEX:CMCL ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43721420/caledonia-mining-corporation-plc-appointments-of-stefan-buys-and-lesley-goldwasser-as-non-executiv",
-            "time_published": "20250214T070000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ST HELIER, Jersey, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- Caledonia Mining Corporation Plc ( \"Caledonia\" or \"the Company\" ) ( NYSE AMERICAN, AIM and VFEX: CMCL ) is pleased to announce the appointments of Stefan Buys and Lesley Goldwasser to the board of directors of the Company ( \"the Board\" ) as ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.183679,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TIPT",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.112",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MT",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.040713",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Herm\u00e8s International: 2024 Full-Year Results",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026433/0/en/Herm%C3%A8s-International-2024-Full-Year-Results.html",
-            "time_published": "20250214T070000",
-            "authors": [
-                "Herm\u00e8s International"
-            ],
-            "summary": "Outstanding results in ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/fae5b6f8-dd35-43e5-bc5b-45c789079194",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.335658,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HESAF",
-                    "relevance_score": "0.020146",
-                    "ticker_sentiment_score": "0.181652",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TKSHF",
-                    "relevance_score": "0.020146",
-                    "ticker_sentiment_score": "0.179357",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.020146",
-                    "ticker_sentiment_score": "0.179357",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Nextensa secures proceeds Wereldhave N.V. deal",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026432/0/en/Nextensa-secures-proceeds-Wereldhave-N-V-deal.html",
-            "time_published": "20250214T070000",
-            "authors": [
-                "Nextensa NV"
-            ],
-            "summary": "Nextensa secures funds following the sale of Knauf shopping centres by placement of Wereldhave N.V. shares Nextensa NV/SA ( \"Nextensa\" ) announces the successful completion of the sale of 2,206,838 shares, in Wereldhave N.V., representing ca. 5% of Wereldhave N.V.'s share capital by means of a ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/22bc06ae-4529-4dbc-92b5-673c84659d52",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.259812,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FTS",
-                    "relevance_score": "0.131643",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WRDEF",
-                    "relevance_score": "0.492659",
-                    "ticker_sentiment_score": "0.595304",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "ABMRF",
-                    "relevance_score": "0.131643",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Wereldhave announces successful completion of placement of shares",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026435/0/en/Wereldhave-announces-successful-completion-of-placement-of-shares.html",
-            "time_published": "20250214T070000",
-            "authors": [
-                "Wereldhave N.V."
-            ],
-            "summary": "Wereldhave N.V. ( \"Wereldhave\" ) informs that the issuance of 2,206,838 new Wereldhave N.V. shares, after market on Thursday 13 February 2025, following the contribution in kind of an asset related to Knauf Shopping Center Schmiede ( Luxembourg ) to Wereldhave, by Nextensa N.V., has been ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/494e0d7e-884b-4fc6-a612-83e861833a58",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.285477,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FTS",
-                    "relevance_score": "0.295867",
-                    "ticker_sentiment_score": "0.255159",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WRDEF",
-                    "relevance_score": "0.977302",
-                    "ticker_sentiment_score": "0.487266",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "ABMRF",
-                    "relevance_score": "0.295867",
-                    "ticker_sentiment_score": "0.255159",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Publishing of Innofactor's 2024 Financial Statements Bulletin",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026436/0/en/Publishing-of-Innofactor-s-2024-Financial-Statements-Bulletin.html",
-            "time_published": "20250214T070000",
-            "authors": [
-                "Innofactor Oyj"
-            ],
-            "summary": "Innofactor Plc Investor News, on February 14, 2025, at 9:00 Finnish time ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/5c41619d-c3fa-43f1-9bc4-faa05c30ad0e",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.397104,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.443626",
-                    "ticker_sentiment_score": "0.604959",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
