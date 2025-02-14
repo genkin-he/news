@@ -44,7 +44,6 @@ def get_detail(link):
             last_p.decompose()
         last_div = soup.find_all('div')[-1]
         if last_div:
-            print("simplywall last_div: ", last_div)
             last_div.decompose()
 
         return str(soup).strip()
