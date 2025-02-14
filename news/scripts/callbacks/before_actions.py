@@ -3,9 +3,6 @@ import json
 import requests
 import time
 from typing import List, Dict
-from concurrent.futures import ThreadPoolExecutor
-from bs4 import BeautifulSoup
-
 
 def fetch_proxies() -> List[Dict[str, str]]:
     """
