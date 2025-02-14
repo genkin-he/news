@@ -1,8 +1,197 @@
 {
-    "items": "39",
+    "items": "36",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Brian Armstrong Wants To Handle Growing Volumes Of Memecoins By Adding DEXes Into Coinbase: 'A Little Bit Like The Early Days Of The Internet'",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43721043/brian-armstrong-wants-to-handle-growing-volumes-of-memecoins-by-adding-dexes-into-coinbase",
+            "time_published": "20250214T062359",
+            "authors": [
+                "Aniket Verma"
+            ],
+            "summary": "Brian Armstrong, the CEO of Coinbase Global Inc. COIN, has voiced the necessity for a reevaluation of the company's token listing process amid a surge in meme coin launches.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/14/Coinbase-Photo-by-Below-the-Sky-on-Shutt.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.276323,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.114682",
+                    "ticker_sentiment_score": "0.013462",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.68732",
+                    "ticker_sentiment_score": "0.399899",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Court Grants 60-Day Pause in Binance, SEC Dispute",
+            "url": "https://decrypt.co/305943/court-grants-60-day-pause-in-binance-sec-dispute",
+            "time_published": "20250214T061907",
+            "authors": [
+                "Vismaya V"
+            ],
+            "summary": "The 60-day pause may prompt other crypto giants like Ripple and Coinbase to reassess their legal disputes under a new SEC.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/08/Scale-of-Justice-Judge-Gavel-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.125929,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.106541",
+                    "ticker_sentiment_score": "-0.084099",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Warren Buffett's Berkshire Hathaway Sells Nearly $36 Million Worth Of Dialysis Giant DaVita's Shares Amid Q4 Earnings Beat - SPDR S&P 500  ( ARCA:SPY ) , DaVita  ( NYSE:DVA ) ",
+            "url": "https://www.benzinga.com/general/market-summary/25/02/43721022/warren-buffetts-berkshire-hathaway-sells-nearly-36-million-worth-of-dialysis-giant-davitas",
+            "time_published": "20250214T061654",
+            "authors": [
+                "Rishabh Mishra"
+            ],
+            "summary": "Buffett's Berkshire reduced its stake to 45% in DVA abiding by its earlier share repurchase agreement. According to Reuters, Berkshire has owned DaVita since the fourth quarter of 2011. Get two weeks of free access to pro-level trading tools, including news alerts, scanners, and real-time market ...",
+            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/02/14004226/DVA-ANR-1024x383.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.976913"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.917436"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.344655,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DVA",
+                    "relevance_score": "0.76557",
+                    "ticker_sentiment_score": "0.518459",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "BCS",
+                    "relevance_score": "0.072876",
+                    "ticker_sentiment_score": "0.097692",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.072876",
+                    "ticker_sentiment_score": "0.004082",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "KUN, Global Digital Payment Service Provider, Secures Multi-Million Dollar Seed Round Funding Led by BAI Capital",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43720926/kun-global-digital-payment-service-provider-secures-multi-million-dollar-seed-round-funding-led-by",
+            "time_published": "20250214T060456",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "HONG KONG, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- KUN, a trusted global digital payment provider, has successfully closed a multi-million dollar seed round, led by BAI Capital, with participation from GSR Ventures, Hash Global and other strategic investors.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/e14bb9d8-9665-4b88-96d6-ce81803f1921/kun.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.682689"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.502834,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Norsk Hydro: Key information related to proposed cash dividend",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026416/0/en/Norsk-Hydro-Key-information-related-to-proposed-cash-dividend.html",
+            "time_published": "20250214T060200",
+            "authors": [
+                "Norsk Hydro"
+            ],
+            "summary": "The Board of Directors of Norsk Hydro ASA have decided to propose to the General Meeting a dividend of NOK 2.25 per share on the basis of the company's financial statements for the financial year 2024.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/0397e268-eadd-47dd-91bb-ad1421d75678",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.181243,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Richemont announces changes to Senior Executive Committee and Board of Directors",
             "url": "https://www.globenewswire.com/news-release/2025/02/14/3026410/0/en/Richemont-announces-changes-to-Senior-Executive-Committee-and-Board-of-Directors.html",
@@ -68,6 +257,79 @@
                     "ticker": "FOREX:EUR",
                     "relevance_score": "0.083444",
                     "ticker_sentiment_score": "0.036662",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Coop Pank AS results for January 2025",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026411/0/en/Coop-Pank-AS-results-for-January-2025.html",
+            "time_published": "20250214T060000",
+            "authors": [
+                "Coop Pank AS"
+            ],
+            "summary": "Coop Pank's financial results in January ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/18ed7e2b-c5c1-464c-bd7a-ac6894233dad",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                }
+            ],
+            "overall_sentiment_score": 0.329065,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Subject: Lexibook: Q3 2024-25 Revenue at \u20ac39.3M, up 31.1%. Over 9 months, revenue increases by 23.43%.",
+            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026412/0/en/Subject-Lexibook-Q3-2024-25-Revenue-at-39-3M-up-31-1-Over-9-months-revenue-increases-by-23-43.html",
+            "time_published": "20250214T060000",
+            "authors": [
+                "LEXIBOOK"
+            ],
+            "summary": "Les Ulis, February 14, 2024, 7:00 AM ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/a02fb508-e7a6-4e2e-b3fa-aa58ab1dfc6d",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999897"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.263168,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:EUR",
+                    "relevance_score": "0.07887",
+                    "ticker_sentiment_score": "0.114723",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.07887",
+                    "ticker_sentiment_score": "-0.098845",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1504,536 +1766,6 @@
                     "ticker": "AAPL",
                     "relevance_score": "0.805471",
                     "ticker_sentiment_score": "-0.060628",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "DBGI Announces Pricing of $7.5 Million Public Offering of Units of Common Stock and/or Pre-Funded Warrants and Warrants",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026404/0/en/DBGI-Announces-Pricing-of-7-5-Million-Public-Offering-of-Units-of-Common-Stock-and-or-Pre-Funded-Warrants-and-Warrants.html",
-            "time_published": "20250214T024700",
-            "authors": [
-                "Inc.",
-                "Digital Brands Group"
-            ],
-            "summary": "Austin, TX, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- Digital Brands Group, Inc. ( \"DBG\" ) ( OTC PINK: DBGI ) , a curated collection of luxury lifestyle brands, announces the pricing of its public offering of an aggregate of 11.36 million units, of which each unit includes a share of common stock ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/7c37131b-02b9-4c01-b2c3-f7b0689e1c82",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.972476"
-                }
-            ],
-            "overall_sentiment_score": 0.10998,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DBGI",
-                    "relevance_score": "0.119038",
-                    "ticker_sentiment_score": "0.034368",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "DexCom  ( DXCM )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/13/dexcom-dxcm-q4-2024-earnings-call-transcript/",
-            "time_published": "20250214T024515",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "DXCM earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.98396"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.259566,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.003974",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.003974",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.003974",
-                    "ticker_sentiment_score": "0.043901",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.003974",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CCORF",
-                    "relevance_score": "0.003974",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DXCM",
-                    "relevance_score": "0.06352",
-                    "ticker_sentiment_score": "0.120197",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.003974",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Applied Materials  ( AMAT )  Q1 2025 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/13/applied-materials-amat-q1-2025-earnings-call-trans/",
-            "time_published": "20250214T024511",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "AMAT earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999999"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.293065,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMAT",
-                    "relevance_score": "0.02627",
-                    "ticker_sentiment_score": "0.148335",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.005255",
-                    "ticker_sentiment_score": "0.193454",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.005255",
-                    "ticker_sentiment_score": "0.193454",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.005255",
-                    "ticker_sentiment_score": "0.094294",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.005255",
-                    "ticker_sentiment_score": "0.193454",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:AMD",
-                    "relevance_score": "0.120404",
-                    "ticker_sentiment_score": "0.141286",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "InflaRx Announces Pricing of $30 Million Public Offering of Ordinary Shares and Pre-Funded Warrants",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026403/0/en/InflaRx-Announces-Pricing-of-30-Million-Public-Offering-of-Ordinary-Shares-and-Pre-Funded-Warrants.html",
-            "time_published": "20250214T024500",
-            "authors": [
-                "InflaRx N.V."
-            ],
-            "summary": "JENA, Germany, Feb. 13, 2025 ( GLOBE NEWSWIRE ) -- InflaRx N.V. ( Nasdaq: IFRX ) ( the \"Company\" ) , a biopharmaceutical company pioneering anti-inflammatory therapeutics targeting the complement system, announced today the pricing of its underwritten public offering of 8,250,000 ordinary shares ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/e017df5c-9a9b-4f4f-9a94-6c2eeb0400bc",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.614606"
-                }
-            ],
-            "overall_sentiment_score": 0.144062,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IFRX",
-                    "relevance_score": "0.206245",
-                    "ticker_sentiment_score": "0.171788",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Apple, Google restore TikTok app in US after assurances from Trump",
-            "url": "https://www.scmp.com/tech/big-tech/article/3298624/apple-google-restore-tiktok-app-us-after-trump-halts-enforcement-ban",
-            "time_published": "20250214T024407",
-            "authors": [
-                "Bloomberg"
-            ],
-            "summary": "The Chinese video app briefly went dark last month to comply with a federal ban.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/14/61c246db-958e-4a22-a9c6-e853b6d12b27_666a4367.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.036215,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.306963",
-                    "ticker_sentiment_score": "0.047898",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Singapore is set to deliver its first budget under its new prime minister. Here's what to expect",
-            "url": "https://www.cnbc.com/2025/02/14/singapore-2025-budget-what-to-expect-under-lawrence-wong.html",
-            "time_published": "20250214T023719",
-            "authors": [],
-            "summary": "Lawrence Wong, who took the helm from Lee Hsien Loong, will deliver the budget on Feb. 18. The country is due for a general election by November.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Top News",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.134402,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.052112",
-                    "ticker_sentiment_score": "0.007989",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.052112",
-                    "ticker_sentiment_score": "-0.072004",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "GME, COIN, PANW, ABNB, TSLA: Top 5 Trending Stocks Today - Airbnb  ( NASDAQ:ABNB ) ",
-            "url": "https://www.benzinga.com/25/02/43719097/gamestop-coinbase-palo-alto-airbnb-tesla-why-these-5-stocks-are-on-investors-radars-today",
-            "time_published": "20250214T023339",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "Stocks surged today, with the S&P 500 approaching record levels and the Nasdaq 100 posting strong gains. Investors largely shrugged off President Donald Trump's proposed reciprocal tariffs, which remain under review.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/13/Super-Micro-Computer--Upstart--Lyft--Doo.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.5855"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.995973"
-                }
-            ],
-            "overall_sentiment_score": 0.172634,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.171485",
-                    "ticker_sentiment_score": "0.081747",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.086245",
-                    "ticker_sentiment_score": "0.061738",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.086245",
-                    "ticker_sentiment_score": "0.040684",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GME",
-                    "relevance_score": "0.171485",
-                    "ticker_sentiment_score": "-0.001454",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PANW",
-                    "relevance_score": "0.086245",
-                    "ticker_sentiment_score": "0.014716",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.171485",
-                    "ticker_sentiment_score": "-0.001454",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Hong Kong stocks head for fifth winning week on gradual tariffs, DeepSeek trade",
-            "url": "https://www.scmp.com/business/china-business/article/3298621/hong-kong-stocks-head-fifth-winning-week-gradual-tariffs-deepseek-trade",
-            "time_published": "20250214T023034",
-            "authors": [
-                "Zhang Shidong"
-            ],
-            "summary": "A measured US approach to reciprocal tariffs assuages investors as DeepSeek mania continues to power tech stocks.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/14/6f969335-a74d-4f45-a506-ad34d29f1129_494e231c.jpg?itok=L0QG0GBt&v=1739500232",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [],
-            "overall_sentiment_score": 0.083025,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.156461",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "XIACY",
-                    "relevance_score": "0.156461",
-                    "ticker_sentiment_score": "0.305855",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TCTZF",
-                    "relevance_score": "0.156461",
-                    "ticker_sentiment_score": "0.305855",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin, Ethereum, Dogecoin Flat Amid 'Reciprocal Tariffs' Talk By Trump: Why This Analyst Said BTC Was In 'No Man's Land' - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
-            "url": "https://www.benzinga.com/25/02/43719017/bitcoin-ethereum-dogecoin-flat-amid-trumps-reciprocal-tariffs-hotter-than-expected-ppi-why-this-analyst-said-btc-",
-            "time_published": "20250214T021908",
-            "authors": [
-                "Aniket Verma"
-            ],
-            "summary": "Leading cryptocurrencies traded flat Thursday amid President Donald Trump's announcement of \"reciprocal tariffs\" and yet another hotter inflation data. What Happened: Bitcoin hit an intraday low of $95,269.71, following Wednesday's move above $98,000, as the apex cryptocurrency's wait to reclaim ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/13/Cryptocurrency-Photo-by-CMP-NZ-on-Shutte.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": -0.067538,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.262994",
-                    "ticker_sentiment_score": "-0.096497",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.262994",
-                    "ticker_sentiment_score": "-0.092244",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Airbnb  ( ABNB )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/13/airbnb-abnb-q4-2024-earnings-call-transcript/",
-            "time_published": "20250214T021512",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "ABNB earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.274658,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.249311",
-                    "ticker_sentiment_score": "0.207572",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.004089",
-                    "ticker_sentiment_score": "0.105101",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.004089",
-                    "ticker_sentiment_score": "0.111905",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.004089",
-                    "ticker_sentiment_score": "0.105101",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.004089",
-                    "ticker_sentiment_score": "0.111905",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.004089",
-                    "ticker_sentiment_score": "0.075529",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
