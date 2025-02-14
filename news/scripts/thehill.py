@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import logging
 import traceback
-import urllib.request  # 发送请求
+import requests  # 替换 urllib
 import json
 import re
 from bs4 import BeautifulSoup
@@ -32,22 +32,23 @@ filename = "./news/data/thehill/list.json"
 
 def get_detail(link):
     print("thehill link: ", link)
-    request = urllib.request.Request(link, None, headers)
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        resp = response.read().decode("utf-8")
-        body = BeautifulSoup(resp, "lxml")
-        soup = body.select(".article__text")[0]
+    try:
+        response = requests.get(link, headers=headers, proxies=util.get_random_proxy())
+        if response.status_code == 200:
+            body = BeautifulSoup(response.text, "lxml")
+            soup = body.select(".article__text")[0]
 
-        ad_elements = soup.select(".ad-unit,.hardwall, style, script")
-        # 移除这些元素
-        for element in ad_elements:
-            element.decompose()
-        return str(soup).strip()
-    else:
-        print("thehill request: {} error: ".format(link), response.status)
+            ad_elements = soup.select(".ad-unit,.hardwall, style, script")
+            # 移除这些元素
+            for element in ad_elements:
+                element.decompose()
+            return str(soup).strip()
+        else:
+            print("thehill request: {} error: ".format(link), response.status_code)
+            return ""
+    except Exception as e:
+        print(f"Error fetching detail for {link}: {str(e)}")
         return ""
-
 
 def run():
     data = util.history_posts(filename)
@@ -55,50 +56,49 @@ def run():
     links = data["links"]
     insert = False
 
-    # request中放入参数，请求头信息
-    request = urllib.request.Request(
-        "https://thehill.com/wp-json/lakana/v1/template-variables/",
-        None,
-        headers,
-    )
-    # urlopen打开链接（发送请求获取响应）
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        body = response.read().decode("utf-8")
-        posts = json.loads(body)["sidebar"]["just_in"]
-        for index in range(len(posts)):
-            if index < 3:
-                post = posts[index]
-                kind = post["post_type"]
-                id = post["id"]
-                title = post["title"]
-                link = post["link"]
-                if link in ",".join(links):
-                    print("thehill exists link: ", link)
-                    break
+    try:
+        response = requests.get(
+            "https://thehill.com/wp-json/lakana/v1/template-variables/",
+            headers=headers,
+            proxies=util.get_random_proxy()
+        )
+        if response.status_code == 200:
+            posts = response.json()["sidebar"]["just_in"]
+            for index in range(len(posts)):
+                if index < 3:
+                    post = posts[index]
+                    kind = post["post_type"]
+                    id = post["id"]
+                    title = post["title"]
+                    link = post["link"]
+                    if link in ",".join(links):
+                        print("thehill exists link: ", link)
+                        break
 
-                description = get_detail(link)
-                if description != "":
-                    insert = True
-                    articles.insert(
-                        0,
-                        {
-                            "id": id,
-                            "title": title,
-                            "description": description,
-                            "kind": kind,
-                            "link": link,
-                            "pub_date": util.current_time_string(),
-                            "source": "thehill",
-                            "language": "en",
-                        },
-                    )
-        if len(articles) > 0 and insert:
-            if len(articles) > 10:
-                articles = articles[:10]
-            util.write_json_to_file(articles, filename)
-    else:
-        util.log_action_error("thehill request error: {}".format(response))
+                    description = get_detail(link)
+                    if description != "":
+                        insert = True
+                        articles.insert(
+                            0,
+                            {
+                                "id": id,
+                                "title": title,
+                                "description": description,
+                                "kind": kind,
+                                "link": link,
+                                "pub_date": util.current_time_string(),
+                                "source": "thehill",
+                                "language": "en",
+                            },
+                        )
+            if len(articles) > 0 and insert:
+                if len(articles) > 10:
+                    articles = articles[:10]
+                util.write_json_to_file(articles, filename)
+        else:
+            util.log_action_error(f"thehill request error: {response.status_code}")
+    except Exception as e:
+        util.log_action_error(f"thehill request error: {str(e)}")
 
 
 util.execute_with_timeout(run)

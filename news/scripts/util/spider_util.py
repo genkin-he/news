@@ -7,14 +7,15 @@ import time
 import traceback
 import sqlite3
 from contextlib import contextmanager
+import random
+from typing import Dict, Optional
 
 
 class SpiderUtil:
     def __init__(self):
         self.path = "./news/scripts/util/urls.json"
         self.db_path = './news/db/articles.db'
-        # self._init_db()
-
+       
     @contextmanager
     def _get_db_connection(self):
         """获取数据库连接的上下文管理器"""
@@ -74,26 +75,6 @@ class SpiderUtil:
             return True
         except sqlite3.IntegrityError:
             return False
-
-    def exists(self, link):
-        """
-        检查给定链接是否存在于urls.json文件中。
-        如果存在，返回True；如果不存在，将链接添加到文件中并返回None。
-        
-        参数:
-        link (str): 要检查的链接。
-        
-        返回:
-        bool: 如果链接存在于文件中，返回True；否则返回None。
-        """
-        with open(self.path) as user_file:
-            urls = json.load(user_file)
-            if urls.has_key(link):
-                return True
-            else:
-                urls[link] = 1
-                with open(self.path, 'w') as f:
-                    f.write(json.dumps(urls))
 
     def history_posts(self, filepath):
         """
@@ -356,3 +337,29 @@ class SpiderUtil:
                 return True
 
         return False
+
+    _proxy_pools = None  # 类变量用于存储代理池
+    
+    @property
+    def proxy_pools(self):
+        """懒加载代理池"""
+        if self._proxy_pools is None:
+            try:
+                with open('./news/scripts/util/proxy_pool.json', 'r') as f:
+                    self._proxy_pools = json.load(f)
+            except Exception as e:
+                print(f"加载代理池失败: {str(e)}")
+                self._proxy_pools = []
+        return self._proxy_pools
+
+    def get_random_proxy(self, region: str = "GLOBAL") -> Optional[Dict[str, str]]:
+        """从代理池中根据地区随机选择一个代理"""
+        try:
+            region_proxies = [proxy for proxy in self.proxy_pools if proxy.get("region") == region]
+            if not region_proxies:
+                print(f"没有找到 {region} 地区的代理")
+                return None
+            return random.choice(region_proxies)
+        except Exception as e:
+            print(f"获取随机代理时发生错误: {str(e)}")
+            return None

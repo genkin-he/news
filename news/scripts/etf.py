@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import logging
 import traceback
-import urllib.request  # 发送请求
+import requests  # 替换 urllib.request
 import json
 import re
 from util.spider_util import SpiderUtil
@@ -15,11 +15,11 @@ headers = {
     "cache-control": "no-cache",
     "pragma": "no-cache",
     "priority": "u=0, i",
-    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+    "sec-ch-ua": '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
     "sec-ch-ua-arch": '"arm"',
     "sec-ch-ua-bitness": '"64"',
-    "sec-ch-ua-full-version": '"131.0.6778.205"',
-    "sec-ch-ua-full-version-list": '"Google Chrome";v="131.0.6778.205", "Chromium";v="131.0.6778.205", "Not_A Brand";v="24.0.0.0"',
+    "sec-ch-ua-full-version": '"133.0.6943.54"',
+    "sec-ch-ua-full-version-list": '"Not(A:Brand";v="99.0.0.0", "Google Chrome";v="133.0.6943.54", "Chromium";v="133.0.6943.54"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-model": '""',
     "sec-ch-ua-platform": '"macOS"',
@@ -29,7 +29,7 @@ headers = {
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
-    "cookie": "FCNEC=%5B%5B%22AKsRol95w-Wvep60KMALNAyFFz6mj0cyaGyfXJOmsCmmajTrp4jfw4EfjjTXl4Hht7aRdc4U94MFpM12vlXWJDw7PwT2dldwv8Xk6y1HEDjajYvkMccaZyxG4c-OocNYhtNPe-Ols8du_JpQx15pvXOuquW2hJFjGw%3D%3D%22%5D%5D; _ga_NFBGF6073J=GS1.1.1735810275.1.0.1735810275.60.0.1668651610; _ga=GA1.2.40528344.1735810275; _gid=GA1.2.476376437.1735810275; _gat_G-NFBGF6073J=1; __adblocker=false; cf_clearance=fvF_r1Ozat9qC9NLRg_KB2mcJkJUB0EU.eKtqL8Llrw-1735810276-1.2.1.1-MX03uPD5weuksWgTzCJV9aGX.YiLDbrMg8bcngHrEPQr89cwx1dNKfnMXHh8l2NRHUrtfOkk6GYheN.oOxulC_lgWbR1WR7op6ZuCysu5KCayaV8IexTLEv7mJI4yGLzcrjoYbV7FMZ.DHAoN1VcY3KVdouXH5.jLAatQ0spSj4z7_mjMyO.OtfywEY6ioZl6eb8LgnFA9wAu.Gjtv2zK2C3vg0WGrgmqBquQrUu9IpRHo_sRnvklo10sVsTg._RZxm1leK7cd2jELDWu602lYPl1.1uB_VxEwcuAekZsGC5ZfUlXs6.BQ6UEPmavPIX9UTyPAn3X6ZyYqaSuZzNwqogir80oFM1EEfWR6UPHA.4RA8P9k6.ncSKDlC7PWnZV4NWU9_QS1njCeEtEyuIjzXDqExYil37O47PqvNWaCOV52KA_jvMPa_Gura8cjC1; _pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIFYAODgdgGZ%2BAFg4AmfhwAMARin9eQ6SAC%2BQA; _pcid=%7B%22browserId%22%3A%22m5f4mdda5uysuwif%22%7D; __pnahc=0; __tbc=%7Bkpex%7D5Emi2w1yQWK9W5RdgtfI5ix2g0upckZAn0zNMPeXK0xTRRif_AqPojRPKKlo0Foa; __pat=-18000000; __pvi=eyJpZCI6InYtbTVmNG1kZGR4aDhhYjN1bSIsImRvbWFpbiI6Ii5ldGYuY29tIiwidGltZSI6MTczNTgxMDI3NzMzN30%3D; xbc=%7Bkpex%7DVXZoI1PSquTiIXwvctpw9A_-iTexBy0K4O9DcGEtJb8; __qca=P0-1859494904-1735810276629; cX_P=m5f4mdda5uysuwif",
+    "cookie": "FCNEC=%5B%5B%22AKsRol_eDpEA_V1zODZ5cP8foqFxv5v32VEpXtLs3S0J7QfXIWAuhRJnKWjeBM-sGRIRGSW8hu0SpIUQFHwTU1SHkKjqjK_f06nIuPtWXWxmJKeEGao1oJZXkfNwAng3q0_i3HsDfbFG8-xMdNked2Gh3wOESLpaTQ%3D%3D%22%5D%5D; _ga_NFBGF6073J=GS1.1.1739524966.1.0.1739524966.60.0.1990201687; _ga=GA1.2.1379057177.1739524966; _gid=GA1.2.1661605128.1739524966; _gat_G-NFBGF6073J=1; __adblocker=false; cf_clearance=pM8ccQ6BkfJCJpyL4GoVqrRLqBv5RGTwgSkMPtPOAvk-1739524968-1.2.1.1-LUwErw5bUBPA91E8jOf56E59HI6s61r.wNcdZIj87qaWYldWhEndwYHgQFyOomJeAjFb8XfqlGCOQxWfSygHQgCfRAanlQmR34bCZZocZWwhAvu4JB0B_Waq7zoTZhoR8Vr7p_BvQjJq7w3RLs93HNJ0KBL3ZPlqvPwD68vh1ZOtD1L_xrYd_nvOp.OPNcg2E9_fDowWIQ6h9msKr6LJekSiLlzPk8xionCGvWH9uIc0Obuwg5zmfpc5br8zuUPn9iBNmXKdqwIuse70ERhHqf5BAB8XYjEIzhvJC78x2t480I7baH0Plu.GidcGbc4kiex3.BwYBEXYwTZKlZDV5w; __qca=P0-2106094176-1739524967455; _pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIFYAODgdgGZ%2BAFg4AmfhwAMARin9eQ6SAC%2BQA; _pcid=%7B%22browserId%22%3A%22m74k991785pdz69y%22%7D; __pnahc=0; __tbc=%7Bkpex%7Df-HxklQEqGvBn92XlUqpss2WUqZJRxQOYHla99OU-45TRRif_AqPojRPKKlo0Foa; __pat=-18000000; __pvi=eyJpZCI6InYtbTc0azk5MWRpdHV6aGRhMiIsImRvbWFpbiI6Ii5ldGYuY29tIiwidGltZSI6MTczOTUyNDk3ODc5MH0%3D; xbc=%7Bkpex%7D0XPQ6JvKr8t1-cfaESUdGA_-iTexBy0K4O9DcGEtJb8; cX_P=m74k991785pdz69y",
 }
 
 base_url = "https://www.etf.com/news"
@@ -37,24 +37,30 @@ filename = "./news/data/etf/list.json"
 current_links = []
 util = SpiderUtil()
 
+
 def get_detail(link):
     if link in current_links:
         return ""
     print("etf link: ", link)
     current_links.append(link)
-    request = urllib.request.Request(link, None, headers)
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        resp = response.read().decode("utf-8")
-        body = BeautifulSoup(resp, "lxml")
-        soup = body.select(".etf_articles__body")[2]
-        ad_elements = soup.select(".caas-da")
-        # 移除这些元素
-        for element in ad_elements:
-            element.decompose()
-        return str(soup).strip()
-    else:
-        print("etf request: {} error: ".format(link), response)
+
+    try:
+        response = requests.get(
+            link, headers=headers, proxies=util.get_random_proxy(), timeout=10
+        )
+        if response.status_code == 200:
+            body = BeautifulSoup(response.text, "lxml")
+            soup = body.select(".etf_articles__body")[2]
+            ad_elements = soup.select(".caas-da")
+            # 移除这些元素
+            for element in ad_elements:
+                element.decompose()
+            return str(soup).strip()
+        else:
+            print("etf request: {} error: ".format(link), response.status_code)
+            return ""
+    except Exception as e:
+        print(f"Error fetching detail for {link}: {str(e)}")
         return ""
 
 
@@ -64,51 +70,51 @@ def run(link):
     _links = data["links"]
     insert = False
 
-    # request中放入参数，请求头信息
-    request = urllib.request.Request(link, None, headers)
-    # urlopen打开链接（发送请求获取响应）
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        body = response.read().decode("utf-8")
-        soup = BeautifulSoup(body, "lxml")
-        items = soup.select(".image-card")
-        for index in range(len(items)):
-            if index > 0:
-                break
-            link = items[index].select(".image-card__title > a")[0]["href"].strip()
-            if link != "":
-                link = "https://www.etf.com{}".format(link)
-            title = items[index].select(".image-card__title > a")[0].text.strip()
-            if link in ",".join(_links):
-                print("etf link exist: ", link)
-                break
-            description = get_detail(link)
-            if description != "":
-                insert = True
-                _articles.insert(
-                    index,
-                    {
-                        "title": title,
-                        "description": description,
-                        "link": link,
-                        "pub_date": util.current_time_string(),
-                        "source": "etf",
-                        "kind": 1,
-                        "language": "en",
-                    },
-                )
+    try:
+        response = requests.get(
+            link, headers=headers, proxies=util.get_random_proxy(), timeout=10
+        )
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, "lxml")
+            items = soup.select(".image-card")
+            for index in range(len(items)):
+                if index > 0:
+                    break
+                link = items[index].select(".image-card__title > a")[0]["href"].strip()
+                if link != "":
+                    link = "https://www.etf.com{}".format(link)
+                title = items[index].select(".image-card__title > a")[0].text.strip()
+                if link in ",".join(_links):
+                    print("etf link exist: ", link)
+                    break
+                description = get_detail(link)
+                if description != "":
+                    insert = True
+                    _articles.insert(
+                        index,
+                        {
+                            "title": title,
+                            "description": description,
+                            "link": link,
+                            "pub_date": util.current_time_string(),
+                            "source": "etf",
+                            "kind": 1,
+                            "language": "en",
+                        },
+                    )
 
-        if len(_articles) > 0 and insert:
-            if len(_articles) > 10:
-                _articles = _articles[:10]
-            util.write_json_to_file(_articles, filename)
-    else:
-        print("etf request error: ", response)
+            if len(_articles) > 0 and insert:
+                if len(_articles) > 10:
+                    _articles = _articles[:10]
+                util.write_json_to_file(_articles, filename)
+        else:
+            print("etf request error: ", response.status_code)
+    except Exception as e:
+        print(f"Error in run function: {str(e)}")
+
 
 try:
     run(base_url)
 except Exception as e:
     print("etf exec error: ", repr(e))
     traceback.print_exc()
-
-

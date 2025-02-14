@@ -2,8 +2,7 @@
 from datetime import datetime
 import logging
 import traceback
-from urllib.parse import quote
-import urllib.request  # 发送请求
+import requests
 import json
 import re
 from util.spider_util import SpiderUtil
@@ -38,54 +37,62 @@ def run(link):
     _links = data["links"]
     insert = False
 
-    # request中放入参数，请求头信息
-    request = urllib.request.Request(link, None, headers)
-    # urlopen打开链接（发送请求获取响应）
-    response = urllib.request.urlopen(request, timeout=8)
-    if response.status == 200:
-        body = response.read().decode("utf-8", errors="ignore")
-        items = json.loads(body)
-        for index in range(len(items)):
-            if index > 4:
-                break
-            id = items[index]["newsId"]
-            title = items[index]["title"]
-            description = items[index]["summary"].replace("瀏覽MOBILE網頁", "")
-            image = items[index]["imageUrl"]
-            link = "https://news.now.com/home/technology/player?newsId={}".format(id)
-            category = items[index]["categoryName"]
-            if link in ",".join(_links):
-                print("now exists link: ", link)
-                break
-            if description != "":
-                insert = True
-                _articles.insert(
-                    index,
-                    {
-                        "title": title,
-                        "description": description,
-                        "link": link,
-                        "image": image,
-                        "category": category,
-                        "pub_date": util.current_time_string(),
-                        "source": "now",
-                        "kind": 1,
-                        "language": "zh-HK",
-                    },
+    try:
+        # 使用 requests 替换 urllib
+        response = requests.get(
+            link, headers=headers, timeout=8, proxies=util.get_random_proxy()
+        )
+        if response.status_code == 200:
+            items = response.json()
+            for index in range(len(items)):
+                if index > 4:
+                    break
+                id = items[index]["newsId"]
+                title = items[index]["title"]
+                description = items[index]["summary"].replace("瀏覽MOBILE網頁", "")
+                image = items[index]["imageUrl"]
+                link = "https://news.now.com/home/technology/player?newsId={}".format(
+                    id
                 )
+                category = items[index]["categoryName"]
+                if link in ",".join(_links):
+                    print("now exists link: ", link)
+                    break
+                if description != "":
+                    insert = True
+                    _articles.insert(
+                        index,
+                        {
+                            "title": title,
+                            "description": description,
+                            "link": link,
+                            "image": image,
+                            "category": category,
+                            "pub_date": util.current_time_string(),
+                            "source": "now",
+                            "kind": 1,
+                            "language": "zh-HK",
+                        },
+                    )
 
-        if len(_articles) > 0 and insert:
-            if len(_articles) > 10:
-                _articles = _articles[:10]
-            util.write_json_to_file(_articles, filename)
-    else:
-        util.log_action_error("now request error: {}".format(response))
+            if len(_articles) > 0 and insert:
+                if len(_articles) > 10:
+                    _articles = _articles[:10]
+                util.write_json_to_file(_articles, filename)
+        else:
+            util.log_action_error("now request error: {}".format(response.status_code))
+    except requests.RequestException as e:
+        util.log_action_error("now request error: {}".format(str(e)))
 
 
 util.execute_with_timeout(
-    run, "https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1",notify=False
+    run,
+    "https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1",
+    notify=False,
 )
 
 util.execute_with_timeout(
-    run, "https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1",notify=False
+    run,
+    "https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1",
+    notify=False,
 )
