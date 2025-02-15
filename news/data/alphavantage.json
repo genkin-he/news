@@ -1,5 +1,5 @@
 {
-    "items": "48",
+    "items": "47",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -66,6 +66,39 @@
                     "ticker": "GM",
                     "relevance_score": "0.090474",
                     "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "How to understand Elon Musk",
+            "url": "https://www.ft.com/content/cc1b184c-897c-4cb5-bad2-57b46dfec494",
+            "time_published": "20250215T050014",
+            "authors": [
+                "Richard Waters"
+            ],
+            "summary": "His attack on government is not ideologically coherent but it can be traced to an engineering mindset that values radical ideas ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd096d0f5-aa69-4c52-88af-7ef5e5a4d5d1.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.049505,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.109206",
+                    "ticker_sentiment_score": "0.002318",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1809,77 +1842,6 @@
                     "ticker": "BSBK",
                     "relevance_score": "0.052158",
                     "ticker_sentiment_score": "0.095762",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Pennant Announces Fourth Quarter and Full Year 2024 Earnings Release and Call - Pennant Gr  ( NASDAQ:PNTG ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751119/pennant-announces-fourth-quarter-and-full-year-2024-earnings-release-and-call",
-            "time_published": "20250214T222346",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "EAGLE, Idaho, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- The Pennant Group, Inc. PNTG, the parent company of operating subsidiaries that provide home health, hospice and senior living services, announced today that it expects to issue its fourth quarter and full year 2024 financial results on Thursday, ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.118448,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PNTG",
-                    "relevance_score": "0.745397",
-                    "ticker_sentiment_score": "0.038503",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HCSG",
-                    "relevance_score": "0.150592",
-                    "ticker_sentiment_score": "0.068492",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Pennant Announces Fourth Quarter and Full Year 2024 Earnings Release and Call",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026912/0/en/Pennant-Announces-Fourth-Quarter-and-Full-Year-2024-Earnings-Release-and-Call.html",
-            "time_published": "20250214T222300",
-            "authors": [
-                "Pennant Group",
-                "Inc."
-            ],
-            "summary": "Pennant to release Q4 and full year earnings ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/d50f543c-fc54-437d-8007-600644587dfe",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.064864,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PNTG",
-                    "relevance_score": "0.737032",
-                    "ticker_sentiment_score": "0.042159",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HCSG",
-                    "relevance_score": "0.17715",
-                    "ticker_sentiment_score": "0.076221",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
