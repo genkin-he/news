@@ -1,8 +1,63 @@
 {
-    "items": "32",
+    "items": "33",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Micron Technology, Inc.  ( MU )  Investors: March 10, 2025 Filing Deadline in Securities Class Action - Contact Kessler Topaz Meltzer & Check, LLP - Micron Technology  ( NASDAQ:MU ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43757229/micron-technology-inc-mu-investors-march-10-2025-filing-deadline-in-securities-class-action-contac",
+            "time_published": "20250215T214400",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "RADNOR, Pa., Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) informs investors that a securities class action lawsuit has been filed in the United States District Court for the Southern District of Florida against Micron Technology, Inc. ( ...",
+            "banner_image": "https://ml.globenewswire.com/media/405ec490-b904-4a5e-85a7-710cdebe280d/small/ktmc-logo-rgb-jpg.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.012269,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MU",
+                    "relevance_score": "0.256989",
+                    "ticker_sentiment_score": "-0.011696",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Navigating Tariffs: Finding Hidden Stock Opportunities",
+            "url": "https://www.fool.com/investing/2025/02/15/navigating-tariffs-finding-hidden-stock-opportunit/",
+            "time_published": "20250215T210000",
+            "authors": [
+                "Motley Fool YouTube"
+            ],
+            "summary": "In this video, our panel of experts delves into the implications of tariffs on the stock market. They share insights on how to spot potential investment opportunities, particularly in sectors like homebuilding and semiconductors, while emphasizing the importance of a strategic approach to market ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807826/question_of_week_tariffs_update_2.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.287875,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Jack Dorsey Says Bluesky's Rapid Expansion Fueled by X Exodus: 'Not a Great Way To Build a Product'",
             "url": "https://www.benzinga.com/tech/25/02/43757119/jack-dorsey-says-blueskys-rapid-expansion-fueled-by-x-exodus-not-a-great-way-to-build-a-product",
@@ -1527,40 +1582,6 @@
             "overall_sentiment_score": 0.126062,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "6 High-Growth Stocks to Buy for 2025",
-            "url": "https://www.fool.com/investing/2025/02/15/6-high-growth-stocks-to-buy-for-2025/",
-            "time_published": "20250215T143200",
-            "authors": [
-                "CPA",
-                "Mark Roussin"
-            ],
-            "summary": "All six of these stocks pack powerful growth potential.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807875/gettyimages-1060161238.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.311175,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.582526",
-                    "ticker_sentiment_score": "0.406931",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
         }
     ]
 }
