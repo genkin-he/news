@@ -1,8 +1,385 @@
 {
-    "items": "39",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Bill Gates Wanted A Friend To 'Take Charge' Of Microsoft Due To Regret Over Leaving Harvard, But Here's Why He Panicked And Dropped Out - Microsoft  ( NASDAQ:MSFT ) , Intel  ( NASDAQ:INTC ) ",
+            "url": "https://www.benzinga.com/25/02/43755136/bill-gates-wanted-a-friend-to-take-charge-of-microsoft-due-to-regret-over-leaving-harvard-but-heres-why-he-panick",
+            "time_published": "20250215T085117",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "Bill Gates, co-founder of Microsoft Corp. MSFT, expressed regret over leaving Harvard University to start the tech giant. What Happened: Gates, who was a Harvard undergraduate at the time, struggled with the decision to leave school despite having a great time there, according to a CNBC report.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Evidence-Based-Arguments.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.110287,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.490323",
+                    "ticker_sentiment_score": "0.327986",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.087503",
+                    "ticker_sentiment_score": "0.129007",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "0.173958",
+                    "ticker_sentiment_score": "-0.231157",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Activist Investor Dan Loeb Boosts Stake In Mark Zuckerberg's Meta And Elon Musk's Tesla, But Sold These Three Mag 7 Stocks In Q4 - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
+            "url": "https://www.benzinga.com/markets/equities/25/02/43755111/billionaire-investor-dan-loeb-boosts-stake-in-mark-zuckerbergs-meta-elon-musks-tesla-but-sold-th",
+            "time_published": "20250215T084143",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Activist investor Dan Loeb's Third Point LLC has significantly ramped up its stakes in Flutter Entertainment FLUT, Elon Musk's Tesla Inc. TSLA, and Mark Zuckerberg's Meta Platforms Inc. META during the final quarter of 2024.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Meta-Plans-To-Cut-5-Of-Staff--Backfill-R.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.989041"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.273435,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.157483",
+                    "ticker_sentiment_score": "0.059691",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.234307",
+                    "ticker_sentiment_score": "0.073459",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.07913",
+                    "ticker_sentiment_score": "0.045879",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.157483",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FLUT",
+                    "relevance_score": "0.157483",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.157483",
+                    "ticker_sentiment_score": "0.059691",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Macroscope | Trump's 'big stick diplomacy' won't go far in today's world system",
+            "url": "https://www.scmp.com/opinion/world-opinion/article/3298494/trumps-big-stick-diplomacy-wont-go-far-todays-world-system",
+            "time_published": "20250215T083008",
+            "authors": [
+                "Anthony Rowley"
+            ],
+            "summary": "Conflicting monetary goals and budget constraints will undermine the administration's ability to exert influence from a position of strength.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/13/93595c07-0097-4ded-be87-152873af4cfd_69f09b89.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                }
+            ],
+            "overall_sentiment_score": 0.09701,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:JPY",
+                    "relevance_score": "0.041682",
+                    "ticker_sentiment_score": "0.106852",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.083251",
+                    "ticker_sentiment_score": "0.103104",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.041682",
+                    "ticker_sentiment_score": "-0.273378",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Hong Kong homebuyers flock to NWD's State Pavilia amid 'attractive' pricing",
+            "url": "https://www.scmp.com/business/china-business/article/3298825/hong-kong-homebuyers-flock-nwds-state-pavilia-project-amid-attractive-pricing",
+            "time_published": "20250215T082319",
+            "authors": [
+                "Zhang Shidong"
+            ],
+            "summary": "As of 3pm, New World Development sold 103 of the 168 units on offer at its latest residential project in North Point.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/15/95bc98cc-f8d6-45d5-8b3f-1e8fba92b627_36a24a30.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.134293,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NWWDF",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "0.045114",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MORN",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "-0.041713",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Did Amazon Just Become the Largest Retailer in the World?",
+            "url": "https://www.fool.com/investing/2025/02/15/did-amazon-just-become-the-largest-retailer-in-the/",
+            "time_published": "20250215T082300",
+            "authors": [
+                "Jennifer Saibil"
+            ],
+            "summary": "Is it official? Amazon ( NASDAQ: AMZN ) has been chasing Walmart ( NYSE: WMT ) as the largest company in the world by sales for years. Amazon's sales typically grow at a faster rate than Walmart's, but although the gap has been closing for a while, Walmart has been growing fast enough to maintain ...",
+            "banner_image": "https://media.ycharts.com/charts/3fb61239bff30dc2359d2f8554eaf751.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.77141"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                }
+            ],
+            "overall_sentiment_score": 0.316285,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.648037",
+                    "ticker_sentiment_score": "0.486893",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.609763",
+                    "ticker_sentiment_score": "0.544624",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "OpenAI Board Rejects Elon Musk's $97 Billion Acquisition Proposal Days After Sam Altman Calls It A Move To 'Slow Down' A Competitor",
+            "url": "https://www.benzinga.com/25/02/43755069/openai-board-rejects-elon-musks-97-billion-acquisition-proposal-days-after-sam-altman-calls-it-a-move-to-slow-dow",
+            "time_published": "20250215T081839",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "OpenAI on Friday turned down a substantial offer from Elon Musk and his consortium of investors to acquire the company's assets. What Happened: The board of OpenAI, a leading artificial intelligence company, has rejected a $97.4 billion bid from Musk and his investors, reported the Wall Street ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Elon-Musk-Sam-Altman.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.084725,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Tesla, Ford, GM In Focus: After Tariffs On China, Mexico, And Canada, Trump Now Eyes Auto Industry For Next Move - Ford Motor  ( NYSE:F ) , General Motors  ( NYSE:GM ) ",
+            "url": "https://www.benzinga.com/tech/25/02/43755055/tesla-ford-gm-in-focus-after-tariffs-on-china-mexico-and-canada-trump-now-eyes-auto-industry-for-next-move",
+            "time_published": "20250215T081500",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "President Donald Trump hinted at the possibility of imposing tariffs on automobiles, continuing his aggressive trade policy. What Happened: Trump, during an executive order signing session on Friday, suggested that auto tariffs could be implemented as early as April 2, reported Reuters.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Tesla-vs-Ford.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.02672,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "F",
+                    "relevance_score": "0.197413",
+                    "ticker_sentiment_score": "0.049396",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GM",
+                    "relevance_score": "0.29234",
+                    "ticker_sentiment_score": "0.153199",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.197413",
+                    "ticker_sentiment_score": "0.280247",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Surprise: McDonald's Has Higher Profit Margins Than Tesla, Apple, or Netflix",
+            "url": "https://www.fool.com/investing/2025/02/15/surprise-mcdonalds-has-higher-profit-margins-than/",
+            "time_published": "20250215T081400",
+            "authors": [
+                "Jon Quast"
+            ],
+            "summary": "Restaurants have notoriously low profit margins. But McDonald's ( NYSE: MCD ) , the world's largest restaurant chain, is surprisingly one of the most profitable businesses. In fact, its profit margins are higher than prestigious businesses such as Tesla ( NASDAQ: TSLA ) , Apple ( NASDAQ: AAPL ) , ...",
+            "banner_image": "https://media.ycharts.com/charts/d287634b6dceaa55b09922cefc7a16ba.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.286753,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NFLX",
+                    "relevance_score": "0.189175",
+                    "ticker_sentiment_score": "0.265312",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.189175",
+                    "ticker_sentiment_score": "0.265312",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.189175",
+                    "ticker_sentiment_score": "0.265312",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MDNDF",
+                    "relevance_score": "0.768619",
+                    "ticker_sentiment_score": "0.446051",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "Mark Zuckerberg Follows Elon Musk's Footsteps As Meta Reportedly Plans Major Investment Into AI-Powered Humanoid Robots - Apple  ( NASDAQ:AAPL ) , General Motors  ( NYSE:GM ) ",
             "url": "https://www.benzinga.com/25/02/43754366/mark-zuckerberg-follows-elon-musks-footsteps-as-meta-reportedly-plans-major-investment-into-ai-powered-humanoid-r",
@@ -1006,588 +1383,6 @@
                     "relevance_score": "0.9545",
                     "ticker_sentiment_score": "0.384186",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "$TOCKHOLDER ALERT: The M&A Class Action Firm Continues To Investigate The Merger - EVGR, QTRX, RKDA, EBTC",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43752175/tockholder-alert-the-m-a-class-action-firm-continues-to-investigate-the-merger-evgr-qtrx-rkda-ebtc",
-            "time_published": "20250214T233000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- Monteverde & Associates PC ( the \"M&A Class Action Firm\" ) , has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm by ISS Securities Class Action Services Report.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.268731,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RKDA",
-                    "relevance_score": "0.244518",
-                    "ticker_sentiment_score": "0.205392",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "INDB",
-                    "relevance_score": "0.082677",
-                    "ticker_sentiment_score": "0.213254",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AKYA",
-                    "relevance_score": "0.082677",
-                    "ticker_sentiment_score": "0.159661",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "EBTC",
-                    "relevance_score": "0.244518",
-                    "ticker_sentiment_score": "0.279715",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "QTRX",
-                    "relevance_score": "0.396261",
-                    "ticker_sentiment_score": "0.330626",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:EBTC",
-                    "relevance_score": "0.164468",
-                    "ticker_sentiment_score": "0.209884",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "If You Invested $1000 In This Stock 15 Years Ago, You Would Have This Much Today - OSI Systems  ( NASDAQ:OSIS ) ",
-            "url": "https://www.benzinga.com/insights/news/25/02/43752023/if-you-invested-1000-in-this-stock-15-years-ago-you-would-have-this-much-today",
-            "time_published": "20250214T231512",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "OSI Systems OSIS has outperformed the market over the past 15 years by 2.08% on an annualized basis producing an average annual return of 14.1%. Currently, OSI Systems has a market capitalization of $3.56 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1739574908_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.238974,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "OSIS",
-                    "relevance_score": "0.9545",
-                    "ticker_sentiment_score": "0.384186",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Barington Capital Responds to Matthews International's Desperate Effort to Manipulate Board Election - Matthews International  ( NASDAQ:MATW ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/n43751969/barington-capital-responds-to-matthews-internationals-desperate-effort-to-manipulate-board-electio",
-            "time_published": "20250214T230900",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "Urges Shareholders Not to be Fooled by the Company's 11th Hour Governance Changes: Clearly A Direct Reaction to Barington's Nomination Encourages Shareholders to Follow the Recommendations of Leading Independent Proxy Advisory Firms ISS, Glass Lewis, and Egan-Jones by Voting the GOLD Proxy Card ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.204717,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MATW",
-                    "relevance_score": "0.689377",
-                    "ticker_sentiment_score": "0.177727",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Siemens Stock Crept Higher on Friday",
-            "url": "https://www.fool.com/investing/2025/02/14/why-siemens-stock-crept-higher-on-friday/",
-            "time_published": "20250214T230652",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "German industrial conglomerate Siemens ( OTC: SIEGY ) was a somewhat under-the-radar winner on the stock exchange on Friday. The company's shares enjoyed a more than 1% bump in price, as investors continued to disseminate the latest earnings release and two analysts raised their price targets.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807869/warehouse-robot-with-person-in-the-background.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.310612,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Here's How Much You Would Have Made Owning Regeneron Pharmaceuticals Stock In The Last 15 Years - Regeneron Pharmaceuticals  ( NASDAQ:REGN ) ",
-            "url": "https://www.benzinga.com/insights/news/25/02/43751821/heres-how-much-you-would-have-made-owning-regeneron-pharmaceuticals-stock-in-the-last-15-years",
-            "time_published": "20250214T230012",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Regeneron Pharmaceuticals REGN has outperformed the market over the past 15 years by 12.37% on an annualized basis producing an average annual return of 24.38%. Currently, Regeneron Pharmaceuticals has a market capitalization of $74.02 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1739574009_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.238974,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "REGN",
-                    "relevance_score": "0.9545",
-                    "ticker_sentiment_score": "0.384186",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "NVO STOCK NEWS: NVO Shareholders with Large Losses Should Contact Robbins LLP for Information About the Class Action Lawsuit Against Novo Nordisk A/S - Novo Nordisk  ( NYSE:NVO ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751747/nvo-stock-news-nvo-shareholders-with-large-losses-should-contact-robbins-llp-for-information-about",
-            "time_published": "20250214T225149",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds stockholders that a class action was filed on behalf of all investors who purchased or otherwise acquired Novo Nordisk A/S NVO securities between November 2, 2022 and December 19, 2024.",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.114819,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVO",
-                    "relevance_score": "0.512933",
-                    "ticker_sentiment_score": "0.187837",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Magnificent Artificial Intelligence  ( AI )  Stock Delivered Stellar Gains in 2024. It Can Jump Another 60%",
-            "url": "https://www.fool.com/investing/2025/02/14/this-magnificent-artificial-intelligence-ai-stock/",
-            "time_published": "20250214T225000",
-            "authors": [
-                "Harsh Chauhan"
-            ],
-            "summary": "Optical and photonics component seller Lumentum Holdings ( NASDAQ: LITE ) delivered an outstanding performance on the stock market last year, registering healthy gains of 61% as investors took note of the growing impact of artificial intelligence ( AI ) on the company's business, and it looks ...",
-            "banner_image": "https://media.ycharts.com/charts/19546172ea9de919b37bb3a61f74fd65.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.967645"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.33192,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LITE",
-                    "relevance_score": "0.502693",
-                    "ticker_sentiment_score": "0.354558",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, TOP RANKED GLOBAL COUNSEL, Encourages Grocery Outlet Holding Corp. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GO - Grocery Outlet Holding  ( NASDAQ:GO ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751719/rosen-top-ranked-global-counsel-encourages-grocery-outlet-holding-corp-investors-to-secure-counsel",
-            "time_published": "20250214T224918",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Grocery Outlet Holding Corp. GO between November 7, 2023 and May 7, 2024, both dates inclusive ( the \"Class Period\" ) , of the important March 31, 2025 ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.188211,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GO",
-                    "relevance_score": "0.350564",
-                    "ticker_sentiment_score": "0.123253",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.060388",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Quanterix Corporation Announcement: If You Have Suffered Losses in Quanterix Corporation  ( NASDAQ: QTRX ) , You Are Encouraged to Contact The Rosen Law Firm About Your Rights - Quanterix  ( NASDAQ:QTRX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751713/quanterix-corporation-announcement-if-you-have-suffered-losses-in-quanterix-corporation-nasdaq-qtr",
-            "time_published": "20250214T224823",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of shareholders of Quanterix Corporation QTRX resulting from allegations that Quanterix may have issued materially misleading ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.157236,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.072876",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "QTRX",
-                    "relevance_score": "0.352557",
-                    "ticker_sentiment_score": "0.009922",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Here's How Much You Would Have Made Owning American Tower Stock In The Last 20 Years - American Tower  ( NYSE:AMT ) ",
-            "url": "https://www.benzinga.com/insights/news/25/02/43751657/heres-how-much-you-would-have-made-owning-american-tower-stock-in-the-last-20-years",
-            "time_published": "20250214T224511",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "American Tower AMT has outperformed the market over the past 20 years by 3.83% on an annualized basis producing an average annual return of 12.36%. Currently, American Tower has a market capitalization of $88.50 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1739573108_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.238974,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMT",
-                    "relevance_score": "0.9545",
-                    "ticker_sentiment_score": "0.384186",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A LEADING LAW FIRM, Encourages FTAI Aviation Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action - FTAI - FTAI Aviation  ( NASDAQ:FTAI ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751617/rosen-a-leading-law-firm-encourages-ftai-aviation-ltd-investors-to-secure-counsel-before-important",
-            "time_published": "20250214T224142",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of FTAI Aviation Ltd. FTAI between July 23, 2024, and January 15, 2025, both dates inclusive ( the \"Class Period\" ) , of the important March 18, 2025 lead ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.147727,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.064276",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FTAI",
-                    "relevance_score": "0.481177",
-                    "ticker_sentiment_score": "0.006365",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A TOP RANKED LAW FIRM, Encourages Innovative Industrial Properties, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - IIPR - Innovative Ind Props  ( NYSE:IIPR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751603/rosen-a-top-ranked-law-firm-encourages-innovative-industrial-properties-inc-investors-to-secure-co",
-            "time_published": "20250214T224019",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Innovative Industrial Properties, Inc. IIPR between February 27, 2024 and December 19, 2024, both dates inclusive ( the \"Class Period\" ) , of the important ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.150555,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IIPR",
-                    "relevance_score": "0.369685",
-                    "ticker_sentiment_score": "0.013406",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Why Federal Realty Investment Trust Stock Just Tanked by 6%",
-            "url": "https://www.fool.com/investing/2025/02/14/why-federal-realty-investment-trust-stock-just-tan/",
-            "time_published": "20250214T223700",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "Friday was a day to forget for Federal Realty Investment Trust ( NYSE: FRT ) and its investors. The real estate investment trust ( REIT ) posted its fourth-quarter and full-year results, and the market clearly wasn't impressed by the performance.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807867/person-in-wheelchair-looking-unhappy-while-wielding-a-laptop.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.714479"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.283668,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FRT",
-                    "relevance_score": "0.308891",
-                    "ticker_sentiment_score": "-0.030261",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Fundamental Global Inc. Declares Cash Dividend on Its 8.00% Cumulative Preferred Stock, Series A",
-            "url": "https://www.globenewswire.com/news-release/2025/02/14/3026921/0/en/Fundamental-Global-Inc-Declares-Cash-Dividend-on-Its-8-00-Cumulative-Preferred-Stock-Series-A.html",
-            "time_published": "20250214T223500",
-            "authors": [
-                "Fundamental Global Inc."
-            ],
-            "summary": "Mooresville, NC, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- Fundamental Global Inc. ( Nasdaq: FGF ) ( the \"Company\" or \"Fundamental Global\" ) today announced that it has declared a quarterly cash dividend on its 8.00% Cumulative Preferred Stock, Series A ( the \"Preferred Stock\" ) , for the period ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/8740cd34-db5a-4836-b73e-d952a549ca7f",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999998"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.07018,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FGF",
-                    "relevance_score": "0.262994",
-                    "ticker_sentiment_score": "0.176439",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "EPIX STOCK NEWS: EPIX Shareholders with Large Losses Should Contact Robbins LLP for Information About the Class Action Lawsuit Against Essa Pharma Inc. - ESSA Pharma  ( NASDAQ:EPIX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43751413/epix-stock-news-epix-shareholders-with-large-losses-should-contact-robbins-llp-for-information-abo",
-            "time_published": "20250214T223357",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 14, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds investors that a class action was filed on behalf of all persons and entities that purchased or otherwise acquired ESSA Pharma Inc. EPIX securities between December 12, 2023 and October 31, 2024.",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.060343,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EPIX",
-                    "relevance_score": "0.386875",
-                    "ticker_sentiment_score": "0.064576",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
