@@ -1,5 +1,5 @@
 {
-    "items": "33",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1559,41 +1559,6 @@
                     "relevance_score": "0.582526",
                     "ticker_sentiment_score": "0.406931",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Trump's Plan To Ditch Pennies - Pros & Cons For Businesses and Customers",
-            "url": "https://www.benzinga.com/news/25/02/43756267/trumps-plan-to-ditch-pennies-pros-cons-for-businesses-and-customers",
-            "time_published": "20250215T143016",
-            "authors": [
-                "AJ Fabino"
-            ],
-            "summary": "President Donald Trump has directed the Treasury Department to halt new penny production, rekindling the debate over America's costliest small change. Each penny cost $0.037 to produce in 2024, up from $0.021 in 2021, according to The Wall Street Journal on Monday. The U.S.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Complex-Process.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.126475,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.065506",
-                    "ticker_sentiment_score": "0.287091",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.065506",
-                    "ticker_sentiment_score": "0.287091",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
