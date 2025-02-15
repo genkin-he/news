@@ -1,8 +1,415 @@
 {
-    "items": "37",
+    "items": "38",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "David Tepper's Appaloosa Revamps Portfolio, Cuts Down On Semiconductor Stocks - Advanced Micro Devices  ( NASDAQ:AMD ) , Amazon.com  ( NASDAQ:AMZN ) ",
+            "url": "https://www.benzinga.com/news/earnings/25/02/43756546/david-teppers-appaloosa-revamps-portfolio-cuts-down-on-semiconductor-stocks",
+            "time_published": "20250215T161537",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Tepper's Appaloosa tweaks its tech strategy, favoring Oracle and ARKK over semiconductor giants. Strategic sell-offs in tech signal risk mitigation, as Appaloosa positions for growth in automotive and agrochemical industries.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Computer-Parts-Close-Up--Computer-Chip--.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.166667"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.166667"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.166667"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.166667"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.94762"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.166667"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.166667"
+                }
+            ],
+            "overall_sentiment_score": 0.244389,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "-0.089292",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BEKE",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GM",
+                    "relevance_score": "0.211191",
+                    "ticker_sentiment_score": "0.269554",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ORCL",
+                    "relevance_score": "0.279015",
+                    "ticker_sentiment_score": "0.318637",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MPLX",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "M",
+                    "relevance_score": "0.071145",
+                    "ticker_sentiment_score": "0.056257",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSM",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.059978",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MHK",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.198235",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PDD",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OC",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.198235",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.059978",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.059978",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.059978",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CZR",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FMC",
+                    "relevance_score": "0.211191",
+                    "ticker_sentiment_score": "0.269554",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.059978",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.068585",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MAS",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "0.198235",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, A LEADING LAW FIRM, Encourages Crocs, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - CROX - Crocs  ( NASDAQ:CROX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43756533/rosen-a-leading-law-firm-encourages-crocs-inc-investors-to-secure-counsel-before-important-deadlin",
+            "time_published": "20250215T160900",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Crocs, Inc. CROX between November 3, 2022 and October 28, 2024, inclusive ( the \"Class Period\" ) , of the important March 24, 2025 lead plaintiff ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.938793"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.154616,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.063091",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CROX",
+                    "relevance_score": "0.473427",
+                    "ticker_sentiment_score": "0.034549",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Berkshire Hathaway Adjusts Portfolio, Keeps Apple Stake Unchanged, Offloads Stakes in BofA - Apple  ( NASDAQ:AAPL ) , Bank of America  ( NYSE:BAC ) ",
+            "url": "https://www.benzinga.com/news/earnings/25/02/43756510/berkshire-hathaway-adjusts-portfolio-keeps-apple-stake-unchanged-offloads-stakes-in-bofa",
+            "time_published": "20250215T160017",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Buffett's Berkshire Hathaway reshuffles its portfolio, maintaining a strong grip on Apple shares. Buffett's latest moves stir curiosity ahead of his much-anticipated annual letter to investors.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Warren-Buffett--Chairman-And-Ceo-Of-Berk.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                }
+            ],
+            "overall_sentiment_score": 0.296533,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DMPZF",
+                    "relevance_score": "0.174587",
+                    "ticker_sentiment_score": "0.212843",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.418689",
+                    "ticker_sentiment_score": "0.381767",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "C",
+                    "relevance_score": "0.174587",
+                    "ticker_sentiment_score": "0.082455",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ULTA",
+                    "relevance_score": "0.087824",
+                    "ticker_sentiment_score": "0.083497",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.174587",
+                    "ticker_sentiment_score": "0.082455",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.418689",
+                    "ticker_sentiment_score": "0.31734",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "STZ",
+                    "relevance_score": "0.259267",
+                    "ticker_sentiment_score": "0.276402",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "COF",
+                    "relevance_score": "0.174587",
+                    "ticker_sentiment_score": "0.082455",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DPZ",
+                    "relevance_score": "0.174587",
+                    "ticker_sentiment_score": "0.212843",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages Newmont Corporation Investors to Secure Counsel Before Important Deadline in Securities Class Action - NEM - Newmont  ( NYSE:NEM ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43756507/rosen-a-leading-investor-rights-law-firm-encourages-newmont-corporation-investors-to-secure-counse",
+            "time_published": "20250215T160000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Newmont Corporation NEM between February 22, 2024 and October 23, 2024, inclusive ( the \"Class Period\" ) , of the important April 1, 2025 lead plaintiff ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.183033,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.06697",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NEM",
+                    "relevance_score": "0.263231",
+                    "ticker_sentiment_score": "0.215549",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:NEM",
+                    "relevance_score": "0.06697",
+                    "ticker_sentiment_score": "0.136366",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Is Rigetti Computing Stock a Buy?",
+            "url": "https://www.fool.com/investing/2025/02/15/is-rigetti-computing-stock-a-buy/",
+            "time_published": "20250215T153700",
+            "authors": [
+                "Jeremy Bowman"
+            ],
+            "summary": "Quantum computing stocks have surged since Alphabet ( NASDAQ: GOOG ) ( NASDAQ: GOOGL ) said it hit a milestone in the cutting-edge technology. The company's Willow quantum chip performed a standard benchmark computation in under five minutes that would take a supercomputer 10 septillion years ( a ...",
+            "banner_image": "https://media.ycharts.com/charts/0a397e6ec4ff83531eb322d945680d29.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.099707,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "RGTI",
+                    "relevance_score": "0.181137",
+                    "ticker_sentiment_score": "-0.005964",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.181137",
+                    "ticker_sentiment_score": "-0.001518",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Bulls and Bears: Apple, Nvidia, Netflix and Trader Predicts Dogecoin Surge by March 24 Bulls and Bears: Apple, Nvidia, Netflix and Trader Predicts Dogecoin Surge by March 24 - Alcoa  ( NYSE:AA ) ",
             "url": "https://www.benzinga.com/trading-ideas/long-ideas/25/02/43756457/benzinga-bulls-and-bears-apple-nvidia-netflix-and-trader-predicts-dogecoin-surge-by-marc",
@@ -113,6 +520,43 @@
                     "relevance_score": "0.165788",
                     "ticker_sentiment_score": "0.263514",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Is Fortinet Stock a Buy Now?",
+            "url": "https://www.fool.com/investing/2025/02/15/is-fortinet-stock-a-buy-now/",
+            "time_published": "20250215T153000",
+            "authors": [
+                "Harsh Chauhan"
+            ],
+            "summary": "Fortinet ( NASDAQ: FTNT ) stock has been in scintillating form on the stock market over the past six months, rising a remarkable 55% as of this writing on the back of solid quarterly reports that point toward an improvement in the cybersecurity specialist's growth profile.Shares of the company ...",
+            "banner_image": "https://media.ycharts.com/charts/05c87d7b412bddc5f6158b11689293ce.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.990999"
+                }
+            ],
+            "overall_sentiment_score": 0.398878,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FTNT",
+                    "relevance_score": "0.635581",
+                    "ticker_sentiment_score": "0.638324",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1477,213 +1921,6 @@
                     "relevance_score": "0.109455",
                     "ticker_sentiment_score": "0.04256",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "MGM Resorts Stock Soars and the Future Gets Brighter",
-            "url": "https://www.fool.com/investing/2025/02/15/mgm-resorts-stock-soars-and-the-future-gets-bright/",
-            "time_published": "20250215T113000",
-            "authors": [
-                "Travis Hoium"
-            ],
-            "summary": "Buybacks have kicked into high gear.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807770/las-vegas-strip.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.545563,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MGM",
-                    "relevance_score": "0.922387",
-                    "ticker_sentiment_score": "0.906232",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Will XRP Still Be a Buy if It Goes Above $3 in 2025?",
-            "url": "https://www.fool.com/investing/2025/02/15/will-xrp-still-be-a-buy-if-it-goes-above-3-in-2025/",
-            "time_published": "20250215T113000",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "It's very possible for cryptocurrencies to spend a bit too much time in the spotlight, leaving latecomers to crypto investing to take heavy losses, when having a bit of foresight would have spared them a lot of pain.In that vein, XRP ( CRYPTO: XRP ) is currently priced around $2.50 ( as of Feb. ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807356/investors-pay-attention-at-a-presentation.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                }
-            ],
-            "overall_sentiment_score": 0.201262,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.054857",
-                    "ticker_sentiment_score": "0.015003",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Chinese spatial design firm Manycore Tech files for IPO in Hong Kong",
-            "url": "https://www.scmp.com/tech/tech-trends/article/3298839/chinese-spatial-design-firm-manycore-tech-files-ipo-hong-kong",
-            "time_published": "20250215T111641",
-            "authors": [
-                "Coco Feng"
-            ],
-            "summary": "Manycore and DeepSeek are part of a group of start-ups, called 'Six Little Dragons', that have bolstered the tech-hub status of Hangzhou.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/15/936da2b0-1498-4704-8442-95f33649ac45_b705528d.jpg?itok=ciG-q1_X&v=1739618195",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                }
-            ],
-            "overall_sentiment_score": 0.042105,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.11123",
-                    "ticker_sentiment_score": "0.03612",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.055751",
-                    "ticker_sentiment_score": "0.047895",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Where Will PayPal Be in 1 Year?",
-            "url": "https://www.fool.com/investing/2025/02/15/where-will-writers-choice-be-in-13510-years-f9/",
-            "time_published": "20250215T111500",
-            "authors": [
-                "Jennifer Saibil"
-            ],
-            "summary": "The fintech powerhouse is making a lot of changes.",
-            "banner_image": "https://media.ycharts.com/charts/673134fd40e78b58531b2ac9567b23b5.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999491"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.26522,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PYPL",
-                    "relevance_score": "0.538389",
-                    "ticker_sentiment_score": "0.298464",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Top-Performing Stock Continues to Deliver Market-Crushing Returns",
-            "url": "https://www.fool.com/investing/2025/02/15/this-top-performing-stock-continues-to-deliver-mar/",
-            "time_published": "20250215T111300",
-            "authors": [
-                "Matt DiLallo"
-            ],
-            "summary": "Brookfield Corporation ( NYSE: BN ) is coming off another excellent year. The leading global investment firm delivered record financial results. That helped catapult its stock, which generated a market-crushing 55% return -- more than double the S&P 500's ( SNPINDEX: ^GSPC ) 26% total return.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807760/gettyimages-1173517569-1200x798-36b7a2e.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.54554"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.838487"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.46353,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BBUC",
-                    "relevance_score": "0.04823",
-                    "ticker_sentiment_score": "0.106946",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BEP",
-                    "relevance_score": "0.04823",
-                    "ticker_sentiment_score": "0.106946",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BN",
-                    "relevance_score": "0.532043",
-                    "ticker_sentiment_score": "0.503483",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "BIPC",
-                    "relevance_score": "0.04823",
-                    "ticker_sentiment_score": "0.106946",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAM",
-                    "relevance_score": "0.096283",
-                    "ticker_sentiment_score": "0.19528",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
