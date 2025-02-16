@@ -1,8 +1,47 @@
 {
-    "items": "37",
+    "items": "31",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Trump's Auto Tariffs, Tesla's Stock Plunge, Uber's Tesla Partnership, Musk's Dubai Loop And Starbase City - Tesla  ( NASDAQ:TSLA ) , Uber Technologies  ( NYSE:UBER ) ",
+            "url": "https://www.benzinga.com/tech/25/02/43759231/trumps-auto-tariffs-teslas-stock-plunge-ubers-tesla-partnership-musks-dubai-loop-and-starbase-city",
+            "time_published": "20250216T160022",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "The week was a rollercoaster for the auto industry, with President Donald Trump hinting at potential tariffs on automobiles, and Tesla Inc. TSLA shares taking a hit. Meanwhile, Uber Technologies Inc.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/16/hybrid-cars-and-their-advantages-over-EV.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.045542,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.342487",
+                    "ticker_sentiment_score": "0.137051",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.624759",
+                    "ticker_sentiment_score": "0.200073",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Consumer Tech News  ( Feb 10-Feb 14 ) : US & UK Denied Signing Global AI Safety Declaration, Musk To Settle $10 Million Trump Lawsuit & More - Alphabet  ( NASDAQ:GOOG ) , Apple  ( NASDAQ:AAPL ) ",
             "url": "https://www.benzinga.com/news/large-cap/25/02/43759194/consumer-tech-news-feb-10-feb-14-us-uk-denied-signing-global-ai-safety-declaration-musk-to-settle-",
@@ -62,6 +101,45 @@
                     "ticker": "TSLA",
                     "relevance_score": "0.062761",
                     "ticker_sentiment_score": "0.059011",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "If You'd Invested $1,000 in Microsoft Stock 11 Years Ago, Here's How Much You'd Have Today",
+            "url": "https://www.fool.com/investing/2025/02/16/if-youd-invested-1000-in-microsoft-stock-11-years/",
+            "time_published": "20250216T154500",
+            "authors": [
+                "Will Healy"
+            ],
+            "summary": "Satya Nadella became CEO of Microsoft ( NASDAQ: MSFT ) 11 years ago this month. At the time, he took over a software giant whose Windows operating system had been eclipsed by the rise of the smartphone.However, it was Nadella's reduced emphasis on the once-critical Windows operating system that ...",
+            "banner_image": "https://media.ycharts.com/charts/9a900fba33477a3e8c49fbdff128f60f.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.128415,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.703874",
+                    "ticker_sentiment_score": "0.169466",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ETOLF",
+                    "relevance_score": "0.118647",
+                    "ticker_sentiment_score": "0.047405",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -191,6 +269,28 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
+        },
+        {
+            "title": "Better Dividend Stock: Rexford Industrial vs. W.P. Carey",
+            "url": "https://www.fool.com/investing/2025/02/16/better-dividend-stock-rexford-industrial-wp-carey/",
+            "time_published": "20250216T153000",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "Rexford Industrial ( NYSE: REXR ) and W.P. Carey ( NYSE: WPC ) are slotted into different niches in the real estate investment trust ( REIT ) sector. Both have a focus on industrial assets, so investors looking at one might also want to consider the other.",
+            "banner_image": "https://media.ycharts.com/charts/f2a13f82e93c67ce5cef024a62c38347.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                }
+            ],
+            "overall_sentiment_score": 0.242326,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Broadcom vs. Advanced Micro Devices: Wall Street Sees Much Faster Earnings Growth for One, But Thinks the Other Stock Will Outperform",
@@ -1381,419 +1481,6 @@
                     "ticker": "ASCCF",
                     "relevance_score": "0.041251",
                     "ticker_sentiment_score": "0.106187",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "3 Reasons to Buy Toast Stock Like There's No Tomorrow",
-            "url": "https://www.fool.com/investing/2025/02/16/3-reasons-to-buy-toast-like-theres-no-tomorrow/",
-            "time_published": "20250216T124500",
-            "authors": [
-                "Jennifer Saibil"
-            ],
-            "summary": "After a banner year in 2024, the S&P 500 is starting to make a steady climb in 2025. It's up 3% this year, and some of its largest components, like Apple and Amazon, have already reported fourth-quarter earnings. But Nvidia and Microsoft are slated to release earnings on Feb. 26 and Feb. 28, ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F806011%2Ftoast-profit-metrics.png&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.938238"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.382794,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.064797",
-                    "ticker_sentiment_score": "0.087084",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.064797",
-                    "ticker_sentiment_score": "0.087084",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TOST",
-                    "relevance_score": "0.583787",
-                    "ticker_sentiment_score": "0.586104",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Mary Trump Warns DNI Gabbard Could Lead To 'Catastrophic Outcome': 'A Known Russian Asset,' Defender of 'Murderous Dictator' Assad",
-            "url": "https://www.benzinga.com/news/25/02/43758634/mary-trump-warns-dni-gabbard-could-lead-to-catastrophic-outcome-a-known-russian-asset-defender-of-murderous-",
-            "time_published": "20250216T123023",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Mary Trump raises alarm, calling Gabbard a \"Russian asset\" and questioning the impact on U.S. intelligence integrity. Mary Trump says Donald Trump administration's choice of Gabbard reflects a pattern of unconventional appointments.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/16/Duluth--Georgia--October-23--2024--Donal.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.147957,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Cameco Corporation: Buy, Sell, or Hold?",
-            "url": "https://www.fool.com/investing/2025/02/16/cameco-corporation-buy-sell-or-hold/",
-            "time_published": "20250216T123000",
-            "authors": [
-                "Courtney Carlsen"
-            ],
-            "summary": "In recent history, attitudes toward nuclear energy have varied considerably. After the 2011 Fukushima Daiichi disaster in Japan, many countries reduced their dependence on nuclear power. As a result, they scaled back plans for new nuclear facilities, decreased investments in nuclear energy, and ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807422%2Fcooling-towers-at-an-energy-facility-getty.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.929393"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.233145,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.109455",
-                    "ticker_sentiment_score": "0.150995",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CCJ",
-                    "relevance_score": "0.320279",
-                    "ticker_sentiment_score": "0.317949",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.054857",
-                    "ticker_sentiment_score": "0.205911",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BEP",
-                    "relevance_score": "0.054857",
-                    "ticker_sentiment_score": "0.178878",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.109455",
-                    "ticker_sentiment_score": "0.156644",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.054857",
-                    "ticker_sentiment_score": "0.205911",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "BIOA COURT NEWS: BioAge Labs has been Sued for Securities Violations; Contact BFA Law by March 10 if You Lost Money  ( NASDAQ:BIOA )  - Bioage Labs  ( NASDAQ:BIOA ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43758607/bioa-court-news-bioage-labs-has-been-sued-for-securities-violations-contact-bfa-law-by-march-10-if",
-            "time_published": "20250216T121800",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 16, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against BioAge Labs, Inc. BIOA and certain of its senior executives for potential violations of the federal securities laws.",
-            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.77141"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.11941,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BIOA",
-                    "relevance_score": "0.252332",
-                    "ticker_sentiment_score": "0.100007",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.064104",
-                    "ticker_sentiment_score": "0.139363",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "APLT COURT NEWS: Applied Therapeutics has been Sued for Securities Fraud; Contact BFA Law by February 18 if You Lost Money  ( NASDAQ:APLT )  - Applied Therapeutics  ( NASDAQ:APLT ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43758608/aplt-court-news-applied-therapeutics-has-been-sued-for-securities-fraud-contact-bfa-law-by-februar",
-            "time_published": "20250216T121800",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 16, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Applied Therapeutics, Inc. APLT and certain of the Company's senior executives for potential violations of the federal securities laws.",
-            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.929393"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.169191,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APLT",
-                    "relevance_score": "0.582526",
-                    "ticker_sentiment_score": "0.230561",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.058759",
-                    "ticker_sentiment_score": "0.139037",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "SMTC STOCK UPDATE: Semtech Corp. is being Investigated for Securities Fraud; Contact BFA Law if You Lost Money  ( NASDAQ:SMTC )  - Semtech  ( NASDAQ:SMTC ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43758606/smtc-stock-update-semtech-corp-is-being-investigated-for-securities-fraud-contact-bfa-law-if-you-l",
-            "time_published": "20250216T121800",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 16, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces an investigation into Semtech Corp. SMTC for potential violations of the federal securities laws.",
-            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.102946,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.319933",
-                    "ticker_sentiment_score": "-0.03956",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SMTC",
-                    "relevance_score": "0.783955",
-                    "ticker_sentiment_score": "0.099922",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.082111",
-                    "ticker_sentiment_score": "0.142778",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "NXT COURT NEWS: Nextracker Inc. has been Sued for Securities Fraud; Contact BFA Law by February 25 if You Lost Money  ( NASDAQ:NXT )  - NEXTracker  ( NASDAQ:NXT ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43758604/nxt-court-news-nextracker-inc-has-been-sued-for-securities-fraud-contact-bfa-law-by-february-25-if",
-            "time_published": "20250216T121600",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 16, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Nextracker Inc. NXT and certain of the Company's senior executives for potential violations of the federal securities laws.",
-            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.063,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NXT(EXP20091224)",
-                    "relevance_score": "0.553082",
-                    "ticker_sentiment_score": "0.017075",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.067347",
-                    "ticker_sentiment_score": "0.13972",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:NXT",
-                    "relevance_score": "0.067347",
-                    "ticker_sentiment_score": "0.063083",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Is Nike a Buy, Sell, or Hold in 2025?",
-            "url": "https://www.fool.com/investing/2025/02/16/is-nike-a-buy-sell-or-hold-in-2025/",
-            "time_published": "20250216T121500",
-            "authors": [
-                "Lawrence Rothman",
-                "CFA"
-            ],
-            "summary": "Long-time successful companies can hit roadblocks. It's tough to figure out whether it's a temporary setback or a more permanent situation. However, taking a step back to analyze the company's fundamentals can help you make that determination.It's particularly challenging when it's a consumer ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807108%2Fshopping-for-sneakers-nike-addidas-athletic-apparel-1200x800-5b2df79.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.875462"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.164185,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.068306",
-                    "ticker_sentiment_score": "0.021776",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NKE",
-                    "relevance_score": "0.559547",
-                    "ticker_sentiment_score": "0.181021",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "TMDX CLASS ACTION ALERT: Scorpion Capital Report Triggers Class Action against TransMedics Group, Inc. for Fraud; Contact BFA Law by April 11 Court Deadline  ( NASDAQ:TMDX )  - TransMedics Gr  ( NASDAQ:TMDX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43758603/tmdx-class-action-alert-scorpion-capital-report-triggers-class-action-against-transmedics-group-in",
-            "time_published": "20250216T121400",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 16, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against TransMedics Group, Inc. TMDX and certain of the Company's senior executives for potential violations of the federal securities laws.",
-            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.106471,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TMDX",
-                    "relevance_score": "0.722676",
-                    "ticker_sentiment_score": "0.101852",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.066598",
-                    "ticker_sentiment_score": "0.139627",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
