@@ -1,8 +1,139 @@
 {
-    "items": "24",
+    "items": "28",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Is Meta Platforms Stock Going to $935? 1 Wall Street Firm Thinks So.",
+            "url": "https://www.fool.com/investing/2025/02/16/meta-platforms-stock-going-935-wall-street-firm/",
+            "time_published": "20250216T112200",
+            "authors": [
+                "John Ballard"
+            ],
+            "summary": "Shares of Meta Platforms ( NASDAQ: META ) are up 23% year to date, following another strong earnings report in January.Tigress Financial recently maintained the firm's \"strong buy\" rating on the shares but made a substantial adjustment in its price target.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807445/stock-charts-and-cash.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.990786"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                }
+            ],
+            "overall_sentiment_score": 0.440255,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.366061",
+                    "ticker_sentiment_score": "0.580043",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "This Stock Is Already Up 34% in 2025. Its Growth Is Getting a Big Boost From Amazon and Alphabet.",
+            "url": "https://www.fool.com/investing/2025/02/16/this-stock-is-already-up-34-in-2025-its-growth-is/",
+            "time_published": "20250216T111500",
+            "authors": [
+                "Jon Quast"
+            ],
+            "summary": "In the history of the stock market, very few companies have ever been worth $1 trillion or more. But Amazon ( NASDAQ: AMZN ) and Alphabet ( NASDAQ: GOOG ) ( NASDAQ: GOOGL ) , which is the parent company of Google, are two of them. It's hard to think of any two companies as big and as important as ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807428/smiling-person-with-phone.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.235223,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.464393",
+                    "ticker_sentiment_score": "0.356131",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.521033",
+                    "ticker_sentiment_score": "0.398859",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "PINS",
+                    "relevance_score": "0.62382",
+                    "ticker_sentiment_score": "0.323946",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Coca-Cola Sees Solid Growth Ahead. Can the Stock Finally Break Out of Its Trading Range?",
+            "url": "https://www.fool.com/investing/2025/02/16/coca-cola-sees-solid-growth-ahead-can-the-stock-fi/",
+            "time_published": "20250216T110500",
+            "authors": [
+                "Geoffrey Seiler"
+            ],
+            "summary": "While Coca-Cola ( NYSE: KO ) has been putting up solid organic revenue growth the past few years, its stock has largely been range bound. In fact, its stock price is up only about 15% over the past five years, as of this writing.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807507%2Fgettyimages-153767661.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999491"
+                }
+            ],
+            "overall_sentiment_score": 0.280053,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.405651",
+                    "ticker_sentiment_score": "0.439715",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "Mitch McConnell's Tariff Concerns, Jerome Powell's Inflation Stance, Trudeau's Tariff Slam, Inflation Surge, And More: This Week In Economics",
             "url": "https://www.benzinga.com/news/25/02/43758426/mitch-mcconnells-tariff-concerns-jerome-powells-inflation-stance-trudeaus-tariff-slam-inflation-surge-and-mo",
@@ -24,6 +155,59 @@
             "overall_sentiment_score": -0.051455,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
+        },
+        {
+            "title": "2 Beaten-Down Stocks to Avoid",
+            "url": "https://www.fool.com/investing/2025/02/16/2-beaten-down-stock-to-avoid/",
+            "time_published": "20250216T110000",
+            "authors": [
+                "Prosper Junior Bakiny"
+            ],
+            "summary": "It's best to invest in valuable, promising companies when everyone else is ignoring their potential and bidding down their shares. However, blindly putting money into corporations just because they happen to have lagged behind the market is a terrible strategy.",
+            "banner_image": "https://media.ycharts.com/charts/d7d46c75449fca8de1e208df8fcdb9e0.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": -0.012274,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IIPR",
+                    "relevance_score": "0.141726",
+                    "ticker_sentiment_score": "-0.011976",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TLRY",
+                    "relevance_score": "0.094762",
+                    "ticker_sentiment_score": "0.026727",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BNXYF",
+                    "relevance_score": "0.047465",
+                    "ticker_sentiment_score": "0.042542",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "This Top Stock Continues to Look More Like Berkshire Hathaway",
