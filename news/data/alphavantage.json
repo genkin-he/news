@@ -1,8 +1,491 @@
 {
-    "items": "8",
+    "items": "14",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Musk's DOGE Under Treasury Scrutiny, Trump's Tariffs Impacting Soda Industry, And More - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/25/02/43758282/musks-doge-under-treasury-scrutiny-trumps-tariffs-impacting-soda-industry-and-more",
+            "time_published": "20250216T100042",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "The past week has been a whirlwind of news, with the spotlight on Elon Musk's Department of Government Efficiency ( DOGE ) and its access to federal payment systems, the impact of President Donald Trump's tariffs on the soda industry, and more. Let's dive into the details.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/16/US-Capitol.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.129354,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.239698",
+                    "ticker_sentiment_score": "0.265568",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Here's the Average Stock Market Return in the Past 10 Years, and What Wall Street Expects in the Future",
+            "url": "https://www.fool.com/investing/2025/02/16/average-stock-market-return-10-years-wall-street/",
+            "time_published": "20250216T095000",
+            "authors": [
+                "Trevor Jennewine"
+            ],
+            "summary": "Collectively, about 6,000 companies are listed on the New York Stock Exchange and the Nasdaq Exchange, according to the Securities Industry and Financial Markets Association ( SIFMA ) . Many of those companies are grouped into major indexes that measure various aspects the domestic ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807895%2Fmarket-4.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.714479"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.98396"
+                }
+            ],
+            "overall_sentiment_score": 0.087427,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.057352",
+                    "ticker_sentiment_score": "0.026016",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.057352",
+                    "ticker_sentiment_score": "0.026016",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Which Is the Better Stock to Buy and Hold Forever: Amazon or Costco?",
+            "url": "https://www.fool.com/investing/2025/02/16/which-is-the-better-stock-to-buy-and-hold-forever/",
+            "time_published": "20250216T094900",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "You couldn't have gone wrong buying shares of Amazon ( NASDAQ: AMZN ) or Costco Wholesale ( NASDAQ: COST ) in the two companies' early days. A $10,000 investment in Costco when the giant wholesaler went public in 1985 would be worth almost $11.9 million today.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807510/amazon-flex-driver-delivering-package-to-door-step.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.614606"
+                }
+            ],
+            "overall_sentiment_score": 0.408306,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.713878",
+                    "ticker_sentiment_score": "0.574479",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.649352",
+                    "ticker_sentiment_score": "0.634819",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Is Enbridge a Better Ultra-High-Yield Dividend Stock to Buy Right Now Than Energy Transfer?",
+            "url": "https://www.fool.com/investing/2025/02/16/enbridge-energy-transfer-high-yield-dividend-stock/",
+            "time_published": "20250216T094800",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "Midstream energy stocks have been anything but middling performers recently. Just look at Enbridge ( NYSE: ENB ) and Energy Transfer LP ( NYSE: ET ) . These two leading midstream stocks have soared 33% and 42%, respectively, over the last 12 months.Just because one has been a bigger winner in the ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807752/pipeline-worker.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.838487"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                }
+            ],
+            "overall_sentiment_score": 0.310304,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ENB",
+                    "relevance_score": "0.704243",
+                    "ticker_sentiment_score": "0.498744",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ET",
+                    "relevance_score": "0.665529",
+                    "ticker_sentiment_score": "0.459367",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Want to Cash In on High Inflation Rates? Buy These 2 High-Yielding Dividend Stocks.",
+            "url": "https://www.fool.com/investing/2025/02/16/want-to-cash-in-on-high-inflation-rates-buy-these/",
+            "time_published": "20250216T093900",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "The latest inflation data wasn't what the market wanted to see. The Consumer Price Index ( CPI ) rose by 0.5% month over month in January, and 3% year over year. That was higher than expected -- the consensus had been for a 0.3% monthly rise and a 2.9% annual pace -- and well above the Federal ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807602/a-hand-writing-inflation-on-a-chalk-board-with-an-arrow-over-steadily-rising-bars.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.121785,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BIPC",
+                    "relevance_score": "0.245339",
+                    "ticker_sentiment_score": "0.235947",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Have $500? 3 Absurdly Cheap Stocks Long-Term Investors Should Buy Right Now.",
+            "url": "https://www.fool.com/investing/2025/02/16/have-500-3-absurdly-cheap-stocks-buy-now/",
+            "time_published": "20250216T093500",
+            "authors": [
+                "Will Healy"
+            ],
+            "summary": "At first glance, it may not look like a great time to find \"cheap stocks.\" The S&P 500 is close to all-time highs, and some of the more prominent consumer stocks are the reason for its performance.Nonetheless, the rally has left some of these stocks behind amid temporary challenges.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807139/percentage-sign-interest-rate-return-performance-sale-discount.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.962106"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.239552,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TGT",
+                    "relevance_score": "0.256719",
+                    "ticker_sentiment_score": "0.036149",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CELH",
+                    "relevance_score": "0.256719",
+                    "ticker_sentiment_score": "0.315376",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.052226",
+                    "ticker_sentiment_score": "0.063994",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.052226",
+                    "ticker_sentiment_score": "-0.042001",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SE",
+                    "relevance_score": "0.206685",
+                    "ticker_sentiment_score": "0.056302",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ULTA",
+                    "relevance_score": "0.052226",
+                    "ticker_sentiment_score": "0.063994",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SBUX",
+                    "relevance_score": "0.052226",
+                    "ticker_sentiment_score": "0.063994",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PEP",
+                    "relevance_score": "0.104228",
+                    "ticker_sentiment_score": "0.14334",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.104228",
+                    "ticker_sentiment_score": "0.078886",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.052226",
+                    "ticker_sentiment_score": "-0.042001",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Is President Donald Trump on a Collision Course With History? More Than a Century of Data Paints a Clear Picture.",
+            "url": "https://www.fool.com/investing/2025/02/16/is-donald-trump-on-a-collision-course-with-history/",
+            "time_published": "20250216T090600",
+            "authors": [
+                "Sean Williams"
+            ],
+            "summary": "Historic correlations spell trouble for the U.S. economy and stock market during Trump's second term.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807710%2F48318337746_375f732ad3_k.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999999"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.074761,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.035086",
+                    "ticker_sentiment_score": "-0.138166",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "2 Monster Stocks to Buy Before They Soar 150% and 630%, According to Certain Wall Street Analysts",
+            "url": "https://www.fool.com/investing/2025/02/16/2-stocks-buy-before-soar-150-and-630-wall-street/",
+            "time_published": "20250216T085500",
+            "authors": [
+                "Trevor Jennewine"
+            ],
+            "summary": "Tesla ( NASDAQ: TTD ) and The Trade Desk ( NASDAQ: TSLA ) generated monster shareholder returns of 555% and 163%, respectively, over the past five years. And certain Wall Street analysts think that momentum will carry into the future, as detailed below:Here's what investors should know about ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807880/growth-23.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.229656,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.08197",
+                    "ticker_sentiment_score": "0.180878",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.041039",
+                    "ticker_sentiment_score": "0.173202",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.356723",
+                    "ticker_sentiment_score": "0.204052",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TTD",
+                    "relevance_score": "0.428632",
+                    "ticker_sentiment_score": "0.394552",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.041039",
+                    "ticker_sentiment_score": "0.114086",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Meta Platforms Stock Is Soaring. Is It Too Late to Buy?",
+            "url": "https://www.fool.com/investing/2025/02/16/meta-platforms-stock-soaring-too-late-buy/",
+            "time_published": "20250216T084500",
+            "authors": [
+                "John Ballard"
+            ],
+            "summary": "Shares of Meta Platforms ( NASDAQ: META ) have delivered explosive returns to investors since bottoming out in 2022, and the stock continues to hit new highs. The stock surged recently after the company reported strong revenue and earnings performance in the fourth quarter.Despite the stock's ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807475/abstract-bull-climbing-stocks.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999953"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.405146,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.123526",
+                    "ticker_sentiment_score": "0.083564",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.06343",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.302429",
+                    "ticker_sentiment_score": "0.29824",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.084012",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Weixin is testing DeepSeek to put China's super app on steroids",
             "url": "https://www.scmp.com/tech/big-tech/article/3298883/tencent-testing-deepseek-add-chinas-hottest-ai-technology-its-weixin-super-app",
@@ -204,132 +687,6 @@
                     "relevance_score": "0.066047",
                     "ticker_sentiment_score": "0.127254",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, GLOBALLY RECOGNIZED INVESTOR COUNSEL, Encourages Intellia Therapeutics, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - NTLA - Intellia Therapeutics  ( NASDAQ:NTLA ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43757606/rosen-globally-recognized-investor-counsel-encourages-intellia-therapeutics-inc-investors-to-secur",
-            "time_published": "20250216T030900",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, announces that a shareholder filed a class action on behalf of purchasers of securities of Intellia Therapeutics, Inc. NTLA between July 30, 2024 and January 8, 2025, both dates inclusive ( ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.152617,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.061315",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NTLA",
-                    "relevance_score": "0.241684",
-                    "ticker_sentiment_score": "-0.079756",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "China's online sellers face turmoil after Trump's tariff reversal",
-            "url": "https://www.scmp.com/tech/tech-war/article/3298805/chinas-merchants-temu-shein-face-turmoil-after-trumps-tariff-reversal",
-            "time_published": "20250216T023014",
-            "authors": [
-                "Iris Deng"
-            ],
-            "summary": "Trump's return to the White House has added to the challenges faced by cross-border merchants in China.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/15/955b8a20-e86c-4474-82dc-71b305950e4c_3591442a.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [],
-            "overall_sentiment_score": 0.05014,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.06623",
-                    "ticker_sentiment_score": "0.058076",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Could DeepSeek help China's yuan dethrone the US dollar?",
-            "url": "https://www.scmp.com/economy/china-economy/article/3298730/deepseek-eats-americas-ai-edge-us-dollar-dominance-risk",
-            "time_published": "20250216T020011",
-            "authors": [
-                "Alice Li"
-            ],
-            "summary": "The tech-heavy US stock market has been one of the pillars supporting the US currency's global standing.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/01/28/clean.jpg?itok=HhLJGwSf",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.858979"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": 0.26704,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NINTF",
-                    "relevance_score": "0.062761",
-                    "ticker_sentiment_score": "0.100994",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SCBFF",
-                    "relevance_score": "0.062761",
-                    "ticker_sentiment_score": "0.091291",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:CNY",
-                    "relevance_score": "0.186738",
-                    "ticker_sentiment_score": "0.25819",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.41849",
-                    "ticker_sentiment_score": "0.349287",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
