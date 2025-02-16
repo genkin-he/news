@@ -1,8 +1,91 @@
 {
-    "items": "33",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "China's online sellers face turmoil after Trump's tariff reversal",
+            "url": "https://www.scmp.com/tech/tech-war/article/3298805/chinas-merchants-temu-shein-face-turmoil-after-trumps-tariff-reversal",
+            "time_published": "20250216T023014",
+            "authors": [
+                "Iris Deng"
+            ],
+            "summary": "Trump's return to the White House has added to the challenges faced by cross-border merchants in China.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/15/955b8a20-e86c-4474-82dc-71b305950e4c_3591442a.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [],
+            "overall_sentiment_score": 0.05014,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.06623",
+                    "ticker_sentiment_score": "0.058076",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Could DeepSeek help China's yuan dethrone the US dollar?",
+            "url": "https://www.scmp.com/economy/china-economy/article/3298730/deepseek-eats-americas-ai-edge-us-dollar-dominance-risk",
+            "time_published": "20250216T020011",
+            "authors": [
+                "Alice Li"
+            ],
+            "summary": "The tech-heavy US stock market has been one of the pillars supporting the US currency's global standing.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/01/28/clean.jpg?itok=HhLJGwSf",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.451494"
+                }
+            ],
+            "overall_sentiment_score": 0.26704,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NINTF",
+                    "relevance_score": "0.062761",
+                    "ticker_sentiment_score": "0.100994",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.062761",
+                    "ticker_sentiment_score": "0.091291",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:CNY",
+                    "relevance_score": "0.186738",
+                    "ticker_sentiment_score": "0.25819",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.41849",
+                    "ticker_sentiment_score": "0.349287",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "How DeepSeek's AI has become a must-have feature in Chinese smart EVs",
             "url": "https://www.scmp.com/business/china-business/article/3298673/how-deepseeks-ai-has-become-must-have-feature-chinese-smart-evs",
@@ -1382,199 +1465,6 @@
                     "relevance_score": "0.141726",
                     "ticker_sentiment_score": "0.198235",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A LEADING LAW FIRM, Encourages Crocs, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - CROX - Crocs  ( NASDAQ:CROX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43756533/rosen-a-leading-law-firm-encourages-crocs-inc-investors-to-secure-counsel-before-important-deadlin",
-            "time_published": "20250215T160900",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Crocs, Inc. CROX between November 3, 2022 and October 28, 2024, inclusive ( the \"Class Period\" ) , of the important March 24, 2025 lead plaintiff ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.154616,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.063091",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CROX",
-                    "relevance_score": "0.473427",
-                    "ticker_sentiment_score": "0.034549",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Berkshire Hathaway Adjusts Portfolio, Keeps Apple Stake Unchanged, Offloads Stakes in BofA - Apple  ( NASDAQ:AAPL ) , Bank of America  ( NYSE:BAC ) ",
-            "url": "https://www.benzinga.com/news/earnings/25/02/43756510/berkshire-hathaway-adjusts-portfolio-keeps-apple-stake-unchanged-offloads-stakes-in-bofa",
-            "time_published": "20250215T160017",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Buffett's Berkshire Hathaway reshuffles its portfolio, maintaining a strong grip on Apple shares. Buffett's latest moves stir curiosity ahead of his much-anticipated annual letter to investors.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Warren-Buffett--Chairman-And-Ceo-Of-Berk.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.25"
-                }
-            ],
-            "overall_sentiment_score": 0.296533,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DMPZF",
-                    "relevance_score": "0.174587",
-                    "ticker_sentiment_score": "0.212843",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.418689",
-                    "ticker_sentiment_score": "0.381767",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.174587",
-                    "ticker_sentiment_score": "0.082455",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ULTA",
-                    "relevance_score": "0.087824",
-                    "ticker_sentiment_score": "0.083497",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.174587",
-                    "ticker_sentiment_score": "0.082455",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.418689",
-                    "ticker_sentiment_score": "0.31734",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "STZ",
-                    "relevance_score": "0.259267",
-                    "ticker_sentiment_score": "0.276402",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "COF",
-                    "relevance_score": "0.174587",
-                    "ticker_sentiment_score": "0.082455",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DPZ",
-                    "relevance_score": "0.174587",
-                    "ticker_sentiment_score": "0.212843",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages Newmont Corporation Investors to Secure Counsel Before Important Deadline in Securities Class Action - NEM - Newmont  ( NYSE:NEM ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43756507/rosen-a-leading-investor-rights-law-firm-encourages-newmont-corporation-investors-to-secure-counse",
-            "time_published": "20250215T160000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Newmont Corporation NEM between February 22, 2024 and October 23, 2024, inclusive ( the \"Class Period\" ) , of the important April 1, 2025 lead plaintiff ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.183033,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.06697",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NEM",
-                    "relevance_score": "0.263231",
-                    "ticker_sentiment_score": "0.215549",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:NEM",
-                    "relevance_score": "0.06697",
-                    "ticker_sentiment_score": "0.136366",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
