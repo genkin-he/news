@@ -1,5 +1,5 @@
 {
-    "items": "26",
+    "items": "25",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -974,43 +974,6 @@
             "overall_sentiment_score": -0.356842,
             "overall_sentiment_label": "Bearish",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Better Artificial Intelligence  ( AI )  Buy for 2025: AMD or Nvidia Stock?",
-            "url": "https://www.fool.com/investing/2025/02/15/better-artificial-intelligence-ai-buy-for-2025-amd/",
-            "time_published": "20250215T190000",
-            "authors": [
-                "Keithen Drury"
-            ],
-            "summary": "Nvidia ( NASDAQ: NVDA ) has essentially owned the data center computing market, which is a huge deal, considering the hundreds of billions of dollars being spent on artificial intelligence ( AI ) infrastructure. Nvidia is one of the primary benefactors of this investment, although some of its ...",
-            "banner_image": "https://media.ycharts.com/charts/5b202bdc608fdc19518e6fc5f96c8907.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.858979"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.278678,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.661658",
-                    "ticker_sentiment_score": "0.513634",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
         }
     ]
 }
