@@ -1,8 +1,120 @@
 {
-    "items": "31",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "From $275,000 Salaries To Work-Life Balance: Why Burned-Out Doctors Are Trading The ER For The C-Suite - Talkspace  ( NASDAQ:TALK ) , Salesforce  ( NYSE:CRM ) ",
+            "url": "https://www.benzinga.com/news/25/02/43757335/from-275000-salaries-to-work-life-balance-why-burned-out-doctors-are-trading-the-er-for-the-c-suite",
+            "time_published": "20250215T233017",
+            "authors": [
+                "Claire Shefchik"
+            ],
+            "summary": "Doctors are ditching the hospital grind for corporate boardrooms. And with $275,000 salaries, better hours, and less stress, it's easy to see why. The rise of chief medical officers in tech, startups, and even companies like Google and Salesforce CRM is pulling more doctors away from clinical ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Depression--Grief-Or-Fail-With-A-Mature-.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.175703,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ZIP",
+                    "relevance_score": "0.118647",
+                    "ticker_sentiment_score": "0.196489",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.118647",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TALK",
+                    "relevance_score": "0.118647",
+                    "ticker_sentiment_score": "-0.040145",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.059488",
+                    "ticker_sentiment_score": "0.111",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.059488",
+                    "ticker_sentiment_score": "0.281152",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "As McDonald's Turns to Value Meals, Is Now a Good Time to Buy the Stock?",
+            "url": "https://www.fool.com/investing/2025/02/15/as-mcdonalds-turns-to-value-meals-is-now-a-good-ti/",
+            "time_published": "20250215T233000",
+            "authors": [
+                "Geoffrey Seiler"
+            ],
+            "summary": "After a period of heavy inflation left quick-service restaurant prices elevated, McDonald's ( NYSE: MCD ) has decided to lean into value meals. In fact, on its recent fourth-quarter earnings call, the company used the word \"value\" or a variation of the word \"affordable\" more than 50 times.When ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807320%2Fgettyimages-972911836.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.928769"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.189423,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MDNDF",
+                    "relevance_score": "0.318897",
+                    "ticker_sentiment_score": "0.207208",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:EUR",
+                    "relevance_score": "0.046816",
+                    "ticker_sentiment_score": "0.188479",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "The Ultimate Healthcare Robotics Stock to Buy With $600 Right Now",
             "url": "https://www.fool.com/investing/2025/02/15/the-ultimate-healthcare-robotics-stock-to-buy-with/",
@@ -119,6 +231,47 @@
                     "relevance_score": "0.136888",
                     "ticker_sentiment_score": "0.006184",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Chinese sex doll maker sees jump in 2025 sales as AI improves user experience",
+            "url": "https://www.scmp.com/tech/tech-trends/article/3298783/chinese-sex-doll-maker-sees-jump-2025-sales-ai-boosts-adult-toys-user-experience",
+            "time_published": "20250215T230018",
+            "authors": [
+                "Coco Feng"
+            ],
+            "summary": "WMDoll founder Liu Jiangxia says the integration of generative AI models 'makes the dolls more responsive and interactive'.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/14/58bf5417-91a9-4405-8dde-65ed8e48927a_a18f5966.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.140215,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.042876",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIDU",
+                    "relevance_score": "0.042876",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.085629",
+                    "ticker_sentiment_score": "0.176111",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -1392,166 +1545,6 @@
                     "relevance_score": "0.06697",
                     "ticker_sentiment_score": "0.136366",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Is Rigetti Computing Stock a Buy?",
-            "url": "https://www.fool.com/investing/2025/02/15/is-rigetti-computing-stock-a-buy/",
-            "time_published": "20250215T153700",
-            "authors": [
-                "Jeremy Bowman"
-            ],
-            "summary": "Quantum computing stocks have surged since Alphabet ( NASDAQ: GOOG ) ( NASDAQ: GOOGL ) said it hit a milestone in the cutting-edge technology. The company's Willow quantum chip performed a standard benchmark computation in under five minutes that would take a supercomputer 10 septillion years ( a ...",
-            "banner_image": "https://media.ycharts.com/charts/0a397e6ec4ff83531eb322d945680d29.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.099707,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RGTI",
-                    "relevance_score": "0.181137",
-                    "ticker_sentiment_score": "-0.005964",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.181137",
-                    "ticker_sentiment_score": "-0.001518",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bulls and Bears: Apple, Nvidia, Netflix and Trader Predicts Dogecoin Surge by March 24 Bulls and Bears: Apple, Nvidia, Netflix and Trader Predicts Dogecoin Surge by March 24 - Alcoa  ( NYSE:AA ) ",
-            "url": "https://www.benzinga.com/trading-ideas/long-ideas/25/02/43756457/benzinga-bulls-and-bears-apple-nvidia-netflix-and-trader-predicts-dogecoin-surge-by-marc",
-            "time_published": "20250215T153019",
-            "authors": [
-                "Michael Cohen"
-            ],
-            "summary": "Benzinga examined the prospects for many investors' favorite stocks over the last week - here's a look at some of our top stories. The S&P 500 rose about 1.5% this week, while the Dow gained 0.6% and the Nasdaq climbed 2.6%.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/bulls-and-bears-25ai.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.251552,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AA",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "0.198522",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NFLX",
-                    "relevance_score": "0.165788",
-                    "ticker_sentiment_score": "0.42292",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.165788",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.165788",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AVGO",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CENX",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "0.198522",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SBUX",
-                    "relevance_score": "0.165788",
-                    "ticker_sentiment_score": "-0.314128",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "X",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "0.198522",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CLF",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "0.198522",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TSM",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "-0.049402",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.165788",
-                    "ticker_sentiment_score": "0.263514",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
