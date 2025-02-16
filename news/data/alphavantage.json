@@ -1,8 +1,61 @@
 {
-    "items": "16",
+    "items": "9",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Weixin is testing DeepSeek to put China's super app on steroids",
+            "url": "https://www.scmp.com/tech/big-tech/article/3298883/tencent-testing-deepseek-add-chinas-hottest-ai-technology-its-weixin-super-app",
+            "time_published": "20250216T080333",
+            "authors": [
+                "Iris Deng"
+            ],
+            "summary": "Beta users can click an 'AI Search' option within Weixin to access DeepSeek, in addition to Tencent's Hunyuan foundational model.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/16/b2e710d1-d9c4-4c88-bc46-9916418ee3fb_f6dc54bf.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.265377,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.169081",
+                    "ticker_sentiment_score": "0.308652",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.085022",
+                    "ticker_sentiment_score": "0.007279",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TRMNF",
+                    "relevance_score": "0.085022",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.330654",
+                    "ticker_sentiment_score": "0.416243",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "BIDU",
+                    "relevance_score": "0.085022",
+                    "ticker_sentiment_score": "0.275512",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "UBS offers sabbatical perk to former Credit Suisse staff only",
             "url": "https://www.ft.com/content/d885e5d2-4694-4382-876e-ec8fe91f4221",
@@ -307,388 +360,6 @@
                     "relevance_score": "0.066414",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "From $275,000 Salaries To Work-Life Balance: Why Burned-Out Doctors Are Trading The ER For The C-Suite - Talkspace  ( NASDAQ:TALK ) , Salesforce  ( NYSE:CRM ) ",
-            "url": "https://www.benzinga.com/news/25/02/43757335/from-275000-salaries-to-work-life-balance-why-burned-out-doctors-are-trading-the-er-for-the-c-suite",
-            "time_published": "20250215T233017",
-            "authors": [
-                "Claire Shefchik"
-            ],
-            "summary": "Doctors are ditching the hospital grind for corporate boardrooms. And with $275,000 salaries, better hours, and less stress, it's easy to see why. The rise of chief medical officers in tech, startups, and even companies like Google and Salesforce CRM is pulling more doctors away from clinical ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Depression--Grief-Or-Fail-With-A-Mature-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.175703,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ZIP",
-                    "relevance_score": "0.118647",
-                    "ticker_sentiment_score": "0.196489",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.118647",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TALK",
-                    "relevance_score": "0.118647",
-                    "ticker_sentiment_score": "-0.040145",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.059488",
-                    "ticker_sentiment_score": "0.111",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.059488",
-                    "ticker_sentiment_score": "0.281152",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "As McDonald's Turns to Value Meals, Is Now a Good Time to Buy the Stock?",
-            "url": "https://www.fool.com/investing/2025/02/15/as-mcdonalds-turns-to-value-meals-is-now-a-good-ti/",
-            "time_published": "20250215T233000",
-            "authors": [
-                "Geoffrey Seiler"
-            ],
-            "summary": "After a period of heavy inflation left quick-service restaurant prices elevated, McDonald's ( NYSE: MCD ) has decided to lean into value meals. In fact, on its recent fourth-quarter earnings call, the company used the word \"value\" or a variation of the word \"affordable\" more than 50 times.When ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807320%2Fgettyimages-972911836.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.928769"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.189423,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MDNDF",
-                    "relevance_score": "0.318897",
-                    "ticker_sentiment_score": "0.207208",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.046816",
-                    "ticker_sentiment_score": "0.188479",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "The Ultimate Healthcare Robotics Stock to Buy With $600 Right Now",
-            "url": "https://www.fool.com/investing/2025/02/15/the-ultimate-healthcare-robotics-stock-to-buy-with/",
-            "time_published": "20250215T231000",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "Robotics is something that is transforming many industries -- and one of the biggest winners is the area of healthcare. Using robots in minimally invasive surgeries has been shown to decrease chances of complications, shorten hospital stays, and lower mortality rates.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807731%2Fgettyimages-471931893.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999986"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.275921,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ISRG",
-                    "relevance_score": "0.118064",
-                    "ticker_sentiment_score": "0.093261",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Better Monthly Dividend Stock: EPR Properties vs. STAG Industrial",
-            "url": "https://www.fool.com/investing/2025/02/15/better-monthly-dividend-stock-epr-properties-vs-st/",
-            "time_published": "20250215T230500",
-            "authors": [
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "Dividend investors are often looking for income to replace a salary in retirement. Buying companies that pay dividends monthly is a great solution, as monthly dividends are as close to a paycheck as you can probably get on Wall Street.But is it worth reaching for yield with a stock like EPR ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807468%2F23_05_14-a-person-writing-the-word-dividends-_mf-dload.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                }
-            ],
-            "overall_sentiment_score": 0.234818,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "STAG",
-                    "relevance_score": "0.381255",
-                    "ticker_sentiment_score": "0.297237",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "EPR",
-                    "relevance_score": "0.477704",
-                    "ticker_sentiment_score": "0.383684",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "History Says the S&P 500 Will Surge in 2025: 2 Stock-Split Stocks to Buy Before It Does",
-            "url": "https://www.fool.com/investing/2025/02/15/history-says-the-sp-500-will-surge-in-2025-2-stock/",
-            "time_published": "20250215T230200",
-            "authors": [
-                "Danny Vena"
-            ],
-            "summary": "These high-performing companies have generated solid returns for shareholders and likely still have room to run.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807379%2Fa-person-looking-at-graphs-and-charts-on-a-futuristic-see-through-interface.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.980716"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                }
-            ],
-            "overall_sentiment_score": 0.25513,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ANET",
-                    "relevance_score": "0.22616",
-                    "ticker_sentiment_score": "0.170247",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PANW",
-                    "relevance_score": "0.136888",
-                    "ticker_sentiment_score": "0.006184",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Chinese sex doll maker sees jump in 2025 sales as AI improves user experience",
-            "url": "https://www.scmp.com/tech/tech-trends/article/3298783/chinese-sex-doll-maker-sees-jump-2025-sales-ai-boosts-adult-toys-user-experience",
-            "time_published": "20250215T230018",
-            "authors": [
-                "Coco Feng"
-            ],
-            "summary": "WMDoll founder Liu Jiangxia says the integration of generative AI models 'makes the dolls more responsive and interactive'.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/14/58bf5417-91a9-4405-8dde-65ed8e48927a_a18f5966.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.140215,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.042876",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BIDU",
-                    "relevance_score": "0.042876",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.085629",
-                    "ticker_sentiment_score": "0.176111",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: This Artificial Intelligence  ( AI )  Stock Could be Worth More Than Salesforce by the End of 2025",
-            "url": "https://www.fool.com/investing/2025/02/15/prediction-this-artificial-intelligence-ai-stock-c/",
-            "time_published": "20250215T230000",
-            "authors": [
-                "Adam Spatacco"
-            ],
-            "summary": "Salesforce's valuation has fluctuated quite a bit over the last couple of years.",
-            "banner_image": "https://media.ycharts.com/charts/c5319ab500f1116e8c4abcbbc40c6912.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.980716"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.203441,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.097457",
-                    "ticker_sentiment_score": "0.123935",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ASAN",
-                    "relevance_score": "0.04882",
-                    "ticker_sentiment_score": "0.039497",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.04882",
-                    "ticker_sentiment_score": "0.165967",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TEAM",
-                    "relevance_score": "0.04882",
-                    "ticker_sentiment_score": "0.039497",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HUBS",
-                    "relevance_score": "0.04882",
-                    "ticker_sentiment_score": "0.039497",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.097457",
-                    "ticker_sentiment_score": "0.192855",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Occidental Petroleum Stock Is Down 32% - But Warren Buffett Keeps Buying More. Does He Know Something the Market Doesn't? - Occidental Petroleum  ( NYSE:OXY ) ",
-            "url": "https://www.benzinga.com/25/02/43757272/occidental-petroleum-stock-is-down-32-but-warren-buffett-keeps-buying-more-does-he-know-something-the-market-does",
-            "time_published": "20250215T223309",
-            "authors": [
-                "LaToya Scott"
-            ],
-            "summary": "Warren Buffett's Berkshire Hathaway BRK BRK.B ) ) is at it again, buying up more shares of Occidental Petroleum OXY. On Feb. 7, Berkshire added 763,017 shares to its portfolio for about $35.7 million. That brings its total stake in the Houston-based oil and gas giant to 28.3%, making it ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Occidental-Petroleum-stock.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99793"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.176915,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "OXY",
-                    "relevance_score": "0.127456",
-                    "ticker_sentiment_score": "0.219538",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.188291",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
