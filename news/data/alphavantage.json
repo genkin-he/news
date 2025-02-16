@@ -1,5 +1,5 @@
 {
-    "items": "9",
+    "items": "8",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -330,36 +330,6 @@
                     "relevance_score": "0.41849",
                     "ticker_sentiment_score": "0.349287",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "How DeepSeek's AI has become a must-have feature in Chinese smart EVs",
-            "url": "https://www.scmp.com/business/china-business/article/3298673/how-deepseeks-ai-has-become-must-have-feature-chinese-smart-evs",
-            "time_published": "20250216T010015",
-            "authors": [
-                "Daniel Ren"
-            ],
-            "summary": "Some two dozen carmakers, including BYD and Leapmotor, have unveiled plans to equip their models with AI developed by DeepSeek.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/02/05/Deepdive_Thu_Clean.jpg?itok=d_IKXcmj",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [],
-            "overall_sentiment_score": 0.262665,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GWLLY",
-                    "relevance_score": "0.066414",
-                    "ticker_sentiment_score": "0.098182",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.066414",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
