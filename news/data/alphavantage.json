@@ -1,5 +1,5 @@
 {
-    "items": "29",
+    "items": "28",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -65,6 +65,65 @@
             "overall_sentiment_score": 0.115645,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Second phase of Hong Kong's eMPF reform to start in March with more enhancements",
+            "url": "https://www.scmp.com/business/article/3298648/next-phase-hong-kongs-empf-reform-start-march-more-providers-enhancements",
+            "time_published": "20250216T040009",
+            "authors": [
+                "Enoch Yiu"
+            ],
+            "summary": "Bank of East Asia, Principal Trust Company and two other providers are set to join the pension plan's digital platform as it scales up.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/14/69fbcd46-43b6-405b-b277-557ff6c05c72_9268aa8e.jpg?itok=vbitWJ2B&v=1739508460",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.290446,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAIGF",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "0.127254",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "0.327585",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BCMXY",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "0.327585",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BKEAF",
+                    "relevance_score": "0.131643",
+                    "ticker_sentiment_score": "0.333159",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SLF",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "0.127254",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HSBC",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "0.127254",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "ROSEN, GLOBALLY RECOGNIZED INVESTOR COUNSEL, Encourages Intellia Therapeutics, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - NTLA - Intellia Therapeutics  ( NASDAQ:NTLA ) ",
@@ -1028,102 +1087,6 @@
                     "ticker": "WBA",
                     "relevance_score": "0.123844",
                     "ticker_sentiment_score": "0.095185",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Germany and UK Show Highest Per-Capita Demand for Crypto Casinos - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
-            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43756770/germany-and-uk-show-highest-per-capita-demand-for-crypto-casinos",
-            "time_published": "20250215T172945",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Germany and the UK lead in per-capita searches for crypto casinos, despite regulatory hurdles. Global search interest in crypto casinos has grown by 20-30% since 2023. Get real-time earnings alerts before the market moves and access expert analysis that uncovers hidden opportunities in the ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Gold-Bitcoin-Cryptocurrency-With-Poker-C.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                }
-            ],
-            "overall_sentiment_score": 0.349839,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.075161",
-                    "ticker_sentiment_score": "0.17301",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.222838",
-                    "ticker_sentiment_score": "0.309413",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.149656",
-                    "ticker_sentiment_score": "0.187892",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Trump and Crypto Industry Team Up To Fight Biden's 'Debanking' War on Digital Asset Firms Trump and Crypto Industry Team Up To Fight Biden's 'Debanking' War on Digital Asset Firms - Bank of America  ( NYSE:BAC ) , JPMorgan Chase  ( NYSE:JPM ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/02/43756735/trump-and-crypto-industry-team-up-to-fight-bidens-debanking-war-on-digital-asset-firms",
-            "time_published": "20250215T171914",
-            "authors": [
-                "Nabaparna Bhattacharya"
-            ],
-            "summary": "Crypto executives claim \"Operation Choke Point 2.0\" targets digital asset firms, with banks cutting ties under regulatory pressure. Trump and Republicans push back against Biden's debanking, aiming for fair access to financial services and crypto-friendly regulations.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/SEC-Crypto-Task-Force-Head-Heister-Peirc.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.026989,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "0.200234",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SBNY",
-                    "relevance_score": "0.074692",
-                    "ticker_sentiment_score": "0.131308",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
