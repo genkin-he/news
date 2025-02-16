@@ -1,8 +1,37 @@
 {
-    "items": "28",
+    "items": "26",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "UBS offers sabbatical perk to former Credit Suisse staff only",
+            "url": "https://www.ft.com/content/d885e5d2-4694-4382-876e-ec8fe91f4221",
+            "time_published": "20250216T050012",
+            "authors": [
+                "Simon Foy"
+            ],
+            "summary": "Disparities in some benefits remain almost two years after UBS rescue merger ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F242836bd-9ff0-4abf-9423-65c9ac1b74de.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.21954,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BCS",
+                    "relevance_score": "0.09439",
+                    "ticker_sentiment_score": "-0.071104",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "ReShape Lifesciences\u00ae Announces Pricing of Upsized $6.0 Million Public Offering - Reshape Lifesciences  ( NASDAQ:RSLS ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43757881/reshape-lifesciences-announces-pricing-of-upsized-6-0-million-public-offering",
@@ -980,114 +1009,6 @@
                     "relevance_score": "0.661658",
                     "ticker_sentiment_score": "0.513634",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Apple Teasing Home Robots? Top Analyst Predicts Surprise for iPhone Giant",
-            "url": "https://decrypt.co/306093/apple-home-robots-analyst-predicts-surprise",
-            "time_published": "20250215T180103",
-            "authors": [
-                "Jason Nelson"
-            ],
-            "summary": "While tech giant Apple is rumored to be working on humanoid and other home robots, analysts say production won't begin before 2028-if at all.",
-            "banner_image": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/02/sunny-appletv.png@webp",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.138322,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.060085",
-                    "ticker_sentiment_score": "0.138008",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.11983",
-                    "ticker_sentiment_score": "0.17022",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Market Instability Looms in Trump's Second Term, Warns Paul Tudor Jones: 'There's No Room for Mistakes'",
-            "url": "https://www.benzinga.com/markets/25/02/43756824/market-instability-looms-in-trumps-second-term-warns-paul-tudor-jones-theres-no-room-for-mistakes",
-            "time_published": "20250215T180018",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Paul Tudor Jones predicts potential 30% stock market correction in Trump's second term. Record Treasury debt issuance and doubled foreign ownership of U.S. assets raise stability concerns. Get access to your new suite of high-powered trading tools, including real-time stock ratings, insider ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/15/Price-Movement-Chart-With-Indicators-And.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999966"
-                }
-            ],
-            "overall_sentiment_score": 0.079869,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "ROSEN, NATIONAL TRIAL LAWYERS, Encourages Walgreens Boots Alliance, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - WBA - Walgreens Boots Alliance  ( NASDAQ:WBA ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43756820/rosen-national-trial-lawyers-encourages-walgreens-boots-alliance-inc-investors-to-secure-counsel-b",
-            "time_published": "20250215T180000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Walgreens Boots Alliance, Inc. WBA between April 2, 2020 and January 16, 2025, both dates inclusive ( the \"Class Period\" ) , of the important March 31, ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.891286"
-                }
-            ],
-            "overall_sentiment_score": 0.108107,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.06211",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WBA",
-                    "relevance_score": "0.123844",
-                    "ticker_sentiment_score": "0.095185",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
