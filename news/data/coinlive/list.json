@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 743625,
+            "title": "Kuande Investments responds to former employee's comments: the content is untrue",
+            "description": "Odaily Planet Daily News: A piece of news about \"an employee of the well-known quantitative private equity firm Kuande Investment pointed out on a social platform that the company used brain-machine weapons to persecute company employees\" continues to ferment in the private equity circle. As for the above \"abstract\" \"accusations\", Kuande Investment responded on February 18: \"The company has noticed the inappropriate remarks about the company on the online platform. After verification, the publisher of the remarks did work for the company for a short period of time (joined the company in July 2022, and voluntarily resigned in early September of the same year, with a term of about 1 month). At present, the publisher has terminated the labor relationship with the company, and his remarks are personal behavior, and the content contains false and misleading information.\" (China Securities Taurus) \nPreviously, a programmer named \"hulezhi\" sent 500 ETH to the black hole address to make a call on the chain, involving the boss of Kuande Investment Company using brain-machine weapons to persecute employees.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743625&language=en-US",
+            "pub_date": "2025-02-18 13:33:10",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 743629,
+            "title": "Controversy Surrounds Allegations Against Quantitative Private Equity Firm",
+            "description": "According to Odaily, a controversy has emerged in the private equity sector following allegations made by a former employee of the well-known quantitative private equity firm, Kuande Investment. The employee claimed on social media that the company used 'brain-machine weapons' to persecute its staff. In response to these abstract accusations, Kuande Investment issued a statement on February 18, clarifying the situation. The company acknowledged the presence of inappropriate remarks about them on online platforms. They confirmed that the individual who made these statements was briefly employed by the company from July 2022 and voluntarily left in early September of the same year, serving for approximately one month. Kuande Investment emphasized that the individual is no longer associated with the company and that the statements made are personal opinions containing false and misleading information.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743629&language=en-US",
+            "pub_date": "2025-02-18 13:33:44",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 743628,
+            "title": "Solana Network Sees Significant Decline In Active Addresses",
+            "description": "According to Odaily, blockchain analyst Ali reported on X that the number of active addresses on the Solana network has decreased significantly. The figures have dropped from 18.5 million in November last year to less than 8.4 million currently. This represents a decline of over 54% in the past four months.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743628&language=en-US",
+            "pub_date": "2025-02-18 13:33:48",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 743624,
+            "title": "Bitcoin realized and implied volatility near multi-year lows",
+            "description": "Odaily Planet Daily News According to Glassnode data, BTC's two-week actual volatility has dropped to 32% annualized, one of the lowest levels in many years. In addition, the one-month volatility implied by options (that is, the market's expectation of four-week volatility) has fallen below 50% annualized, also hitting one of the lowest levels in many years. (CoinDesk)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743624&language=en-US",
+            "pub_date": "2025-02-18 13:34:09",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 743621,
             "title": "Ripple News: Here’s What Raoul Pal Said About XRP And SEC",
             "description": "The post Ripple News: Here’s What Raoul Pal Said About XRP And SEC appeared first on Coinpedia Fintech News\nDoppler Finance recently officially launched as the first decentralized finance (DeFi) protocol for the XRP Ledger ecosystem, signaling a major development for the network. Backed by investments from Ripple Eco Fund and Futureverse, Doppler Finance is positioned to drive the growth of...\nsource: https://coinpedia.org/news/ripple-news-heres-what-raoul-pal-said-about-xrp-and-sec/",
@@ -56,46 +96,6 @@
             "description": "According to BlockBeats, on February 18, an engineer from xAI announced that the Grok voice assistant is currently undergoing improvements. The enhanced version is expected to be available to users in the coming weeks.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743614&language=en-US",
             "pub_date": "2025-02-18 13:14:05",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743612,
-            "title": "Ethereum client Geth 1.15.2 has been released, fixing the mainnet block creation interruption error in the previous version",
-            "description": "Odaily Planet Daily News Ethereum client Geth 1.15.2 has been released to fix a bug that interrupted the creation of mainnet blocks in the previous version. This emergency update solves a regression in the beacon consensus engine that can lead to missed validator slots and potential financial losses.\nThe regression in the earlier version affected the consensus engine's handling of mainnet block construction because it did not take into account the lack of a defined MergeNetsplitBlock in the chain configuration. This change was introduced in a recent update to the beacon consensus engine, causing the mainnet to not be recognized as running under proof of stake, thereby undermining block creation and the expected performance of the network.\nThe developer detailed that the regression stems from the removal of a test method called TestingTTDBlock, which was originally added during internal testing to simulate merged blocks. By removing this method, the system no longer bypasses the reliance on total difficulty, which previously allowed the engine to ignore the normal fork order and inadvertently enable merges before the London fork.\nIn addition to restoring block construction functionality on the mainnet, this version also solves another issue related to network peer discovery. Discv5 and DNS-based peer discovery functionality, which was inadvertently disabled in a previous update (v1.14.9), has been restored and is critical to maintaining reliable network communications between nodes.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743612&language=en-US",
-            "pub_date": "2025-02-18 13:16:40",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743609,
-            "title": "Grok 3 debuts: solving problems, creating games, and introducing a new search engine DeepSearch",
-            "description": "Odaily Planet Daily News Musk opened the demonstration of xAI's chatbot Grok 3 on Monday, claiming that it is \"an order of magnitude more powerful than Grok 2.\" In a series of demonstrations, Musk and his colleagues asked Grok 3 to solve a physics problem and create a game that combines \"Bejeweled\" and \"Tetris.\" However, xAI said that Grok 3's reasoning model is in beta and is still being trained. Grok 3 also introduced DeepSearch, which xAI described as a new type of search engine and an early version of similar intelligent capabilities. Musk said that the voice mode is still a bit unstable and may be launched in about a week, but it is great. xAI engineers said that Deepsearch is our first generation of extensive agent tools, which not only helps engineers, researchers and scientists write code, but can actually help everyone answer questions they encounter in daily life. (Jinshi)",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743609&language=en-US",
-            "pub_date": "2025-02-18 12:59:39",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743610,
-            "title": "UN Official Advocates Exploration Of Digital Currencies For Human Development",
-            "description": "According to BlockBeats, United Nations Assistant Secretary-General Kanni Wignaraja has called for an exploration into how cryptocurrencies, central bank digital currencies (CBDCs), and stablecoins can drive human development. Wignaraja highlighted that Bitcoin and Ethereum reached a market capitalization peak of $3.9 trillion in December, suggesting that a portion of these funds could be allocated to support education, healthcare, skill development, and job creation. She emphasized the need for digital currencies to support development while ensuring financial stability. Wignaraja also recommended that development organizations test cryptocurrency funds under strict regulation. The transparency of blockchain technology, she noted, can enhance accountability and curb corruption. Additionally, she proposed that the United Nations Development Programme (UNDP) assist countries in establishing regulatory frameworks for CBDCs.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743610&language=en-US",
-            "pub_date": "2025-02-18 13:03:45",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743608,
-            "title": "Binance Releases Changes to BurgerCities (BURGER) Token Economics",
-            "description": "Odaily Planet Daily News According to the official announcement, Binance released the economic model change of BurgerCities (BURGER) token. The total supply of BURGER will or has increased, with an annual inflation rate of 6% to 12%.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743608&language=en-US",
-            "pub_date": "2025-02-18 13:04:30",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
