@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "id": 3741338,
+            "title": "小模型路线图来了！苹果弄清楚了“蒸馏Scaling Law“",
+            "description": "<p data-testid=\"stHeadingWithActionElements\">近期AI领域“蒸馏”这一概念火热，苹果公司近期在人工智能领域的研究成果，为蒸馏以及小模型的训练提供了新的思路。</p>\n<p data-testid=\"stHeadingWithActionElements\">据媒体周二报道，通过深入分析“蒸馏”（Distillation）技术的Scaling Law，苹果的研究人员不仅揭示了何时应该采用蒸馏、何时应该采用微调，还阐明了蒸馏技术在当前AI发展趋势中的重要性。</p>\n<p data-testid=\"stHeadingWithActionElements\">模型蒸馏是一种将大型、复杂的模型（“教师”模型）的知识迁移到小型、简单的模型（“学生”模型）的技术。其基本原理是，利用大模型生成的输出来训练小型模型。这种方法的核心优势在于，通过借鉴已具备强大能力的模型的输出，可以更容易地提升小模型的智能水平</p>\n<p data-testid=\"stHeadingWithActionElements\"><strong>研究发现，多次“蒸馏”更具优势，“教师”模型的性能比大小更重要。更强大的“教师”(大模型）有时会产生更弱的“学生”（小模型），两者“能力差距”过大时反而不利于蒸馏，换句话说需要有合适的教师才能让学习发生。</strong></p>\n<p data-testid=\"stHeadingWithActionElements\">这一研究成果，有望为业界带来更高效、更低成本的小模型训练方案，并推动AI技术的进一步普及。</p>\n<p data-testid=\"stHeadingWithActionElements\">正如分析指出，分布式训练、蒸馏、联邦推理，以及现在的蒸馏Scaling Law，<strong>所有这些研究都指向一个基本事实：大规模、廉价、高效地推广强大AI系统所需的科学正在形成。</strong>AI系统正从少数大型计算专有孤岛中转移出来，以小模型或基于自身轨迹训练的模型形式进入世界。这是一个重要的趋势，将塑造整个领域。</p>\n<h2 data-testid=\"stHeadingWithActionElements\">什么是模型“蒸馏”？何时蒸馏，何时微调？</h2>\n<p>苹果的研究人员发表了一篇关于蒸馏Scaling Law的分析报告，为业界提供了一个理论基础，以判断何时应该从大型模型中蒸馏出一个小型模型，何时应该对小型模型进行监督微调。</p>\n<p>苹果和牛津大学的研究人员引入了一种蒸馏缩放定律，该定律可以根据计算预算分布预测蒸馏模型的性能，对蒸馏进行了广泛的对照研究，学生和教师模型的参数范围从1.43亿到126亿，训练数据从几十亿token到5120亿token不等。</p>\n<p>苹果的研究主要有以下几个关键发现：</p>\n<blockquote>\n<ul>\n<li>\n<p>数据量与训练方法的关系： “在给定足够的学生计算资源或token的情况下，<strong>监督学习总是优于蒸馏。</strong>对于有限的token预算，蒸馏是有利的，然而，当有大量token可用时，监督学习优于蒸馏。”</p>\n</li>\n<li>\n<p>多次蒸馏的优势： 当已经存在一个“教师模型”，并计划训练多个学生模型，<strong>且这些模型相对较大时，从计算支出的角度来看，蒸馏通常效果最好。</strong></p>\n</li>\n<li>\n<p>教师模型的性能比大小更重要。 教师模型的性能水平（交叉熵损失）比其大小更重要。</p>\n</li>\n<li>\n<p>选择与学生模型相近大小的教师模型： <strong>最佳教师模型的大小通常会增长到略大于学生模型，然后趋于稳定。</strong></p>\n</li>\n</ul>\n</blockquote>\n<p>值得一提的是，苹果提出的蒸馏Scaling Law 定义了学生模型的性能如何取决于教师的交叉熵损失、数据集大小和模型参数。该研究确定了两种幂律行为之间的过渡，其中学生的学习能力取决于教师的相对能力。该研究还解决了能力差距现象，这表明更强大的教师有时会产生更弱的学生。分析表明，这种差距是由于学习能力的差异，而不仅仅是模型大小。研究人员证明，当计算资源得到适当分配时，蒸馏在效率方面可以与传统的监督学习方法相媲美，甚至超过后者。</p>\n<p>换句话说，你需要有合适的教师才能让学习发生。例如：一个5岁的孩子或许可以从高中数学老师那里学到一些东西，但他们很难从研究生数学导师那里学到任何东西，事实上可能会变得困惑。</p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
+            "image": "https://wpimg-wscn.awtmt.com/891e9986-da85-4dee-943f-4efc41d66ffe.png",
+            "link": "https://wallstreetcn.com/articles/3741338",
+            "author": "赵颖",
+            "pub_date": "2025-02-18 17:51:21",
+            "source": "wallstreetcn",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": 41956351,
             "title": "阴谋论会成真吗？马斯克要查美国黄金储备了，过去50年都没审计",
             "description": "<p>刚查出了美国社保惊天欺诈，马斯克又盯上了美国最大金库，这瓜可比连续剧还刺激！</p> <p><img src='None' /></p>",
@@ -224,18 +236,6 @@
             "link": "https://wallstreetcn.com/articles/3741317",
             "author": "柴旭晨",
             "pub_date": "2025-02-18 10:01:33",
-            "source": "wallstreetcn",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": 3741315,
-            "title": "A股三大指数集体下挫，北证50领涨，港股上扬，恒科指涨超1%，华虹半导体涨约6%",
-            "description": "<p>2月18日周二，A股三大指数集体下挫，北证50领涨，港股上扬，恒科指涨超1%。</p>\n<p>截止发稿，上证指数跌0.2%，深证成指跌0.22%，创业板指跌0.22%，北证50涨0.83%。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/a0a40498-d5b4-4e58-90a4-9d40d8dd775c.png\" data-wscntype=\"image\" data-wscnh=\"464\" data-wscnw=\"919\" /></p>\n<p>截至发稿，恒生指数涨0.57%，恒生科技指数涨1.25%。华虹半导体涨约6%，国海证券维持华虹半导体“买入”评级，浦银国际同样重申“买入”评级，预计2025年公司收入端将保持增长势头，主要得益于新增产能及下游需求复苏，特别是工业和汽车行业。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/e13ed85a-c26e-47af-b3e7-35f51a6e2727.png\" data-wscntype=\"image\" data-wscnh=\"140\" data-wscnw=\"940\" /></p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/fd6a8969-2f14-41cc-ac0d-eafbef1b0bdd.png\" data-wscntype=\"image\" data-wscnh=\"334\" data-wscnw=\"1048\" /></p>\n<p>【9：47】</p>\n<h2>A股机器人概念股反复活跃</h2>\n<p>杭齿前进5连板，新时达、冀东装备2连板，奋达科技、江苏雷利、捷昌驱动等涨幅居前。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/0d2d9869-15af-4f5d-af7c-174e97fec124.png\" data-wscntype=\"image\" data-wscnh=\"309\" data-wscnw=\"1048\" /></p>\n<p>【9：36】</p>\n<p>国债期货开盘，30年期主力合约跌0.17%，10年期主力合约跌0.02%，5年期主力合约持平，2年期主力合约跌0.03%。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/d34371b3-1371-4e8f-849c-7952d4e293da.png\" data-wscntype=\"image\" data-wscnh=\"220\" data-wscnw=\"810\" /></p>\n<h2>A股DeepSeek概念股开盘下挫</h2>\n<p>梦网科技、杭钢股份跌停，居然智家、浙文互联、铜牛信息、并行科技等纷纷低开。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/4382441e-63b5-4b85-b323-db60d1e50095.png\" data-wscntype=\"image\" data-wscnh=\"376\" data-wscnw=\"617\" /></p>\n<h2>A股游戏股开盘领涨</h2>\n<p>大晟文化竞价涨停，盛天网络、电魂网络涨超7%，掌趣科技、恺英网络、富春股份等集体高开。市场情绪受到特斯拉CEO埃隆·马斯克确认旗下xAI将成立AI游戏工作室的消息提振。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/7fc1db89-668b-4886-8a0f-ecb140a7990d.png\" data-wscntype=\"image\" data-wscnh=\"311\" data-wscnw=\"1048\" /></p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
-            "image": "https://wpimg-wscn.awtmt.com/5c4a792f-f91a-45ef-86cf-f5eff725136a.jpeg",
-            "link": "https://wallstreetcn.com/articles/3741315",
-            "author": "蒋紫涵",
-            "pub_date": "2025-02-18 09:56:30",
             "source": "wallstreetcn",
             "kind": 1,
             "language": "zh-CN"
