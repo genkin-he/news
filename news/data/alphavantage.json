@@ -1,8 +1,43 @@
 {
-    "items": "41",
+    "items": "42",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Transaction in Own Shares",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027487/0/en/Transaction-in-Own-Shares.html",
+            "time_published": "20250218T063000",
+            "authors": [
+                "Endeavour Mining PLC"
+            ],
+            "summary": "London, 18 February 2025 - Endeavour Mining plc ( LSE:EDV, TSX:EDV ) ( \"the Company\" ) announces it has purchased the following number of its ordinary shares of USD 0.01 each from Stifel Nicolaus Europe Limited.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/cff109e5-0693-447f-8afe-290bcfdfd66f",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                }
+            ],
+            "overall_sentiment_score": 0.152933,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.063933",
+                    "ticker_sentiment_score": "0.020175",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LDNXF",
+                    "relevance_score": "0.063933",
+                    "ticker_sentiment_score": "0.231468",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Basilea reports strong 2024 full-year results with significant increase in revenue, profit and operating cash flow",
             "url": "https://www.globenewswire.com/news-release/2025/02/18/3027486/0/en/Basilea-reports-strong-2024-full-year-results-with-significant-increase-in-revenue-profit-and-operating-cash-flow.html",
@@ -54,6 +89,92 @@
             ]
         },
         {
+            "title": "Press Release: Dupixent sBLA accepted for FDA priority review for the targeted treatment of bullous pemphigoid",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027482/0/en/Press-Release-Dupixent-sBLA-accepted-for-FDA-priority-review-for-the-targeted-treatment-of-bullous-pemphigoid.html",
+            "time_published": "20250218T060000",
+            "authors": [
+                "Sanofi - Aventis Groupe"
+            ],
+            "summary": "Dupixent sBLA accepted for FDA priority review for the targeted treatment of bullous pemphigoid ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/06da731a-67a1-4258-939f-6ef0531ee3bf",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.038696,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "REGN",
+                    "relevance_score": "0.052378",
+                    "ticker_sentiment_score": "0.052992",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.017471",
+                    "ticker_sentiment_score": "0.137672",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SNY",
+                    "relevance_score": "0.156235",
+                    "ticker_sentiment_score": "0.008153",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "LHV Group results in January 2025",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027478/0/en/LHV-Group-results-in-January-2025.html",
+            "time_published": "20250218T060000",
+            "authors": [
+                "AS LHV Group"
+            ],
+            "summary": "After a strong end to year, January's results, as is customary for the season, were more modest in terms of results for LHV. The consolidated loan portfolio of LHV Group decreased by EUR 8 million in January, and the total volume of clients' deposits decreased by EUR 15 million.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/dcd4f21c-acd0-4695-a05a-5a923cf6329b",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.212837,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:EUR",
+                    "relevance_score": "0.865414",
+                    "ticker_sentiment_score": "0.386116",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
             "title": "Valneva Reports Preliminary Unaudited 2024 Revenue and Cash and Provides 2025 Outlook",
             "url": "https://www.globenewswire.com/news-release/2025/02/18/3027484/0/en/Valneva-Reports-Preliminary-Unaudited-2024-Revenue-and-Cash-and-Provides-2025-Outlook.html",
             "time_published": "20250218T060000",
@@ -97,6 +218,80 @@
                     "relevance_score": "0.032425",
                     "ticker_sentiment_score": "0.098676",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Avance Gas Holding Ltd: Ex Date today - return of capital and distribution of BW LPG shares",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027483/0/en/Avance-Gas-Holding-Ltd-Ex-Date-today-return-of-capital-and-distribution-of-BW-LPG-shares.html",
+            "time_published": "20250218T060000",
+            "authors": [
+                "Avance Gas Holding Ltd"
+            ],
+            "summary": "Hamilton, Bermuda. February 18, 2025.The shares in Avance Gas Holding Ltd ( ticker: \"AGAS\" ) will be traded ex-distribution consisting of USD 2.0 per share in return of capital and distribution of BW LPG shares as of today relating to the fourth quarter of 2024.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/9f01b965-9d4b-4ded-999e-3597c443959b",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.399125,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BWLP",
+                    "relevance_score": "0.913524",
+                    "ticker_sentiment_score": "0.631788",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AVACF",
+                    "relevance_score": "0.608634",
+                    "ticker_sentiment_score": "0.556099",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "WISeKey Announces Holistic Technology Consolidation for Digital Trust Leadership",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027479/0/en/WISeKey-Announces-Holistic-Technology-Consolidation-for-Digital-Trust-Leadership.html",
+            "time_published": "20250218T060000",
+            "authors": [
+                "Wisekey International Holding Ltd."
+            ],
+            "summary": "Geneva, Switzerland, February 18, 2025 -WISeKey International Holding Ltd ( \"WISeKey\" ) ( SIX: WIHN, NASDAQ: WKEY ) , a leading global cybersecurity, blockchain, and IoT company, today announces the consolidation of its advanced technologies into a unified ecosystem, aiming to enhance security, ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/80dae807-c8a0-4e1a-a0f0-61afcc7ae788",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.9973"
+                }
+            ],
+            "overall_sentiment_score": 0.330173,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LAES",
+                    "relevance_score": "0.246582",
+                    "ticker_sentiment_score": "0.258134",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WSKEF",
+                    "relevance_score": "0.590405",
+                    "ticker_sentiment_score": "0.456228",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1555,153 +1750,6 @@
                     "ticker": "PTON",
                     "relevance_score": "0.123209",
                     "ticker_sentiment_score": "-0.032745",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Trust Stamp Partners with Digital Platformer to Strengthen Security in Digital Identity and Financial Services",
-            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027464/0/en/Trust-Stamp-Partners-with-Digital-Platformer-to-Strengthen-Security-in-Digital-Identity-and-Financial-Services.html",
-            "time_published": "20250218T020000",
-            "authors": [
-                "Trust Stamp"
-            ],
-            "summary": "Trust Stamp and Digital Platformer unite to establish a strategic partnership, delivering an integrated solution that combines Trust Stamp's advanced identity verification capabilities with Digital Platformer's cutting-edge decentralized security solutions ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/8e1f91a2-8441-4243-a9d0-6c8475770c59",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": 0.427685,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Bitcoin, Dogecoin Weak, Ethereum Rebounds Amid Muted Investor Sentiment: ETH Moving To Cold Wallets At 'Shocking Pace' A Positive For Price Action In The Long-Term - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
-            "url": "https://www.benzinga.com/trading-ideas/movers/25/02/43771666/bitcoin-dogecoin-weak-ethereum-rebounds-amid-muted-investor-sentiment-eth-moving-to-cold-wal",
-            "time_published": "20250218T015403",
-            "authors": [
-                "Aniket Verma"
-            ],
-            "summary": "Bitcoin continued to move sideways on Monday, while Ethereum staged a rebound as investors resorted to a wait-and-watch approach. What Happened: The world's leading cryptocurrency oscillated between $95,000 and $97,000, extending its rangebound price action.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/17/Cryptocurrency-Photo-by-CMP-NZ-on-Shutte.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.838487"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": 0.118935,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.469253",
-                    "ticker_sentiment_score": "-0.084623",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.345674",
-                    "ticker_sentiment_score": "-0.027396",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Southwest Airlines To Slash 15% Of Workforce Amid Push For Profitability - 1,750 Corporate Roles Axed - Southwest Airlines  ( NYSE:LUV ) ",
-            "url": "https://www.benzinga.com/25/02/43771553/southwest-airlines-to-cut-1750-corporate-jobs-aiming-for-210-million-in-2025-savings-amid-profitability-push",
-            "time_published": "20250218T013747",
-            "authors": [
-                "Kaustubh Bagalkote"
-            ],
-            "summary": "Southwest Airlines Co. LUV announced Monday it will eliminate approximately 1,750 corporate positions, marking the first large-scale layoff in the carrier's 53-year history as it seeks to streamline operations and boost profitability.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/17/Portland--Oregon--may-11-2019-Southwest-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.270429,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LUV",
-                    "relevance_score": "0.598621",
-                    "ticker_sentiment_score": "0.331152",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "After Google Stands Firm On 'Gulf of America' Label, Mexico Says It's Waiting For A New Response Or 'Will Proceed To Court' - Alphabet  ( NASDAQ:GOOG ) , Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/media/25/02/43771526/after-google-stands-firm-on-gulf-of-america-label-mexico-says-its-waiting-for-a-new-response-or-will-procee",
-            "time_published": "20250218T013024",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Mexico reiterates its warning to take legal action against Alphabet Inc.'s GOOG GOOGL Google over the naming of the \"Gulf of Mexico\" on its Maps service. What Happened: On Monday, Mexican President Claudia Sheinbaum stated that the country is waiting for a new response from Google before ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/17/Google-Shutterstock.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.151611,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.303175",
-                    "ticker_sentiment_score": "0.069016",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.56415",
-                    "ticker_sentiment_score": "0.054414",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.303175",
-                    "ticker_sentiment_score": "0.069016",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
