@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 743616,
+            "title": "BNB Drops Below 660 USDT with a 2.02% Decrease in 24 Hours",
+            "description": "On Feb 18, 2025, 05:12 AM(UTC). According to Binance Market Data, BNB has dropped below 660 USDT and is now trading at 659.450012 USDT, with a narrowed 2.02% decrease in 24 hours.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743616&language=en-US",
+            "pub_date": "2025-02-18 13:12:38",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 743615,
+            "title": "OpenAI Considers Special Voting Rights To Counter Hostile Bids",
+            "description": "According to Odaily, OpenAI is contemplating granting special voting rights to its nonprofit board to fend off hostile takeover attempts, including those from Elon Musk. The organization is considering this move to maintain board authority following its transition to a more traditional for-profit structure. CEO Sam Altman and other board members are evaluating new governance mechanisms to ensure control over the restructured company. This would enable OpenAI to counteract other investors, such as Microsoft and SoftBank, who are current supporters. Although no final decision has been made, the special voting rights would help protect OpenAI from hostile acquisitions by external parties like Musk. Previously, Musk made a $97.4 billion cash offer to acquire assets held by the nonprofit, including a controlling stake in its for-profit subsidiary.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743615&language=en-US",
+            "pub_date": "2025-02-18 13:13:37",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 743614,
+            "title": "Grok Voice Assistant Set for User Release in Coming Weeks",
+            "description": "According to BlockBeats, on February 18, an engineer from xAI announced that the Grok voice assistant is currently undergoing improvements. The enhanced version is expected to be available to users in the coming weeks.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743614&language=en-US",
+            "pub_date": "2025-02-18 13:14:05",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 743612,
+            "title": "Ethereum client Geth 1.15.2 has been released, fixing the mainnet block creation interruption error in the previous version",
+            "description": "Odaily Planet Daily News Ethereum client Geth 1.15.2 has been released to fix a bug that interrupted the creation of mainnet blocks in the previous version. This emergency update solves a regression in the beacon consensus engine that can lead to missed validator slots and potential financial losses.\nThe regression in the earlier version affected the consensus engine's handling of mainnet block construction because it did not take into account the lack of a defined MergeNetsplitBlock in the chain configuration. This change was introduced in a recent update to the beacon consensus engine, causing the mainnet to not be recognized as running under proof of stake, thereby undermining block creation and the expected performance of the network.\nThe developer detailed that the regression stems from the removal of a test method called TestingTTDBlock, which was originally added during internal testing to simulate merged blocks. By removing this method, the system no longer bypasses the reliance on total difficulty, which previously allowed the engine to ignore the normal fork order and inadvertently enable merges before the London fork.\nIn addition to restoring block construction functionality on the mainnet, this version also solves another issue related to network peer discovery. Discv5 and DNS-based peer discovery functionality, which was inadvertently disabled in a previous update (v1.14.9), has been restored and is critical to maintaining reliable network communications between nodes.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743612&language=en-US",
+            "pub_date": "2025-02-18 13:16:40",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 743609,
             "title": "Grok 3 debuts: solving problems, creating games, and introducing a new search engine DeepSearch",
             "description": "Odaily Planet Daily News Musk opened the demonstration of xAI's chatbot Grok 3 on Monday, claiming that it is \"an order of magnitude more powerful than Grok 2.\" In a series of demonstrations, Musk and his colleagues asked Grok 3 to solve a physics problem and create a game that combines \"Bejeweled\" and \"Tetris.\" However, xAI said that Grok 3's reasoning model is in beta and is still being trained. Grok 3 also introduced DeepSearch, which xAI described as a new type of search engine and an early version of similar intelligent capabilities. Musk said that the voice mode is still a bit unstable and may be launched in about a week, but it is great. xAI engineers said that Deepsearch is our first generation of extensive agent tools, which not only helps engineers, researchers and scientists write code, but can actually help everyone answer questions they encounter in daily life. (Jinshi)",
@@ -56,46 +96,6 @@
             "description": "Odaily Planet Daily News Musk and his team said that Grok 3 will also have reasoning capabilities similar to DeepSeek R1 and OpenAI o3 Mini. (Jinshi)",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743602&language=en-US",
             "pub_date": "2025-02-18 12:49:30",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743601,
-            "title": "K33: Institutions held nearly $27 billion in Bitcoin ETFs as of Q4, accounting for more than 25% of total AUM",
-            "description": "Odaily Planet Daily News K33 Research research director Vetle Lunde pointed out in a report that as of December 31 last year, institutional investors held 25.4% of the asset management scale (AUM) of spot Bitcoin ETFs, totaling US$26.8 billion. The percentage of Bitcoin ETF AUM held by institutions increased by 113% between the third and fourth quarters of 2024.\nIn addition, the proportion of AUM held by institutions increased by 4.1% quarterly, and the total amount jumped 69% to US$78.8 billion at the end of the fourth quarter.\nAccording to Lunde's data, the number of investors who obtained Bitcoin exposure through ETFs reached 1,576 last quarter, a quarterly increase of 37.4% and an annual increase of 68.2%.\nIn addition, institutional interest in BlackRock IBIT increased more than 4 times in 2024. At the end of the fourth quarter of last year, institutions reported that they held US$16 billion in IBIT shares, compared with less than US$4 billion at the end of the first quarter of last year. Most of the growth occurred between the third and fourth quarters. (CryptoSlate)",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743601&language=en-US",
-            "pub_date": "2025-02-18 12:51:42",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743600,
-            "title": "Musk: SpaceX plans to send Starship to Mars within 3 years using Optimus robots and Grok",
-            "description": "Musk said that within three years, if all goes well, SpaceX will use the Optimus robot and Grok to send the Starship rocket to Mars.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743600&language=en-US",
-            "pub_date": "2025-02-18 12:56:55",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743594,
-            "title": "BitcoinOS launches Grail Bridge testnet application for cross-chain BTC interaction",
-            "description": "Odaily Planet Daily News BitcoinOS (BOS), a smart contract operating system designed for Bitcoin, announced the launch of the BitcoinOS Grail Bridge testnet application, which enables secure, trustless BTC transfers across multiple blockchain networks.\nThe first phase of the testnet version will provide practical tools for users and developers, introduce a one-way bridge from the Bitcoin testnet to the EVM-compatible chain, and has completed preliminary integration with the Ethereum Holešky, Base Sepolia, Mode Sepolia and Merlin Chain testnets.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743594&language=en-US",
-            "pub_date": "2025-02-18 12:42:28",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 743596,
-            "title": "Australian Reserve Bank Chief Cautions Against Hasty Rate Cuts",
-            "description": "According to Odaily, the Governor of the Reserve Bank of Australia, Michele Bullock, has stated that recent interest rate decisions do not necessarily indicate further rate cuts in the future. Bullock emphasized the importance of not rushing into decisions regarding interest rates. The committee remains highly vigilant about the risks of rising inflation. She acknowledged that the decision to cut rates was challenging and highlighted that it was not a foregone conclusion, with differing opinions within the committee. Any further rate cuts will depend on forthcoming data.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=743596&language=en-US",
-            "pub_date": "2025-02-18 12:43:41",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
