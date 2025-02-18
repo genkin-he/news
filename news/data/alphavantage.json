@@ -1,8 +1,41 @@
 {
-    "items": "48",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Coca-Cola takes on Olipop and Poppi with new prebiotic soda brand, Simply Pop",
+            "url": "https://www.cnbc.com/2025/02/18/coca-cola-launches-simply-pop-prebiotic-soda-to-rival-olipop-poppi.html",
+            "time_published": "20250218T130001",
+            "authors": [],
+            "summary": "The U.S. prebiotic soda category has more than doubled over the last five years.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Business",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.088282,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.0699",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PEP",
+                    "relevance_score": "0.0699",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Jim Simons' Renaissance Technologies Makes AI Moves: Sells Big Tech, Buys Chinese Stocks, Robinhood In Q4 - Alibaba Gr Hldgs  ( NYSE:BABA ) , Alphabet  ( NASDAQ:GOOGL ) ",
             "url": "https://www.benzinga.com/25/02/43778720/renaissance-technologies-founded-by-math-whiz-jim-simons-makes-ai-focused-portfolio-changes-slashes-palantir-exit",
@@ -95,6 +128,35 @@
             "ticker_sentiment": []
         },
         {
+            "title": "Lottery.com Announces Global Advisory Board to Support Growth Initiatives",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027741/0/en/Lottery-com-Announces-Global-Advisory-Board-to-Support-Growth-Initiatives.html",
+            "time_published": "20250218T125100",
+            "authors": [
+                "Lottery.com Inc."
+            ],
+            "summary": "FORT WORTH, Texas, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Lottery.com Inc. ( Nasdaq: LTRY, LTRYW ) ( \"Lottery.com\" or the \"Company\" ) , a leading technology company in digital lottery and sports entertainment, announces the establishment of a global advisory board ( the \"Advisory Board\" ) to ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/ec4f67ea-ec9d-479e-825b-2c706acca805",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.255418,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LTRY",
+                    "relevance_score": "0.063678",
+                    "ticker_sentiment_score": "0.266609",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Tesla Files Fresh Lawsuit Against Matthews After Court Defeat - Tesla  ( NASDAQ:TSLA ) , Matthews International  ( NASDAQ:MATW ) ",
             "url": "https://www.benzinga.com/news/legal/25/02/43778605/tesla-files-fresh-lawsuit-against-matthews-after-court-defeat",
             "time_published": "20250218T124912",
@@ -130,6 +192,35 @@
                     "relevance_score": "0.721206",
                     "ticker_sentiment_score": "0.007859",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Exco Technologies Limited Announces Normal Course Issuer Bid",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027737/0/en/Exco-Technologies-Limited-Announces-Normal-Course-Issuer-Bid.html",
+            "time_published": "20250218T124500",
+            "authors": [
+                "Exco Technologies Ltd."
+            ],
+            "summary": "TORONTO, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Exco Technologies Limited ( TSX: XTC ) ( \"Exco\" or the \"Company\" ) today announced that the Toronto Stock Exchange ( \"TSX\" ) has approved the Company's normal course issuer bid ( \"NCIB\" ) . Under the NCIB, Exco has the right to purchase for ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d9d7516a-0e42-4321-8ccf-a1725bee5a19",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.334547,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EXCOF",
+                    "relevance_score": "0.182506",
+                    "ticker_sentiment_score": "0.18261",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -193,6 +284,87 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "REPEAT -- Cycurion Lists on NASDAQ  ( CYCU )  and Provides Corporate Update",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027733/0/en/REPEAT-Cycurion-Lists-on-NASDAQ-CYCU-and-Provides-Corporate-Update.html",
+            "time_published": "20250218T123600",
+            "authors": [
+                "Cycurion"
+            ],
+            "summary": "MCLEAN, Va., Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Cycurion ( NASDAQ:CYCU ) , a leading cybersecurity firm, issues a shareholder update from Kevin Kelly Chairman and CEO, after IPO.",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.452107,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "ParaZero Moving Forward to Phase II with Israeli Ministry of Defense with the Precision Airdrop System Project",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027732/0/en/ParaZero-Moving-Forward-to-Phase-II-with-Israeli-Ministry-of-Defense-with-the-Precision-Airdrop-System-Project.html",
+            "time_published": "20250218T123600",
+            "authors": [
+                "ParaZero Technologies Ltd."
+            ],
+            "summary": "The second phase follows the successful showcasing of the AirDrop System's ability to safely deliver sensitive and critical supplies under challenging conditions ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d4303a8d-0d11-45c8-8225-89ddb61133a0",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.308419,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PRZO",
+                    "relevance_score": "0.146618",
+                    "ticker_sentiment_score": "0.280527",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Form 8.3 - Assura Plc",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027731/0/en/Form-8-3-Assura-Plc.html",
+            "time_published": "20250218T123500",
+            "authors": [
+                "Rathbones Group PLC"
+            ],
+            "summary": "...",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.23066,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "FTI Consulting Expands Transactions Practice with Appointment of Two M&A Experts - FTI Consulting  ( NYSE:FCN ) ",
@@ -299,6 +471,81 @@
             "ticker_sentiment": []
         },
         {
+            "title": "Watsco Reports Record Fourth Quarter Sales, Expanded Margins and Record Cash Flow",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027715/0/en/Watsco-Reports-Record-Fourth-Quarter-Sales-Expanded-Margins-and-Record-Cash-Flow.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Watsco",
+                "Inc."
+            ],
+            "summary": "Boosts Annual Dividend 11% to $12.00 Per Share ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/2a8fdcea-1fe8-492e-b588-03fbba943e5a",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.961735"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.928769"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.364848,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WSO",
+                    "relevance_score": "0.492659",
+                    "ticker_sentiment_score": "0.475227",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "SL Green Realty Corp. Announces Common Stock Dividend",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027718/0/en/SL-Green-Realty-Corp-Announces-Common-Stock-Dividend.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "SL Green Realty Corp"
+            ],
+            "summary": "NEW YORK, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- SL Green Realty Corp. ( NYSE:SLG ) , Manhattan's largest office landlord, today announced that its board of directors has declared a monthly ordinary dividend of $0.2575 per share of common stock, which is the equivalent of an annualized dividend of ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fd1a857e-5838-406f-a5e3-1ee8f6d83bb1",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.938793"
+                }
+            ],
+            "overall_sentiment_score": 0.125066,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SLG",
+                    "relevance_score": "0.16171",
+                    "ticker_sentiment_score": "0.183028",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Surgery Partners, Inc. Announces Fourth Quarter 2024 Earnings Release Date and Conference Call Details - Surgery Partners  ( NASDAQ:SGRY ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43778014/surgery-partners-inc-announces-fourth-quarter-2024-earnings-release-date-and-conference-call-detai",
             "time_published": "20250218T123000",
@@ -330,6 +577,182 @@
                     "relevance_score": "0.126119",
                     "ticker_sentiment_score": "0.32329",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "American Tungsten Corp. Announces Potential Partnership for Processing & Milling in Philipsburg, Montana",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027725/0/en/American-Tungsten-Corp-Announces-Potential-Partnership-for-Processing-Milling-in-Philipsburg-Montana.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "American Tungsten Corp."
+            ],
+            "summary": "Vancouver, BC, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- American Tungsten Corp. ( CSE:TUNG ) ( OTCQB:DEMRF ) ( FSE:RK9 ) ( \"American Tungsten\" or the \"Company\" ) is pleased to announce that it has entered into a non-binding letter of availability ( the \"LOA\" ) with Contact Mining Company ( \"Contact ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/7a61d281-bdf9-4695-afe4-e8cf5c3136ce",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.155264,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Plus Therapeutics Secures $5.7 Million Financing to Support Leptomeningeal Metastases Program",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027713/0/en/Plus-Therapeutics-Secures-5-7-Million-Financing-to-Support-Leptomeningeal-Metastases-Program.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Plus Therapeutics Inc."
+            ],
+            "summary": "$2.0 Million Funding Advance from the Cancer Prevention and Research Institute of Texas ( CPRIT )",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/92d7aa70-e37d-4870-bccf-d83b68ba5612",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999763"
+                }
+            ],
+            "overall_sentiment_score": 0.038833,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PSTV",
+                    "relevance_score": "0.208764",
+                    "ticker_sentiment_score": "0.006755",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Surgery Partners, Inc. Announces Fourth Quarter 2024 Earnings Release Date and Conference Call Details",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027722/36929/en/Surgery-Partners-Inc-Announces-Fourth-Quarter-2024-Earnings-Release-Date-and-Conference-Call-Details.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Surgery Partners",
+                "Inc."
+            ],
+            "summary": "BRENTWOOD, Tenn., Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Surgery Partners, Inc. ( NASDAQ:SGRY ) ( \"Surgery Partners\" or the \"Company\" ) , a leading short-stay surgical facility owner and operator, announced the Company will release its fourth quarter 2024 results before the market opens on Monday, ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d0188456-e6d3-48f9-8479-b40422f00e4c",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.367715,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SGRY",
+                    "relevance_score": "0.807885",
+                    "ticker_sentiment_score": "0.615044",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "HCSG",
+                    "relevance_score": "0.147818",
+                    "ticker_sentiment_score": "0.349472",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Hillman Reports Record Fourth Quarter 2024 Results; Provides 2025 Guidance",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027716/0/en/Hillman-Reports-Record-Fourth-Quarter-2024-Results-Provides-2025-Guidance.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "The Hillman Group"
+            ],
+            "summary": "CINCINNATI, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Hillman Solutions Corp. ( Nasdaq: HLMN ) ( the \"Company\" or \"Hillman\" ) , a leading provider of hardware products and merchandising solutions, reported financial results for the thirteen and fifty-two weeks ended December 28, 2024.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/e28e86ab-26d5-462a-a520-11ee0cc7eec5",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.178615,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HD",
+                    "relevance_score": "0.018064",
+                    "ticker_sentiment_score": "0.112821",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HLMN",
+                    "relevance_score": "0.054154",
+                    "ticker_sentiment_score": "0.106979",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.018064",
+                    "ticker_sentiment_score": "0.012714",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Stallion Uranium Announces New Consolidation Ratio",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027720/0/en/Stallion-Uranium-Announces-New-Consolidation-Ratio.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Stallion Uranium Corp."
+            ],
+            "summary": "VANCOUVER, British Columbia, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Stallion Uranium Corp. ( the \"Company\" or \"Stallion\" ) ( TSX-V: STUD. OTCQB: STLNF. FSE: FE0 ) announces that further to its news release dated January 24, 2025 in which it announced a consolidation of its issued and outstanding ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/61357c3c-816e-4049-af63-40696e1191c4",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [],
+            "overall_sentiment_score": 0.258056,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SASKF",
+                    "relevance_score": "0.086245",
+                    "ticker_sentiment_score": "0.070864",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -400,6 +823,96 @@
             ]
         },
         {
+            "title": "Prime Drink Group Announces a Strategic Overhaul of Its Bottling Activities",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027723/0/en/Prime-Drink-Group-Announces-a-Strategic-Overhaul-of-Its-Bottling-Activities.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Prime Drink Group Corp."
+            ],
+            "summary": "MONTREAL, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Prime Drink Group Corp. ( CSE: PRME ) ( \"Prime\" or the \"Company\" ) announced today that it has undertaken a strategic restructuring of its wholly-owned subsidiary, Triani Canada Inc. ( \"Prime Bottling\" ) .",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/4183c683-362f-423c-a226-e3e70694788c",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                }
+            ],
+            "overall_sentiment_score": 0.261787,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DOMWF",
+                    "relevance_score": "0.11894",
+                    "ticker_sentiment_score": "0.205023",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Opus Genetics Announces Updates on OPGx-LCA5 Clinical Program",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027724/0/en/Opus-Genetics-Announces-Updates-on-OPGx-LCA5-Clinical-Program.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Inc.",
+                "Opus Genetics"
+            ],
+            "summary": "First patient dosed in the pediatric cohort of the Phase 1/2 trial of OPGx-LCA5. initial data on the cohort anticipated by Q3 2025New 12-month data on the first three adult OPGx-LCA5 patients to be presented at a major medical conference in Q2 2025FDA meeting scheduled in March 2025 to discuss ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/f81eb6eb-3f72-4300-88a1-84da7135772b",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.818451"
+                }
+            ],
+            "overall_sentiment_score": 0.158172,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Watsco Boosts Annual Dividend 11% to $12.00 Per Share",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027714/0/en/Watsco-Boosts-Annual-Dividend-11-to-12-00-Per-Share.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Watsco",
+                "Inc."
+            ],
+            "summary": "MIAMI, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Watsco, Inc. ( NYSE:WSO ) announced that its Board of Directors approved an 11% increase in its annual dividend to $12.00 per share on each outstanding share of its Common and Class B common stock.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/2a8fdcea-1fe8-492e-b588-03fbba943e5a",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.744043"
+                }
+            ],
+            "overall_sentiment_score": 0.26002,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WSO",
+                    "relevance_score": "0.361802",
+                    "ticker_sentiment_score": "0.212296",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Hillman Reports Record Fourth Quarter 2024 Results; Provides 2025 Guidance - Hillman Solns  ( NASDAQ:HLMN ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43778024/hillman-reports-record-fourth-quarter-2024-results-provides-2025-guidance",
             "time_published": "20250218T123000",
@@ -453,6 +966,83 @@
                     "relevance_score": "0.018187",
                     "ticker_sentiment_score": "0.011759",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Rekor Systems Secures European Patent for Advanced Technology to Detect and Mitigate Irregular Traffic Congestion",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027719/0/en/Rekor-Systems-Secures-European-Patent-for-Advanced-Technology-to-Detect-and-Mitigate-Irregular-Traffic-Congestion.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "Rekor Systems"
+            ],
+            "summary": "Rekor's Rapidly Growing Patent Portfolio Solidifies its Leadership in AI-Driven Roadway Intelligence, Advancing Safer and Smarter Traffic Management Rekor's Rapidly Growing Patent Portfolio Solidifies its Leadership in AI-Driven Roadway Intelligence, Advancing Safer and Smarter Traffic ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/e705f1e3-be41-4ec9-95b4-f24191d97fdd",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.312116,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "REKR",
+                    "relevance_score": "0.234684",
+                    "ticker_sentiment_score": "0.215426",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.039679",
+                    "ticker_sentiment_score": "0.159651",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "FTI Consulting Expands Transactions Practice with Appointment of Two M&A Experts",
+            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027729/33891/en/FTI-Consulting-Expands-Transactions-Practice-with-Appointment-of-Two-M-A-Experts.html",
+            "time_published": "20250218T123000",
+            "authors": [
+                "FTI Consulting",
+                "Inc."
+            ],
+            "summary": "WASHINGTON, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- FTI Consulting, Inc. ( NYSE: FCN ) today announced the appointments of Emily Golenberg and Mitali Sharma as Senior Managing Directors in the Transactions practice within the firm's Corporate Finance & Restructuring segment.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/7baf2810-17ee-492d-8c50-d64cadf49073",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.289604,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FCN",
+                    "relevance_score": "0.508345",
+                    "ticker_sentiment_score": "0.228148",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -1072,827 +1662,6 @@
                     "relevance_score": "0.728189",
                     "ticker_sentiment_score": "0.210821",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: 3 Reasons Donald Trump Can Expect a Big Move in Inflation in 2025",
-            "url": "https://www.fool.com/retirement/2025/02/18/3-reasons-trump-can-expect-big-inflation-in-2025/",
-            "time_published": "20250218T120700",
-            "authors": [
-                "Rich Smith"
-            ],
-            "summary": "Lowering interest rates while simultaneously raising tariffs could stoke higher inflation, and undo all of DOGE's work.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807543%2Fbls-chart-showing-12-month-inflation-rates.png&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.999973"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": -0.08156,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Dogecoin Could Be Gearing Up For A 150% Rebound, Says Crypto Analyst Even As Diamond Hands Offload Memecoin",
-            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43776960/dogecoin-could-be-gearing-up-for-a-150-rebound-says-crypto-analyst-even-as-diamond-hands-o",
-            "time_published": "20250218T120026",
-            "authors": [
-                "Aniket Verma"
-            ],
-            "summary": "A well-known cryptocurrency influencer shared an optimistic outlook on Dogecoin DOGE/USD on Monday, predicting a massive upside similar to previous bullish cycles. What Happened: Cas Abb\u00e9 took to X to compare the current state of the dog-themed meme coin with its performance in the third quarter ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.208676,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AWON",
-                    "relevance_score": "0.250386",
-                    "ticker_sentiment_score": "0.105246",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.961964",
-                    "ticker_sentiment_score": "0.456195",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Huawei brings Mate XT to Malaysia, kicks off trifold handset's overseas roll-out",
-            "url": "https://www.scmp.com/tech/big-tech/article/3299179/huawei-launches-mate-xt-malaysia-kick-trifold-smartphones-overseas-roll-out",
-            "time_published": "20250218T120011",
-            "authors": [
-                "Zhou Xin"
-            ],
-            "summary": "The international roll-out reflects Huawei's confidence in the Mate XT, which was released in China on the same date as the iPhone 16.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/18/fa92cf7a-d015-436a-888e-dde0a8d60a5b_5a2b1d92.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Money",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.053832,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.095138",
-                    "ticker_sentiment_score": "0.03122",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "KNBWF",
-                    "relevance_score": "0.095138",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bigger, faster, stronger: China's state-owned giants set out 2025 goals",
-            "url": "https://www.scmp.com/economy/china-economy/article/3299164/chinas-state-owned-enterprises-pledge-shore-countrys-economic-growth-2025",
-            "time_published": "20250218T120008",
-            "authors": [
-                "Sylvia Ma"
-            ],
-            "summary": "Local state-owned enterprises plan to focus on supporting the national economy and streamlining their operations.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/18/e31abc62-0e34-4c1b-9e76-b2a7b60caacf_5621fc0c.jpg?itok=EABlXfrU&v=1739880741",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.341535,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Top 3 Risk Off Stocks Which Could Rescue Your Portfolio This Quarter - Cal-Maine Foods  ( NASDAQ:CALM ) , Coty  ( NYSE:COTY ) ",
-            "url": "https://www.benzinga.com/trading-ideas/long-ideas/25/02/43776863/top-3-risk-off-stocks-which-could-rescue-your-portfolio-this-quarter-3",
-            "time_published": "20250218T120001",
-            "authors": [
-                "Avi Kapoor"
-            ],
-            "summary": "The most oversold stocks in the consumer staples sector presents an opportunity to buy into undervalued companies. The RSI is a momentum indicator, which compares a stock's strength on days when prices go up to its strength on days when prices go down.",
-            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/02/18042534/image-148.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": 0.203909,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CALM",
-                    "relevance_score": "0.261117",
-                    "ticker_sentiment_score": "-0.11585",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Did Meta Platforms Just Say \"Checkmate\" to Nvidia?",
-            "url": "https://www.fool.com/investing/2025/02/18/did-meta-platforms-just-say-checkmate-to-nvidia/",
-            "time_published": "20250218T120000",
-            "authors": [
-                "Adam Spatacco"
-            ],
-            "summary": "Meta is rumored to be eyeing a deal that could further separate the company from Nvidia.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807614%2Fgettyimages-1773543830-3.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.096743,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.121037",
-                    "ticker_sentiment_score": "0.090455",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.060694",
-                    "ticker_sentiment_score": "0.034055",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.121037",
-                    "ticker_sentiment_score": "-0.045507",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.639128",
-                    "ticker_sentiment_score": "0.126915",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AVGO",
-                    "relevance_score": "0.060694",
-                    "ticker_sentiment_score": "0.129134",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Doing This 1 Thing Could Shave $13,800 Off Your Annual Retirement Expenses",
-            "url": "https://www.fool.com/retirement/2025/02/18/do-this-to-shave-13800-off-annual-retirement-costs/",
-            "time_published": "20250218T120000",
-            "authors": [
-                "Kailey Hagen"
-            ],
-            "summary": "The average single retiree in good health requires anywhere from $25,188 to $38,988 to meet annual expenses, according to UMass Boston's Elder Index. Some need much more than this if they reside in a city or state with a high cost of living.There are several factors that determine how much money ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807658%2Frelaxed-person-with-book-on-lap-sitting-in-field.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998287"
-                }
-            ],
-            "overall_sentiment_score": 0.113422,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "H&E Equipment Services, Inc. Receives Superior Proposal from Herc Holdings Inc. - H&E Equipment Servs  ( NASDAQ:HEES ) , Herc Hldgs  ( NYSE:HRI ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43776884/h-e-equipment-services-inc-receives-superior-proposal-from-herc-holdings-inc",
-            "time_published": "20250218T120000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "BATON ROUGE, La., Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- H&E Equipment Services, Inc. d/b/a H&E Rentals HEES ( \"H&E\" ) today announced that it has determined that a definitive offer from Herc Holdings Inc.",
-            "banner_image": "https://ml.globenewswire.com/media/99d3378d-2003-4af6-a249-3407cdf2fbdf/small/h-e-rentals-stacked-logo-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "Mergers",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.999973"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999819"
-                }
-            ],
-            "overall_sentiment_score": 0.188213,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "URI",
-                    "relevance_score": "0.59016",
-                    "ticker_sentiment_score": "0.289325",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "HEES",
-                    "relevance_score": "0.447091",
-                    "ticker_sentiment_score": "0.176253",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "HRI",
-                    "relevance_score": "0.379051",
-                    "ticker_sentiment_score": "0.360683",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "BHP Earnings Fall As Iron Ore Prices Pressure Market Leader To Slash Dividend - BHP Group  ( NYSE:BHP ) ",
-            "url": "https://www.benzinga.com/news/earnings/25/02/43776665/bhp-earnings-fall-as-iron-ore-prices-pressure-market-leader-to-slash-dividend",
-            "time_published": "20250218T115453",
-            "authors": [
-                "Stjepan Kalinic"
-            ],
-            "summary": "BHP's earnings predictably fell owing to iron ore's decline in 2024. The management remains committed to the status of a world-class iron producer while expanding into copper. Get real-time earnings alerts before the market moves and access expert analysis that uncovers hidden opportunities in ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/Stuttgart--Germany---03-06-2021-Person-H.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.714479"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.183527,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LUNMF",
-                    "relevance_score": "0.054114",
-                    "ticker_sentiment_score": "0.126009",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "TotalEnergies Powers Up With Air Liquide For Hydrogen Breakthrough - TotalEnergies  ( NYSE:TTE ) ",
-            "url": "https://www.benzinga.com/25/02/43776626/totalenergies-powers-up-with-air-liquide-in-a-628-million-hydrogen-breakthrough",
-            "time_published": "20250218T115352",
-            "authors": [
-                "Lekha Gupta"
-            ],
-            "summary": "TotalEnergies & Air Liquide to invest \u20ac600M in green hydrogen projects in the Netherlands. Projects aim to cut CO2 emissions by 450,000 tons per year across Belgium & the Netherlands. Get real-time earnings alerts before the market moves and access expert analysis that uncovers hidden ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/green-hydrogen.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                }
-            ],
-            "overall_sentiment_score": 0.190531,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AIQUF",
-                    "relevance_score": "0.381755",
-                    "ticker_sentiment_score": "0.194743",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TTE",
-                    "relevance_score": "0.630286",
-                    "ticker_sentiment_score": "0.287368",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "USDOT Secretary Sean Duffy Says 'Less Than 400' Were Laid Off At FAA Despite Rising Air Accidents",
-            "url": "https://www.benzinga.com/25/02/43776596/usdot-secretary-says-less-than-400-were-laid-off-at-faa-despite-rising-air-accidents",
-            "time_published": "20250218T115310",
-            "authors": [
-                "Anan Ashraf"
-            ],
-            "summary": "U.S. Department of Transportation Secretary Sean Duffy said on Monday that less than 400 employees were let go at the Federal Aviation Administration over the weekend. What Happened: Duffy said that the FAA has about 45,000 employees and the new government has let go \"less than 400\" who were ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/AOC-Highlights-Trumps-Role-in-Aviation-S.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.107551,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DAL",
-                    "relevance_score": "0.095138",
-                    "ticker_sentiment_score": "-0.06598",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "DraftKings Announces Launch of $500 Million Term Loan B Facility",
-            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027625/0/en/DraftKings-Announces-Launch-of-500-Million-Term-Loan-B-Facility.html",
-            "time_published": "20250218T115300",
-            "authors": [
-                "DK Crown Holdings Inc."
-            ],
-            "summary": "BOSTON, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- DraftKings Inc. ( Nasdaq: DKNG ) ( the \"Company\" or \"DraftKings\" ) today announced the launch of syndication for a proposed senior secured term loan B credit facility ( the \"Term Loan B\" ) in an aggregate principal amount of $500 million.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/b34aaf5b-5d2a-440a-9fe8-c0a76d4fafc9",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.94762"
-                }
-            ],
-            "overall_sentiment_score": 0.168036,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DKNG",
-                    "relevance_score": "0.868466",
-                    "ticker_sentiment_score": "0.287165",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Expert Insights: This Week's Stock Market Forecast - Walmart  ( NYSE:WMT ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/02/43776564/this-weeks-market-forecast",
-            "time_published": "20250218T115158",
-            "authors": [
-                "Gav Blaxberg"
-            ],
-            "summary": "This marks the first shortened trading week since the holidays, with markets closed yesterday, Monday the 17th, in observance of Presidents' Day. After a fast-paced, news-heavy start to the year, a brief break for investors isn't the worst thing. This week's market calendar is relatively light.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/Walmart-store-image.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.890401"
-                }
-            ],
-            "overall_sentiment_score": 0.207465,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.129516",
-                    "ticker_sentiment_score": "0.061926",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "SMCI Stock Climbs Nearly 5% in Tuesday Pre-Market. What's Going On? - NVIDIA  ( NASDAQ:NVDA ) , Super Micro Computer  ( NASDAQ:SMCI ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/02/43776504/smci-stock-climbs-nearly-5-in-tuesday-pre-market-whats-going-on",
-            "time_published": "20250218T114656",
-            "authors": [
-                "Namrata Sen"
-            ],
-            "summary": "The shares of Super Micro Computer Inc. SMCI rose 4.8% during the pre-market trading session on Tuesday amid positive sentiment ahead of its annual report filing deadline on Feb 25. The shares are also rising following its upbeat FY2026 revenue projection last week.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/Super-Micro-Computer--Inc--SMCI.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.339889,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.224903",
-                    "ticker_sentiment_score": "0.379821",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "SMCI",
-                    "relevance_score": "0.432291",
-                    "ticker_sentiment_score": "0.323604",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Target Hospitality Announces Multi-Year Workforce Hub Contract Advancing Strategic Diversification and Regional Network Expansion - Target Hospitality  ( NASDAQ:TH ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/n43776496/target-hospitality-announces-multi-year-workforce-hub-contract-advancing-strategic-diversification",
-            "time_published": "20250218T114500",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "THE WOODLANDS, Texas, Feb. 18, 2025 /PRNewswire/ -- Target Hospitality Corp. ( \"Target Hospitality\", \"Target\" or the \"Company\" ) TH, one of North America's largest providers of vertically integrated modular accommodations and value-added hospitality services, today announced it has entered into ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.929393"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999998"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.20652,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APCOF",
-                    "relevance_score": "0.018397",
-                    "ticker_sentiment_score": "0.119925",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TH",
-                    "relevance_score": "0.182368",
-                    "ticker_sentiment_score": "0.0885",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GM",
-                    "relevance_score": "0.07349",
-                    "ticker_sentiment_score": "0.146563",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LAC",
-                    "relevance_score": "0.128233",
-                    "ticker_sentiment_score": "0.177449",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Solid Biosciences Reports Positive Initial Clinical Data from Next-Generation Duchenne Gene Therapy Candidate SGT-003",
-            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027621/0/en/Solid-Biosciences-Reports-Positive-Initial-Clinical-Data-from-Next-Generation-Duchenne-Gene-Therapy-Candidate-SGT-003.html",
-            "time_published": "20250218T114500",
-            "authors": [
-                "Solid Biosciences Inc."
-            ],
-            "summary": "- Day 90 biopsy data reported from first 3 participants dosed in Phase 1/2 INSPIRE DUCHENNE trial -- Average microdystrophin expression of 110% ( N=3 ) and significant improvements in multiple additional muscle health biomarkers observed support the potential of SGT-003 as a next-generation, ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/bb5e6b30-d9d9-464f-8c64-33a09eacc3fb",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.202529,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SLDB",
-                    "relevance_score": "0.071946",
-                    "ticker_sentiment_score": "0.127454",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TRGNF",
-                    "relevance_score": "0.018009",
-                    "ticker_sentiment_score": "0.155549",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "It's a New Era for Upstart. Why the AI Stock Is a Screaming Buy.",
-            "url": "https://www.fool.com/investing/2025/02/18/its-a-new-era-for-upstart-why-the-ai-stock-is-a-sc/",
-            "time_published": "20250218T114500",
-            "authors": [
-                "Jeremy Bowman"
-            ],
-            "summary": "Shares of Upstart ( NASDAQ: UPST ) soared last week after the company smashed estimates in its fourth-quarter earnings report, and executed across the board.The company's new artificial intelligence ( AI ) models and partnerships have driven a surge in loan origination volume on the Upstart ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807487%2Floan-approval-financing-congratulations.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.54554"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998663"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.262239,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "UPST",
-                    "relevance_score": "0.639826",
-                    "ticker_sentiment_score": "0.336409",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "American Lamprecht Enhances Visibility for Air and Ocean Shipments Using Descartes Solution",
-            "url": "https://www.globenewswire.com/news-release/2025/02/18/3027620/0/en/American-Lamprecht-Enhances-Visibility-for-Air-and-Ocean-Shipments-Using-Descartes-Solution.html",
-            "time_published": "20250218T114500",
-            "authors": [
-                "The Descartes Systems Group Inc"
-            ],
-            "summary": "ATLANTA, Georgia and AMERSFOORT, The Netherlands, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Descartes Systems Group ( Nasdaq:DSGX ) ( TSX:DSG ) , the global leader in uniting logistics-intensive businesses in commerce, announced that Illinois-based freight forwarder American Lamprecht is providing its ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/2fab20c0-6dcb-4891-840a-37d0d482f33a",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.256881,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DSGX",
-                    "relevance_score": "0.048425",
-                    "ticker_sentiment_score": "0.063239",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "UgoWork to showcase cutting-edge lithium-ion solutions and industry insights at ProMat 2025",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43776495/ugowork-to-showcase-cutting-edge-lithium-ion-solutions-and-industry-insights-at-promat-2025",
-            "time_published": "20250218T114500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "QUEBEC, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- UgoWork\u2122, a leading provider of lithium-ion energy solutions for the material handling industry, is set to make an impact at ProMat 2025, March 17-20 at McCormick Place, Chicago, IL. Visit Booth #N7734 in Hall B to see how UgoWork's technology enhances ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/59bc5d83-f9ac-481b-8caa-26a960b1b6be/ugowork-pr-promat-2025-2048x1536px.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.375289,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ICFI",
-                    "relevance_score": "0.063425",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PSIX",
-                    "relevance_score": "0.063425",
-                    "ticker_sentiment_score": "0.189579",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PTEFF",
-                    "relevance_score": "0.063425",
-                    "ticker_sentiment_score": "0.189579",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Analyst With 87% Accuracy Rate Sees More Than 50% Upside In Trade Desk - Here Are 5 Stock Picks For Last Week From Wall Street's Most Accurate Analysts - ATI  ( NYSE:ATI ) , Palo Alto Networks  ( NASDAQ:PANW ) ",
-            "url": "https://www.benzinga.com/25/02/43776255/this-analyst-with-87-accuracy-rate-sees-more-than-50-upside-in-trade-desk-here-are-5-stock-picks-for-last-week-fr",
-            "time_published": "20250218T114147",
-            "authors": [
-                "Avi Kapoor"
-            ],
-            "summary": "U.S. stocks settled mixed on Friday, with the Dow Jones index falling more than 150 points during the session. However, stocks recorded gains last week, with the S&P 500 gaining around 1.5% and the Dow rising 0.6%. The Nasdaq gained 2.6% during the week. Wall Street analysts make new stock picks ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/The-Trade-Desk-TTD.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999997"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.858979"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.195532,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APG",
-                    "relevance_score": "0.065866",
-                    "ticker_sentiment_score": "0.101161",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "UPWK",
-                    "relevance_score": "0.195814",
-                    "ticker_sentiment_score": "0.065886",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "Z",
-                    "relevance_score": "0.195814",
-                    "ticker_sentiment_score": "0.155157",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TTD",
-                    "relevance_score": "0.195814",
-                    "ticker_sentiment_score": "0.007743",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ATI",
-                    "relevance_score": "0.195814",
-                    "ticker_sentiment_score": "0.17187",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PANW",
-                    "relevance_score": "0.131284",
-                    "ticker_sentiment_score": "0.107321",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
