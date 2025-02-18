@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "id": 3741379,
+            "title": "特朗普：可能对汽车、药品和芯片征收25%左右的关税",
+            "description": "<p>据央视新闻报道，当地时间2月18日，美国总统特朗普表示，将对进口汽车征收25%左右的关税，他将在4月2日就此话题发表更多声明。</p>\n<p>央视报道提到上周五特朗普就曾预告要征汽车关税。当地时间2月14日，特朗普称，最早将于4月2日对进口汽车征收关税。</p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
+            "image": "https://wpimg-wscn.awtmt.com/423225f3-eac4-4a3a-85ed-47981d7b84ed.png",
+            "link": "https://wallstreetcn.com/articles/3741379",
+            "author": "李丹",
+            "pub_date": "2025-02-19 06:21:34",
+            "source": "wallstreetcn",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": 3741378,
             "title": "日本12月所持美国国债下降273亿美元，至1.06万亿美元",
             "description": "<p>中国12月所持美债减少96亿美元，至7590亿美元。</p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
@@ -224,18 +236,6 @@
             "link": "https://wallstreetcn.com/articles/3741351",
             "author": "柴旭晨",
             "pub_date": "2025-02-18 18:46:30",
-            "source": "wallstreetcn",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": 3741352,
-            "title": "太震撼了！梁文锋携DeepSeek团队丢出注意力新机制重磅论文，网友：这才是真正的OpenAI",
-            "description": "<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/66a11adf-c236-43a1-a4ae-973d7fc7bd1a.png\" data-wscntype=\"image\" data-wscnh=\"492\" data-wscnw=\"758\" /></p>\n<p>就在马斯克发布grok3，sam altman 还在犹豫要不要开源时，刚刚梁文锋作为co-authors携deepseek研究团队丢出重磅研究论文成果，<strong>DeepSeek 发布了最新的研究成果——原生稀疏注意力（Native Sparse Attention, NSA）！</strong> 这项技术有望大幅提升下一代大语言模型处理长文本的能力，同时还能兼顾效率，可谓是 LLM 领域又一里程碑式的进展！</p>\n<section><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/6d7cef18-d01f-4aa3-9caa-327cc138637b.png\" data-wscntype=\"image\" data-wscnh=\"654\" data-wscnw=\"758\" /></section>\n<p>简单来说，论文的核心贡献如下：</p>\n<blockquote>\n<p>LLM 长文本能力再突破！DeepSeek 发布原生稀疏注意力 NSA：硬件友好又高效，训推一体化！</p>\n</blockquote>\n<p>废话不多说，我们一起来扒一扒这篇论文：</p>\n<h2>先了解一下论文的背景</h2>\n<p>近年来，我们见证了长文本建模在 AI 领域的重要性日益凸显。无论是深度推理、代码库生成、还是多轮对话，都离不开模型对长序列信息的有效处理能力。像 OpenAI 的 o-series 模型、DeepSeek-R1、以及 Google Gemini 1.5 Pro 等，都展现了处理超长文本的强大潜力。</p>\n<p>然而，传统 Attention 机制的计算复杂度随着序列长度的增加而呈平方级增长，这成为了制约 LLM 发展的关键瓶颈。<strong>计算成本高昂，延迟成为问题，</strong> 如何在保证模型性能的同时，提升长文本处理的效率，成为了亟待解决的难题</p>\n<p>稀疏注意力应运而生，它被认为是提升效率，同时维持模型能力的有希望的方向。DeepSeek 的 NSA 技术正是在这个方向上迈出了重要一步！</p>\n<h2>DeepSeek NSA：原生稀疏注意力，训推一体化，硬件友好</h2>\n<p>DeepSeek 提出的 <strong>NSA (Native Sparse Attention，原生稀疏注意力)</strong> 机制，巧妙地将算法创新与硬件优化相结合，旨在实现高效的长文本建模。</p>\n<p><strong>NSA 的核心亮点可以概括为以下两点：</strong></p>\n<p><strong>1.动态分层稀疏策略：</strong> NSA 采用了一种动态分层的稀疏策略，结合了<strong>粗粒度的 Token 压缩</strong> 和 <strong>细粒度的 Token 选择</strong>。这种策略既能保证模型对全局上下文的感知，又能兼顾局部信息的精确性</p>\n<p><strong>2.两大关键创新：</strong></p>\n<p><strong>算术强度平衡的算法设计与硬件优化：</strong> NSA 通过精巧的算法设计，并针对现代硬件进行了实现优化，<strong>显著提升了计算速度</strong></p>\n<p><strong>端到端可训练：</strong> NSA 支持<strong>端到端训练</strong>，这意味着它不仅在推理阶段高效，还能减少预训练的计算量，同时不牺牲模型性能！</p>\n<section><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/09da5476-2ec6-4833-b554-4cb4eb74fdaf.png\" data-wscntype=\"image\" data-wscnh=\"225\" data-wscnw=\"758\" /></section>\n<h2>实验效果惊艳：性能不降反升，速度大幅提升！</h2>\n<p>实验结果令人振奋！如图 1 所示，在通用基准测试、长文本任务和指令推理方面，<strong>使用 NSA 预训练的模型性能不仅没有下降，反而超越了 Full Attention 模型！</strong></p>\n<p>更重要的是，在处理 64k 长度的序列时，<strong>NSA 在解码、前向传播和反向传播等各个阶段都实现了显著的速度提升，最高可达 11.6 倍！</strong> 这充分证明了 NSA 在模型生命周期各个阶段的效率优势</p>\n<section><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/1821872f-a6c2-4b84-a194-d039e1b98b44.png\" data-wscntype=\"image\" data-wscnh=\"439\" data-wscnw=\"758\" /></section>\n<h2>现有稀疏注意力方法的局限性</h2>\n<p>论文也深入分析了现有稀疏注意力方法的局限性，主要体现在两个方面：</p>\n<p><strong>1.推理效率的“假象”：</strong> 很多方法虽然在理论上实现了稀疏计算，但在实际推理延迟方面提升有限。这主要是因为：</p>\n<ul style=\"list-style-type: circle;\">\n<li>\n<p>• <strong>阶段限制的稀疏性：</strong> 例如，有些方法只在自回归解码时应用稀疏性，但在预填充阶段仍然需要大量计算</p>\n</li>\n<li>\n<p>• <strong>与先进 Attention 架构的不兼容性：</strong> 一些稀疏注意力方法难以适配像 MQA 和 GQA 这样的现代高效解码架构，导致内存访问瓶颈依然存在</p>\n</li>\n</ul>\n<p><strong>2.可训练稀疏性的“神话”：</strong> 许多方法主要关注推理阶段的稀疏性，而忽略了训练阶段。这导致：</p>\n<ul style=\"list-style-type: circle;\">\n<li>\n<p>• <strong>性能退化：</strong> 后验应用稀疏性可能导致模型偏离预训练的优化轨迹。</p>\n</li>\n<li>\n<p>• <strong>训练效率需求：</strong> 长序列训练对于提升模型能力至关重要，但现有方法在训练效率方面存在不足。</p>\n</li>\n<li>\n<p>• <strong>不可训练的组件：</strong> 一些方法引入了不可微的离散操作，阻碍了梯度传播，限制了模型学习最佳稀疏模式的能力。</p>\n</li>\n<li>\n<p>• <strong>反向传播效率低下：</strong> 一些理论上可训练的方法，在实际训练中效率低下，例如 Token 粒度的选择策略可能导致非连续的内存访问，影响硬件利用率。</p>\n</li>\n</ul>\n<h2>NSA 的核心组件：分层稀疏，逐层优化</h2>\n<p>为了克服上述局限性，NSA 架构采用了分层 Token 建模，并通过三个并行的注意力分支处理输入序列：</p>\n<ol style=\"list-style-type: none;\">\n<li>\n<p>1. <strong>压缩注意力 (Compressed Attention)：</strong> 处理粗粒度的模式，通过压缩 Token 块来捕获全局信息。</p>\n</li>\n<li>\n<p>2. <strong>选择注意力 (Selected Attention)：</strong> 处理重要的 Token 块，选择性地保留细粒度的信息。</p>\n</li>\n<li>\n<p>3. <strong>滑动窗口注意力 (Sliding Window Attention)：</strong> 处理局部上下文信息。</p>\n</li>\n</ol>\n<p>这三个分支的输出通过一个门控机制进行聚合。为了最大化效率，NSA 还专门设计了硬件优化的 Kernel</p>\n<section><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/562e8c08-2ace-4fd4-8abb-a1f9abd473d0.png\" data-wscntype=\"image\" data-wscnh=\"561\" data-wscnw=\"758\" /></section>\n<h2>写在最后：</h2>\n<p>DeepSeek 的 NSA 技术为长文本建模带来了新的突破。它不仅在性能上超越了传统的 Full Attention 模型，更在效率方面实现了显著的提升，尤其是在长序列场景下。NSA 的 <strong>硬件友好设计</strong> 和 <strong>训推一体化特性</strong>，使其在实际应用中更具优势，有望加速下一代 LLM 在长文本处理领域的应用落地。</p>\n<p>这项研究无疑为稀疏注意力领域带来了新的思路和方向。未来，我们期待看到更多基于 NSA 技术的创新应用，共同推动 AI 技术的进步！</p>\n<p>最后不得不在强调一下，梁文锋不仅是deepseek ceo，很明显他还在研究的最前沿参与研究，这是令我最震撼的，他不仅有管理能力，而且还真正的懂AI，deepseek前途无量</p>\n<p>各路网友都在喊，这才是真正的OpenAI。</p>\n<p><span style=\"color: #808080;\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&amp;mid=2247502228&amp;idx=1&amp;sn=8a9bc9c8c91c09a7c7e1787b4563ea4e&amp;chksm=cf5052770301ec8c55effec2c0f381c0db7343c692ee90eb9f9b9b21a95b95e4ed6e59cde8e6&amp;mpshare=1&amp;scene=23&amp;srcid=0218pROWc4PvCcNHmeRDXbpR&amp;sharer_shareinfo=3e50fc3ebcc56e3b8dad6d005d639bc8&amp;sharer_shareinfo_first=3e50fc3ebcc56e3b8dad6d005d639bc8#rd\" target=\"_blank\" rel=\"noopener\">AI寒武纪</a>，原文标题：《太震撼了！梁文锋携DeepSeek团队丢出注意力新机制重磅论文，网友：这才是真正的OpenAI》</span></p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
-            "image": "https://wpimg-wscn.awtmt.com/bf8928e4-59f6-4f70-887f-7fb1587565a5.png",
-            "link": "https://wallstreetcn.com/articles/3741352",
-            "author": "张雅琦",
-            "pub_date": "2025-02-18 18:46:29",
             "source": "wallstreetcn",
             "kind": 1,
             "language": "zh-CN"
