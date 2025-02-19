@@ -137,6 +137,7 @@ class SpiderUtil:
             self.error(f"写入临时文件过程中发生错误: {str(e)}")
 
     def log_action_error(self, error_message, notify=True):
+        error_message = f"#{self.current_file}{error_message}"
         # 打印错误信息
         self.error(error_message)
         # 将错误信息追加到临时文件中
@@ -198,7 +199,7 @@ class SpiderUtil:
                 except Exception as e:
                     traceback.print_exc()
                     # 使用外部的log_action_error方法
-                    self._log_action_error(f"{filename}#{lineno} error: {repr(e)}\n", notify)
+                    self._log_action_error(f"#{lineno} error: {repr(e)}\n", notify)
                 finally:
                     end_time = time.time()
                     self.execution_time = end_time - start_time   
