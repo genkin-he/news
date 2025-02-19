@@ -35,7 +35,7 @@ util = SpiderUtil()
 def get_detail(link):
     if link in current_links:
         return ""
-    print("stheadline link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
     request = urllib.request.Request(quote(link, safe="/:"), None, headers)
     response = urllib.request.urlopen(request)
@@ -50,7 +50,7 @@ def get_detail(link):
             element.decompose()
         return str(soup).strip()
     else:
-        print("stheadline request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -76,7 +76,7 @@ def run(link):
             link = title_element["href"].strip()
             title = title_element.text.strip()
             if link in ",".join(_links):
-                print("stheadline exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             description = get_detail(link)
             if description != "":
@@ -99,7 +99,7 @@ def run(link):
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("stheadline request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run, "https://std.stheadline.com/realtime/%E5%8D%B3%E6%99%82")

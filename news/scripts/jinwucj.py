@@ -58,7 +58,7 @@ def run():
                 pub_date = post["updatedTime"]
 
                 if link in ",".join(links):
-                    print("jinwucj exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
 
                 description = post["content"]
@@ -82,7 +82,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("jinwucj request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

@@ -26,7 +26,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("smartphonemagazine detail link: ", link)
+    util.info("detail link: {}".format(link))
     response = requests.get(link, headers=headers)
     if response.status_code == 200:
         resp = response.text
@@ -40,7 +40,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("smartphonemagazine request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -68,7 +68,7 @@ def run():
                 else:
                     image = ""
                 if link in ",".join(links):
-                    print("smartphonemagazine exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(link)
                 if description:
@@ -92,7 +92,7 @@ def run():
             util.write_json_to_file(articles, filename)
     else:
         util.log_action_error(
-            f"smartphonemagazine request error: {response.status_code}"
+            f"request error: {response.status_code}"
         )
 
 

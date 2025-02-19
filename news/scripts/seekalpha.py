@@ -54,7 +54,7 @@ def run():
                     pub_date = util.parse_time(publish_on, "%Y-%m-%dT%H:%M:%S-04:00")
 
                 if link in ",".join(links):
-                    print("seekalpha exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 soup = BeautifulSoup(post["attributes"]["content"], "lxml")
                 ad_elements = soup.select("#more-links")
@@ -83,7 +83,7 @@ def run():
             util.write_json_to_file(articles, filename)
     else:
         util.log_action_error(
-            "seekalpha request error: {}".format(response.status_code)
+            "request error: {}".format(response.status_code)
         )
 
 

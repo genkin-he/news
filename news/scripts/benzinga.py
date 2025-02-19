@@ -39,7 +39,7 @@ def run():
                 description = post["teaserText"]
                 pub_date = util.parse_time(post["created"], "%Y-%m-%dT%H:%M:%SZ")
                 if link in ",".join(links):
-                    print("benzinga exists link: ", link)
+                    util.info("exists link: " + link)
                     break
                 if description != "" and "Read the full article here" not in description:
                   insert = True
@@ -62,6 +62,6 @@ def run():
                 articles = articles[:5]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("benzinga request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 util.execute_with_timeout(run)

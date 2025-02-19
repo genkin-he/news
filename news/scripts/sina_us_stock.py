@@ -17,7 +17,7 @@ base_url = "https://sina.com.cn/"
 filename = "./news/data/sina/list_us_stock.json"
 
 def get_detail(link):
-    print("sina us link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -31,7 +31,7 @@ def get_detail(link):
 
         return str(soup.select(".article")[0])
     else:
-        print("sina us request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
     
 
@@ -44,7 +44,7 @@ def fetch_posts():
         body = response.read().decode("utf-8")
         return json.loads(body)["result"]["data"]
     else:
-        util.log_action_error("sina us request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
         return []
 
 def run():
@@ -61,7 +61,7 @@ def run():
         summary = post["intro"]
         author = post["author"]
         if link in ",".join(links):
-            print("sina us exists link: ", link)
+            util.info("exists link: {}".format(link))
             break
         description = get_detail(link)
         if description:

@@ -25,7 +25,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("timeweekly detail link: ", link)
+    util.info("link: {}".format(link))
     response = requests.get(link, headers=headers, proxies=util.get_random_proxy("CN"))
     if response.status_code == 200:
         resp = response.text
@@ -39,7 +39,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("timeweekly request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -68,7 +68,7 @@ def run():
             else:
                 image = ""
             if link in ",".join(links):
-                print("timeweekly exists link: ", link)
+                util.info("exists link: {}".format(link))
                 continue
             description = get_detail(link)
             if description:
@@ -91,7 +91,7 @@ def run():
                 articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error(f"timeweekly request error: {response.status_code}")
+        util.log_action_error(f"request error: {response.status_code}")
 
 # 访问限制
 # util.execute_with_timeout(run)

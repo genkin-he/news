@@ -31,7 +31,7 @@ filename = "./news/data/thehill/list.json"
 
 
 def get_detail(link):
-    print("thehill link: ", link)
+    util.info("link: {}".format(link))
     try:
         response = requests.get(link, headers=headers, proxies=util.get_random_proxy())
         if response.status_code == 200:
@@ -44,10 +44,10 @@ def get_detail(link):
                 element.decompose()
             return str(soup).strip()
         else:
-            print("thehill request: {} error: ".format(link), response.status_code)
+            util.error("request: {} error: {}".format(link, response.status_code))
             return ""
     except Exception as e:
-        print(f"Error fetching detail for {link}: {str(e)}")
+        util.error(f"Error fetching detail for {link}: {str(e)}")
         return ""
 
 def run():
@@ -72,7 +72,7 @@ def run():
                     title = post["title"]
                     link = post["link"]
                     if link in ",".join(links):
-                        print("thehill exists link: ", link)
+                        util.info("exists link: {}".format(link))
                         break
 
                     description = get_detail(link)
@@ -96,9 +96,9 @@ def run():
                     articles = articles[:10]
                 util.write_json_to_file(articles, filename)
         else:
-            util.log_action_error(f"thehill request error: {response.status_code}")
+            util.log_action_error(f"request error: {response.status_code}")
     except Exception as e:
-        util.log_action_error(f"thehill request error: {str(e)}")
+        util.log_action_error(f"request error: {str(e)}")
 
 
 util.execute_with_timeout(run)

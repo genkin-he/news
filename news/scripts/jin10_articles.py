@@ -34,12 +34,12 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("jin10_articles_articles detail link: ", link)
+    util.info("link: {}".format(link))
     response = requests.get(link, headers=headers)
     if response.status_code == 200:
         resp = response.text
         lxml = BeautifulSoup(resp, "lxml")
-        soup = lxml.select_one(".setWebViewConentHeight > div")  # 修正选择器语法错误
+        soup = lxml.select_one(".setWebViewConentHeight > div")
 
         ad_elements = soup.select("ad")
         # 移除这些元素
@@ -48,7 +48,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("jin10_articles_articles request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -78,7 +78,7 @@ def run():
                 image = ""
             pub_date = post["display_datetime"]
             if link in ",".join(links):
-                print("jin10_articles_articles exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             
             description = get_detail(link)
@@ -104,7 +104,7 @@ def run():
             util.write_json_to_file(articles, filename)
     else:
         util.log_action_error(
-            f"jin10_articles_articles request error: {response.status_code}"
+            f"request error: {response.status_code}"
         )
 
 

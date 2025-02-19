@@ -78,7 +78,7 @@ def run():
                 elif "-04:00" in publish_on:
                     pub_date = util.parse_time(publish_on, "%Y-%m-%dT%H:%M:%S-04:00")
                 if link in ",".join(links):
-                    print("seekalpha_articles exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(id)
                 if description != "":
@@ -102,7 +102,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("seekalpha_articles request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

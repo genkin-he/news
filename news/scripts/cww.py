@@ -32,7 +32,7 @@ post_count = 0
 util = SpiderUtil()
 
 def get_detail(link):
-    print("cww link: ", link)
+    util.info("link: {}".format(link))
     try:
         response = requests.get(link, headers=headers)
         if response.status_code == 200:
@@ -46,10 +46,10 @@ def get_detail(link):
 
             return str(soup).strip()
         else:
-            print("cww request: {} error: ".format(link), response.status_code)
+            util.error("request: {} error: {}".format(link, response.status_code))
             return ""
     except Exception as e:
-        print(f"Error fetching {link}: {str(e)}")
+        util.error("Error fetching {}: {}".format(link, str(e)))
         return ""
 
 
@@ -69,7 +69,7 @@ def run():
                 break
             link = str(node.select("a")[0]["href"].strip())
             if link in ",".join(links):
-                print("cww exists link: ", link)
+                util.info("exists link: {}".format(link))
                 continue
             title = node.select(".slh")[0].text.strip()
             post_count = post_count + 1
@@ -93,6 +93,6 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("cww request error: {}".format(response.status_code))
+        util.log_action_error("request error: {}".format(response.status_code))
 
 util.execute_with_timeout(run)

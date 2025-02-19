@@ -33,7 +33,7 @@ util = SpiderUtil()
 def get_detail(link):
     if link in current_links:
         return ""
-    print("yahoo_finance_asia link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
     request = urllib.request.Request(quote(link, safe="/:"), None, headers)
     response = urllib.request.urlopen(request)
@@ -55,7 +55,7 @@ def get_detail(link):
             element.decompose()
         return str(soup)
     else:
-        print("yahoo_finance_asia request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 def run():
@@ -91,7 +91,7 @@ def run():
             else:
                 link = "https://hk.news.yahoo.com" + link
             if link in ",".join(_links):
-                print("yahoo_finance_asia exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             description = get_detail(link)
             if description == "":
@@ -116,7 +116,7 @@ def run():
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("yahoo_finance_asia request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

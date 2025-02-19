@@ -32,7 +32,7 @@ base_url = "https://www.tradingview.com/news-flow/?market=etf,forex,index,future
 filename = "./news/data/tradingview/list.json"
 
 def get_detail(link):
-    print("tradingview link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -46,7 +46,7 @@ def get_detail(link):
 
         return str(soup).encode("utf-8").decode("utf-8")
     else:
-        print("moneycontrol request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -72,16 +72,13 @@ def run():
             storyPath = post["storyPath"]
             link = "https://www.tradingview.com{}".format(storyPath)
             if link in ",".join(links):
-                print("tradingview exists link: ", link)
+                util.info("exists link: {}".format(link))
                 continue
             id = post["id"]
             source = post["source"]
             title = post["title"]
             description = get_detail(link)
             pub_date = util.convert_utc_to_local(post["published"])
-            if link in ",".join(links):
-                print("tradingview exists link: ", link)
-                break
             if description != "":
                 insert = True
                 articles.insert(
@@ -102,7 +99,7 @@ def run():
                 articles = articles[:30]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("tradingview request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run, timeout=15)

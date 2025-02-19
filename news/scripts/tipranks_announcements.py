@@ -17,7 +17,7 @@ filename = "./news/data/tipranks/announcements.json"
 
 
 def get_detail(link):
-    print("tipranks announcements: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     body = response.read().decode("utf-8")
@@ -65,7 +65,7 @@ def run():
                 author = post["author"]["name"]
                 pub_date = util.parse_time(post["date"], "%Y-%m-%dT%H:%M:%S.%fZ")
                 if link in ",".join(links):
-                    print("tipranks announcements exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(link)
                 if description != "":
@@ -90,7 +90,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("tipranks announcements request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

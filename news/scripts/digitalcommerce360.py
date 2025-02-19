@@ -63,7 +63,7 @@ def run():
                 description = post["subhead"]
                 pub_date = datetime.fromtimestamp(post["post_date"]).strftime("%Y-%m-%d %H:%M:%S")
                 if link in ",".join(links):
-                    print("digitalcommerce360 exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 if description != "":
                     insert = True
@@ -85,7 +85,7 @@ def run():
                 articles = articles[:5]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("digitalcommerce360 request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

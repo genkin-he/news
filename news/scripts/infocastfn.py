@@ -34,7 +34,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("infocastfn link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -49,7 +49,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("infocastfn request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -80,7 +80,7 @@ def run():
                 node[2]
             )
             if link in ",".join(links):
-                print("infocastfn exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             title = node[1]
             post_count = post_count + 1
@@ -105,11 +105,11 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("infocastfn request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 # util.execute_with_timeout(run)
 try:
     run()
 except Exception as e:
-    print("infocastfn exec error: ", repr(e))
+    util.error("exec error: {}".format(repr(e)))
     traceback.print_exc()

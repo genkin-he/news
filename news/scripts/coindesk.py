@@ -32,7 +32,7 @@ post_count = 0
 util = SpiderUtil()
 
 def get_detail(link):
-    print("coindesk link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -47,7 +47,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("coindesk request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -73,7 +73,7 @@ def run(url):
             if "markets" not in link and "business" not in link:
                 continue
             if link in ",".join(links):
-                print("coindesk exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             title = str(node.text.strip())
             if title == "":
@@ -99,7 +99,7 @@ def run(url):
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("coindesk request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 link1 = "https://www.coindesk.com/markets"

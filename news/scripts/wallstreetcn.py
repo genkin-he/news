@@ -35,7 +35,7 @@ filename = "./news/data/wallstreetcn/list.json"
 
 util = SpiderUtil()
 def get_detail(id, kind):
-    print("wallstreetcn id: ", id, kind)
+    util.info("id: {} {}".format(id, kind))
     if kind == "article":
         link = "https://api-one-wscn.awtmt.com/apiv1/content/articles/{}?extract=0&accept_theme=theme%2Cpremium-theme".format(id)
     elif kind == "live":
@@ -58,7 +58,7 @@ def get_detail(id, kind):
         
         return str(content).strip()
     else:
-        print("wallstreetcn request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -96,7 +96,7 @@ def run():
 
             link = post["uri"]
             if link in ",".join(links):
-                print("wallstreetcn exists link: ", link)
+                util.info("exists link: {}".format(link))
                 continue
             description = get_detail(id, kind)
             if description != "":
@@ -123,7 +123,7 @@ def run():
                 articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("wallstreetcn request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

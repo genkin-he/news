@@ -30,7 +30,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("bloomberg news: ", link)
+    util.info("news: " + link)
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     body = (
@@ -93,7 +93,6 @@ def run():
     response = urllib.request.urlopen(request)
     if response.status == 200:
         body = response.read().decode("utf-8")
-        print(body)
         items = json.loads(body)["archive_story_list"]["items"]
         posts = []
         for index in range(len(items)):
@@ -105,7 +104,7 @@ def run():
             if index < 3:
                 link = posts[index]["link"]
                 if link in ",".join(urls):
-                    print("bloomberg exists link: ", link)
+                    util.info("exists link: " + link)
                     break
 
                 title = posts[index]["title"]
@@ -129,7 +128,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("bloomberg request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
-util.execute_with_timeout(print, "机器人点击验证无法通过 stop bloomberg")
+util.execute_with_timeout(util.info, "机器人点击验证无法通过 stop bloomberg")

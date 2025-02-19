@@ -23,7 +23,7 @@ def delete_workflow_runs():
     runs = json.loads(response.read().decode("utf-8"))
 
     if len(runs["workflow_runs"]) == 0:
-        print("没有运行记录")
+        util.info("没有运行记录")
 
     # 遍历并删除每个运行记录
     for run in runs["workflow_runs"]:
@@ -37,9 +37,9 @@ def delete_workflow_runs():
         )
         try:
             urllib.request.urlopen(delete_request)
-            print(f"已删除运行记录 ID: {run_id}")
+            util.info(f"已删除运行记录 ID: {run_id}")
         except urllib.error.URLError as e:
-            print(f"删除运行记录 ID: {run_id} 失败: {str(e)}")
+            util.error(f"删除运行记录 ID: {run_id} 失败: {str(e)}")
 
 if __name__ == "__main__":
     try:

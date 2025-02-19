@@ -36,7 +36,7 @@ current_links = []
 
 
 def get_detail(link):
-    print("now_finance link:", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -50,7 +50,7 @@ def get_detail(link):
             element.decompose()
         return str(soup).strip()
     else:
-        print("now_finance request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -70,12 +70,11 @@ def run(link):
         for index in range(len(items)):
             if index > 4:
                 break
-            print(items[index])
             id = items[index]["id"]
             title = items[index]["title"]
             link = "https://finance.now.com/news/post.php?id={}".format(id)
             if link in ",".join(_links):
-                print("now_finance exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             description = get_detail(link)
             if description != "":
@@ -98,7 +97,7 @@ def run(link):
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("now_finance request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run, "https://finance.now.com/news/newsList.php?type=world")

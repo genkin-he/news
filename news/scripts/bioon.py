@@ -34,7 +34,7 @@ util = SpiderUtil()
 def get_detail(link):
     if link in current_links:
         return ""
-    print("bioon link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request, timeout=5)
@@ -49,7 +49,7 @@ def get_detail(link):
             element.decompose()
         return str(soup).strip()
     else:
-        print("bioon request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -59,9 +59,7 @@ def run(link):
     _links = data["links"]
     insert = False
 
-    # request中放入参数，请求头信息
     request = urllib.request.Request(link, None, headers)
-    # urlopen打开链接（发送请求获取响应）
     response = urllib.request.urlopen(request, timeout=5)
     if response.status == 200:
         body = response.read().decode("utf-8")
@@ -73,7 +71,7 @@ def run(link):
             link = items[index].select(".item-content> h2 > a")[0]["href"].strip()
             title = items[index].select(".item-content> h2 > a")[0].text.strip()
             if link in ",".join(_links):
-                print("bioon exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             description = get_detail(link)
             if description != "":
@@ -96,6 +94,6 @@ def run(link):
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("bioon request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 util.execute_with_timeout(run, base_url, notify=False)

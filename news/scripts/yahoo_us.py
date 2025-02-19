@@ -32,7 +32,7 @@ def run():
         html = json.loads(body)["html"]
         uuids = re.findall(r'data-uuid="([^"]+)"', html)
         uuids = list(set(uuids))
-        print("yahoo us uuids:", uuids)
+        util.info("uuids: {}".format(uuids))
         # request中放入参数，请求头信息
         detail_request = urllib.request.Request(
             "https://news.yahoo.com/caas/content/article/?uuid={}&appid=news_web&device=desktop&lang=en-US&region=US&site=news&partner=none&bucket=news-dweb-nca-blog-test-2,seamless&features=enableEVPlayer,contentFeedbackEnabled,enableAdFeedbackV2,enableInArticleAd,enableOpinionLabel,enableSingleSlotting,enableVideoDocking,outStream,showCommentsIconWithDynamicCount,enableStickyAds,showCommentsIconInShareSec,enableInlineConsent,enableAdSlotsNewMap,enableGAMAds,enableGAMAdsOnLoad,enableFinancePremiumTicker,enableAdLiteUpSellFeedback,enableRRAtTop,enableCommentsCountInViewCommentsCta,enableRRAdsSlots,enableRRAdsSlotsWithJAC,newsModal,enableViewCommentsCTA&rid=2ndsttpj77ta5".format(','.join(uuids)), None, headers
@@ -50,7 +50,7 @@ def run():
                 author = post["data"]["partnerData"]["publisher"]
                 pub_date = util.parse_time(post["data"]["partnerData"]["publishDate"], "%a, %d %b %Y %H:%M:%S %Z")
                 if link in ",".join(links):
-                    print("yahoo us exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = post["markup"]
                 if description != "":
@@ -76,9 +76,9 @@ def run():
                     articles = articles[:10]
                 util.write_json_to_file(articles, filename)
         else:
-            print("yahoo us request error: ", response)
+            util.error("yahoo us request error: {}".format(response))
     else:
-        util.log_action_error("yahoo us request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

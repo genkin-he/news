@@ -35,7 +35,7 @@ util = SpiderUtil()
 
 
 def get_detail(id):
-    print("fx168 news: ", id)
+    util.info("link: {}".format(id))
     request = urllib.request.Request(
         "https://centerapi.fx168api.com/cms/api/cmsnews/news/getNewsDetail?newsId={}".format(
             id
@@ -75,7 +75,7 @@ def run():
                 url_code = result[index]["urlCode"]
                 link = "https://www.fx168news.com/article/{}".format(url_code)
                 if link in ",".join(links):
-                    print("fx168 news exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 title = result[index]["newsTitle"]
                 image = result[index]["displayImage"]
@@ -102,7 +102,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("fx168 news request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

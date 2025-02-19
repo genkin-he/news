@@ -39,7 +39,7 @@ def run():
             title = str(node.select(".news1-title")[0].text)
             description = str(node.select(".news1-content")[0].text)
             if link in ",".join(links):
-                print("lieyun exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             if description != "":
                 insert = True
@@ -61,7 +61,7 @@ def run():
                 articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("lieyun request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

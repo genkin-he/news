@@ -25,7 +25,7 @@ filename = "./news/data/reporterosdelsur/list.json"
 util = SpiderUtil()
 
 def get_detail(link):
-    print("reporterosdelsur detail link: ", link)
+    util.info("link: {}".format(link))
     response = requests.get(link, headers=headers)
     if response.status_code == 200:
         resp = response.text
@@ -39,7 +39,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("reporterosdelsur request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -68,7 +68,7 @@ def run():
                 else:
                     image = ""
                 if link in ",".join(links):
-                    print("reporterosdelsur exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 if util.contains_language(title):
                     continue
@@ -93,7 +93,7 @@ def run():
                 articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error(f"reporterosdelsur request error: {response.status_code}")
+        util.log_action_error(f"request error: {response.status_code}")
 
 
 util.execute_with_timeout(run)

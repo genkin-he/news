@@ -56,7 +56,7 @@ def run(link):
                 )
                 category = items[index]["categoryName"]
                 if link in ",".join(_links):
-                    print("now exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 if description != "":
                     insert = True
@@ -82,7 +82,7 @@ def run(link):
         else:
             util.log_action_error("now request error: {}".format(response.status_code))
     except requests.RequestException as e:
-        util.log_action_error("now request error: {}".format(str(e)))
+        util.log_action_error("request error: {}".format(str(e)))
 
 
 util.execute_with_timeout(

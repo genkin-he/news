@@ -56,7 +56,7 @@ def run():
                 id = result[index]["fastNewsId"]
                 link = "https://www.fx168news.com/express/fastnews/{}".format(id)
                 if link in ",".join(links):
-                    print("fx168 live news exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 pub_date = result[index]["publishTime"]
                 description = result[index]["textContent"]
@@ -81,7 +81,7 @@ def run():
             util.write_json_to_file(articles, filename)
 
     else:
-        util.log_action_error("fx168 live news request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

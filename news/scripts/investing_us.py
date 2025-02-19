@@ -40,7 +40,7 @@ def run():
                 title = post["headline"]
                 id = post["id"]
                 if link in ",".join(links):
-                    print("investing_us exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
 
                 description = post["body"]
@@ -68,7 +68,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("investing_us request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

@@ -33,7 +33,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("business-standard link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -48,7 +48,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("business-standard request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -102,7 +102,7 @@ def run(url):
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("business-standard request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run, "https://www.business-standard.com/latest-news")

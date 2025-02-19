@@ -50,7 +50,7 @@ def run():
             id = post["id"]
             link = "https://www.finet.hk/newscenter/news_content/{}".format(id)
             if link in ",".join(links):
-                print("finet live news exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             title = post["name_sc"]
             pub_date = post["create_time"]
@@ -76,7 +76,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("finet live news request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

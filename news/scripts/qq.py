@@ -36,7 +36,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("qq link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -59,7 +59,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("qq request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -82,7 +82,7 @@ def run(url):
                 continue
             link = post["url"]
             if link in ",".join(links):
-                print("qq exists link: ", link)
+                util.info("exists link: {}".format(link))
                 continue
             title = post["title"]
             pub_date = post["publish_time"]
@@ -112,7 +112,7 @@ def run(url):
                 articles = articles[:25]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("qq request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 link1 = "https://i.news.qq.com/trpc.qqnews_web.kv_srv.kv_srv_http_proxy/list?sub_srv_id=tech&srv_id=pc&offset=0&limit=10&strategy=1&ext={%22pool%22:[%22high%22,%22top%22],%22is_filter%22:10,%22check_type%22:true}"

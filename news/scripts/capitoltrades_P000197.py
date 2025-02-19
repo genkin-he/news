@@ -29,7 +29,7 @@ base_url = "https://www.capitoltrades.com/"
 filename = "./news/data/capitoltrades/P000197.json"
 util = SpiderUtil()
 def get_detail(link):
-    print("capitoltrades P000197: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     resp = response.read().decode("utf-8")
@@ -67,7 +67,7 @@ def run():
             if index < 3:
                 link = base_url + result[index]
                 if link in ",".join(links):
-                    print("capitoltrades P000197 exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 detail = get_detail(link)
                 title = detail[0]
@@ -91,12 +91,12 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("capitoltrades P000197 request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 try:
     # run()
-    print("屏蔽 stop capitoltrades P000197")
+    util.info("屏蔽 stop capitoltrades P000197")
 except Exception as e:
     traceback.print_exc()
-    util.log_action_error(f"capitoltrades P000197 exec error: {repr(e)}\n")
+    util.log_action_error(f"exec error: {repr(e)}\n")

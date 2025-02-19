@@ -31,7 +31,7 @@ def run():
         html = json.loads(body)["html"]
         uuids = re.findall(r'data-uuid="([^"]+)"', html)
         uuids = list(set(uuids))
-        print("yahoo sg uuids:", uuids)
+        util.info("uuids: {}".format(uuids))
         # request中放入参数，请求头信息
         detail_request = urllib.request.Request(
             "https://sg.news.yahoo.com/caas/content/article/?uuid={}".format(','.join(uuids)), None, headers
@@ -49,7 +49,7 @@ def run():
                 author = post["data"]["partnerData"]["publisher"]
                 pub_date = util.parse_time(post["data"]["partnerData"]["publishDate"], "%a, %d %b %Y %H:%M:%S %Z")
                 if link in ",".join(links):
-                    print("yahoo sg exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = post["markup"]
                 if description != "":
@@ -75,9 +75,9 @@ def run():
                     articles = articles[:10]
                 util.write_json_to_file(articles, filename)
         else:
-            print("yahoo sg request error: ", response)
+            util.error("request error: {}".format(response))
     else:
-        util.log_action_error("yahoo sg request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

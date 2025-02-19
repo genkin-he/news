@@ -31,7 +31,7 @@ post_count = 0
 util = SpiderUtil()
 
 def get_detail(link):
-    print("simplywall link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -48,7 +48,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("simplywall request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 def run():
@@ -71,10 +71,9 @@ def run():
             if post_count >= 10:
                 break
             link = str(node.select_one("article > div:first-child > a")["href"].strip())
-            print("simplywall link: ", link)
             image = str(node.select_one("article > div:first-child img")["src"].strip())
             if link in ",".join(links):
-                print("simplywall exists link: ", link)
+                util.info("exists link: {}".format(link))
                 continue
             title = str(node.select_one("article > div:nth-of-type(2) h2").text.strip())
             post_count = post_count + 1
@@ -99,7 +98,7 @@ def run():
                 articles = articles[:20]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("simplywall request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

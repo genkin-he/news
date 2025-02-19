@@ -29,12 +29,12 @@ filename = "./news/data/coinlive/articles.json"
 util = SpiderUtil()
 
 def get_detail(link):
-    print("coinlive_articles detail link: ", link)
+    util.info("link: {}".format(link))
     response = requests.get(link, headers=headers)
     if response.status_code == 200:
         resp = response.text
         lxml = BeautifulSoup(resp, "lxml")
-        detail = lxml.select_one("[class^=detail_html]")  # 修正选择器语法错误
+        detail = lxml.select_one("[class^=detail_html]")
         soup = detail.select_one("[class^=share__]")
 
         ad_elements = soup.select("[class^=share_container], [class^=ad_wrap]")
@@ -44,7 +44,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("coinlive_articles request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 def run():
@@ -78,7 +78,7 @@ def run():
                 image = post["cover_img"]
                 pub_date = util.convert_utc_to_local(post["published_at"])
                 if link in ",".join(links):
-                    print("coinlive_articles exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(link)
                 if description:
@@ -103,7 +103,7 @@ def run():
             util.write_json_to_file(articles, filename)
     else:
         util.log_action_error(
-            f"coinlive_articles request error: {response.status_code}"
+            f"request error: {response.status_code}"
         )
 
 

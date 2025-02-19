@@ -63,14 +63,14 @@ def parse_detail_id(link):
                     return result[0]
         return ""
     else:
-        print("hibor request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
 def get_detail(link, source):
     if link in current_links:
         return ""
-    print("hibor link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
     id = parse_detail_id(link)
     if id == "":
@@ -95,7 +95,7 @@ def get_detail(link, source):
         soup.append(new_tag)
         return str(soup)
     else:
-        print("hibor request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
     
 def run():
@@ -120,7 +120,7 @@ def run():
                 break
             link = base_url + str(node.select("td:nth-child(2) > a")[0]["href"])
             if link in ",".join(links):
-                print("hibor exists link: ", link)
+                util.info("hibor exists link: ", link)
                 break
             pub_date = str(node.select("td:nth-child(6)")[0].text)
             title = str(node.select("td:nth-child(2) > a")[0]["title"])[:-7]
@@ -151,7 +151,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("hibor request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

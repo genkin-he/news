@@ -33,7 +33,7 @@ util = SpiderUtil()
 def get_detail(id):
     if id in current_links:
         return ""
-    print("infoq id: ", id)
+    util.info("id: {}".format(id))
     current_links.append(id)
     data = {"uuid": id}
     request = urllib.request.Request(
@@ -110,13 +110,13 @@ def get_detail(id):
                                     list_item_content += f'<p>{paragraph_content}</p>'
                             article_body += f'<ul><li>{list_item_content}</li></ul>'
                 else:
-                    print("no this paragraph type", paragraph["type"])
+                    util.error("no this paragraph type {}".format(paragraph["type"]))
 
             if article_body != "":
                 article_body = "<div>{}</div>".format(article_body)
         return article_body
     else:
-        print("infoq request: {} error: ".format(id), response)
+        util.error("request: {} error: {}".format(id, response))
         return ""
 
 
@@ -152,7 +152,7 @@ def run():
                     _type = "news"
                 link = "https://www.infoq.cn/{}/{}".format(_type, id)
                 if link in ",".join(links):
-                    print("infoq exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 
                 pub_date = datetime.fromtimestamp(
@@ -181,7 +181,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("infoq request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

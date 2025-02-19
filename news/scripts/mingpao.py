@@ -32,13 +32,13 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("mingpao link: ", link)
+    util.info("link: {}".format(link))
     try:
-        response = requests.get(link, headers=headers)  # Changed to requests.get
-        if response.status_code == 200:  # Changed from status to status_code
+        response = requests.get(link, headers=headers)
+        if response.status_code == 200:
             body = BeautifulSoup(
                 response.text, "lxml"
-            )  # Changed from response.read().decode()
+            )
             soup = body.find(class_="article_content")
 
             # 移除 <p dir="ltr">
@@ -53,10 +53,10 @@ def get_detail(link):
             description = re.sub(r"\n\n+", "\n", str(soup).strip())
             return description
         else:
-            print("mingpao request: {} error: ".format(link), response.status_code)
+            util.error("request: {} error: {}".format(link, response.status_code))
             return ""
     except Exception as e:
-        print(f"mingpao request error: {str(e)}")
+        util.error("request error: {}".format(str(e)))
         return ""
 
 
@@ -67,9 +67,9 @@ def run():
     insert = False
 
     link = "https://news.mingpao.com/ins/%E5%8D%B3%E6%99%82%E6%96%B0%E8%81%9E/main#tabcontentnewslist2lat-tab"
-    response = requests.get(link, headers=headers)  # Changed to requests.get
-    if response.status_code == 200:  # Changed from status to status_code
-        body = response.text  # Changed from response.read().decode()
+    response = requests.get(link, headers=headers)
+    if response.status_code == 200:
+        body = response.text
         soup = BeautifulSoup(body, "lxml")
         items = soup.select(".contentwrapper")
         for index, node in enumerate(items):
@@ -81,7 +81,7 @@ def run():
             item = node.select_one("figure a")
             link = item["href"].strip()
             if link in ",".join(_links):
-                print("mingpao exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             title = item["title"].strip()
             description = get_detail(link)
@@ -105,7 +105,7 @@ def run():
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("mingpao request error: {}".format(response.status_code))
+        util.log_action_error("request error: {}".format(response.status_code))
 
 
 util.execute_with_timeout(run)

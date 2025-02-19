@@ -15,7 +15,7 @@ filename = "./news/data/hkej/dailynews.json"
 util = SpiderUtil()
 
 def get_detail(link):
-    print("hkej daily news: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
     body = (
@@ -51,7 +51,7 @@ def run():
                 item = result[index].split("'>")
                 link = base_url + item[0]
                 if link in ",".join(links):
-                    print("hkej daily news exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 title = item[1]
                 description = get_detail(link)
@@ -74,7 +74,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("hkej daily news request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

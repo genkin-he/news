@@ -41,7 +41,7 @@ util = SpiderUtil()
 def get_detail(link):
     if link in current_links:
         return ""
-    print("etf link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
 
     try:
@@ -57,10 +57,10 @@ def get_detail(link):
                 element.decompose()
             return str(soup).strip()
         else:
-            print("etf request: {} error: ".format(link), response.status_code)
+            util.error("request: {} error: {}".format(link, response.status_code))
             return ""
     except Exception as e:
-        print(f"Error fetching detail for {link}: {str(e)}")
+        util.error(f"Error fetching detail for {link}: {str(e)}")
         return ""
 
 
@@ -85,7 +85,7 @@ def run(link):
                     link = "https://www.etf.com{}".format(link)
                 title = items[index].select(".image-card__title > a")[0].text.strip()
                 if link in ",".join(_links):
-                    print("etf link exist: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(link)
                 if description != "":
@@ -108,13 +108,13 @@ def run(link):
                     _articles = _articles[:10]
                 util.write_json_to_file(_articles, filename)
         else:
-            print("etf request error: ", response.status_code)
+            util.error("request error: {}".format(response.status_code))
     except Exception as e:
-        print(f"Error in run function: {str(e)}")
+        util.error(f"Error in run function: {str(e)}")
 
 
 try:
     run(base_url)
 except Exception as e:
-    print("etf exec error: ", repr(e))
+    util.error("exec error: {}".format(repr(e)))
     traceback.print_exc()

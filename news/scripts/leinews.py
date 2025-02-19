@@ -16,7 +16,7 @@ filename = "./news/data/leinews/list.json"
 util = SpiderUtil()
 
 def get_detail(id):
-    print("leinews news: ", id)
+    util.info("link: {}".format(id))
     data = {
         "flag": 1720686920447,
         "MethodName": "YiAPP.APP.SHOP%7CYiAPP.APP.SHOP.uNews.PC_GetNewsInfo",
@@ -71,7 +71,7 @@ def run():
                 id = result[index]["NewsCode"]
                 link = "https://www.leinews.com/n{}/detail.html".format(id)
                 if link in ",".join(links):
-                    print("leinews news exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 title = result[index]["NewsTitle"]
                 image = result[index]["NewsImage"]
@@ -98,6 +98,6 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("leinews news request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 util.execute_with_timeout(run)

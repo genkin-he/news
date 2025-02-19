@@ -33,7 +33,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("cabotwealth link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -47,7 +47,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("cabotwealth request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -71,7 +71,7 @@ def run():
                 break
             link = str(node.select(".PagePromo-title > a")[0]["href"].strip())
             if link in ",".join(links):
-                print("cabotwealth exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             title = str(node.select(".PagePromo-title > a")[0].text.strip())
             image = str(node.select(".PagePromo-media img")[0]["src"].strip())
@@ -97,7 +97,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("cabotwealth request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run)

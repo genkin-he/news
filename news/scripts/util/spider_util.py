@@ -5,76 +5,25 @@ import os
 import threading
 import time
 import traceback
-import sqlite3
-from contextlib import contextmanager
 import random
 from typing import Dict, Optional
 
-
 class SpiderUtil:
     def __init__(self):
+        # 打印调用栈信息
+        stack = traceback.extract_stack()
+        # 获取倒数第二个调用（即调用 SpiderUtil() 的地方）
+        filename = os.path.basename(stack[-2].filename)
+        # 获取文件名，不要后缀
+        self.current_file = filename.split(".")[0]
         self.path = "./news/scripts/util/urls.json"
-        self.db_path = './news/db/articles.db'
        
-    @contextmanager
-    def _get_db_connection(self):
-        """获取数据库连接的上下文管理器"""
-        conn = sqlite3.connect(self.db_path)
-        try:
-            yield conn
-        except Exception as e:
-            print(f"Database error: {e}")
-            raise
-        finally:
-            conn.close()
+    # 打印日志
+    def info(self, message):
+        print(f"[\033[32m{self.current_file}\033[0m] {message}")
 
-    def _init_db(self):
-        """初始化数据库表结构"""
-        with self._get_db_connection() as conn:
-            cursor = conn.cursor()
-            cursor.execute('''
-                CREATE TABLE IF NOT EXISTS articles (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    title TEXT,
-                    link TEXT UNIQUE,
-                    description TEXT,
-                    source TEXT,
-                    pub_date VARCHAR(20),
-                    image TEXT,
-                    kind INTEGER,
-                    language VARCHAR(20),
-                    md5 VARCHAR(40) UNIQUE
-                )
-            ''')
-            # 创建唯一索引
-            cursor.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_md5 ON articles (md5)')
-            conn.commit()
-
-    def _insert_articles(self, cursor, articles):
-        """批量插入文章到数据库"""
-        try:
-            # 准备批量插入的数据
-            data = [(
-                article.get('title', ''),
-                article.get('link', ''),
-                article.get('description', ''),
-                article.get('source', ''),
-                article.get('pub_date', ''),
-                article.get('image', ''),
-                article.get('kind', 1),
-                article.get('language', 'zh-CN'),
-                self.md5(article["link"])
-            ) for article in articles]
-
-            # 执行批量插入
-            cursor.executemany('''
-                INSERT OR IGNORE INTO articles 
-                (title, link, description, source, pub_date, image, kind, language, md5)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', data)
-            return True
-        except sqlite3.IntegrityError:
-            return False
+    def error(self, message):
+        print(f"[\033[31m{self.current_file}\033[0m] {message}")
 
     def history_posts(self, filepath):
         """
@@ -185,11 +134,11 @@ class SpiderUtil:
                 file.write(data)
         except Exception as e:
             # 捕获异常并打印错误信息
-            print(f"写入临时文件过程中发生错误: {str(e)}")
+            self.error(f"写入临时文件过程中发生错误: {str(e)}")
 
     def log_action_error(self, error_message, notify=True):
         # 打印错误信息
-        print(error_message)
+        self.error(error_message)
         # 将错误信息追加到临时文件中
         if notify:
             # 定义临时文件路径
@@ -266,7 +215,7 @@ class SpiderUtil:
         if thread.is_alive():
             return None
         if thread.execution_time > 2:
-            print(f"Function #{filename}#{lineno} executed in {thread.execution_time:.3f} seconds.")
+            self.info(f"Function #{filename}#{lineno} executed in {thread.execution_time:.3f} seconds.")
         return None
 
     def write_json_to_file(self, data, filename):
@@ -287,17 +236,17 @@ class SpiderUtil:
             # 写入 JSON 文件
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump({"data": data}, f, ensure_ascii=False, indent=4)
-                print(f"JSON data has been written to {filename} successfully.")
+                self.info(f"JSON data has been written to {filename} successfully.")
             
             # # 写入数据库
             # with self._get_db_connection() as conn:
             #     cursor = conn.cursor()
             #     self._insert_articles(cursor, data)
             #     conn.commit()
-            #     print(f"{filename} inserted to db successfully.")
+            #     self.info(f"{filename} inserted to db successfully.")
             
         except Exception as e:
-            print(f"Error writing data: {e}")
+            self.info(f"Error writing data: {e}")
             # 记录详细错误日志
             self.log_action_error(f"Error in write_json_to_file: {str(e)}", notify=True)
 
@@ -351,7 +300,7 @@ class SpiderUtil:
                 with open('./news/scripts/util/proxy_pool.json', 'r') as f:
                     self._proxy_pools = json.load(f)
             except Exception as e:
-                print(f"加载代理池失败: {str(e)}")
+                self.info(f"加载代理池失败: {str(e)}")
                 self._proxy_pools = []
         return self._proxy_pools
 
@@ -360,9 +309,9 @@ class SpiderUtil:
         try:
             region_proxies = [proxy for proxy in self.proxy_pools if proxy.get("region") == region]
             if not region_proxies:
-                print(f"没有找到 {region} 地区的代理")
+                self.info(f"没有找到 {region} 地区的代理")
                 return None
             return random.choice(region_proxies)
         except Exception as e:
-            print(f"获取随机代理时发生错误: {str(e)}")
+            self.info(f"获取随机代理时发生错误: {str(e)}")
             return None

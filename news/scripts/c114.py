@@ -32,7 +32,7 @@ post_count = 0
 util = SpiderUtil()
 
 def get_detail(link):
-    print("c114 link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(link, headers=headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -47,7 +47,7 @@ def get_detail(link):
 
         return str(soup).strip()
     else:
-        print("c114 request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -71,7 +71,7 @@ def run():
                 break
             link = str(node.select("h6 > a")[0]["href"].strip())
             if link in ",".join(links):
-                print("c114 exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             title = str(node.select("h6 > a")[0].text.strip())
             post_count = post_count + 1
@@ -95,6 +95,6 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("c114 request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 util.execute_with_timeout(run)

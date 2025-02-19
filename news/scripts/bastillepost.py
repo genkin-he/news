@@ -32,7 +32,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("bastillepost link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(quote(link, safe="/:"), None, headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -46,7 +46,7 @@ def get_detail(link):
             element.decompose()
         return str(soup).strip()
     else:
-        print("bastillepost request: {} error: ".format(link), response)
+        util.error("request: {} error: ".format(link), response)
         return ""
 
 
@@ -72,7 +72,7 @@ def run(link):
             link = base_url + node["href"].strip()
             title = node.select_one(".bppost-title").text.strip()
             if link in ",".join(_links):
-                print("bastillepost exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             image = node.select_one(".bppost-item-cover-container > img")["src"].strip()
             description = get_detail(link)
@@ -97,7 +97,7 @@ def run(link):
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("bastillepost request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 link1 = "https://www.bastillepost.com/hongkong/category/5-%e9%8c%a2%e8%b2%a1%e4%ba%8b"

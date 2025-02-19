@@ -34,7 +34,7 @@ util = SpiderUtil()
 def get_detail(link):
     if link in current_links:
         return ""
-    print("statementdog link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
     try:
         response = requests.get(link, headers=headers, timeout=5)
@@ -48,10 +48,10 @@ def get_detail(link):
                 element.decompose()
             return str(soup).strip()
         else:
-            print("statementdog request: {} error: ".format(link), response.status_code)
+            util.error("request: {} error: {}".format(link, response.status_code))
             return ""
     except Exception as e:
-        print("statementdog request exception:", str(e))
+        util.error("request exception: {}".format(str(e)))
         return ""
 
 
@@ -74,7 +74,7 @@ def run():
                 link = items[index]["href"].strip()
                 title = items[index]["data-title"].strip()
                 if link in ",".join(_links):
-                    print("statementdog exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(link)
                 if description != "":
@@ -98,10 +98,10 @@ def run():
                 util.write_json_to_file(_articles, filename)
         else:
             util.log_action_error(
-                "statementdog request error: {}".format(response.status_code)
+                "request error: {}".format(response.status_code)
             )
     except Exception as e:
-        util.log_action_error("statementdog request exception: {}".format(str(e)))
+        util.log_action_error("request exception: {}".format(str(e)))
 
 
 util.execute_with_timeout(run, notify=False)

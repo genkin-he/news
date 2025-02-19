@@ -38,7 +38,7 @@ util = SpiderUtil()
 
 
 def get_detail(link):
-    print("gurufocus link: ", link)
+    util.info("link: {}".format(link))
     request = urllib.request.Request(quote(link, safe="/:"), None, headers)
     response = urllib.request.urlopen(request)
     if response.status == 200:
@@ -46,8 +46,8 @@ def get_detail(link):
         body = BeautifulSoup(resp, "lxml")
         soup = body.find(class_="main-body")
         if soup is None:
-            print(
-                f"gurufocus Error: 'main-body' class not found in the response. Link: {link}"
+            util.error(
+                f"Error: 'main-body' class not found in the response. Link: {link}"
             )
             return ""
 
@@ -57,7 +57,7 @@ def get_detail(link):
             element.decompose()
         return str(soup).strip()
     else:
-        print("gurufocus request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 
@@ -82,7 +82,7 @@ def run(link):
 
             link = base_url + node["href"].strip()
             if link in ",".join(_links):
-                print("gurufocus exists link: ", link)
+                util.info("exists link: {}".format(link))
                 break
             if node.select_one(".title-section"):
                 title = node.select_one(".title-section").text.strip()
@@ -109,7 +109,7 @@ def run(link):
                 _articles = _articles[:10]
             util.write_json_to_file(_articles, filename)
     else:
-        util.log_action_error("gurufocus request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 util.execute_with_timeout(run, "https://www.gurufocus.com/latest-news/all/all")

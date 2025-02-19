@@ -48,7 +48,7 @@ def run():
                 description = post["brief"].strip()
                 pub_date = util.convert_utc_to_local(post["published_at"])
                 if link in ",".join(links):
-                    print("coinlive exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 if description:
                     insert = True
@@ -70,7 +70,7 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error(f"coinlive request error: {response.status_code}")
+        util.log_action_error(f"request error: {response.status_code}")
 
 
 util.execute_with_timeout(run)

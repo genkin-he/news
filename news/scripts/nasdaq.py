@@ -34,7 +34,7 @@ util = SpiderUtil()
 def get_detail(link):
     if link in current_links:
         return ""
-    print("nasdaq link: ", link)
+    util.info("link: {}".format(link))
     current_links.append(link)
     request = urllib.request.Request(link, None, headers)
     response = urllib.request.urlopen(request)
@@ -54,7 +54,7 @@ def get_detail(link):
             element.decompose()
         return str(soup)
     else:
-        print("nasdaq request: {} error: ".format(link), response)
+        util.error("request: {} error: {}".format(link, response))
         return ""
 
 def run():
@@ -79,7 +79,7 @@ def run():
                 author = post["publisher"]
                 link = base_url + post["url"]
                 if link in ",".join(links):
-                    print("nasdaq exists link: ", link)
+                    util.info("exists link: {}".format(link))
                     break
                 description = get_detail(link)
                 if description != "":
@@ -103,11 +103,11 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("nasdaq request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response))
 
 
 # try:
 #     run()
 # except Exception as e:
-#     print("nasdaq exec error: ", e)
+#     util.info("nasdaq exec error: {}".format(e))
 #     logging.exception(e)
