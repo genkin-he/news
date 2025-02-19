@@ -1,8 +1,41 @@
 {
-    "items": "43",
+    "items": "40",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Humane's AI Pin, Dubbed As Potential 'iPhone Killer' Dies This Month As Company Sells To HP For $116 Million Amid Poor Sales And Scathing Reviews - HP  ( NYSE:HPQ ) ",
+            "url": "https://www.benzinga.com/tech/25/02/43803887/humanes-ai-pin-dubbed-as-potential-iphone-killer-dies-this-month-as-company-sells-to-hp-for-116-million-amid",
+            "time_published": "20250219T041439",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Humane Inc. has decided to discontinue its AI Pin and sell its assets to HP Inc. HPQ for $116 million. The AI Pin will cease to connect to Humane's servers after 3 PM ET on Feb. 28.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/Humane-AI-pin.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.004921,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.198221",
+                    "ticker_sentiment_score": "0.150447",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Indian Authorities Seize $190 Million Tied to BitConnect Crypto Scam",
             "url": "https://decrypt.co/306617/indian-authorities-seize-190-million-bitconnect-crypto-scam",
@@ -43,6 +76,63 @@
             ]
         },
         {
+            "title": "In Saudi Arabia, China pushes for a new global financial consensus",
+            "url": "https://www.scmp.com/economy/china-economy/article/3299242/saudi-arabia-pboc-governor-pushes-new-global-financial-consensus",
+            "time_published": "20250219T033602",
+            "authors": [
+                "Mia Nulimaimaiti"
+            ],
+            "summary": "China's central bank governor has offered to deepen financial ties with emerging economies and help them gain a greater voice in the IMF.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/19/c1556b1d-c1df-4db4-88e3-9a54eb0d495c_d9547963.jpg?itok=rApyLLBe&v=1739936162",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.983605"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.451494"
+                }
+            ],
+            "overall_sentiment_score": 0.181496,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BACHY",
+                    "relevance_score": "0.056674",
+                    "ticker_sentiment_score": "0.245345",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:CNY",
+                    "relevance_score": "0.168884",
+                    "ticker_sentiment_score": "0.112993",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.168884",
+                    "ticker_sentiment_score": "0.115756",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Peter Schiff Warns S&P 500's Rally Is An Illusion, Down 57% When Measured In 'Real Money' - SPDR S&P 500  ( ARCA:SPY ) ",
             "url": "https://www.benzinga.com/markets/commodities/25/02/43803125/gold-crushes-sp-500-gains-in-25-years-as-stock-market-rally-masks-real-decline-peter-schiff-w",
             "time_published": "20250219T033449",
@@ -67,6 +157,81 @@
             "overall_sentiment_score": 0.248867,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "SSR Mining  ( SSRM )  Q4 2024 Earnings Call Transcript",
+            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/18/ssr-mining-ssrm-q4-2024-earnings-call-transcript/",
+            "time_published": "20250219T033012",
+            "authors": [
+                "Motley Fool Transcribing"
+            ],
+            "summary": "SSRM earnings call for the period ending December 31, 2024.",
+            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.270913,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SLVMF",
+                    "relevance_score": "0.008632",
+                    "ticker_sentiment_score": "0.179352",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.008632",
+                    "ticker_sentiment_score": "0.222545",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SSRM",
+                    "relevance_score": "0.008632",
+                    "ticker_sentiment_score": "0.13301",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BNS",
+                    "relevance_score": "0.008632",
+                    "ticker_sentiment_score": "0.116195",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MALRF",
+                    "relevance_score": "0.008632",
+                    "ticker_sentiment_score": "0.162802",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NEM",
+                    "relevance_score": "0.017263",
+                    "ticker_sentiment_score": "0.080202",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "Howard Hughes Confirms Receipt of Revised Unsolicited Proposal from Pershing Square",
@@ -1619,198 +1784,6 @@
             ],
             "overall_sentiment_score": 0.069739,
             "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "ROSEN, A LEADING LAW FIRM, Encourages Mullen Automotive, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - MULN - Mullen Automotive  ( NASDAQ:MULN ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43801896/rosen-a-leading-law-firm-encourages-mullen-automotive-inc-investors-to-secure-counsel-before-impor",
-            "time_published": "20250219T003500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, announces the filing of a class action lawsuit on behalf of purchasers of securities of Mullen Automotive, Inc. MULN between February 3, 2023 and March 13, 2024, both dates inclusive ( the ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.103436,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.055492",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MULN",
-                    "relevance_score": "0.110717",
-                    "ticker_sentiment_score": "0.013617",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "DBS, HSBC have best-performing mobile banking apps in Asia: report",
-            "url": "https://www.scmp.com/business/banking-finance/article/3299126/dbs-hsbc-have-best-performing-mobile-banking-apps-asia-according-new-report",
-            "time_published": "20250219T003008",
-            "authors": [
-                "Enoch Yiu"
-            ],
-            "summary": "Two digital lenders, Hong Kong's Mox Bank and Trust Bank Singapore, tied for fourth in Asia.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/18/81fc3963-a1f9-46e6-9c85-84e4aad42af2_4969aea1.jpg?itok=mtEX_7jc&v=1739862257",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.164228,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BKEAF",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.158916",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MITSF",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.085086",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SSUMF",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.085086",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MSBHF",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.085086",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HSBC",
-                    "relevance_score": "0.193207",
-                    "ticker_sentiment_score": "0.074933",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MUFG",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.085086",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Toll Brothers  ( TOL )  Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
-            "url": "https://www.zacks.com/stock/news/2417637/toll-brothers-tol-q1-earnings-taking-a-look-at-key-metrics-versus-estimates",
-            "time_published": "20250219T003005",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Although the revenue and EPS for Toll Brothers (TOL) give a sense of how its business performed in the quarter ended January 2025, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.247144,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Compared to Estimates, Occidental  ( OXY )  Q4 Earnings: A Look at Key Metrics",
-            "url": "https://www.zacks.com/stock/news/2417635/compared-to-estimates-occidental-oxy-q4-earnings-a-look-at-key-metrics",
-            "time_published": "20250219T003005",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Although the revenue and EPS for Occidental (OXY) give a sense of how its business performed in the quarter ended December 2024, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.247144,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "TPG RE Finance Trust  ( TRTX )  Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
-            "url": "https://www.zacks.com/stock/news/2417636/tpg-re-finance-trust-trtx-q4-earnings-taking-a-look-at-key-metrics-versus-estimates",
-            "time_published": "20250219T003005",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Although the revenue and EPS for TPG RE Finance Trust (TRTX) give a sense of how its business performed in the quarter ended December 2024, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.247144,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Compared to Estimates, Flowserve  ( FLS )  Q4 Earnings: A Look at Key Metrics",
-            "url": "https://www.zacks.com/stock/news/2417638/compared-to-estimates-flowserve-fls-q4-earnings-a-look-at-key-metrics",
-            "time_published": "20250219T003004",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "While the top- and bottom-line numbers for Flowserve (FLS) give a sense of how the business performed in the quarter ended December 2024, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago values.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.247144,
-            "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
         }
     ]
