@@ -120,7 +120,7 @@ def run():
                 break
             link = base_url + str(node.select("td:nth-child(2) > a")[0]["href"])
             if link in ",".join(links):
-                util.info("hibor exists link: ", link)
+                util.info("hibor exists link: {}".format(link))
                 break
             pub_date = str(node.select("td:nth-child(6)")[0].text)
             title = str(node.select("td:nth-child(2) > a")[0]["title"])[:-7]
