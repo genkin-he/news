@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "id": 3741396,
+            "title": "中国大模型“卷技术”！DeepSeek前脚发布NSA，Kimi立刻跟进MoBA",
+            "description": "<p>周二，当全球目光聚焦于马斯克Grok-3的庞大GPU集群时，中国大模型公司正在技术创新的道路上默默加速。</p>\n<p>先是<a href=\"https://wallstreetcn.com/articles/3741361\" target=\"_blank\" rel=\"noopener\">DeepSeek提出了原生稀疏注意力</a>（Native Sparse Attention, NSA）机制。这项梁文锋亲自参与的研究成果，结合了算法创新和硬件优化，旨在解决长上下文建模中的计算瓶颈。</p>\n<p><strong>NSA不仅能将大语言模型处理64k长文本的速度最高提升11.6倍，更在通用基准测试中实现了对传统全注意力模型的性能反超。</strong>这一突破表明，通过算法和硬件层面的协同创新，可以在不牺牲模型性能的前提下，显著提升长文本处理效率。</p>\n<p>紧随DeepSeek的步伐，Kimi也迅速推出了自家的稀疏注意力技术——MoBA（Mixture of Block Attention）。</p>\n<p>据这份由月之暗面、清华大学和浙江大学的研究人员共同发布的技术报告《MOBA: MIXTURE OF BLOCK ATTENTION FOR LONG-CONTEXT LLMS》，MoBA的设计理念是将全上下文划分为多个块，每个查询令牌（query token）学习关注最相关的键值（KV）块，从而实现对长序列的高效处理。</p>\n<p>与DeepSeek创始人梁文锋参与著作一样，月之暗面创始人杨植麟的名字也出现这篇论文的作者栏里。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/fd4b21af-5b97-4888-a3ea-ed61232b4476.png\" data-wscntype=\"image\" data-wscnh=\"635\" data-wscnw=\"719\" /></p>\n<p>据论文介绍，在各种长文本处理任务中，采用MoBA技术的模型可以在保持相近性能的同时，将注意力计算的时间和内存消耗显著降低。<strong>在1M token的测试中，MoBA比全注意力快了6.5倍，在处理超长文本（如1000万token）时，MoBA的优势更加明显，可以实现16倍以上的加速。</strong></p>\n<p><strong>MoBA已经部署于支持Kimi的长上下文请求处理，并在大语言模型的高效注意力计算方面取得了显著进展。更值得一提的是，MoBA可以轻松地集成到现有的 LLMs 中，而无需进行大量的训练。</strong></p>\n<h2><strong>MoBA</strong><strong>：基于块的稀疏注意力</strong></h2>\n<p>为了实现人工通用智能（AGI），LLMs需要能够处理长文本序列，这对于历史数据分析、复杂推理和决策等任务至关重要。</p>\n<p>而传统的自注意力机制计算复杂度呈二次增长，限制了LLMs处理长文本的能力。现有的解决方案要么引入了强偏见的结构（如滑动窗口注意力），要么对注意力机制进行了线性近似，这些方法在复杂推理任务中的表现尚未得到充分验证。</p>\n<p>MOBA技术的核心思想是将传统Transformer模型中的全局注意力机制改造为基于块的稀疏注意力。具体来说，MOBA将输入序列划分为多个块，然后对每个查询token动态选择最相关的几个块进行注意力计算，而不是像传统方法那样对所有token都进行计算。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/3e46919e-449d-495c-be65-3c6e2928dd9a.png\" data-wscntype=\"image\" data-wscnh=\"446\" data-wscnw=\"825\" /></p>\n<p>这种方法既保留了原始Transformer的强大表达能力，又显著降低了计算复杂度，特别适合处理超长文本输入。</p>\n<p><strong>MoBA的核心创新点包括：</strong></p>\n<blockquote>\n<p>可训练的块稀疏注意力： 全上下文被划分为多个块，每个查询令牌学习关注最相关的KV块，实现长序列的高效处理。</p>\n<p>无参数门控机制： 引入了一种新颖的无参数top-k门控机制，为每个查询令牌选择最相关的块，确保模型只关注信息量最大的部分。</p>\n<p>全注意力和稀疏注意力之间的无缝切换： MoBA被设计为全注意力的灵活替代品，允许在全注意力和稀疏注意力模式之间无缝切换。</p>\n</blockquote>\n<h2>在处理超长文本时，MoBA可以实现16倍以上的加速</h2>\n<p>在各种长文本处理任务中，采用MoBA技术的模型可以在保持相近性能的同时，将注意力计算的时间和内存消耗显著降低。在1M token的测试中，MoBA比全注意力快了6.5倍，在处理超长文本（如1000万token）时，MoBA的优势更加明显，可以实现16倍以上的加速。</p>\n<p>Kimi 团队在多个方面对 MoBA 进行了实验验证：</p>\n<blockquote>\n<p><strong>缩放定律实验（Scaling Law Experiments）</strong>： 实验表明，尽管 MoBA 的注意力模式稀疏度高达 81.25%，但其在语言模型损失方面的表现与全注意力相当。</p>\n<p><strong>长文本缩放能力（Long Context Scalability）</strong>： 通过增加序列长度到 32K，MoBA 的稀疏度进一步提高到 95.31%。实验表明，MoBA 在处理长文本时，其性能与全注意力之间的差距逐渐缩小。</p>\n<p><strong>细粒度块分割消融研究（Ablation Study on Fine-Grained Block Segmentation）</strong>： 实验表明，更细粒度的块分割可以进一步提高 MoBA 的性能。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/c813ddd4-13f1-458d-9758-12b62aa6c768.png\" data-wscntype=\"image\" data-wscnh=\"422\" data-wscnw=\"561\" /></p>\n<p><strong>MoBA 与全注意力的混合训练（Hybrid of MoBA and Full Attention）</strong>： 实验表明，通过混合使用 MoBA 和全注意力进行训练，可以在训练效率和模型性能之间取得平衡。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/c844168f-212a-45b3-bf20-5d9ee2899c3b.png\" data-wscntype=\"image\" data-wscnh=\"465\" data-wscnw=\"1267\" /></p>\n<p><strong>大型语言模型评估（Large Language Modeling Evaluation）</strong>： 在多个真实世界的下游任务中，MoBA 的表现与全注意力模型相当，甚至在某些任务上略有优势。</p>\n<p><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/53aeda81-8efd-408e-a56b-98009084c224.png\" data-wscntype=\"image\" data-wscnh=\"555\" data-wscnw=\"1198\" /></p>\n<p><strong>效率和可扩展性（Efficiency and Scalability）</strong>： 实验表明，MoBA 在处理长序列时比全注意力更高效，计算复杂度为亚平方级。在1M token的测试中，MoBA比全注意力快了6.5倍，在处理 1000 万 token 的序列时，MoBA 的注意力计算时间减少了 16 倍。</p>\n</blockquote><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
+            "image": "https://wpimg-wscn.awtmt.com/6a52a6b7-e356-436d-9939-d8f34ff949a7.png",
+            "link": "https://wallstreetcn.com/articles/3741396",
+            "author": "叶桢",
+            "pub_date": "2025-02-19 11:21:13",
+            "source": "wallstreetcn",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": 3741395,
             "title": "全球买股票！机构风险偏好过去15年都没这么高",
             "description": "<p data-start=\"0\" data-end=\"34\">“投资者现在是‘多仓股票，空仓其他一切’”。</p>\n<p data-start=\"0\" data-end=\"34\">近日，美国银行调查显示，<strong data-start=\"0\" data-end=\"34\">当前，股票已经成为全球投资者最喜欢的资产类别，投资者的风险偏好已经达到了2010年以来的最高水平。</strong></p>\n<p data-start=\"36\" data-end=\"91\">调查显示，<strong>基金经理的现金水平已经降至十五年以来的最低点，34%的参与者预计，全球股市将在2025年成为表现最好的资产</strong>，11%的参与者表示他们持有债券的仓位不足。</p>\n<p data-start=\"36\" data-end=\"91\"><img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/f140d0d8-cc26-41ef-8ff8-c140f2da2a8e.png\" data-wscntype=\"image\" data-wscnh=\"480\" data-wscnw=\"1048\" /></p>\n<p data-start=\"260\" data-end=\"349\">美国银行策略师Michael Hartnett在一份报告中写道：</p>\n<blockquote>\n<p data-start=\"260\" data-end=\"349\">“投资者现在是‘多仓股票，空仓其他一切’，这种乐观情绪背后是对今年强劲经济增长和美国利率下调的预期。”</p>\n</blockquote>\n<p data-start=\"351\" data-end=\"596\">自2022年底以来，受AI快速发展以及美国避免了经济衰退的乐观情绪推动，全球股票已经上涨超过了60%。</p>\n<p data-start=\"351\" data-end=\"596\">不过，分析师指出，这一上涨主要由美国科技股带动，但投资者现在正在涌向更便宜的欧洲股票，预计欧洲斯托克指数将在今年跑赢美国纳斯达克100指数。</p>\n<p data-start=\"351\" data-end=\"596\">此外，调查还显示，<strong>投资者对全球经济衰退的预期降至三年来的最低点，而约77%的基金经理预计美联储将在2025年降息。</strong></p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
@@ -224,18 +236,6 @@
             "link": "https://wallstreetcn.com/articles/3741375",
             "author": "张茜",
             "pub_date": "2025-02-19 04:21:30",
-            "source": "wallstreetcn",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": 3741374,
-            "title": "英特尔涨超14%，媒体报道称，Silver Lake接近达成协议，将持有英特尔旗下可编程芯片部门Altera的多数股权。还有媒体报道称，英特尔或被拆分，台积电、博通考虑接手。 ",
-            "description": "<p>英特尔涨超14%，媒体报道称，Silver Lake接近达成协议，将持有英特尔旗下可编程芯片部门Altera的多数股权。还有媒体报道称，英特尔或被拆分，台积电、博通考虑接手。 </p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
-            "image": "https://wpimg-wscn.awtmt.com/d0/24/94/-1-2-.png",
-            "link": "https://wallstreetcn.com/articles/3741374",
-            "author": "罗俊",
-            "pub_date": "2025-02-19 04:11:44",
             "source": "wallstreetcn",
             "kind": 1,
             "language": "zh-CN"
