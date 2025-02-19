@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 744881,
+            "title": "Maestro, a DeFi infrastructure service provider on the Bitcoin chain, completes $3 million in seed round financing, led by Draper Associates and others",
+            "description": "Odaily Planet Daily News: Maestro, an enterprise-level DeFi infrastructure service provider on the Bitcoin chain, announced the completion of a $3 million seed round of financing, led by Wave Digital Assets and Draper Associates, with participation from UTXO Management, Bitcoin Frontier Fund, Draper Dragon and Necto Labs. The new funds are intended to be used to build a decentralized financial ecosystem based on the Bitcoin blockchain, including developer tools and innovative solutions such as high-performance APIs and memory pool meta-protocol indexes. (globenewswire)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744881&language=en-US",
+            "pub_date": "2025-02-19 21:04:23",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 744880,
+            "title": "Vitalik: There is no such thing as ETH 3.0 now",
+            "description": "Odaily Planet Daily News Vitalik said that there is no such thing as ETH 3.0 now.\nSome people will say that Justin Drake's 5-year plan is, but that plan is only the consensus layer, not the execution layer, so it is only part of the future of the Ethereum blockchain\nThe relationship and balance between L1 and L2 is an execution layer issue. Here is another roadmap: strengthen the capabilities of L1 (increase gaslimit, add stateless verification (such as Verkle) and other functions, etc.), improve interoperability across L2, improve blobs, etc. The question of whether L2 pays enough transaction fees to L1 cannot be viewed too much from a short-term perspective. For example:\n* Before 4844, everyone's complaints were the opposite: Is L1 sucking the blood of L2?\n* Now, the blob fee in the last 30 days is 500 ETH;\n* If the blob target is increased from 3 to 128, according to our plan, if the blob gasprice is the same, it will burn 21333 ETH every month.\nSo the narrative here is prone to changing quickly, and now we need to strengthen L1 so that what should happen in L1 can happen in L1.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744880&language=en-US",
+            "pub_date": "2025-02-19 21:05:41",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 744879,
+            "title": "An investor suffered losses due to long positions in BTC and SOL tokens and has added 3.5 million USDC margin",
+            "description": "Odaily Planet Daily News: According to Lookonchain monitoring, an investor suffered losses of approximately US$9.85 million due to long positions in BTC, SOL and other tokens. After the market fell, he added another 3.5 million USDC margin in Hyperliquid today.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744879&language=en-US",
+            "pub_date": "2025-02-19 21:10:47",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 744874,
             "title": "Cardano Price To Rally 50% In Coming Weeks But Analysts Back AVAX and RTX For 100%+ Gains In March",
             "description": "The post Cardano Price To Rally 50% In Coming Weeks But Analysts Back AVAX and RTX For 100%+ Gains In March appeared first on Coinpedia Fintech News\nCardano price is showing potential for a big rise, with analysts predicting it could increase by 50% in the coming weeks. While Cardano price gains are exciting, other cryptocurrencies like AVAX and RTX are getting even more attention, with...\nsource: https://coinpedia.org/press-release/remittix-revolutionizing-global-money-transfers/",
@@ -66,36 +96,6 @@
             "description": "Odaily Planet Daily News Vitalik said: \"So far, our expansion method can be roughly understood as hybrid L1 + L2, but I think no one has clearly defined which transactions should be in L1 and which transactions should be in L2. The answer of \"everything is in L2\" is difficult to accept because: \n* This is easy to lose ETH's position as medium of exchange, store of value, etc. If you are worried that L2 will steal L1 users and not give L1 any rewards, this problem will be more serious in a situation where \"L1 does almost nothing\"; \n* Cross-L2 operations still require L1. If an L2 has a problem, users still need to have a way to move to another L2. So there are some use cases that are difficult to avoid L1. \nThe answer of \"everything is in L1\" is also difficult to accept because: \n* If L1 supports many transactions, it is easy to become centralized, even if ZK-EVM and other technologies are used; \n* The world's demand for transactions on the chain is unlimited. No matter how high the TPS of L1 is, you can always find an application that needs 10 times more TPS. \nL2 In addition to expansion, L2 can also provide faster confirmation speeds through \"preconfirmations\" and avoid MEV problems through \"sequencers\". So we need hybrid L1 + L2. I think the role of L2 will continue to change. For example, it seems that EVM compatibility with L2 is enough now. It is possible that we will see more privacy-oriented L2 (aztec, intmax, etc.), and there may be more application-specific L2 (if an application wants to control its own MEV situation, there are benefits here, etc.). So in the short term, I think we should continue to improve the capabilities of L1 at the same time, increase blobs to give L2 more space, promote interoperability across L2, and then the market will decide which expansion method is suitable for which application. \"",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744862&language=en-US",
             "pub_date": "2025-02-19 20:46:57",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 744861,
-            "title": "Vitalik: Centralized Sequencer actually has many advantages, but it cannot be relied upon to solve the problem",
-            "description": "Odaily Planet Daily News Vitalik Buterin said that centralized sequencers actually have many advantages: \n*Centralized sequencers can ensure that they will not steal users' money by frontrunning and other methods; \n*Instant preconfirmations; \n*It is easy to turn a traditional application into a blockchain application because the server directly becomes a sequencer. \nThe decentralized characteristics of blockchain can be used to avoid the risks of centralized sequencers: the forced inclusion mechanism does not allow the sequencer to censor users, and the optimistic or zk proof mechanism does not allow the sequencer to change or violate the rules of the application (for example, suddenly inflate a token or nft collection). \nHowever, centralized sequencers still have risks, so we cannot rely entirely on centralized sequencers to solve the problem. It is also important to have the ability to trade based on rollup or directly on L1. So I support the two-part ecosystem to promote these two methods at the same time, and then we can see which method is more suitable for which application. \nMaintaining the ability of ordinary users to issue censorship resistant transactions is of course critical.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744861&language=en-US",
-            "pub_date": "2025-02-19 20:50:43",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 744853,
-            "title": "Japan Strengthens Cryptocurrency And Stablecoin Regulatory Framework",
-            "description": "According to Odaily, Japan's Financial Services Agency has officially approved a report from the \"Working Group on Payment Settlement Systems\" during a meeting of the Financial System Council. The report aims to enhance the regulatory framework for cryptocurrencies and stablecoins. Key measures include improving user protection in the event of exchange bankruptcies, establishing a cryptocurrency brokerage industry, and adjusting reserve assets for stablecoins. The regulatory framework has been submitted to Finance Minister Katsunobu Kato, with plans to advance the legalization process.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744853&language=en-US",
-            "pub_date": "2025-02-19 20:33:33",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 744852,
-            "title": "Vitalik Buterin Discusses Ethereum's Dual Role and Decentralization",
-            "description": "According to Odaily, Ethereum co-founder Vitalik Buterin addressed the question of whether Ethereum should be more like Bitcoin or a world computer. He stated that both perspectives are compatible. Buterin suggested a simple test to determine if a blockchain is truly decentralized: if its foundation disappeared, could the chain survive? He believes only Bitcoin and Ethereum can confidently answer yes to this question. Most of Ethereum's development occurs outside its foundation, with independent client teams and researchers. This independence was not present five years ago. Buterin emphasized that sacrificing decentralization for higher transactions per second (TPS) is a mistake, as new chains with higher TPS can always emerge. Decentralization and resilience are valuable traits that few blockchains possess, benefiting both digital currency and the concept of a world computer. However, the world computer must address scalability issues. The term \"world computer\" does not imply supporting every global application simultaneously but rather enabling applications to interoperate.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=744852&language=en-US",
-            "pub_date": "2025-02-19 20:33:39",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
