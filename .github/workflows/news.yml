@@ -3,7 +3,8 @@ name: save news
 on:
   repository_dispatch:
     types: [run]
-
+  workflow_dispatch:
+  
 env:
   token: ${{ secrets.TOKEN }}
   feishu_webhook: ${{ secrets.Feishu_Webhook }}
