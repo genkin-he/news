@@ -1,8 +1,86 @@
 {
-    "items": "45",
+    "items": "43",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Howard Hughes Confirms Receipt of Revised Unsolicited Proposal from Pershing Square",
+            "url": "https://www.globenewswire.com/news-release/2025/02/19/3028437/0/en/Howard-Hughes-Confirms-Receipt-of-Revised-Unsolicited-Proposal-from-Pershing-Square.html",
+            "time_published": "20250219T032900",
+            "authors": [
+                "Howard Hughes Holdings Inc."
+            ],
+            "summary": "No Stockholder Action Required at this Time No Stockholder Action Required at this Time ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/022ada95-781b-42a8-a335-fa0eee30c2ab",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.326837,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HHH",
+                    "relevance_score": "0.716023",
+                    "ticker_sentiment_score": "0.495875",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.071145",
+                    "ticker_sentiment_score": "0.135832",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PSHZF",
+                    "relevance_score": "0.628066",
+                    "ticker_sentiment_score": "0.375239",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Mark Zuckerberg's Meta And Sam Altman's ChatGPT-Parent Bleed Talent To Ex-Open AI CTO Mira Murati's New AI Venture - Meta Platforms  ( NASDAQ:META ) ",
+            "url": "https://www.benzinga.com/tech/25/02/43803027/mark-zuckerbergs-meta-and-sam-altmans-chatgpt-parent-bleed-talent-to-ex-open-ai-cto-mira-muratis-new-ai-vent",
+            "time_published": "20250219T030424",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Mira Murati, the former CTO of OpenAI, has launched her own AI startup and has already recruited top researchers from ChatGPT-maker, Meta Platforms, Inc. META, and Mistral AI, a Paris-based startup.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/Sam-Altman-Mira-Murati.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.223153,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.204936",
+                    "ticker_sentiment_score": "0.171581",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "'Cardex' Game Exploit Drains Wallets on Ethereum Layer-2 Abstract",
             "url": "https://decrypt.co/306608/cardex-game-exploit-drains-abstract-wallets",
@@ -32,6 +110,100 @@
                     "ticker": "CRYPTO:ETH",
                     "relevance_score": "0.207571",
                     "ticker_sentiment_score": "0.008616",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Alibaba, Baidu slip as tech stocks falter in Hong Kong on technical hurdle",
+            "url": "https://www.scmp.com/business/china-business/article/3299232/hong-kong-stocks-slip-tech-rally-falters-amid-losses-alibaba-baidu",
+            "time_published": "20250219T024020",
+            "authors": [
+                "Zhang Shidong"
+            ],
+            "summary": "Technical indicators suggest the tech rally from a January low is overstretched and due for a near-term pullback.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/19/f35e92da-74eb-4de3-aa40-0544dfb2b948_af140465.jpg?itok=nfa6m8Ax&v=1739932817",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.184632,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.150592",
+                    "ticker_sentiment_score": "-0.398741",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.150592",
+                    "ticker_sentiment_score": "-0.420714",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "BIDU",
+                    "relevance_score": "0.295867",
+                    "ticker_sentiment_score": "-0.387018",
+                    "ticker_sentiment_label": "Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Rule Breaker Investing: Old, New, Borrowed & Blue, Vol. 9",
+            "url": "https://www.fool.com/investing/2025/02/18/rule-breaker-investing-old-new-borrowed-blue-vol-9/",
+            "time_published": "20250219T024000",
+            "authors": [
+                "Motley Fool Staff"
+            ],
+            "summary": "Some ideas stand the test of time. Others push us forward into an exciting, ever-changing future.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/807079/old-new-borrowed.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999974"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.233817,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SBUX",
+                    "relevance_score": "0.013662",
+                    "ticker_sentiment_score": "-0.031843",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SNBR",
+                    "relevance_score": "0.006831",
+                    "ticker_sentiment_score": "0.092273",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BLUMY",
+                    "relevance_score": "0.006831",
+                    "ticker_sentiment_score": "0.115391",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -808,6 +980,51 @@
             "overall_sentiment_score": 0.100816,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Restaurant Earnings Roundup: MCD, CAKE, TXRH",
+            "url": "https://www.zacks.com/stock/news/2417641/restaurant-earnings-roundup-mcd-cake-txrh",
+            "time_published": "20250219T011600",
+            "authors": [
+                "Derek Lewis"
+            ],
+            "summary": "We???ve got several well-known restaurant operators on the reporting docket this week, a list that includes Cheesecake Factory and Texas Roadhouse.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/2c/68763.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.905476"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.248356,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MDNDF",
+                    "relevance_score": "0.115787",
+                    "ticker_sentiment_score": "0.020244",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TXRH",
+                    "relevance_score": "0.389744",
+                    "ticker_sentiment_score": "0.299289",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CAKE",
+                    "relevance_score": "0.389744",
+                    "ticker_sentiment_score": "0.363892",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
         },
         {
             "title": "Compass  ( COMP )  Q4 2024 Earnings Call Transcript",
@@ -1588,385 +1805,6 @@
                     "ticker": "LRE",
                     "relevance_score": "0.264658",
                     "ticker_sentiment_score": "0.205882",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "CORRECTION - Sonoco Reports Fourth Quarter and Full Year 2024 Results",
-            "url": "https://www.globenewswire.com/news-release/2025/02/19/3028409/26553/en/CORRECTION-Sonoco-Reports-Fourth-Quarter-and-Full-Year-2024-Results.html",
-            "time_published": "20250219T002500",
-            "authors": [
-                "Sonoco Products Company"
-            ],
-            "summary": "Sonoco Reports Fourth Quarter and Full Year 2024 Results ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/f73aaeef-54c7-4840-ba7d-659e32c9abb9",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.857896"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.181159,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TONPF",
-                    "relevance_score": "0.008852",
-                    "ticker_sentiment_score": "0.094737",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SON",
-                    "relevance_score": "0.044239",
-                    "ticker_sentiment_score": "0.21568",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.008852",
-                    "ticker_sentiment_score": "0.094737",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Love, Money, and Stocks",
-            "url": "https://www.fool.com/investing/2025/02/18/love-money-and-stocks/",
-            "time_published": "20250219T002200",
-            "authors": [
-                "Motley Fool Staff"
-            ],
-            "summary": "In this podcast, Motley Fool host Dylan Lewis and analysts Jason Moser and Emily Flippen break down:Then Motley Fool host Alison Southwick and personal finance expert Robert Brokamp break down how to talk to your spouse about money and why \"money issues\" might really be the symptom of other ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807971/mfm-14.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.207872,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APP",
-                    "relevance_score": "0.027426",
-                    "ticker_sentiment_score": "0.055523",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.005486",
-                    "ticker_sentiment_score": "0.103171",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ROKU",
-                    "relevance_score": "0.027426",
-                    "ticker_sentiment_score": "0.045549",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SPOT",
-                    "relevance_score": "0.005486",
-                    "ticker_sentiment_score": "0.105527",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TTD",
-                    "relevance_score": "0.043868",
-                    "ticker_sentiment_score": "0.008943",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.010972",
-                    "ticker_sentiment_score": "0.05662",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BROS",
-                    "relevance_score": "0.038389",
-                    "ticker_sentiment_score": "0.036263",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PFE",
-                    "relevance_score": "0.005486",
-                    "ticker_sentiment_score": "0.088756",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SHOP",
-                    "relevance_score": "0.016458",
-                    "ticker_sentiment_score": "-0.057453",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SBUX",
-                    "relevance_score": "0.010972",
-                    "ticker_sentiment_score": "0.115303",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ZTS",
-                    "relevance_score": "0.021942",
-                    "ticker_sentiment_score": "0.09968",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "UPST",
-                    "relevance_score": "0.049345",
-                    "ticker_sentiment_score": "0.114926",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CMG",
-                    "relevance_score": "0.027426",
-                    "ticker_sentiment_score": "0.259862",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.016458",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Tactile Systems Technology  ( TCMD )  Tops Q4 Earnings and Revenue Estimates",
-            "url": "https://www.zacks.com/stock/news/2417634/tactile-systems-technology-tcmd-tops-q4-earnings-and-revenue-estimates",
-            "time_published": "20250219T002002",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Tactile Systems Technology (TCMD) delivered earnings and revenue surprises of 21.21% and 0.18%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default148.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999992"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.159576,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TNDM",
-                    "relevance_score": "0.201244",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TCMD",
-                    "relevance_score": "0.389889",
-                    "ticker_sentiment_score": "0.170733",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Buy Walmart Stock for Steady Growth as Q4 Earnings Approach?",
-            "url": "https://www.zacks.com/commentary/2417606/buy-walmart-stock-for-steady-growth-as-q4-earnings-approach",
-            "time_published": "20250219T000700",
-            "authors": [
-                "Shaun Pruitt"
-            ],
-            "summary": "Walmart's (WMT) steady growth has catapulted its stock over the last year, with the omnichannel retailer set to release Q4 results on Thursday, February 20.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/26/123.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.995015"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.261062,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TGT",
-                    "relevance_score": "0.28442",
-                    "ticker_sentiment_score": "0.103961",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.191929",
-                    "ticker_sentiment_score": "0.088388",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.725658",
-                    "ticker_sentiment_score": "0.362005",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prospera Energy Inc. Announces Leadership Changes - Prospera Energy  ( OTC:GXRFF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43801548/prospera-energy-inc-announces-leadership-changes",
-            "time_published": "20250219T000206",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "CALGARY, Alberta, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Prospera Energy Inc. PEIGXRFF ( \"Prospera,\" \"PEI,\" or the \"Corporation\" ) announces that the company's Chief Executive Officer, Samuel David, is no longer employed with the company, effective immediately.",
-            "banner_image": "https://ml.globenewswire.com/media/e75d9f4c-223b-421a-bf3c-0cb407e033ff/small/prospera-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.106181,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GXRFF",
-                    "relevance_score": "0.207571",
-                    "ticker_sentiment_score": "0.239613",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prospera Energy Inc. Announces Leadership Changes",
-            "url": "https://www.globenewswire.com/news-release/2025/02/19/3028408/0/en/Prospera-Energy-Inc-Announces-Leadership-Changes.html",
-            "time_published": "20250219T000200",
-            "authors": [
-                "Prospera Energy Inc."
-            ],
-            "summary": "CALGARY, Alberta, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Prospera Energy Inc. ( TSXV: PEI, OTC: GXRFF ) ( \"Prospera,\" \"PEI,\" or the \"Corporation\" ) announces that the company's Chief Executive Officer, Samuel David, is no longer employed with the company, effective immediately.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/e75d9f4c-223b-421a-bf3c-0cb407e033ff",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.115996,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GXRFF",
-                    "relevance_score": "0.303926",
-                    "ticker_sentiment_score": "0.325311",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "'This Says It All,' Says Mark Cuban As DOGE Website Was Still Blank Despite Musk's Claim That All Department Actions Were Posted There",
-            "url": "https://www.benzinga.com/news/25/02/43801493/this-says-it-all-says-mark-cuban-as-doge-website-was-still-blank-despite-musks-claim-that-all-department-act",
-            "time_published": "20250219T000018",
-            "authors": [
-                "Adrian Volenik"
-            ],
-            "summary": "The Department of Government Efficiency, the White House agency led by Elon Musk, has been making headlines every day, but not always for the right reasons. When Musk claimed that all DOGE actions were posted to the official DOGE website, many were surprised to find the site completely blank.",
-            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/02/18101048/IMG_6297.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.227093,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.063425",
-                    "ticker_sentiment_score": "0.281651",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
