@@ -1,8 +1,32 @@
 {
-    "items": "40",
+    "items": "36",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "HSBC announces share buyback of up to $2 billion as annual profit jumps 6.5%",
+            "url": "https://www.cnbc.com/2025/02/19/hsbc-q4-2024-earnings.html",
+            "time_published": "20250219T042837",
+            "authors": [],
+            "summary": "HSBC on Wednesday reported annual pre-tax profit of $32.31 billion, marginally missing analysts' estimates.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Earnings",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.151458,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Humane's AI Pin, Dubbed As Potential 'iPhone Killer' Dies This Month As Company Sells To HP For $116 Million Amid Poor Sales And Scathing Reviews - HP  ( NYSE:HPQ ) ",
             "url": "https://www.benzinga.com/tech/25/02/43803887/humanes-ai-pin-dubbed-as-potential-iphone-killer-dies-this-month-as-company-sells-to-hp-for-116-million-amid",
@@ -33,6 +57,50 @@
                     "relevance_score": "0.198221",
                     "ticker_sentiment_score": "0.150447",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "BFSI firms lead as India Inc earnings growth slows for third consecutive quarter in Q3 - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/corporate-finance/bfsi-firms-lead-as-india-inc-earnings-growth-slows-for-third-consecutive-quarter-in-q3/118374299",
+            "time_published": "20250219T035449",
+            "authors": [
+                "ETCFO Research",
+                "ETCFO"
+            ],
+            "summary": "BFSI companies posted an 11% YoY earnings increase, with PSU Banks surging 24% YoY, far exceeding the estimated 13%.",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Top Stories",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999813"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.157897,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IBN",
+                    "relevance_score": "0.077343",
+                    "ticker_sentiment_score": "0.150104",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "HDB",
+                    "relevance_score": "0.077343",
+                    "ticker_sentiment_score": "-0.028935",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1559,231 +1627,6 @@
             ],
             "overall_sentiment_score": 0.247144,
             "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Kirby McInerney LLP Announces Investigation Against Everus Construction Group, Inc.  ( ECG )  on Behalf of Investors - Everus Construction Group  ( NYSE:ECG ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43802087/kirby-mcinerney-llp-announces-investigation-against-everus-construction-group-inc-ecg-on-behalf-of",
-            "time_published": "20250219T010000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kirby McInerney LLP is investigating potential claims against Everus Construction Group, Inc. ( \"Everus\" or the \"Company\" ) ECG. The investigation concerns whether Everus and/or certain of its officers have violated the federal ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.161641,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ECG",
-                    "relevance_score": "0.249106",
-                    "ticker_sentiment_score": "-0.043494",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MDU",
-                    "relevance_score": "0.126119",
-                    "ticker_sentiment_score": "0.016623",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "REGN STOCK NEWS: Robbins LLP Reminds Regeneron Pharmaceuticals, Inc. Investors of the Pending Lead Plaintiff Deadline - March 4, 2025 - Regeneron Pharmaceuticals  ( NASDAQ:REGN ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43802057/regn-stock-news-robbins-llp-reminds-regeneron-pharmaceuticals-inc-investors-of-the-pending-lead-pl",
-            "time_published": "20250219T005346",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, Feb. 18, 2025 ( GLOBE NEWSWIRE ) -- Robbins LLP reminds investors that a class action was filed on behalf of all persons and entities that purchased or otherwise acquired Regeneron Pharmaceuticals, Inc. REGN securities between November 2, 2023 and October 30, 2024.",
-            "banner_image": "https://ml.globenewswire.com/media/f6c754ad-b344-4389-a551-cf97ce05752e/small/robbins-llp-logo-white-background1583450-1-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.034477,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "REGN",
-                    "relevance_score": "0.43852",
-                    "ticker_sentiment_score": "0.035574",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Grupo Bafar Reports Fourth Quarter 2024 Results",
-            "url": "https://www.globenewswire.com/news-release/2025/02/19/3028417/0/en/Grupo-Bafar-Reports-Fourth-Quarter-2024-Results.html",
-            "time_published": "20250219T004300",
-            "authors": [
-                "S.A. de C.V.",
-                "Cibale Administrativo"
-            ],
-            "summary": "Grupo Bafar, S.A.B de C.V. (BIVA: BAFARB), a leading company in the food sector nationwide, has announced its results for the fourth quarter of 2024.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/872ed3eb-d5e2-47a5-aa24-a683eb28f235",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.440766,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Everything You Need to Know About the Team Behind Milei's Libra Meme Coin",
-            "url": "https://decrypt.co/306594/who-launched-president-milei-libra-solana-meme-coin",
-            "time_published": "20250219T004040",
-            "authors": [
-                "Ryan S. Gladwin"
-            ],
-            "summary": "Argentine President Javier Milei has found himself in a meme coin mess. These four men are allegedly behind the Solana token, Libra.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/02/javier-milei-gID_7.png",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.054354,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.024572",
-                    "ticker_sentiment_score": "0.126231",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:LAK",
-                    "relevance_score": "0.399453",
-                    "ticker_sentiment_score": "0.027138",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.024572",
-                    "ticker_sentiment_score": "0.067444",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.073622",
-                    "ticker_sentiment_score": "0.022237",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ADA",
-                    "relevance_score": "0.024572",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bel Fuse  ( BELFB )  Reports Q4 Loss, Tops Revenue Estimates",
-            "url": "https://www.zacks.com/stock/news/2417639/bel-fuse-belfb-reports-q4-loss-tops-revenue-estimates",
-            "time_published": "20250219T004002",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Bel Fuse (BELFB) delivered earnings and revenue surprises of -118.18% and 12.42%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default351.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999981"
-                }
-            ],
-            "overall_sentiment_score": 0.123439,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FLUX",
-                    "relevance_score": "0.204647",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BELFA",
-                    "relevance_score": "0.33446",
-                    "ticker_sentiment_score": "0.092512",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Elon Musk Has 'No Actual Authority To Make Government Decisions,' Says Trump White House On DOGE",
-            "url": "https://www.benzinga.com/25/02/43801916/elon-musk-has-no-actual-authority-to-make-government-decisions-says-trump-white-house-on-doge",
-            "time_published": "20250219T003924",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "Tech billionaire Elon Musk is under legal scrutiny for his role as a senior advisor to President Donald Trump, with allegations of exercising \"virtually unchecked power\". What Happened: The White House clarified on Monday that Musk is not a part of the Department of Government Efficiency team but ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/18/DOGE-Gains-Access-To-Medicare-And-Medica.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.069739,
-            "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
         }
     ]
