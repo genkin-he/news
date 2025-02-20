@@ -1,8 +1,80 @@
 {
-    "items": "43",
+    "items": "44",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Crypto ETFs are 'Dragging Along' the Negatives of Traditional Finance: Sygnum",
+            "url": "https://decrypt.co/306903/crypto-etfs-are-dragging-along-the-negatives-of-traditional-finance-sygnum",
+            "time_published": "20250220T072614",
+            "authors": [
+                "Vince Dioquino"
+            ],
+            "summary": "The Swiss digital asset bank is challenging mainstream enthusiasm for crypto ETFs, citing traditional finance's limitations.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/04/crypto-etf-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.95493"
+                }
+            ],
+            "overall_sentiment_score": 0.123757,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.379435",
+                    "ticker_sentiment_score": "-0.031912",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.233556",
+                    "ticker_sentiment_score": "-0.071966",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Trump's 20% 'DOGE Dividend' Tax Refund Plan Might Cripple 'Entire Effort,' Says Tax Expert - Here's How Much Everyone Would Get - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/25/02/43839658/trumps-20-doge-dividend-tax-refund-plan-might-cripple-entire-effort-says-tax-expert",
+            "time_published": "20250220T070245",
+            "authors": [
+                "Kaustubh Bagalkote"
+            ],
+            "summary": "President Donald Trump proposed Wednesday to return 20% of savings from his administration's Department of Government Efficiency ( DOGE ) initiatives to American citizens, while questions mount over Tesla Inc. CEO Elon Musk's influence in the program.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/20/King-Trump-Says-NYC-Congestion-Pricing-I_0.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.172768,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.088147",
+                    "ticker_sentiment_score": "0.170798",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Apellis and Sobi Announce EMA Validation of Indication Extension Application for Aspaveli\u00ae  ( pegcetacoplan )  for C3G and Primary IC-MPGN",
             "url": "https://www.globenewswire.com/news-release/2025/02/20/3029307/0/en/Apellis-and-Sobi-Announce-EMA-Validation-of-Indication-Extension-Application-for-Aspaveli-pegcetacoplan-for-C3G-and-Primary-IC-MPGN.html",
@@ -36,6 +108,36 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "AS Tallink Grupp Unaudited Consolidated Interim Report for the Q4 and 12 months of 2024",
+            "url": "https://www.globenewswire.com/news-release/2025/02/20/3029309/0/en/AS-Tallink-Grupp-Unaudited-Consolidated-Interim-Report-for-the-Q4-and-12-months-of-2024.html",
+            "time_published": "20250220T070000",
+            "authors": [
+                "Tallink Grupp"
+            ],
+            "summary": "The results of AS Tallink Grupp for the Q4 and 12 months 2024 will be introduced at an Investor Webinar held today at 12:00 ( EEST ) . To participate, please join via the following link. we kindly ask participants to provide their questions latest by 11:00 am by email to: investor@tallink.ee.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/bebb560a-d161-41e0-925c-7c6d95682e88",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999999"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                }
+            ],
+            "overall_sentiment_score": 0.156769,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Transaction in Own Shares",
@@ -125,6 +227,28 @@
             ]
         },
         {
+            "title": "EG 427 raises \u20ac27 million in successful Series B co-led by Andera Partners and Bpifrance to finance on-going clinical study and platform development",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43839638/eg-427-raises-27-million-in-successful-series-b-co-led-by-andera-partners-and-bpifrance-to-finance",
+            "time_published": "20250220T070000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Specialist fund SCI Ventures, backed by major spinal cord injury foundations, together with existing investors, also participated in this round Proceeds will finance phase 1b/2a study of EG110A through safety and early efficacy results",
+            "banner_image": "https://ml-eu.globenewswire.com/media/41a1a6b2-9ccd-418f-b27d-98386e070b3c/small/eg-427-main-logo-full-color-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.5855"
+                }
+            ],
+            "overall_sentiment_score": 0.237714,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
             "title": "Pulsar Helium Announces Upcoming Down-Hole Testing of the Jetstream Appraisal Wells, Topaz Project, Minnesota, USA",
             "url": "https://www.globenewswire.com/news-release/2025/02/20/3029306/0/en/Pulsar-Helium-Announces-Upcoming-Down-Hole-Testing-of-the-Jetstream-Appraisal-Wells-Topaz-Project-Minnesota-USA.html",
             "time_published": "20250220T070000",
@@ -159,6 +283,67 @@
                     "ticker": "LDNXF",
                     "relevance_score": "0.027257",
                     "ticker_sentiment_score": "0.040784",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "ING to redeem Perpetual Capital Securities",
+            "url": "https://www.globenewswire.com/news-release/2025/02/20/3029315/0/en/ING-to-redeem-Perpetual-Capital-Securities.html",
+            "time_published": "20250220T070000",
+            "authors": [
+                "ING Group"
+            ],
+            "summary": "ING announced today it will redeem USD 1,250 million of 6.500% Perpetual Additional Tier 1 Contingent Convertible Capital Securities ( the \"Perpetual Capital Securities\" ) on the call date of 16 April 2025, in line with ING's goal to continuously optimise its capital structure.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/f98b0fea-4867-42b4-a7ea-9e63eda03ea5",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.938238"
+                }
+            ],
+            "overall_sentiment_score": 0.101015,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BK",
+                    "relevance_score": "0.023909",
+                    "ticker_sentiment_score": "0.19675",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.023909",
+                    "ticker_sentiment_score": "-0.012339",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MORN",
+                    "relevance_score": "0.023909",
+                    "ticker_sentiment_score": "0.128011",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ING",
+                    "relevance_score": "0.581595",
+                    "ticker_sentiment_score": "0.1121",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:XCP",
+                    "relevance_score": "0.023909",
+                    "ticker_sentiment_score": "-0.012339",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -385,6 +570,49 @@
             "ticker_sentiment": []
         },
         {
+            "title": "Indian equity markets' pain to worsen as economy, corporate profits slow - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/economy/indian-equity-markets-pain-to-worsen-as-economy-corporate-profits-slow/118408758",
+            "time_published": "20250220T063155",
+            "authors": [
+                "ETCFO"
+            ],
+            "summary": "Indian equity markets have fallen by around 13% since September due to a slowdown in corporate earnings growth and a significant withdrawal of foreign investments. This trend is expected to continue as India's economic growth slows and company profits remain under pressure.",
+            "banner_image": "https://st.etb2bimg.com/Themes/Release/theme4/images/bar-codes/cfo_barcode.png?mod=2841",
+            "source": "Economic Times",
+            "category_within_source": "Economy",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.890401"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.075121,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.077094",
+                    "ticker_sentiment_score": "-0.159215",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "JHG",
+                    "relevance_score": "0.077094",
+                    "ticker_sentiment_score": "-0.121563",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Robust financial development in 2024 in line with expectations. ISS initiates a new share buyback programme of DKK 2.5 billion",
             "url": "https://www.globenewswire.com/news-release/2025/02/20/3029301/0/en/Robust-financial-development-in-2024-in-line-with-expectations-ISS-initiates-a-new-share-buyback-programme-of-DKK-2-5-billion.html",
             "time_published": "20250220T063100",
@@ -418,6 +646,41 @@
             ]
         },
         {
+            "title": "Transaction in Own Shares",
+            "url": "https://www.globenewswire.com/news-release/2025/02/20/3029300/0/en/Transaction-in-Own-Shares.html",
+            "time_published": "20250220T063000",
+            "authors": [
+                "Endeavour Mining PLC"
+            ],
+            "summary": "London, 20 February 2025 - Endeavour Mining plc ( LSE:EDV, TSX:EDV ) ( \"the Company\" ) announces it has purchased the following number of its ordinary shares of USD 0.01 each from Stifel Nicolaus Europe Limited.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/cff109e5-0693-447f-8afe-290bcfdfd66f",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                }
+            ],
+            "overall_sentiment_score": 0.152933,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.063933",
+                    "ticker_sentiment_score": "0.020175",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LDNXF",
+                    "relevance_score": "0.063933",
+                    "ticker_sentiment_score": "0.231468",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Nilfisk reports Q4 and FY2024 results: organic growth and margin expansion led to EBITDA before special items improvement",
             "url": "https://www.globenewswire.com/news-release/2025/02/20/3029299/0/en/Nilfisk-reports-Q4-and-FY2024-results-organic-growth-and-margin-expansion-led-to-EBITDA-before-special-items-improvement.html",
             "time_published": "20250220T063000",
@@ -438,6 +701,41 @@
             "overall_sentiment_score": 0.232214,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Viridien and Matnex partner to accelerate AI-powered materials discovery",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43839433/viridien-and-matnex-partner-to-accelerate-ai-powered-materials-discovery",
+            "time_published": "20250220T063000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Viridien, an advanced technology and digital company, and Materials Nexus Ltd. ( trading as Matnex ) , a leader in AI-driven materials discovery, are partnering to rapidly scale Matnex's computational capacity for the discovery and production of groundbreaking materials.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.425205,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CGPVF",
+                    "relevance_score": "0.586141",
+                    "ticker_sentiment_score": "0.581058",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NRHI",
+                    "relevance_score": "0.092927",
+                    "ticker_sentiment_score": "0.294669",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
         },
         {
             "title": "ISS initiates DKK 2.5 billion share buyback programme",
@@ -1310,505 +1608,6 @@
             "overall_sentiment_score": 0.147594,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Exact Sciences  ( EXAS )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/exact-sciences-exas-q4-2024-earnings-call-transcri/",
-            "time_published": "20250220T053019",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "EXAS earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.250739,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EVR",
-                    "relevance_score": "0.005001",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.005001",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.015003",
-                    "ticker_sentiment_score": "0.064062",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.005001",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EXAS",
-                    "relevance_score": "0.039994",
-                    "ticker_sentiment_score": "0.092793",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "THACU",
-                    "relevance_score": "0.005001",
-                    "ticker_sentiment_score": "0.06617",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:JPY",
-                    "relevance_score": "0.005001",
-                    "ticker_sentiment_score": "0.100759",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.005001",
-                    "ticker_sentiment_score": "0.100759",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Remitly Global  ( RELY )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/remitly-global-rely-q4-2024-earnings-call-transcri/",
-            "time_published": "20250220T053016",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "RELY earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.372437,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.010952",
-                    "ticker_sentiment_score": "0.185883",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.005476",
-                    "ticker_sentiment_score": "0.073629",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.005476",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.005476",
-                    "ticker_sentiment_score": "0.073629",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.005476",
-                    "ticker_sentiment_score": "0.064618",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:CAD",
-                    "relevance_score": "0.005476",
-                    "ticker_sentiment_score": "0.126074",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Herbalife  ( HLF )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/herbalife-hlf-q4-2024-earnings-call-transcript/",
-            "time_published": "20250220T053012",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "HLF earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999986"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.250702,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.004378",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.004378",
-                    "ticker_sentiment_score": "0.13732",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HLF",
-                    "relevance_score": "0.1437",
-                    "ticker_sentiment_score": "0.179426",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:UYU",
-                    "relevance_score": "0.013135",
-                    "ticker_sentiment_score": "0.047766",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:ARS",
-                    "relevance_score": "0.004378",
-                    "ticker_sentiment_score": "0.057492",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:MXN",
-                    "relevance_score": "0.008757",
-                    "ticker_sentiment_score": "0.046192",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.008757",
-                    "ticker_sentiment_score": "-0.034654",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.004378",
-                    "ticker_sentiment_score": "0.027743",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Tesla To Pilot Virtual Queue System At Select Superchargers In Q2: 'Wider Rollout This Year If Feedback Is Positive' - Tesla  ( NASDAQ:TSLA ) ",
-            "url": "https://www.benzinga.com/25/02/43838678/tesla-to-try-virtual-queue-system-at-select-superchargers-in-q2",
-            "time_published": "20250220T051833",
-            "authors": [
-                "Anan Ashraf"
-            ],
-            "summary": "EV giant Tesla Inc. TSLA said on Wednesday that it will start a virtual queuing system at select supercharger sites in the second quarter, which will help alleviate confusion and reduce wait time. What Happened: \"Virtual queuing pilots starting in Q2 at select sites,\" the company said in a post ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/20/0x0-Supercharger-17.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.097376,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RIVN",
-                    "relevance_score": "0.116914",
-                    "ticker_sentiment_score": "-0.044734",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.622414",
-                    "ticker_sentiment_score": "-0.035968",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "IMAX  ( IMAX )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/imax-imax-q4-2024-earnings-call-transcript/",
-            "time_published": "20250220T051515",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "IMAX earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.967645"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999941"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.286897,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.004857",
-                    "ticker_sentiment_score": "-0.019461",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NFLX",
-                    "relevance_score": "0.058235",
-                    "ticker_sentiment_score": "0.175011",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "IMAX",
-                    "relevance_score": "0.321097",
-                    "ticker_sentiment_score": "0.299445",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.004857",
-                    "ticker_sentiment_score": "0.229434",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.004857",
-                    "ticker_sentiment_score": "0.262048",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "IMXCF",
-                    "relevance_score": "0.009714",
-                    "ticker_sentiment_score": "0.084475",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Amplitude  ( AMPL )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/amplitude-ampl-q4-2024-earnings-call-transcript/",
-            "time_published": "20250220T051512",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "AMPL earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.282707,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.016575",
-                    "ticker_sentiment_score": "0.089571",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.012432",
-                    "ticker_sentiment_score": "0.127348",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.008288",
-                    "ticker_sentiment_score": "0.059663",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMPL",
-                    "relevance_score": "0.200892",
-                    "ticker_sentiment_score": "0.24667",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BNS",
-                    "relevance_score": "0.008288",
-                    "ticker_sentiment_score": "0.07466",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.012432",
-                    "ticker_sentiment_score": "0.086935",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HUBS",
-                    "relevance_score": "0.004144",
-                    "ticker_sentiment_score": "0.180914",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GD",
-                    "relevance_score": "0.004144",
-                    "ticker_sentiment_score": "0.14852",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PM",
-                    "relevance_score": "0.004144",
-                    "ticker_sentiment_score": "0.119623",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WU",
-                    "relevance_score": "0.004144",
-                    "ticker_sentiment_score": "0.119623",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.004144",
-                    "ticker_sentiment_score": "0.168205",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "iPhone 17 Pro May Finally Get Wireless Reverse Charging-Apple Reportedly Testing Power Sharing With AirPods, Apple Watch, And More - Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/media/25/02/43838655/iphone-17-pro-may-finally-get-wireless-reverse-charging-apple-reportedly-testing-power-sharing-with-airpods",
-            "time_published": "20250220T051356",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Apple Inc. AAPL is reportedly testing a wireless reverse charging feature for its upcoming iPhone 17 Pro models, allowing the smartphone to power other devices. What Happened: A Weibo-based Chinese leaker, Instant Digital, said that Apple is experimenting with a 7.5W wireless charging capability, ...",
-            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/02/19233205/Screenshot-2025-02-20-at-10.01.59%E2%80%AFAM-1024x762.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.160582,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.895116",
-                    "ticker_sentiment_score": "0.23565",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WB",
-                    "relevance_score": "0.128822",
-                    "ticker_sentiment_score": "0.106337",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
