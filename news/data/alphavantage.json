@@ -1,8 +1,41 @@
 {
-    "items": "46",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Microsoft CEO Satya Nadella Warns Of Dot-com-Like AI Bubble, Pushes For Measuring AI Impact With GDP Growth: 'Self-Claiming AGI Milestone Is Just Nonsensical Benchmark Hacking' - Microsoft  ( NASDAQ:MSFT ) ",
+            "url": "https://www.benzinga.com/tech/25/02/43838071/microsoft-ceo-satya-nadella-warns-of-dot-com-like-ai-bubble-pushes-for-measuring-ai-impact-with-gdp-growth-s",
+            "time_published": "20250220T040402",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Microsoft Corporation MSFT CEO Satya Nadella has cautioned against the hype surrounding artificial intelligence ( AI ) , comparing the current frenzy to the dot-com bubble.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/19/Satya-Nadella.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.147455,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.448316",
+                    "ticker_sentiment_score": "0.190185",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Peter Schiff Says Michael Saylor-Led Strategy's Convertible Debt Offerings 'Aren't Going Well' As Stock Falls Despite Bitcoin's Gain - MicroStrategy  ( NASDAQ:MSTR ) ",
             "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43838036/peter-schiff-says-michael-saylor-led-strategys-convertible-debt-offerings-arent-going-well",
@@ -81,6 +114,35 @@
                     "ticker": "TSLA",
                     "relevance_score": "0.103331",
                     "ticker_sentiment_score": "0.12219",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "China's latest strategy to get consumers spending: a clampdown on rip-offs",
+            "url": "https://www.scmp.com/economy/china-economy/article/3299385/china-issues-new-plan-boost-consumption-creating-healthier-market-environment",
+            "time_published": "20250220T033105",
+            "authors": [
+                "Mia Nulimaimaiti"
+            ],
+            "summary": "Beijing plans to encourage consumers to open their wallets by eliminating scams, price gouging and shoddy goods.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/20/03d8674e-4177-4313-8c09-67520a9e1ccf_438bd110.jpg?itok=F5wawmkZ&v=1740022265",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.289441,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.07031",
+                    "ticker_sentiment_score": "0.093424",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1753,115 +1815,6 @@
             "overall_sentiment_score": 0.247144,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Bausch Health  ( BHC )  Q4 Earnings and Revenues Top Estimates",
-            "url": "https://www.zacks.com/stock/news/2418221/bausch-health-bhc-q4-earnings-and-revenues-top-estimates",
-            "time_published": "20250220T002502",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Bausch (BHC) delivered earnings and revenue surprises of 8.04% and 1.89%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default136.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999992"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.132541,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PSNL",
-                    "relevance_score": "0.206392",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "First-Ever Spot XRP ETF Gets Green Light in Brazil",
-            "url": "https://decrypt.co/306821/first-spot-xrp-etf-approved-brazil",
-            "time_published": "20250220T001602",
-            "authors": [
-                "Mat Di Salvo"
-            ],
-            "summary": "Brazil is set to be the first country to launch a spot XRP ETF after the country's regulator gave the green light to Hashdex's product.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/06/brazil-latin-america-xrp-ripple-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                }
-            ],
-            "overall_sentiment_score": 0.242426,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.457566",
-                    "ticker_sentiment_score": "0.245671",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.121037",
-                    "ticker_sentiment_score": "0.274226",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Calibre Reports 2024 Financial Results; 2025 Set to be a Transformational Year as the Multi-Million Ounce Valentine Gold Mine, Canada Advances to First Gold During Q2, 2025",
-            "url": "https://www.globenewswire.com/news-release/2025/02/20/3029255/0/en/Calibre-Reports-2024-Financial-Results-2025-Set-to-be-a-Transformational-Year-as-the-Multi-Million-Ounce-Valentine-Gold-Mine-Canada-Advances-to-First-Gold-During-Q2-2025.html",
-            "time_published": "20250220T001500",
-            "authors": [
-                "Calibre Mining Corp."
-            ],
-            "summary": "VANCOUVER, British Columbia, Feb. 19, 2025 ( GLOBE NEWSWIRE ) -- Calibre Mining Corp. ( TSX: CXB. OTCQX: CXBMF ) ( \"Calibre\" or the \"Company\" ) announces financial and operating results for the three months ( \"Q4\" ) and full year ended December 31, 2024 ( \"FY 2024\" ) .",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/c18bf787-819a-443f-b625-edde9d1c79bd/picture1.jpg",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999858"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.972756"
-                }
-            ],
-            "overall_sentiment_score": 0.224528,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MALRF",
-                    "relevance_score": "0.020404",
-                    "ticker_sentiment_score": "0.119045",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
