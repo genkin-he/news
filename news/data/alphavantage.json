@@ -1,8 +1,57 @@
 {
-    "items": "40",
+    "items": "39",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Aegon reports second half year 2024 results",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43839011/aegon-reports-second-half-year-2024-results",
+            "time_published": "20250220T060000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "The Hague - February 20, 2025. Please click here to access all 2H 2024 results related documents. Net profit of EUR 741 million as operating result and benefit from the a.s.r. stake are partly offset by restructuring charges and net impairments in the US",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999999"
+                }
+            ],
+            "overall_sentiment_score": 0.216961,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.039128",
+                    "ticker_sentiment_score": "0.107504",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WFHG",
+                    "relevance_score": "0.136334",
+                    "ticker_sentiment_score": "0.110614",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AEG",
+                    "relevance_score": "0.287088",
+                    "ticker_sentiment_score": "0.149686",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Tesla To Pilot Virtual Queue System At Select Superchargers In Q2: 'Wider Rollout This Year If Feedback Is Positive' - Tesla  ( NASDAQ:TSLA ) ",
             "url": "https://www.benzinga.com/25/02/43838678/tesla-to-try-virtual-queue-system-at-select-superchargers-in-q2",
@@ -35,6 +84,186 @@
                     "relevance_score": "0.622414",
                     "ticker_sentiment_score": "-0.035968",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "IMAX  ( IMAX )  Q4 2024 Earnings Call Transcript",
+            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/imax-imax-q4-2024-earnings-call-transcript/",
+            "time_published": "20250220T051515",
+            "authors": [
+                "Motley Fool Transcribing"
+            ],
+            "summary": "IMAX earnings call for the period ending December 31, 2024.",
+            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.967645"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999941"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.286897,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.004857",
+                    "ticker_sentiment_score": "-0.019461",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NFLX",
+                    "relevance_score": "0.058235",
+                    "ticker_sentiment_score": "0.175011",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "IMAX",
+                    "relevance_score": "0.321097",
+                    "ticker_sentiment_score": "0.299445",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.004857",
+                    "ticker_sentiment_score": "0.229434",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.004857",
+                    "ticker_sentiment_score": "0.262048",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "IMXCF",
+                    "relevance_score": "0.009714",
+                    "ticker_sentiment_score": "0.084475",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Amplitude  ( AMPL )  Q4 2024 Earnings Call Transcript",
+            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/20/amplitude-ampl-q4-2024-earnings-call-transcript/",
+            "time_published": "20250220T051512",
+            "authors": [
+                "Motley Fool Transcribing"
+            ],
+            "summary": "AMPL earnings call for the period ending December 31, 2024.",
+            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.282707,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.016575",
+                    "ticker_sentiment_score": "0.089571",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "C",
+                    "relevance_score": "0.012432",
+                    "ticker_sentiment_score": "0.127348",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.008288",
+                    "ticker_sentiment_score": "0.059663",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMPL",
+                    "relevance_score": "0.200892",
+                    "ticker_sentiment_score": "0.24667",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BNS",
+                    "relevance_score": "0.008288",
+                    "ticker_sentiment_score": "0.07466",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.012432",
+                    "ticker_sentiment_score": "0.086935",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HUBS",
+                    "relevance_score": "0.004144",
+                    "ticker_sentiment_score": "0.180914",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GD",
+                    "relevance_score": "0.004144",
+                    "ticker_sentiment_score": "0.14852",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PM",
+                    "relevance_score": "0.004144",
+                    "ticker_sentiment_score": "0.119623",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WU",
+                    "relevance_score": "0.004144",
+                    "ticker_sentiment_score": "0.119623",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.004144",
+                    "ticker_sentiment_score": "0.168205",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -107,6 +336,146 @@
             ]
         },
         {
+            "title": "Walmart will report earnings before the bell. Here's what to expect",
+            "url": "https://www.cnbc.com/2025/02/20/walmart-wmt-q4-2025-earnings.html",
+            "time_published": "20250220T050101",
+            "authors": [],
+            "summary": "Walmart has factors that could work in its favor, including a growing online business and market share gains from higher-income shoppers.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Earnings",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.744043"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.714479"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.060081,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "QSR",
+                    "relevance_score": "0.07157",
+                    "ticker_sentiment_score": "0.007164",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.07157",
+                    "ticker_sentiment_score": "-0.351871",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.07157",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.07157",
+                    "ticker_sentiment_score": "0.076408",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.470482",
+                    "ticker_sentiment_score": "0.248432",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Innovations expected to turbo-charge crypto ETF industry",
+            "url": "https://www.ft.com/content/0e039fbc-a19d-4c51-9c4d-f3df956f6447",
+            "time_published": "20250220T050052",
+            "authors": [
+                "Steve Johnson"
+            ],
+            "summary": "Participants say favourable regulatory environment could lead to enthusiasm for diversified indices of digital tokens ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb658fb37-c868-4a88-8919-53399ec24be0.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999759"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.769861"
+                }
+            ],
+            "overall_sentiment_score": 0.181788,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IVZ",
+                    "relevance_score": "0.040484",
+                    "ticker_sentiment_score": "0.198156",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "DJT",
+                    "relevance_score": "0.040484",
+                    "ticker_sentiment_score": "0.048282",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.080865",
+                    "ticker_sentiment_score": "0.182749",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.121037",
+                    "ticker_sentiment_score": "0.09245",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:XBC",
+                    "relevance_score": "0.040484",
+                    "ticker_sentiment_score": "0.048282",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:LTC",
+                    "relevance_score": "0.040484",
+                    "ticker_sentiment_score": "-0.014727",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ADA",
+                    "relevance_score": "0.040484",
+                    "ticker_sentiment_score": "0.048282",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Harju Elekter Group financial results, 1-12/2024",
             "url": "https://www.globenewswire.com/news-release/2025/02/20/3029277/0/en/Harju-Elekter-Group-financial-results-1-12-2024.html",
             "time_published": "20250220T050000",
@@ -168,6 +537,45 @@
                     "relevance_score": "0.108466",
                     "ticker_sentiment_score": "0.110074",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Asian infrastructure bank raises US$549 million in Hong Kong dollar bond sale",
+            "url": "https://www.scmp.com/business/banking-finance/article/3299396/asian-infrastructure-bank-raises-us549-million-hong-kong-dollar-bond-sale",
+            "time_published": "20250220T043503",
+            "authors": [
+                "Yuke Xie"
+            ],
+            "summary": "AIIB issuance attracts investors domestically and across Asia-Pacific, with final order book reaching HK$9 billion with more than 25 orders.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/20/953722d1-064b-4701-8dfc-51bba18723b6_7da81336.jpg?itok=ZDzIOgXN&v=1740026098",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.955357"
+                }
+            ],
+            "overall_sentiment_score": 0.204043,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.170878",
+                    "ticker_sentiment_score": "0.167009",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:HKD",
+                    "relevance_score": "0.612033",
+                    "ticker_sentiment_score": "0.25938",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -1334,286 +1742,6 @@
                     "relevance_score": "0.771935",
                     "ticker_sentiment_score": "0.064205",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "McGrath RentCorp  ( MGRC )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/02/19/mcgrath-rentcorp-mgrc-q4-2024-earnings-call-transc/",
-            "time_published": "20250220T014511",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "MGRC earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.986714"
-                }
-            ],
-            "overall_sentiment_score": 0.278549,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MGRC",
-                    "relevance_score": "0.006727",
-                    "ticker_sentiment_score": "0.116162",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Trump Administration Orders Sweeping Pentagon Cuts: Palantir, Lockheed Martin, General Dynamics Among Stocks On Watch - Palantir Technologies  ( NASDAQ:PLTR ) ",
-            "url": "https://www.benzinga.com/25/02/43836832/trump-administration-orders-sweeping-pentagon-cuts-defense-sector-stocks-on-watch",
-            "time_published": "20250220T013345",
-            "authors": [
-                "Erica Kollmann"
-            ],
-            "summary": "The Trump administration orders senior officials at the Pentagon and throughout the U.S. military to prepare for sweeping budget cuts. Palantir shares fall more than 10% following the report. Get two weeks of free access to pro-level trading tools, including news alerts, scanners, and real-time ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/19/What-Happened_4.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.041603,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LMT",
-                    "relevance_score": "0.199037",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NOC",
-                    "relevance_score": "0.199037",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GD",
-                    "relevance_score": "0.199037",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.199037",
-                    "ticker_sentiment_score": "-0.019923",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "RTX",
-                    "relevance_score": "0.199037",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Pan American Silver  ( PAAS )  Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
-            "url": "https://www.zacks.com/stock/news/2418236/pan-american-silver-paas-q4-earnings-taking-a-look-at-key-metrics-versus-estimates",
-            "time_published": "20250220T013002",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "The headline numbers for Pan American Silver (PAAS) give insight into how the company performed in the quarter ended December 2024, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.247144,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Retail Earnings: A Closer Look",
-            "url": "https://www.zacks.com/commentary/2418227/retail-earnings-a-closer-look",
-            "time_published": "20250220T012500",
-            "authors": [
-                "Sheraz Mian"
-            ],
-            "summary": "The Q4 reporting focus shifts to the Retail sector in the days ahead as the brick-and-mortar operators, including Walmart, start coming out with quarterly results.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/2c/546.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.239686,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TGT",
-                    "relevance_score": "0.148426",
-                    "ticker_sentiment_score": "0.133082",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.197011",
-                    "ticker_sentiment_score": "0.161472",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Two Dead After Planes Collide Near Arizona's Marana Regional Airport - Delta Air Lines  ( NYSE:DAL ) ",
-            "url": "https://www.benzinga.com/news/25/02/43836720/two-dead-after-planes-collide-near-arizonas-marana-regional-airport",
-            "time_published": "20250220T011949",
-            "authors": [
-                "Kaustubh Bagalkote"
-            ],
-            "summary": "Two small planes collided midair near Marana Regional Airport in Arizona on Wednesday, killing two people, the National Transportation Safety Board said. A Cessna 172S landed safely, while a Lancair 360 MK II crashed and caught fire, reported The New York Times.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/19/A-Cessna-Citation-Sovereign-of-NetJets-p.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": -0.16543,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AAL",
-                    "relevance_score": "0.366061",
-                    "ticker_sentiment_score": "-0.564013",
-                    "ticker_sentiment_label": "Bearish"
-                },
-                {
-                    "ticker": "NYT",
-                    "relevance_score": "0.188193",
-                    "ticker_sentiment_score": "-0.204444",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "DAL",
-                    "relevance_score": "0.366061",
-                    "ticker_sentiment_score": "-0.564013",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Action plan aims to boost foreign investment in China's economy",
-            "url": "https://www.scmp.com/economy/china-economy/article/3299370/china-welcome-foreign-investment-more-sectors-economy",
-            "time_published": "20250220T011840",
-            "authors": [
-                "Ji Siqi"
-            ],
-            "summary": "Government wants foreign investment to 'serve the high-quality development' of country's manufacturing industry.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/20/3eb3e94e-5568-4f23-baaa-655b40eb4f14_63943031.jpg?itok=-6eRoOGW&v=1740014320",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.918141"
-                }
-            ],
-            "overall_sentiment_score": 0.155064,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.088472",
-                    "ticker_sentiment_score": "-0.060842",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Retail Earnings: A Closer Look",
-            "url": "https://www.zacks.com/commentary/2418234/retail-earnings-a-closer-look",
-            "time_published": "20250220T011800",
-            "authors": [
-                "Sheraz Mian"
-            ],
-            "summary": "The Q4 reporting focus shifts to the Retail sector in the days ahead as the brick-and-mortar operators, including Walmart, start coming out with quarterly results.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/2c/546.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.239686,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TGT",
-                    "relevance_score": "0.148426",
-                    "ticker_sentiment_score": "0.133082",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.197011",
-                    "ticker_sentiment_score": "0.161472",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
