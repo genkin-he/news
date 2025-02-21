@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 746750,
+            "title": "Bybit Hack: Bybit Hackers Move 490,000 ETH Across 49 Addresses, 15,000 cmETH Still Pending Unstake",
+            "description": "The Bybit exploit, which resulted in the theft of 514,000 ETH worth $1.429 billion, has seen the hackers disperse 490,000 ETH across 49 different addresses, with each address receiving 10,000 ETH, according to blockchain monitoring firm EmberCN.In addition to the massive ETH transfers, the attackers are also attempting to unstake 15,000 cmETH, a move that requires an 8-hour waiting period before funds become available. The possibility of intercepting the pending unstake remains uncertain at this stage.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746750&language=en-US",
+            "pub_date": "2025-02-22 01:08:42",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 746753,
+            "title": "Ethena's unrealized profit and loss in Bybit has dropped to $10 million. USDDe has gradually returned to its anchor after a short-term breakout below $0.98.",
+            "description": "Odaily Planet Daily News Ethena Labs published a post on X stating that the previously mentioned $30 million unrealized profit and loss on the Bybit platform has been reduced to $10 million, and Bybit's unrealized profit and loss exposure is expected to be zero in the next hour. Currently, the liquidity of stablecoins supporting USDe is $2 billion, and users can redeem it immediately if they wish.\nOn-chain data shows that after the Bybit theft, USDe once de-anchored and fell below $0.98 in the short term, and has now gradually returned to the anchor, temporarily reporting $0.9972.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746753&language=en-US",
+            "pub_date": "2025-02-22 01:10:29",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 746752,
+            "title": "Safe: We are working with Bybit to investigate, and the wallet has temporarily suspended some functions",
+            "description": "Odaily Planet Daily News: Safe posted on the X platform that the security team is working with Bybit to investigate and has not yet found evidence that the official Safe front-end has been hacked. However, out of caution, Safe Wallet has temporarily suspended some functions. User safety is the top priority and more updates will be provided soon.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746752&language=en-US",
+            "pub_date": "2025-02-22 01:12:46",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 746751,
+            "title": "Defillama founder: After the theft, Bybit has had a net outflow of $700 million due to user withdrawals",
+            "description": "Odaily Planet Daily News: Defillama founder 0xngmi posted on X that since the theft, Bybit has seen a net outflow of $700 million due to user withdrawals.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746751&language=en-US",
+            "pub_date": "2025-02-22 01:17:50",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 746747,
             "title": "Bybit Hack: SlowMist Unveils Technical Details Behind Bybit’s $1.4 Billion Hack",
             "description": "Blockchain security firm SlowMist has disclosed a detailed breakdown of the attack that led to Bybit’s massive Ethereum (ETH) breach, revealing how the hackers manipulated smart contract logic to gain control over the exchange’s cold wallet.According to SlowMist’s investigation, the exploit began with the deployment of a malicious implementation contract on February 19, 2025, at 7:15:23 UTC (0xbDd077f651EBe7f7b3cE16fe5F2b025BE2969516). The attacker strategically leveraged multisig ownership, using three owner signatures to replace the legitimate Safe implementation contract with the malicious one at 14:13:35 UTC on February 21, 2025 (0x46deef0f52e3a983b67abf4714448a41dd7ffd6d32d32da69d62081c68ad7882).The core of the attack relied on embedding malicious upgrade logic into STORAGE via DELEGATECALL[0x0] (0x96221423681A6d52E184D440a8eFCEbB105C7242). This backdoor allowed the hacker to execute sweepETH and sweepERC20 functions, effectively draining the targeted wallet’s ETH and ERC-20 token holdings.Bybit has assured users that its other cold wallets remain unaffected and that withdrawals are operating normally. However, industry leaders—including Binance executives Yi He and former CEO CZ—have stepped in, offering support in tracking the stolen funds and strengthening security measures.The incident underscores the persistent vulnerabilities in crypto exchange security and the growing sophistication of attacks targeting digital asset custodians.",
@@ -56,46 +96,6 @@
             "description": "Following Bybit’s confirmation of a $1.4 billion Ethereum (ETH) security breach, Binance executives have extended their support, reinforcing the industry's collaborative stance on security.Bybit CEO Ben Zhou revealed that the exploit was executed through a masked UI attack on a multisig cold wallet transaction. The attackers manipulated the signing process to alter the smart contract logic, gaining control over the wallet and transferring its ETH holdings to an unknown address. Despite the breach, Zhou assured users that all other cold wallets remain secure and withdrawals are operating normally.Binance’s Immediate ResponseYi He, Binance’s co-founder, was quick to offer assistance, stating, \"We are here when you need.\" The message signaled Binance’s readiness to help Bybit navigate the crisis and recover stolen funds.Former Binance CEO CZ also weighed in, suggesting a proactive security measure to prevent further potential risks. \"Not an easy situation to deal with. Might suggest to halt all withdrawals for a bit as a standard security precaution. Will provide any assistance if needed. Good luck!\"",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746730&language=en-US",
             "pub_date": "2025-02-22 00:42:57",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 746729,
-            "title": "Bybit Update: Ethena Labs Addresses Bybit Hack Concerns, Confirms USDe Reserves Are Secure",
-            "description": "Ethena Labs has issued a statement reassuring users amid the ongoing security breach at Bybit, which resulted in a $1.4 billion Ethereum (ETH) hack. The firm emphasized that all spot assets backing its USDe stablecoin are securely held in off-exchange custody solutions, including Copper ClearLoop for positions involving Bybit.According to Ethena Labs, no USDe collateral is stored on Bybit or any other exchange, mitigating risks associated with centralized platforms. The company also disclosed that less than $30 million in unrealized PNL is linked to Bybit hedge positions, which represents less than half of its reserve fund.Despite market concerns, Ethena Labs confirmed that USDe remains fully collateralized and continues to operate without risk to its underlying assets. The team is actively monitoring the situation and will provide updates as new information emerges.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746729&language=en-US",
-            "pub_date": "2025-02-22 00:45:13",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 746728,
-            "title": "Arkham: 560 million USDT transferred from Bybit cold wallet to its hot wallet",
-            "description": "Odaily Planet Daily News: According to Arkham monitoring, 560 million USDT were transferred from Bybit's cold wallet to its hot wallet.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746728&language=en-US",
-            "pub_date": "2025-02-22 00:31:15",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 746727,
-            "title": "He Yi: If Bybit needs support, we will provide support",
-            "description": "Odaily Planet Daily News: Binance co-founder He Yi responded to Bybit CEO Ben Zhou and said that support will be provided if necessary.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746727&language=en-US",
-            "pub_date": "2025-02-22 00:31:50",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 746726,
-            "title": "Bybit has a net outflow of US$1.688 billion in the past 24 hours",
-            "description": "Odaily Planet Daily News: DefiLlama data shows that Bybit had a net outflow of US$1.688 billion in the past 24 hours.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746726&language=en-US",
-            "pub_date": "2025-02-22 00:34:37",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
