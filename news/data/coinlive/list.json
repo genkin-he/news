@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 746747,
+            "title": "Bybit Hack: SlowMist Unveils Technical Details Behind Bybit’s $1.4 Billion Hack",
+            "description": "Blockchain security firm SlowMist has disclosed a detailed breakdown of the attack that led to Bybit’s massive Ethereum (ETH) breach, revealing how the hackers manipulated smart contract logic to gain control over the exchange’s cold wallet.According to SlowMist’s investigation, the exploit began with the deployment of a malicious implementation contract on February 19, 2025, at 7:15:23 UTC (0xbDd077f651EBe7f7b3cE16fe5F2b025BE2969516). The attacker strategically leveraged multisig ownership, using three owner signatures to replace the legitimate Safe implementation contract with the malicious one at 14:13:35 UTC on February 21, 2025 (0x46deef0f52e3a983b67abf4714448a41dd7ffd6d32d32da69d62081c68ad7882).The core of the attack relied on embedding malicious upgrade logic into STORAGE via DELEGATECALL[0x0] (0x96221423681A6d52E184D440a8eFCEbB105C7242). This backdoor allowed the hacker to execute sweepETH and sweepERC20 functions, effectively draining the targeted wallet’s ETH and ERC-20 token holdings.Bybit has assured users that its other cold wallets remain unaffected and that withdrawals are operating normally. However, industry leaders—including Binance executives Yi He and former CEO CZ—have stepped in, offering support in tracking the stolen funds and strengthening security measures.The incident underscores the persistent vulnerabilities in crypto exchange security and the growing sophistication of attacks targeting digital asset custodians.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746747&language=en-US",
+            "pub_date": "2025-02-22 00:59:42",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 746743,
             "title": "SlowMist releases Bybit attacker's operation details",
             "description": "Odaily Planet Daily News SlowMist released the details of the Bybit attacker's operation: \n1) A malicious implementation contract was deployed at UTC 2025-02-19 7:15:23: https://etherscan.io/address/0xbdd077f651ebe7f7b3ce16fe5f2b025be2969516 \n2) UTC 2025-02-21 14:13:35, the attacker used three owners to sign a transaction and replaced Safe's implementation contract with a malicious contract: https://etherscan.io/tx/0x46deef0f52e3a983b67abf4714448a41dd7ffd6d32d32da69d62081c68ad7882\n3) The attacker then used the backdoor functions “sweepETH” and “sweepERC20” in the malicious contract to steal the hot wallet.",
@@ -86,16 +96,6 @@
             "description": "Odaily Planet Daily News: DefiLlama data shows that Bybit had a net outflow of US$1.688 billion in the past 24 hours.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746726&language=en-US",
             "pub_date": "2025-02-22 00:34:37",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 746725,
-            "title": "CZ: Recommends Bybit to suspend all withdrawals",
-            "description": "Odaily Planet Daily News CZ responded to Ben Zhou’s tweet and said: “This is not an easy situation to handle. It is recommended to temporarily stop all withdrawals as a standard safety precaution. Any help will be provided if needed.”",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=746725&language=en-US",
-            "pub_date": "2025-02-22 00:36:34",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
