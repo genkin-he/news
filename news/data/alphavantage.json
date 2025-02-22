@@ -1,8 +1,366 @@
 {
-    "items": "34",
+    "items": "39",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "TTD CLASS ACTION DEADLINE: Trade Desk, Inc. Investors with Losses are Notified of Ongoing Lawsuit - Contact BFA Law by April 21 Deadline - Trade Desk  ( NASDAQ:TTD ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43900701/ttd-class-action-deadline-trade-desk-inc-investors-with-losses-are-notified-of-ongoing-lawsuit-con",
+            "time_published": "20250222T121800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against The Trade Desk, Inc. TTD and certain of the Company's senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.149824,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TTD",
+                    "relevance_score": "0.649995",
+                    "ticker_sentiment_score": "0.18273",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.07446",
+                    "ticker_sentiment_score": "0.14091",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "SMTC BREAKING NEWS: A Class Action Lawsuit has been Filed against Semtech Corp. for Securities Fraud - Investors are Alerted to Contact BFA Law by April 22  ( NASDAQ:SMTC )  - Semtech  ( NASDAQ:SMTC ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43900700/smtc-breaking-news-a-class-action-lawsuit-has-been-filed-against-semtech-corp-for-securities-fraud",
+            "time_published": "20250222T121800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Semtech Corp. SMTC and certain of the Company's senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.060487,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SMTC",
+                    "relevance_score": "0.858597",
+                    "ticker_sentiment_score": "-0.037644",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.078099",
+                    "ticker_sentiment_score": "0.141725",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "BIOA CLASS ACTION DEADLINE: BioAge Labs Investors with Losses are Notified of Ongoing Lawsuit - Contact BFA Law by March 10 Deadline  ( NASDAQ:BIOA )  - Bioage Labs  ( NASDAQ:BIOA ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43900697/bioa-class-action-deadline-bioage-labs-investors-with-losses-are-notified-of-ongoing-lawsuit-conta",
+            "time_published": "20250222T121600",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against BioAge Labs, Inc. BIOA and certain of its senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.11941,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BIOA",
+                    "relevance_score": "0.252332",
+                    "ticker_sentiment_score": "0.100007",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.064104",
+                    "ticker_sentiment_score": "0.139363",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Will Super Micro Computer Be the AI Comeback Stock of the Year?",
+            "url": "https://www.fool.com/investing/2025/02/22/will-super-micro-computer-be-the-ai-comeback-stock/",
+            "time_published": "20250222T114500",
+            "authors": [
+                "Keithen Drury"
+            ],
+            "summary": "Super Micro Computer ( NASDAQ: SMCI ) , often called Supermicro, has taken investors on quite the roller-coaster ride since the start of 2024. Once the hottest stock on Wall Street, it now sits around 60% below its all-time high.",
+            "banner_image": "https://media.ycharts.com/charts/2b2798dcb51869963962d8ee545f29c0.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999365"
+                }
+            ],
+            "overall_sentiment_score": 0.112378,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SMCI",
+                    "relevance_score": "0.198628",
+                    "ticker_sentiment_score": "0.199467",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "2 Smart Dividend Stocks to Buy and Hold",
+            "url": "https://www.fool.com/investing/2025/02/22/2-smart-dividend-stocks-to-buy-and-hold/",
+            "time_published": "20250222T114000",
+            "authors": [
+                "Timothy Green"
+            ],
+            "summary": "Many stocks pay dividends, but dividend investors should be picky. Ideally, a reasonable dividend yield should be paired with a long dividend track record, plenty of profits to support the dividend, and decent long-term growth prospects.Two smart dividend stocks to buy right now are Tanger ( ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808450/gettyimages-1324119709.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.203559,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TGT",
+                    "relevance_score": "0.452384",
+                    "ticker_sentiment_score": "0.174974",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.053271",
+                    "ticker_sentiment_score": "-0.162107",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Why I Continue Rolling the Dice and Buying More of This 5.7%-Yielding Dividend Stock in My Retirement Account",
+            "url": "https://www.fool.com/investing/2025/02/22/why-i-continue-rolling-the-dice-and-buying-more-of/",
+            "time_published": "20250222T112700",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "I'm betting my retirement on dividend stocks. That's actually a pretty low-risk wager, given the data on dividend stocks over the decades. They've outperformed non-payers by more than two-to-one ( a 9.2% average annual return over the last 50 years compared to 4.3% for non-payers, according to ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808304/stock-chart-coins-and-gambling-dice.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                }
+            ],
+            "overall_sentiment_score": 0.317712,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VICI",
+                    "relevance_score": "0.380736",
+                    "ticker_sentiment_score": "0.365391",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CZR",
+                    "relevance_score": "0.098862",
+                    "ticker_sentiment_score": "0.09251",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LUCK",
+                    "relevance_score": "0.049526",
+                    "ticker_sentiment_score": "0.153113",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cathie Wood Is Doubling Down on Her Bullish $1 Million-Plus Bitcoin Price Target. Here's Why.",
+            "url": "https://www.fool.com/investing/2025/02/22/cathie-wood-is-doubling-down-on-her-bullish-1-mill/",
+            "time_published": "20250222T111700",
+            "authors": [
+                "Dominic Basulto"
+            ],
+            "summary": "In 2024, Bitcoin ( CRYPTO: BTC ) soared past the $100,000 mark for the first time in its history. But that may just be a stepping stone to its ultimate destination: the $1 million price level.According to Cathie Wood of Ark Invest, Bitcoin is now on pace to hit the $1 million price point by the ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807921%2Finvestor-analyst-watching-trends.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.207952,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "STRK",
+                    "relevance_score": "0.048919",
+                    "ticker_sentiment_score": "0.162466",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.968226",
+                    "ticker_sentiment_score": "0.364052",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Better Artificial Intelligence Stock: Palantir vs. BigBear.ai",
+            "url": "https://www.fool.com/investing/2025/02/22/better-artificial-intelligence-stock-palantir-vs-b/",
+            "time_published": "20250222T111500",
+            "authors": [
+                "Leo Sun"
+            ],
+            "summary": "Which of these AI stocks is a better buy right now?",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808014%2Fai-digital-brain.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999999"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.200965,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EADSF",
+                    "relevance_score": "0.048036",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "VORBQ",
+                    "relevance_score": "0.048036",
+                    "ticker_sentiment_score": "-0.075",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.048036",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Hong Kong posts second sell-out weekend with Kerry's Hava flats",
             "url": "https://www.scmp.com/business/article/3299756/kerrys-hava-flats-sell-out-stock-rally-lifts-mood-hong-kongs-property-market",
@@ -46,6 +404,250 @@
                     "ticker": "KRYPF",
                     "relevance_score": "0.097062",
                     "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Will President Trump's Tariffs Cause the S&P 500 to Plunge? Here's What 1 Top Wall Street Analyst Thinks.",
+            "url": "https://www.fool.com/investing/2025/02/22/will-president-trumps-tariffs-cause-the-sp-500-to/",
+            "time_published": "20250222T104900",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "During Donald Trump's first four years as president, the S&P 500 ( SNPINDEX: ^GSPC ) soared 67%. Over the next four years with Joe Biden in the White House, the vaunted index jumped 56%. So far in Trump's second term, the S&P 500 is off to a good start, rising 2% in that very short time ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808107%2Fman-with-hands-behind-head-stock-charts-down.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99676"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.961735"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.033532,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.222838",
+                    "ticker_sentiment_score": "-0.11994",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.045139",
+                    "ticker_sentiment_score": "-0.00599",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "3 Magnificent Growth Stocks to Buy Right Now",
+            "url": "https://www.fool.com/investing/2025/02/22/3-magnificent-growth-stocks-to-buy-right-now/",
+            "time_published": "20250222T104700",
+            "authors": [
+                "Keith Speights",
+                "David Jagielski",
+                "and Prosper Junior Bakiny"
+            ],
+            "summary": "In a sense, every investor is a growth investor. Even those who are primarily seeking income enjoy when the stocks they buy increase in value. But which stocks are likely to deliver growth over the next few years?Three Motley Fool contributors think they've found magnificent growth stocks to buy ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808416/couple-looking-at-laptop.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.905476"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                }
+            ],
+            "overall_sentiment_score": 0.384176,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LLY",
+                    "relevance_score": "0.250816",
+                    "ticker_sentiment_score": "0.234345",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "VRTX",
+                    "relevance_score": "0.168785",
+                    "ticker_sentiment_score": "0.274502",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AZN",
+                    "relevance_score": "0.290853",
+                    "ticker_sentiment_score": "0.326697",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Could Buying XRP  ( Ripple )  Today Set You Up for Life?",
+            "url": "https://www.fool.com/investing/2025/02/22/could-buying-xrp-ripple-today-set-you-up-for-life/",
+            "time_published": "20250222T104500",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "The decisions you made 10 or 20 years ago made a difference in where you are today. More importantly, your decisions now will impact where you are 10 or 20 years in the future. One of the most critical decisions you can make now that will affect you years down the road is what you do with your ...",
+            "banner_image": "https://media.ycharts.com/charts/87d40466b60c6866443057b2c71e7923.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.890401"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.904684"
+                }
+            ],
+            "overall_sentiment_score": 0.128818,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Yeti's Hidden Strengths: A Closer Look",
+            "url": "https://www.fool.com/investing/2025/02/22/yetis-hidden-strengths-a-closer-look/",
+            "time_published": "20250222T104500",
+            "authors": [
+                "David Kretzmann"
+            ],
+            "summary": "Our unique scoring system reveals Yeti's impressive financial and product strength, while highlighting key areas investors should watch.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808260/gettyimages-1401708882.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.495866"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.342975,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Why This High-Yield Dividend Stock Should Be Your First Choice for a Sustainable Income Stream",
+            "url": "https://www.fool.com/investing/2025/02/22/why-this-high-yield-dividend-stock-should-be-your/",
+            "time_published": "20250222T103800",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "Hundreds of companies pay dividends. Many offer dividend yields well above average ( the S&P 500's dividend yield is around 1.2% ) . That can make it difficult for income-seeking investors to choose which ones belong in their portfolio.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808081/steadily-rising-stacks-of-coins.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.301683,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ENB",
+                    "relevance_score": "0.453277",
+                    "ticker_sentiment_score": "0.547869",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cathie Wood Just Bought These 3 Magnificent Stocks. Should You?",
+            "url": "https://www.fool.com/investing/2025/02/22/cathie-wood-just-bought-these-3-magnificent-stocks/",
+            "time_published": "20250222T103200",
+            "authors": [
+                "Jennifer Saibil"
+            ],
+            "summary": "Cathie Wood has developed a reputation for investing in up-and-coming tech disruptors, and she's been ahead of the curve with some of her finds. Her company, Ark Invest, markets exchange-traded funds ( ETF ) , and they each feature an assortment of stocks that fit a certain trend in disruptive ...",
+            "banner_image": "https://media.ycharts.com/charts/fceba8dc9d58ac9ab21e48c7fbce29bf.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998287"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.928769"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.383958,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SHOP",
+                    "relevance_score": "0.312158",
+                    "ticker_sentiment_score": "0.402684",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.407844",
+                    "ticker_sentiment_score": "0.427918",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "TOST",
+                    "relevance_score": "0.159218",
+                    "ticker_sentiment_score": "0.11211",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1075,412 +1677,6 @@
                     "ticker": "PLTR",
                     "relevance_score": "0.091684",
                     "ticker_sentiment_score": "0.106147",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Best Buy in 2025: XRP  ( Ripple ) , Dogecoin, or Bitcoin?",
-            "url": "https://www.fool.com/investing/2025/02/22/best-buy-in-2025-xrp-ripple-dogecoin-or-bitcoin/",
-            "time_published": "20250222T082900",
-            "authors": [
-                "Anthony Di Pizio"
-            ],
-            "summary": "The total value of all cryptocurrencies in circulation hit a new record high of $3.9 trillion in December, led by surging gains in some of the industry's most popular coins and tokens, like XRP ( CRYPTO: XRP ) , Dogecoin ( CRYPTO: DOGE ) , and Bitcoin ( CRYPTO: BTC ) .XRP Price data by ...",
-            "banner_image": "https://media.ycharts.com/charts/1c141db9aa77c3ecb5ea9fdf844b3353.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.838487"
-                }
-            ],
-            "overall_sentiment_score": 0.238889,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BBY",
-                    "relevance_score": "0.067064",
-                    "ticker_sentiment_score": "-0.024367",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.033562",
-                    "ticker_sentiment_score": "0.109208",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.033562",
-                    "ticker_sentiment_score": "0.074036",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "STRK",
-                    "relevance_score": "0.033562",
-                    "ticker_sentiment_score": "0.129596",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.444179",
-                    "ticker_sentiment_score": "0.370145",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.499187",
-                    "ticker_sentiment_score": "0.345914",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Meet the Supercharged Growth Stock That Could Make You a Millionaire",
-            "url": "https://www.fool.com/investing/2025/02/22/meet-the-supercharged-growth-stock-that-could-make/",
-            "time_published": "20250222T082300",
-            "authors": [
-                "Justin Pope"
-            ],
-            "summary": "This stock looks like a big winner. It's just about getting the price right.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807373/picture-of-salad-bowl-with-cava-logo-on-cup-in-background_cava-2.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": 0.373215,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CMG",
-                    "relevance_score": "0.063425",
-                    "ticker_sentiment_score": "0.288691",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CAVA",
-                    "relevance_score": "0.12645",
-                    "ticker_sentiment_score": "0.141574",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bill Gates Has A Warning For The Next Generation, Says Be 'Very Afraid' Of These 4 Issues",
-            "url": "https://www.benzinga.com/25/02/43900360/bill-gates-has-a-warning-for-the-next-generation-says-be-very-afraid-of-these-4-issues",
-            "time_published": "20250222T082143",
-            "authors": [
-                "Rounak Jain"
-            ],
-            "summary": "Bill Gates has outlined critical challenges for future generations, emphasizing the importance of addressing bioterrorism, climate change, and artificial intelligence. What Happened: The Microsoft Corp. co-founder, reflecting on his fears from the 1950s, also noted the persistent threat of ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/22/What-The-Future-Might-Hold.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.017299,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.088147",
-                    "ticker_sentiment_score": "-0.38839",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "3 Stocks That Could Be Easy Wealth Builders",
-            "url": "https://www.fool.com/investing/2025/02/22/3-stocks-that-could-be-easy-wealth-builders/",
-            "time_published": "20250222T081400",
-            "authors": [
-                "Justin Pope"
-            ],
-            "summary": "These proven winners are poised to ride ongoing growth trends well into the future.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807374/relaxed-investor.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.905476"
-                }
-            ],
-            "overall_sentiment_score": 0.314232,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AXON",
-                    "relevance_score": "0.095707",
-                    "ticker_sentiment_score": "0.03575",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MO",
-                    "relevance_score": "0.095707",
-                    "ticker_sentiment_score": "0.116629",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SWMAF",
-                    "relevance_score": "0.04794",
-                    "ticker_sentiment_score": "0.042889",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PM",
-                    "relevance_score": "0.236281",
-                    "ticker_sentiment_score": "0.137846",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.369456",
-                    "ticker_sentiment_score": "0.338591",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Uber CEO Reveals Elon Musk's Stance On Tesla Robotaxis Partnership: 'They Want To Build It Alone' - Alphabet  ( NASDAQ:GOOG ) , Alphabet  ( NASDAQ:GOOGL ) ",
-            "url": "https://www.benzinga.com/25/02/43900342/uber-ceo-reveals-elon-musks-stance-on-tesla-robotaxis-partnership-they-want-to-build-it-alone",
-            "time_published": "20250222T080740",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Uber Technologies Inc. UBER CEO, Dara Khosrowshahi, stated that Elon Musk has no plans to integrate Tesla Inc. TSLA's forthcoming robotaxis into Uber's platform.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/22/Tesla-Cybercab-robotaxi.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.165724,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.634626",
-                    "ticker_sentiment_score": "0.220583",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.56217",
-                    "ticker_sentiment_score": "0.372966",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Where Will W.P. Carey Be in 1 Year?",
-            "url": "https://www.fool.com/investing/2025/02/22/where-will-wp-carey-be-in-1-year/",
-            "time_published": "20250222T080500",
-            "authors": [
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "As CEO Jason Fox discussed W.P. Carey's ( NYSE: WPC ) 2024 results, he specifically noted that the year was the \"new baseline\" for the company's adjusted funds from operations ( FFO ) . This highlights the fact that 2024 was a reset year for the net lease real estate investment trust ( REIT ) .",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807891%2F25_02_13-a-person-in-the-foreground-in-protective-gear-with-three-people-in-the-background-at-a-construction-site-_gettyimages-539467090-1199x800-84a960f.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.189705,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Trump 10% Oil Tariff Could Deal $10 Billion Annual Blow To Canada And Other Foreign Producers, Goldman Sachs Warns - Invesco QQQ Trust, Series 1  ( NASDAQ:QQQ ) , Goldman Sachs Gr  ( NYSE:GS ) ",
-            "url": "https://www.benzinga.com/markets/commodities/25/02/43900287/trumps-10-oil-tariff-could-deal-10-billion-annual-blow-to-canada-and-other-foreign-producers-",
-            "time_published": "20250222T074005",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Goldman Sachs estimates that a proposed 10% U.S. oil tariff could lead to a $10 billion annual loss for foreign producers, posing a significant threat to Canadian and Latin American heavy crude suppliers that depend on U.S. refiners.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/22/Donald-Trump.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.13523,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.171485",
-                    "ticker_sentiment_score": "-0.138926",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.086245",
-                    "ticker_sentiment_score": "-0.053134",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Press Release: ECCO 2025: new duvakitug data reinforce best-in-class potential in ulcerative colitis and Crohn's disease",
-            "url": "https://www.globenewswire.com/news-release/2025/02/22/3030764/0/en/Press-Release-ECCO-2025-new-duvakitug-data-reinforce-best-in-class-potential-in-ulcerative-colitis-and-Crohn-s-disease.html",
-            "time_published": "20250222T073000",
-            "authors": [
-                "Sanofi - Aventis Groupe"
-            ],
-            "summary": "ECCO 2025: new duvakitug data reinforce best-in-class potential in ulcerative colitis and Crohn's disease ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/06da731a-67a1-4258-939f-6ef0531ee3bf",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.112621,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.175094",
-                    "ticker_sentiment_score": "0.03654",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TEVA",
-                    "relevance_score": "0.052918",
-                    "ticker_sentiment_score": "0.090824",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Press Release: ECCO 2025: new duvakitug data reinforce best-in-class potential in ulcerative colitis and Crohn's disease",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43900203/press-release-ecco-2025-new-duvakitug-data-reinforce-best-in-class-potential-in-ulcerative-colitis",
-            "time_published": "20250222T073000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ECCO 2025: new duvakitug data reinforce best-in-class potential in ulcerative colitis and Crohn's disease New detailed data from the RELIEVE UCCD study support overall efficacy and safety of duvakitug in all pre-specified subgroups across the different doses",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.109747,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.209644",
-                    "ticker_sentiment_score": "0.068441",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TEVA",
-                    "relevance_score": "0.048919",
-                    "ticker_sentiment_score": "0.086424",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
