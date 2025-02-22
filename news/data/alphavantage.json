@@ -1,5 +1,5 @@
 {
-    "items": "48",
+    "items": "47",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -59,6 +59,39 @@
                     "relevance_score": "0.188193",
                     "ticker_sentiment_score": "-0.095917",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "This Stock Has a 10% Dividend Yield and Trades at a 52-Week Low. Is It a Bargain Right Now?",
+            "url": "https://www.fool.com/investing/2025/02/21/this-stock-has-a-101-dividend-yield-and-trades-at/",
+            "time_published": "20250222T031800",
+            "authors": [
+                "Matt Frankel and Tyler Crowe"
+            ],
+            "summary": "Uncertainty in the federal government has caused investors to be cautious about this REIT.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808390/holding-money-2022b.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.178636,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DEA",
+                    "relevance_score": "0.779232",
+                    "ticker_sentiment_score": "0.630919",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1642,80 +1675,6 @@
                     "relevance_score": "0.240489",
                     "ticker_sentiment_score": "-0.062746",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Oxford Square Capital Corp. Schedules Fourth Quarter 2024 Earnings Release and Conference Call for February 28, 2025 - Oxford Square Cap  ( NASDAQ:OXSQ ) , Oxford Square Capital Corp. - 5.50% Notes due 2028  ( NASDAQ:OXSQG ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43897468/oxford-square-capital-corp-schedules-fourth-quarter-2024-earnings-release-and-conference-call-for-",
-            "time_published": "20250221T223803",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "GREENWICH, Conn., Feb. 21, 2025 ( GLOBE NEWSWIRE ) -- Oxford Square Capital Corp. OXSQ OXSQZ OXSQG announced today that it will hold a conference call to discuss fourth quarter 2024 earnings on Friday, February 28, 2025 at 9:00 AM Eastern time. The toll free dial-in number is 1-800-549-8228.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": 0.213577,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "OXSQ",
-                    "relevance_score": "0.729067",
-                    "ticker_sentiment_score": "0.244471",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Oxford Square Capital Corp. Schedules Fourth Quarter 2024 Earnings Release and Conference Call for February 28, 2025",
-            "url": "https://www.globenewswire.com/news-release/2025/02/21/3030729/0/en/Oxford-Square-Capital-Corp-Schedules-Fourth-Quarter-2024-Earnings-Release-and-Conference-Call-for-February-28-2025.html",
-            "time_published": "20250221T223800",
-            "authors": [
-                "Oxford Square Capital Corp."
-            ],
-            "summary": "GREENWICH, Conn., Feb. 21, 2025 ( GLOBE NEWSWIRE ) -- Oxford Square Capital Corp. ( NasdaqGS: OXSQ ) ( NasdaqGS: OXSQZ ) ( NasdaqGS: OXSQG ) announced today that it will hold a conference call to discuss fourth quarter 2024 earnings on Friday, February 28, 2025 at 9:00 AM Eastern time.",
-            "banner_image": "",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                }
-            ],
-            "overall_sentiment_score": 0.155664,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "OXSQ",
-                    "relevance_score": "0.704675",
-                    "ticker_sentiment_score": "0.248161",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
