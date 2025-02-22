@@ -1,8 +1,63 @@
 {
-    "items": "32",
+    "items": "30",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Cathie Wood's Ark Invest Loads Up On Beam Therapeutics, Nu Holdings: Offloads MercadoLibre, Adaptive Biotechnologies - ARK Fintech Innovation ETF  ( ARCA:ARKF ) , Adaptive Biotechnologies  ( NASDAQ:ADPT ) ",
+            "url": "https://www.benzinga.com/25/02/43900440/cathie-woods-ark-invest-loads-up-on-beam-therapeutics-nu-holdings-offloads-mercadolibre-adaptive-biotechnologies",
+            "time_published": "20250222T090500",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "On Friday, Cathie Wood-led Ark Invest made significant trades involving Beam Therapeutics Inc. BEAM, Nu Holdings Ltd. NU, MercadoLibre Inc. MELI, and Adaptive Biotechnologies Corp. ADPT. Ark Invest, through its ARK Genomic Revolution ETF ARKG and ARK Innovation ETF ARKK, bought a total of 24,640 ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/22/Other-Key-Trades.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.875462"
+                }
+            ],
+            "overall_sentiment_score": 0.413142,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BEAM",
+                    "relevance_score": "0.608634",
+                    "ticker_sentiment_score": "0.483387",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ADPT",
+                    "relevance_score": "0.608634",
+                    "ticker_sentiment_score": "0.54113",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MELI",
+                    "relevance_score": "0.608634",
+                    "ticker_sentiment_score": "0.553628",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NU",
+                    "relevance_score": "0.479683",
+                    "ticker_sentiment_score": "0.516146",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "Bitcoin's Bullish Signals: These 3 Key Metrics Indicate Potential Upswing, Says Research Firm - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
             "url": "https://www.benzinga.com/25/02/43900409/bitcoins-bullish-signals-these-3-key-metrics-indicate-potential-upswing-says-research-firm",
@@ -41,6 +96,28 @@
                     "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
+        },
+        {
+            "title": "Will President Donald Trump Renege on His Social Security Promise With House Republicans Seeking $2 Trillion in Cuts to Mandatory Spending?",
+            "url": "https://www.fool.com/retirement/2025/02/22/donald-trump-renege-on-his-social-security-promise/",
+            "time_published": "20250222T084400",
+            "authors": [
+                "Sean Williams"
+            ],
+            "summary": "The House GOP wants to cut up to $2 trillion in mandatory spending from the federal budget over the next 10 years -- is Social Security on the chopping block?",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807911%2Fdonald-trump-signs-executive-order-wh-photo-daniel-torok.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.145474,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Macroscope | New infrastructure funding must be found before it bankrupts states",
@@ -1063,162 +1140,6 @@
                     "ticker": "META",
                     "relevance_score": "0.061473",
                     "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Experts Say Musk's $97 Billion Offer Could Force OpenAI To Reassess Its Value",
-            "url": "https://www.benzinga.com/news/25/02/43898578/experts-say-musks-97-billion-offer-could-force-openai-to-reassess-its-value",
-            "time_published": "20250222T010017",
-            "authors": [
-                "AJ Fabino"
-            ],
-            "summary": "Elon Musk's unsolicited $97 billion bid for OpenAI's assets has created a valuation challenge for the artificial intelligence leader, potentially complicating its planned transition to a for-profit structure.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/21/More-Praise-For-Musk.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.222109,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SFTBF",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.026377",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.283138",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Kirby McInerney LLP Reminds TransMedics Group, Inc.  ( TMDX )  Investors of Class Action Filing and Encourages Investors to Contact the Firm - TransMedics Gr  ( NASDAQ:TMDX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43898569/kirby-mcinerney-llp-reminds-transmedics-group-inc-tmdx-investors-of-class-action-filing-and-encour",
-            "time_published": "20250222T010000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 21, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kirby McInerney LLP reminds investors who purchased TransMedics Group, Inc. ( \"TransMedics\" or the \"Company\" ) TMDX securities to contact Thomas W.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.056682,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TMDX",
-                    "relevance_score": "0.748842",
-                    "ticker_sentiment_score": "-0.34994",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Gainey McKenna & Egleston Announces A Class Action Lawsuit Has Been Filed Against Semtech Corporation  ( SMTC )  - Semtech  ( NASDAQ:SMTC ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43898571/gainey-mckenna-egleston-announces-a-class-action-lawsuit-has-been-filed-against-semtech-corporatio",
-            "time_published": "20250222T010000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 21, 2025 ( GLOBE NEWSWIRE ) -- Gainey McKenna & Egleston announces that a securities class action lawsuit has been filed in the United States District Court for the Central District of California on behalf of all persons or entities who purchased or otherwise acquired Semtech ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.048577,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SMTC",
-                    "relevance_score": "0.422897",
-                    "ticker_sentiment_score": "0.125898",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Kirby McInerney LLP Reminds Venture Global, Inc. Investors of Class Action Filing and Encourages Investors to Contact the Firm - Venture Global  ( NYSE:VG ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43898570/kirby-mcinerney-llp-reminds-venture-global-inc-investors-of-class-action-filing-and-encourages-inv",
-            "time_published": "20250222T010000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, Feb. 21, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kirby McInerney LLP reminds investors who purchased Venture Global Inc. ( \"Venture\" or the \"Company\" ) VG securities to contact Thomas W.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.073028,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TTE",
-                    "relevance_score": "0.274834",
-                    "ticker_sentiment_score": "0.146743",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VG",
-                    "relevance_score": "0.185306",
-                    "ticker_sentiment_score": "0.076871",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
