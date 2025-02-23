@@ -1,8 +1,45 @@
 {
-    "items": "27",
+    "items": "28",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Charlie Munger's Financial Success and Longevity Advice: 'My Game in Life Was Always To Avoid All Standard Ways of Failing'",
+            "url": "https://www.benzinga.com/news/25/02/43903504/charlie-mungers-financial-success-and-longevity-advice-my-game-in-life-was-always-to-avoid-all-standard-ways",
+            "time_published": "20250223T202019",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Charlie Munger's financial wisdom shines as he dismisses a secret formula for success and longevity. Living modestly for seven decades, the investment tycoon's legacy promotes steering clear of \"insane\" risks.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/23/Charlie-Munger.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.040675,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.084127",
+                    "ticker_sentiment_score": "-0.090081",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Will the Next Big AI Innovation Really Come From Pump.fun and Solana Meme Coins?",
             "url": "https://decrypt.co/306056/will-the-next-big-ai-innovation-really-come-from-pump-fun-and-solana-meme-coins",
