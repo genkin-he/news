@@ -1,8 +1,80 @@
 {
-    "items": "39",
+    "items": "36",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Author of Upcoming Elon Musk Biography Questions His 'Intellectual Achievements' - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/general/social-media/25/02/43902702/author-of-upcoming-elon-musk-biography-questions-his-intellectual-achievements",
+            "time_published": "20250223T133026",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Seth Abramson challenges the narrative of Elon Musk's intellectual prowess, sparking online debates. The biographer claims Musk's success is largely due to financial investments, not intellectual achievements.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/23/Rome--Italy---December-16--2023-Elon-Mus.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.22766,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PYPL",
+                    "relevance_score": "0.169081",
+                    "ticker_sentiment_score": "-0.141898",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.169081",
+                    "ticker_sentiment_score": "-0.141898",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "If You Invested $10,000 in Apple Stock 30 Years Ago, Here's How Much You Would Have Today",
+            "url": "https://www.fool.com/investing/2025/02/23/if-youd-invested-10000-in-apple-stock-30-years-ago/",
+            "time_published": "20250223T132000",
+            "authors": [
+                "Jennifer Saibil"
+            ],
+            "summary": "All investors dream about finding that one stock that can catapult them into millionaire status. You can never know which stocks are going to be those rare winners, and there's certainly a bit of luck in choosing your portfolio.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808207/person-with-a-mobile-phone-cheering.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.409017,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.786325",
+                    "ticker_sentiment_score": "0.629638",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "ROSEN, A TOP RANKED LAW FIRM, Encourages Alarum Technologies Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action - ALAR - Alarum Technologies  ( NASDAQ:ALAR ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43902677/rosen-a-top-ranked-law-firm-encourages-alarum-technologies-ltd-investors-to-secure-counsel-before-",
@@ -45,6 +117,94 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "1 Top Cryptocurrency to Buy Before It Soars 4,000% According to Cathie Wood",
+            "url": "https://www.fool.com/investing/2025/02/23/top-cryptocurrency-to-buy-bitcoin-cathie-wood/",
+            "time_published": "20250223T130800",
+            "authors": [
+                "Ryan Vanzo"
+            ],
+            "summary": "Cathie Wood is known for her exciting and optimistic long-term growth projections. Her investment fund has jumped into some of the trendiest companies and securities of the last decade.Not all her investments have turned out profitable, but there's no doubt that she understands the world ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/805590/gettyimages-1167779631-1200x600-7cb9712.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.682689"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.33491,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.750038",
+                    "ticker_sentiment_score": "0.429656",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "If You'd Invested $10,000 in Amazon Stock 25 Years Ago, Here's How Much You'd Have Today",
+            "url": "https://www.fool.com/investing/2025/02/23/if-youd-invested-10000-in-amazon-stock-25-years-ag/",
+            "time_published": "20250223T130500",
+            "authors": [
+                "Jennifer Saibil"
+            ],
+            "summary": "Amazon ( NASDAQ: AMZN ) has been one of the best stocks to ever own on the market, and it's still going strong. Although today its most potent opportunities come from artificial intelligence ( AI ) , it built itself up to become the e-commerce king when that industry was just getting started.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808208/amazon-locker.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.354381,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.769861",
+                    "ticker_sentiment_score": "0.550616",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Stablecoins: the real crypto craze",
+            "url": "https://www.economist.com/finance-and-economics/2025/02/23/stablecoins-the-real-crypto-craze",
+            "time_published": "20250223T130452",
+            "authors": [
+                "The Economist"
+            ],
+            "summary": "Policymakers are racing to catch up with their rapid rise ...",
+            "banner_image": "https://www.economist.com/content-assets/images/20250222_FNP503.jpg",
+            "source": "The Economist",
+            "category_within_source": "Finance",
+            "source_domain": "www.economist.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.091202,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Cardone Exits XRP, Dogecoin Millionaire's Conviction Plays, Schiff's Concerns, Pepe Bull's Predictions, And Musk's Dogecoin Endorsement: This Week In Crypto",
@@ -98,6 +258,47 @@
                     "relevance_score": "0.533481",
                     "ticker_sentiment_score": "0.060272",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Dividend Stock Down 36% to Double Up on Right Now",
+            "url": "https://www.fool.com/investing/2025/02/23/1-magnificent-sp-500-dividend-stock-down-36/",
+            "time_published": "20250223T130000",
+            "authors": [
+                "Josh Kohn-Lindquist"
+            ],
+            "summary": "It is a beautiful thing when you find a feel-good stock that offers market-beating potential. A perfect example of this combination today is animal healthcare specialist Zoetis ( NYSE: ZTS ) .Whether helping our furry friends at home, keeping livestock healthy, or doing its part to battle the ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807933%2Fgettyimages-1553902230.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.917436"
+                }
+            ],
+            "overall_sentiment_score": 0.400041,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ZTS",
+                    "relevance_score": "0.609676",
+                    "ticker_sentiment_score": "0.574514",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1354,463 +1555,6 @@
                     "relevance_score": "0.655281",
                     "ticker_sentiment_score": "0.510122",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Is It Smart to Buy Stocks With the S&P 500 at an All-Time High? History Has a Clear Answer",
-            "url": "https://www.fool.com/investing/2025/02/23/is-it-smart-to-buy-stocks-with-the-sp-500-at-an-al/",
-            "time_published": "20250223T102000",
-            "authors": [
-                "Adam Levy"
-            ],
-            "summary": "How long can the current bull market last, and how high will it go?",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808119%2Fgettyimages-man-thinking.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.175328,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.036926",
-                    "ticker_sentiment_score": "0.021341",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Will Super Micro Computer Stock Surge After Feb. 25?",
-            "url": "https://www.fool.com/investing/2025/02/23/will-super-micro-computer-stock-surge-after-feb-25/",
-            "time_published": "20250223T101800",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "Super Micro Computer ( NASDAQ: SMCI ) is approaching a make-it-or-break-it moment. Last year, the tech company hit a stumbling block -- one that put its listing on the Nasdaq at risk -- and this crushed its stock performance.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808650%2Fgettyimages-904880170.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998356"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.95493"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.153002,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.050572",
-                    "ticker_sentiment_score": "0.164313",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.100941",
-                    "ticker_sentiment_score": "0.181786",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SMCI",
-                    "relevance_score": "0.100941",
-                    "ticker_sentiment_score": "-0.165003",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "1 Growth Stock Down 65% to Buy Right Now",
-            "url": "https://www.fool.com/investing/2025/02/23/1-growth-stock-down-65-to-buy-right-now/",
-            "time_published": "20250223T101700",
-            "authors": [
-                "Dan Victor"
-            ],
-            "summary": "Vacation-hungry travelers propelled Carnival ( NYSE: CCL ) to record-breaking revenue and cruise bookings in 2024. The company is capitalizing on an industry boom, with data showing a steady rise in first-time and repeat cruisers.",
-            "banner_image": "https://media.ycharts.com/charts/aa4be8ffef24bed6f4f1f3cb11b7cf95.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998663"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.377818,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RCL",
-                    "relevance_score": "0.057215",
-                    "ticker_sentiment_score": "0.145975",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Where Will Berkshire Hathaway Be in 10 Years?",
-            "url": "https://www.fool.com/investing/2025/02/23/where-will-berkshire-hathaway-be-in-10-years/",
-            "time_published": "20250223T101500",
-            "authors": [
-                "James Brumley"
-            ],
-            "summary": "The opportunity-starved organization is likely to start making major investments again -- just in a different way.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808103/buffett16-tmf.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.260686,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AXP",
-                    "relevance_score": "0.039096",
-                    "ticker_sentiment_score": "0.0762",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.078099",
-                    "ticker_sentiment_score": "0.12124",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "IONQ",
-                    "relevance_score": "0.039096",
-                    "ticker_sentiment_score": "0.117644",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.039096",
-                    "ticker_sentiment_score": "0.116331",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "KO",
-                    "relevance_score": "0.078099",
-                    "ticker_sentiment_score": "0.099355",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.376005",
-                    "ticker_sentiment_score": "0.20696",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "1 No-Brainer Value Vanguard ETF to Buy Right Now for Less Than $200",
-            "url": "https://www.fool.com/investing/2025/02/23/1-no-brainer-value-vanguard-etf-to-buy-right-now/",
-            "time_published": "20250223T100800",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "Indexes have been soaring in recent quarters, led by growth stocks as investors pile into themes like artificial intelligence and quantum computing. And optimism about an improving economic environment -- with lower interest rates -- ahead also has fueled gains.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808533%2Fgettyimages-1323758599.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998932"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.444873,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.058615",
-                    "ticker_sentiment_score": "0.195007",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.058615",
-                    "ticker_sentiment_score": "0.17477",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Got $5,000? 2 Top Growth Stocks to Buy That Could Double Your Money.",
-            "url": "https://www.fool.com/investing/2025/02/23/got-5000-top-growth-stocks-buy-double-money/",
-            "time_published": "20250223T100700",
-            "authors": [
-                "John Ballard"
-            ],
-            "summary": "It's no secret that artificial intelligence ( AI ) is on target to create tremendous returns for investors that invest in the right stocks. If you have extra cash you don't need for paying bills or reducing debt, investing in companies serving the growing data center market could pay off in the ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807990/cloud-ai.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.929393"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.325809,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MCQEF",
-                    "relevance_score": "0.066598",
-                    "ticker_sentiment_score": "0.270566",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MU",
-                    "relevance_score": "0.132733",
-                    "ticker_sentiment_score": "0.231012",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "APLD",
-                    "relevance_score": "0.261818",
-                    "ticker_sentiment_score": "0.262084",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.066598",
-                    "ticker_sentiment_score": "0.270566",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.066598",
-                    "ticker_sentiment_score": "0.129085",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:AMD",
-                    "relevance_score": "0.066598",
-                    "ticker_sentiment_score": "0.194635",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "1 Wall Street Analyst Thinks Snowflake Stock Is Going to $235. Is It a Buy?",
-            "url": "https://www.fool.com/investing/2025/02/23/wall-street-analyst-snowflake-stock-235-buy/",
-            "time_published": "20250223T100500",
-            "authors": [
-                "John Ballard"
-            ],
-            "summary": "Snowflake ( NYSE: SNOW ) shares have soared 47% over the last six months at the time of this writing. Wolfe Research analyst Alex Zukin recently upgraded the stock to an outperform ( buy ) rating with a $235 price target, implying upside of 24% over the current $189 share price.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808235/cloud-ai.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.990893"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.990999"
-                }
-            ],
-            "overall_sentiment_score": 0.3348,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SNOW",
-                    "relevance_score": "0.758293",
-                    "ticker_sentiment_score": "0.52768",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This High-Yield Dividend Stock Has Nearly Tripled the S&P 500's Performance Over the Past Year. Should Investors Continue to Buy It?",
-            "url": "https://www.fool.com/investing/2025/02/23/this-high-yield-dividend-stock-has-nearly-tripled/",
-            "time_published": "20250223T100400",
-            "authors": [
-                "Justin Pope"
-            ],
-            "summary": "This stock is known for being slow and stodgy but has been anything but over the past 12 months.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808309/cell-phone-telecom.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999976"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.917436"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.069718,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "T",
-                    "relevance_score": "0.623495",
-                    "ticker_sentiment_score": "0.190148",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TMUS",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "0.044832",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VZ",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "0.044832",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Should I Buy Sirius XM Stock?",
-            "url": "https://www.fool.com/investing/2025/02/23/should-i-buy-sirius-xm-stock/",
-            "time_published": "20250223T100200",
-            "authors": [
-                "Will Healy"
-            ],
-            "summary": "Investors may not know what to make of Sirius XM Holdings ( NASDAQ: SIRI ) stock. The company has what amounts to a legal monopoly for satellite radio in the U.S. Nonetheless, this does not include internet-based media, meaning its satellite-based domination has not eliminated its ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808332/smart-car-driving-graphic-on-windshield.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.15974,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.110462",
-                    "ticker_sentiment_score": "-0.007944",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SIRI",
-                    "relevance_score": "0.555067",
-                    "ticker_sentiment_score": "0.22466",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
