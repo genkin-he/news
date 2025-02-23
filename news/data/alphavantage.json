@@ -1,8 +1,30 @@
 {
-    "items": "6",
+    "items": "7",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "How the US makes billions selling a gristly, widely despised snack to China",
+            "url": "https://www.scmp.com/economy/china-economy/article/3299676/how-us-makes-billions-selling-gristly-chicken-feet-china",
+            "time_published": "20250223T090010",
+            "authors": [
+                "Alice Li"
+            ],
+            "summary": "Chicken feet are regarded as waste in most countries, but in China they are a beloved delicacy - and a lucrative import category.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/21/b66bda7f-e81a-47d7-b310-bcd917b173be_4c2c6d8f.jpg?itok=Ndo_BQ7i&v=1740132871",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.063244,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
         {
             "title": "Opinion | Funding the Northern Metropolis will be a big test for Paul Chan",
             "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3299469/funding-northern-metropolis-will-be-big-test-paul-chan",
