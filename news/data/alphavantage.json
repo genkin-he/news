@@ -1,8 +1,49 @@
 {
-    "items": "32",
+    "items": "38",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Trump's Tax Plans, Gold Nears $3000, And Ray Dalio's Solution To America's Debt Crisis: This Week In Economics",
+            "url": "https://www.benzinga.com/news/25/02/43902384/trumps-tax-plans-gold-nears-3000-and-ray-dalios-solution-to-americas-debt-crisis-this-week-in-economics",
+            "time_published": "20250223T110046",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "The week has been a whirlwind of economic news, with President Donald Trump's administration making headlines for its tax proposals and plans for the Internal Revenue Service ( IRS ) . Meanwhile, gold is nearing the $3000 mark, and billionaire investor Ray Dalio has proposed a solution to ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/23/What-Hyman-Said.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.04708,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.114682",
+                    "ticker_sentiment_score": "-0.139194",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Transaction in Own Shares",
             "url": "https://www.globenewswire.com/news-release/2025/02/23/3030804/0/en/Transaction-in-Own-Shares.html",
@@ -29,6 +70,219 @@
                     "relevance_score": "0.107016",
                     "ticker_sentiment_score": "0.205938",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "This Magnificent 5.7%-Yielding Dividend Stock Has Now Increased Its Payment for 110 Quarters in a Row",
+            "url": "https://www.fool.com/investing/2025/02/23/this-magnificent-57-yielding-dividend-stock-has-no/",
+            "time_published": "20250223T104600",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "Realty Income's ( NYSE: O ) mission is to invest in places that help it \"deliver dependable monthly dividends that increase over time.\" It has certainly delivered on that objective. The real estate investment trust ( REIT ) recently extended its dividend growth streak to 110 straight quarters.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808379/compound-interest-growth-1200x800-5b2df79.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                }
+            ],
+            "overall_sentiment_score": 0.359646,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "O",
+                    "relevance_score": "0.219809",
+                    "ticker_sentiment_score": "0.297182",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Could This Controversial Plan Proposed by President Trump Pave the Way for the Biggest Social Security Change Ever?",
+            "url": "https://www.fool.com/retirement/2025/02/23/controversial-plan-trump-social-security-change/",
+            "time_published": "20250223T104600",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "When he was running for president, Donald Trump declared that Social Security didn't need to be touched. Last week, President Trump confirmed this premise, telling Fox News' Sean Hannity, \"Social Security won't be touched.\"However, there's one change the president wants to make that might have ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808314%2Fsocial-security-options-highway-sign-fork-in-the-road.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.360113,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.058615",
+                    "ticker_sentiment_score": "0.113994",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "1 Growth Stock Down 40%: Should You Pile Into This Well-Known Consumer Brand?",
+            "url": "https://www.fool.com/investing/2025/02/23/growth-stock-should-you-pile-know-consumer-brand/",
+            "time_published": "20250223T103500",
+            "authors": [
+                "Neil Patel"
+            ],
+            "summary": "After terrific performances in 2023 and 2024, the major market indexes are near record territory so far this year. Investors looking to put money to work in this type of bullish market environment might be discouraged by the fact that there might not be too many compelling buying ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808500/purple-crocs.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.796627"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.270401,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NKE",
+                    "relevance_score": "0.060236",
+                    "ticker_sentiment_score": "0.141221",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CROX",
+                    "relevance_score": "0.709915",
+                    "ticker_sentiment_score": "0.355846",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "3 Artificial Intelligence Stocks to Buy Like There's No Tomorrow",
+            "url": "https://www.fool.com/investing/2025/02/23/3-artificial-intelligence-stocks-to-buy-like-there/",
+            "time_published": "20250223T103000",
+            "authors": [
+                "Geoffrey Seiler"
+            ],
+            "summary": "Artificial Intelligence ( AI ) continues to look like it has the potential to be a game-changing technology that helps shape the world we live in. It also has the potential to be one of the best areas to invest in over the long haul.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808088%2Fgettyimages-1480633240.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.495866"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.249056,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.188111",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.022502",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.180798",
+                    "ticker_sentiment_score": "0.071695",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.022502",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.224903",
+                    "ticker_sentiment_score": "0.239529",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.105882",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Walmart Shares Sink on Soft Sales Forecast. Is It Time to Buy the Stock on the Dip?",
+            "url": "https://www.fool.com/investing/2025/02/23/walmart-share-sink-on-soft-sales-forecast-is-it-ti/",
+            "time_published": "20250223T102500",
+            "authors": [
+                "Geoffrey Seiler"
+            ],
+            "summary": "Walmart ( NYSE: WMT ) has been one of the biggest winners in the retail space, but its shares slipped after the retail giant issued a cautious 2025 outlook. The stock is still up about 65% over the past year, as of this writing.Let's take a closer look at its results and guidance to see if this ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808434%2Fgettyimages-1150982114.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.362666,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.593341",
+                    "ticker_sentiment_score": "0.453057",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
