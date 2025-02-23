@@ -1,5 +1,5 @@
 {
-    "items": "7",
+    "items": "6",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -218,59 +218,6 @@
                     "relevance_score": "0.050254",
                     "ticker_sentiment_score": "0.155251",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "In Malaysia, affordable Chinese brands are carving out a bigger piece of the pie",
-            "url": "https://www.scmp.com/economy/global-economy/article/3299660/malaysia-low-priced-chinese-brands-gain-popularity-western-dominated-malls",
-            "time_published": "20250223T020014",
-            "authors": [
-                "Ralph Jennings"
-            ],
-            "summary": "Competitively priced products from China, coupled with Malaysia's millions of ethnic Chinese residents and a growing middle class, help Chinese brands gain a stronger foothold.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/21/4b074bbf-6de1-4377-9661-4c7e5d10be60_7a98517c.jpg?itok=4Eg_RyW1&v=1740130099",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.144624,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LNNGF",
-                    "relevance_score": "0.040484",
-                    "ticker_sentiment_score": "-0.014581",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.040484",
-                    "ticker_sentiment_score": "0.0746",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HDALF",
-                    "relevance_score": "0.080865",
-                    "ticker_sentiment_score": "0.131485",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.040484",
-                    "ticker_sentiment_score": "-0.014581",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "XIACY",
-                    "relevance_score": "0.121037",
-                    "ticker_sentiment_score": "0.029395",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
