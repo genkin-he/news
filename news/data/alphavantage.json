@@ -1,8 +1,251 @@
 {
-    "items": "41",
+    "items": "42",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Top Wall Street analysts are bullish on these dividend stocks",
+            "url": "https://www.cnbc.com/2025/02/23/top-wall-street-analysts-are-bullish-on-these-dividend-stocks.html",
+            "time_published": "20250223T121832",
+            "authors": [],
+            "summary": "TipRanks' analyst ranking service highlights three dividend-paying stocks, including McDonald's and Ares Capital.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Investing",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.623304"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.994953"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.309123,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MDNDF",
+                    "relevance_score": "0.183059",
+                    "ticker_sentiment_score": "0.197369",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ARCC",
+                    "relevance_score": "0.183059",
+                    "ticker_sentiment_score": "0.177036",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ET",
+                    "relevance_score": "0.288893",
+                    "ticker_sentiment_score": "0.278251",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, A TOP RANKED LAW FIRM, Encourages Block, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - SQ, XYZ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43902551/rosen-a-top-ranked-law-firm-encourages-block-inc-investors-to-secure-counsel-before-important-dead",
+            "time_published": "20250223T121500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 23, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of Class A common stock of Block, Inc. SQ XYZ ) ) between February 26, 2020 and April 30, 2024, both dates inclusive ( the \"Class Period\" ) , of the important March 18, ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.891286"
+                }
+            ],
+            "overall_sentiment_score": -0.150811,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BSQKZ",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.073701",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BNXYF",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "-0.244858",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "-0.244858",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Apple's iPhone 16E Launch, US Investment Pledge, Potential Price Hikes, And More: This Week In Appleveres - Apple  ( NASDAQ:AAPL ) ",
+            "url": "https://www.benzinga.com/25/02/43902498/apples-iphone-16e-launch-us-investment-pledge-potential-price-hikes-and-more-this-week-in-appleveres",
+            "time_published": "20250223T120042",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "It was an eventful week for tech giant Apple Inc. AAPL, with the company making headlines for a variety of reasons. From the launch of a new budget-friendly iPhone to a significant investment pledge in the United States, Apple was in the spotlight. Here's a recap of the top stories.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/23/Apple-Raises-Monthly-AppleCare-Prices-Fo.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.298219,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.126784",
+                    "ticker_sentiment_score": "0.018761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.798255",
+                    "ticker_sentiment_score": "0.42486",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "WB",
+                    "relevance_score": "0.126784",
+                    "ticker_sentiment_score": "0.123048",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "5 Reasons to Buy United Airlines Stock Like There's No Tomorrow",
+            "url": "https://www.fool.com/investing/2025/02/23/5-reasons-to-buy-united-airlines-stock-like-theres/",
+            "time_published": "20250223T113000",
+            "authors": [
+                "Lee Samaha"
+            ],
+            "summary": "United Airlines ( NASDAQ: UAL ) stock has increased by 148% over the last year, but that doesn't mean it isn't still a great value opportunity. On the contrary, the stock still looks excellent, and many trends continue to favor it.Here are five reasons why United Airlines could be an excellent ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808005%2Fairlines.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.905476"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                }
+            ],
+            "overall_sentiment_score": 0.338921,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EADSF",
+                    "relevance_score": "0.055236",
+                    "ticker_sentiment_score": "0.15488",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UAL",
+                    "relevance_score": "0.322374",
+                    "ticker_sentiment_score": "0.418092",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Is Apple a Buy, Sell, or Hold in 2025?",
+            "url": "https://www.fool.com/investing/2025/02/23/is-apple-a-buy-sell-or-hold-in-2025/",
+            "time_published": "20250223T113000",
+            "authors": [
+                "Geoffrey Seiler"
+            ],
+            "summary": "With a market capitalization of $3.7 trillion, Apple ( NASDAQ: AAPL ) is the largest company in the world. Meanwhile, most investors own the stock either directly or indirectly through exchange-traded funds ( ETFs ) or mutual funds that track major market indices.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808253%2Fgettyimages-1368363817.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999186"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.117514,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.049221",
+                    "ticker_sentiment_score": "-0.051056",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.146916",
+                    "ticker_sentiment_score": "0.094106",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.75914",
+                    "ticker_sentiment_score": "0.204267",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "1 Undeniable Truth Amazon and Alphabet Shareholders Must Understand",
             "url": "https://www.fool.com/investing/2025/02/23/1-undeniable-truth-amazon-and-alphabet-shareholder/",
@@ -1820,157 +2063,6 @@
                     "ticker": "PLTR",
                     "relevance_score": "0.03853",
                     "ticker_sentiment_score": "0.082864",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "3 No-Brainer High-Yield Dividend Stocks to Buy Right Now for Less Than $200",
-            "url": "https://www.fool.com/investing/2025/02/23/3-no-brainer-high-yield-dividend-stocks-to-buy-rig/",
-            "time_published": "20250223T090500",
-            "authors": [
-                "Matt DiLallo"
-            ],
-            "summary": "High-yield dividend stocks can help you maximize the income generated from every dollar you invest. For example, the average dividend stock has a yield of around 1.2% ( using the S&P 500's dividend yield as a benchmark ) . Every $100 invested at that rate would produce about $1.20 of dividend ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808236/gettyimages-1952457434-1201x762-95f5f52.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.5855"
-                }
-            ],
-            "overall_sentiment_score": 0.292307,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "STAG",
-                    "relevance_score": "0.248343",
-                    "ticker_sentiment_score": "0.298437",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "EPR",
-                    "relevance_score": "0.295867",
-                    "ticker_sentiment_score": "0.361691",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "NNN",
-                    "relevance_score": "0.295867",
-                    "ticker_sentiment_score": "0.273704",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Devon Energy Sent Investors $2 Billion in Cash Last Year and Could Return Even More in 2025",
-            "url": "https://www.fool.com/investing/2025/02/23/devon-energy-sent-investors-2-billion-in-cash-last/",
-            "time_published": "20250223T090400",
-            "authors": [
-                "Matt DiLallo"
-            ],
-            "summary": "Devon Energy ( NYSE: DVN ) has rebuilt its oil and gas resource portfolio over the years into one that can generate a lot of cash. It accelerated that transition in late 2020 when the company agreed to a merger of equals with WPX Energy to create a leading oil and gas producer focused on ...",
-            "banner_image": "https://media.ycharts.com/charts/422a9d8e94685db24ca68e5a1f1796a8.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.206089,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DVN",
-                    "relevance_score": "0.281584",
-                    "ticker_sentiment_score": "0.256932",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "How the US makes billions selling a gristly, widely despised snack to China",
-            "url": "https://www.scmp.com/economy/china-economy/article/3299676/how-us-makes-billions-selling-gristly-chicken-feet-china",
-            "time_published": "20250223T090010",
-            "authors": [
-                "Alice Li"
-            ],
-            "summary": "Chicken feet are regarded as waste in most countries, but in China they are a beloved delicacy - and a lucrative import category.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/21/b66bda7f-e81a-47d7-b310-bcd917b173be_4c2c6d8f.jpg?itok=Ndo_BQ7i&v=1740132871",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.063244,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "20 Words From President Donald Trump That Can Completely Derail the Otherworldly Rally in Artificial Intelligence  ( AI )  Stocks",
-            "url": "https://www.fool.com/investing/2025/02/23/20-words-president-trump-derail-rally-in-ai-stocks/",
-            "time_published": "20250223T085100",
-            "authors": [
-                "Sean Williams"
-            ],
-            "summary": "One sentence from President Trump has the gravity to reshape the hype surrounding AI.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808506%2Fpresident-donald-trump-mar-a-lago-speech-official-wh-photo-daniel-torok.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.160133,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.138464",
-                    "ticker_sentiment_score": "0.008605",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSM",
-                    "relevance_score": "0.069495",
-                    "ticker_sentiment_score": "-0.017486",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
