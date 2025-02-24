@@ -1,8 +1,364 @@
 {
-    "items": "41",
+    "items": "44",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "KKR Clinches $400 Million Deal To Take Controlling Stake In India's Cancer Hospital Chain HCG: Details - KKR  ( NYSE:KKR ) ",
+            "url": "https://www.benzinga.com/25/02/43907861/kkr-to-gain-full-control-of-hcg-in-400-million-deal-eyes-healthcare-expansion",
+            "time_published": "20250224T112120",
+            "authors": [
+                "Lekha Gupta"
+            ],
+            "summary": "KKR to acquire up to 54% of Healthcare Global Enterprises for $400M, with potential ownership up to 77%. Deal strengthens KKR's focus on India's healthcare sector, adding to investments in Max Healthcare and Gland Pharma.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Businessmen-Making-Handshake-With-Partne.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Mergers",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99393"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.227227,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "E",
+                    "relevance_score": "0.098659",
+                    "ticker_sentiment_score": "0.214916",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Beyond, Inc. Closes on the Purchase of Buy Buy Baby - Beyond  ( NYSE:BYON ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43907718/beyond-inc-closes-on-the-purchase-of-buy-buy-baby",
+            "time_published": "20250224T110500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "MURRAY, Utah, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Beyond, Inc. BYON, owner of Bed Bath & Beyond and Overstock, announced today it has completed the previously announced transaction pursuant to the Company's Asset Purchase Agreement with BBBY Acquisition Co. LLC ( \"BBBY\" ) to acquire the global ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.27166,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ICNB",
+                    "relevance_score": "0.07887",
+                    "ticker_sentiment_score": "0.140244",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BYON",
+                    "relevance_score": "0.801951",
+                    "ticker_sentiment_score": "0.422041",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "BBBYQ",
+                    "relevance_score": "0.379435",
+                    "ticker_sentiment_score": "0.285625",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Beyond, Inc. Closes on the Purchase of Buy Buy Baby",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030964/33533/en/Beyond-Inc-Closes-on-the-Purchase-of-Buy-Buy-Baby.html",
+            "time_published": "20250224T110500",
+            "authors": [
+                "Inc.",
+                "Beyond"
+            ],
+            "summary": "MURRAY, Utah, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Beyond, Inc. ( NYSE:BYON ) , owner of Bed Bath & Beyond and Overstock, announced today it has completed the previously announced transaction pursuant to the Company's Asset Purchase Agreement with BBBY Acquisition Co. LLC ( \"BBBY\" ) to acquire ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/a8c3383d-173f-4442-a2c9-702597df815c",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.260136,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ICNB",
+                    "relevance_score": "0.085324",
+                    "ticker_sentiment_score": "0.141863",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BYON",
+                    "relevance_score": "0.252114",
+                    "ticker_sentiment_score": "0.25257",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BBBYQ",
+                    "relevance_score": "0.407844",
+                    "ticker_sentiment_score": "0.31938",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Sp Mortgage Bank Plc: Kai Koskela appointed as CEO of the Savings Banks' Union Coop",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030961/0/en/Sp-Mortgage-Bank-Plc-Kai-Koskela-appointed-as-CEO-of-the-Savings-Banks-Union-Coop.html",
+            "time_published": "20250224T110000",
+            "authors": [
+                "Sp Mortgage Bank Plc"
+            ],
+            "summary": "Sp Mortgage Bank Plc Stock Exchange Release 24 February 2025 at 1:00 pm ...",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.36848,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Gran Tierra Energy Inc. Announces 2024 Fourth Quarter & Year-End Results",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030953/0/en/Gran-Tierra-Energy-Inc-Announces-2024-Fourth-Quarter-Year-End-Results.html",
+            "time_published": "20250224T110000",
+            "authors": [
+                "Gran Tierra Energy Inc."
+            ],
+            "summary": "CALGARY, Alberta, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Gran Tierra Energy Inc. ( \"Gran Tierra\" or the \"Company\" ) ( NYSE American:GTE ) ( TSX:GTE ) ( LSE:GTE ) today announced the Company's financial and operating results for the fourth quarter ( \"the Quarter\" ) and year ended December 31, 2024.3 ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/816ac1b1-2e12-4a8a-904d-9b98ddf3ac03",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.189726,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LOECF",
+                    "relevance_score": "0.005948",
+                    "ticker_sentiment_score": "0.080683",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LDNXF",
+                    "relevance_score": "0.005948",
+                    "ticker_sentiment_score": "0.121236",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Disguise and The Pok\u00e9mon Company International Sign Multi-Year Contract Extension Including Addition of International Distribution Rights - Jakks Pacific  ( NASDAQ:JAKK ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43907579/disguise-and-the-pok-mon-company-international-sign-multi-year-contract-extension-including-additi",
+            "time_published": "20250224T110000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "POWAY, Calif., Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Disguise, Inc., the globally recognized costume division of JAKKS Pacific, Inc. JAKK, today announced an expansion of its long-standing agreement with The Pok\u00e9mon Company International through a multi-year contract extension.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.289867,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "JAKK",
+                    "relevance_score": "0.277748",
+                    "ticker_sentiment_score": "0.216425",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.097628",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Mawson Infrastructure Group Inc. Announces Participation in Metro Connect USA 2025",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030952/0/en/Mawson-Infrastructure-Group-Inc-Announces-Participation-in-Metro-Connect-USA-2025.html",
+            "time_published": "20250224T110000",
+            "authors": [
+                "Mawson Infrastructure Group Inc."
+            ],
+            "summary": "MIDLAND, Pa., Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Mawson Infrastructure Group Inc. ( NASDAQ: MIGI ) ( \"Mawson\" or \"the Company\" ) , a publicly-traded technology company focused on digital infrastructure platforms for artificial intelligence ( AI ) , high-performance computing ( HPC ) , and ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/1391467f-0125-4bad-8eb2-000e2a2be59b",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.139031,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MIGI",
+                    "relevance_score": "0.407844",
+                    "ticker_sentiment_score": "0.417722",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Mawson Infrastructure Group Inc. Announces Participation in Metro Connect USA 2025 - Mawson Infra Gr  ( NASDAQ:MIGI ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43907578/mawson-infrastructure-group-inc-announces-participation-in-metro-connect-usa-2025",
+            "time_published": "20250224T110000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "MIDLAND, Pa., Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Mawson Infrastructure Group Inc.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.141281,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MIGI",
+                    "relevance_score": "0.383765",
+                    "ticker_sentiment_score": "0.372365",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "BioCryst Announces Positive Results from APeX-P Trial for ORLADEYO\u00ae  ( berotralstat )  in Pediatric Patients with Hereditary Angioedema Aged 2 to <12 Years",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030956/29446/en/BioCryst-Announces-Positive-Results-from-APeX-P-Trial-for-ORLADEYO-berotralstat-in-Pediatric-Patients-with-Hereditary-Angioedema-Aged-2-to-12-Years.html",
+            "time_published": "20250224T110000",
+            "authors": [
+                "Inc.",
+                "BioCryst Pharmaceuticals"
+            ],
+            "summary": "-Additional real-world studies with ORLADEYO show statistically significant HAE attack rate reductions experienced by patients with C1-INH deficiency and normal C1-INH levels and ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/8b033909-1a3c-4811-b07b-fe03b12e00d2",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": -0.041178,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BCRX",
+                    "relevance_score": "0.067632",
+                    "ticker_sentiment_score": "0.05438",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Lucid Awards Limited Edition Lucid Air Sapphire With Lavender Finish To Winner Of Saudi Cup 2025 - Lucid Gr  ( NASDAQ:LCID ) ",
             "url": "https://www.benzinga.com/tech/25/02/43907447/lucid-awards-limited-edition-lucid-air-sapphire-with-lavender-finish-to-winner-of-saudi-cup-2025",
@@ -59,6 +415,28 @@
             "ticker_sentiment": []
         },
         {
+            "title": "If You Put Just $500 in Your IRA or 401 ( k )  Every Month for 30 Years, You Could Have This Much Cash by Retirement",
+            "url": "https://www.fool.com/retirement/2025/02/24/if-you-put-just-500-in-your-ira-or-401k-every-mont/",
+            "time_published": "20250224T104100",
+            "authors": [
+                "Selena Maranjian"
+            ],
+            "summary": "I love what-if financial scenarios -- where you figure out what would happen if, say, you invested a certain sum regularly over a long period. I've made many charts over the years, in fact, showing various scenarios for articles I've written.I think I love these tables because they offer the kind ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F807870%2Fgetty-happy-with-laptop.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.988915"
+                }
+            ],
+            "overall_sentiment_score": 0.256748,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
             "title": "Bitcoin Poised For Growth? Analyst Says 'One More Flush' Could Set Stage For Surge - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
             "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43907351/bitcoin-poised-for-growth-analyst-says-one-more-flush-could-set-stage-for-surge",
             "time_published": "20250224T103337",
@@ -92,6 +470,32 @@
             ]
         },
         {
+            "title": "Hong Kong SMEs want funding support amid mounting costs, survey finds",
+            "url": "https://www.scmp.com/business/article/3299928/hong-kong-smes-want-funding-support-amid-mounting-costs-survey-finds",
+            "time_published": "20250224T103325",
+            "authors": [
+                "Cheryl Arcibal"
+            ],
+            "summary": "More than half of the businesses surveyed by DBS hope the financial secretary will reveal some support for them in his budget address.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/24/15e4185e-8b3b-4bf2-9328-d8a95720c913_3b7e1b29.jpg?itok=4LSNiMg7&v=1740393205",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.227823,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
             "title": "Michelin: Fitch upgrades Michelin's Long-Term rating by one notch to 'A', with a Stable outlook",
             "url": "https://www.globenewswire.com/news-release/2025/02/24/3030941/0/en/Michelin-Fitch-upgrades-Michelin-s-Long-Term-rating-by-one-notch-to-A-with-a-Stable-outlook.html",
             "time_published": "20250224T103000",
@@ -111,6 +515,73 @@
                     "ticker": "MCO",
                     "relevance_score": "0.258351",
                     "ticker_sentiment_score": "0.250079",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "The Smartest Vanguard ETF to Buy With $500 Right Now",
+            "url": "https://www.fool.com/investing/2025/02/24/the-smartest-vanguard-etf-to-buy-with-500-right-no/",
+            "time_published": "20250224T102600",
+            "authors": [
+                "Stefon Walters"
+            ],
+            "summary": "The S&P 500 ( SNPINDEX: ^GSPC ) is arguably the stock market's most important index. It tracks the 500 largest U.S. companies on the market, and it has become the benchmark for U.S. and international investors.While the S&P 500 itself is fairly broad in style, variations of the index lean toward ...",
+            "banner_image": "https://media.ycharts.com/charts/02f972d870794bbdd02de29726da6c64.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999999"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                }
+            ],
+            "overall_sentiment_score": 0.331752,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.071357",
+                    "ticker_sentiment_score": "0.264769",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UNH",
+                    "relevance_score": "0.071357",
+                    "ticker_sentiment_score": "0.264769",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PG",
+                    "relevance_score": "0.071357",
+                    "ticker_sentiment_score": "0.264769",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "XOM",
+                    "relevance_score": "0.071357",
+                    "ticker_sentiment_score": "0.264769",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -539,6 +1010,154 @@
             ]
         },
         {
+            "title": "Nvidia, Home Depot, Lowe's, TJX and Salesforce are part of Zacks Earnings Preview",
+            "url": "https://www.zacks.com/stock/news/2419910/nvidia-home-depot-lowes-tjx-and-salesforce-are-part-of-zacks-earnings-preview",
+            "time_published": "20250224T100000",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Chicago, IL - February 24, 2025 - Zacks.com releases the list of companies likely to issue earnings surprises. This week's list includes Nvidia ( NVDA Quick QuoteNVDA - ) , Home Depot ( HD Quick QuoteHD - ) , Lowe's ( LOW Quick QuoteLOW - ) , TJX Companies ( TJX Quick QuoteTJX - ) and Salesforce ...",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/fa/77.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.905476"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.057386,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.164581",
+                    "ticker_sentiment_score": "0.026434",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TJX",
+                    "relevance_score": "0.132004",
+                    "ticker_sentiment_score": "-0.023707",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HD",
+                    "relevance_score": "0.322233",
+                    "ticker_sentiment_score": "0.115479",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DELL",
+                    "relevance_score": "0.033144",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Buy These 3 Carillon Mutual Funds for Sustainable Returns",
+            "url": "https://www.zacks.com/stock/news/2419909/buy-these-3-carillon-mutual-funds-for-sustainable-returns",
+            "time_published": "20250224T095800",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Invest in Carillon mutual funds like EISIX, HAGAX and HRCIX for a diversified portfolio.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/ad/591.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99793"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.260052,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.050252",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.050252",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.050252",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TGOPF",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.00303",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ROST",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.049246",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WAB",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.049246",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSM",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.00303",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "DOGE Savings of $55 Billion May Be Overstated-WSJ Analysis Reveals the Likely Actual Figure - Tesla  ( NASDAQ:TSLA ) ",
             "url": "https://www.benzinga.com/markets/25/02/43906977/elon-musks-doge-savings-of-55-billion-may-be-overstated-wsj-analysis-reveals-the-likely-actual-figure",
             "time_published": "20250224T095734",
@@ -577,6 +1196,49 @@
                     "ticker": "TSLA",
                     "relevance_score": "0.080728",
                     "ticker_sentiment_score": "-0.023324",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "3 Goldman Sachs Mutual Funds for Stellar Returns",
+            "url": "https://www.zacks.com/stock/news/2419908/3-goldman-sachs-mutual-funds-for-stellar-returns",
+            "time_published": "20250224T095300",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Below, we share with you three top-ranked Goldman Sachs mutual funds. Each has earned a Zacks Mutual Fund Rank #1.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/d9/554.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.268999,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.917693",
+                    "ticker_sentiment_score": "0.391375",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.092213",
+                    "ticker_sentiment_score": "-0.010576",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -739,6 +1401,61 @@
             ]
         },
         {
+            "title": "The Zacks Analyst Blog Highlights Merck, Sanofi, Regeneron and Ionis",
+            "url": "https://www.zacks.com/stock/news/2419906/the-zacks-analyst-blog-highlights-merck-sanofi-regeneron-and-ionis",
+            "time_published": "20250224T094600",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Merck, Sanofi, Regeneron and Ionis are included in this Analyst Blog.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/ef/472.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.162195,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IONS",
+                    "relevance_score": "0.318897",
+                    "ticker_sentiment_score": "0.118317",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABBV",
+                    "relevance_score": "0.130571",
+                    "ticker_sentiment_score": "-0.097574",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVO",
+                    "relevance_score": "0.065506",
+                    "ticker_sentiment_score": "-0.125209",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SNY",
+                    "relevance_score": "0.318897",
+                    "ticker_sentiment_score": "0.23283",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Bybit Closes Ethereum Deficit With $1.23 Billion Post-Hack Purchase: CEO",
             "url": "https://decrypt.co/307447/bybit-closes-ethereum-deficit-with-1-23-billion-post-hack-purchase-ceo",
             "time_published": "20250224T094406",
@@ -788,6 +1505,28 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "This Is the Average Social Security Benefit for Age 72",
+            "url": "https://www.fool.com/retirement/2025/02/24/this-is-the-average-social-security-benefit-for-72/",
+            "time_published": "20250224T094400",
+            "authors": [
+                "Stefon Walters"
+            ],
+            "summary": "Social Security accounts for a large part of many retirees' finances. It's helpful to get a sense of how much you can expect, so you can plan and budget properly.Monthly benefit amounts will vary widely, but knowing the average amount at certain ages can give you a useful reference point to ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808054%2Fgettyimages-57277873.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                }
+            ],
+            "overall_sentiment_score": 0.294834,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Is Upstart Stock a Buy Now?",
@@ -997,6 +1736,73 @@
             ]
         },
         {
+            "title": "The Zacks Analyst Blog Highlights AbbVie, Amgen, Stryker, Dexcom and Medtronic",
+            "url": "https://www.zacks.com/stock/news/2419902/the-zacks-analyst-blog-highlights-abbvie-amgen-stryker-dexcom-and-medtronic",
+            "time_published": "20250224T091700",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "AbbVie, Amgen, Stryker, Dexcom and Medtronic are included in this Analyst Blog.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/5e/1093.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.996023"
+                }
+            ],
+            "overall_sentiment_score": 0.297146,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "XLO",
+                    "relevance_score": "0.036255",
+                    "ticker_sentiment_score": "0.068088",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABBV",
+                    "relevance_score": "0.249653",
+                    "ticker_sentiment_score": "0.193994",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MDT",
+                    "relevance_score": "0.072435",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SYK",
+                    "relevance_score": "0.214937",
+                    "ticker_sentiment_score": "0.352535",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMGN",
+                    "relevance_score": "0.214937",
+                    "ticker_sentiment_score": "0.169687",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "DXCM",
+                    "relevance_score": "0.249653",
+                    "ticker_sentiment_score": "0.212881",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "4/2025\u30fbTrifork Group AG - Change to the Board of Directors",
             "url": "https://www.globenewswire.com/news-release/2025/02/24/3030913/0/en/4-2025-Trifork-Group-AG-Change-to-the-Board-of-Directors.html",
             "time_published": "20250224T091600",
@@ -1078,648 +1884,6 @@
                     "ticker": "PHBBF",
                     "relevance_score": "0.160099",
                     "ticker_sentiment_score": "0.042592",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Sunlands Integrates DeepSeek AI Model, Ushering in a New Era for Adult Education",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030912/0/en/Sunlands-Integrates-DeepSeek-AI-Model-Ushering-in-a-New-Era-for-Adult-Education.html",
-            "time_published": "20250224T091400",
-            "authors": [
-                "Sunlands Technology Group"
-            ],
-            "summary": "BEIJING, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Sunlands Technology Group ( NYSE: STG ) ( \"Sunlands\" or the \"Company\" ) , a leader in China's adult online education market and China's adult personal interest learning market, today announced the full integration of DeepSeek, an advanced artificial ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/60ce5b28-48ba-4979-b603-26b84cd0d2d8",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [],
-            "overall_sentiment_score": 0.502345,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TRMNF",
-                    "relevance_score": "0.034831",
-                    "ticker_sentiment_score": "0.260549",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "STG",
-                    "relevance_score": "0.069596",
-                    "ticker_sentiment_score": "0.228465",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "The Zacks Analyst Blog Highlights Affirm, Visa, Palantir, AppLovin and Cintas",
-            "url": "https://www.zacks.com/stock/news/2419901/the-zacks-analyst-blog-highlights-affirm-visa-palantir-applovin-and-cintas",
-            "time_published": "20250224T090900",
-            "authors": [
-                "Zacks Investment Research"
-            ],
-            "summary": "Affirm, Visa, Palantir, AppLovin and Cintas are included in this Analyst Blog.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/af/643.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.962106"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.386914,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APP",
-                    "relevance_score": "0.21686",
-                    "ticker_sentiment_score": "0.172327",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.027445",
-                    "ticker_sentiment_score": "0.139784",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VZ",
-                    "relevance_score": "0.027445",
-                    "ticker_sentiment_score": "0.139784",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "V",
-                    "relevance_score": "0.24316",
-                    "ticker_sentiment_score": "0.21039",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CTAS",
-                    "relevance_score": "0.269181",
-                    "ticker_sentiment_score": "0.308855",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AFRM",
-                    "relevance_score": "0.21686",
-                    "ticker_sentiment_score": "0.291515",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.24316",
-                    "ticker_sentiment_score": "0.251716",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Mining Giant is Going All-In by Buying this Lithium Stock",
-            "url": "https://www.fool.com/investing/2025/02/24/what-ever-happened-to-fmcs-top-lithium-business/",
-            "time_published": "20250224T090500",
-            "authors": [
-                "Rich Smith"
-            ],
-            "summary": "If you want to invest in lithium, don't buy FMC stock. Buy Rio Tinto Group instead.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/807498/lithium-batteries-on-electric-car-chassis.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998932"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.134169,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RIO",
-                    "relevance_score": "0.568303",
-                    "ticker_sentiment_score": "0.205256",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SQM",
-                    "relevance_score": "0.096283",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ALB",
-                    "relevance_score": "0.096283",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: Nvidia Stock Will Surge After Feb. 26 for These 3 Reasons.",
-            "url": "https://www.fool.com/investing/2025/02/24/prediction-nvidia-stock-will-surge-after-feb-26-fo/",
-            "time_published": "20250224T090400",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "Nvidia ( NASDAQ: NVDA ) may be the most-watched stock on the planet these days. Though it's already climbed a mind-boggling 800% over the past two years, many investors and analysts think the stock still has plenty of room to run.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808538%2Fgettyimages-woman-points-at-computer-with-a-pen-to-show-something-to-a-colleague.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.5855"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.994953"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.192854,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.058472",
-                    "ticker_sentiment_score": "-0.011002",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.728774",
-                    "ticker_sentiment_score": "0.401582",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "The Zacks Analyst Blog Highlights Walmart, Kroger, Target and Costco",
-            "url": "https://www.zacks.com/stock/news/2419900/the-zacks-analyst-blog-highlights-walmart-kroger-target-and-costco",
-            "time_published": "20250224T090100",
-            "authors": [
-                "Zacks Investment Research"
-            ],
-            "summary": "Walmart, Kroger, Target and Costco are included in this Analyst Blog.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/26/123.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.839681"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.989041"
-                }
-            ],
-            "overall_sentiment_score": 0.311725,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TGT",
-                    "relevance_score": "0.109789",
-                    "ticker_sentiment_score": "0.068784",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "COST",
-                    "relevance_score": "0.109789",
-                    "ticker_sentiment_score": "0.068784",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "KR",
-                    "relevance_score": "0.109789",
-                    "ticker_sentiment_score": "0.068784",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.450266",
-                    "ticker_sentiment_score": "0.349138",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "DeepSeek spurs embrace of open-source AI ecosystem at Shanghai industry event",
-            "url": "https://www.scmp.com/tech/big-tech/article/3299889/deepseek-spurs-embrace-open-source-ai-ecosystem-shanghai-industry-event",
-            "time_published": "20250224T090008",
-            "authors": [
-                "Wency Chen"
-            ],
-            "summary": "Developers at the Global Developer Conference committed to open-source AI model development, touting its advantages after DeepSeek's success.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/24/93b7cea1-b2c9-48b8-abb6-b7171b9f3cfb_028ebb2a.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.289858,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.066047",
-                    "ticker_sentiment_score": "-0.090141",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "International Petroleum Corporation Announces Results of Normal Course Issuer Bid",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030897/0/en/International-Petroleum-Corporation-Announces-Results-of-Normal-Course-Issuer-Bid.html",
-            "time_published": "20250224T090000",
-            "authors": [
-                "International Petroleum Corporation"
-            ],
-            "summary": "TORONTO, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- International Petroleum Corporation ( IPC or the Corporation ) ( TSX, Nasdaq Stockholm: IPCO ) is pleased to announce that IPC repurchased a total of 218,956 IPC common shares ( ISIN: CA46016U1084 ) during the period of February 17 to 21, 2025 under ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/64d9776b-c68a-4b81-8b99-689060bdddbf",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.976913"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.185131,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.028626",
-                    "ticker_sentiment_score": "0.173632",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "IPCFF",
-                    "relevance_score": "0.085731",
-                    "ticker_sentiment_score": "0.124405",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Danske Bank share buy-back programme: transactions in week 8",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030900/0/en/Danske-Bank-share-buy-back-programme-transactions-in-week-8.html",
-            "time_published": "20250224T090000",
-            "authors": [
-                "Danske Bank A/S"
-            ],
-            "summary": "Attachment ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/b5c7693f-f6bd-4eec-bb82-8349b80704c9",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [],
-            "overall_sentiment_score": 0.019289,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DNSKF",
-                    "relevance_score": "0.644033",
-                    "ticker_sentiment_score": "0.392821",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "International Petroleum Corporation Announces Results of Normal Course Issuer Bid",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030898/0/en/International-Petroleum-Corporation-Announces-Results-of-Normal-Course-Issuer-Bid.html",
-            "time_published": "20250224T090000",
-            "authors": [
-                "International Petroleum Corporation"
-            ],
-            "summary": "International Petroleum Corporation ( IPC or the Corporation ) ( TSX, Nasdaq Stockholm: IPCO ) is pleased to announce that IPC repurchased a total of 218,956 IPC common shares ( ISIN: CA46016U1084 ) during the period of February 17 to 21, 2025 under IPC's normal course issuer bid / share ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/013397cb-4dff-4139-b41a-23bfb592d4f4",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.976913"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.185168,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.028764",
-                    "ticker_sentiment_score": "0.173721",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "IPCFF",
-                    "relevance_score": "0.086142",
-                    "ticker_sentiment_score": "0.146237",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Man Group PLC : Form 8.3 - Spirent Communications plc",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030901/0/en/Man-Group-PLC-Form-8-3-Spirent-Communications-plc.html",
-            "time_published": "20250224T090000",
-            "authors": [
-                "Man Group PLC"
-            ],
-            "summary": "FORM ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/91104804-f792-492b-830c-0b7f53193a71",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.23066,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Apple's M4 MacBook Air Set For March Debut, Says Top Analyst - New 13-Inch And 15-Inch Models Reportedly Incoming - Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/tech/25/02/43906680/apples-m4-macbook-air-set-for-march-debut-says-top-analyst-new-13-inch-and-15-inch-models-reportedly-incomin",
-            "time_published": "20250224T085821",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Apple Inc. AAPL is reportedly preparing to launch new 13-inch and 15-inch MacBook Air models featuring M4 chips in March. What Happened: In his latest installment of the \"Power On\" newsletter, Bloomberg columnist Mark Gurman said that Apple has begun drawing down inventory of existing MacBook Air ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Whats-Worth-Knowing.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.112635,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.699089",
-                    "ticker_sentiment_score": "-0.060191",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Zacks Industry Outlook Highlights Targa Resources, Global Partners and CrossAmerica",
-            "url": "https://www.zacks.com/stock/news/2419899/zacks-industry-outlook-highlights-targa-resources-global-partners-and-crossamerica",
-            "time_published": "20250224T085400",
-            "authors": [
-                "Zacks Investment Research"
-            ],
-            "summary": "Targa Resources, Global Partners and CrossAmerica have been highlighted in this Industry Outlook article.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/c0/302.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.875462"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.198708,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TRGP",
-                    "relevance_score": "0.179788",
-                    "ticker_sentiment_score": "0.105472",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CAPL",
-                    "relevance_score": "0.209107",
-                    "ticker_sentiment_score": "0.092605",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GLP",
-                    "relevance_score": "0.209107",
-                    "ticker_sentiment_score": "0.162464",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Warren Buffett Sends a Dire $134 Billion Warning to Wall Street. History Says the Stock Market Will Do This Next.",
-            "url": "https://www.fool.com/investing/2025/02/24/warren-buffett-134-billion-warning-to-wall-street/",
-            "time_published": "20250224T085100",
-            "authors": [
-                "Trevor Jennewine"
-            ],
-            "summary": "In 1965, Warren Buffett took control of Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) . The stock has since returned 19.9% annually, while the S&P 500 ( SNPINDEX: ^GSPC ) has compounded at 10.4% annually. That outperformance is due in large part to shrewd investments made by Buffett, which ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808662/investor-16.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999987"
-                }
-            ],
-            "overall_sentiment_score": 0.028419,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.127795",
-                    "ticker_sentiment_score": "0.015299",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Would You Believe It? Bybit Hacker Now Holds More ETH Than Vitalik Buterin And The Ethereum Foundation",
-            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43906580/would-you-believe-it-bybit-hacker-now-holds-more-eth-than-vitalik-buterin-and-the-ethereum",
-            "time_published": "20250224T084605",
-            "authors": [
-                "Aniket Verma"
-            ],
-            "summary": "The hacker who carried out the biggest heist in cryptocurrency history now holds more Ethereum ETH/USD than the blockchain's creator, Vitalik Buterin. What happened: North Korean state-backed Lazarus Group allegedly pilfered over $1.4 billion worth of ETH tokens after seizing control of the cold ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Ethereums-Struggles-Continue.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                }
-            ],
-            "overall_sentiment_score": 0.198929,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.950841",
-                    "ticker_sentiment_score": "0.397206",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Google, Microsoft, And Meta Linked To $5.4 Billion In Health Costs As AI Data Centers Fuel Pollution Crisis In The US: Report - Alphabet  ( NASDAQ:GOOG ) , Amazon.com  ( NASDAQ:AMZN ) ",
-            "url": "https://www.benzinga.com/25/02/43906562/google-microsoft-and-meta-linked-to-54-billion-in-health-costs-as-ai-data-centers-fuel-pollution-crisis-in-the-us",
-            "time_published": "20250224T084200",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "A new study from UC Riverside and Caltech has found that pollution from Big Tech's data centers has cost the U.S. public health system an estimated $5.4 billion over the past five years. Alphabet Inc.'s GOOG GOOG Google, Microsoft Corp. MSFT, and Meta Platforms Inc. META are among the biggest ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Google-Just-Got-Fined-In-Russia-And-Its-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.06641,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.510302",
-                    "ticker_sentiment_score": "0.038429",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.570165",
-                    "ticker_sentiment_score": "0.040986",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.156461",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SFTBF",
-                    "relevance_score": "0.156461",
-                    "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
