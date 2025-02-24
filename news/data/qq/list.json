@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "title": "月之暗面Kimi推出Moonlight：30 亿/160 亿参数混合专家模型",
+            "description": "<div class=\"rich_media_content\"><p data-vmark=\"74dd\">IT之家 2 月 24 日消息，月之暗面 Kimi 昨日发布了“Muon 可扩展用于 LLM 训练”的新技术报告，并宣布推出“Moonlight”：一个在 Muon 上训练的 30 亿 / 160 亿参数混合专家模型（MoE）。使用了 5.7 万亿个 token，在更低的浮点运算次数（FLOPs）下实现了更好的性能，从而提升了帕累托效率边界。</p><p data-vmark=\"9028\" style=\"text-align:center\"><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/OqHzBatLkvJzJ6wygr6CsSVvYs1HrxI7s6uEw7lDi8JOoAA/641\" src=\"https://inews.gtimg.com/om_bt/OqHzBatLkvJzJ6wygr6CsSVvYs1HrxI7s6uEw7lDi8JOoAA/641\" style=\"border-radius:6px;cursor:zoom-in;height:100%\"/></p><p data-vmark=\"3d58\">月之暗面称，团队发现 Muon 优化器可通过<strong>添加权重衰减、仔细调整每个参数的更新幅度</strong>等技术进行扩展，并具备如下亮点：</p><blockquote><p data-vmark=\"11d6\">这些技术使得 Muon 能够在大规模训练中开箱即用，无需进行超参数调优。扩展法则实验表明，与计算最优训练的 AdamW 相比，Muon 实现了约 2 倍的计算效率。</p></blockquote><p data-vmark=\"9498\">本次论文所使用的模型为 Moonlight-16B-A3B，总参数量为 15.29B，激活参数为 2.24B，其使用 Muon 优化器，在 5.7T Tokens 的训练数据下获得上述成绩。</p><blockquote><p data-vmark=\"8b94\">我们的模型不仅突破了当前的 Pareto 前沿，还在训练所需的 FLOP 数大幅减少的情况下，达到了比以往模型更优的性能。</p><p data-vmark=\"3d92\">我们开源了一个分布式版本的 Muon 实现，它在内存使用和通信效率上都进行了优化。同时，我们也发布了预训练模型、经过指令调优的模型以及中间训练检查点，旨在为未来的研究提供支持。</p></blockquote><p data-vmark=\"3431\">IT之家附有关链接如下：</p><ul class=\"list-paddingleft-2\"><li><p data-vmark=\"31e7\">GitHub：点此前往</p></li><li><p data-vmark=\"35e3\">Hugging Face ：点此前往</p></li></ul></div>",
+            "pub_date": "2025-02-24 08:55:08",
+            "link": "https://new.qq.com/rain/a/20250224A01P8R00",
+            "author": "IT之家",
+            "source": "qq",
+            "image": "https://inews.gtimg.com/om_ls/OYzWP27PaN6H594Bc_ODdMeL3WY_ZMfpNzVHy-0DEdNLYAA_640360/0",
+            "kind": 1,
+            "language": "zh-CN",
+            "id": "20250224A01P8R"
+        },
+        {
             "title": "美联储一大官员淡化“坏数据”，本周PCE会否带来好消息？",
             "description": "<div class=\"rich_media_content\"><p><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/OgMo3bGG0pWp1ZwSNEq4owxZHXSU4ZdVS-S-sUyK6OBcsAA/641\" src=\"https://inews.gtimg.com/om_bt/OgMo3bGG0pWp1ZwSNEq4owxZHXSU4ZdVS-S-sUyK6OBcsAA/641\" style=\"border-radius:6px;cursor:zoom-in;height:100%\"/></p><p><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/OUAAJDygR-IfHIb-X77KBQDZ0DvPe1jZbZR1gKXAWFjhgAA/641\" src=\"https://inews.gtimg.com/om_bt/OUAAJDygR-IfHIb-X77KBQDZ0DvPe1jZbZR1gKXAWFjhgAA/641\" style=\"border-radius:6px;cursor:zoom-in;height:100%\"/></p><p>古尔斯比强调，至少需要两三个月的数据才能“算数”。</p><p><strong>芝加哥联储主席古尔斯比淡化了上周发布的一份报告，该报告显示消费者对未来通胀的预期有所上升。</strong></p><p>古尔斯比上周日在一次采访中表示，这一数字“不算好”，但他补充说：“<strong>但这只是一个月的数据，至少需要两三个月的数据才能算数</strong>。”</p><p>上周五发布的一份报告显示，一个受到密切关注的长期通胀预期指标升至近三十年来最高水平，这是美联储货币政策决策中的一个关键因素。</p><p>密歇根大学2月份的最终数据显示，<strong>消费者预计未来5到10年物价将以每年3.5%的速度上涨，为1995年以来的最高水平，但这几乎完全是由民主党受访者的观点推动的。</strong></p><p>本周五，美国将公布美联储青睐的通胀指标——PCE物价指数，<strong>预计其将降至去年6月份以来的最低速度，但抑制物价压力的进展缓慢，将使政策制定者对进一步降低利率保持谨慎</strong>。</p><p>市场预计，<strong>1月核心PCE物价指数年率可能由2.8%降至2.6%，总体PCE同比增速可能由2.6%降至2.5%</strong>。</p><p>一些经济学家表示，<strong>这种下降可能来自在PPI数据中相对温和的类别</strong>，但<span class=\"qnt-link\">CPI</span>中涨幅强劲的部分将使PCE物价指数保持在美联储2%的目标之上。</p><p>这是官员们目前倾向于维持利率不变的一个重要原因。本周，美联储负责监管的副主席巴尔将在卸任前发表讲话；里士满联储主席巴尔金和克利夫兰联储主席哈玛克等其他官员也计划发表评论。</p><p>周五发布PCE报告的同时，美国商务部还将公布最新的商品贸易逆差数据，该数据在去年12月份扩大至创纪录水平，这将成为特朗普第二任期的一个重点关注领域。未来一周美国公布的其他数据还包括新屋销售、消费者信心和政府对第四季度经济增长的第二次评估。</p><p>与此同时，投资者将继续关注特朗普的关税努力以及马斯克削减联邦政府规模的努力。经济学家说：</p><blockquote><p>“我们预计PCE物价指数将显示1月份个人消费支出下降，而核心PCE年率可能放缓至2.6%。特朗普交易，即押注通胀上升的交易可能看起来越来越没有吸引力。”</p></blockquote></div>",
             "pub_date": "2025-02-24 08:46:11",
@@ -287,18 +299,6 @@
             "kind": 1,
             "language": "zh-CN",
             "id": "20250224A01IJM"
-        },
-        {
-            "title": "业绩抬升，私募机构继续看好科技成长",
-            "description": "<div class=\"rich_media_content\"><section>钛媒体App 2月24日消息，受科技股行情持续深化、市场做多情绪提升等因素影响，A股市场继续震荡走高，上证指数等主要股指均创出年内新高。来自第三方机构及渠道机构的最新监测数据显示，近期国内股票私募机构今年以来的整体收益率都在逐步向上。多家私募机构表示，本轮市场盘升势头短中期有望延续，科技成长等主线可能还将保持较高的投资热度。（中证报）</section></div>",
-            "pub_date": "2025-02-24 08:19:22",
-            "link": "https://new.qq.com/rain/a/20250224A01HUA00",
-            "author": "钛媒体快报",
-            "source": "qq",
-            "image": "https://inews.gtimg.com/om_ls/OPpq5ONzh5Pk3DAEsc-5_GCntIniUf_o02q1O05aFp8agAA_640360/0",
-            "kind": 1,
-            "language": "zh-CN",
-            "id": "20250224A01HUA"
         }
     ]
 }
