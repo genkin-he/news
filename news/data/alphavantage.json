@@ -1,8 +1,128 @@
 {
-    "items": "49",
+    "items": "50",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Allarity Therapeutics to Begin Enrollment for New Phase 2 Protocol to Advance Stenoparib Toward FDA Approval in Advanced Ovarian Cancer Patients",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031065/0/en/Allarity-Therapeutics-to-Begin-Enrollment-for-New-Phase-2-Protocol-to-Advance-Stenoparib-Toward-FDA-Approval-in-Advanced-Ovarian-Cancer-Patients.html",
+            "time_published": "20250224T130000",
+            "authors": [
+                "Inc.",
+                "Allarity Therapeutics"
+            ],
+            "summary": "Boston ( February 24, 2025 ) -Allarity Therapeutics, Inc. ( \"Allarity\" or the \"Company\" ) ( NASDAQ: ALLR ) , a Phase 2 clinical-stage pharmaceutical company dedicated to developing stenoparib-a differentiated dual PARP/Wnt pathway inhibitor-as a personalized cancer treatment using its ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/fd1e4c64-f0cf-40e0-a0c9-0be0d6dce544",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.147214,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OPTGF",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "0.052734",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ESALF",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.036704",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ALLR",
+                    "relevance_score": "0.163539",
+                    "ticker_sentiment_score": "0.089862",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Algoma Steel Group to Participate in the BMO 34th Global Metals, Mining & Critical Minerals Conference",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031045/0/en/Algoma-Steel-Group-to-Participate-in-the-BMO-34th-Global-Metals-Mining-Critical-Minerals-Conference.html",
+            "time_published": "20250224T123000",
+            "authors": [
+                "Algoma Steel Inc"
+            ],
+            "summary": "SAULT STE. MARIE, Ontario, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Algoma Steel Group Inc. ( NASDAQ: ASTL. TSX: ASTL ) ( \"Algoma\" or \"the Company\" ) , a leading Canadian producer of hot and cold rolled steel sheet and plate products, today announced that the Company is participating in the BMO 34th ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/238d9cba-286c-4536-817b-07cce07aef66",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.269228,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ASTL",
+                    "relevance_score": "0.187221",
+                    "ticker_sentiment_score": "0.010571",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple to open AI server factory in Texas as part of $500 billion U.S. investment",
+            "url": "https://www.cnbc.com/2025/02/24/apple-to-open-texas-ai-server-factory-in-500-billion-us-expansion.html",
+            "time_published": "20250224T122854",
+            "authors": [],
+            "summary": "Apple said it will work with partners to open a 250,000-square-foot AI server manufacturing facility in Houston, Texas.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.249288,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.089462",
+                    "ticker_sentiment_score": "-0.129556",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.089462",
+                    "ticker_sentiment_score": "0.18175",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Allied Announces Renewal of Normal Course Issuer Bid",
             "url": "https://www.globenewswire.com/news-release/2025/02/24/3031038/0/en/Allied-Announces-Renewal-of-Normal-Course-Issuer-Bid.html",
@@ -29,6 +149,49 @@
                     "relevance_score": "0.062597",
                     "ticker_sentiment_score": "0.101035",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "This Recent Stock-Split Just Hit a New All-Time High. Should You Buy This AI Cybersecurity Leader?",
+            "url": "https://www.fool.com/investing/2025/02/24/this-recent-stock-split-just-hit-a-new-all-time-hi/",
+            "time_published": "20250224T121500",
+            "authors": [
+                "Keithen Drury"
+            ],
+            "summary": "Palo Alto Networks ( NASDAQ: PANW ) has a ton going for it right now. It enacted a 2-for-1 stock split in December and recently notched a new all-time high after reporting strong Q2 FY 2025 ( ending Jan. 31 ) results. The stock has looked borderline unstoppable over the past year, and if ...",
+            "banner_image": "https://media.ycharts.com/charts/bb1a7444f803372a96625208d0158a09.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                }
+            ],
+            "overall_sentiment_score": 0.32827,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRWD",
+                    "relevance_score": "0.060388",
+                    "ticker_sentiment_score": "0.161038",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PANW",
+                    "relevance_score": "0.179788",
+                    "ticker_sentiment_score": "0.197763",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -94,6 +257,120 @@
             ]
         },
         {
+            "title": "Tesla To Launch Refreshed Model S, X Later This Year, Says Senior Exec - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/tech/25/02/43908919/tesla-to-launch-refreshed-model-s-x-later-this-year-says-senior-exec",
+            "time_published": "20250224T120833",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "EV giant Tesla Inc TSLA will refresh its more premium car offerings- the Model S and Model X- later this year, senior company executive Lars Moravy said in an interview published on Sunday.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Why-It-Matters_0.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.235049,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.524949",
+                    "ticker_sentiment_score": "0.41057",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "MPLAB\u00ae XC Unified Compiler Licenses Deliver Streamlined Software Management",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031030/0/en/MPLAB-XC-Unified-Compiler-Licenses-Deliver-Streamlined-Software-Management.html",
+            "time_published": "20250224T120700",
+            "authors": [
+                "Microchip Technology Inc."
+            ],
+            "summary": "Unified licensing provides an efficient and cost-effective solution, freeing up teams to focus on innovation and to expedite product development.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/443d82a7-09a7-4ecd-a1b6-6884351a2b14",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.361471,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MCHP",
+                    "relevance_score": "0.140076",
+                    "ticker_sentiment_score": "0.256613",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Volaris Reports Financial Results for the Fourth Quarter 2024: Net Income of $46 million",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031028/0/en/Volaris-Reports-Financial-Results-for-the-Fourth-Quarter-2024-Net-Income-of-46-million.html",
+            "time_published": "20250224T120600",
+            "authors": [
+                "S.A.B. de C.V.",
+                "Controladora Vuela Compa\u00f1\u00eda de Aviaci\u00f3n"
+            ],
+            "summary": "MEXICO CITY, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Controladora Vuela Compa\u00f1\u00eda de Aviaci\u00f3n, S.A.B. de C.V. ( NYSE: VLRS and BMV: VOLAR ) ( \"Volaris\" or \"the Company\" ) , the ultra-low-cost carrier ( ULCC ) serving Mexico, the United States, Central and South America, today reports its unaudited ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/135a60fa-15e0-43d6-8dff-62d3962def7e",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999999"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99737"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.179612,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EADSF",
+                    "relevance_score": "0.016383",
+                    "ticker_sentiment_score": "0.110074",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:UYU",
+                    "relevance_score": "0.032758",
+                    "ticker_sentiment_score": "0.057154",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:MXN",
+                    "relevance_score": "0.032758",
+                    "ticker_sentiment_score": "0.057154",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.065461",
+                    "ticker_sentiment_score": "0.061061",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "FDA Declined Invivyd's Request to Expand Existing Emergency Use Authorization of PEMGARDA\u2122  ( pemivibart )  to Include Treatment of Mild-to-Moderate COVID-19 For Immunocompromised Persons Who Have No Alternative Therapeutic Options; No Change to the Existing PEMGARDA EUA for Pre-Exposure Prophylaxis of COVID-19 in Certain Immunocompromised Patients",
             "url": "https://www.globenewswire.com/news-release/2025/02/24/3031027/0/en/FDA-Declined-Invivyd-s-Request-to-Expand-Existing-Emergency-Use-Authorization-of-PEMGARDA-pemivibart-to-Include-Treatment-of-Mild-to-Moderate-COVID-19-For-Immunocompromised-Persons.html",
             "time_published": "20250224T120500",
@@ -121,6 +398,57 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "Hong Kong eyes January start for paperless stock market in nod for environment",
+            "url": "https://www.scmp.com/business/article/3299943/hong-kong-kick-paperless-stock-market-system-nod-environment",
+            "time_published": "20250224T120342",
+            "authors": [
+                "Enoch Yiu"
+            ],
+            "summary": "Listed companies will go fully electronic in batches over the next five years, while individual investors have options and costs to consider: SFC.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/24/9d22950b-fc10-4613-90c6-e08df2b3a79a_686e78c9.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.967645"
+                }
+            ],
+            "overall_sentiment_score": 0.206983,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CMSQF",
+                    "relevance_score": "0.079921",
+                    "ticker_sentiment_score": "0.194758",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Notice of Annual General Meeting of Shareholders of Kaspi.kz",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031026/0/en/Notice-of-Annual-General-Meeting-of-Shareholders-of-Kaspi-kz.html",
+            "time_published": "20250224T120300",
+            "authors": [
+                "JSC Kaspi.kz"
+            ],
+            "summary": "ALMATY, Kazakhstan, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- The Board of Directors of JSC Kaspi.kz ( Nasdaq: KSPI ) hereby announces the Annual General Meeting of Shareholders of JSC Kaspi.kz will be held on 28 March 2025 at 10:00 Astana time at: 154 \"\u0410\", Nauryzbai Batyr Street, Almaty, Kazakhstan, ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/1eb80226-7ba7-4120-833c-7754cb49b08c",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.211342,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Allegro MicroSystems Appoints Mike Doogue as President and Chief Executive Officer - Allegro Microsystems  ( NASDAQ:ALGM ) ",
@@ -152,6 +480,43 @@
             ]
         },
         {
+            "title": "Bitcoin Remains Stuck Below $96,000: Why Is It Not Moving?",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43908624/bitcoin-remains-stuck-below-96000-why-is-it-not-moving",
+            "time_published": "20250224T120002",
+            "authors": [
+                "Khyathi Dalal"
+            ],
+            "summary": "Benjamin Cowen highlights macroeconomic factors as a key influence for Bitcoin's next move. Traders anticipate a 'nice trading week' due to a quiet economic calendar. Get access to your new suite of high-powered trading tools, including real-time stock ratings, insider trades, and government ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Nobel-Prize-Winner-Predicts-Bitcoins-Val.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                }
+            ],
+            "overall_sentiment_score": 0.107715,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.630514",
+                    "ticker_sentiment_score": "0.021965",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Fractyl Health to Report Fourth Quarter and Full Year 2024 Financial Results and Provide Business Updates on March 3, 2025 - Fractyl Health  ( NASDAQ:GUTS ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43908649/fractyl-health-to-report-fourth-quarter-and-full-year-2024-financial-results-and-provide-business-",
             "time_published": "20250224T120000",
@@ -171,6 +536,87 @@
                     "ticker": "GUTS",
                     "relevance_score": "0.573213",
                     "ticker_sentiment_score": "0.105362",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Seeing Machines names Mitsubishi Electric Automotive America as a referral partner to drive accelerated sales of Guardian Generation 3 in The Americas",
+            "url": "https://www.benzinga.com/pressreleases/25/02/n43908669/seeing-machines-names-mitsubishi-electric-automotive-america-as-a-referral-partner-to-drive-accele",
+            "time_published": "20250224T120000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "CANBERRA, Australia, Feb. 24, 2025 /PRNewswire/ -- Seeing Machines Limited SEE, the advanced computer vision technology company that designs AI-powered operator monitoring systems to improve transport safety, announces that Mitsubishi Electric Automotive America, Inc. ( \"MEAA\" ) has signed a ...",
+            "banner_image": "https://mma.prnewswire.com/media/2625890/MEAA_3.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.424114,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MIELF",
+                    "relevance_score": "0.362254",
+                    "ticker_sentiment_score": "0.517502",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MSBHF",
+                    "relevance_score": "0.313484",
+                    "ticker_sentiment_score": "0.469122",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "SEEMF",
+                    "relevance_score": "0.540646",
+                    "ticker_sentiment_score": "0.53255",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Climb Bio Appoints Perrin Wilson, Ph.D., as Chief Business Officer",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031000/0/en/Climb-Bio-Appoints-Perrin-Wilson-Ph-D-as-Chief-Business-Officer.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Inc.",
+                "Climb Bio"
+            ],
+            "summary": "WELLESLEY HILLS, Mass., Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Climb Bio, Inc. ( Nasdaq: CLYM ) announced today the appointment of Perrin Wilson, Ph.D. as Chief Business Officer. Dr. Wilson is an accomplished leader, with over 17 years of experience in the pharmaceutical and biotech industry.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/2a42b557-6e44-4818-bfce-2238a05f2c43",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.222011,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NUVL",
+                    "relevance_score": "0.038345",
+                    "ticker_sentiment_score": "0.040804",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVO",
+                    "relevance_score": "0.076602",
+                    "ticker_sentiment_score": "0.042708",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -201,6 +647,49 @@
                     "relevance_score": "0.666827",
                     "ticker_sentiment_score": "-0.743012",
                     "ticker_sentiment_label": "Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Siyata Mobile Further Expands Distribution in New Agreement with IP Access International - Siyata Mobile  ( NASDAQ:SYTA ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/n43908690/siyata-mobile-further-expands-distribution-in-new-agreement-with-ip-access-international",
+            "time_published": "20250224T120000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "VANCOUVER, BC, Feb. 24, 2025 /PRNewswire/ -- Siyata Mobile Inc.",
+            "banner_image": "https://mma.prnewswire.com/media/2425109/SYTA_Logo.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.286235,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SYTA",
+                    "relevance_score": "0.248682",
+                    "ticker_sentiment_score": "0.294306",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WM",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.087609",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -292,6 +781,145 @@
                     "relevance_score": "0.316846",
                     "ticker_sentiment_score": "0.208726",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Atea Pharmaceuticals Appoints Arthur S. Kirsch to Board of Directors",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030995/0/en/Atea-Pharmaceuticals-Appoints-Arthur-S-Kirsch-to-Board-of-Directors.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Inc.",
+                "Atea Pharmaceuticals"
+            ],
+            "summary": "BOSTON, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Atea Pharmaceuticals, Inc. ( Nasdaq: AVIR ) ( Atea or Company ) , a clinical-stage biopharmaceutical company engaged in the discovery and development of oral antiviral therapeutics for serious viral diseases, today announced the appointment of Arthur S.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/1506ab30-7618-4ed0-98de-e3815adb3aa6",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.94762"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.15197,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AVIR",
+                    "relevance_score": "0.087185",
+                    "ticker_sentiment_score": "0.091099",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LQDA",
+                    "relevance_score": "0.087185",
+                    "ticker_sentiment_score": "0.041106",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NWG",
+                    "relevance_score": "0.043658",
+                    "ticker_sentiment_score": "0.065857",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SNY",
+                    "relevance_score": "0.043658",
+                    "ticker_sentiment_score": "0.038981",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Eyenovia, Inc. Announces Debt Restructuring Including Amendment to Senior Secured Debt, Improving Cash Runway to Allow for the Evaluation of Strategic Alternatives - Eyenovia  ( NASDAQ:EYEN ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/g43908658/eyenovia-inc-announces-debt-restructuring-including-amendment-to-senior-secured-debt-improving-cas",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Eyenovia, Inc.",
+            "banner_image": "https://ml.globenewswire.com/media/634b242d-1c80-4e5d-b151-28e45aa33168/small/eyen-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.237275,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EYEN",
+                    "relevance_score": "0.44021",
+                    "ticker_sentiment_score": "0.444914",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "BioCryst Reports Fourth Quarter and Full Year 2024 Financial Results and Upcoming Key Milestones",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031023/29446/en/BioCryst-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results-and-Upcoming-Key-Milestones.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Inc.",
+                "BioCryst Pharmaceuticals"
+            ],
+            "summary": "-ORLADEYO net revenue of $124.2 million for Q4 2024 ( +36.6 percent y-o-y ) and $437.7 million for FY 2024 ( +34.3 percent ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/8b033909-1a3c-4811-b07b-fe03b12e00d2",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.148892,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BCRX",
+                    "relevance_score": "0.035983",
+                    "ticker_sentiment_score": "0.085413",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -447,6 +1075,40 @@
             ]
         },
         {
+            "title": "Eyenovia, Inc. Announces Debt Restructuring Including Amendment to Senior Secured Debt, Improving Cash Runway to Allow for the Evaluation of Strategic Alternatives",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030994/0/en/Eyenovia-Inc-Announces-Debt-Restructuring-Including-Amendment-to-Senior-Secured-Debt-Improving-Cash-Runway-to-Allow-for-the-Evaluation-of-Strategic-Alternatives.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Eyenovia",
+                "Inc."
+            ],
+            "summary": "Amendment provides financial flexibility to the Company by deferring all interest as well as principal redemption payments through September 2025, while reducing near-term cash needs Amendment provides financial flexibility to the Company by deferring all interest as well as principal redemption ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/634b242d-1c80-4e5d-b151-28e45aa33168",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.241603,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EYEN",
+                    "relevance_score": "0.330286",
+                    "ticker_sentiment_score": "0.41515",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
             "title": "Rapport Therapeutics to Participate in Upcoming Investor Conferences - Rapport Therapeutics  ( NASDAQ:RAPP ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43908657/rapport-therapeutics-to-participate-in-upcoming-investor-conferences",
             "time_published": "20250224T120000",
@@ -467,6 +1129,35 @@
                     "relevance_score": "0.445569",
                     "ticker_sentiment_score": "-0.181288",
                     "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Beam Therapeutics to Participate in Upcoming March 2025 Investor Conferences",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030992/0/en/Beam-Therapeutics-to-Participate-in-Upcoming-March-2025-Investor-Conferences.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Beam Therapeutics"
+            ],
+            "summary": "CAMBRIDGE, Mass., Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Beam Therapeutics Inc. ( Nasdaq: BEAM ) , a biotechnology company developing precision genetic medicines through base editing, today announced that management will participate in fireside chats at the following upcoming investor ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/03af3276-c254-436a-b40d-2ad9a1025f95",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.190885,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BEAM",
+                    "relevance_score": "0.582526",
+                    "ticker_sentiment_score": "0.279568",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -495,6 +1186,36 @@
                     "ticker": "AVTX",
                     "relevance_score": "0.805471",
                     "ticker_sentiment_score": "0.234987",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Allegro MicroSystems Appoints Mike Doogue as President and Chief Executive Officer",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3031024/0/en/Allegro-MicroSystems-Appoints-Mike-Doogue-as-President-and-Chief-Executive-Officer.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "Allegro MicroSystems",
+                "Inc."
+            ],
+            "summary": "MANCHESTER, N.H., Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Allegro MicroSystems, Inc. ( \"Allegro\" ) ( Nasdaq: ALGM ) a global leader in power and sensing semiconductor solutions for motion control and energy-efficient systems, today announced the appointment of Mike Doogue as President and Chief ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/8362b82e-e2d7-4533-8625-a9dabe2d1889",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.477229,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ALGM",
+                    "relevance_score": "0.21686",
+                    "ticker_sentiment_score": "0.340855",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -537,6 +1258,62 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "Nektar Announces Clinical Trial Agreement to Evaluate Rezpegaldesleukin in Patients with New Onset Type 1 Diabetes Mellitus - Nektar Therapeutics  ( NASDAQ:NKTR ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/n43908664/nektar-announces-clinical-trial-agreement-to-evaluate-rezpegaldesleukin-in-patients-with-new-onset",
+            "time_published": "20250224T120000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "-- TrialNet to conduct the Phase 2 randomized, placebo-controlled clinical study --",
+            "banner_image": "https://mma.prnewswire.com/media/1390052/nektar_logo.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.064995,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NKTR",
+                    "relevance_score": "0.156123",
+                    "ticker_sentiment_score": "0.023078",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "BioStem Receives Institutional Review Board  ( IRB )  Approval to Advance Clinical Trial Demonstrating the Therapeutic Benefits of BioREtain\u00ae Technology in Treating Venous Leg Ulcers",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030996/0/en/BioStem-Receives-Institutional-Review-Board-IRB-Approval-to-Advance-Clinical-Trial-Demonstrating-the-Therapeutic-Benefits-of-BioREtain-Technology-in-Treating-Venous-Leg-Ulcers.html",
+            "time_published": "20250224T120000",
+            "authors": [
+                "BioStem Technologies",
+                "Inc."
+            ],
+            "summary": "BioStem Receives Institutional Review Board (IRB) Approval to Advance Clinical Trial Demonstrating the Therapeutic Benefits of BioREtain\u00ae Technology ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/af854fa1-6784-4923-ba4f-f56f26be5d03",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.117559,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "OTC Markets Group Welcomes ZRCN Inc. to OTCQX",
@@ -1004,938 +1781,6 @@
                     "relevance_score": "0.66906",
                     "ticker_sentiment_score": "0.052184",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Why Did Zillow Stock Just Plunge While Redfin Stock Soared?",
-            "url": "https://www.fool.com/investing/2025/02/24/why-did-zillow-stock-just-plunge-while-redfin-stoc/",
-            "time_published": "20250224T114100",
-            "authors": [
-                "Matt Frankel"
-            ],
-            "summary": "These two real estate stocks often move in the same direction, but not recently.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808198/house-for-rent-2022.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": -0.26433,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RDFN",
-                    "relevance_score": "0.854693",
-                    "ticker_sentiment_score": "-0.463087",
-                    "ticker_sentiment_label": "Bearish"
-                },
-                {
-                    "ticker": "Z",
-                    "relevance_score": "0.617765",
-                    "ticker_sentiment_score": "-0.410757",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Studio City Announces Earnings Release Date - Studio City Intl Hldgs  ( NYSE:MSC ) , Melco Resorts and Enter  ( NASDAQ:MLCO ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43908293/studio-city-announces-earnings-release-date",
-            "time_published": "20250224T113730",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "MACAU, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Studio City International Holdings Limited MSC, a world-class integrated resort located in Cotai, Macau, today announces that it will release its unaudited financial results for the fourth quarter and year ended December 31, 2024 on Thursday, February ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                }
-            ],
-            "overall_sentiment_score": 0.085782,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSC",
-                    "relevance_score": "0.31482",
-                    "ticker_sentiment_score": "0.041362",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MLCO",
-                    "relevance_score": "0.160633",
-                    "ticker_sentiment_score": "0.016626",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Melco Announces Earnings Release Date - Melco Resorts and Enter  ( NASDAQ:MLCO ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43908286/melco-announces-earnings-release-date",
-            "time_published": "20250224T113712",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "MACAU, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Melco Resorts & Entertainment Limited MLCO, a developer, owner and operator of integrated resort facilities in Asia and Europe, today announces that it will release its unaudited financial results for the fourth quarter and year ended December 31, 2024 ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                }
-            ],
-            "overall_sentiment_score": 0.125029,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSC",
-                    "relevance_score": "0.054732",
-                    "ticker_sentiment_score": "0.119905",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MDEVF",
-                    "relevance_score": "0.054732",
-                    "ticker_sentiment_score": "-0.035995",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MLCO",
-                    "relevance_score": "0.216376",
-                    "ticker_sentiment_score": "0.067512",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Studio City Announces Earnings Release Date",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030981/36898/en/Studio-City-Announces-Earnings-Release-Date.html",
-            "time_published": "20250224T113700",
-            "authors": [
-                "Studio City"
-            ],
-            "summary": "MACAU, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Studio City International Holdings Limited ( NYSE: MSC ) , a world-class integrated resort located in Cotai, Macau, today announces that it will release its unaudited financial results for the fourth quarter and year ended December 31, 2024 on Thursday, ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/d6a5efe3-2085-4e42-a0e7-a7943b2b4605",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.057218,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSC",
-                    "relevance_score": "0.360752",
-                    "ticker_sentiment_score": "0.048521",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MLCO",
-                    "relevance_score": "0.185306",
-                    "ticker_sentiment_score": "0.016823",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Melco Announces Earnings Release Date",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030980/0/en/Melco-Announces-Earnings-Release-Date.html",
-            "time_published": "20250224T113700",
-            "authors": [
-                "Melco Resorts & Entertainment Limited"
-            ],
-            "summary": "MACAU, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Melco Resorts & Entertainment Limited ( Nasdaq: MLCO ) , a developer, owner and operator of integrated resort facilities in Asia and Europe, today announces that it will release its unaudited financial results for the fourth quarter and year ended ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/1d4955c4-64e8-4605-93b4-acc9ac6bba35",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.115616,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSC",
-                    "relevance_score": "0.059488",
-                    "ticker_sentiment_score": "0.13102",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MDEVF",
-                    "relevance_score": "0.059488",
-                    "ticker_sentiment_score": "-0.036019",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MLCO",
-                    "relevance_score": "0.234684",
-                    "ticker_sentiment_score": "0.079377",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Asia And Europe Markets Mixed, Futures Rebound Ahead Of Nvidia Earnings - Global Markets Today While US Slept - SmartETFs Asia Pacific Dividend Builder ETF  ( ARCA:ADIV ) ",
-            "url": "https://www.benzinga.com/markets/forex/25/02/43908232/asia-and-europe-markets-mixed-futures-rebound-ahead-of-nvidia-earnings-global-markets-today-while-u",
-            "time_published": "20250224T113158",
-            "authors": [
-                "Akanksha Bakshi"
-            ],
-            "summary": "Crude Oil WTI traded higher by 0.16% at $70.51/bbl, and Brent was up 0.16% at $74.15/bbl. Dow futures were up 0.73%, S&P 500 futures gained 0.52% and Nasdaq 100 futures rose 0.40%. Get access to your new suite of high-powered trading tools, including real-time stock ratings, insider trades, and ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Macro-Shot-Of-Computer-Monitor-With-Worl.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.962106"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": -0.183415,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.081552",
-                    "ticker_sentiment_score": "-0.304652",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "SSTK",
-                    "relevance_score": "0.081552",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.081552",
-                    "ticker_sentiment_score": "-0.153179",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.081552",
-                    "ticker_sentiment_score": "-0.007931",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Shenzhen sows seeds for tech breakthroughs with AI, robotics funding",
-            "url": "https://www.scmp.com/economy/china-economy/article/3299916/shenzhen-sows-seeds-chinas-next-tech-breakthroughs-ai-robotics-funding",
-            "time_published": "20250224T113008",
-            "authors": [
-                "Luna Sun"
-            ],
-            "summary": "The southern tech hub is stepping up its support for home-grown innovation with a package of policies to stay competitive in cutting-edge fields.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/24/2a6e8b83-1291-41b0-8f88-c7abc2f68ac4_218a8754.jpg?itok=v6dJPwUR&v=1740389196",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.408621,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TCTZF",
-                    "relevance_score": "0.059341",
-                    "ticker_sentiment_score": "0.210034",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.497126",
-                    "ticker_sentiment_score": "0.498248",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "A.I.S. Resources Announces Private Placement Financing, Shares for Debt Transaction and Appoints Marc Enright-Morin as President and Chief Executive Officer",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030978/0/en/A-I-S-Resources-Announces-Private-Placement-Financing-Shares-for-Debt-Transaction-and-Appoints-Marc-Enright-Morin-as-President-and-Chief-Executive-Officer.html",
-            "time_published": "20250224T113000",
-            "authors": [
-                "A.I.S. Resources Limited"
-            ],
-            "summary": "VANCOUVER, British Columbia, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- A.I.S. Resources Limited ( TSXV: AIS, OTC- PINK: AISSF ) ( \"AIS\" or the \"Company\" ) announces a non-brokered private placement of up to 2,857,143 Units at a price of $0.035 per Unit for gross proceeds of $100,000 ( the \"Private ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/66594a75-4949-430b-9954-d9e7e29a5778",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.273816,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NRHI",
-                    "relevance_score": "0.039418",
-                    "ticker_sentiment_score": "0.198094",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Azimut Announces Results of the Annual General Meeting",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030974/0/en/Azimut-Announces-Results-of-the-Annual-General-Meeting.html",
-            "time_published": "20250224T113000",
-            "authors": [
-                "Exploration Azimut Inc"
-            ],
-            "summary": "LONGUEUIL, Quebec, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Azimut Exploration Inc. ( \"Azimut\" or the \"Company\" ) ( TSXV:AZM ) ( OTCQX:AZMTF ) is pleased to announce the voting results for its Annual General Meeting ( the \"Meeting\" ) of shareholders held February 20, 2025.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/7eb6779b-94a6-4f0a-8a3c-5801e50c428a",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [],
-            "overall_sentiment_score": 0.176589,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.061159",
-                    "ticker_sentiment_score": "-0.056113",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "A.I.S. Resources Announces Private Placement Financing, Shares for Debt Transaction and Appoints Marc Enright-Morin as President and Chief Executive Officer - A I S Resources  ( OTC:AISSF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g43908167/a-i-s-resources-announces-private-placement-financing-shares-for-debt-transaction-and-appoints-mar",
-            "time_published": "20250224T113000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "VANCOUVER, British Columbia, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- A.I.S. Resources Limited AISAISSF ( \"AIS\" or the \"Company\" ) announces a non-brokered private placement of up to 2,857,143 Units at a price of $0.035 per Unit for gross proceeds of $100,000 ( the \"Private Placement\" ) .",
-            "banner_image": "https://ml.globenewswire.com/media/66594a75-4949-430b-9954-d9e7e29a5778/small/aislogo-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.258675,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NRHI",
-                    "relevance_score": "0.037329",
-                    "ticker_sentiment_score": "0.197206",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Veri Medtech  ( VRHI )  Reaches 1.3 million Patient Registrations",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030971/0/en/Veri-Medtech-VRHI-Reaches-1-3-million-Patient-Registrations.html",
-            "time_published": "20250224T113000",
-            "authors": [
-                "Veri Medtech Holdings"
-            ],
-            "summary": "NEW YORK, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- Veri Medtech Holdings ( OTC Markets: ( \"VRHI\" ) ( \"Veri Medtech\" ) announced today that it has reached 1.3 million patient registrations.",
-            "banner_image": "",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.329302,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VRHI",
-                    "relevance_score": "0.834645",
-                    "ticker_sentiment_score": "0.496183",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "HCSG",
-                    "relevance_score": "0.069094",
-                    "ticker_sentiment_score": "0.177111",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.137671",
-                    "ticker_sentiment_score": "0.214747",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Hyperscale Data Engages Northland Capital Markets to Explore Strategic Options for Michigan Data Center",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030976/0/en/Hyperscale-Data-Engages-Northland-Capital-Markets-to-Explore-Strategic-Options-for-Michigan-Data-Center.html",
-            "time_published": "20250224T113000",
-            "authors": [
-                "Inc.",
-                "Hyperscale Data"
-            ],
-            "summary": "LAS VEGAS, Feb. 24, 2025 ( GLOBE NEWSWIRE ) -- ( NYSE American: GPUS ) , a diversified holding company ( \"Hyperscale Data\" or the \"Company\" ) , today announced that it has engaged Northland Capital Markets ( \"Northland\" ) to assist in evaluating strategic alternatives for its Michigan Data ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/f92f0a80-b58d-4a9a-9c93-7af8334c16c2",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                }
-            ],
-            "overall_sentiment_score": 0.247426,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.046999",
-                    "ticker_sentiment_score": "0.129602",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Cycurion  ( NASDAQ: CYCU )  Expands Cybersecurity Partnership with Leading National Public Health Association",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030973/0/en/Cycurion-NASDAQ-CYCU-Expands-Cybersecurity-Partnership-with-Leading-National-Public-Health-Association.html",
-            "time_published": "20250224T113000",
-            "authors": [
-                "Cycurion"
-            ],
-            "summary": "Cycurion Partners' with Leading National Health association ...",
-            "banner_image": "",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.139066,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CYCU",
-                    "relevance_score": "0.481177",
-                    "ticker_sentiment_score": "0.221826",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Stock-Split Watch: Is Nvidia Next?",
-            "url": "https://www.fool.com/investing/2025/02/24/stock-split-watch-is-nvidia-next/",
-            "time_published": "20250224T113000",
-            "authors": [
-                "Will Healy"
-            ],
-            "summary": "Nvidia ( NASDAQ: NVDA ) stock splits have become a clear sign of the stock's strength in the world of artificial intelligence ( AI ) . Its AI accelerators have arguably made it the most essential AI stock. Its transformational power over the chip industry allowed it to replace the former industry ...",
-            "banner_image": "https://media.ycharts.com/charts/edd281111ea6691edc1ef2377eb3e7fb.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.910869"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.031437,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.838634",
-                    "ticker_sentiment_score": "-0.057805",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.058759",
-                    "ticker_sentiment_score": "-0.137",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Issue of Equity",
-            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030969/0/en/Issue-of-Equity.html",
-            "time_published": "20250224T112900",
-            "authors": [
-                "Foresight Enterprise VCT plc."
-            ],
-            "summary": "FORESIGHT ENTERPRISE ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/c5a7819e-1679-43a9-9018-3210686f1233",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.393476,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LDNXF",
-                    "relevance_score": "0.295867",
-                    "ticker_sentiment_score": "0.313573",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Nokia Partners with Globe Telecom To Tackle Fraud In Banking With Secure APIs - Nokia  ( NYSE:NOK ) ",
-            "url": "https://www.benzinga.com/25/02/43907948/nokia-partners-with-globe-telecom-to-tackle-fraud-in-banking-with-secure-apis",
-            "time_published": "20250224T112809",
-            "authors": [
-                "Lekha Gupta"
-            ],
-            "summary": "Nokia partners with Globe Telecom to boost network API security for banks and enterprises. Nokia's NEP, aligned with GSMA standards, simplifies network integration and drives secure app development. Get two weeks of free access to pro-level trading tools, including news alerts, scanners, and ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Businessman-Using-Mobile-Online-Banking-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.77141"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.294408,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APG",
-                    "relevance_score": "0.150592",
-                    "ticker_sentiment_score": "0.116716",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.075635",
-                    "ticker_sentiment_score": "0.06408",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NOK",
-                    "relevance_score": "0.657566",
-                    "ticker_sentiment_score": "0.399482",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "TEF",
-                    "relevance_score": "0.075635",
-                    "ticker_sentiment_score": "0.06408",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GTMEF",
-                    "relevance_score": "0.431065",
-                    "ticker_sentiment_score": "0.373878",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Could SentinelOne Stock Help You Become a Millionaire?",
-            "url": "https://www.fool.com/investing/2025/02/24/could-sentinelone-help-you-become-a-millionaire/",
-            "time_published": "20250224T112500",
-            "authors": [
-                "Will Healy"
-            ],
-            "summary": "One of the cybersecurity names that has drawn attention in recent years is SentinelOne ( NYSE: S ) . Its artificial intelligence ( AI ) -driven approach has helped it stand out in the increasingly critical cybersecurity industry.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808252/computer-user-holds-secure-phone.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998356"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.94762"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.188254,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ZS",
-                    "relevance_score": "0.054607",
-                    "ticker_sentiment_score": "0.070997",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRWD",
-                    "relevance_score": "0.054607",
-                    "ticker_sentiment_score": "0.070997",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "S",
-                    "relevance_score": "0.662393",
-                    "ticker_sentiment_score": "0.357304",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "PANW",
-                    "relevance_score": "0.054607",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "KKR Clinches $400 Million Deal To Take Controlling Stake In India's Cancer Hospital Chain HCG: Details - KKR  ( NYSE:KKR ) ",
-            "url": "https://www.benzinga.com/25/02/43907861/kkr-to-gain-full-control-of-hcg-in-400-million-deal-eyes-healthcare-expansion",
-            "time_published": "20250224T112120",
-            "authors": [
-                "Lekha Gupta"
-            ],
-            "summary": "KKR to acquire up to 54% of Healthcare Global Enterprises for $400M, with potential ownership up to 77%. Deal strengthens KKR's focus on India's healthcare sector, adding to investments in Max Healthcare and Gland Pharma.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Businessmen-Making-Handshake-With-Partne.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Mergers",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99393"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.227227,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "E",
-                    "relevance_score": "0.098659",
-                    "ticker_sentiment_score": "0.214916",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Are US Stock Futures Rising on Monday? - Invesco QQQ Trust, Series 1  ( NASDAQ:QQQ ) , SPDR S&P 500  ( ARCA:SPY ) ",
-            "url": "https://www.benzinga.com/analyst-ratings/analyst-color/25/02/43907808/wall-street-looks-to-bounce-back-after-fridays-rough-ride-triggered-by-consumer-sen",
-            "time_published": "20250224T111249",
-            "authors": [
-                "Rishabh Mishra"
-            ],
-            "summary": "U.S. stock futures rose on Monday, following Friday's selloff. Futures of all four benchmark indices were trading higher. Investor anxiety over tariffs and a 10% drawdown in consumer sentiment data on Friday, raised fears of a market correction.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/Wall-Street.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.166667"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.166667"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.166667"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.166667"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.166667"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998962"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.166667"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999759"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.026473,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.120733",
-                    "ticker_sentiment_score": "0.050169",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "0.100967",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "OKE",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "0.078",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BURU",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "0.260192",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "0.230673",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "UNH",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "0.085649",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DPZ",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "0.149021",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HAWEL",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "0.062546",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AUID",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "0.265205",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "DMPZF",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "0.14042",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "OC",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "0.056",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WLK",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "-0.023053",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "-0.087664",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HE",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "0.062546",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BOXL",
-                    "relevance_score": "0.060541",
-                    "ticker_sentiment_score": "-0.029122",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.030292",
-                    "ticker_sentiment_score": "0.134614",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Brick-and-Mortar Retail Is Back - Here's 1 Great Dividend Stock You Should Pay Attention To",
-            "url": "https://www.fool.com/investing/2025/02/24/brick-and-mortar-retail-is-back-heres-1-great-divi/",
-            "time_published": "20250224T111100",
-            "authors": [
-                "Matt Frankel and Tyler Crowe"
-            ],
-            "summary": "Outlet shopping is alive and well, and this company could have a big opportunity ahead of it.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/808394/shopping-center-2024.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.004875,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SKT",
-                    "relevance_score": "0.733479",
-                    "ticker_sentiment_score": "-0.420995",
-                    "ticker_sentiment_label": "Bearish"
                 }
             ]
         }
