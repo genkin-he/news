@@ -27,7 +27,7 @@ headers = {
 base_url = "https://driveteslacanada.ca/"
 filename = "./news/data/driveteslacanada/list.json"
 current_links = []
-util = SpiderUtil()
+util = SpiderUtil(notify=False)
 
 
 def get_detail(link):
@@ -99,4 +99,4 @@ def run(link):
         util.log_action_error("request error: {}".format(response.status_code))
 
 
-util.execute_with_timeout(run, base_url, notify=False)
+util.execute_with_timeout(run, base_url)

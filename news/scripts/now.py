@@ -28,7 +28,7 @@ headers = {
 base_url = "https://news.now.com"
 filename = "./news/data/now/list.json"
 current_links = []
-util = SpiderUtil()
+util = SpiderUtil(notify=False)
 
 
 def run(link):
@@ -86,13 +86,9 @@ def run(link):
 
 
 util.execute_with_timeout(
-    run,
-    "https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1",
-    notify=False,
+    run, "https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1"
 )
 
 util.execute_with_timeout(
-    run,
-    "https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1",
-    notify=False,
+    run, "https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1"
 )

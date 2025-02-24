@@ -28,7 +28,7 @@ headers = {
 base_url = "https://www.statementdog.com/"
 filename = "./news/data/statementdog/list.json"
 current_links = []
-util = SpiderUtil()
+util = SpiderUtil(notify=False)
 
 
 def get_detail(link):
@@ -104,4 +104,4 @@ def run():
         util.log_action_error("request exception: {}".format(str(e)))
 
 
-util.execute_with_timeout(run, notify=False)
+util.execute_with_timeout(run)

@@ -28,7 +28,7 @@ headers = {
 base_url = "https://www.bioon.com/"
 filename = "./news/data/bioon/list.json"
 current_links = []
-util = SpiderUtil()
+util = SpiderUtil(notify=False)
 
 
 def get_detail(link):
@@ -96,4 +96,4 @@ def run(link):
     else:
         util.log_action_error("request error: {}".format(response))
 
-util.execute_with_timeout(run, base_url, notify=False)
+util.execute_with_timeout(run, base_url)
