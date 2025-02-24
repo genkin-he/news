@@ -1,8 +1,67 @@
 {
-    "items": "35",
+    "items": "37",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Better Artificial Intelligence Stock: Strategy vs. Arm Holdings",
+            "url": "https://www.fool.com/investing/2025/02/23/better-artificial-intelligence-stock-strategy-vs-a/",
+            "time_published": "20250223T234700",
+            "authors": [
+                "Robert Izquierdo"
+            ],
+            "summary": "Artificial intelligence ( AI ) is a great sector to invest in as a rapidly expanding industry with years of growth ahead. And you have a wide selection of AI companies to choose from when making an investment decision.Two prominent tech businesses to consider here are Strategy ( NASDAQ: MSTR ) , ...",
+            "banner_image": "https://media.ycharts.com/charts/28804be4ffe1dbb6363c7ff795c1f77e.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.264441,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ARM",
+                    "relevance_score": "0.193852",
+                    "ticker_sentiment_score": "0.17311",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.097655",
+                    "ticker_sentiment_score": "0.069579",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STRK",
+                    "relevance_score": "0.097655",
+                    "ticker_sentiment_score": "0.155612",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.146025",
+                    "ticker_sentiment_score": "0.099223",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Dr. Gregory George MD PhD Joins Mesoblast Board - Mesoblast  ( NASDAQ:MESO ) ",
             "url": "https://www.benzinga.com/pressreleases/25/02/g43904085/dr-gregory-george-md-phd-joins-mesoblast-board",
@@ -66,6 +125,45 @@
                     "relevance_score": "0.524949",
                     "ticker_sentiment_score": "0.219158",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Crypto derivatives missing from Hong Kong's virtual-asset push, Deribit says",
+            "url": "https://www.scmp.com/business/banking-finance/article/3299671/crypto-derivatives-missing-piece-hong-kongs-virtual-asset-push-deribit-says",
+            "time_published": "20250223T233013",
+            "authors": [
+                "Aileen Chuang"
+            ],
+            "summary": "Dubai-based exchange aims to expand in the city as the regulator is set to consider letting professional investors trade crypto derivatives.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/21/c301f77d-c222-41fd-83ee-bba0b54fa86b_9b50ec8f.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.967645"
+                }
+            ],
+            "overall_sentiment_score": 0.272009,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.155451",
+                    "ticker_sentiment_score": "0.201333",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.078099",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
