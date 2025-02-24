@@ -1,8 +1,82 @@
 {
-    "items": "37",
+    "items": "38",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Arrowpoint Investment Partners Chooses SS&C for Fund Administration - SS&C Techs Hldgs  ( NASDAQ:SSNC ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/02/n43904460/arrowpoint-investment-partners-chooses-ss-c-for-fund-administration",
+            "time_published": "20250224T010000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "WINDSOR, Conn., Feb. 23, 2025 /PRNewswire/ -- SS&C Technologies Holdings, Inc. SSNC today announced that Arrowpoint Investment Partners, Singapore's new multi-strategy hedge fund investment firm, has selected SS&C GlobeOp to administer its flagship $1 billion multi-strategy fund.",
+            "banner_image": "https://mma.prnewswire.com/media/692536/SSC_Logo.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.990999"
+                }
+            ],
+            "overall_sentiment_score": 0.232537,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.090816",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SSNC",
+                    "relevance_score": "0.267804",
+                    "ticker_sentiment_score": "0.045812",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "China's office market outlook bleak as foreign firms leave in droves",
+            "url": "https://www.scmp.com/business/article/3299665/chinas-office-property-market-outlook-bleak-foreign-firms-leave-droves",
+            "time_published": "20250224T003010",
+            "authors": [
+                "Yuke Xie"
+            ],
+            "summary": "The office vacancy rate in Beijing climbed to 21 per cent in the fourth quarter of last year, from 17.9 per cent in the fourth quarter of 2020.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/02/14/CLEAN---thumbnail_0.jpg?itok=kfKw82OO",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.016745,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SVLPF",
+                    "relevance_score": "0.183546",
+                    "ticker_sentiment_score": "-0.052186",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.046273",
+                    "ticker_sentiment_score": "-0.006977",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Better Artificial Intelligence Stock: Strategy vs. Arm Holdings",
             "url": "https://www.fool.com/investing/2025/02/23/better-artificial-intelligence-stock-strategy-vs-a/",
@@ -1469,43 +1543,6 @@
                     "relevance_score": "0.668128",
                     "ticker_sentiment_score": "0.098629",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Alphabet Stock Is Cheaper Than the S&P 500 Index. Here's Why It's Time to Load Up.",
-            "url": "https://www.fool.com/investing/2025/02/23/alphabet-stock-is-cheaper-than-the-sp-500-index-he/",
-            "time_published": "20250223T174500",
-            "authors": [
-                "Keithen Drury"
-            ],
-            "summary": "The headline of this article says it all: Alphabet ( NASDAQ: GOOG ) ( NASDAQ: GOOGL ) stock is cheaper than the S&P 500 ( SNPINDEX: ^GSPC ) index. It might seem a bit odd that a dominant tech company would fall behind the valuation of a broad market index, but that is exactly what happened.This ...",
-            "banner_image": "https://media.ycharts.com/charts/68fe040d0828816379162e8c223bc623.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998947"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.990999"
-                }
-            ],
-            "overall_sentiment_score": 0.303833,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.573826",
-                    "ticker_sentiment_score": "0.373635",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
