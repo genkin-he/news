@@ -1,8 +1,160 @@
 {
-    "items": "32",
+    "items": "34",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Elon Musk's SpaceX To Undertake Starship's 8th Test Flight On Friday",
+            "url": "https://www.benzinga.com/25/02/43905539/elon-musk-led-spacex-to-undertake-starships-8th-test-flight-on-friday",
+            "time_published": "20250224T061130",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "SpaceX CEO Elon Musk said on Sunday that the next test flight of its Starship launch vehicle will be on Friday or Feb. 28. What Happened: \"Starship Flight 8 flies Friday,\" Musk wrote briefly on social media platform X. Starship Flight 8 flies Friday pic.twitter.com/CmOdg13e6K",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/24/SpaceXs-First-Launch-In-2025-To-Be-For-U.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.102787,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Sandoz launches biosimilar Pyzchiva\u00ae  ( ustekinumab-ttwe )  in the US, offering new treatment for around 12 million patients[1-4]",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030856/0/en/Sandoz-launches-biosimilar-Pyzchiva-ustekinumab-ttwe-in-the-US-offering-new-treatment-for-around-12-million-patients-1-4.html",
+            "time_published": "20250224T060000",
+            "authors": [
+                "Sandoz International GmbH"
+            ],
+            "summary": "Ad hoc announcement pursuant to art. 53 SIX Swiss Exchange Listing Rules ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/511761ff-db95-4da3-a6b1-590b54593456",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.049223,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SSNLF",
+                    "relevance_score": "0.091162",
+                    "ticker_sentiment_score": "0.122078",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "JNJ",
+                    "relevance_score": "0.036532",
+                    "ticker_sentiment_score": "0.167428",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Globe Telecom, Nokia collaborate on network APIs to provide banks with enhanced security #MWC25",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030851/0/en/Globe-Telecom-Nokia-collaborate-on-network-APIs-to-provide-banks-with-enhanced-security-MWC25.html",
+            "time_published": "20250224T060000",
+            "authors": [
+                "Nokia Oyj"
+            ],
+            "summary": "Press releaseGlobe Telecom, Nokia collaborate on network APIs to provide banks with enhanced security ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/e6523d78-c43a-4057-8aa9-68206d3af4a8",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.345807,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.064449",
+                    "ticker_sentiment_score": "0.047087",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TEF",
+                    "relevance_score": "0.064449",
+                    "ticker_sentiment_score": "0.047087",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "APG",
+                    "relevance_score": "0.128478",
+                    "ticker_sentiment_score": "0.055412",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SRHBF",
+                    "relevance_score": "0.064449",
+                    "ticker_sentiment_score": "0.047087",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NOK",
+                    "relevance_score": "0.626259",
+                    "ticker_sentiment_score": "0.589161",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "GTMEF",
+                    "relevance_score": "0.372448",
+                    "ticker_sentiment_score": "0.353835",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "TEO",
+                    "relevance_score": "0.064449",
+                    "ticker_sentiment_score": "0.047087",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "FRO - Invitation to Q4 2024 Results Conference Call and Webcast",
+            "url": "https://www.globenewswire.com/news-release/2025/02/24/3030854/0/en/FRO-Invitation-to-Q4-2024-Results-Conference-Call-and-Webcast.html",
+            "time_published": "20250224T060000",
+            "authors": [
+                "Frontline plc."
+            ],
+            "summary": "Frontline plc.'s preliminary fourth quarter 2024 results will be released on Friday February 28, 2025, and a webcast and conference call will be held at 3:00 p.m. CET ( 9:00 a.m. U.S. Eastern Time ) . The results presentation will be available for download from the Investor Relations section at ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/f9d88d27-ba14-4d64-8b73-d550e8a11d97",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.085237,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
         {
             "title": "Elon Musk's Grok AI Silences Trump, Tesla CEO's Misinformation Claims, Then Backtracks - xAI Blames Former OpenAI Employee",
             "url": "https://www.benzinga.com/25/02/43905475/elon-musks-truth-seeking-grok-ai-silences-trump-and-tesla-ceos-misinformation-claims-then-backtracksxai-blames-fo",
@@ -1316,84 +1468,6 @@
                     "ticker": "FOREX:USD",
                     "relevance_score": "0.05833",
                     "ticker_sentiment_score": "-0.023152",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Telegram Fined $640,000 By Australia For Delayed Response To Child Abuse, Terrorism Inquiry: 'Unfair And Disproportionate Penalty'",
-            "url": "https://www.benzinga.com/general/social-media/25/02/43904767/telegram-fined-640000-by-australia-for-delayed-response-to-child-abuse-terrorism-inquiry-unf",
-            "time_published": "20250224T022550",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "On Monday, Australia's online safety regulator fined messaging platform Telegram about 1 million Australian dollars ( $640,000 ) for failing to respond on time to an inquiry into measures preventing the spread of child abuse and extremist content.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/23/What-Happened-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": -0.177353,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RDDT",
-                    "relevance_score": "0.108466",
-                    "ticker_sentiment_score": "-0.298418",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Is C3.ai Stock a Buy Before Feb. 26? Here Is What History Suggests.",
-            "url": "https://www.fool.com/investing/2025/02/23/is-c3ai-stock-a-buy-before-feb-26-here-is-what-his/",
-            "time_published": "20250224T021500",
-            "authors": [
-                "Adam Spatacco"
-            ],
-            "summary": "C3.ai stock shows a clear trend leading up to earnings reports.",
-            "banner_image": "https://media.ycharts.com/charts/4c4b57feb1e34989967a3023adc30870.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998311"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                }
-            ],
-            "overall_sentiment_score": 0.149648,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.067347",
-                    "ticker_sentiment_score": "0.086664",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAH",
-                    "relevance_score": "0.067347",
-                    "ticker_sentiment_score": "0.086664",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.067347",
-                    "ticker_sentiment_score": "0.120326",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
