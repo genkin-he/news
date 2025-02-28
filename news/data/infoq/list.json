@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "C59dWUNrprz78raoQ07b",
+            "title": "在 AI 应用爆发前夜，H.266 成熟了",
+            "image": "https://static001.infoq.cn/resource/image/38/f8/38ee6ac7478f2e0c83ae0191eb6347f8.jpg",
+            "description": "<div><p>2024 年，随着生成式 AI、多模态大模型、全景直播、三维重建等技术逐渐落地行业，我们从流畅、实时、高清的数字视频世界逐步进入更智能、交互性更强、沉浸感更强的的 AI 视频世界。这是一次行进中的音视频革命，我们能从诸多痕迹，验证它的进展：</p><p></p><ul><li><p>据 ResearchAndMarkets 预测，到 2027 年，全球视频流媒体市场规模将高达 1843 亿美元，这一惊人的数据充分彰显了视频产业的蓬勃发展态势；</p></li></ul><ul><li><p>XR 设备出货量年增 35%，虚实融合的\"空间互联网\"逐步成型；</p></li></ul><ul><li><p>2024 年央视春晚采用 XR 技术，围绕舞台效果进行了设计，并验证落地；</p></li></ul><ul><li><p>……</p></li></ul><p></p><p>以上并非终局，事实上，生成式 AI 正在进一步扩展视频流媒体领域的市场天花板。</p><p></p><p>内容生产正从 UGC/PGC 发展到 AIGC，内容的生产量将呈几何倍数的增长。有数据显示，AIGC 工具将视频创作门槛降低 90%，预计 2027 年全球短视频日产量突破 50 亿条；用户的交互空间也在从 2D、3D，VR 拓展到了虚拟世界与现实世界的无缝融合。</p><p></p><p>这一系列新需求，对视频编解码技术的要求是：在带宽不变的情况下，画质更优；同等画质下，存储和传输成本更低。</p><p></p><p>最新一代视频编码标准 H.266/VVC 正是在这种背景下，走入“舞台”中央。作为支撑庞大视频产业的核心关键要素，H.266 在流媒体生态中起着举足轻重的作用。</p><p></p><p>H.266 的重点应用场景可分为三个部分：点播、直播、RTC。虽然 H.266 硬解码器的支持正在逐步增加，但目前市场上硬解支持 H.266 的设备相对较少，尤其是一些移动终端。因此，优化 H.266 的软件解码器就显得尤为重要。</p><p></p><p>其中，点播编解码更注重压缩效率与画质平衡，H.266 的核心优势在于压缩效率提升约 50%。通过四叉树加多类型树（QT+MTT）分块法和色度分量双树编码，H.266 能更精细地划分编码单元，减少冗余数据。例如，在 4K/8K 视频中，128×128 的编码树单元（CTU）相比 H.265 的 64×64 单元，显著提升大分辨率视频的编码效率。</p><p></p><p>在动态范围与色彩支持方面，H.266 的 Main10 Profile 原生支持 10bit 色深和 HDR，解决了点播内容在宽色域和高动态范围下的色彩断层问题。</p><p></p><p>直播则更看重实时性与复杂度平衡，因而对编码速度要求苛刻，H.266 的编码复杂度较 H.265 增加约 10 倍，可通过硬件加速（如 GPU 或专用芯片）实现高效实时编码，这点与当下新型算力中心的构建思路相通，适合复用冗余的、低功耗的 GPU 算力。</p><p></p><p>RTC （实时通信）更关注低延迟与交互优化，要求端到端延迟低于 100ms。H.266 通过多种技术手段提升运动矢量预测（HMVP）和编码（SMVD) 效率，提升编码效率，降低重传率。</p><p></p><p>针对视频会议中的 PPT 共享、白板协作等场景，H.266 引入帧内块复制（Intra Block Copy）技术，直接复用屏幕内容中的重复块（如文字、图表），压缩效率提升 40%。</p><p></p><p>此外，H.266 的环绕运动补偿（Wrap Around Motion Compensation），也可以优化 360 度视频的边界连续性。</p><p></p><p>这些特性使得 H.266 已经成为视频企业必选的技术栈、必做的标准升级。有数据显示，2026 年支持 H.266 硬解设备将超 20 亿台，推动 8K/VR 内容普及。唯一的问题在于，直接使用开源软件做简单定制，还是基于付费版商业软件来构建业务。</p><p></p><p>我们必须考虑到，对比十年前，视频编解码领域的实力派玩家，数量增加了，其中最重磅的，非字节跳动及火山引擎莫属。</p><p></p><p>字节及火山在视频业务上有积累独到的 Know-How ，且在技术上的嗅觉足够敏锐，这赋予了字节及火山自研的 H.266 系列产品夸张的性能表现。比如，从官方数据口径来看，火山引擎 H.266 解码器的计算复杂度几乎只有 VTM-23.5 的四分之一到七分之一，是 FFmpeg 7.1 的三分之一。</p><p></p><p>本专题将首先回顾 H.266/VVC 的技术沿革，而更多、更详细的性能指标对比和技术解读，将在接下来的章节中逐步展开。专题末尾，我们会单独提及火山引擎对点播、直播、RTC 场景下编码器及解码器的优化工作。</p><p></p><p>我认为这个技术专题，对于即将基于  H.266 标准构建视频流业务的团队，有着极强的借鉴意义，也几乎是一名技术决策者，在完成技术选型前，所必须参考的资料。</p></div>",
+            "link": "https://www.infoq.cn/article/C59dWUNrprz78raoQ07b",
+            "pub_date": "2025-02-28 11:07:44",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "09t4tYt8ZTeE8bVlmbD6",
             "title": "GTC25 | China AI Day：预约云与互联网中文专场，点燃 AI 灵感！",
             "image": "https://static001.infoq.cn/resource/image/95/19/95f0b450f878f993309aab5b8029df19.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p></p><p>1 月下旬，DeepSeek 推出性能媲美 OpenAI o1 模型的推理模型 R1，不仅成本远低于 o1 而且还开源，API 付费价格也远低于 o1，一经发出，立刻引起了 AI 圈的广泛关注。</p><p></p><p>一周后的除夕当天，DeepSeek 再次推出并开源了多模态人工智能模型 Janus-Pro，一款基于 DeepSeek-LLM-1.5b-base 和 DeepSeek-LLM-7b-base 构建的模型。在这系列模型中，Janus-Pro-7B 在 GenEval 和 DPG-Bench 基准测试中，在文本生成、语义理解、知识问答等关键任务上，击败了 OpenAI 的 DALL-E 3 和 Stable Diffusion，直接将国内外 AI 狂欢推向高潮。</p><p></p><p>据悉，DeepSeek 在 GitHub 开源后，代码库快速吸引大量开发者关注，star 数短期内突破十万，且众多基于 DeepSeek 的二次开发项目如代码自动补全、智能文档摘要等，已在金融、医疗、科研等多领域实现高效部署，有力推动了 AI 应用的创新与落地。</p><p></p><p>而在这个过程中，GMI Cloud 技术团队第一时间在北美完成了对 DeepSeek R1 基于英伟达当前量产最强的 H200 GPU 服务器的部署适配和优化，构建了专属 DeepSeek - R1 推理端点！</p><p></p><p>为了让更多 AI 企业进行体验，GMI Cloud 本周正式推出限免体验 2 天活动！识别下方二维码，即刻获取体验资格，完成一键部署！</p><p></p><p><img>https://static001.geekbang.org/infoq/bc/bcbde218384a992bf78f44b7c9d0335e.webp<img></p><p></p><p></p><h2>技术细节</h2><p></p><p><strong>模型提供商</strong>：DeepSeek</p><p><strong>模型名称</strong>：DeepSeek-R1</p><p><strong>类型</strong>：聊天模型</p><p><strong>参数</strong>：6850 亿</p><p><strong>部署方式</strong>：专用端点（可动态扩容）</p><p><strong>量化方式</strong>：FP8</p><p><strong>上下文长度</strong>：该模型在单个会话中，能够处理 128,000 tokens</p><p></p><p></p><p>此外，GMI Cloud 还提供以下模型：</p><p><strong>DeepSeek-R1-Distill-Llama-70B</strong></p><p><strong>DeepSeek-R1-Distill-Qwen-32B</strong></p><p><strong>DeepSeek-R1-Distill-Qwen-14B</strong></p><p><strong>DeepSeek-R1-Distill-Llama-8B</strong></p><p><strong>DeepSeek-R1-Distill-Qwen-7B</strong></p><p><strong>DeepSeek-R1-Distill-Qwen-1.5B</strong></p><p></p><h2>敏捷部署</h2><p></p><p>1、与GMI Cloud 建立链接</p><p>2、创建模型包</p><p>3、部署</p><p></p><p><color>SDK部署示例：</color></p><p></p><p><img>https://static001.geekbang.org/infoq/67/6791f368e02b5c1136cbadbd395807de.webp<img></p><p></p><h2>关于 GMI Cloud</h2><p>由 Google X 的 AI 专家与硅谷精英共同参与创立的 GMI Cloud 是一家领先的 AI Native Cloud 服务商，拥有遍布全球的数据中心网络，<strong>为企业 AI 应用提供最新、最优的 GPU 资源，为全球新创公司、研究机构和大型企业提供稳定安全、高效经济的 AI 云服务解决方案</strong>。GMI Cloud  凭借高稳定性的技术架构、强大的GPU供应链以及令人瞩目的GPU产品阵容（如拥有AI 强大算力的H100；能够精准平衡AI 成本与效率的H200；以及未来即将上线的具有卓越性能的GB200等），确保企业客户在高度数据安全与计算效能的基础上，高效低本地完成 AI 落地。</p></div>",
             "link": "https://www.infoq.cn/article/YzAkBt4K0Zw3S2j1oV9c",
             "pub_date": "2025-02-07 01:18:53",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "KKyvcfyF2VwhS6Z8HjAd",
-            "title": "微软研究院开源 AIOpsLab：一个 AI 驱动的云运维框架",
-            "image": "https://static001.infoq.cn/resource/image/d4/b6/d406e9117780b815b2a0096f486be1b6.jpg",
-            "description": "<div><p>微软研究院推出 AIOpsLab 开源框架，旨在推进云运维中 AI 智能体的开发和评估。该工具提供了一个标准化且可扩展的平台，应对复杂的云环境中所面临的故障诊断、事件缓解和系统可靠性等方面的挑战。</p><p></p><p>随着微服务和无服务器架构在企业 IT 中成为标准，其复杂性带来了新的运维挑战。停机可能会影响关键业务运营，这凸显了维护系统可用性工具的重要性。许多现有的解决方案依赖专有服务或临时的手段，可能缺乏灵活性和一致性。AIOpsLab 提供了一个标准化的框架来评估和增强不同云环境中的 AIOps 智能体，有效解决了这些问题。</p><p></p><p>AIOpsLab 引入了几个关键组件来实现其目标。该框架的核心是 Agent-Cloud Interface（ACI），它通过一个协调器将 AI 智能体与应用服务分离。这个协调器负责定义任务、验证操作，并与 API 交互执行问题解决策略。任务还通过动态工作负载和故障生成器得到进一步增强，能够模拟资源耗尽、级联故障等真实运维场景。</p><p></p><p><img>https://static001.geekbang.org/wechat/images/cd/cd2c2e50da55d892a5ae38a7d419c951.png<img></p><p></p><p>来源：微软博客</p><p></p><p>这一接口概念引发了社区的广泛关注。雀巢解决方案架构师 Marco Casula分享了他的看法：</p><p></p><p></p><p>AIOpsLab 支持包括事件检测、根本原因分析和缓解在内的一系列运维任务，既是一个基准测试工具，也是一个训练环境。研究人员可以利用它在可复现的条件下评估 AIOps 智能体的性能，同时利用其模块化设计将框架扩展到新的应用场景中。</p><p></p><p>AIOpsLab 还整合了 React、Autogen 和 TaskWeaver 等流行的智能体框架，让广泛的开发者社区更易于访问。其故障注入功能能够详细测试系统间的依赖关系，提高云服务的弹性。</p><p></p><p>此外，AIOpsLab 遵循微软的安全标准和负责任的 AI 原则。未来计划与生成式 AI 团队合作，将 AIOpsLab 纳入评估前沿模型的基准体系。</p><p></p><p>AIOpsLab 已在 GitHub 上开源，基于 MIT 许可。</p><p></p><p><strong>原文链接</strong>：</p><p></p><p></p><p></p></div>",
-            "link": "https://www.infoq.cn/article/KKyvcfyF2VwhS6Z8HjAd",
-            "pub_date": "2025-02-03 06:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
