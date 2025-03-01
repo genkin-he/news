@@ -1,8 +1,61 @@
 {
-    "items": "38",
+    "items": "40",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Charlie Munger's Investment Wisdom: The S&P 500 Index Is Unbeatable '95% Of People Have No Chance Of Beating S&P 500 Index'",
+            "url": "https://www.benzinga.com/markets/25/03/44066140/charlie-mungers-investment-wisdom-95-of-people-have-no-chance-of-beating-sp-500-index",
+            "time_published": "20250301T214515",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Charlie Munger's legacy lives on as his investment wisdom highlights the S&P 500's dominance. Investors face a daunting challenge in outperforming the market, with 95% unable to beat the S&P 500.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Charlie-Munger-ecco-come-si-fanno-i-sold.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.972756"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.090402,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "INSM",
+                    "relevance_score": "0.06179",
+                    "ticker_sentiment_score": "0.094014",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.06179",
+                    "ticker_sentiment_score": "0.094014",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.06179",
+                    "ticker_sentiment_score": "0.038599",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Elon Musk Battles OpenAI Over Move To For-Profit Model - And Experts Are Pushing Back",
             "url": "https://www.benzinga.com/tech/25/03/44066117/elon-musk-battles-openai-over-move-to-for-profit-model-and-experts-are-pushing-back",
@@ -188,6 +241,117 @@
                     "ticker": "CRYPTO:AAVE",
                     "relevance_score": "0.120431",
                     "ticker_sentiment_score": "0.145404",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "1 Reason to Buy This Artificial Intelligence  ( AI )  Quantum Computing Stock on the Dip",
+            "url": "https://www.fool.com/investing/2025/03/01/1-reason-to-buy-this-artificial-intelligence-ai-qu/",
+            "time_published": "20250301T210900",
+            "authors": [
+                "Ryan Vanzo"
+            ],
+            "summary": "In 2024, nearly any company dealing with quantum computing or artificial intelligence saw its valuations soar. These two fields created some of the hottest investment opportunities in years. And while long-term projections are still rosy in terms of growth, the share prices for many of these ...",
+            "banner_image": "https://media.ycharts.com/charts/3e2e25a5b5228ebcf655e2f4f0a9d803.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                }
+            ],
+            "overall_sentiment_score": 0.282519,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "QBTS",
+                    "relevance_score": "0.138066",
+                    "ticker_sentiment_score": "0.134499",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "1 Wall Street Analyst Thinks Tesla Is Worth $2 Trillion. Is It a Buy Now?",
+            "url": "https://www.fool.com/investing/2025/03/01/1-wall-street-analyst-thinks-tesla-is-worth-2-tril/",
+            "time_published": "20250301T210600",
+            "authors": [
+                "Howard Smith"
+            ],
+            "summary": "It's been a volatile and interesting year for Tesla ( NASDAQ: TSLA ) stock, its CEO, Elon Musk, and its various businesses. The stock has traded as low as $142 and as high as $480 per share over the past 12 months.One widely followed Wall Street analyst acknowledges the risks, but sees a very ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808704/tesla-models-at-chargers-with-setting-sun.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.247802,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.848651",
+                    "ticker_sentiment_score": "0.440259",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "After an Earnings Pop, Is This AI Stock Ready to Soar?",
+            "url": "https://www.fool.com/investing/2025/03/01/after-an-earnings-pop-is-this-ai-stock-ready-to-so/",
+            "time_published": "20250301T210000",
+            "authors": [
+                "Jeremy Bowman"
+            ],
+            "summary": "Appian ( NASDAQ: APPN ) has struggled on the stock market in recent years even as it's continued to deliver steady top-line growth.However, the company gave investors some good news last week with its fourth-quarter ( Q4 ) earnings report sending the stock up 16% on Wednesday.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808788%2Fai-on-keyboard.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.990893"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.271012,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.064973",
+                    "ticker_sentiment_score": "0.024124",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PEGA",
+                    "relevance_score": "0.064973",
+                    "ticker_sentiment_score": "0.024124",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NOW",
+                    "relevance_score": "0.064973",
+                    "ticker_sentiment_score": "0.024124",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1373,154 +1537,6 @@
             "overall_sentiment_score": 0.139811,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Public Keys: Coinbase Wins, Marathon Prints as Bitcoin Enters Choppy Waters",
-            "url": "https://decrypt.co/308342/public-keys-coinbase-wins-marathon-prints-bitcoin-choppy-waters",
-            "time_published": "20250301T163102",
-            "authors": [
-                "Stacy Elliott"
-            ],
-            "summary": "Analysts who follow Marathon should be singing the company's praises, right? Well, that's not exactly been the case.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/09/bitcoin-miners-btc-miners-price-chart-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.614606"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.25"
-                }
-            ],
-            "overall_sentiment_score": 0.15572,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MARA",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "0.054848",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BITF",
-                    "relevance_score": "0.197413",
-                    "ticker_sentiment_score": "0.125744",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BSQKZ",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HUT",
-                    "relevance_score": "0.245339",
-                    "ticker_sentiment_score": "0.129264",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "RIOT",
-                    "relevance_score": "0.099476",
-                    "ticker_sentiment_score": "0.13809",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ASCCF",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.050492",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CLSK",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.189203",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.338251",
-                    "ticker_sentiment_score": "0.140673",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.546745",
-                    "ticker_sentiment_score": "0.211557",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "BexBack Introduces Double Deposit Bonus, $50 Welcome Bonus and 100x Leverage for Crypto Traders-No KYC Needed",
-            "url": "https://markets.businessinsider.com/news/stocks/bexback-introduces-double-deposit-bonus-50-welcome-bonus-and-100x-leverage-for-crypto-traders-no-kyc-needed-1034428064",
-            "time_published": "20250301T163000",
-            "authors": [
-                "markets.businessinsider.com"
-            ],
-            "summary": "SINGAPORE, March 01, 2025 ( GLOBE NEWSWIRE ) -- With Bitcoin's price fluctuating below $100,000, many analysts predict a prolonged period of high volatility in the crypto market. Holding spot positions may struggle to generate short-term profits in such conditions.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/60017f85-442c-4870-b23c-1e6cfc57829e/bexback.jpeg",
-            "source": "Business Insider",
-            "category_within_source": "RSS",
-            "source_domain": "markets.businessinsider.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                }
-            ],
-            "overall_sentiment_score": 0.451928,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.679474",
-                    "ticker_sentiment_score": "0.598899",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.07913",
-                    "ticker_sentiment_score": "0.211979",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
         }
     ]
 }
