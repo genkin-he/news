@@ -1,8 +1,90 @@
 {
-    "items": "39",
+    "items": "40",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Trump to host first White House crypto summit on March 7",
+            "url": "https://cointelegraph.com/news/trump-white-house-crypto-summit-march-7",
+            "time_published": "20250301T105522",
+            "authors": [
+                "Zoltan Vardai"
+            ],
+            "summary": "President Trump will host the first White House Crypto Summit on March 7, bringing together industry leaders to discuss regulations, stablecoins and Bitcoin reserve legislation.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01955111-3253-7c42-9ef6-6bfd6b4f412c",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.928139"
+                }
+            ],
+            "overall_sentiment_score": 0.129742,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.07157",
+                    "ticker_sentiment_score": "-0.12392",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.52759",
+                    "ticker_sentiment_score": "0.113418",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "More Overvalued Stock: Palantir vs. Costco",
+            "url": "https://www.fool.com/investing/2025/03/01/more-overvalued-stock-palantir-vs-costco/",
+            "time_published": "20250301T101500",
+            "authors": [
+                "Bram Berkowitz"
+            ],
+            "summary": "After a nearly two-and-a-half-year bull run on Wall Street, there are a lot of stocks trading at elevated valuations. Much of the market's run was powered by artificial intelligence ( AI ) stocks that investors are so bullish about that there's seemingly no valuation high enough to give them ...",
+            "banner_image": "https://media.ycharts.com/charts/92115f07fa8c87e8c463d0d6bbd9e57d.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.818451"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.116054,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.216473",
+                    "ticker_sentiment_score": "0.150783",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.087503",
+                    "ticker_sentiment_score": "0.074279",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Cathie Wood's Ark Invest Loads Up On Tempus AI, Archer Aviation, But Sells Twist Bioscience: Here Are Key Ark Trades This Friday - Archer Aviation  ( NYSE:ACHR ) , Accolade  ( NASDAQ:ACCD ) ",
             "url": "https://www.benzinga.com/25/03/44064991/cathie-woods-ark-invest-loads-up-on-tempus-ai-archer-aviation-but-sells-twist-bioscience-here-are-key-ark-trades-",
@@ -86,6 +168,112 @@
                     "ticker": "TEM",
                     "relevance_score": "0.658003",
                     "ticker_sentiment_score": "0.65414",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "3 Top High-Yield Dividend Stocks I Just Bought in My Retirement Account",
+            "url": "https://www.fool.com/investing/2025/03/01/3-top-high-yield-dividend-stocks-i-just-bought-in/",
+            "time_published": "20250301T100300",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "I'm filling my retirement account with dividend stocks. While I like to see the passive income flow into my portfolio, that's not the main factor. The biggest reason is outperformance. Dividend stocks have historically delivered more than double the total return of non-payers ( 9.2% annualized ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809327/drawing-retirement-plan-growth.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.348125,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ENB",
+                    "relevance_score": "0.365294",
+                    "ticker_sentiment_score": "0.432037",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "KVUE",
+                    "relevance_score": "0.316168",
+                    "ticker_sentiment_score": "0.303308",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ICNB",
+                    "relevance_score": "0.054114",
+                    "ticker_sentiment_score": "0.131916",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "INVH",
+                    "relevance_score": "0.265666",
+                    "ticker_sentiment_score": "0.380368",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "JNJ",
+                    "relevance_score": "0.161349",
+                    "ticker_sentiment_score": "0.145709",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "This Artificial Intelligence  ( AI )  Stock Is Up 15% in 2025 Already. It Is Still a Solid Buy?",
+            "url": "https://www.fool.com/investing/2025/03/01/this-artificial-intelligence-ai-stock-is-up-15-in/",
+            "time_published": "20250301T100000",
+            "authors": [
+                "Harsh Chauhan"
+            ],
+            "summary": "Check Point Software Technologies ( NASDAQ: CHKP ) may not be a household name in the cybersecurity industry, but the company has registered impressive gains of 15% already in 2025, and the good part is that it seems to be in a solid position to sustain its impressive momentum in the future as ...",
+            "banner_image": "https://media.ycharts.com/charts/766491ea92f98a14cbf4fe957704cf00.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999954"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.420908,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CHKP",
+                    "relevance_score": "0.10607",
+                    "ticker_sentiment_score": "0.356399",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
@@ -1658,116 +1846,6 @@
                     "relevance_score": "0.109455",
                     "ticker_sentiment_score": "0.292699",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "India's strong performance an opportunity for reforms to achieve advanced economy status by 1947: IMF - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/economy/indias-strong-performance-an-opportunity-for-reforms-to-achieve-advanced-economy-status-by-1947-imf/118643154",
-            "time_published": "20250301T071500",
-            "authors": [
-                "ETCFO"
-            ],
-            "summary": "Commending India's \"prudent\" policies, the International Monetary Fund's (IMF) Executive Board has said its strong economic performance can help it adopt critical reforms to achieve advanced economy status by 2047.",
-            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
-            "source": "Economic Times",
-            "category_within_source": "Economy",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.546845,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "NIO Inc. Provides February 2025 Delivery Update",
-            "url": "https://www.globenewswire.com/news-release/2025/03/01/3035098/0/en/NIO-Inc-Provides-February-2025-Delivery-Update.html",
-            "time_published": "20250301T070000",
-            "authors": [
-                "NIO Inc."
-            ],
-            "summary": "SHANGHAI, China, March 01, 2025 ( GLOBE NEWSWIRE ) -- NIO Inc. ( NYSE: NIO. HKEX: 9866. SGX: NIO ) ( \"NIO\" or the \"Company\" ) , a pioneer and a leading company in the global smart electric vehicle market, today announced its February 2025 delivery results.",
-            "banner_image": "",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.378035,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NIO",
-                    "relevance_score": "0.671004",
-                    "ticker_sentiment_score": "0.534086",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "SPXCF",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.12989",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PSIX",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.12989",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "India's digital economy expanding at twice the speed of overall economy: Report - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/economy/indias-digital-economy-expanding-at-twice-the-speed-of-overall-economy-report/118643138",
-            "time_published": "20250301T065000",
-            "authors": [
-                "ETCFO"
-            ],
-            "summary": "Per the 'State of India's Digital Economy (SIDE) 2025' report, the digital economy will account for a fifth of the economy by 2029. India ranks as the third most digitised nation globally, after the US and China. Yet, among the G32 countries, India ranks 11th in AI research and 16th in AI ...",
-            "banner_image": "https://etimg.etb2bimg.com/thumb/msid-118643138,imgsize-14748,width-1200,height=765,overlay-etcfo/economy/indias-digital-economy-expanding-at-twice-the-speed-of-overall-economy-report.jpg",
-            "source": "Economic Times",
-            "category_within_source": "Economy",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.295662,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PROSY",
-                    "relevance_score": "0.183198",
-                    "ticker_sentiment_score": "0.123752",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.092213",
-                    "ticker_sentiment_score": "0.072823",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
