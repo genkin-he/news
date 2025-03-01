@@ -1,8 +1,49 @@
 {
-    "items": "49",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "MarketWise Reports Net Income of $93.1 Million and Net Revenue of $408.7 Million for Full Year 2024, and Announces Stock Repurchase Program of up to $50 Million",
+            "url": "https://www.globenewswire.com/news-release/2025/03/01/3035093/0/en/MarketWise-Reports-Net-Income-of-93-1-Million-and-Net-Revenue-of-408-7-Million-for-Full-Year-2024-and-Announces-Stock-Repurchase-Program-of-up-to-50-Million.html",
+            "time_published": "20250301T035100",
+            "authors": [
+                "MarketWise LLC"
+            ],
+            "summary": "BALTIMORE, Feb. 28, 2025 ( GLOBE NEWSWIRE ) -- MarketWise, Inc. ( NASDAQ: MKTW ) ( \"MarketWise\" or the \"Company\" ) , a leading multi-brand digital subscription services platform that provides premium financial research, software, education, and tools for self-directed investors, today reported ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/28994cd5-c835-49ce-bde1-284c5ec7a9cc",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.178211,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MKTW",
+                    "relevance_score": "0.107175",
+                    "ticker_sentiment_score": "0.076758",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "India, EU announce \"blueprint for collaboration\"; trade deal likely this year - ETCFO",
             "url": "https://cfo.economictimes.indiatimes.com/news/economy/india-eu-announce-blueprint-for-collaboration-trade-deal-likely-this-year/118640825",
@@ -99,6 +140,112 @@
             "overall_sentiment_score": 0.208466,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "After FSD Rollout In China, Musk Says Rollout In Europe Delayed Owing To Lack Of Approvals - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/tech/25/02/44063884/after-fsd-rollout-in-china-musk-says-rollout-in-europe-delayed-owing-to-lack-of-approvals",
+            "time_published": "20250301T030038",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "Tesla Inc. TSLA CEO Elon Musk said on Friday that it is still awaiting regulatory clearance to roll out its full self-driving ( FSD ) driver assistance technology in Europe, despite rolling its features out in China earlier this week. What Happened: \"We are waiting for regulatory approval,\" ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/28/DOGE-Justifies-Move-as-Cost-Cutting-Meas.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.120374,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.570165",
+                    "ticker_sentiment_score": "0.087189",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "How China's 'Fantastic Four' are reshaping the global tech landscape",
+            "url": "https://www.scmp.com/tech/big-tech/article/3300594/chinas-fantastic-four-new-breed-entrepreneurs-reshaping-global-tech-landscape",
+            "time_published": "20250301T030014",
+            "authors": [
+                "Ben Jiang"
+            ],
+            "summary": "China's new generation of tech tsars were born after the country began its 'reform and opening up' phase.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/02/28/4ba3a6f0-66a1-4220-8270-3d6a55562c3f_a4909d44.jpg?itok=Z7c4chjM&v=1740740470",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.166677,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.050254",
+                    "ticker_sentiment_score": "-0.013981",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.025139",
+                    "ticker_sentiment_score": "0.111479",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.050254",
+                    "ticker_sentiment_score": "0.045846",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABNB",
+                    "relevance_score": "0.025139",
+                    "ticker_sentiment_score": "0.111479",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OPTGF",
+                    "relevance_score": "0.025139",
+                    "ticker_sentiment_score": "0.173561",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.025139",
+                    "ticker_sentiment_score": "0.104894",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.025139",
+                    "ticker_sentiment_score": "-0.014856",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "Bitcoin set for biggest weekly fall since FTX collapse in 2022 - ETCFO",
@@ -1772,216 +1919,6 @@
                     "ticker": "FSFG",
                     "relevance_score": "0.465196",
                     "ticker_sentiment_score": "0.290117",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Purpose Investments Announces Temporary Absorption of Series F and Series A Management Fees of Purpose Premium Money Market Fund",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g44061714/purpose-investments-announces-temporary-absorption-of-series-f-and-series-a-management-fees-of-pur",
-            "time_published": "20250228T223000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "TORONTO, Feb. 28, 2025 ( GLOBE NEWSWIRE ) -- Purpose Investments Inc. ( \"Purpose\" ) announced today that it has temporarily absorbed a portion of the management fees on Series F and Series A shares of Purpose Premium Money Market Fund ( the \"Fund\" ) .",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.990999"
-                }
-            ],
-            "overall_sentiment_score": 0.143535,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:UZS",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.157536",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "First Savings Financial Group, Inc. Announces Quarterly Cash Dividend",
-            "url": "https://www.globenewswire.com/news-release/2025/02/28/3035068/10976/en/First-Savings-Financial-Group-Inc-Announces-Quarterly-Cash-Dividend.html",
-            "time_published": "20250228T223000",
-            "authors": [
-                "First Savings Financial Group",
-                "Inc."
-            ],
-            "summary": "JEFFERSONVILLE, Ind., Feb. 28, 2025 ( GLOBE NEWSWIRE ) -- First Savings Financial Group, Inc. ( NASDAQ: FSFG ) ( the \"Company\" ) , the holding company for First Savings Bank ( the \"Bank\" ) , announced that its Board of Directors declared a quarterly cash dividend of $0.16 per common share.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/6ede4e8b-5c0b-434c-970f-cfde56a96fa1",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.239554,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FSFG",
-                    "relevance_score": "0.591019",
-                    "ticker_sentiment_score": "0.347161",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Is Oracle Stock a Buy?",
-            "url": "https://www.fool.com/investing/2025/02/28/is-oracle-stock-a-buy/",
-            "time_published": "20250228T221500",
-            "authors": [
-                "Robert Izquierdo"
-            ],
-            "summary": "Artificial intelligence ( AI ) has been a boon for a number of businesses, including Oracle ( NYSE: ORCL ) . AI energized the tech company's fortunes, sending its shares soaring 50% over the past 12 months through the week ending Feb. 21.One factor that drove the stock higher is the company's ...",
-            "banner_image": "https://media.ycharts.com/charts/a37450f5a12d7ee3f2486fbb98a9cb9f.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.98396"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": 0.239064,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.059194",
-                    "ticker_sentiment_score": "-0.066991",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ORCL",
-                    "relevance_score": "0.447528",
-                    "ticker_sentiment_score": "0.140324",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "'Off the Grid' Game Adds 'Biggest Update Yet'-Here's What's New",
-            "url": "https://decrypt.co/308308/off-grid-avalanche-game-biggest-update-yet",
-            "time_published": "20250228T221139",
-            "authors": [
-                "Ryan S. Gladwin"
-            ],
-            "summary": "Avalanche battle royale shooter Off the Grid has added a new cyberlimb, a fresh region of the map, and more in its latest update.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/12/OfftheGrid-person-scaled-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.055619,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Bitcoin spot and margin longs push BTC to $85K, but the bottom isn't in yet",
-            "url": "https://cointelegraph.com/news/bitcoin-spot-and-margin-longs-push-btc-to-85-k-but-the-bottom-isn-t-in-yet",
-            "time_published": "20250228T221040",
-            "authors": [
-                "Big Smokey"
-            ],
-            "summary": "Is the Bitcoin bottom in, or is today's price action simply an oversold bounce that will trap overleveraged bulls?",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-02/01954e96-5a68-77d8-8fc1-fac99e5b2673",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.189108,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.146916",
-                    "ticker_sentiment_score": "0.095144",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.904419",
-                    "ticker_sentiment_score": "-0.437087",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Should You Buy United Parcel Service While It's Below $120?",
-            "url": "https://www.fool.com/investing/2025/02/28/should-you-buy-united-parcel-service-while-its-bel/",
-            "time_published": "20250228T220200",
-            "authors": [
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "United Parcel Service ( NYSE: UPS ) offered investors good news when it reported fourth-quarter 2024 earnings in late January. It also provided investors with news that could easily be seen as bad. But if you step back from that bad news, you'll see that UPS, as the company is normally called, is ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809152%2F21_12_10-two-people-looking-into-a-box-with-their-dog-_gettyimages-1316497909.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.195283,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "UPS",
-                    "relevance_score": "0.7877",
-                    "ticker_sentiment_score": "0.345485",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.306325",
-                    "ticker_sentiment_score": "0.196093",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
