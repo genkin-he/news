@@ -1,8 +1,117 @@
 {
-    "items": "39",
+    "items": "37",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Public Keys: Coinbase Wins, Marathon Prints as Bitcoin Enters Choppy Waters",
+            "url": "https://decrypt.co/308342/public-keys-coinbase-wins-marathon-prints-bitcoin-choppy-waters",
+            "time_published": "20250301T163102",
+            "authors": [
+                "Stacy Elliott"
+            ],
+            "summary": "Analysts who follow Marathon should be singing the company's praises, right? Well, that's not exactly been the case.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/09/bitcoin-miners-btc-miners-price-chart-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.614606"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.25"
+                }
+            ],
+            "overall_sentiment_score": 0.15572,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MARA",
+                    "relevance_score": "0.148731",
+                    "ticker_sentiment_score": "0.054848",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BITF",
+                    "relevance_score": "0.197413",
+                    "ticker_sentiment_score": "0.125744",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BSQKZ",
+                    "relevance_score": "0.049835",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HUT",
+                    "relevance_score": "0.245339",
+                    "ticker_sentiment_score": "0.129264",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RIOT",
+                    "relevance_score": "0.099476",
+                    "ticker_sentiment_score": "0.13809",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ASCCF",
+                    "relevance_score": "0.049835",
+                    "ticker_sentiment_score": "0.050492",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CLSK",
+                    "relevance_score": "0.049835",
+                    "ticker_sentiment_score": "0.189203",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.338251",
+                    "ticker_sentiment_score": "0.140673",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.546745",
+                    "ticker_sentiment_score": "0.211557",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Kessler Topaz Meltzer & Check, LLP Reminds Newmont Corporation Investors of Important Deadline in Securities Fraud Class Action Lawsuit - Newmont  ( NYSE:NEM ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44065631/kessler-topaz-meltzer-check-llp-reminds-newmont-corporation-investors-of-important-deadline-in-sec",
@@ -37,6 +146,28 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "Rocket Lab Stock: Why I'm Buying More",
+            "url": "https://www.fool.com/investing/2025/03/01/rocket-lab-stock-why-im-buying-more/",
+            "time_published": "20250301T161705",
+            "authors": [
+                "Neil Rozenbaum"
+            ],
+            "summary": "In this video, I will be talking about Rocket Lab ( NASDAQ: RKLB ) and why I'm buying the recent pullback. Watch the short video to learn more, consider subscribing, and click the special offer link below.*Stock prices used were from the trading day of Feb. 27, 2025.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809574/gettyimages-486691192.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.185767,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Consumer Tech News  ( Feb 24-Feb 28 ) : Australian Regulators Fined Telegram A$1 Million, Apple May Integrate Google Gemini AI Into Siri & More - Apple  ( NASDAQ:AAPL ) , AMC Entertainment Hldgs  ( NYSE:AMC ) ",
@@ -1521,125 +1652,6 @@
                     "relevance_score": "0.122581",
                     "ticker_sentiment_score": "-0.237607",
                     "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Why nursing homes and hospice are so expensive in the U.S.",
-            "url": "https://www.cnbc.com/2025/03/01/why-nursing-homes-and-hospice-are-so-expensive-in-the-us.html",
-            "time_published": "20250301T130001",
-            "authors": [],
-            "summary": "Baby boomers are poised to hit an already overburdened senior care space in the next few years. Investors are looking to buy up long-term and end-of-life care operations.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Top News",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": 0.194132,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "How a $5 million fix turned Paramount Pictures' 'Sonic' into a billion-dollar franchise",
-            "url": "https://www.cnbc.com/2025/03/01/paramount-sonic-fix-billion-dollar-franchise.html",
-            "time_published": "20250301T130001",
-            "authors": [],
-            "summary": "Paramount Picture's redesign of the titular character in its \"Sonic the Hedgehog\" film has resulted in a $1.2 billion franchise five years later.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Business",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.168662,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SCOR",
-                    "relevance_score": "0.031529",
-                    "ticker_sentiment_score": "0.062074",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CCZ",
-                    "relevance_score": "0.031529",
-                    "ticker_sentiment_score": "-0.156956",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "TONIES\u00ae INTRODUCES NEW FRANCHISE: LALALINOS\u00ae",
-            "url": "https://www.benzinga.com/pressreleases/25/03/n44065227/tonies-introduces-new-franchise-lalalinos",
-            "time_published": "20250301T130000",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "Expands Portfolio of tonies\u00ae Originals with Musical Trio PALO ALTO, Calif., March 1, 2025 /PRNewswire/ -- tonies\u00ae, the original screen-free audio entertainment system for young children, is proud to announce the introduction of Lalalinos\u00ae, the brand's newest franchise that brings children on a ...",
-            "banner_image": "https://mma.prnewswire.com/media/2630962/Tonies_Lalalinos.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.511393,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.053749",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Blaze Pizza Expands Franchise Model with Transition of 11 California Locations to SoCal Blazers",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065225/blaze-pizza-expands-franchise-model-with-transition-of-11-california-locations-to-socal-blazers",
-            "time_published": "20250301T130000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ATLANTA, March 01, 2025 ( GLOBE NEWSWIRE ) -- Blaze Pizza, the nation's leading fast-casual pizza franchise, today announced the transition of 11 company-owned restaurants in California to franchise partner SoCal Blazers, led by Reza Medali.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.43057,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.06211",
-                    "ticker_sentiment_score": "0.15418",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
