@@ -1,8 +1,124 @@
 {
-    "items": "36",
+    "items": "33",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Massive Losses For Crypto Traders As Melania Trump's Official Memecoin Plummets",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44065912/massive-losses-for-crypto-traders-as-melania-memecoin-plummets",
+            "time_published": "20250301T184521",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Crypto trader faces a staggering $15.68 million loss in Melania Trump's Memecoin debacle. New legislation aims to curb lawmaker profits from volatile meme assets like the TRUMP Memecoin.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Melania-Trump-To-Produce-Upcoming-Amazon.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.053543,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "INSM",
+                    "relevance_score": "0.104228",
+                    "ticker_sentiment_score": "0.101091",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.104228",
+                    "ticker_sentiment_score": "0.101091",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:MEME",
+                    "relevance_score": "0.104228",
+                    "ticker_sentiment_score": "0.094518",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Trump's Tariffs Blamed for $1 Trillion Crypto Market Crash - Is 'Crypto President' Era Over Already?",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44065886/trumps-tariffs-blamed-for-1-trillion-crypto-market-crash-is-crypto-president-era-over-alre",
+            "time_published": "20250301T183045",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Bitcoin tumbles below $80,000 as trade war fears spook investors. Trump's tariff threats send the crypto market into a $1 trillion tailspin. Get 5 stock picks identified before their biggest breakouts, identified by the same system that spotted Insmed, Sprouts, and Uber before their 20%+ gains.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Coins-Memcoin-Trump-Against-Other-Crypto.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": -0.068402,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AWON",
+                    "relevance_score": "0.097854",
+                    "ticker_sentiment_score": "-0.23264",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.097854",
+                    "ticker_sentiment_score": "-0.078946",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "INSM",
+                    "relevance_score": "0.097854",
+                    "ticker_sentiment_score": "0.099299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.097854",
+                    "ticker_sentiment_score": "0.099299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.461283",
+                    "ticker_sentiment_score": "-0.371326",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.097854",
+                    "ticker_sentiment_score": "-0.154132",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
         {
             "title": "Andrew Cuomo Declares Candidacy For NYC Mayor",
             "url": "https://www.benzinga.com/25/03/44065870/andrew-cuomo-declares-candidacy-for-nyc-mayor",
@@ -1216,186 +1332,6 @@
                     "ticker": "ABNB",
                     "relevance_score": "0.059194",
                     "ticker_sentiment_score": "0.286139",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Web2 is failing vertical farms - they need DePIN to survive",
-            "url": "https://cointelegraph.com/news/web2-is-failing-vertical-farms",
-            "time_published": "20250301T150000",
-            "authors": [
-                "Yog Shrusti"
-            ],
-            "summary": "Vertical farming can solve the global food crisis, but traditional funding models fail. Web3 and DePINs offer a lifeline, enabling transparency, traceability and scalable growth for this critical industry.",
-            "banner_image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-02/0194da08-b5eb-79af-9c7f-fe8f1590f910",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.210053,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "1 Soaring Stock With More Upside Potential to Buy and Hold",
-            "url": "https://www.fool.com/investing/2025/03/01/1-soaring-stock-with-more-upside-potential-to-buy/",
-            "time_published": "20250301T145300",
-            "authors": [
-                "Prosper Junior Bakiny"
-            ],
-            "summary": "Earnings season always creates some winners and some losers. Streaming specialist Roku ( NASDAQ: ROKU ) was firmly in the former camp this time around. The company's stock soared by about 14% in one day following excellent fourth-quarter results.",
-            "banner_image": "https://media.ycharts.com/charts/4a2d3b5c562bf3db14f0f352b8f35fc9.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.99992"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.77141"
-                }
-            ],
-            "overall_sentiment_score": 0.223683,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ROKU",
-                    "relevance_score": "0.642329",
-                    "ticker_sentiment_score": "0.316631",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, LEADING INVESTOR COUNSEL, Encourages Novo Nordisk A/S Investors to Secure Counsel Before Important Deadline in Securities Class Action - NVO - Novo Nordisk  ( NYSE:NVO ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065492/rosen-leading-investor-counsel-encourages-novo-nordisk-as-investors-to-secure-counsel-before-impor",
-            "time_published": "20250301T145200",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 01, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Novo Nordisk A/S NVO between November 2, 2022 and December 19, 2024, both dates inclusive ( the \"Class Period\" ) , of the important March 25, 2025 lead ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.166779,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.058188",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVO",
-                    "relevance_score": "0.229691",
-                    "ticker_sentiment_score": "0.174591",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Should You Buy Nvidia Stock After Its Blowout Q4 Results?",
-            "url": "https://www.fool.com/investing/2025/03/01/should-you-buy-nvidia-stock-after-its-blowout-q4-r/",
-            "time_published": "20250301T144800",
-            "authors": [
-                "Keith Speights"
-            ],
-            "summary": "Investors no longer have to speculate about how Nvidia ( NASDAQ: NVDA ) performed in the fourth quarter of 2024. Now we know. And the news was once again positive.Nvidia reported its Q4 results after the market closed on Wednesday. It should come as no shock that the GPU maker handily beat Wall ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809247/nvidia-headquarters-with-nvidia-sign-in-front.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999491"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.095568,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.621014",
-                    "ticker_sentiment_score": "0.171146",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Could President Trump's Tariffs Rattle Tesla Stock? Here's What History Suggests.",
-            "url": "https://www.fool.com/investing/2025/03/01/could-president-trumps-tariffs-rattle-tesla-stock/",
-            "time_published": "20250301T143800",
-            "authors": [
-                "Adam Spatacco"
-            ],
-            "summary": "President Donald Trump recently imposed tariffs on Canada, Mexico, and China, though some are on hold.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808604%2Fgettyimages-2190928438.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.071346,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.66878",
-                    "ticker_sentiment_score": "0.180762",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
