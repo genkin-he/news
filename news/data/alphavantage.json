@@ -1,8 +1,55 @@
 {
-    "items": "46",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Tesla Owners Stay True To Their Cars, While GM Retains The Most Loyal Customers - Tesla  ( NASDAQ:TSLA ) , General Motors  ( NYSE:GM ) ",
+            "url": "https://www.benzinga.com/25/02/44064223/gm-tesla-wins-loyalty-awards-customers-likely-to-return-to-manufacturer-vehicle-make",
+            "time_published": "20250301T051226",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "General Motors GM consumers are most loyal to the manufacturer while Tesla Inc. TSLA vehicle owners are most loyal to the vehicle make, according to automotive research firm S&P Global Mobility.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Detroit-May-6--2014-General-Motors-Build.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.433226,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SPGI",
+                    "relevance_score": "0.290033",
+                    "ticker_sentiment_score": "0.320615",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.290033",
+                    "ticker_sentiment_score": "0.746679",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "F",
+                    "relevance_score": "0.195814",
+                    "ticker_sentiment_score": "0.657257",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "GM",
+                    "relevance_score": "0.380012",
+                    "ticker_sentiment_score": "0.664778",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "XPENG Announces Vehicle Delivery Results for February 2025",
             "url": "https://www.globenewswire.com/news-release/2025/03/01/3035095/0/en/XPENG-Announces-Vehicle-Delivery-Results-for-February-2025.html",
@@ -1854,96 +1901,6 @@
                     "ticker": "NWN",
                     "relevance_score": "0.16171",
                     "ticker_sentiment_score": "0.268986",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "UDF IV Board Rejects Unsolicited, Non-Binding and Conditional Proposal from NexPoint",
-            "url": "https://www.benzinga.com/pressreleases/25/02/g44061903/udf-iv-board-rejects-unsolicited-non-binding-and-conditional-proposal-from-nexpoint",
-            "time_published": "20250228T223509",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "IRVING, Texas, Feb. 28, 2025 ( GLOBE NEWSWIRE ) -- United Development Funding IV ( \"UDF IV\" or the \"Trust\" ) today announced that its Board of Trustees unanimously rejected an unsolicited, non-binding and conditional proposal from NexPoint Real Estate Opportunities, LLC, an indirect subsidiary ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "Mergers",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999767"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.714479"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.24041,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.033894",
-                    "ticker_sentiment_score": "0.219376",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "RC",
-                    "relevance_score": "0.580544",
-                    "ticker_sentiment_score": "0.299795",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NXDT",
-                    "relevance_score": "0.101439",
-                    "ticker_sentiment_score": "0.168713",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "BlackRock Adds Its Record-Breaking Bitcoin Fund to Model Portfolios",
-            "url": "https://decrypt.co/308324/blackrock-bitcoin-fund-model-portfolios",
-            "time_published": "20250228T223109",
-            "authors": [
-                "James Rubin"
-            ],
-            "summary": "BlackRock, the world's largest asset manager, is including its Bitcoin ETF in a sliver of its Target Allocation with Alternatives portfolios.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/07/blackrock-shutterstock_2154802047-16x9-1-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.977154"
-                }
-            ],
-            "overall_sentiment_score": 0.085979,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.47672",
-                    "ticker_sentiment_score": "0.288602",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
