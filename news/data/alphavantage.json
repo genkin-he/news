@@ -1,5 +1,5 @@
 {
-    "items": "34",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -29,6 +29,35 @@
                     "relevance_score": "0.108466",
                     "ticker_sentiment_score": "0.182621",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Hong Kong's weekend property sales soar to 4-month high after stamp duty cuts",
+            "url": "https://www.scmp.com/business/article/3300666/hong-kongs-weekend-property-sales-reach-4-month-high-after-stamp-duty-cuts",
+            "time_published": "20250301T074036",
+            "authors": [
+                "Enoch Yiu"
+            ],
+            "summary": "Henderson's Eight Southpark, Wang On's Coasto, and Kerry's Hava see strong sales following the recent reduction in stamp duties.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/01/b7da60e8-a352-4c2d-82ea-2d15650afc1c_5a5127f3.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.066602,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KRYPF",
+                    "relevance_score": "0.07423",
+                    "ticker_sentiment_score": "0.003058",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1147,178 +1176,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "Why XRP Is Slipping Today",
-            "url": "https://www.fool.com/investing/2025/02/28/why-xrp-is-slipping-today/",
-            "time_published": "20250301T000527",
-            "authors": [
-                "Keith Noonan"
-            ],
-            "summary": "XRP's ( CRYPTO: XRP ) token price is heading lower in Friday's trading. The cryptocurrency was down 2.4% over the previous 24 hours as of 6:50 p.m. ET. Meanwhile, Bitcoin was down 0.3% over the stretch, and Ethereum was down 3%.The cryptocurrency market's pullback is continuing in today's ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809540/gettyimages-1167797024.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                }
-            ],
-            "overall_sentiment_score": -0.079091,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.131643",
-                    "ticker_sentiment_score": "-0.065971",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.131643",
-                    "ticker_sentiment_score": "-0.065971",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.754041",
-                    "ticker_sentiment_score": "-0.129931",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Wall Street Is Shying Away From The 'Mag-7' As $1.4 Trillion In Value Leaks Out - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
-            "url": "https://www.benzinga.com/news/25/02/44062519/wall-street-is-shying-away-from-the-mag-7-as-1-4-trillion-in-value-leaks-out",
-            "time_published": "20250301T000018",
-            "authors": [
-                "AJ Fabino"
-            ],
-            "summary": "Tech giants that have dominated Wall Street for two years are losing their grip, with the so-called Magnificent Seven stocks shedding about $1.4 trillion in market value since December, Bloomberg reported Tuesday.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/02/28/The-Magnificent-Seven--7-Of-The-Largest-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.25"
-                }
-            ],
-            "overall_sentiment_score": 0.225994,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.20698",
-                    "ticker_sentiment_score": "0.008325",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.20698",
-                    "ticker_sentiment_score": "0.054462",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.20698",
-                    "ticker_sentiment_score": "0.160527",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.138863",
-                    "ticker_sentiment_score": "0.041402",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.138863",
-                    "ticker_sentiment_score": "0.041402",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.20698",
-                    "ticker_sentiment_score": "0.008325",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BAC",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.102428",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.138863",
-                    "ticker_sentiment_score": "0.139146",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.229499",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: CRISPR Therapeutics Will Beat the Market. Here's Why",
-            "url": "https://www.fool.com/investing/2025/02/28/prediction-crispr-therapeutics-will-beat-the-marke/",
-            "time_published": "20250301T000000",
-            "authors": [
-                "Motley Fool YouTube"
-            ],
-            "summary": "Explore the exciting world of CRISPR Therapeutics ( NASDAQ: CRSP ) with our expert analysts in this Motley Fool Scoreboard episode. Check out the video below to gain valuable insights into market trends and potential investment opportunities!*Stock prices used were the prices of Jan. 29, 2025.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809130/crsp_022825.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.369362,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
