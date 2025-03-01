@@ -1,8 +1,86 @@
 {
-    "items": "35",
+    "items": "36",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Notification of transaction by an Officer of Millicom  ( Tigo ) ",
+            "url": "https://www.globenewswire.com/news-release/2025/03/01/3035125/0/en/Notification-of-transaction-by-an-Officer-of-Millicom-Tigo.html",
+            "time_published": "20250301T204100",
+            "authors": [
+                "Millicom International Cellular S.A."
+            ],
+            "summary": "Notification of transaction by an Officer of ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/2376d436-4169-46ad-a3f5-c8741d709546",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.153166,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TIGO",
+                    "relevance_score": "0.827318",
+                    "ticker_sentiment_score": "0.249197",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Robert Kiyosaki Forecasts Global Financial Meltdown, Recommends Bitcoin As Safe Haven: 'Buy Bitcoin, Gold and Silver'",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44066066/robert-kiyosaki-forecasts-global-financial-meltdown-recommends-bitcoin-as-safe-haven-buy-b",
+            "time_published": "20250301T203044",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Kiyosaki identifies Bitcoin as a financial lifeboat amid his predictions of a global financial meltdown. Kiyosaki urges investors to hold actual Bitcoin, gold, and silver, steering clear of bank-controlled Bitcoin ETFs. Every week, our Whisper Index uncovers five overlooked stocks with big ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Robert-Kiyosaki-on-Bitcoin.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": -0.012339,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.252114",
+                    "ticker_sentiment_score": "-0.254308",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.866386",
+                    "ticker_sentiment_score": "-0.054761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTG",
+                    "relevance_score": "0.085324",
+                    "ticker_sentiment_score": "0.16151",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Trump To Declare English Official Language of US: What Does Executive Mean? Trump To Declare English Official Language of US: What Does Executive Mean?",
             "url": "https://www.benzinga.com/markets/25/03/44066047/trump-to-declare-english-official-language-of-us-what-does-executive-mean",
@@ -1333,41 +1411,6 @@
             "overall_sentiment_score": 0.017198,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Kessler Topaz Meltzer & Check, LLP Reminds Newmont Corporation Investors of Important Deadline in Securities Fraud Class Action Lawsuit - Newmont  ( NYSE:NEM ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065631/kessler-topaz-meltzer-check-llp-reminds-newmont-corporation-investors-of-important-deadline-in-sec",
-            "time_published": "20250301T162100",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "RADNOR, Pa., March 01, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) informs investors that a securities class action lawsuit has been filed in the United States District Court for the District of Colorado against Newmont Corporation ( \"Newmont\" ) ...",
-            "banner_image": "https://ml.globenewswire.com/media/405ec490-b904-4a5e-85a7-710cdebe280d/small/ktmc-logo-rgb-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.073215,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NEM",
-                    "relevance_score": "0.549265",
-                    "ticker_sentiment_score": "0.163275",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:NEM",
-                    "relevance_score": "0.066784",
-                    "ticker_sentiment_score": "0.084325",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
