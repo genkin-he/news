@@ -1,5 +1,5 @@
 {
-    "items": "48",
+    "items": "47",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -117,6 +117,36 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
+        },
+        {
+            "title": "Mixue's big IPO powered by prowess in procurement, production, prices: analysts",
+            "url": "https://www.scmp.com/business/banking-finance/article/3300604/bubble-tea-giant-mixues-ipo-powered-prowess-procuring-production-prices-analysts",
+            "time_published": "20250302T020008",
+            "authors": [
+                "Yuke Xie"
+            ],
+            "summary": "The company's 'comprehensive end-to-end supply chain' helps it sell bubble tea, ice cream at ultralow prices.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/28/dd0c0b8f-82ac-46e0-b808-928044d0884b_1126e908.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.154041,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Nothing has changed in US crypto banking since Trump returned: Caitlin Long",
@@ -1864,82 +1894,6 @@
                     "relevance_score": "0.498188",
                     "ticker_sentiment_score": "-0.154125",
                     "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Ethereum developer Danny Ryan joins Etherealize as co-founder",
-            "url": "https://cointelegraph.com/news/ethereum-developer-danny-ryan-joins-etheralize-co-founder",
-            "time_published": "20250301T190553",
-            "authors": [
-                "Vince Quill"
-            ],
-            "summary": "The Ethereum developer was also recently informally elected as head of the Ethereum Foundation in a non-official, non-binding vote.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01955315-122e-7319-b2bc-60d114775a45",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.038577,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.980792",
-                    "ticker_sentiment_score": "0.069175",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "This Artificial Intelligence  ( AI )  Stock Has Delivered Bigger Gains Than Nvidia. It Could Soar Another 77%.",
-            "url": "https://www.fool.com/investing/2025/03/01/this-artificial-intelligence-ai-stock-has-delivere/",
-            "time_published": "20250301T190000",
-            "authors": [
-                "Harsh Chauhan"
-            ],
-            "summary": "Nvidia is one of the most popular artificial intelligence ( AI ) stocks on the market. The company has played a pioneering role in the proliferation of AI technology by designing powerful graphics cards and server systems that have allowed companies to train and deploy AI models.The robust demand ...",
-            "banner_image": "https://media.ycharts.com/charts/d3f8b4d0b870cd4b7d1d88d4996a0365.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998663"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.301681,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CIEN",
-                    "relevance_score": "0.344302",
-                    "ticker_sentiment_score": "0.234159",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.249873",
-                    "ticker_sentiment_score": "0.195619",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
