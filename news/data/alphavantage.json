@@ -1,8 +1,74 @@
 {
-    "items": "46",
+    "items": "47",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Neumora Therapeutics, Inc.  ( NMRA )  Investors: April 7, 2025 Filing Deadline in Securities Class Action - Contact Kessler Topaz Meltzer & Check, LLP - Neumora Therapeutics  ( NASDAQ:NMRA ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44066292/neumora-therapeutics-inc-nmra-investors-april-7-2025-filing-deadline-in-securities-class-action-co",
+            "time_published": "20250302T005000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "RADNOR, Pa., March 01, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) informs investors that a securities class action lawsuit has been filed in the United States District Court for the Southern District of New York against Neumora Therapeutics, ...",
+            "banner_image": "https://ml.globenewswire.com/media/405ec490-b904-4a5e-85a7-710cdebe280d/small/ktmc-logo-rgb-jpg.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.06345,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NMRA",
+                    "relevance_score": "0.236972",
+                    "ticker_sentiment_score": "-0.00909",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Class Action Announcement EIX: A Securities Fraud Class Action Lawsuit Was Filed Against Edison International  ( EIX )  - Edison Intl  ( NYSE:EIX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44066285/class-action-announcement-eix-a-securities-fraud-class-action-lawsuit-was-filed-against-edison-int",
+            "time_published": "20250302T003500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "RADNOR, Pa., March 01, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) informs investors that a securities class action lawsuit has been filed in the United States District Court for the Central District of California against Edison International ( ...",
+            "banner_image": "https://ml.globenewswire.com/media/405ec490-b904-4a5e-85a7-710cdebe280d/small/ktmc-logo-rgb-jpg.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.034343,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EIX",
+                    "relevance_score": "0.549265",
+                    "ticker_sentiment_score": "0.085966",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "From Losing $60K To Running a $100M Business: CEOs Share Their Biggest Lessons - Pfizer  ( NYSE:PFE ) ",
             "url": "https://www.benzinga.com/news/25/03/44066246/from-losing-60k-to-running-a-100m-business-ceos-share-their-biggest-lessons",
@@ -1879,49 +1945,6 @@
                     "relevance_score": "0.05654",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin Cloud Mining Guide 2025: ICOminer App's Best Investment Plan Earns $2970 Daily",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065809/bitcoin-cloud-mining-guide-2025-icominer-apps-best-investment-plan-earns-2970-daily",
-            "time_published": "20250301T181000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "London UK, March 01, 2025 ( GLOBE NEWSWIRE ) -- Introduction: The Future of Bitcoin Cloud Mining in 2025 Cloud mining has become the go-to method for individuals and investors looking to earn Bitcoin without expensive hardware or technical expertise.",
-            "banner_image": "https://ml.globenewswire.com/media/21b5e75a-181c-4853-9aca-8d98f2e0bb6d/small/screenshot-2025-02-10-162528-png.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.383676,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.088147",
-                    "ticker_sentiment_score": "0.318202",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.561606",
-                    "ticker_sentiment_score": "0.403741",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
