@@ -1,8 +1,56 @@
 {
-    "items": "47",
+    "items": "48",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Nothing has changed in US crypto banking since Trump returned: Caitlin Long",
+            "url": "https://cointelegraph.com/news/trump-administration-hasnt-addressed-crypto-debanking-issues",
+            "time_published": "20250302T010352",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "Despite the Trump administration being more crypto-friendly than its predecessor, it still hasn't addressed the issue of crypto debanking, Custodia Bank CEO Caitlin Long said.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195545b-fe0f-7bea-84c0-846d4078c3d9",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.062434,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Why Owning Property Isn't Always The Smart Move For Business Owners, According To Dave Ramsey",
+            "url": "https://www.benzinga.com/news/25/03/44066295/why-owning-property-isnt-always-the-smart-move-for-business-owners-according-to-dave-ramsey",
+            "time_published": "20250302T010017",
+            "authors": [
+                "Kaili Killpack"
+            ],
+            "summary": "For many business owners, the idea of owning property is an attractive one. After all, real estate is often seen as a solid investment, and having control over your space can be appealing. However, financial expert Dave Ramsey warns that purchasing property for your business isn't always the best ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Advice-for-Those-House-Hunting.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.171263,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Neumora Therapeutics, Inc.  ( NMRA )  Investors: April 7, 2025 Filing Deadline in Securities Class Action - Contact Kessler Topaz Meltzer & Check, LLP - Neumora Therapeutics  ( NASDAQ:NMRA ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44066292/neumora-therapeutics-inc-nmra-investors-april-7-2025-filing-deadline-in-securities-class-action-co",
@@ -1910,43 +1958,6 @@
             "overall_sentiment_score": 0.456726,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": []
-        },
-        {
-            "title": "ROSEN, A LEADING LAW FIRM, Encourages Merck & Co., Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - MRK - Merck & Co  ( NYSE:MRK ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065815/rosen-a-leading-law-firm-encourages-merck-co-inc-investors-to-secure-counsel-before-important-dead",
-            "time_published": "20250301T181400",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 01, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Merck & Co., Inc. MRK between February 3, 2022 and February 3, 2025, both dates inclusive ( the \"Class Period\" ) , of the important April 14, 2025 lead ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.197181,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.05654",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
