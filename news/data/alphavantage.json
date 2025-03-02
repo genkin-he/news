@@ -1,8 +1,65 @@
 {
-    "items": "47",
+    "items": "44",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Ethereum researcher pitches solution to fix centralization woes, eliminate MEV",
+            "url": "https://cointelegraph.com/news/ethereum-researcher-pitches-block-proposal-alternative-to-improve-ethereum",
+            "time_published": "20250302T031706",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "Ethereum researcher \"Malik672\" has proposed a solution to democratize Ethereum's block proposer process which they claim would also eliminate MEV at the block level.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019554d2-bb1e-70c5-8011-5e2450f40315",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [],
+            "overall_sentiment_score": 0.0,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.848829",
+                    "ticker_sentiment_score": "0.103988",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "'When The Bill Comes, It Will Be Monumental'-Experts Warn Trump's Mass Federal Firings Could Leave A Tremendous Financial Burden",
+            "url": "https://www.benzinga.com/news/25/03/44066466/when-the-bill-comes-it-will-be-monumental-experts-warn-trumps-mass-federal-firings-could-leave-a-tremendous-",
+            "time_published": "20250302T030045",
+            "authors": [
+                "Adrian Volenik"
+            ],
+            "summary": "Thousands of federal workers are being fired under the Trump administration's efforts to shrink the government. Officials say the cuts are about improving efficiency and reducing waste, but experts argue that these mass terminations could come at a staggering financial cost.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Trump-Accused-Of-Proposing-Ethnic-Cleans.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.071566,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.067158",
+                    "ticker_sentiment_score": "0.282436",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "TransPerfect Acquires Technicolor Games",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44066428/transperfect-acquires-technicolor-games",
@@ -1685,215 +1742,6 @@
                     "relevance_score": "0.054483",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Satya Nadella Says AI Agents Will Replace 'Knowledge Work'-But There's One Role Humans Will Always Need To Play - Microsoft  ( NASDAQ:MSFT ) , JPMorgan Chase  ( NYSE:JPM ) ",
-            "url": "https://www.benzinga.com/news/25/03/44066026/satya-nadella-says-ai-agents-will-replace-knowledge-work-but-theres-one-role-humans-will-always-need-to-play",
-            "time_published": "20250301T200047",
-            "authors": [
-                "LaToya Scott"
-            ],
-            "summary": "Microsoft MSFT CEO Satya Nadella is making an important distinction between \"knowledge work\" and \"knowledge workers\" as artificial intelligence continues to reshape industries. He recently said he sees AI as a tool that will redefine cognitive labor, but not in a way that makes human workers ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Satya-Nadella-Warns-AI-Hype-Mirrors-Dot-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.185082,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.19117",
-                    "ticker_sentiment_score": "0.270987",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Bitcoin's DeFi Boom Took Years: Solv Protocol's Ryan Chow Spills The Details - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
-            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44066012/why-bitcoins-defi-boom-took-years-solv-protocols-ryan-chow-spills-the-details",
-            "time_published": "20250301T195648",
-            "authors": [
-                "Murtuza Merchant"
-            ],
-            "summary": "Trump's pro-crypto signals in 2025 shifted focus to Bitcoin, boosting its DeFi utility, says Chow. Chow sees DeFi maturing with Bitcoin lending, serving global users excluded from U.S. financial services. Every week, our Whisper Index uncovers five overlooked stocks with big breakout potential.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Downsides-In-Bitcoin.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.132151,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.129516",
-                    "ticker_sentiment_score": "0.256621",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.710756",
-                    "ticker_sentiment_score": "0.140534",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.255641",
-                    "ticker_sentiment_score": "0.042022",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:SOL",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bill Ackman Predicts Strong Future for Berkshire Hathaway After Warren Buffett Steps Down",
-            "url": "https://www.benzinga.com/markets/25/03/44065982/bill-ackman-predicts-strong-future-for-berkshire-hathaway-after-warren-buffett-steps-down",
-            "time_published": "20250301T193046",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Ackman disclosed his intentions to establish a \"modern-day version\" of Berkshire Hathaway. Every week, our Whisper Index uncovers five overlooked stocks with big breakout potential. Get the latest picks today before they gain traction.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Bill-Ackmans-Speculations.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": 0.21439,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HHH",
-                    "relevance_score": "0.078354",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.377142",
-                    "ticker_sentiment_score": "-0.021047",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PSHZF",
-                    "relevance_score": "0.078354",
-                    "ticker_sentiment_score": "-0.052185",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "InfinixChain Introduces EVM-Compatible Layer 2 Blockchain Focused on Scalability and Low Fees",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065980/infinixchain-introduces-evm-compatible-layer-2-blockchain-focused-on-scalability-and-low-fees",
-            "time_published": "20250301T192511",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "DUBAI, United Arab Emirates, March 01, 2025 ( GLOBE NEWSWIRE ) -- InfinixChain, a newly launched Layer 2 blockchain, is introducing an EVM-compatible network designed to enhance scalability, reduce transaction costs, and improve transaction speeds.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                }
-            ],
-            "overall_sentiment_score": 0.427212,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.348103",
-                    "ticker_sentiment_score": "0.505559",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A LEADING LAW FIRM, Encourages Integral Ad Science Holding Corp. Investors to Secure Counsel Before Important Deadline in Securities Class Action - IAS - Integral Ad Science  ( NASDAQ:IAS ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44065953/rosen-a-leading-law-firm-encourages-integral-ad-science-holding-corp-investors-to-secure-counsel-b",
-            "time_published": "20250301T191000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 01, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Integral Ad Science Holding Corp. IAS between March 2, 2023 and February 27, 2024, inclusive ( the \"Class Period\" ) , of the important March 31, 2025 ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.891286"
-                }
-            ],
-            "overall_sentiment_score": 0.082051,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.059488",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "IAS",
-                    "relevance_score": "0.498188",
-                    "ticker_sentiment_score": "-0.154125",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         }
