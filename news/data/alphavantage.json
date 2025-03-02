@@ -1,8 +1,53 @@
 {
-    "items": "43",
+    "items": "42",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Bybit hackers resume laundering activities, moving another 62,200 ETH",
+            "url": "https://cointelegraph.com/news/bybit-hackers-resume-money-laundering-activities-moving-62200-eth",
+            "time_published": "20250302T044444",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "The Bybit hackers picked up the pace on March 1, laundering another 62,200 Ether amid efforts from US authorities to block transactions tied to the exploiters.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01955523-3874-73d3-8709-524c77bb80d1",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": -0.169756,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.219809",
+                    "ticker_sentiment_score": "-0.063311",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.671304",
+                    "ticker_sentiment_score": "-0.224019",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:RUNE",
+                    "relevance_score": "0.110973",
+                    "ticker_sentiment_score": "0.083491",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Mainland Chinese brands to lead retail leasing in Hong Kong",
             "url": "https://www.scmp.com/property/article/3300664/mainland-chinese-brands-lead-retail-leasing-troubled-hong-kong-market",
@@ -1635,84 +1680,6 @@
                     "relevance_score": "0.064973",
                     "ticker_sentiment_score": "0.024124",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Notification of transaction by an Officer of Millicom  ( Tigo ) ",
-            "url": "https://www.globenewswire.com/news-release/2025/03/01/3035125/0/en/Notification-of-transaction-by-an-Officer-of-Millicom-Tigo.html",
-            "time_published": "20250301T204100",
-            "authors": [
-                "Millicom International Cellular S.A."
-            ],
-            "summary": "Notification of transaction by an Officer of ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/2376d436-4169-46ad-a3f5-c8741d709546",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.153166,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TIGO",
-                    "relevance_score": "0.827318",
-                    "ticker_sentiment_score": "0.249197",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Robert Kiyosaki Forecasts Global Financial Meltdown, Recommends Bitcoin As Safe Haven: 'Buy Bitcoin, Gold and Silver'",
-            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44066066/robert-kiyosaki-forecasts-global-financial-meltdown-recommends-bitcoin-as-safe-haven-buy-b",
-            "time_published": "20250301T203044",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Kiyosaki identifies Bitcoin as a financial lifeboat amid his predictions of a global financial meltdown. Kiyosaki urges investors to hold actual Bitcoin, gold, and silver, steering clear of bank-controlled Bitcoin ETFs. Every week, our Whisper Index uncovers five overlooked stocks with big ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Robert-Kiyosaki-on-Bitcoin.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.858979"
-                }
-            ],
-            "overall_sentiment_score": -0.012339,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.252114",
-                    "ticker_sentiment_score": "-0.254308",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.866386",
-                    "ticker_sentiment_score": "-0.054761",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTG",
-                    "relevance_score": "0.085324",
-                    "ticker_sentiment_score": "0.16151",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
