@@ -1,8 +1,44 @@
 {
-    "items": "44",
+    "items": "43",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Mainland Chinese brands to lead retail leasing in Hong Kong",
+            "url": "https://www.scmp.com/property/article/3300664/mainland-chinese-brands-lead-retail-leasing-troubled-hong-kong-market",
+            "time_published": "20250302T033012",
+            "authors": [
+                "Cheryl Arcibal"
+            ],
+            "summary": "Mainland Chinese brands are seizing opportunities from rising tourism and an influx of migrants, analysts say.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/01/77469538-453b-4dd9-9d0b-1535dea789d5_78c65d00.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [],
+            "overall_sentiment_score": 0.115989,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.045743",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LKNCY",
+                    "relevance_score": "0.045743",
+                    "ticker_sentiment_score": "-0.138255",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.045743",
+                    "ticker_sentiment_score": "0.056942",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Ethereum researcher pitches solution to fix centralization woes, eliminate MEV",
             "url": "https://cointelegraph.com/news/ethereum-researcher-pitches-block-proposal-alternative-to-improve-ethereum",
@@ -1677,71 +1713,6 @@
                     "relevance_score": "0.085324",
                     "ticker_sentiment_score": "0.16151",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Trump To Declare English Official Language of US: What Does Executive Mean? Trump To Declare English Official Language of US: What Does Executive Mean?",
-            "url": "https://www.benzinga.com/markets/25/03/44066047/trump-to-declare-english-official-language-of-us-what-does-executive-mean",
-            "time_published": "20250301T202055",
-            "authors": [
-                "Nabaparna Bhattacharya"
-            ],
-            "summary": "Trump's executive order makes English the official language, rolling back language service requirements for non-English speakers. Critics argue Trump's move could harm multiculturalism, while Republicans see it as a step toward unity and government efficiency.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Dictionary-Definition-Of-The-Word-Englis.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.162619,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "REGN FINAL DEADLINE: ROSEN, NATIONALLY REGARDED INVESTOR COUNSEL, Encourages Regeneron Pharmaceuticals, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important March 10 Deadline in Securities Class Action - REGN - Regeneron Pharmaceuticals  ( NASDAQ:REGN ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44066042/regn-final-deadline-rosen-nationally-regarded-investor-counsel-encourages-regeneron-pharmaceutical",
-            "time_published": "20250301T201300",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 01, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Regeneron Pharmaceuticals, Inc. REGN between November 2, 2023 and October 30, 2024, both dates inclusive ( the \"Class Period\" ) , of the important March ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.146807,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "REGN",
-                    "relevance_score": "0.108712",
-                    "ticker_sentiment_score": "0.142016",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.054483",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
