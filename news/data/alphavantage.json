@@ -1,8 +1,63 @@
 {
-    "items": "45",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "From Losing $60K To Running a $100M Business: CEOs Share Their Biggest Lessons - Pfizer  ( NYSE:PFE ) ",
+            "url": "https://www.benzinga.com/news/25/03/44066246/from-losing-60k-to-running-a-100m-business-ceos-share-their-biggest-lessons",
+            "time_published": "20250302T000017",
+            "authors": [
+                "AJ Fabino"
+            ],
+            "summary": "Kim Vaccarella bet her kids' college fund on her business and lost it all. The founder of Bogg Bag dumped $60,000 into what she thought would be her big break in 2012-a massive order of her waterproof tote bags. When the shipment arrived, her heart sank. Black streaks covered every bag, rendering ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Happy-Middle-Aged-Business-Woman-Executi.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.03682,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.067536",
+                    "ticker_sentiment_score": "-0.069517",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABNB",
+                    "relevance_score": "0.067536",
+                    "ticker_sentiment_score": "0.287584",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.067536",
+                    "ticker_sentiment_score": "0.287584",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PFE",
+                    "relevance_score": "0.13459",
+                    "ticker_sentiment_score": "-0.084668",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "IIPR DEADLINE NOTICE: ROSEN, A GLOBAL AND LEADING LAW FIRM, Encourages Innovative Industrial Properties, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - IIPR - Innovative Ind Props  ( NYSE:IIPR ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44066235/iipr-deadline-notice-rosen-a-global-and-leading-law-firm-encourages-innovative-industrial-properti",
@@ -51,6 +106,65 @@
             ]
         },
         {
+            "title": "United States Steel: Buy, Sell, or Hold?",
+            "url": "https://www.fool.com/investing/2025/03/01/united-states-steel-buy-sell-or-hold/",
+            "time_published": "20250301T234100",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "United States Steel ( NYSE: X ) , which normally just goes by U.S. Steel, is an iconic name in the steel industry. However, the name recognition stems from the company's past success, not its current fortunes. In fact, the company recently agreed to sell itself.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809062%2F22_02_07-steel-mill-with-sparks-flying-and-person-in-the-foreground-_gettyimages-177541735.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.117741,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "X",
+                    "relevance_score": "0.157141",
+                    "ticker_sentiment_score": "0.212615",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CLF",
+                    "relevance_score": "0.052685",
+                    "ticker_sentiment_score": "0.015001",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NISTF",
+                    "relevance_score": "0.208464",
+                    "ticker_sentiment_score": "0.044347",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NUE",
+                    "relevance_score": "0.105141",
+                    "ticker_sentiment_score": "0.072392",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Kessler Topaz Meltzer & Check, LLP - Class Action Announcement TTD: A Securities Fraud Class Action Lawsuit Was Filed Against The Trade Desk, Inc.  ( TTD )  - Trade Desk  ( NASDAQ:TTD ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44066232/kessler-topaz-meltzer-check-llp-class-action-announcement-ttd-a-securities-fraud-class-action-laws",
             "time_published": "20250301T233600",
@@ -83,6 +197,43 @@
                     "ticker": "TTD",
                     "relevance_score": "0.560594",
                     "ticker_sentiment_score": "0.18166",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Home Depot Just Raised Its Dividend by The Lowest Amount In 15 Years. Here's Why the Dow Jones Dividend Stock Is Still Worth Buying Now.",
+            "url": "https://www.fool.com/investing/2025/03/01/home-depot-dividend-raise-buy-dow-jones-stock/",
+            "time_published": "20250301T233200",
+            "authors": [
+                "Daniel Foelber"
+            ],
+            "summary": "Home Depot ( NYSE: HD ) stock popped 2.8% on Tuesday despite reporting weak fiscal 2024 results and fiscal 2025 guidance.In addition to its results, Home Depot announced a mere 2.2% dividend raise, which was the smallest increase since the home improvement company began raising its payout in ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809048%2Fgettyimages-1146259069-1200x800-5b2df79-1.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998356"
+                }
+            ],
+            "overall_sentiment_score": 0.18925,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HD",
+                    "relevance_score": "0.846873",
+                    "ticker_sentiment_score": "0.32921",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1770,96 +1921,6 @@
                     "ticker": "CRYPTO:BTC",
                     "relevance_score": "0.561606",
                     "ticker_sentiment_score": "0.403741",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Elon Musk's Government Overhaul Faces Revolt-Even From Trump's Own Officials",
-            "url": "https://www.benzinga.com/news/25/03/44065790/elon-musks-government-overhaul-faces-revolt-even-from-trumps-own-officials",
-            "time_published": "20250301T180048",
-            "authors": [
-                "AJ Fabino"
-            ],
-            "summary": "Elon Musk's aggressive push to overhaul the federal workforce has triggered a split among Trump administration officials, with some agency heads directly contradicting the billionaire's directives.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Why-It-Matters_0.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.048842,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NYT",
-                    "relevance_score": "0.068502",
-                    "ticker_sentiment_score": "0.166717",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.068502",
-                    "ticker_sentiment_score": "0.287849",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.068502",
-                    "ticker_sentiment_score": "0.287849",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Home Depot Is Turning the Corner. Time to Buy the Stock?",
-            "url": "https://www.fool.com/investing/2025/03/01/home-depot-is-turning-the-corner-time-to-buy-the-s/",
-            "time_published": "20250301T175700",
-            "authors": [
-                "Jeremy Bowman"
-            ],
-            "summary": "Home Depot ( NYSE: HD ) is one of the best-performing stocks of all time. Since the company's initial public offering ( IPO ) in 1981, its stock has grown from a small home improvement chain to one of the most valuable retailers in the world, pioneering a new retail model -- a big-box home ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808929%2Fhome-depot-aisle.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.997335"
-                }
-            ],
-            "overall_sentiment_score": 0.294327,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HD",
-                    "relevance_score": "0.667942",
-                    "ticker_sentiment_score": "0.429713",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
