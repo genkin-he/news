@@ -1,8 +1,334 @@
 {
-    "items": "18",
+    "items": "23",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Rising Bitcoin activity hints at market bottom, potential reversal",
+            "url": "https://cointelegraph.com/news/bitcoin-active-addresses-market-turning-point",
+            "time_published": "20250302T101004",
+            "authors": [
+                "Zoltan Vardai"
+            ],
+            "summary": "Bitcoin's growing active addresses may signal an incoming turning point for the crypto market after the latest correction.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195563c-25c8-73db-a105-efb17effe953",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [],
+            "overall_sentiment_score": 0.135549,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.629492",
+                    "ticker_sentiment_score": "0.007353",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Musk's DOGE Controversy, Trump's Trade Tariffs, And Ramaswamy's Gubernatorial Bid: This Week In Politics - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/news/25/03/44066706/musks-doge-controversy-trumps-trade-tariffs-and-ramaswamys-gubernatorial-bid-this-week-in-politics",
+            "time_published": "20250302T100043",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "The past week has been a whirlwind of news, with significant developments in politics, business, and international relations. From Elon Musk's controversial demands to federal workers, to President Trump's decision to proceed with tariffs on Canada and Mexico, the news cycle has been anything but ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/02/Trumps-Federal-Workforce-Downsizing-Plan.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.021834,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.107495",
+                    "ticker_sentiment_score": "-0.124002",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "The 3 Best Warren Buffett Stocks to Own if the Stock Market Crashes",
+            "url": "https://www.fool.com/investing/2025/03/02/the-3-best-warren-buffett-stocks-to-own-if-the-sto/",
+            "time_published": "20250302T094700",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "Fears of inflation are mounting again, especially with the prospects of steep tariffs on imports to the U.S. Consumer sentiment is plunging the furthest in years. Unemployment claims are rising. The S&P 500 is valued at a historically high level.Perhaps, unsurprisingly, Warren Buffett appears to ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809416/stock-chart-falling-with-man-holding-hand-to-head.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999997"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.016956,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.455074",
+                    "ticker_sentiment_score": "0.07246",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.159922",
+                    "ticker_sentiment_score": "0.046975",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "KHC",
+                    "relevance_score": "0.409503",
+                    "ticker_sentiment_score": "0.111688",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "KR",
+                    "relevance_score": "0.263373",
+                    "ticker_sentiment_score": "0.083153",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Will President Trump Renege on His Pledge to Not Cut Medicare? 4 Things to Know.",
+            "url": "https://www.fool.com/retirement/2025/03/02/president-trump-renege-pledge-medicare-cuts/",
+            "time_published": "20250302T094500",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "When Donald Trump ran for a second presidential term, he promised he wouldn't make any Medicare cuts. He reiterated his commitment after returning to the Oval Office, recently telling Fox News host Sean Hannity that Medicare is not \"going to be touched.\"However, recent actions taken by the Trump ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809069%2Ftrump-at-white-house-podium-official-white-house-photo-by-d-myles-cullen-mconvertereu.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.002461,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.109956",
+                    "ticker_sentiment_score": "0.01145",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HCSG",
+                    "relevance_score": "0.055109",
+                    "ticker_sentiment_score": "-0.060057",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "1 Glorious Growth Stock Down 47% You'll Wish You'd Bought on the Dip, According to Wall Street",
+            "url": "https://www.fool.com/investing/2025/03/02/1-growth-stock-down-47-wish-bought-dip-wall-street/",
+            "time_published": "20250302T094500",
+            "authors": [
+                "Anthony Di Pizio"
+            ],
+            "summary": "Running a global organization is becoming increasingly complex. Managers are tasked with overseeing remote employees who are working across dozens of digital applications, so chasing down valuable data can be a time-consuming ordeal.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809088%2Ftwo-computer-programmers-working-together-while-looking-at-computer-screens.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999606"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.996023"
+                }
+            ],
+            "overall_sentiment_score": 0.22835,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.046543",
+                    "ticker_sentiment_score": "0.015836",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WK",
+                    "relevance_score": "0.618691",
+                    "ticker_sentiment_score": "0.341509",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "What's Next for Nvidia? Jensen Huang Just Revealed 3 Reasons to Buy the Stock Hand Over Fist.",
+            "url": "https://www.fool.com/investing/2025/03/02/whats-next-for-nvidia-jensen-huang-just-revealed-4/",
+            "time_published": "20250302T094200",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "Nvidia ( NASDAQ: NVDA ) announced overwhelmingly positive fourth-quarter results last week. However, its shares sank the following day. Should investors be concerned? I don't think so.Sure, Nvidia's growth is slowing somewhat. The company's future remains bright, though.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809374/excited-investor-looks-at-financial-charts-on-computer.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.256081,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.052801",
+                    "ticker_sentiment_score": "0.082651",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.052801",
+                    "ticker_sentiment_score": "0.082651",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.052801",
+                    "ticker_sentiment_score": "0.082651",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.679474",
+                    "ticker_sentiment_score": "0.434602",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.052801",
+                    "ticker_sentiment_score": "0.029817",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Better Dividend Stock: Innovative Industrial Properties vs. AGNC Investment",
+            "url": "https://www.fool.com/investing/2025/03/02/better-dividend-stock-innovative-industrial-proper/",
+            "time_published": "20250302T093900",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "The big reason investors should be looking at Innovative Industrial Properties ( NYSE: IIPR ) and AGNC Investment ( NASDAQ: AGNC ) today are their dividend yields. Innovative Industrial's yield is a huge 10%, while AGNC Investment's yield is an even loftier 13%!However, high yields like this ...",
+            "banner_image": "https://media.ycharts.com/charts/12d50e4d5f58d2e058fecbd8a6f9af4e.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.284835,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IIPR",
+                    "relevance_score": "0.142847",
+                    "ticker_sentiment_score": "0.168062",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PLD",
+                    "relevance_score": "0.047844",
+                    "ticker_sentiment_score": "0.253606",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AGNC",
+                    "relevance_score": "0.368773",
+                    "ticker_sentiment_score": "0.342358",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "O",
+                    "relevance_score": "0.047844",
+                    "ticker_sentiment_score": "0.253606",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Bybit Web3 Pioneers AI Agent Acceleration: Launches First AI-DOL Reality Competition with $1M Prize",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44066698/bybit-web3-pioneers-ai-agent-acceleration-launches-first-ai-dol-reality-competition-with-1m-prize",
@@ -28,6 +354,144 @@
             "overall_sentiment_score": 0.398184,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "3 Dividend Stocks That Have Already Raised Their Payouts in 2025",
+            "url": "https://www.fool.com/investing/2025/03/02/3-dividend-stocks-that-have-already-raised-their-p/",
+            "time_published": "20250302T092700",
+            "authors": [
+                "David Jagielski"
+            ],
+            "summary": "2025 is only a couple of months old, but several companies have already announced sizable dividend hikes. For long-term investors and retirees, dividend growth stocks can be extremely appealing investments, as they reward investors for hanging on, and their payout hikes can offset the effects of ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/808871/an-excited-couple-looking-at-a-cell-phone.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.857896"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.376476,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.241085",
+                    "ticker_sentiment_score": "0.297503",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CCZ",
+                    "relevance_score": "0.298749",
+                    "ticker_sentiment_score": "0.398346",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NXST",
+                    "relevance_score": "0.121959",
+                    "ticker_sentiment_score": "0.120918",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Cathie Wood Says Software Is the Next Big AI Opportunity -- 1 Super Stock You'll Want to Buy If She's Right",
+            "url": "https://www.fool.com/investing/2025/03/02/cathie-wood-says-software-next-big-ai-1-stock-buy/",
+            "time_published": "20250302T092700",
+            "authors": [
+                "Anthony Di Pizio"
+            ],
+            "summary": "Cathie Wood is the founder of Ark Investment Management, which operates several exchange-traded funds ( ETFs ) focused on innovative technologies like electric vehicles, robotics, and artificial intelligence ( AI ) . Wood thinks software companies are the next major opportunity in the AI space, ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809262%2Fa-person-looking-at-stock-charts-on-their-smartphone-with-a-laptop-sitting-on-a-table-in-the-background.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998962"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.989041"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.209492,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.075516",
+                    "ticker_sentiment_score": "0.084925",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DTST",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "0.006705",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.075516",
+                    "ticker_sentiment_score": "0.055882",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "0.17599",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "0.042988",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.075516",
+                    "ticker_sentiment_score": "0.074495",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "0.042988",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "2 Top Stocks Beaten Down Near 52-Week Lows That Look Like Bargains Now",
@@ -567,151 +1031,6 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
-        },
-        {
-            "title": "TransPerfect Acquires Technicolor Games",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44066428/transperfect-acquires-technicolor-games",
-            "time_published": "20250302T022845",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN FRANCISCO and BANGALORE, India, March 01, 2025 ( GLOBE NEWSWIRE ) -- TransPerfect, the world's largest provider of language and AI solutions for global business, today announced it has acquired Technicolor Games, the gaming division of Technicolor Group, S.A.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "Mergers",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.380036,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EA",
-                    "relevance_score": "0.061003",
-                    "ticker_sentiment_score": "0.158042",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CCOEF",
-                    "relevance_score": "0.061003",
-                    "ticker_sentiment_score": "0.158042",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "TransPerfect Acquires Technicolor Games",
-            "url": "https://www.benzinga.com/pressreleases/25/03/n44066427/transperfect-acquires-technicolor-games",
-            "time_published": "20250302T022400",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "Leading Gaming Studio to Become Division of TransPerfect Gaming SAN FRANCISCO and BANGALORE, India, March 1, 2025 /PRNewswire/ -- TransPerfect, the world's largest provider of language and AI solutions for global business, today announced it has acquired Technicolor Games, the gaming division of ...",
-            "banner_image": "https://mma.prnewswire.com/media/2310462/TP_stacked_logo_new_2023_Logo.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.390269,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EA",
-                    "relevance_score": "0.060236",
-                    "ticker_sentiment_score": "0.15802",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CCOEF",
-                    "relevance_score": "0.060236",
-                    "ticker_sentiment_score": "0.15802",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Strong inflows into ARK 21Shares, Fidelity Bitcoin ETFs end 8-day outflow streak",
-            "url": "https://cointelegraph.com/news/bitcoin-etfs-see-first-inflow-day-in-nine-trading-days-as-bitcoin-recovers",
-            "time_published": "20250302T020106",
-            "authors": [
-                "Brayden Lindrea"
-            ],
-            "summary": "ARK 21Shares and Fidelity's Bitcoin ETFs combined for a $369.7 million net inflow, contributing to the market's first inflow day since Feb. 14.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01955492-1810-726a-8401-346b4cf2d060",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938238"
-                }
-            ],
-            "overall_sentiment_score": 0.146651,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.12165",
-                    "ticker_sentiment_score": "0.119638",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WT",
-                    "relevance_score": "0.12165",
-                    "ticker_sentiment_score": "0.119638",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.985674",
-                    "ticker_sentiment_score": "0.232897",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Mixue's big IPO powered by prowess in procurement, production, prices: analysts",
-            "url": "https://www.scmp.com/business/banking-finance/article/3300604/bubble-tea-giant-mixues-ipo-powered-prowess-procuring-production-prices-analysts",
-            "time_published": "20250302T020008",
-            "authors": [
-                "Yuke Xie"
-            ],
-            "summary": "The company's 'comprehensive end-to-end supply chain' helps it sell bubble tea, ice cream at ultralow prices.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/02/28/dd0c0b8f-82ac-46e0-b808-928044d0884b_1126e908.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.154041,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
