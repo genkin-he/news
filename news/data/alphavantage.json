@@ -1,8 +1,136 @@
 {
-    "items": "41",
+    "items": "40",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Tesla Exec Says Cybercab Will Use No Paint Shop, Elon Musk Urges Retired Air Traffic Controllers To Return To Work, And More: This Week In Mobility - Lucid Group  ( NASDAQ:LCID ) , Mullen Automotive  ( NASDAQ:MULN ) ",
+            "url": "https://www.benzinga.com/tech/25/03/44067368/tesla-exec-says-cybercab-will-use-no-paint-shop-elon-musk-urges-retired-air-traffic-controllers-to-return-to",
+            "time_published": "20250302T150051",
+            "authors": [
+                "Anan Ashraf"
+            ],
+            "summary": "The week was abuzz with news from the automotive and aviation sectors. From Lucid Group Inc. LCID clarifying its business priorities to Tesla Inc. TSLA revealing design plans for its Cybercab, there was no shortage of headlines.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/02/Tesla-Cybercab.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                }
+            ],
+            "overall_sentiment_score": 0.036236,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LCID",
+                    "relevance_score": "0.441698",
+                    "ticker_sentiment_score": "-0.202125",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.230235",
+                    "ticker_sentiment_score": "-0.025047",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAL",
+                    "relevance_score": "0.116348",
+                    "ticker_sentiment_score": "-0.104692",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MULN",
+                    "relevance_score": "0.230235",
+                    "ticker_sentiment_score": "-0.025047",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "BleeqUp Debuts Ranger, The World's First 4-in-1 AI Cycling Camera Glasses at MWC 2025",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44067363/bleequp-debuts-ranger-the-worlds-first-4-in-1-ai-cycling-camera-glasses-at-mwc-2025",
+            "time_published": "20250302T150000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "BARCELONA, Spain, March 02, 2025 ( GLOBE NEWSWIRE ) -- AI comes to bicycling at MWC, as BleeqUp reveals Ranger, the world's first 4-in-1 AI cycling glasses.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/657cd8a8-8fb1-4971-97eb-dda2f550520b/bleequp-ranger-18.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.32525,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.044885",
+                    "ticker_sentiment_score": "0.083554",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.089629",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Our current data infrastructure threatens DeFi's future",
+            "url": "https://cointelegraph.com/news/the-future-of-de-fi-is-at-risk",
+            "time_published": "20250302T150000",
+            "authors": [
+                "Maxim Legg"
+            ],
+            "summary": "The future of DeFi is at risk as outdated data infrastructure struggles to keep pace with high-performance blockchains. Without a fundamental overhaul, innovation and adoption will falter.",
+            "banner_image": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-01/01942b3d-94b7-7ff9-bbe5-9902775f07f1",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": -0.087992,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
         {
             "title": "ROSEN, A TRUSTED AND LEADING LAW FIRM, Encourages Alarum Technologies Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action - ALAR - Alarum Technologies  ( NASDAQ:ALAR ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44067346/rosen-a-trusted-and-leading-law-firm-encourages-alarum-technologies-ltd-investors-to-secure-counse",
@@ -106,6 +234,39 @@
             "ticker_sentiment": []
         },
         {
+            "title": "This Growth Stock Is Up 42% in the Past Year. Should You Buy It With $1,000 Right Now?",
+            "url": "https://www.fool.com/investing/2025/03/02/should-you-buy-growth-stock-1000-right-now/",
+            "time_published": "20250302T143800",
+            "authors": [
+                "Neil Patel"
+            ],
+            "summary": "In the last year, the S&P 500 has climbed 17%. That's a better-than-average gain, historically. But some businesses have fared much better, and investors should take notice of them. In particular, one consumer-facing company has well outperformed the broader index: Its shares have soared by 42% ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809121/spotting-lifter-at-gym.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.744043"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.347923,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PLNT",
+                    "relevance_score": "0.651499",
+                    "ticker_sentiment_score": "0.411751",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
             "title": "Judge Rules Trump's Dismissal Of Federal Workforce Watchdog Illegal, Paving Way For Potential Supreme Court Showdown",
             "url": "https://www.benzinga.com/news/25/03/44067254/judge-rules-trumps-dismissal-of-federal-workforce-watchdog-illegal-paving-way-for-potential-supreme-court-sh",
             "time_published": "20250302T143041",
@@ -194,6 +355,59 @@
                     "ticker": "XIACY",
                     "relevance_score": "0.595343",
                     "ticker_sentiment_score": "0.239975",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Meet the Supercharged Growth Stock That Could Make You a Millionaire",
+            "url": "https://www.fool.com/investing/2025/03/02/meet-the-supercharged-growth-stock-that-could-make/",
+            "time_published": "20250302T143000",
+            "authors": [
+                "James Brumley"
+            ],
+            "summary": "Every now and then, the right company is in the right place at the right time with the right product.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808781%2F022425-soundhound-ai-results.png&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998356"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.164629,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.039483",
+                    "ticker_sentiment_score": "0.079133",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.118064",
+                    "ticker_sentiment_score": "0.053012",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SOUN",
+                    "relevance_score": "0.118064",
+                    "ticker_sentiment_score": "0.158913",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1412,350 +1626,6 @@
                     "relevance_score": "0.072217",
                     "ticker_sentiment_score": "0.072425",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "DeepSeek Crushed Constellation Energy. Is This Nuclear Stock a Buy Now?",
-            "url": "https://www.fool.com/investing/2025/03/02/deepseek-crushed-constellation-is-it-a-buy-now/",
-            "time_published": "20250302T120700",
-            "authors": [
-                "Rich Smith"
-            ],
-            "summary": "DeepSeek's arrival in January 2025 shook the AI world.Over the course of less than 10 hours' trading, news that China had created a better AI mousetrap -- one that took less time and costs less money to build and operate -- subtracted $600 billion from the market capitalization of Nvidia ( ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809231/nuclear-power-plant-next-to-high-voltage-electricity-lines.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99793"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.302709,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.105141",
-                    "ticker_sentiment_score": "0.145087",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TVC",
-                    "relevance_score": "0.052685",
-                    "ticker_sentiment_score": "-0.052967",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.105141",
-                    "ticker_sentiment_score": "0.12633",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CEG",
-                    "relevance_score": "0.2589",
-                    "ticker_sentiment_score": "0.253353",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "D",
-                    "relevance_score": "0.105141",
-                    "ticker_sentiment_score": "-0.018704",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.052685",
-                    "ticker_sentiment_score": "0.050001",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DUK",
-                    "relevance_score": "0.105141",
-                    "ticker_sentiment_score": "-0.058084",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SO",
-                    "relevance_score": "0.052685",
-                    "ticker_sentiment_score": "-0.052967",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Ethereum's Pectra upgrade could lay groundwork for next market rally",
-            "url": "https://cointelegraph.com/news/ethereum-pectra-next-eth-price-catalyst",
-            "time_published": "20250302T120322",
-            "authors": [
-                "Zoltan Vardai"
-            ],
-            "summary": "The Pectra upgrade aims to significantly reduce Ether selling pressure, potentially contributing to long-term price appreciation.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01955677-f9fb-7c56-80cf-2412ee88c647",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.0485,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.09186",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.893773",
-                    "ticker_sentiment_score": "0.130239",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Top Wall Street analysts are upbeat on the long-term potential of these stocks",
-            "url": "https://www.cnbc.com/2025/03/02/top-wall-street-analysts-are-upbeat-on-the-long-term-potential-of-these-stocks.html",
-            "time_published": "20250302T120301",
-            "authors": [],
-            "summary": "TipRanks' analyst ranking service spotlights three stocks favored by Wall Street, including Booking Holdings and Visa.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Investing",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.990999"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.99793"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.339042,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EVR",
-                    "relevance_score": "0.03798",
-                    "ticker_sentiment_score": "0.194947",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "EXPE",
-                    "relevance_score": "0.03798",
-                    "ticker_sentiment_score": "0.121801",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CYBR",
-                    "relevance_score": "0.151064",
-                    "ticker_sentiment_score": "0.143754",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.03798",
-                    "ticker_sentiment_score": "0.121801",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BKNG",
-                    "relevance_score": "0.296761",
-                    "ticker_sentiment_score": "0.420513",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "V",
-                    "relevance_score": "0.296761",
-                    "ticker_sentiment_score": "0.239744",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Apple's $500 Billion Investment, Age Detection, Trump AI Dictation Bug, Smart Doorbells, And More: This Week In Appleverse - Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/25/03/44066932/apples-500-billion-investment-age-detection-trump-ai-dictation-bug-smart-doorbells-and-more-this-week-in-applever",
-            "time_published": "20250302T120043",
-            "authors": [
-                "Rounak Jain"
-            ],
-            "summary": "As we wrap up another eventful week, it's clear that Apple Inc. AAPL has been making waves with a series of intriguing developments. From age detection technology to smart doorbells, the tech giant has kept us on our toes. Let's delve into the top stories that made headlines.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/02/Recent-Announcements.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.133146,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APG",
-                    "relevance_score": "0.104683",
-                    "ticker_sentiment_score": "0.142443",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.207571",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.642977",
-                    "ticker_sentiment_score": "0.210586",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Ellomay Capital Announces Execution of Project Finance Agreements for its 198 MW Solar Portfolio in Italy",
-            "url": "https://www.globenewswire.com/news-release/2025/03/02/3035150/0/en/Ellomay-Capital-Announces-Execution-of-Project-Finance-Agreements-for-its-198-MW-Solar-Portfolio-in-Italy.html",
-            "time_published": "20250302T120000",
-            "authors": [
-                "Ellomay Capital Ltd"
-            ],
-            "summary": "Tel-Aviv, Israel, March 02, 2025 ( GLOBE NEWSWIRE ) -- Ellomay Capital Ltd. ( NYSE American. TASE: ELLO ) ( \"Ellomay\" or the \"Company\" ) , a renewable energy and power generator and developer of renewable energy and power projects in Europe, Israel and the USA, today reported that its ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/065f5710-f576-4c2f-a6f4-e8d710e150e7",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.110497,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CAPFF",
-                    "relevance_score": "0.046184",
-                    "ticker_sentiment_score": "0.092632",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PGPGF",
-                    "relevance_score": "0.046184",
-                    "ticker_sentiment_score": "0.092632",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Is Amazon a Buy, Sell, or Hold in 2025?",
-            "url": "https://www.fool.com/investing/2025/03/02/is-amazon-a-buy-sell-or-hold-in-2025/",
-            "time_published": "20250302T120000",
-            "authors": [
-                "Chris Neiger"
-            ],
-            "summary": "Amazon's ( NASDAQ: AMZN ) share price is up 38% over the past three years, making its returns nearly identical to the S&P 500's over the same time frame. Beating the market is the long-term goal of many investors, so it's understandable why some may be wondering what's the best course to take ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809066%2Famazon-packaged-delivery-online-shopping-e-commerce-mercadolibre-1200x800-5b2df79.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.94762"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.201213,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.063091",
-                    "ticker_sentiment_score": "0.09233",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.063091",
-                    "ticker_sentiment_score": "0.015295",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.732216",
-                    "ticker_sentiment_score": "0.303244",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
