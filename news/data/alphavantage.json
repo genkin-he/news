@@ -1,8 +1,73 @@
 {
-    "items": "23",
+    "items": "22",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "DeepSeek shows potential of V3, R1 models with theoretical 545% profit margin",
+            "url": "https://www.scmp.com/tech/big-tech/article/3300734/deepseek-shows-power-v3-r1-models-theoretical-545-profit-margin",
+            "time_published": "20250302T101556",
+            "authors": [
+                "Wency Chen"
+            ],
+            "summary": "Theoretical margin was based on a 24-hour run, actual revenue may be lower because of cheaper pricing, off-peak discounts and free-to-use options.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/01/30/clean-ai_0.jpg?itok=2sYPBtp9",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.77141"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.24095,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "APG",
+                    "relevance_score": "0.053153",
+                    "ticker_sentiment_score": "0.007038",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.053153",
+                    "ticker_sentiment_score": "0.104665",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.10607",
+                    "ticker_sentiment_score": "0.128865",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.053153",
+                    "ticker_sentiment_score": "0.090674",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ZH",
+                    "relevance_score": "0.053153",
+                    "ticker_sentiment_score": "0.032986",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Rising Bitcoin activity hints at market bottom, potential reversal",
             "url": "https://cointelegraph.com/news/bitcoin-active-addresses-market-turning-point",
@@ -56,6 +121,47 @@
                     "ticker": "TSLA",
                     "relevance_score": "0.107495",
                     "ticker_sentiment_score": "-0.124002",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "President Trump's Potential Changes for Social Security So Far: 3 Things You Should Know",
+            "url": "https://www.fool.com/retirement/2025/03/02/president-trumps-potential-changes-for-social-secu/",
+            "time_published": "20250302T100000",
+            "authors": [
+                "Bram Berkowitz"
+            ],
+            "summary": "President Donald Trump was sworn into office on Jan. 20, and he has already embarked on an ambitious agenda. With the Trump administration attempting to make significant spending cuts, many retirees might be wondering what the 47th president's plans are for Social Security, which distributes ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F808572%2Ftrump-official-wh-photo-by-joyce-n-boghosian.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.990678"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.0273,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.048621",
+                    "ticker_sentiment_score": "0.07904",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -936,99 +1042,6 @@
                     "relevance_score": "0.110973",
                     "ticker_sentiment_score": "0.083491",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Mainland Chinese brands to lead retail leasing in Hong Kong",
-            "url": "https://www.scmp.com/property/article/3300664/mainland-chinese-brands-lead-retail-leasing-troubled-hong-kong-market",
-            "time_published": "20250302T033012",
-            "authors": [
-                "Cheryl Arcibal"
-            ],
-            "summary": "Mainland Chinese brands are seizing opportunities from rising tourism and an influx of migrants, analysts say.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/01/77469538-453b-4dd9-9d0b-1535dea789d5_78c65d00.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [],
-            "overall_sentiment_score": 0.115989,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.045743",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LKNCY",
-                    "relevance_score": "0.045743",
-                    "ticker_sentiment_score": "-0.138255",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.045743",
-                    "ticker_sentiment_score": "0.056942",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Ethereum researcher pitches solution to fix centralization woes, eliminate MEV",
-            "url": "https://cointelegraph.com/news/ethereum-researcher-pitches-block-proposal-alternative-to-improve-ethereum",
-            "time_published": "20250302T031706",
-            "authors": [
-                "Brayden Lindrea"
-            ],
-            "summary": "Ethereum researcher \"Malik672\" has proposed a solution to democratize Ethereum's block proposer process which they claim would also eliminate MEV at the block level.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019554d2-bb1e-70c5-8011-5e2450f40315",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [],
-            "overall_sentiment_score": 0.0,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.848829",
-                    "ticker_sentiment_score": "0.103988",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "'When The Bill Comes, It Will Be Monumental'-Experts Warn Trump's Mass Federal Firings Could Leave A Tremendous Financial Burden",
-            "url": "https://www.benzinga.com/news/25/03/44066466/when-the-bill-comes-it-will-be-monumental-experts-warn-trumps-mass-federal-firings-could-leave-a-tremendous-",
-            "time_published": "20250302T030045",
-            "authors": [
-                "Adrian Volenik"
-            ],
-            "summary": "Thousands of federal workers are being fired under the Trump administration's efforts to shrink the government. Officials say the cuts are about improving efficiency and reducing waste, but experts argue that these mass terminations could come at a staggering financial cost.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/01/Trump-Accused-Of-Proposing-Ethnic-Cleans.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.071566,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.067158",
-                    "ticker_sentiment_score": "0.282436",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
