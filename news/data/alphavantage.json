@@ -1,5 +1,5 @@
 {
-    "items": "50",
+    "items": "48",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -200,6 +200,49 @@
             "overall_sentiment_score": 0.136172,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Wayfair Options Trading: A Deep Dive into Market Sentiment - Wayfair  ( NYSE:W ) ",
+            "url": "https://www.benzinga.com/insights/options/25/03/44199563/wayfair-options-trading-a-deep-dive-into-market-sentiment",
+            "time_published": "20250307T181553",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Financial giants have made a conspicuous bearish move on Wayfair. Our analysis of options history for Wayfair W revealed 25 unusual trades. Delving into the details, we found 36% of traders were bullish, while 40% showed bearish tendencies.",
+            "banner_image": "https://www.benzinga.com/files/images/story/2025/1741371350_0.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                }
+            ],
+            "overall_sentiment_score": 0.194131,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CCORF",
+                    "relevance_score": "0.072655",
+                    "ticker_sentiment_score": "0.073464",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "W",
+                    "relevance_score": "0.798255",
+                    "ticker_sentiment_score": "0.224099",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
         },
         {
             "title": "Smart Money Is Betting Big In SPGI Options - S&P Global  ( NYSE:SPGI ) ",
@@ -1995,126 +2038,6 @@
                     "ticker": "AVGO",
                     "relevance_score": "0.814721",
                     "ticker_sentiment_score": "0.429792",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "What's Going On With Lands' End Stock Today? - Lands' End  ( NASDAQ:LE ) ",
-            "url": "https://www.benzinga.com/trading-ideas/movers/25/03/44197254/whats-going-on-with-lands-end-stock-today",
-            "time_published": "20250307T171244",
-            "authors": [
-                "Nabaparna Bhattacharya"
-            ],
-            "summary": "Lands' End explores strategic alternatives, including a potential sale or merger, to address market undervaluation and maximize shareholder Lands' End engages Perella Weinberg Partners and Wachtell, Lipton, Rosen & Katz as financial and legal advisors to guide the process.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/07/merger--acquistion--business-combination.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.392615,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PWP",
-                    "relevance_score": "0.195814",
-                    "ticker_sentiment_score": "0.266727",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "LE",
-                    "relevance_score": "0.678673",
-                    "ticker_sentiment_score": "0.592072",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "SSTK",
-                    "relevance_score": "0.098659",
-                    "ticker_sentiment_score": "0.355505",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Comfort Systems USA Stock Slid 17% Last Month",
-            "url": "https://www.fool.com/investing/2025/03/07/why-comfort-systems-usa-stock-slid-17-last-month/",
-            "time_published": "20250307T171230",
-            "authors": [
-                "Jon Quast"
-            ],
-            "summary": "Shares of Comfort Systems USA ( NYSE: FIX ) slid 16.8% in February, according to data provided by S&P Global Market Intelligence. Part of this drop occurred after the company reported financial results for the fourth quarter of 2024 on Feb. 20, but the bigger drop happened earlier in the month ...",
-            "banner_image": "https://media.ycharts.com/charts/bbce41eeb0746c4af561ae37b3ff3c22.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": 0.225746,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FIX",
-                    "relevance_score": "0.15697",
-                    "ticker_sentiment_score": "0.0218",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.07887",
-                    "ticker_sentiment_score": "0.016484",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "BUREAU VERITAS: Number of shares and voting rights as of February 28, 2025",
-            "url": "https://www.globenewswire.com/news-release/2025/03/07/3039113/0/en/BUREAU-VERITAS-Number-of-shares-and-voting-rights-as-of-February-28-2025.html",
-            "time_published": "20250307T171100",
-            "authors": [
-                "BUREAU VERITAS"
-            ],
-            "summary": "REGULATED INFORMATION ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/abe98ab4-3acc-4d0f-97e5-d96a945bd095",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [],
-            "overall_sentiment_score": 0.347662,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BVRDF",
-                    "relevance_score": "0.716023",
-                    "ticker_sentiment_score": "0.50726",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
