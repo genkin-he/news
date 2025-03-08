@@ -1,8 +1,160 @@
 {
-    "items": "40",
+    "items": "41",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "SHAREHOLDER REMINDER: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Merck & Co. - Merck & Co  ( NYSE:MRK ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44209017/shareholder-reminder-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-merck-co",
+            "time_published": "20250308T125200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses Exceeding $100,000 In Merck To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/4bde5a72-f32e-4aaf-9187-2830bc82c5a2/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.179479,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.058188",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Elon Musk, Marco Rubio Clash In Heated White House Meeting In First Signs Of Tensions In Trump's Cabinet: Report",
+            "url": "https://www.benzinga.com/25/03/44209007/elon-musk-marco-rubio-clash-in-heated-white-house-meeting-in-first-signs-of-tensions-in-trumps-cabinet-report",
+            "time_published": "20250308T124950",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "In a dramatic turn of events at the White House, Elon Musk and Marco Rubio reportedly engaged in a heated debate during a meeting with President Donald Trump and other officials. The confrontation centered around Musk's aggressive cost-cutting strategies and Rubio's staffing decisions.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/DOGE-Gains-Access-To-Medicare-And-Medica.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.002454,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NYT",
+                    "relevance_score": "0.095899",
+                    "ticker_sentiment_score": "-0.113389",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "XRP price risks another 20% drop after 'Digital Asset Stockpile' letdown",
+            "url": "https://cointelegraph.com/news/xrp-price-risks-20-drop-digital-asset-stockpile",
+            "time_published": "20250308T124615",
+            "authors": [
+                "Yashu Gola"
+            ],
+            "summary": "A classic technical setup and the US government's commitment to only selling altcoins from its new Digital Asset Stockpile are posing a threat to XRP's uptrend prospects.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195757e-e537-72b2-9240-3e4a40e459ec",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": -0.072308,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.331765",
+                    "ticker_sentiment_score": "0.026857",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.068306",
+                    "ticker_sentiment_score": "-0.029216",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ADA",
+                    "relevance_score": "0.068306",
+                    "ticker_sentiment_score": "-0.029216",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:XRP",
+                    "relevance_score": "0.769861",
+                    "ticker_sentiment_score": "-0.119628",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Tesla Stock Crashes About 40% Since Trump Took Office, Brand Takes A Hit, And Musk Faces Criticism: Analyst Says Dark Times For Bulls But Not Enough To Head For The Hills - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/25/03/44208979/tesla-stock-crashes-about-40-since-trump-took-office-in-january-2025-brand-takes-a-hit-and-musk-faces-criticism-t",
+            "time_published": "20250308T123754",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Despite Tesla Inc. TSLA stock plunging nearly 40% since President Donald Trump took office in January, Wedbush analyst Dan Ives remains bullish, calling the selloff a \"generational opportunity\" and predicting that EV giant's stock could double within 12 months.",
+            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/03/08035233/Screenshot-2025-03-08-at-2.22.27%E2%80%AFPM-1024x376.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.190355,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OPTGF",
+                    "relevance_score": "0.108466",
+                    "ticker_sentiment_score": "0.217896",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.724687",
+                    "ticker_sentiment_score": "0.27751",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Trump Declares US The 'Bitcoin Superpower' At White House Crypto Summit With Top Industry Executives - Coinbase Global  ( NASDAQ:COIN ) ",
             "url": "https://www.benzinga.com/25/03/44208906/trump-declares-us-the-bitcoin-superpower-at-historic-white-house-crypto-summit-with-top-industry-executives",
@@ -108,6 +260,43 @@
                     "relevance_score": "0.076602",
                     "ticker_sentiment_score": "-0.03052",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "This Customer Trend Helped Save Walmart's Quarter, but Does It Spell Trouble for the Year Ahead?",
+            "url": "https://www.fool.com/investing/2025/03/08/this-customer-trend-helped-save-walmarts-quarter-b/",
+            "time_published": "20250308T120900",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "Walmart ( NYSE: WMT ) is one of the largest and most powerful retailers in the world. It is performing quite well right now, with the company's fiscal fourth quarter 2025 same-store sales ticking up 4.6%.There's a wrinkle in this number, however, because it is being supported by customers who ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809863%2F22_01_10-a-person-and-a-child-looking-at-a-food-box-in-a-grocery-store-_gettyimages-488636504.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": 0.219362,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.589459",
+                    "ticker_sentiment_score": "0.368414",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1504,191 +1693,6 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
-        },
-        {
-            "title": "Adobe Is One of the Few Tech Stocks That Haven't Sold Off in 2025. But It Has a Lot to Prove on March 12.",
-            "url": "https://www.fool.com/investing/2025/03/08/adobe-growth-stock-buy-tech-stock-sell-off/",
-            "time_published": "20250308T092200",
-            "authors": [
-                "Daniel Foelber"
-            ],
-            "summary": "Technology has been one of the worst-performing sectors in 2025, led by a sell-off in megacap behemoths like Apple, Microsoft, and Nvidia. But Adobe ( NASDAQ: ADBE ) has held up well and is up slightly year to date at the time of this writing.Here's why Adobe has a lot to prove on March 12 -- ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810001%2Fgettyimages-2129774773-1200x857-eb97591-1.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.266431,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ADBE",
-                    "relevance_score": "0.566143",
-                    "ticker_sentiment_score": "0.406106",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.051999",
-                    "ticker_sentiment_score": "0.092551",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.051999",
-                    "ticker_sentiment_score": "0.092551",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "AI Chipmaker Stock Sell-Off: Here Are My Top 2 Semiconductor Stocks to Buy Now",
-            "url": "https://www.fool.com/investing/2025/03/08/ai-chipmaker-stock-sell-semiconductor-buy/",
-            "time_published": "20250308T091500",
-            "authors": [
-                "Adam Levy"
-            ],
-            "summary": "Right now could be a great opportunity to get in on AI chip stocks before they return to growth.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810051%2Fgettyimages-artificial-intellgence-chip.jpeg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.995921"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.299307,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.370831",
-                    "ticker_sentiment_score": "0.231165",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.370831",
-                    "ticker_sentiment_score": "0.211823",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "ON",
-                    "relevance_score": "0.048133",
-                    "ticker_sentiment_score": "0.171712",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TSM",
-                    "relevance_score": "0.096091",
-                    "ticker_sentiment_score": "0.179399",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Warren Buffett Invested $54M Into Sirius XM This February. Why I'm Adding to It in My Portfolio.",
-            "url": "https://www.fool.com/investing/2025/03/08/warren-buffett-invested-54m-into-sirius-xm-this-fe/",
-            "time_published": "20250308T091100",
-            "authors": [
-                "Rick Munarriz"
-            ],
-            "summary": "Berkshire Hathaway keeps pumping up the volume on this media monopoly.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810330%2Fbuffett1-tmf.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.989041"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.94762"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.269694,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.270274",
-                    "ticker_sentiment_score": "0.244991",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SIRI",
-                    "relevance_score": "0.643109",
-                    "ticker_sentiment_score": "0.451428",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "The Nasdaq Dived Close to 11% in 9 Sessions -- Here's How Much Further This Growth Stock-Fueled Index Can Fall, Based on History",
-            "url": "https://www.fool.com/investing/2025/03/08/nasdaq-dived-close-to-11-in-9-sessions-heres-h/",
-            "time_published": "20250308T090600",
-            "authors": [
-                "Sean Williams"
-            ],
-            "summary": "Historic precedent paints a clear picture of what may be next for the widely followed Nasdaq Composite.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810146%2Fstock-market-crash-plunge-dollar-newspaper-invest-dow-sp-500-getty.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.100728,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
         }
     ]
 }
