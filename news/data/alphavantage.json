@@ -1,5 +1,5 @@
 {
-    "items": "46",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1977,49 +1977,6 @@
                     "ticker": "META",
                     "relevance_score": "0.056674",
                     "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Why Denny's Stock Tumbled by 16% This Week",
-            "url": "https://www.fool.com/investing/2025/03/07/why-dennys-stock-tumbled-by-16-this-week/",
-            "time_published": "20250307T223034",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "The persistently rising price of a key input was the main factor behind the recent sag in Denny's ( NASDAQ: DENN ) stock. Investors weren't very forgiving this week, as according to data compiled by S&P Global Market Intelligence, they traded the company's shares down by nearly 16% over the ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810399/eggs-falling-out-of-a-nest.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": -0.040617,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.142565",
-                    "ticker_sentiment_score": "0.016858",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DENN",
-                    "relevance_score": "0.718897",
-                    "ticker_sentiment_score": "-0.108235",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
