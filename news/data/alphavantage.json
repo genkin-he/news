@@ -1,5 +1,5 @@
 {
-    "items": "36",
+    "items": "35",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1392,39 +1392,6 @@
                     "relevance_score": "0.433523",
                     "ticker_sentiment_score": "0.37526",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin Reserve and Digital Asset Stockpile: What's the Difference?",
-            "url": "https://decrypt.co/309138/bitcoin-reserve-digital-asset-stockpile",
-            "time_published": "20250307T233517",
-            "authors": [
-                "Liz Napolitano"
-            ],
-            "summary": "President Trump signed an executive order calling for the U.S. to establish two stashes of cryptocurrencies. Here's how they compare.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/08/usa-flag-bitcoin-gID_7.png",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.769861"
-                }
-            ],
-            "overall_sentiment_score": 0.242772,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.682689",
-                    "ticker_sentiment_score": "0.300152",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
