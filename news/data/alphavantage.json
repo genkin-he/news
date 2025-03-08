@@ -1,8 +1,136 @@
 {
-    "items": "32",
+    "items": "30",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Macroscope | For China's belt and road, the best days are still to come",
+            "url": "https://www.scmp.com/opinion/china-opinion/article/3301284/chinas-belt-and-road-best-days-are-still-come",
+            "time_published": "20250308T083008",
+            "authors": [
+                "Anthony Rowley"
+            ],
+            "summary": "With rival initiatives lacking substance, Beijing's transcontinental project is likely to expand as the US exits multilateral commitments.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/07/b59882b7-2103-40f8-a206-30e8beeb3370_4da505b5.jpg?itok=uwAWRD9o&v=1741315446",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.13777,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "How to utilize AI agents in decentralized finance  ( DeFi )  platforms",
+            "url": "https://cointelegraph.com/news/how-to-utilize-ai-agents-in-decentralized-finance-defi-platforms",
+            "time_published": "20250308T082800",
+            "authors": [
+                "Tobias Vilkenson"
+            ],
+            "summary": "AI agents can enhance decentralized finance ( DeFi ) by improving automation, risk management, trading strategies and more, driving efficiency and innovation in the space.",
+            "banner_image": "https://s3.cointelegraph.com/storage/uploads/view/86eb9c1741d80f19d869ac9a5fa29800.jpg",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.999937"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.94309"
+                }
+            ],
+            "overall_sentiment_score": 0.275564,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSEZ",
+                    "relevance_score": "0.018454",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.092071",
+                    "ticker_sentiment_score": "0.177058",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.073716",
+                    "ticker_sentiment_score": "0.177256",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:AAVE",
+                    "relevance_score": "0.073716",
+                    "ticker_sentiment_score": "0.149826",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:UNI",
+                    "relevance_score": "0.018454",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Could Brookfield Infrastructure Be the Hidden Gem That Boosts Your Portfolio?",
+            "url": "https://www.fool.com/investing/2025/03/08/could-brookfield-infrastructure-be-the-hidden-gem/",
+            "time_published": "20250308T080900",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "Brookfield Infrastructure ( NYSE: BIPC ) ( NYSE: BIP ) is far from a household name. The company doesn't sell any well-known consumer products. It also hasn't developed the latest breakthrough technology. However, you likely wouldn't be able to buy those products or access technology without ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/810094/a-person-looking-at-a-stock-chart-on-a-tablet.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.399847,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BIPC",
+                    "relevance_score": "0.457566",
+                    "ticker_sentiment_score": "0.520756",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "CoinEx Strategic Trading: Key Insights on Auto-Invest Plan",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44208418/coinex-strategic-trading-key-insights-on-auto-invest-plan",
@@ -1110,202 +1238,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages Rocket Lab USA, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - RKLB - Rocket Lab USA  ( NASDAQ:RKLB ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44207579/rosen-a-leading-investor-rights-law-firm-encourages-rocket-lab-usa-inc-investors-to-secure-counsel",
-            "time_published": "20250308T005846",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 07, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Rocket Lab USA, Inc. RKLB between November 12, 2024 and February 25, 2025, both dates inclusive ( the \"Class Period\" ) , of the important April 28, 2025 ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.122467,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.060085",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "RKLB",
-                    "relevance_score": "0.11983",
-                    "ticker_sentiment_score": "0.14738",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A LEADING NATIONAL FIRM, Encourages Skyworks Solutions, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - SWKS - Skyworks Solutions  ( NASDAQ:SWKS ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44207530/rosen-a-leading-national-firm-encourages-skyworks-solutions-inc-investors-to-secure-counsel-before",
-            "time_published": "20250308T004201",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 07, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, announces the filing of a class action lawsuit on behalf of purchasers of securities of Skyworks Solutions, Inc. SWKS between July 30, 2024 and February 5, 2025, both dates inclusive ( the ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.183105,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.058047",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SWKS",
-                    "relevance_score": "0.115787",
-                    "ticker_sentiment_score": "0.013876",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Kraken Plots Public Offering After SEC Agrees to Drop Lawsuit: Bloomberg",
-            "url": "https://decrypt.co/309180/kraken-plots-public-offering-report",
-            "time_published": "20250308T003557",
-            "authors": [
-                "Jason Nelson"
-            ],
-            "summary": "Crypto exchange Kraken is preparing to go public next year after previous legal setbacks, according to a report.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/02/kraken-bitcoin-ethereum-exchange-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.038388,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.122269",
-                    "ticker_sentiment_score": "0.088917",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "SoundHound AI, Inc. Investor News: If You Have Suffered Losses in SoundHound AI, Inc.  ( NASDAQ: SOUN, SOUNW )  You Are Encouraged to Contact The Rosen Law Firm About Your Rights - SoundHound AI  ( NASDAQ:SOUN ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44207367/soundhound-ai-inc-investor-news-if-you-have-suffered-losses-in-soundhound-ai-inc-nasdaq-soun-sounw",
-            "time_published": "20250308T002840",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 07, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, announces an investigation of potential securities claims on behalf of shareholders of SoundHound AI, Inc.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.127821,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SOUN",
-                    "relevance_score": "0.138863",
-                    "ticker_sentiment_score": "-0.066093",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "OCC lays out crypto banking after Trump vows to end Operation Chokepoint 2.0",
-            "url": "https://cointelegraph.com/news/occ-crypto-banking-donald-trump-ends-operation-chokepoint-2-0",
-            "time_published": "20250308T002807",
-            "authors": [
-                "Ciaran Lyons"
-            ],
-            "summary": "The OCC has eased \"the burden\" on banks engaging in crypto activities after Donald Trump vowed to end the \"ridiculous\" Operation Chokepoint 2.0.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957317-307e-783a-a2c3-0cc9fffa9d5b",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                }
-            ],
-            "overall_sentiment_score": 0.072979,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
         }
     ]
 }
