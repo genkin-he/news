@@ -1,8 +1,407 @@
 {
-    "items": "44",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "SHAREHOLDER REMINDER: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Edison International - Edison Intl  ( NYSE:EIX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44209275/shareholder-reminder-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-edison-intern",
+            "time_published": "20250308T142400",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses Exceeding $100,000 In Edison To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/165045a2-81c1-4076-820a-38057608bc81/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.125181,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EIX",
+                    "relevance_score": "0.511256",
+                    "ticker_sentiment_score": "-0.089021",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.061315",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "SHAREHOLDER REMINDER: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Rocket Lab USA - Rocket Lab USA  ( NASDAQ:RKLB ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44209207/shareholder-reminder-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-rocket-lab-us",
+            "time_published": "20250308T140300",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses Exceeding $100,000 In Rocket Lab To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fdafeab3-e66c-4705-b292-211a18341546/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                }
+            ],
+            "overall_sentiment_score": 0.082091,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.055109",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RKLB",
+                    "relevance_score": "0.217834",
+                    "ticker_sentiment_score": "0.148582",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Publicly Traded Bitcoin Firm Fold Adds $41 Million in BTC to Reserve",
+            "url": "https://decrypt.co/309135/publicly-traded-bitcoin-firm-fold-adds-41-million-in-btc-to-reserve",
+            "time_published": "20250308T140102",
+            "authors": [
+                "Logan Hitchcock"
+            ],
+            "summary": "Fold, which began trading on the Nasdaq in February, now holds nearly $130 million worth of Bitcoin in its corporate treasury.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/bitcoin-btc-coins-floating-gID_7.png",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.388939,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "STRK",
+                    "relevance_score": "0.130926",
+                    "ticker_sentiment_score": "0.149879",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FLD",
+                    "relevance_score": "0.59016",
+                    "ticker_sentiment_score": "0.566417",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.978984",
+                    "ticker_sentiment_score": "0.684281",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Sam Bankman-Fried Says 'When Rubber Meets The Road' On Crypto's Fate Under Trump, Slams Biden's Policies",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44209192/sam-bankman-fried-says-when-rubber-meets-the-road-on-cryptos-fate-under-trump-slams-bidens",
+            "time_published": "20250308T140051",
+            "authors": [
+                "Aniket Verma"
+            ],
+            "summary": "Disgraced cryptocurrency mogul Sam Bankman-Fried weighed in on the future of digital assets under President Donald Trump's administration, according to an interview from his prison released Thursday.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/Sam-Bankman-Fried.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.029535,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.202366",
+                    "ticker_sentiment_score": "-0.276973",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Late-Breaking ESK-001 Phase 2 OLE Data Presented at 2025 AAD Annual Meeting Demonstrate Robust Clinical Responses Over 52-Weeks in Psoriasis",
+            "url": "https://www.globenewswire.com/news-release/2025/03/08/3039351/0/en/Late-Breaking-ESK-001-Phase-2-OLE-Data-Presented-at-2025-AAD-Annual-Meeting-Demonstrate-Robust-Clinical-Responses-Over-52-Weeks-in-Psoriasis.html",
+            "time_published": "20250308T140000",
+            "authors": [
+                "Alumis Inc."
+            ],
+            "summary": "ESK-001 demonstrated robust clinical responses and was well tolerated over 52 weeks in a Phase 2 clinical trial, presented in a late-breaker at ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d91605d4-7524-4c20-ac0f-3ba880ef4fe6",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.150973,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ALMS",
+                    "relevance_score": "0.563374",
+                    "ticker_sentiment_score": "0.243952",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Nigeria's new crypto tax policies may not drive the revenue it needs",
+            "url": "https://cointelegraph.com/news/nigeria-crypto-tax-revenue",
+            "time_published": "20250308T140000",
+            "authors": [
+                "Cath Jenkin"
+            ],
+            "summary": "As Nigeria grapples with economic challenges, the government is set to introduce a tax on cryptocurrency transactions. This move appears to be an effort to tap into the burgeoning digital economy and the informal sector.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957087-b952-7c7a-9048-d3c1ef56b93f",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.744043"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.972193"
+                }
+            ],
+            "overall_sentiment_score": 0.081618,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "C",
+                    "relevance_score": "0.043579",
+                    "ticker_sentiment_score": "0.13584",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:NGN",
+                    "relevance_score": "0.130217",
+                    "ticker_sentiment_score": "0.003683",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Activist Spectrum Entrepreneurial has a stake in Landis+Gyr, and it may be poised to build value",
+            "url": "https://www.cnbc.com/2025/03/08/activist-spectrum-has-a-stake-in-landisgyr-and-it-may-be-poised-to-build-value.html",
+            "time_published": "20250308T135644",
+            "authors": [],
+            "summary": "Spectrum Entrepreneurial is an anchor shareholder in Landis+Gyr, and changes are starting to unfold at the company.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Investing",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.77141"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.243079,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ITRI",
+                    "relevance_score": "0.042571",
+                    "ticker_sentiment_score": "0.050556",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Starting the day with a healthy breakfast is becoming a pricey luxury",
+            "url": "https://www.cnbc.com/2025/03/08/starting-the-day-with-a-healthy-breakfast-is-becoming-a-pricey-luxury.html",
+            "time_published": "20250308T135256",
+            "authors": [],
+            "summary": "The rise in costs comes as consumers signal that they are increasingly tapped out and worried about the impact of potential tariffs on the economy.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.045314,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.032916",
+                    "ticker_sentiment_score": "0.159524",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ICE",
+                    "relevance_score": "0.032916",
+                    "ticker_sentiment_score": "-0.016134",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BCS",
+                    "relevance_score": "0.032916",
+                    "ticker_sentiment_score": "-0.205827",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "MDNDF",
+                    "relevance_score": "0.098524",
+                    "ticker_sentiment_score": "0.011797",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DENN",
+                    "relevance_score": "0.098524",
+                    "ticker_sentiment_score": "0.012951",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.032916",
+                    "ticker_sentiment_score": "-0.174248",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "British American Tobacco vs. Altria: Does Stronger Volume Performance Make BAT a Buy?",
+            "url": "https://www.fool.com/investing/2025/03/08/british-american-tobacco-vs-altria-does-stronger-v/",
+            "time_published": "20250308T135200",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "Altria ( NYSE: MO ) and British American Tobacco ( NYSE: BTI ) both have attractively large yields, at 7.4% and 7.7%, respectively. By comparison, the S&P 500 index is only yielding 1.2% while the average consumer staples stock has a yield of roughly 2.7%.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809857%2F25_02_28-a-person-breaking-a-cigarette-in-half-_mf-dload-1200x800-5b2df79.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.041479,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BTI",
+                    "relevance_score": "0.524949",
+                    "ticker_sentiment_score": "0.122673",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MO",
+                    "relevance_score": "0.47452",
+                    "ticker_sentiment_score": "0.106363",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Trump turned crypto from 'oppressed industry' to 'centerpiece' of US strategy",
             "url": "https://cointelegraph.com/news/trump-crypto-summit-us-bitcoin-policy-shift",
@@ -152,6 +551,49 @@
                     "ticker": "RXRX",
                     "relevance_score": "0.353898",
                     "ticker_sentiment_score": "0.287289",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Bold Prediction: 1 Stock That Could Be Worth More Than Nvidia 7 Years From Now",
+            "url": "https://www.fool.com/investing/2025/03/08/prediction-stock-worth-more-nvidia-amd/",
+            "time_published": "20250308T134500",
+            "authors": [
+                "Ryan Vanzo"
+            ],
+            "summary": "Nvidia ( NASDAQ: NVDA ) has been one of the best long-term investments of all time. Since 1999, shares have increased in value by more than 285,000%, pushing the company's market capitalization into the trillions of dollars.",
+            "banner_image": "https://media.ycharts.com/charts/1e909d4a09731402219fec9cb09feb20.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.236451,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.210274",
+                    "ticker_sentiment_score": "0.139486",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.406197",
+                    "ticker_sentiment_score": "0.326652",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -353,6 +795,95 @@
                     "relevance_score": "0.244723",
                     "ticker_sentiment_score": "0.164761",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "3 Top Dividend Stocks to Buy in March",
+            "url": "https://www.fool.com/investing/2025/03/08/3-top-dividend-stocks-to-buy-in-march/",
+            "time_published": "20250308T133000",
+            "authors": [
+                "Bram Berkowitz"
+            ],
+            "summary": "Investing in dividend stocks can be a great strategy, especially if you pick solid companies that pay reliable and high-yield dividends. While dividend stocks don't always offer the same excitement as high-flying growth stocks or deep value plays, simple is often more.Reinvested dividends can ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809679/passive-income-1.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.2"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.2"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.2"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.2"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99393"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.2"
+                }
+            ],
+            "overall_sentiment_score": 0.335485,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VZ",
+                    "relevance_score": "0.250386",
+                    "ticker_sentiment_score": "0.232726",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FDX",
+                    "relevance_score": "0.050894",
+                    "ticker_sentiment_score": "0.106386",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HLN",
+                    "relevance_score": "0.050894",
+                    "ticker_sentiment_score": "0.122366",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HD",
+                    "relevance_score": "0.050894",
+                    "ticker_sentiment_score": "0.106386",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PFE",
+                    "relevance_score": "0.344987",
+                    "ticker_sentiment_score": "0.243827",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "O",
+                    "relevance_score": "0.250386",
+                    "ticker_sentiment_score": "0.300897",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.050894",
+                    "ticker_sentiment_score": "0.106386",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1599,314 +2130,6 @@
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
-        },
-        {
-            "title": "Should You Buy ServiceNow Stock at Current Prices?",
-            "url": "https://www.fool.com/investing/2025/03/08/should-you-buy-servicenow-stock-at-current-prices/",
-            "time_published": "20250308T113000",
-            "authors": [
-                "CFA",
-                "Parkev Tatevosian"
-            ],
-            "summary": "ServiceNow ( NYSE: NOW ) utilizes artificial intelligence to help enterprises improve operations.*Stock prices used were the afternoon prices of March 5, 2025. The video was published on March 7, 2025.Continue reading ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810375/stock-market-person-looking-at-computer-charts.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.407858,
-            "overall_sentiment_label": "Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NOW",
-                    "relevance_score": "0.535653",
-                    "ticker_sentiment_score": "-0.53564",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "The Smartest Growth Stock to Buy With $1,000 Right Now",
-            "url": "https://www.fool.com/investing/2025/03/08/smartest-growth-stock-to-buy-with-1000-right-now/",
-            "time_published": "20250308T113000",
-            "authors": [
-                "Neil Patel"
-            ],
-            "summary": "Some investors, most notably Warren Buffett, prefer to buy shares of businesses they believe are undervalued. On the flip side, some investors want to own companies increasing their sales and profits rapidly.The latter group hopes to achieve strong investment returns from their holdings.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809886/rising-stock-charts.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.988915"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.397625,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.065866",
-                    "ticker_sentiment_score": "0.110187",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.065866",
-                    "ticker_sentiment_score": "0.164155",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.543004",
-                    "ticker_sentiment_score": "0.47628",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.065866",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Should Investors Buy Symbotic Stock Right Now?",
-            "url": "https://www.fool.com/investing/2025/03/08/should-investors-buy-symbotic-stock-right-now/",
-            "time_published": "20250308T111500",
-            "authors": [
-                "Parkev Tatevosian",
-                "CFA"
-            ],
-            "summary": "Symbotic ( NASDAQ: SYM ) is helping companies like Walmart ( NYSE: WMT ) automate operations using artificial intelligence and robotics.*Stock prices used were the afternoon prices of March 5, 2025. The video was published on March 7, 2025.Continue reading ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810373/person-looking-at-trading-charts-reflecting-in-glasses.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.399054,
-            "overall_sentiment_label": "Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.524949",
-                    "ticker_sentiment_score": "-0.520518",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Tom Lee Tells Investors to Avoid Making This Mistake During Red Days",
-            "url": "https://www.fool.com/investing/2025/03/08/tom-lee-tells-investors-to-avoid-making-this-mista/",
-            "time_published": "20250308T111500",
-            "authors": [
-                "Neil Rozenbaum"
-            ],
-            "summary": "In this video, I will be talking about the state of the stock market, recent macro data, and comments made by Fundstrat's Tom Lee. Watch the short video to learn more, consider subscribing, and click the special offer link below.*Stock prices used were from the trading day of March 7, 2025.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810393/gettyimages-1067591998.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                }
-            ],
-            "overall_sentiment_score": 0.101336,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "50% of female crypto investors seek long-term wealth creation - Survey",
-            "url": "https://cointelegraph.com/news/50-female-crypto-investors-prefer-long-term-strategies-survey",
-            "time_published": "20250308T111045",
-            "authors": [
-                "Zoltan Vardai"
-            ],
-            "summary": "Women are increasingly investing in crypto, favoring Bitcoin and long-term holdings, but 81% still report a lack of education as a barrier to adoption.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957532-9df7-7b88-b312-1de858b90e87",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999186"
-                }
-            ],
-            "overall_sentiment_score": 0.255498,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.372634",
-                    "ticker_sentiment_score": "0.366999",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.229149",
-                    "ticker_sentiment_score": "0.375432",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Social Security's 2026 Cost-of-Living Adjustment  ( COLA )  Could Be Higher Than 2025's. But Retirees Shouldn't Want That",
-            "url": "https://www.fool.com/retirement/2025/03/08/social-securitys-2026-cost-of-living-adjustment-co/",
-            "time_published": "20250308T110900",
-            "authors": [
-                "Maurie Backman"
-            ],
-            "summary": "When the Social Security Administration ( SSA ) announced last October that seniors would be getting a 2.5% cost-of-living adjustment ( COLA ) , a lot of older Americans weren't happy. The reality is that, historically speaking, a 2.5% Social Security COLA isn't terrible.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810369%2Fsenior-man-jogging-gettyimages-1187088080.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.983605"
-                }
-            ],
-            "overall_sentiment_score": 0.058761,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Could Apple Be a Millionaire-Maker Stock?",
-            "url": "https://www.fool.com/investing/2025/03/08/could-apple-be-a-millionaire-maker-stock/",
-            "time_published": "20250308T110000",
-            "authors": [
-                "Neil Patel"
-            ],
-            "summary": "During its rise to become a dominant tech enterprise, Apple ( NASDAQ: AAPL ) has certainly made its early investors some serious money. In the past two decades, shares have generated a total return of greater than 18,000%, boosted by the introduction of popular hardware devices and services.If ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809806/using-iphone-at-desk-with-apple-watch-on.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.714479"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.322083,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.607283",
-                    "ticker_sentiment_score": "0.528457",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.068112",
-                    "ticker_sentiment_score": "0.240255",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Best Language Learning App  ( 2025 ) : Mondly Named Top Language Learning Program by Expert Consumers",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44208801/best-language-learning-app-2025-mondly-named-top-language-learning-program-by-expert-consumers",
-            "time_published": "20250308T110000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK CITY, March 08, 2025 ( GLOBE NEWSWIRE ) -- Learning a new language is becoming increasingly essential in a globalized world. Whether for career growth, travel, or personal enrichment, access to innovative and effective language learning tools has never been more important.",
-            "banner_image": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeflkyfoWFPAFozifpyayDKTyLngP5r3zJT7dIRbKlIYczev1NGjwtiEAeHIfGH9ZCIMBwnNEuBFC70ZdsjPcP6WriLR8E4pUMlK1_bGrG_Bxd_5doTXYzDPXNK0xsIVBNKOg-f6g?key=NGZ14MPPuSrg2A6eo1E6eGdq",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.38484,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.050254",
-                    "ticker_sentiment_score": "0.185279",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "The Surprising Reason Why a Stock Market Sell-Off or Even a Bear Market Could Help You Build Lasting Generational Wealth",
-            "url": "https://www.fool.com/investing/2025/03/08/stock-sell-off-bear-market-generational-wealth/",
-            "time_published": "20250308T105800",
-            "authors": [
-                "Daniel Foelber"
-            ],
-            "summary": "At the time of this writing, the Nasdaq Composite ( NASDAQINDEX: ^IXIC ) is down 9.4% from its 52-week high, while the S&P 500 ( SNPINDEX: ^GSPC ) is down 6%.While we are nowhere close to a full-blown market crash, the Nasdaq is close to correction territory, which is a drawdown of at least 10%.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810003%2Fgettyimages-1394483774-1200x800-5b2df79.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.203079,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
