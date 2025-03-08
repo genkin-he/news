@@ -1,8 +1,57 @@
 {
-    "items": "43",
+    "items": "41",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "CoinEx Strategic Trading: Key Insights on Auto-Invest Plan",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44208418/coinex-strategic-trading-key-insights-on-auto-invest-plan",
+            "time_published": "20250308T060017",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "HONG KONG, March 08, 2025 ( GLOBE NEWSWIRE ) -- If you're like most traders, you've probably spent countless hours staring at charts, trying to time the perfect buy or sell. But what if you could grow your assets effortlessly without chasing trends or market timing?",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d9250f88-c3c8-4a08-a10c-9c044575cc72/photo-2025-03-07-12-07-38.jpeg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.174699,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.032825",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.032825",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.098255",
+                    "ticker_sentiment_score": "0.048539",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "SMTC CLASS ACTION ALERT: Semtech Corporation is Being Sued for Misstatements Relating to its CopperEdge Products - Contact Robbins LLP for Information - Semtech  ( NASDAQ:SMTC ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44208403/smtc-class-action-alert-semtech-corporation-is-being-sued-for-misstatements-relating-to-its-copper",
@@ -1771,127 +1820,6 @@
                     "relevance_score": "0.122894",
                     "ticker_sentiment_score": "-0.27369",
                     "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Why Oatly Stock Skidded to a Loss This Week",
-            "url": "https://www.fool.com/investing/2025/03/07/why-oatly-stock-skidded-to-a-loss-this-week/",
-            "time_published": "20250307T230838",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "According to data compiled by S&P Global Market Intelligence, Oatly ( NASDAQ: OTLY ) shares lost more than 11% of their value across this week. That wasn't entirely unexpected, as two analysts cut their price targets on the stock, and quite drastically.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810412/person-staring-at-downward-trending-graph-on-a-laptop.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": 0.218719,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.145145",
-                    "ticker_sentiment_score": "0.055019",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Trump Plans to 'Rescind and Amend' IRS Crypto Tax Rules, Sign Stablecoin Bill By August",
-            "url": "https://decrypt.co/309172/trump-rescind-irs-crypto-rules-sign-stablecoin-bill",
-            "time_published": "20250307T230629",
-            "authors": [
-                "Andr\u00e9 Beganski"
-            ],
-            "summary": "President Donald Trump detailed how the U.S. plans to assert crypto leadership leadership during a first-ever White House crypto summit.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/05/Donald-Trump_shutterstock_2430067439-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                }
-            ],
-            "overall_sentiment_score": 0.237679,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.09439",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.09439",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.36472",
-                    "ticker_sentiment_score": "0.295858",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Thor Industries Stock Lost Nearly 14% of Its Value This Week",
-            "url": "https://www.fool.com/investing/2025/03/07/why-thor-industries-stock-lost-nearly-14-of-its-va/",
-            "time_published": "20250307T230042",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "The stock of the world's largest recreational vehicle ( RV ) maker, Thor Industries ( NYSE: THO ) , was looking a bit diminished over the past five trading days. After it posted financial results that disappointed the market, investors traded out of the veteran company.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810401/a-group-of-people-camping-in-front-of-an-rv.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.614606"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.134729,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.130217",
-                    "ticker_sentiment_score": "-0.001224",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "THO",
-                    "relevance_score": "0.256989",
-                    "ticker_sentiment_score": "-0.001984",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
