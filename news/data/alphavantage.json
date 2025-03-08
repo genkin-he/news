@@ -1,8 +1,75 @@
 {
-    "items": "39",
+    "items": "41",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Disney Explores the Future of World-Building at SXSW Conference",
+            "url": "https://www.benzinga.com/pressreleases/25/03/n44210006/disney-explores-the-future-of-world-building-at-sxsw-conference",
+            "time_published": "20250308T205000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "Disney Experiences Chairman Josh D'Amaro and Disney Entertainment Co-Chairman Alan Bergman joined on stage by Disney storytellers including Pete Docter, Kevin Feige, Jon Favreau and Robert Downey Jr.",
+            "banner_image": "https://mma.prnewswire.com/media/2637349/DSC09951_ID_e7f929f095b4.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [],
+            "overall_sentiment_score": 0.358138,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DIS",
+                    "relevance_score": "0.232661",
+                    "ticker_sentiment_score": "0.275826",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "NBA Legend Shaq's Walmart Shopping Spree Ends In Credit Card Decline-Here's How Much He Tried To Spend",
+            "url": "https://www.benzinga.com/general/sports/25/03/44209990/nba-legend-shaqs-walmart-shopping-spree-ends-in-credit-card-decline-heres-how-much-he-tried-to-spe",
+            "time_published": "20250308T204557",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Shaquille O'Neal's epic $70,000 Walmart run sets a record that stands to this day. From Miami to Phoenix, a bare apartment prompts an NBA legend's massive shopping spree. Every week, our Whisper Index uncovers five overlooked stocks with big breakout potential.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/NBA-Star-Shaquille-ONeal-Threw-Tim-Walz-.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.111184,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AXP",
+                    "relevance_score": "0.10607",
+                    "ticker_sentiment_score": "0.054158",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.406197",
+                    "ticker_sentiment_score": "0.096149",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "ROSEN, A LEADING LAW FIRM, Encourages e.l.f. Beauty, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - ELF - e.l.f. Beauty  ( NYSE:ELF ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44209973/rosen-a-leading-law-firm-encourages-e-l-f-beauty-inc-investors-to-secure-counsel-before-important-",
