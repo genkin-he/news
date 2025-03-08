@@ -1,8 +1,47 @@
 {
-    "items": "49",
+    "items": "47",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Apple Delays Next-Gen Siri: 'It's Going To Take Us Longer Than We Thought' To Deliver AI Upgrades - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
+            "url": "https://www.benzinga.com/media/25/03/44207932/apple-delays-next-gen-siri-its-going-to-take-us-longer-than-we-thought-to-deliver-ai-upgrades",
+            "time_published": "20250308T023304",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Apple Inc. AAPL has confirmed that its highly anticipated Siri upgrade, including AI-powered personalization and contextual awareness, has been delayed and will roll out later than expected. What Happened: On Friday, an Apple spokesperson Jacqueline Roy confirmed the delay in a statement to ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/07/Why-It-Matters_1.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.118337,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.215894",
+                    "ticker_sentiment_score": "-0.154669",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.662393",
+                    "ticker_sentiment_score": "0.049243",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Pup Crawl ATX: Austin's Ultimate Dog-Friendly Bar Crawl Returns!",
             "url": "https://www.benzinga.com/pressreleases/25/03/n44207923/pup-crawl-atx-austins-ultimate-dog-friendly-bar-crawl-returns",
@@ -170,6 +209,149 @@
                     "ticker": "CRYPTO:BTC",
                     "relevance_score": "0.329112",
                     "ticker_sentiment_score": "0.123196",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "How DeepSeek's rise sparked a massive re-rating of Chinese tech stocks",
+            "url": "https://www.scmp.com/business/markets/article/3301289/chinas-seven-titans-vs-wall-streets-magnificent-seven-deepseek-sparks-stocks-re-rating",
+            "time_published": "20250308T020009",
+            "authors": [
+                "Zhang Shidong"
+            ],
+            "summary": "DeepSeek's breakthrough fuels huge revaluation of Chinese tech stocks, boosting investor confidence and reshaping global market dynamics.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/06/3112a20e-7fab-4d42-854b-88d86ecfbdd6_11a0fd60.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.891286"
+                }
+            ],
+            "overall_sentiment_score": 0.212739,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.107591",
+                    "ticker_sentiment_score": "0.066774",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCGLF",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.100904",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.100904",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.043147",
+                    "ticker_sentiment_score": "0.110728",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.064681",
+                    "ticker_sentiment_score": "0.031207",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CIH",
+                    "relevance_score": "0.043147",
+                    "ticker_sentiment_score": "0.001959",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CGSI",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.063467",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.099341",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.043147",
+                    "ticker_sentiment_score": "0.125244",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.064681",
+                    "ticker_sentiment_score": "0.087178",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.100904",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NTES",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.100904",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NMR",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.05214",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.100904",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MORN",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.057165",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "XIACY",
+                    "relevance_score": "0.021581",
+                    "ticker_sentiment_score": "0.100904",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1896,179 +2078,6 @@
                     "relevance_score": "0.101367",
                     "ticker_sentiment_score": "0.325612",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Vaccinex Plans to Delist its Common Stock from The Nasdaq Stock Market - Vaccinex  ( OTC:VCNX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44206406/vaccinex-plans-to-delist-its-common-stock-from-the-nasdaq-stock-market",
-            "time_published": "20250307T221500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ROCHESTER, N.Y., March 07, 2025 ( GLOBE NEWSWIRE ) -- Vaccinex, Inc.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999862"
-                }
-            ],
-            "overall_sentiment_score": 0.016871,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PFE",
-                    "relevance_score": "0.051111",
-                    "ticker_sentiment_score": "0.060554",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VCNX",
-                    "relevance_score": "0.478494",
-                    "ticker_sentiment_score": "-0.059066",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Vaccinex Plans to Delist its Common Stock from The Nasdaq Stock Market",
-            "url": "https://www.globenewswire.com/news-release/2025/03/07/3039274/34858/en/Vaccinex-Plans-to-Delist-its-Common-Stock-from-The-Nasdaq-Stock-Market.html",
-            "time_published": "20250307T221500",
-            "authors": [
-                "Vaccinex",
-                "Inc."
-            ],
-            "summary": "ROCHESTER, N.Y., March 07, 2025 ( GLOBE NEWSWIRE ) -- Vaccinex, Inc. ( OTC: VCNX ) ( \"Vaccinex\" or the \"Company\" ) , a clinical-stage biotechnology company pioneering a differentiated approach to treating neurodegenerative disease by blocking astrogliosis and neuroinflammation through the ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/6a5e4bae-ba84-4fb3-a2ad-2cf268bfe3ba",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999491"
-                }
-            ],
-            "overall_sentiment_score": -0.012055,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PFE",
-                    "relevance_score": "0.055621",
-                    "ticker_sentiment_score": "0.060877",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VCNX",
-                    "relevance_score": "0.469935",
-                    "ticker_sentiment_score": "-0.058497",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Why Oil and Gas Stocks Plunged This Week",
-            "url": "https://www.fool.com/investing/2025/03/07/why-oil-gas-stocks-plunged-this-week/",
-            "time_published": "20250307T221145",
-            "authors": [
-                "Travis Hoium"
-            ],
-            "summary": "The oil and gas market dropped this week on a number of news items that seemed to hit the energy industry all at once. OPEC is increasing production, the U.S. economy may be slowing, and U.S. tariffs have become a topic once again.According to data provided by S&P Global Market Intelligence, ...",
-            "banner_image": "https://media.ycharts.com/charts/5028f620884f4128afd356bb95d5ea75.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.06622,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MPC",
-                    "relevance_score": "0.167904",
-                    "ticker_sentiment_score": "0.005829",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.084423",
-                    "ticker_sentiment_score": "0.004221",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "APA",
-                    "relevance_score": "0.167904",
-                    "ticker_sentiment_score": "0.005829",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FANG",
-                    "relevance_score": "0.167904",
-                    "ticker_sentiment_score": "0.005829",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NRGT",
-                    "relevance_score": "0.084423",
-                    "ticker_sentiment_score": "0.107931",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Orezone Gold Files Final Short Form Prospectus in Connection With C$35 Million Bought Deal - Orezone Gold  ( OTC:ORZCF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44206329/orezone-gold-files-final-short-form-prospectus-in-connection-with-c-35-million-bought-deal",
-            "time_published": "20250307T221013",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Final Short Form Prospectus is accessible on SEDAR+ NOT FOR DISTRIBUTION TO U.S. NEWS WIRE SERVICES OR DISSEMINATION IN THE UNITED STATES.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                }
-            ],
-            "overall_sentiment_score": 0.176167,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CCORF",
-                    "relevance_score": "0.038843",
-                    "ticker_sentiment_score": "0.042199",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
