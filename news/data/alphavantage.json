@@ -1,8 +1,132 @@
 {
-    "items": "32",
+    "items": "31",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "How Freepik Transformed From a Stock Image Platform Into a Generative AI Powerhouse",
+            "url": "https://decrypt.co/309153/freepik-transformed-generative-ai-powerhouse",
+            "time_published": "20250309T154602",
+            "authors": [
+                "Jose Antonio Lanz"
+            ],
+            "summary": "Joaqu\u00edn Cuenca Abela reveals how Freepik embraced AI and became a creative hub with tools for video, audio, image generation, editing, and more.",
+            "banner_image": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/03/unnamed-2.png@webp",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.15443,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.065268",
+                    "ticker_sentiment_score": "0.039068",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Jim Cramer Asks, 'Do We Just Keep Selling Because Everyone Is Selling?'-Calls It The 'Every Day Lower Prices Walmart White House' - BlackRock  ( NYSE:BLK ) , Broadcom  ( NASDAQ:AVGO ) ",
+            "url": "https://www.benzinga.com/news/25/03/44211103/jim-cramer-asks-do-we-just-keep-selling-because-everyone-is-selling-calls-it-the-every-day-lower-prices-walm",
+            "time_published": "20250309T153021",
+            "authors": [
+                "Adrian Volenik"
+            ],
+            "summary": "Wall Street is in turmoil again, and CNBC's Jim Cramer is voicing what many investors are wondering: \"Do we just keep selling because everyone is selling?\" The stock market saw another sharp drop on Thursday, with the S&P 500 falling 1.8%, the Dow Jones Industrial Average losing 427 points, and ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Jim-Cramers-Latest-Take-On-Speculative-S.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.714479"
+                }
+            ],
+            "overall_sentiment_score": 0.012324,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.11894",
+                    "ticker_sentiment_score": "-0.104988",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "VSCO",
+                    "relevance_score": "0.11894",
+                    "ticker_sentiment_score": "-0.069216",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.11894",
+                    "ticker_sentiment_score": "-0.104988",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABNB",
+                    "relevance_score": "0.059636",
+                    "ticker_sentiment_score": "0.286177",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "M",
+                    "relevance_score": "0.059636",
+                    "ticker_sentiment_score": "-0.057663",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.059636",
+                    "ticker_sentiment_score": "0.286177",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MRVL",
+                    "relevance_score": "0.11894",
+                    "ticker_sentiment_score": "-0.104988",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.177584",
+                    "ticker_sentiment_score": "-0.024197",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "QUBT Investor Alert: Kessler Topaz Meltzer & Check, LLP Urges QUBT Investors with Losses to Contact the Firm - Quantum Computing  ( NASDAQ:QUBT ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44211089/qubt-investor-alert-kessler-topaz-meltzer-check-llp-urges-qubt-investors-with-losses-to-contact-th",
@@ -1282,116 +1406,6 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
-        },
-        {
-            "title": "Artificial Intelligence  ( AI )  Adoption Rates Appear Low, but This AI Leader Could See a Massive Surge in Demand in the Next 3 Years. Here's Why.",
-            "url": "https://www.fool.com/investing/2025/03/09/artificial-intelligence-ai-adoption-rates-nvidia/",
-            "time_published": "20250309T115500",
-            "authors": [
-                "Ryan Vanzo"
-            ],
-            "summary": "In a matter of years, the share price of Nvidia ( NASDAQ: NVDA ) has made it one of the largest companies in the world, with a market cap that currently exceeds $3 trillion. Nvidia isn't alone, either. Many other AI stocks are exploding in value.But is Nvidia stock still a buy?",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809767/gettyimages-1476342086-1201x762-95f5f52.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.279255,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.518022",
-                    "ticker_sentiment_score": "0.53721",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "If You'd Bought 1 Share of VeriSign at Its IPO, Here's How Many Shares You Would Own Now",
-            "url": "https://www.fool.com/investing/2025/03/09/if-youd-bought-1-share-of-verisign-at-its-ipo-here/",
-            "time_published": "20250309T114500",
-            "authors": [
-                "Eric Volkman"
-            ],
-            "summary": "Internet domain registration specialist VeriSign ( NASDAQ: VRSN ) has been quite the sprightly stock since Warren Buffett's Berkshire Hathaway added to its existing stake recently. VeriSign's recent resurgence shone a light on its business, which as ever remains protected by a strong economic ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810020/person-at-a-work-desk-studying-something-on-a-pc-monitor.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.301846,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.130217",
-                    "ticker_sentiment_score": "0.158959",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "VRSN",
-                    "relevance_score": "0.674691",
-                    "ticker_sentiment_score": "0.421842",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Popular Social Security Filing Strategy Could Backfire on Retirees",
-            "url": "https://www.fool.com/retirement/2025/03/09/this-popular-social-security-filing-strategy-could/",
-            "time_published": "20250309T113600",
-            "authors": [
-                "Maurie Backman"
-            ],
-            "summary": "There's a reason 62 is a very popular age to file for Social Security. It happens to be the earliest age seniors are allowed to sign up for benefits. Many retirees are aware that they can't get their full monthly Social Security benefit until they reach full retirement age, which is 67 for those ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810370%2Fsocial-security-cards-2_gettyimages-488652936.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.236311,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
