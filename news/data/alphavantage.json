@@ -1,8 +1,92 @@
 {
-    "items": "29",
+    "items": "30",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Okta, Moderna and MicroStrategy Are Among Top 10 Large-Cap Gainers Last Week  ( Mar 3-Mar 7 ) : Are The Others In Your Portfolio? - Strategy  ( NASDAQ:MSTR ) , Moderna  ( NASDAQ:MRNA ) , Okta  ( NASDAQ:OKTA ) ",
+            "url": "https://www.benzinga.com/25/03/44211201/moderna-microstrategy-and-tripcom-are-among-top-11-large-cap-gainers-last-week-mar-3-mar-7-are-the-others-in-your",
+            "time_published": "20250309T163247",
+            "authors": [
+                "Lekha Gupta"
+            ],
+            "summary": "Moderna ( MRNA ) rose 20.22% following CEO share purchase announcement. Trip.com ( TCOM ) gained 11.94% after China's GDP target and stimulus measures. Get 5 stock picks identified before their biggest breakouts, identified by the same system that spotted Insmed, Sprouts, and Uber before ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/MicroStrategy-Incorporated-MSTR.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.386181,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MRNA",
+                    "relevance_score": "0.636698",
+                    "ticker_sentiment_score": "0.65331",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "INSM",
+                    "relevance_score": "0.350564",
+                    "ticker_sentiment_score": "0.225306",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.350564",
+                    "ticker_sentiment_score": "0.225306",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "VP Vance Slams Pro-Ukraine Protesters for Confronting Him With His Daughter: 'Chasing a Three-Year-Old for Politics'",
+            "url": "https://www.benzinga.com/news/25/03/44211191/vp-vance-slams-pro-ukraine-protesters-for-confronting-him-with-his-daughter-chasing-a-three-year-old-for-pol",
+            "time_published": "20250309T163018",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Vice President Vance's family outing disrupted by vocal pro-Ukraine demonstrators. Political protest personalizes geopolitical strife, bringing international issues to politicians' doorsteps.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Atlanta--Georgia--Usa4th-Nov--2024--Ohio.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": -0.114068,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "INSM",
+                    "relevance_score": "0.079656",
+                    "ticker_sentiment_score": "0.095511",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.079656",
+                    "ticker_sentiment_score": "0.095511",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Bitcoin slides another 3% - Is BTC price headed for $69K next?",
             "url": "https://cointelegraph.com/news/bitcoin-slides-3-btc-price-69k-next",
@@ -29,6 +113,63 @@
                     "ticker": "CRYPTO:BTC",
                     "relevance_score": "0.961451",
                     "ticker_sentiment_score": "0.107916",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Is the SPDR S&P 500 ETF Trust the Smartest Investment You Can Make Today?",
+            "url": "https://www.fool.com/investing/2025/03/09/is-the-spdr-sp-500-etf-trust-the-smartest-investme/",
+            "time_published": "20250309T161000",
+            "authors": [
+                "Adria Cimino"
+            ],
+            "summary": "With the three major indexes slipping over the past few weeks, now may not seem like the best time to invest in stocks. It's always more tempting to buy when we see a particular stock or asset rising, as we can easily imagine our returns if the momentum keeps going.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810315%2Fgettyimages-1279395367.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.179342,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.03308",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HPNN",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.148",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABBV",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.03308",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -98,6 +239,73 @@
                     "relevance_score": "0.159043",
                     "ticker_sentiment_score": "0.103671",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "This Nvidia-Backed IPO Grew 737% Last Year and Is About to Go Public: What Investors Should Know About CoreWeave",
+            "url": "https://www.fool.com/investing/2025/03/09/this-nvidia-backed-ipo-grew-737-last-year-and-is-a/",
+            "time_published": "20250309T160000",
+            "authors": [
+                "Billy Duberstein"
+            ],
+            "summary": "There haven't been a ton of initial public offerings ( IPOs ) in recent years, let alone interesting, prominent companies with the potential to take on the top tech stocks in the market. However, one company right in the middle of the artificial intelligence ( AI ) revolution may be about to make ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810234%2Fgettyimages-1131198259.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.144713,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.25714",
+                    "ticker_sentiment_score": "0.169417",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.058117",
+                    "ticker_sentiment_score": "0.07",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.41547",
+                    "ticker_sentiment_score": "0.210586",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ASCCF",
+                    "relevance_score": "0.029078",
+                    "ticker_sentiment_score": "-0.159046",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         },
@@ -1115,147 +1323,6 @@
                     "ticker": "PLTR",
                     "relevance_score": "0.200688",
                     "ticker_sentiment_score": "0.074256",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Meet the Little-Known Serial Acquirer That Has Rocketed Past the S&P 500's Returns Since 2010",
-            "url": "https://www.fool.com/investing/2025/03/09/meet-the-little-known-serial-acquirer-that-has/",
-            "time_published": "20250309T130000",
-            "authors": [
-                "Josh Kohn-Lindquist"
-            ],
-            "summary": "One of my favorite \"stocked ponds\" to fish in when I'm looking for new investments is niche-leading businesses that fill a unique void in the world. If managed well, stocks with this trait often deliver long-term outperformance by dominating their smaller, less-focused-upon industries.One company ...",
-            "banner_image": "https://media.ycharts.com/charts/4a25d926c4e6daa77df8e737740b648b.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.986564"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.890401"
-                }
-            ],
-            "overall_sentiment_score": 0.313624,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FSS",
-                    "relevance_score": "0.549362",
-                    "ticker_sentiment_score": "0.4906",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: Buying This Nvidia-Backed Artificial Intelligence  ( AI )  Data Center Stock Now Could Be Like Catching SoundHound AI in 2024",
-            "url": "https://www.fool.com/investing/2025/03/09/prediction-buying-this-nvidia-backed-artificial/",
-            "time_published": "20250309T125000",
-            "authors": [
-                "Adam Spatacco"
-            ],
-            "summary": "SoundHound AI was a major winner among AI stocks last year thanks to its affiliation with Nvidia.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810121%2Fgettyimages-1480633240-4.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.5855"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.166067,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.580434",
-                    "ticker_sentiment_score": "0.260014",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.053629",
-                    "ticker_sentiment_score": "0.13572",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SOUN",
-                    "relevance_score": "0.409503",
-                    "ticker_sentiment_score": "0.242366",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Everything You Need to Know About Rocket Lab Today",
-            "url": "https://www.fool.com/investing/2025/03/09/everything-you-need-to-know-about-rocket-lab-today/",
-            "time_published": "20250309T124500",
-            "authors": [
-                "Rich Smith"
-            ],
-            "summary": "Rocket Lab's not making it easy to keep up with all the news it has to tell. Here's a quick summary.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809827%2Fartists-depiction-of-neutron-rocket-first-stage-opening-its-fairing-to-release-neutron-rocket-second-stage-is-rocket-lab.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.967645"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.081982,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RKLB",
-                    "relevance_score": "0.088799",
-                    "ticker_sentiment_score": "0.168956",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.044469",
-                    "ticker_sentiment_score": "0.036133",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
