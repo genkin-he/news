@@ -1,5 +1,5 @@
 {
-    "items": "41",
+    "items": "40",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1721,39 +1721,6 @@
             "overall_sentiment_score": -0.058331,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Bitcoin investors share mixed reactions to White House Crypto Summit",
-            "url": "https://cointelegraph.com/news/bitcoin-investors-mixed-reactions-white-house-crypto-summit",
-            "time_published": "20250308T171801",
-            "authors": [
-                "Vince Quill"
-            ],
-            "summary": "Institutional crypto investors tended to view the White House Crypto Summit more favorably than retail traders and BTC maximalists.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019576bf-8da1-7d27-a431-e31cd1578ddc",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": -0.078719,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.951582",
-                    "ticker_sentiment_score": "-0.111219",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
