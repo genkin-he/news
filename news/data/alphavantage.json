@@ -1,8 +1,51 @@
 {
-    "items": "25",
+    "items": "23",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "ROSEN, TRUSTED INVESTOR COUNSEL, Encourages Atkore Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - ATKR - Atkore  ( NYSE:ATKR ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44211292/rosen-trusted-investor-counsel-encourages-atkore-inc-investors-to-secure-counsel-before-important-",
+            "time_published": "20250309T173200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 09, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Atkore Inc. ATKR between February 1, 2024 and February 3, 2025, both dates inclusive ( the \"Class Period\" ) , of the important April 23, 2025 lead ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.938793"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.133922,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ATKR",
+                    "relevance_score": "0.389744",
+                    "ticker_sentiment_score": "-0.016601",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.058047",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Bilibili, MARA And ZEEKR Are Among Top 8 Mid-Cap Gainers Last Week  ( Mar 3-Mar 7 ) : Are The Others In Your Portfolio? - MARA Holdings  ( NASDAQ:MARA ) , ZEEKR Intelligent Tech  ( NYSE:ZK ) , Bilibili  ( NASDAQ:BILI ) ",
             "url": "https://www.benzinga.com/news/mid-cap/25/03/44211267/bilibili-mara-and-zeekr-are-among-top-8-mid-cap-gainers-last-week-mar-3-mar-7-are-the-others-in-your",
@@ -1003,145 +1046,6 @@
                     "relevance_score": "0.324139",
                     "ticker_sentiment_score": "0.348741",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Solana down 29% in 2025 despite liquidity surge, US crypto stockpile inclusion",
-            "url": "https://cointelegraph.com/news/solana-price-down-29-2025-liquidity-surge-us-crypto-stockpile",
-            "time_published": "20250309T143347",
-            "authors": [
-                "Zoltan Vardai"
-            ],
-            "summary": "Despite being one of three altcoins to be included in President Trump's Digital Asset Stockpile, Solana continues its price decline.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957b3d-31b5-72e5-9fdd-14519fcd1f96",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                }
-            ],
-            "overall_sentiment_score": 0.06723,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.094762",
-                    "ticker_sentiment_score": "0.175609",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.094762",
-                    "ticker_sentiment_score": "0.079575",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BNB",
-                    "relevance_score": "0.188193",
-                    "ticker_sentiment_score": "0.060413",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.188193",
-                    "ticker_sentiment_score": "0.081117",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Dogecoin Falls to 4-Month Low Price as Bitcoin, XRP and Cardano Sink",
-            "url": "https://decrypt.co/309229/dogecoin-4-month-low-bitcoin-xrp-cardano",
-            "time_published": "20250309T143214",
-            "authors": [
-                "Andrew Hayward"
-            ],
-            "summary": "Bitcoin, XRP, and Cardano have shed their gains from last week's Trump \"reserve\" pump, while Dogecoin continues to lose ground.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/01/dogecoin-down-bad-gID_7.jpeg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.082722,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.111488",
-                    "ticker_sentiment_score": "0.10404",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.111488",
-                    "ticker_sentiment_score": "0.10404",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.220809",
-                    "ticker_sentiment_score": "-0.087923",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ADA",
-                    "relevance_score": "0.325924",
-                    "ticker_sentiment_score": "0.306446",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.111488",
-                    "ticker_sentiment_score": "-0.022547",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Samantha LaDuc Says Financial Conditions Are Being Reset and Not Easing: 'Bitcoin Is Trapped'",
-            "url": "https://www.benzinga.com/markets/25/03/44211007/samantha-laduc-says-financial-conditions-are-being-reset-and-not-easing-bitcoin-is-trapped",
-            "time_published": "20250309T143026",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Samantha LaDuc challenges easing financial condition narratives, indicating a strategic reset is underway. Bitcoin's fate hangs in the balance, with LaDuc warning of potential market crashes if quantitative easing returns. Every week, our Whisper Index uncovers five overlooked stocks with big ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Usa-Flag-And-Bitcoin--3d-Render.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.147914,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.437512",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.582526",
-                    "ticker_sentiment_score": "-0.20774",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         }
