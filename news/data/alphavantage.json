@@ -1,8 +1,37 @@
 {
-    "items": "40",
+    "items": "38",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Fed not cutting rates 'at all' in 2025 may trigger a bear market - Analyst",
+            "url": "https://cointelegraph.com/news/federal-reserve-rate-cuts-delay-may-trigger-bear-market-analyst",
+            "time_published": "20250309T033837",
+            "authors": [
+                "Ciaran Lyons"
+            ],
+            "summary": "Network economist Timothy Peterson's model suggests Bitcoin could bottom at $57,000 in the next bear market, but he said it's unlikely as too many investors \"hover over Bitcoin like vultures.\" ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019578ee-c5dc-7f7c-bbd7-5008d8498dfd",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": -0.021636,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.688777",
+                    "ticker_sentiment_score": "-0.234317",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
         {
             "title": "Gucci, Prada close more China outlets as luxury spending shrinks",
             "url": "https://www.scmp.com/business/companies/article/3301499/gucci-prada-close-more-china-outlets-consumers-cut-luxury-spending",
@@ -1615,112 +1644,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "8 Years After The First Disaster Landed Organizer Behind Bars, Fyre Festival 2 Is Raising Eyebrows. Officials Claim It 'Does Not Exist'",
-            "url": "https://www.benzinga.com/news/25/03/44209641/8-years-after-the-first-disaster-landed-organizer-behind-bars-fyre-festival-2-is-raising-eyebrows-officials-",
-            "time_published": "20250308T174332",
-            "authors": [
-                "Adrian Volenik"
-            ],
-            "summary": "Fyre Festival is back-at least, that's what Billy McFarland wants people to believe. The infamous festival that collapsed in 2017 and sent McFarland to prison for fraud has a sequel planned for May 30 to June 2, on Isla Mujeres, Mexico. But local officials say they know nothing about it.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/A-Joyful-Group-Of-Friends-Are-At-A-Summe.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.178887,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.034308",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.286771",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AWON",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.176251",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.286771",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "MPWR Announcement: Kessler Topaz Meltzer & Check, LLP Encourages Monolithic Power Systems, Inc.  ( MPWR )  Investors to Contact the Firm About Securities Fraud Class Action Lawsuit - Monolithic Power Systems  ( NASDAQ:MPWR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44209637/mpwr-announcement-kessler-topaz-meltzer-check-llp-encourages-monolithic-power-systems-inc-mpwr-inv",
-            "time_published": "20250308T173900",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "RADNOR, Pa., March 08, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) informs investors that a securities class action lawsuit has been filed in the United States District Court for the Western District of Washington against Monolithic Power ...",
-            "banner_image": "https://ml.globenewswire.com/media/405ec490-b904-4a5e-85a7-710cdebe280d/small/ktmc-logo-rgb-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.009834,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.239895",
-                    "ticker_sentiment_score": "-0.274977",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Millennium Management Faces $900M Loss Amid Market Volatility-What Investors Should Know",
-            "url": "https://www.benzinga.com/markets/25/03/44209624/millennium-management-faces-900m-loss-amid-market-volatility-what-investors-should-know",
-            "time_published": "20250308T173029",
-            "authors": [
-                "Bibhu Pattnaik"
-            ],
-            "summary": "Index rebalancing is a strategy that involves wagering on companies that are either entering or exiting various stock indexes. The firm, which manages around $75 billion, was down less than 1% this year through February. Our government trade tracker caught Pelosi's 169% AI winner.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/Stock-Crash-Market-Exchange-Loss-Trading.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": -0.058331,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
         }
     ]
 }
