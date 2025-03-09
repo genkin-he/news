@@ -1,5 +1,5 @@
 {
-    "items": "38",
+    "items": "36",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -31,6 +31,26 @@
                     "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
+        },
+        {
+            "title": "China's consumer inflation turns negative for the first time in 13 months",
+            "url": "https://www.cnbc.com/2025/03/09/inflation-china-consumer-price-index-drops-below-zero-in-february.html",
+            "time_published": "20250309T033247",
+            "authors": [],
+            "summary": "The data comes as investors continue to look for signs that Beijing's stimulus measures can help to boost the country's struggling economic recovery.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.838487"
+                }
+            ],
+            "overall_sentiment_score": -0.124814,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Gucci, Prada close more China outlets as luxury spending shrinks",
@@ -1477,170 +1497,6 @@
                     "ticker": "SNY",
                     "relevance_score": "0.168039",
                     "ticker_sentiment_score": "0.019841",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Dupixent\u00ae  ( dupilumab )  Late-Breaking Positive Pivotal Data in Bullous Pemphigoid Presented at AAD",
-            "url": "https://www.globenewswire.com/news-release/2025/03/08/3039374/0/en/Dupixent-dupilumab-Late-Breaking-Positive-Pivotal-Data-in-Bullous-Pemphigoid-Presented-at-AAD.html",
-            "time_published": "20250308T180000",
-            "authors": [
-                "Inc.",
-                "Regeneron Pharmaceuticals"
-            ],
-            "summary": "Five times more adults on Dupixent achieved sustained disease remission at 36 weeks compared to placebo. significant reductions were also seen in disease severity and itch ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/add5ebc7-88c9-49dc-8834-abbb07c622d1",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": -0.058035,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "REGN",
-                    "relevance_score": "0.04576",
-                    "ticker_sentiment_score": "0.041808",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.009157",
-                    "ticker_sentiment_score": "0.12997",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.100461",
-                    "ticker_sentiment_score": "0.002189",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "$TOCKHOLDER ALERT: The M&A Class Action Firm Continues To Investigate The Merger - TGI, VOXX, ML, SKGR",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44209667/tockholder-alert-the-m-a-class-action-firm-continues-to-investigate-the-merger-tgi-voxx-ml-skgr",
-            "time_published": "20250308T180000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 08, 2025 ( GLOBE NEWSWIRE ) -- Monteverde & Associates PC ( the \"M&A Class Action Firm\" ) , has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm by ISS Securities Class Action Services Report.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.281523,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GEN",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.307036",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "VOXX",
-                    "relevance_score": "0.308891",
-                    "ticker_sentiment_score": "0.239592",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GNTX",
-                    "relevance_score": "0.234307",
-                    "ticker_sentiment_score": "0.238602",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SKGR",
-                    "relevance_score": "0.234307",
-                    "ticker_sentiment_score": "0.350929",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "ML",
-                    "relevance_score": "0.308891",
-                    "ticker_sentiment_score": "0.393911",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "TGI",
-                    "relevance_score": "0.308891",
-                    "ticker_sentiment_score": "0.265994",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "The Heart-Breaking Story Of Afghan Women Facing Deportation After Trump's USAID Aid Cuts",
-            "url": "https://www.benzinga.com/markets/25/03/44209655/the-heart-breaking-story-of-afghan-women-facing-deportation-after-trumps-usaid-aid-cuts",
-            "time_published": "20250308T175017",
-            "authors": [
-                "Nabaparna Bhattacharya"
-            ],
-            "summary": "Over 80 Afghan women studying in Oman with USAID scholarships face deportation due to Trump's foreign aid cuts. The women fear severe consequences in Afghanistan, including forced marriages and dangers due to their activism and education.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/Boltons-Remarks-Arrive-After-Talibans-Vi.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": -0.170597,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "INSM",
-                    "relevance_score": "0.108466",
-                    "ticker_sentiment_score": "0.102403",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.108466",
-                    "ticker_sentiment_score": "0.102403",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
