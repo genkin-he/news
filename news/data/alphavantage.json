@@ -1,8 +1,42 @@
 {
-    "items": "26",
+    "items": "27",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "FTI Consulting Further Bolsters Asia Business Transformation Practice with Senior Appointments",
+            "url": "https://www.globenewswire.com/news-release/2025/03/09/3039419/33891/en/FTI-Consulting-Further-Bolsters-Asia-Business-Transformation-Practice-with-Senior-Appointments.html",
+            "time_published": "20250309T220000",
+            "authors": [
+                "FTI Consulting",
+                "Inc."
+            ],
+            "summary": "SINGAPORE, March 09, 2025 ( GLOBE NEWSWIRE ) -- FTI Consulting, Inc. ( NYSE: FCN ) today announced the appointment of Zarif Munir as a Senior Managing Director and Head of Southeast Asia Business Transformation and Enqing Wang as a Managing Director in the firm's Business Transformation practice ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/7baf2810-17ee-492d-8c50-d64cadf49073",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.354776,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FCN",
+                    "relevance_score": "0.349575",
+                    "ticker_sentiment_score": "0.348152",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "This Week in Crypto Games: Robinhood's $2M Bitcoin and Dogecoin Trivia Game, 'Axie Infinity' MMO Revealed",
             "url": "https://decrypt.co/309053/this-week-crypto-games-robinhood-trivia-axie-infinity-mmo",
