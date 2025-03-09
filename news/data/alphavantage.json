@@ -1,8 +1,43 @@
 {
-    "items": "36",
+    "items": "34",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Ethereum co-founder Gavin Wood says Web3 is on track as finance firms move in",
+            "url": "https://www.scmp.com/tech/blockchain/article/3301576/ethereum-co-founder-gavin-wood-says-web3-track-finance-firms-move",
+            "time_published": "20250309T043008",
+            "authors": [
+                "Matt Haldane"
+            ],
+            "summary": "Wood's newer project Polkadot is focused on scaling decentralised applications, with many developers coming from China.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/07/df1ed28e-6f83-4247-b720-7be9e406e433_337e76ab.jpg?itok=5QxQ367H&v=1741361295",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.99489"
+                }
+            ],
+            "overall_sentiment_score": 0.116088,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.045569",
+                    "ticker_sentiment_score": "0.28636",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Fed not cutting rates 'at all' in 2025 may trigger a bear market - Analyst",
             "url": "https://cointelegraph.com/news/federal-reserve-rate-cuts-delay-may-trigger-bear-market-analyst",
@@ -1337,167 +1372,6 @@
                     "relevance_score": "0.262522",
                     "ticker_sentiment_score": "0.319282",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Will Palantir Stock Crash in 2025?",
-            "url": "https://www.fool.com/investing/2025/03/08/will-palantir-stock-crash-in-2025/",
-            "time_published": "20250308T181700",
-            "authors": [
-                "Will Ebiefung"
-            ],
-            "summary": "Shares in this technology company are alarmingly expensive. How much longer will the bonanza last?",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810175%2Fnervous-office-computer-1433587895.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.917436"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.130015,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.059049",
-                    "ticker_sentiment_score": "-0.059068",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SNOW",
-                    "relevance_score": "0.117774",
-                    "ticker_sentiment_score": "-0.06612",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.117774",
-                    "ticker_sentiment_score": "-0.004685",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:MITH",
-                    "relevance_score": "0.059049",
-                    "ticker_sentiment_score": "0.037043",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Press Release: Dupixent late-breaking positive pivotal data in bullous pemphigoid presented at AAD",
-            "url": "https://www.globenewswire.com/news-release/2025/03/08/3039375/0/en/Press-Release-Dupixent-late-breaking-positive-pivotal-data-in-bullous-pemphigoid-presented-at-AAD.html",
-            "time_published": "20250308T180000",
-            "authors": [
-                "Sanofi Winthrop Industrie"
-            ],
-            "summary": "Dupixent late-breaking positive pivotal data in bullous pemphigoid presented at ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/06da731a-67a1-4258-939f-6ef0531ee3bf",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.012085,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "REGN",
-                    "relevance_score": "0.042024",
-                    "ticker_sentiment_score": "0.051386",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.014014",
-                    "ticker_sentiment_score": "0.134598",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.125606",
-                    "ticker_sentiment_score": "0.008385",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Press Release: Dupixent late-breaking positive pivotal data in bullous pemphigoid presented at AAD - Regeneron Pharmaceuticals  ( NASDAQ:REGN ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44209668/press-release-dupixent-late-breaking-positive-pivotal-data-in-bullous-pemphigoid-presented-at-aad",
-            "time_published": "20250308T180000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Dupixent late-breaking positive pivotal data in bullous pemphigoid presented at AAD Five times more adults on Dupixent achieved sustained disease remission at 36 weeks compared to placebo; significant reductions were also seen in disease severity and itch",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.016842,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "REGN",
-                    "relevance_score": "0.039054",
-                    "ticker_sentiment_score": "0.049027",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.013023",
-                    "ticker_sentiment_score": "0.133682",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.168039",
-                    "ticker_sentiment_score": "0.019841",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
