@@ -1,5 +1,5 @@
 {
-    "items": "34",
+    "items": "33",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1327,51 +1327,6 @@
                     "relevance_score": "0.16849",
                     "ticker_sentiment_score": "-0.106489",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "KIDZ BOP KIDS BREAK GUINNESS WORLD RECORDS TITLE AT WEMBLEY ARENA!",
-            "url": "https://www.benzinga.com/pressreleases/25/03/n44209696/kidz-bop-kids-break-guinness-world-records-title-at-wembley-arena",
-            "time_published": "20250308T183000",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "LONDON, March 8, 2025 /PRNewswire/ -- KIDZ BOP, the #1 music brand for kids, has officially broken a Guinness World Records title, becoming the youngest music ensemble to headline an arena show with an average age of 14 years and 168 days.",
-            "banner_image": "https://mma.prnewswire.com/media/2636966/KIDZ_BOP_logo_Logo.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.330532,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.044551",
-                    "ticker_sentiment_score": "0.166208",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WNBD",
-                    "relevance_score": "0.044551",
-                    "ticker_sentiment_score": "0.166208",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SNMSF",
-                    "relevance_score": "0.262522",
-                    "ticker_sentiment_score": "0.319282",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
