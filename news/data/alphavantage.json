@@ -1,5 +1,5 @@
 {
-    "items": "33",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1277,55 +1277,6 @@
                     "ticker": "CRYPTO:BTC",
                     "relevance_score": "0.73758",
                     "ticker_sentiment_score": "-0.118989",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "How Peter Thiel And Elon Musk Are Shaping Trump Administration - Palantir Technologies  ( NASDAQ:PLTR ) ",
-            "url": "https://www.benzinga.com/markets/25/03/44209697/how-peter-thiel-and-elon-musk-are-shaping-trump-administration",
-            "time_published": "20250308T183018",
-            "authors": [
-                "Nabaparna Bhattacharya"
-            ],
-            "summary": "Peter Thiel's investments in Musk's companies and Palantir have expanded his influence in Trump's administration. Musk leads a new advisory body under Trump to cut government jobs, while Thiel's defense tech firms secure major contracts.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/10-Essential-Lessons-From-Palantir-Co-Fo.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.262368,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "INSM",
-                    "relevance_score": "0.084722",
-                    "ticker_sentiment_score": "0.096353",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.084722",
-                    "ticker_sentiment_score": "0.096353",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.16849",
-                    "ticker_sentiment_score": "-0.106489",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
