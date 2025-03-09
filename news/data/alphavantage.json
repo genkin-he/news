@@ -1,8 +1,41 @@
 {
-    "items": "30",
+    "items": "31",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Buffett's Tariff Warning, Trump's CHIPS Act Repeal, And S&P 500's Post-Election Slump: This Week In Economics",
+            "url": "https://www.benzinga.com/news/25/03/44210533/buffetts-tariff-warning-trumps-chips-act-repeal-and-sp-500s-post-election-slump-this-week-in-economics",
+            "time_published": "20250309T100040",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "The past week has been a rollercoaster ride for the financial world. From Warren Buffett's stern warning about tariffs to President Trump's call to end the CHIPS Act, the market has been grappling with a flurry of developments. Here's a quick recap of the top stories that made headlines over the ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Economy-Shutterstock.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.014545,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.236972",
+                    "ticker_sentiment_score": "0.076344",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Plug Power Shares Rise on Restructuring Plan, but Is It Enough to Save the Stock?",
             "url": "https://www.fool.com/investing/2025/03/09/plug-power-restructuring-plan-save-stock/",
