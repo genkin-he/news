@@ -1,5 +1,5 @@
 {
-    "items": "44",
+    "items": "42",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -45,6 +45,67 @@
                     "relevance_score": "0.05257",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Hong Kong's dollar peg seen as advantage amid stablecoin growth",
+            "url": "https://www.scmp.com/tech/blockchain/article/3301577/stablecoins-grow-hong-kongs-us-dollar-peg-seen-advantage-despite-web3-challenges",
+            "time_published": "20250309T010015",
+            "authors": [
+                "Matt Haldane"
+            ],
+            "summary": "Stablecoin transactions are now a fifth of all cryptocurrency transactions, and they make it easier to transact in US dollar-backed assets.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/07/5eb07200-faca-4a24-ad2e-a86606e5cae1_2f65f355.jpg?itok=6kJOqH0x&v=1741361679",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.24194,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "-0.05262",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.093923",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "-0.05262",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:SGD",
+                    "relevance_score": "0.0378",
+                    "ticker_sentiment_score": "0.082648",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.462181",
+                    "ticker_sentiment_score": "0.298853",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -1711,183 +1772,6 @@
             "overall_sentiment_score": 0.581929,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": []
-        },
-        {
-            "title": "SQ, XYZ FINAL DEADLINE: ROSEN, RECOGNIZED INVESTOR COUNSEL, Encourages Block, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important March 18 Deadline in Securities Class Action - SQ, XYZ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44209570/sq-xyz-final-deadline-rosen-recognized-investor-counsel-encourages-block-inc-investors-with-losses",
-            "time_published": "20250308T165000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 08, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of Class A common stock of Block, Inc. SQ XYZ ) ) between February 26, 2020 and April 30, 2024, both dates inclusive ( the \"Class Period\" ) , of the important March 18, ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.891286"
-                }
-            ],
-            "overall_sentiment_score": -0.150811,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.045569",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BSQKZ",
-                    "relevance_score": "0.045569",
-                    "ticker_sentiment_score": "0.073701",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.045569",
-                    "ticker_sentiment_score": "-0.244858",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.045569",
-                    "ticker_sentiment_score": "-0.244858",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "This 1 New Move by Goldman Sachs Could Boost Bitcoin, Ethereum, and Maybe Even XRP",
-            "url": "https://www.fool.com/investing/2025/03/08/1-goldman-sachs-move-could-boost-bitcoion-and-xrp/",
-            "time_published": "20250308T164100",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "The famous investment bank Goldman Sachs ( NYSE: GS ) just did something that crypto investors need to know about. The bank's action has significant implications for the future prices of Bitcoin ( CRYPTO: BTC ) , Ethereum ( CRYPTO: ETH ) , and perhaps also XRP ( CRYPTO: XRP ) in the future, ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809779/investors-on-trading-floor-with-screens.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.992549"
-                }
-            ],
-            "overall_sentiment_score": 0.292067,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.493965",
-                    "ticker_sentiment_score": "0.394082",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.445569",
-                    "ticker_sentiment_score": "0.335375",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.395012",
-                    "ticker_sentiment_score": "0.319066",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Public Keys: Strategy Skips the Bitcoin Dip as Circle Marks Its Spot",
-            "url": "https://decrypt.co/309152/public-keys-strategy-bitcoin-dip-circle-wall-street",
-            "time_published": "20250308T162725",
-            "authors": [
-                "Stacy Elliott"
-            ],
-            "summary": "Strategy, which saw its stock premium hit a 10-month low earlier this week, ending trading on Friday at $287.18-down 5.6% on the day.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2019/12/shutterstock_1140503444-e1608134771318-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.955357"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.838487"
-                }
-            ],
-            "overall_sentiment_score": 0.011908,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CORZQ",
-                    "relevance_score": "0.100518",
-                    "ticker_sentiment_score": "0.076517",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRCW",
-                    "relevance_score": "0.050359",
-                    "ticker_sentiment_score": "-0.055509",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.050359",
-                    "ticker_sentiment_score": "0.045896",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "STRK",
-                    "relevance_score": "0.100518",
-                    "ticker_sentiment_score": "-0.010835",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BSQKZ",
-                    "relevance_score": "0.050359",
-                    "ticker_sentiment_score": "0.178289",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.199447",
-                    "ticker_sentiment_score": "-0.021934",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.551486",
-                    "ticker_sentiment_score": "0.003414",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
