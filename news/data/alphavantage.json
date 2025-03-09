@@ -1,5 +1,5 @@
 {
-    "items": "42",
+    "items": "41",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1752,65 +1752,6 @@
                     "relevance_score": "0.951582",
                     "ticker_sentiment_score": "-0.111219",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "'Unprecedented Slide': Tesla Sales Plummet 45% In Europe As Musk's Net Worth Dives $5.2B In A Week - Meta Platforms  ( NASDAQ:META ) , Tesla  ( NASDAQ:TSLA ) ",
-            "url": "https://www.benzinga.com/news/25/03/44209579/unprecedented-slide-tesla-sales-plummet-45-in-europe-as-musks-net-worth-dives-5-2b-in-a-week",
-            "time_published": "20250308T170044",
-            "authors": [
-                "LaToya Scott"
-            ],
-            "summary": "Elon Musk's net worth has taken a hit this year-down by about $52 billion-but he still tops the list as the world's richest person, with a current estimate of $336 billion, according to the Bloomberg Billionaires Index.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/08/Tesla--Inc-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.251326,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ABNB",
-                    "relevance_score": "0.070517",
-                    "ticker_sentiment_score": "0.288465",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.209365",
-                    "ticker_sentiment_score": "0.148554",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.070517",
-                    "ticker_sentiment_score": "0.288465",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.070517",
-                    "ticker_sentiment_score": "0.283393",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
