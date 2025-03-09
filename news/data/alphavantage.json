@@ -1,8 +1,51 @@
 {
-    "items": "31",
+    "items": "30",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "DEADLINE ALERT: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Pacira - Pacira BioSciences  ( NASDAQ:PCRX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44210757/deadline-alert-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-pacira",
+            "time_published": "20250309T123100",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses Exceeding $75,000 In Pacira To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.15786,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PCRX",
+                    "relevance_score": "0.270523",
+                    "ticker_sentiment_score": "0.178522",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.068896",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "SHAREHOLDER ALERT: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Ready Capital - Ready Capital  ( NYSE:RC ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44210749/shareholder-alert-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-ready-capital",
@@ -1525,100 +1568,6 @@
                     "ticker": "PLTR",
                     "relevance_score": "0.097655",
                     "ticker_sentiment_score": "0.014886",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "U.S. Money Supply Growth Is Accelerating -- It Could Signal a Huge Change Coming in the Stock Market",
-            "url": "https://www.fool.com/investing/2025/03/09/us-money-supply-growth-is-accelerating-it-could-si/",
-            "time_published": "20250309T091200",
-            "authors": [
-                "Adam Levy"
-            ],
-            "summary": "Growing money supply usually bodes well for these companies to outperform.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809874%2Fgettyimages-whats-next-on-100-dollar-bills.jpeg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.999326"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.988915"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.294451,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.091509",
-                    "ticker_sentiment_score": "0.127438",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Target Stock: Too Cheap to Ignore?",
-            "url": "https://www.fool.com/investing/2025/03/09/target-stock-too-cheap-to-ignore/",
-            "time_published": "20250309T091000",
-            "authors": [
-                "Jeremy Bowman"
-            ],
-            "summary": "Not many retailers can match Target ( NYSE: TGT ) . The company is one of just a handful of multi-category retailers in the U.S., along with Walmart and Costco Wholesale, selling everything from food and beverages to toys, electronics, apparel, home goods, and health and beauty products, among ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810278%2Ftarget-store.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.980922"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.990786"
-                }
-            ],
-            "overall_sentiment_score": 0.168308,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TGT",
-                    "relevance_score": "0.545618",
-                    "ticker_sentiment_score": "0.19551",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "COST",
-                    "relevance_score": "0.11894",
-                    "ticker_sentiment_score": "0.043929",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.11894",
-                    "ticker_sentiment_score": "0.043929",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
