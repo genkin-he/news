@@ -1,8 +1,94 @@
 {
-    "items": "30",
+    "items": "29",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Bitcoin reserve backlash signals unrealistic industry expectations",
+            "url": "https://cointelegraph.com/news/us-bitcoin-reserve-disappoints-investors-trump-crypto-summit",
+            "time_published": "20250309T130606",
+            "authors": [
+                "Zoltan Vardai"
+            ],
+            "summary": "\"Not that long ago, even the idea of BTC Reserve held and supported by a federal government was a revolutionary idea,\" a blockchain regulatory expert told Cointelegraph.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957add-cf0f-7f34-98f8-a53c246941e0",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": -0.019353,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.839757",
+                    "ticker_sentiment_score": "-0.195258",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.101582",
+                    "ticker_sentiment_score": "0.088526",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Elon Musk's xAI Expands, Apple Delays Siri, Meta's AI Assistant May Get Paid Subscriptions, And More: This Week In AI - Meta Platforms  ( NASDAQ:META ) , Apple  ( NASDAQ:AAPL ) ",
+            "url": "https://www.benzinga.com/25/03/44210856/elon-musks-xai-expands-apple-delays-siri-metas-ai-assistant-may-get-paid-subscriptions-and-more-this-week-in-ai",
+            "time_published": "20250309T130043",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "The past week was a whirlwind of activity in the tech world, with artificial intelligence ( AI ) taking center stage. From Elon Musk's xAI expanding its supercomputer footprint to Apple Inc. AAPL delaying its next-gen Siri, the AI landscape continues to evolve. Here's a roundup of the top stories.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Ai-Technology--Artificial-Intelligence--.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.161889,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.101154",
+                    "ticker_sentiment_score": "0.025166",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.200688",
+                    "ticker_sentiment_score": "0.213565",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.388879",
+                    "ticker_sentiment_score": "0.069517",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.200688",
+                    "ticker_sentiment_score": "0.074256",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "DEADLINE ALERT: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Pacira - Pacira BioSciences  ( NASDAQ:PCRX ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44210757/deadline-alert-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-pacira",
@@ -1432,142 +1518,6 @@
                     "ticker": "WMT",
                     "relevance_score": "0.051774",
                     "ticker_sentiment_score": "0.088532",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Should You Buy JPMorgan Chase's Stock at an All-Time High?",
-            "url": "https://www.fool.com/investing/2025/03/09/should-you-buy-jpmorgan-chase-stock-all-time-high/",
-            "time_published": "20250309T092000",
-            "authors": [
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "JPMorgan Chase ( NYSE: JPM ) is the amalgam of two iconic names in the finance industry. The company is well respected and has been executing well. But is that enough of a reason to buy the stock?Considering that, at the moment, the market is pricing in what seems to be a perfect performance in ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810203%2F24_09_26-a-person-holding-a-sign-that-says-warning-attention-please-_mf-dload-gettyimages-1639158401-1201x800-5b2df79.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999976"
-                }
-            ],
-            "overall_sentiment_score": 0.125345,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Elon Musk Thinks Tesla Will Become the World's Most Valuable Company. I Predict Its Stock Will Decline by 50%  ( or More )  Instead.",
-            "url": "https://www.fool.com/investing/2025/03/09/elon-musk-tesla-worlds-valuable-stock-decline-50/",
-            "time_published": "20250309T091700",
-            "authors": [
-                "Anthony Di Pizio"
-            ],
-            "summary": "Tesla ( NASDAQ: TSLA ) stock soared 63% last year, reaching a new all-time high in December, shortly after President Trump's election win. Investors speculated that a friendlier regulatory environment could help the company fast-track its autonomous driving and humanoid robotics technologies, ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809877%2Fa-tesla-dealership-with-two-tesla-electric-vehicles-parked-out-front.png&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.929393"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998663"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.007221,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.072435",
-                    "ticker_sentiment_score": "0.077863",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.108466",
-                    "ticker_sentiment_score": "0.044748",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.560316",
-                    "ticker_sentiment_score": "0.017177",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "OPTGF",
-                    "relevance_score": "0.108466",
-                    "ticker_sentiment_score": "0.02647",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "2 Artificial Intelligence  ( AI )  Stocks to Buy in the Tech Sell-Off",
-            "url": "https://www.fool.com/investing/2025/03/09/2-artificial-intelligence-ai-stocks-to-buy-in-the/",
-            "time_published": "20250309T091500",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "Artificial intelligence ( AI ) stocks were the market superstars over the past two years, leading the S&P 500 and the Nasdaq to double-digit gains. And for good reason. The technology could be the next big thing for companies, helping them streamline their operations and pump up earnings.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810196%2Fgettyimages-2078917109-1201x706-e21c547.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.995921"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.264043,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.419153",
-                    "ticker_sentiment_score": "0.377259",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.097655",
-                    "ticker_sentiment_score": "0.014886",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
