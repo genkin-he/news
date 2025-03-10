@@ -7,6 +7,7 @@ import time
 import traceback
 import random
 from typing import Dict, Optional
+import ftfy
 
 
 class SpiderUtil:
@@ -46,6 +47,12 @@ class SpiderUtil:
                 return {"articles": articles, "links": links}
         except:
             return {"articles": [], "links": []}
+
+    def fix_text(self, text):
+        """
+        解析文本，将文本中的特殊字符转换为标准字符
+        """
+        return ftfy.fix_text(text)
 
     def parse_time(self, time_str, format):
         """
@@ -280,13 +287,13 @@ class SpiderUtil:
         for ch in text:
             # 检查日语
             if "japanese" in languages and (
-                "\u3040" <= ch <= "\u309F"  # 平假名
-                or "\u30A0" <= ch <= "\u30FF"  # 片假名
-                or "\u4E00" <= ch <= "\u9FFF"  # 汉字
+                "\u3040" <= ch <= "\u309f"  # 平假名
+                or "\u30a0" <= ch <= "\u30ff"  # 片假名
+                or "\u4e00" <= ch <= "\u9fff"  # 汉字
             ):
                 return True
             # 检查韩语
-            if "korean" in languages and "\uAC00" <= ch <= "\uD7A3":
+            if "korean" in languages and "\uac00" <= ch <= "\ud7a3":
                 return True
             # 检查法语/西班牙语（主要检查特殊字符）
             if (

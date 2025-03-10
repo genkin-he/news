@@ -75,8 +75,8 @@ def run():
                         0,
                         {
                             "id": id,
-                            "title": title,
-                            "description": description,
+                            "title": util.fix_text(title),
+                            "description": util.fix_text(description),
                             "image": image,
                             "link": link,
                             "author": author,
