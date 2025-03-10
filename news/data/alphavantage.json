@@ -1,8 +1,137 @@
 {
-    "items": "31",
+    "items": "30",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Unknown attacker causes headaches during Pectra upgrade on Sepolia",
+            "url": "https://cointelegraph.com/news/unknown-attacker-causes-issues-pectra-test-sepolia",
+            "time_published": "20250310T062559",
+            "authors": [
+                "Stephen Katte"
+            ],
+            "summary": "Ethereum's recent Pectra test on the Sepolia fork encountered an issue that was made worse by an unknown user sending zero-token transfers.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957e9a-75fc-72cb-b83a-59b4748b2bfa",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [],
+            "overall_sentiment_score": -0.25997,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.395012",
+                    "ticker_sentiment_score": "-0.311729",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Crypto scam uses trade war fears to lure victims, Canadian watchdogs warn",
+            "url": "https://cointelegraph.com/news/crypto-scam-lure-victim-trade-war-fears-canada-securities-regulators",
+            "time_published": "20250310T062002",
+            "authors": [
+                "Jesse Coghlan"
+            ],
+            "summary": "A crypto scam faked an endorsement from Justin Trudeau, with the phony then-prime minister advising viewers to use a sham platform to respond to Donald Trump's tariffs.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957ea4-89ce-7f1d-abff-9c5726de0d64",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": -0.182061,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Palantir CEO Alex Karp Meets Hyundai Vice Chair to Enhance AI Shipyard, Defense Collaboration Amid Trump's Call for US Shipbuilding Revival - Palantir Technologies  ( NASDAQ:PLTR ) ",
+            "url": "https://www.benzinga.com/markets/25/03/44212993/palantir-ceo-alex-karp-meets-hyundai-vice-chair-to-enhance-ai-shipyard-defense-collaboration-amid-trumps-",
+            "time_published": "20250310T060838",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Earlier this month, top executives from South Korea's shipbuilding conglomerate Hyundai Heavy Industries Group and Palantir Technologies PLTR met to push forward AI-driven shipyard innovation and future defense capabilities.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/10/Palantirs-Alex-Karp-Confers-With-Keir-St.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.684621"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.269158,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAESF",
+                    "relevance_score": "0.092569",
+                    "ticker_sentiment_score": "0.073987",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HII",
+                    "relevance_score": "0.092569",
+                    "ticker_sentiment_score": "0.073987",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.183895",
+                    "ticker_sentiment_score": "0.276571",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "11/2025\u30fbTrifork Group: Weekly report on share buyback",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039435/0/en/11-2025-Trifork-Group-Weekly-report-on-share-buyback.html",
+            "time_published": "20250310T060000",
+            "authors": [
+                "Trifork Group AG"
+            ],
+            "summary": "Company announcement no. 11 / 2025Schindellegi, Switzerland - 10 March ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/6b9ce300-46ec-4af4-85f4-42c2bfc29c79",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.362534,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Eddy Cue Praises 'Severance' For Breaking Through The Noise Globally, Says Apple TV+ Isn't Going To Throw 20 Shows On The Wall Hoping One Will Stick - Netflix  ( NASDAQ:NFLX ) ",
             "url": "https://www.benzinga.com/general/entertainment/25/03/44212936/eddy-cue-praises-severance-for-breaking-through-the-noise-globally-says-apple-tv-isnt-going",
@@ -240,6 +369,67 @@
                     "relevance_score": "0.382925",
                     "ticker_sentiment_score": "0.501593",
                     "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "China bond yields jump to three-month highs as investors pare rate cut expectations",
+            "url": "https://www.cnbc.com/2025/03/10/chinese-government-bond-yields-jumped-amid-renewed-hopes-for-economy-rate-cut-delays.html",
+            "time_published": "20250310T053504",
+            "authors": [],
+            "summary": "Chinese government bond yields moved further away from January's historic lows amid optimism in the faltering economy and a stock market rally.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.838487"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.18582,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BACHY",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "0.003005",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CIH",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "0.040003",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:CNY",
+                    "relevance_score": "0.103554",
+                    "ticker_sentiment_score": "0.077775",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "-0.132507",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1263,185 +1453,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "Trump refuses to rule out recession, says economy in 'transition' amid market turmoil - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/policy/trump-refuses-to-rule-out-recession-says-economy-in-transition-amid-market-turmoil/118829551",
-            "time_published": "20250310T033722",
-            "authors": [
-                "ETCFO",
-                "TOI World Desk"
-            ],
-            "summary": "US President Donald Trump remains noncommittal about a potential recession in 2025. Despite reassurances from Trump and Commerce Secretary Howard Lutnick, economic indicators such as a negative GDP forecast and declining consumer confidence fuel concerns.",
-            "banner_image": "https://st.etb2bimg.com/Themes/Release/theme4/images/bar-codes/cfo_barcode.png?mod=2846",
-            "source": "Economic Times",
-            "category_within_source": "Top Stories",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": -0.249954,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.109956",
-                    "ticker_sentiment_score": "-0.119483",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOX",
-                    "relevance_score": "0.109956",
-                    "ticker_sentiment_score": "-0.119483",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.109956",
-                    "ticker_sentiment_score": "-0.119483",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "GST rates to be reduced further, rationalisation on the cards: FM Sitharaman - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/tax-legal-accounting/gst-rates-to-be-reduced-further-rationalisation-on-the-cards-fm-sitharaman/118829470",
-            "time_published": "20250310T033001",
-            "authors": [
-                "ETCFO"
-            ],
-            "summary": "Union Finance Minister Nirmala Sitharaman has said that Goods and Services Tax (GST) rates will be reduced further as the process of rationalising tax slabs is nearing completion.",
-            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
-            "source": "Economic Times",
-            "category_within_source": "Top Stories",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.102733,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "US housing dept mulls blockchain, stablecoin to pay and monitor grants: Report",
-            "url": "https://cointelegraph.com/news/housing-dept-blockchain-stablecoin-pay-monitor-grants-propublica",
-            "time_published": "20250310T032521",
-            "authors": [
-                "Jesse Coghlan"
-            ],
-            "summary": "The US Housing Department has discussed possibly using a stablecoin to fund grants and tracking it using blockchain, ProPublica reports.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957de3-8c55-7067-81bd-f36b53582603",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.99489"
-                }
-            ],
-            "overall_sentiment_score": 0.018919,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.103778",
-                    "ticker_sentiment_score": "0.043893",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Auditors and audit committees must strengthen communication on income tax estimates, says NFRA - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/tax-legal-accounting/auditors-and-audit-committees-must-strengthen-communication-on-income-tax-estimates-says-nfra/118829160",
-            "time_published": "20250310T032054",
-            "authors": [
-                "Alekh Shah",
-                "ETCFO"
-            ],
-            "summary": "The National Financial Reporting Authority (NFRA) has called for enhanced communication between auditors and audit committees regarding complex tax estimates under Ind AS 12, particularly Deferred Tax Assets (DTAs) and Liabilities (DTLs).",
-            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
-            "source": "Economic Times",
-            "category_within_source": "Top Stories",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.252547,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Small Plane Crashes In Pennsylvania Retirement Facility Parking Lot After Pilot Reports 'Open Door'",
-            "url": "https://www.benzinga.com/news/25/03/44212511/small-plane-crashes-in-pennsylvania-retirement-facility-parking-lot-after-pilot-reports-open-door",
-            "time_published": "20250310T031409",
-            "authors": [
-                "Kaustubh Bagalkote"
-            ],
-            "summary": "A Beechcraft Bonanza carrying five people crashed in a parking lot in Lititz, Pennsylvania, near a retirement village south of Lancaster Airport, on Sunday afternoon, according to Federal Aviation Administration officials. All passengers survived and were transported to hospitals for treatment.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Rear-View-Of-An-Atr-72-Airplane-In-The-C.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [],
-            "overall_sentiment_score": -0.123986,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "OPNDF",
-                    "relevance_score": "0.11983",
-                    "ticker_sentiment_score": "-0.09611",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "CFOs call for policy certainty, simplified compliance and strategic investments - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/strategy-operations/cfos-call-for-policy-certainty-simplified-compliance-and-strategic-investments/118828679",
-            "time_published": "20250310T030506",
-            "authors": [
-                "ETCFO Research",
-                "ETCFO"
-            ],
-            "summary": "At the ETCFO Leadership Summit 2025, CFOs discussed how regulatory complexities, global standardisation, and workforce opportunities are shaping financial leadership today.",
-            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
-            "source": "Economic Times",
-            "category_within_source": "Top Stories",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": 0.265197,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
