@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 757460,
+            "title": "Financial Times: Banks and Fintechs Join 'Stablecoin Gold Rush' to Capture Cross-Border Payment Market",
+            "description": "According to the Financial Times, numerous large banks and fintech companies worldwide are racing to launch their own stablecoins in a bid to secure a share of the cross-border payment market, which is expected to be reshaped by cryptocurrencies.Last month, Bank of America expressed openness to issuing its own stablecoin, joining a growing list of payment service providers that have already entered the space, including Standard Chartered, PayPal, Revolut, and Stripe.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757460&language=en-US",
+            "pub_date": "2025-03-10 15:24:23",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 757459,
+            "title": "The whale who opened a PENDLE position eight months ago is suspected to have liquidated 851,000 tokens an hour ago, and the sale will result in a loss of $1.958 million",
+            "description": "Odaily Planet Daily News: According to monitoring by Ai Yi, an on-chain analyst, the whale \"0x97e...9D617\" that established a PENDLE position eight months ago is suspected to have liquidated 851,000 tokens an hour ago. If sold, it will lose $1.958 million. The whale's cost of building a position was $4.39, and the recharge price this time was $2.09, with an asset shrinkage of 52%.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757459&language=en-US",
+            "pub_date": "2025-03-10 15:28:41",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 757454,
             "title": "Gate.io launches AVAX staking activity, with an expected annualized return of up to 6.38%",
             "description": "Odaily Planet Daily News According to official news, Gate.io has launched AVAX mining, starting with 0.1 AVAX, and the expected annualized return is 6.38%. Participating in the Gate.io chain-earning coin staking project, you can get income every day without complicated operations. In addition, the expected annualized return of GT chain staking is 5.57%, and you can also get up to 2% additional rewards.",
@@ -76,26 +96,6 @@
             "description": "Odaily Planet Daily News According to Santiment analysis, wallets holding more than 10 bitcoins have re-accumulated nearly 5,000 bitcoins since March 3, while retail investors are panicking.\nThe data chart shows several key time points: large holders began to hoard at the beginning of the bull market on October 12 last year; hoarding was suspended during the holiday decline on December 26; hoarding resumed on January 12, a week before Trump's inauguration (when Bitcoin hit a record high of $109,000); selling began on February 19; hoarding began again on March 3 when retail sentiment was the most pessimistic.\nSantiment said that although prices have not yet responded to large-scale buying behavior, if these key stakeholders continue to hoard, the market performance in the second half of March may be better than the \"bloodbath\" market in the seven weeks after Bitcoin hit a record high.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757446&language=en-US",
             "pub_date": "2025-03-10 14:56:17",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 757444,
-            "title": "Ethereum Sepolia Testnet Faces Challenges After Pectra Upgrade",
-            "description": "According to Cointelegraph, the recent Pectra upgrade on Ethereum's Sepolia testnet encountered significant errors, exacerbated by an attacker exploiting an edge case to mine empty blocks. The upgrade was implemented on March 5 at 7:29 am, but Ethereum developer Marius van der Wijden reported on March 8 that error messages began appearing on their geth node, leading to the mining of empty blocks.\n\nThe issue stemmed from the deposit contract triggering a transfer event instead of a deposit event. Although a fix was deployed, van der Wijden noted that they overlooked one edge case, which an unknown user exploited by sending a 0-token transfer to the deposit address, causing the error to resurface. \"After a few minutes, we saw a lot of empty blocks again, so we looked into the transaction pools and found another offending transaction that triggered the same edge cases,\" he explained.\n\nInitially, the team suspected a mistake from trusted validators, but it was soon discovered that the transaction originated from a newly funded account via the faucet. The ERC-20 standard does not prohibit zero token transfers, allowing anyone to transfer tokens to another address, which the attacker utilized. \"The only way to stop the attack would be to filter out all transactions that interact with the deposit contract. So we made the following private fix, which we deployed to a few of the DevOps nodes,\" van der Wijden stated.\n\nBy 2 pm, all nodes were updated with the fix, and the problematic transaction was successfully mined. Van der Wijden assured that finalization was never lost during the incident, and the issue was confined to Sepolia due to the use of a token-gated deposit contract instead of the standard mainnet deposit contract. The Pectra upgrade had previously been tested on the Holesky testnet on February 26, which also faced challenges.\n\nConsequently, developers have decided to delay the Pectra upgrade until further testing can be conducted. The Pectra fork follows the network's Dencun upgrade, which reduced transaction fees for layer-2 networks and enhanced the economics of Ethereum rollups. The Dencun hard fork was rolled out on March 13, 2024. Additionally, the Ethereum Foundation has introduced a new leadership structure, appointing Hsiao-Wei Wang and Tomasz Stańczak as co-directors.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757444&language=en-US",
-            "pub_date": "2025-03-10 14:33:46",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 757442,
-            "title": "Crypto Scammers Exploit Trade War Fears With Fake Endorsements",
-            "description": "According to Cointelegraph, securities regulators in Alberta and New Brunswick have raised alarms about crypto scammers using fake news articles and the likeness of government figures to exploit trade war fears. The Alberta Securities Commission issued an alert on March 7 regarding a crypto investment scam named CanCap, which falsely claimed endorsement from then-Prime Minister Justin Trudeau through a fabricated news article from CBC, Canada's national public broadcaster. The fraudulent article suggested that Trudeau was responding to U.S. tariffs by supporting a digital currency investment program.\n\nSimilarly, the Financial and Consumer Services Commission of New Brunswick warned on March 5 that CanCap used a fake news article to falsely claim endorsement from New Brunswick Premier Susan Holt. The article, designed to mimic a Telegraph-Journal web article, alleged that Holt supported a 'provincial investment program' in reaction to U.S. tariff increases. It included a fake transcript of an interview with Holt and doctored photos of her promoting the platform.\n\nU.S. President Donald Trump’s policies have introduced significant uncertainty for Canadians, particularly following his announcement of a 25% tariff on Canada in February, which was partially rolled back before he threatened a 250% tariff on lumber and dairy. Mark Carney, who succeeded Trudeau as Prime Minister on March 9, criticized Trump for \"attacking Canadian families\" with these tariffs and vowed that Canada \"will win\" a trade war.\n\nThe uncertainty surrounding U.S. tariffs has heightened anxiety among Canadians, prompting some to seek alternative income sources. Marissa Sollows, communications director for the New Brunswick commission, noted that scammers are exploiting this vulnerability. The Alberta and New Brunswick regulators highlighted that scammers are increasingly using current events to manipulate potential victims' fears, employing artificial intelligence to fabricate endorsements and create content that lends legitimacy to their schemes.\n\nThe scammers have demonstrated adaptability, quickly altering the scheme's name and appearance. They have previously used names like \"CanCentra\" and \"Immediate Flectinium\" and have associated the scam with at least six other websites under different domains. Global losses from crypto scams, exploits, and hacks reached nearly $1.53 billion in February, largely due to a $1.4 billion hack on the crypto exchange Bybit, as reported by CertiK. Excluding the Bybit incident, February's crypto losses amounted to over $126 million, marking a 28.5% increase from the $98 million lost in January.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757442&language=en-US",
-            "pub_date": "2025-03-10 14:24:07",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
