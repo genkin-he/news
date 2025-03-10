@@ -1,8 +1,141 @@
 {
-    "items": "34",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Jamie Dimon Cashed Out $234 Million In JPMorgan Stock, Warren Buffett Stockpiled $334 Billion In Cash - Weeks Later, Markets Crashed. Coincidence? - JPMorgan Chase  ( NYSE:JPM ) , Goldman Sachs Group  ( NYSE:GS ) ",
+            "url": "https://www.benzinga.com/markets/equities/25/03/44212672/jamie-dimon-cashed-out-234-million-in-jpmorgan-stock-warren-buffett-stockpiled-334-billion-in-ca",
+            "time_published": "20250310T042213",
+            "authors": [
+                "Kaustubh Bagalkote"
+            ],
+            "summary": "Two of Wall Street's most influential figures took significant financial actions just days before a major market downturn, raising questions about market timing and insider knowledge. What Happened: JP Morgan CEO Jamie Dimon sold $234 million worth of JPMorgan Chase & Co. JPM stock on Feb 20, ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/10/New-York---May-22-New-York-Stock-Exchang.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.989041"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.034209,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.092927",
+                    "ticker_sentiment_score": "-0.157761",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.092927",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.184598",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Robinhood to pay $30M to settle US regulator probes",
+            "url": "https://cointelegraph.com/news/robinhood-pay-30-million-to-settle-us-regulator-probe",
+            "time_published": "20250310T040528",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "Robinhood agreed to pay $29.75 million in fines and restitution for failing to respond to several \"red flags\" stemming from its supervision and compliance practices.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957e36-345d-7bef-89a1-f9e584e2a6af",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.839681"
+                }
+            ],
+            "overall_sentiment_score": -0.085287,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GME",
+                    "relevance_score": "0.194242",
+                    "ticker_sentiment_score": "-0.164542",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AMC",
+                    "relevance_score": "0.194242",
+                    "ticker_sentiment_score": "-0.164542",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Peter Schiff Establishes Personal 'Strategic Bitcoin Reserve,' Vows Not To Sell: 'Going Down With The Ship So Others Never Get On Board'",
+            "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44212604/peter-schiff-establishes-personal-strategic-bitcoin-reserve-vows-not-to-sell-going-down-wi",
+            "time_published": "20250310T040526",
+            "authors": [
+                "Aniket Verma"
+            ],
+            "summary": "In an effort to mock President Donald Trump's declaration, renowned economist Peter Schiff declared his own Strategic Bitcoin BTC/USD Reserve on Friday, promising not to sell any of it. What Happened: Schiff took to X to explain the structure of the reserve.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/10/Peter-Schiff-Predicts-A-Bitcoin-Strategi.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": -0.050683,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.934855",
+                    "ticker_sentiment_score": "-0.190272",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
         {
             "title": "How Alibaba's new RISC-V chip hits the mark for China's tech ambitions",
             "url": "https://www.scmp.com/tech/big-tech/article/3301620/how-alibabas-new-risc-v-chip-hits-mark-chinas-tech-self-sufficiency-drive",
@@ -45,6 +178,39 @@
                     "relevance_score": "0.051886",
                     "ticker_sentiment_score": "0.177543",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Bitcoin dips to $80K in 'ugly start,' could retest key resistance: Hayes",
+            "url": "https://cointelegraph.com/news/bitcoin-falls-80-k-ugly-start-and-could-retest-78-k-resistance-arthur-hayes",
+            "time_published": "20250310T035857",
+            "authors": [
+                "Martin Young"
+            ],
+            "summary": "Arthur Hayes previously predicted Bitcoin could fall to $70,000, while 10x Research analysts has called it a \"textbook correction.\" ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957e08-b559-755a-aa4a-f9e4528d8867",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.682689"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": -0.129941,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.819198",
+                    "ticker_sentiment_score": "-0.29423",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         },
@@ -187,6 +353,28 @@
             ]
         },
         {
+            "title": "GST rates to be reduced further, rationalisation on the cards: FM Sitharaman - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/tax-legal-accounting/gst-rates-to-be-reduced-further-rationalisation-on-the-cards-fm-sitharaman/118829470",
+            "time_published": "20250310T033001",
+            "authors": [
+                "ETCFO"
+            ],
+            "summary": "Union Finance Minister Nirmala Sitharaman has said that Goods and Services Tax (GST) rates will be reduced further as the process of rationalising tax slabs is nearing completion.",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Top Stories",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.102733,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
             "title": "US housing dept mulls blockchain, stablecoin to pay and monitor grants: Report",
             "url": "https://cointelegraph.com/news/housing-dept-blockchain-stablecoin-pay-monitor-grants-propublica",
             "time_published": "20250310T032521",
@@ -238,6 +426,29 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "CFOs call for policy certainty, simplified compliance and strategic investments - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/strategy-operations/cfos-call-for-policy-certainty-simplified-compliance-and-strategic-investments/118828679",
+            "time_published": "20250310T030506",
+            "authors": [
+                "ETCFO Research",
+                "ETCFO"
+            ],
+            "summary": "At the ETCFO Leadership Summit 2025, CFOs discussed how regulatory complexities, global standardisation, and workforce opportunities are shaping financial leadership today.",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Top Stories",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.265197,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Dogecoin Plunges 9% But Top Analyst Believes Meme Coin Could Stage A 'Strong' Rebound In Case This Happens",
@@ -1056,385 +1267,6 @@
                     "ticker": "GSK",
                     "relevance_score": "0.500753",
                     "ticker_sentiment_score": "-0.003239",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Exclusive | Why a Kazakhstan tycoon wants to partner with China to ride the EV wave",
-            "url": "https://www.scmp.com/business/china-business/article/3301654/why-tycoon-kazakhstan-wants-partner-china-ride-overwhelming-ev-wave",
-            "time_published": "20250309T233011",
-            "authors": [
-                "Yujie Xue"
-            ],
-            "summary": "'We are a natural partner for China, especially in the growing EV sector,' says Kenges Rakishev, chairman of the Fincraft Group.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/09/73d3eed6-5f42-4106-8729-720da341037c_f7e793ba.jpg?itok=KxAJPyKu&v=1741486056",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.175957,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "XPEV",
-                    "relevance_score": "0.047185",
-                    "ticker_sentiment_score": "0.068026",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LI",
-                    "relevance_score": "0.047185",
-                    "ticker_sentiment_score": "0.068026",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, TOP RANKED INVESTOR COUNSEL, Encourages ICON plc Investors to Secure Counsel Before Important Deadline in Securities Class Action - ICLR - Icon  ( NASDAQ:ICLR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44211969/rosen-top-ranked-investor-counsel-encourages-icon-plc-investors-to-secure-counsel-before-important",
-            "time_published": "20250309T232800",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 09, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of ordinary shares of ICON plc ICLR between July 27, 2023 and October 23, 2024, both dates inclusive ( the \"Class Period\" ) , of the important April 11, 2025 lead ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.119887,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.049526",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ICLR",
-                    "relevance_score": "0.098862",
-                    "ticker_sentiment_score": "0.135818",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Why Are Bitcoin, Ethereum Prices Falling?",
-            "url": "https://decrypt.co/309273/why-are-bitcoin-ethereum-prices-falling",
-            "time_published": "20250309T230415",
-            "authors": [
-                "Sebastian Sinclair"
-            ],
-            "summary": "Bitcoin and Ethereum extend losses as traders digest Trump's Strategic Bitcoin Reserve order and a wave of U.S. trade tariffs.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/02/bitcoin-btc-ethereum-eth-price-chart-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": -0.040801,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "USAU",
-                    "relevance_score": "0.075874",
-                    "ticker_sentiment_score": "0.103106",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.846873",
-                    "ticker_sentiment_score": "-0.033001",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.151064",
-                    "ticker_sentiment_score": "0.060273",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.075874",
-                    "ticker_sentiment_score": "0.031793",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, TOP RANKED INVESTOR COUNSEL, Encourages Edison International Investors to Secure Counsel Before Important Deadline in Securities Class Action First Filed by the Firm - EIX - Edison Intl  ( NYSE:EIX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44211831/rosen-top-ranked-investor-counsel-encourages-edison-international-investors-to-secure-counsel-befo",
-            "time_published": "20250309T225000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 09, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Edison International EIX between February 25, 2021 and February 6, 2025, both dates inclusive ( the \"Class Period\" ) , of the important April 21, 2025 ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.127288,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EIX",
-                    "relevance_score": "0.348103",
-                    "ticker_sentiment_score": "-0.038468",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.059935",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Nasdaq Correction: 3 Things Every Investor Should Know",
-            "url": "https://www.fool.com/investing/2025/03/09/nasdaq-correction-3-things-investors-should-know/",
-            "time_published": "20250309T221000",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "The Nasdaq, along with the S&P 500 and the Dow Jones Industrial Average, roared higher over the past two years, delivering double-digit annual gains. And the momentum continued into this year as investors piled into high-growth companies involved in hot technologies such as artificial ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810504%2Fgettyimages-1072035598.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.77141"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.576289"
-                }
-            ],
-            "overall_sentiment_score": 0.255312,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.203215",
-                    "ticker_sentiment_score": "0.142855",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.153145",
-                    "ticker_sentiment_score": "0.117056",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "FTI Consulting Further Bolsters Asia Business Transformation Practice with Senior Appointments",
-            "url": "https://www.globenewswire.com/news-release/2025/03/09/3039419/33891/en/FTI-Consulting-Further-Bolsters-Asia-Business-Transformation-Practice-with-Senior-Appointments.html",
-            "time_published": "20250309T220000",
-            "authors": [
-                "FTI Consulting",
-                "Inc."
-            ],
-            "summary": "SINGAPORE, March 09, 2025 ( GLOBE NEWSWIRE ) -- FTI Consulting, Inc. ( NYSE: FCN ) today announced the appointment of Zarif Munir as a Senior Managing Director and Head of Southeast Asia Business Transformation and Enqing Wang as a Managing Director in the firm's Business Transformation practice ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/7baf2810-17ee-492d-8c50-d64cadf49073",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                }
-            ],
-            "overall_sentiment_score": 0.354776,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FCN",
-                    "relevance_score": "0.349575",
-                    "ticker_sentiment_score": "0.348152",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Coca-Cola's Rally Makes PepsiCo Stock Look Even More Attractive",
-            "url": "https://www.fool.com/investing/2025/03/09/why-coca-colas-rally-makes-pepsico-stock-look-even/",
-            "time_published": "20250309T220000",
-            "authors": [
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "It is virtually impossible not to look at Coca-Cola ( NYSE: KO ) if you are considering buying PepsiCo ( NASDAQ: PEP ) and vice versa. The two companies are iconic and globally dominant beverage giants. The price charts of the two stocks, however, look very different today.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810206%2F24_09_18-a-person-drinking-through-a-straw-that-is-in-a-glass-filled-with-liquid-_mf-dload-gettyimages-1255751395-1200x800-5b2df79.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.682689"
-                }
-            ],
-            "overall_sentiment_score": 0.147495,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "KO",
-                    "relevance_score": "0.553402",
-                    "ticker_sentiment_score": "0.230405",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PEP",
-                    "relevance_score": "0.658586",
-                    "ticker_sentiment_score": "0.212889",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Week in Crypto Games: Robinhood's $2M Bitcoin and Dogecoin Trivia Game, 'Axie Infinity' MMO Revealed",
-            "url": "https://decrypt.co/309053/this-week-crypto-games-robinhood-trivia-axie-infinity-mmo",
-            "time_published": "20250309T214312",
-            "authors": [
-                "Ryan S. Gladwin"
-            ],
-            "summary": "Catch up on this week's biggest crypto and NFT gaming news and find some weekend reads in our latest roundup.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/03/AtiasLegacy-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": 0.184854,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.056407",
-                    "ticker_sentiment_score": "0.112005",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.276491",
-                    "ticker_sentiment_score": "0.263603",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.112532",
-                    "ticker_sentiment_score": "0.125725",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.056407",
-                    "ticker_sentiment_score": "0.12793",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
