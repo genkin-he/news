@@ -1,8 +1,138 @@
 {
-    "items": "48",
+    "items": "47",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Spain's Second-Largest Bank BBVA To Offer Customers Bitcoin, Ethereum Trading",
+            "url": "https://decrypt.co/309294/spains-second-largest-bank-bbva-to-offer-customers-bitcoin-ethereum-trading",
+            "time_published": "20250310T121338",
+            "authors": [
+                "Will McCurdy"
+            ],
+            "summary": "The service will eventually be available to all customers of the 150-year-old bank, which is among Europe's largest.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/03/bbva-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.1362,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BBVA",
+                    "relevance_score": "0.578355",
+                    "ticker_sentiment_score": "0.179206",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.106541",
+                    "ticker_sentiment_score": "0.069181",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.312158",
+                    "ticker_sentiment_score": "0.182539",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.106541",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Singapore Exchange to list Bitcoin futures in H2 2025: Report",
+            "url": "https://cointelegraph.com/news/singapore-exchange-bitcoin-futures-second-half-2025",
+            "time_published": "20250310T120722",
+            "authors": [
+                "Helen Partz"
+            ],
+            "summary": "Singapore Exchange ( SGX ) , the largest exchange group in Singapore, reportedly plans to debut Bitcoin perpetual futures in the second half of 2025.SGX is working to introduce Bitcoin ( BTC ) perpetual futures for institutional and professional investors in an effort to \"expand institutional ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957feb-2ab1-79b6-9e7b-106d1f7e9c52",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.1526,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MCO",
+                    "relevance_score": "0.107016",
+                    "ticker_sentiment_score": "0.119405",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SPXCF",
+                    "relevance_score": "0.107016",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.821469",
+                    "ticker_sentiment_score": "0.242025",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Critical mineral prices spike in China as export curbs bite",
+            "url": "https://www.scmp.com/economy/china-economy/article/3301800/critical-mineral-prices-spike-china-export-curbs-bite",
+            "time_published": "20250310T120010",
+            "authors": [
+                "Carol Yang"
+            ],
+            "summary": "Prices of some rare metals have nearly doubled this year as Beijing and Washington tussle for control of global resources.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/10/e023f66b-66ef-40d7-b6d7-1a63f4781c47_ff232c76.jpg?itok=iIVStV2x&v=1741599315",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": -0.03531,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
         {
             "title": "Polyrizon Initiates Preclinical Studies for Intranasal Naloxone Targeting Opioid Overdose Based on Its Innovative T&T Platform",
             "url": "https://www.globenewswire.com/news-release/2025/03/10/3039648/0/en/Polyrizon-Initiates-Preclinical-Studies-for-Intranasal-Naloxone-Targeting-Opioid-Overdose-Based-on-Its-Innovative-T-T-Platform.html",
@@ -72,6 +202,53 @@
                     "relevance_score": "0.736015",
                     "ticker_sentiment_score": "-0.00396",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Chinese EV maker Zeekr to take on BMW, Mercedes in SUV segment",
+            "url": "https://www.scmp.com/business/china-evs/article/3301828/zeekr-geelys-premium-ev-unit-set-take-bmw-mercedes-chinas-suv-segment",
+            "time_published": "20250310T114625",
+            "authors": [
+                "Daniel Ren"
+            ],
+            "summary": "Zeekr will unveil the 9X Grand hybrid SUV next month and price it at the 1 million yuan (US$137,840) level.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/10/f298ffa8-2a3a-4404-8738-4753171674ac_8e6dc877.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.110193,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "XPEV",
+                    "relevance_score": "0.0699",
+                    "ticker_sentiment_score": "0.275095",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ZK",
+                    "relevance_score": "0.0699",
+                    "ticker_sentiment_score": "0.164907",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "XIACY",
+                    "relevance_score": "0.139265",
+                    "ticker_sentiment_score": "0.060758",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LI",
+                    "relevance_score": "0.139265",
+                    "ticker_sentiment_score": "0.2514",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -178,6 +355,55 @@
                     "ticker": "CMND",
                     "relevance_score": "0.174167",
                     "ticker_sentiment_score": "0.104721",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Strategy's Bitcoin stash still up over $7B despite market downturn",
+            "url": "https://cointelegraph.com/news/strategy-bitcoin-stash-up-7-billion-500k-btc-holdings",
+            "time_published": "20250310T114449",
+            "authors": [
+                "Ezra Reguerra"
+            ],
+            "summary": "Michael Saylor's Strategy holds almost 500,000 Bitcoin worth over $41 billion at current market prices.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957f9a-cd36-7899-becf-1c4ab3bc3729",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.080213,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SMLR",
+                    "relevance_score": "0.103331",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.103331",
+                    "ticker_sentiment_score": "0.181961",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.998833",
+                    "ticker_sentiment_score": "0.145796",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -556,6 +782,74 @@
             ]
         },
         {
+            "title": "Cognition Therapeutics to Present at Life Sciences Virtual Investor Conference",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039641/0/en/Cognition-Therapeutics-to-Present-at-Life-Sciences-Virtual-Investor-Conference.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "Inc.",
+                "Cognition Therapeutics"
+            ],
+            "summary": "PURCHASE, N.Y., March 10, 2025 ( GLOBE NEWSWIRE ) -- Cognition Therapeutics, Inc., ( the \"Company\" or \"Cognition\" ) ( NASDAQ: CGTX ) , a clinical stage company developing product candidates that treat neurodegenerative disorders, ( the \"Company\" or \"Cognition\" ) , announced that President and ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/a14fd627-7ccb-45e2-95fe-792bbfb83231",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.614606"
+                }
+            ],
+            "overall_sentiment_score": 0.12132,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CGTX",
+                    "relevance_score": "0.159305",
+                    "ticker_sentiment_score": "0.060106",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Applied Materials Increases Quarterly Cash Dividend by 15 Percent and Announces New $10 Billion Share Repurchase Authorization",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039637/0/en/Applied-Materials-Increases-Quarterly-Cash-Dividend-by-15-Percent-and-Announces-New-10-Billion-Share-Repurchase-Authorization.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "Inc.",
+                "Applied Materials"
+            ],
+            "summary": "SANTA CLARA, Calif., March 10, 2025 ( GLOBE NEWSWIRE ) -- Applied Materials, Inc. today announced that its Board of Directors has approved a 15-percent increase in the quarterly cash dividend, marking eight consecutive years of higher dividends.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/4a521d6d-d61e-443f-bd0c-7badbcc4778a",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.260673,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMAT",
+                    "relevance_score": "0.425746",
+                    "ticker_sentiment_score": "0.386113",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
             "title": "Plus Therapeutics Regains Compliance with Nasdaq Minimum Stockholders' Equity Requirement",
             "url": "https://www.globenewswire.com/news-release/2025/03/10/3039626/0/en/Plus-Therapeutics-Regains-Compliance-with-Nasdaq-Minimum-Stockholders-Equity-Requirement.html",
             "time_published": "20250310T113000",
@@ -673,6 +967,60 @@
             ]
         },
         {
+            "title": "Prelude Therapeutics Reports Full Year 2024 Financial Results and Provides Program Outlook for 2025",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039627/0/en/Prelude-Therapeutics-Reports-Full-Year-2024-Financial-Results-and-Provides-Program-Outlook-for-2025.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "Incorporated",
+                "Prelude Therapeutics"
+            ],
+            "summary": "PRT3789 has demonstrated clinical proof-of-concept that selectively degrading SMARCA2 is generally safe and has monotherapy anti-tumor activity in patients with SMARCA4-deficient, non-small cell lung ( NSCLC ) , gastric and esophageal cancer ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/cab62748-b61a-42cb-b552-b0c6c91c4e83",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.955357"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.038344,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WMGTF",
+                    "relevance_score": "0.018383",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BCS",
+                    "relevance_score": "0.018383",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PRLD",
+                    "relevance_score": "0.128135",
+                    "ticker_sentiment_score": "-0.042901",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "NEXTGEN DIGITAL ANNOUNCES U.S. LISTING ON THE OTCQB MARKET & DTC ELIGIBILITY",
             "url": "https://www.globenewswire.com/news-release/2025/03/10/3039634/0/en/NEXTGEN-DIGITAL-ANNOUNCES-U-S-LISTING-ON-THE-OTCQB-MARKET-DTC-ELIGIBILITY.html",
             "time_published": "20250310T113000",
@@ -702,6 +1050,96 @@
                     "relevance_score": "0.143415",
                     "ticker_sentiment_score": "0.11373",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Veri Medtech  ( VRHI )  Network Grows To 400 Physicians",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039625/0/en/Veri-Medtech-VRHI-Network-Grows-To-400-Physicians.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "Veri Medtech Holdings"
+            ],
+            "summary": "NEW YORK, March 10, 2025 ( GLOBE NEWSWIRE ) -- Veri Medtech Holdings ( OTC Markets: \"VRHI\" ) ( \"Veri Medtech\" ) announced today that its powerful network of licensed physicians has now grown to 400, forming an Infinite Wellness Loop.",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.335684,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VRHI",
+                    "relevance_score": "0.771193",
+                    "ticker_sentiment_score": "0.495985",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "HCSG",
+                    "relevance_score": "0.068502",
+                    "ticker_sentiment_score": "0.177008",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.136499",
+                    "ticker_sentiment_score": "0.213787",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "OptimizeRx Corporation Appoints Stephen Silvestro as Chief Executive Officer",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039628/0/en/OptimizeRx-Corporation-Appoints-Stephen-Silvestro-as-Chief-Executive-Officer.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "OptimizeRx Corporation"
+            ],
+            "summary": "Silvestro has a demonstrated record of accelerating revenue growth, expanding brand relevance, and building a market-leading team Silvestro has a demonstrated record of accelerating revenue growth, expanding brand relevance, and building a market-leading team ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/a0504bf7-72fc-4cd4-8489-a207313dbabd",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.98396"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.321937,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OPRX",
+                    "relevance_score": "0.290798",
+                    "ticker_sentiment_score": "0.377683",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -770,6 +1208,113 @@
             ]
         },
         {
+            "title": "Neurology Devices Market is Expected to Reach USD 22,335.5 Million by 2035, Growing at 6.7% CAGR | Fact.MR Report",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44216025/neurology-devices-market-is-expected-to-reach-usd-22-335-5-million-by-2035-growing-at-6-7-cagr-fac",
+            "time_published": "20250310T113000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Rockville, MD, March 10, 2025 ( GLOBE NEWSWIRE ) -- According to Fact.MR, a market research and competitive intelligence provider, the global neurology devices market is estimated to reach a valuation of USD 11,678 million in 2025 and is expected to grow at a CAGR of 6.7% during the forecast ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/b515a33e-a3b6-4fab-8264-fa93fc32b0a8/neurology-devices-market.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.245889,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NPCE",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NHNKF",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SYK",
+                    "relevance_score": "0.062271",
+                    "ticker_sentiment_score": "0.067009",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BSX",
+                    "relevance_score": "0.062271",
+                    "ticker_sentiment_score": "0.067009",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "JNJ",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "EKTAY",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MCRPF",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABT",
+                    "relevance_score": "0.062271",
+                    "ticker_sentiment_score": "0.067009",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LIVN",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TRUMF",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRSYF",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "IART",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PEN",
+                    "relevance_score": "0.031159",
+                    "ticker_sentiment_score": "0.092761",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MDT",
+                    "relevance_score": "0.062271",
+                    "ticker_sentiment_score": "0.067009",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Dragonfly Energy Launches Battle Born\u00ae DualFlow Power Pack to Cut Fuel Costs and Extend Battery Life for Long Haul Trucks",
             "url": "https://www.globenewswire.com/news-release/2025/03/10/3039632/0/en/Dragonfly-Energy-Launches-Battle-Born-DualFlow-Power-Pack-to-Cut-Fuel-Costs-and-Extend-Battery-Life-for-Long-Haul-Trucks.html",
             "time_published": "20250310T113000",
@@ -800,6 +1345,41 @@
                     "ticker": "PSIX",
                     "relevance_score": "0.062926",
                     "ticker_sentiment_score": "0.080375",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Dragonfly Energy Launches Battle Born\u00ae DualFlow Power Pack to Cut Fuel Costs and Extend Battery Life for Long Haul Trucks - Dragonfly Energy Hldgs  ( NASDAQ:DFLI ) , Dragonfly Energy Hldgs  ( NASDAQ:DFLIW ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44216019/dragonfly-energy-launches-battle-born-dualflow-power-pack-to-cut-fuel-costs-and-extend-battery-lif",
+            "time_published": "20250310T113000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Dragonfly Energy launches the Battle Born\u00ae DualFlow Power Pack, a lithium power solution that eliminates idling, cuts fuel costs, and extends starter battery life for heavy-duty trucking.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/7df89b50-fb5f-41c4-b61c-490d34f8fb71/battle-born-dualflow-power-pack-official-product-pr-photo.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.155739,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DFLI",
+                    "relevance_score": "0.346995",
+                    "ticker_sentiment_score": "0.237103",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PSIX",
+                    "relevance_score": "0.06515",
+                    "ticker_sentiment_score": "0.067543",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -840,6 +1420,74 @@
                     "relevance_score": "0.583313",
                     "ticker_sentiment_score": "0.387031",
                     "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "American Tungsten Corp. Engages United Supply Co. to Secure Strategic Offtake and U.S. Defense Sector Relationships Amid Growing National Security Concerns & Announces New Board Appointment",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039630/0/en/American-Tungsten-Corp-Engages-United-Supply-Co-to-Secure-Strategic-Offtake-and-U-S-Defense-Sector-Relationships-Amid-Growing-National-Security-Concerns-Announces-New-Board-Appoint.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "American Tungsten Corp."
+            ],
+            "summary": "Vancouver, BC, March 10, 2025 ( GLOBE NEWSWIRE ) -- American Tungsten Corp. ( CSE:TUNG ) ( OTCQB:DEMRF ) ( FSE:RK9 ) ( \"American Tungsten\" or the \"Company\" ) is pleased to announce that it has engaged United Supply Co. ( \"United Supply\" ) , a specialized advisory group focused on securing ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/7a61d281-bdf9-4695-afe4-e8cf5c3136ce",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.282156,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CSLI",
+                    "relevance_score": "0.027571",
+                    "ticker_sentiment_score": "0.327312",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "KE Holdings Inc. Announces Inclusion of its Class A Ordinary Shares in the Shanghai-Hong Kong Stock Connect and the Shenzhen-Hong Kong Stock Connect Programs",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039640/0/en/KE-Holdings-Inc-Announces-Inclusion-of-its-Class-A-Ordinary-Shares-in-the-Shanghai-Hong-Kong-Stock-Connect-and-the-Shenzhen-Hong-Kong-Stock-Connect-Programs.html",
+            "time_published": "20250310T113000",
+            "authors": [
+                "KE Holdings Inc."
+            ],
+            "summary": "BEIJING, March 10, 2025 ( GLOBE NEWSWIRE ) -- KE Holdings Inc. ( \"Beike\" or the \"Company\" ) ( NYSE: BEKE. HKEX: 2423 ) , a leading integrated online and offline platform for housing transactions and services, today announced that the Company's Class A ordinary shares traded on The Stock Exchange ...",
+            "banner_image": "",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.268696,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BEKE",
+                    "relevance_score": "0.31019",
+                    "ticker_sentiment_score": "0.199522",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.260559",
+                    "ticker_sentiment_score": "0.203764",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -1067,6 +1715,65 @@
             ]
         },
         {
+            "title": "Falcon Adds Embraer and Bombardier Private Jets to Its Fleet",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44216002/falcon-adds-embraer-and-bombardier-private-jets-to-its-fleet",
+            "time_published": "20250310T112911",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "DUBAI, United Arab Emirates, March 10, 2025 ( GLOBE NEWSWIRE ) -- Falcon has today unveiled that it will be adding Embraer Legacy 650 and Bombardier Challenger 850 private jets to its growing fleet.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/c7aefc30-206a-4c60-8387-ed957df6fa32/embraer-and-bombardier-private-jets-.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.436897,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ERJ",
+                    "relevance_score": "0.09186",
+                    "ticker_sentiment_score": "0.169101",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Man Group PLC : Form 8.3 - Dalata Hotel Group",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039623/0/en/Man-Group-PLC-Form-8-3-Dalata-Hotel-Group.html",
+            "time_published": "20250310T112900",
+            "authors": [
+                "Man Group PLC"
+            ],
+            "summary": "...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/91104804-f792-492b-830c-0b7f53193a71",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.495866"
+                }
+            ],
+            "overall_sentiment_score": 0.129263,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
             "title": "Clearmind Medicine Announces Publication of Patent for Cocaine Addiction Psychedelic Combination Treatment in South Korea",
             "url": "https://www.globenewswire.com/news-release/2025/03/10/3039620/0/en/Clearmind-Medicine-Announces-Publication-of-Patent-for-Cocaine-Addiction-Psychedelic-Combination-Treatment-in-South-Korea.html",
             "time_published": "20250310T112700",
@@ -1224,577 +1931,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "Cheer Holding Reports Full Year 2024 Financial Results",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039617/0/en/Cheer-Holding-Reports-Full-Year-2024-Financial-Results.html",
-            "time_published": "20250310T111600",
-            "authors": [
-                "Inc.",
-                "Cheer Holding"
-            ],
-            "summary": "BEIJING, March 10, 2025 ( GLOBE NEWSWIRE ) -- Cheer Holding, Inc. ( NASDAQ: CHR ) ( \"Cheer Holding,\" or the \"Company\" ) , a leading provider of advanced mobile internet infrastructure and platform services, today announced its financial results for the full year ended December 31, 2024.",
-            "banner_image": "",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": 0.218892,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CHR",
-                    "relevance_score": "0.19295",
-                    "ticker_sentiment_score": "0.367959",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "McEwen Mining Inc. Completes $10,000,000 Strategic Investment In Goliath Resources Limited At $1.93 Per Unit - McEwen Mining  ( NYSE:MUX ) , Goliath Resources  ( OTC:GOTRF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44215835/mcewen-mining-inc-completes-10-000-000-strategic-investment-in-goliath-resources-limited-at-1-93-p",
-            "time_published": "20250310T111502",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "TORONTO, March 10, 2025 ( GLOBE NEWSWIRE ) -- Further to its press releases dated January 29, 2025 and February 18, 2025, Goliath Resources Limited GOT GOTRF ( FSE: B4IF ) ( the \"Company\" or \"Goliath\" ) is pleased to announce it has closed its strategic non-brokered private placement of ...",
-            "banner_image": "https://ml.globenewswire.com/media/1e62eefc-e0e8-4c79-8f62-efd031a735ae/small/goliath-bc-logo-with-gradient-gold-justified-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                }
-            ],
-            "overall_sentiment_score": 0.274872,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MUX",
-                    "relevance_score": "0.27432",
-                    "ticker_sentiment_score": "0.265385",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Draganfly Announces New Strategic U.S. Facility Location in Tampa to Bolster National Security and Defense Partnerships",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039602/0/en/Draganfly-Announces-New-Strategic-U-S-Facility-Location-in-Tampa-to-Bolster-National-Security-and-Defense-Partnerships.html",
-            "time_published": "20250310T111500",
-            "authors": [
-                "Draganfly Inc"
-            ],
-            "summary": "Tampa, FL, March 10, 2025 ( GLOBE NEWSWIRE ) -- Draganfly Inc. ( NASDAQ: DPRO. CSE: DPRO ) , Draganfly Inc. ( NASDAQ: DPRO ) ( CSE: DPRO ) ( FSE: 3U8 ) ( \"Draganfly\" or the \"Company\" ) , an award\u2011winning leader in drone solutions and systems development, is proud to announce the establishment of ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/53b6faaf-3b78-4779-ba9d-36c0e91d44cb",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.199711,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DPRO",
-                    "relevance_score": "0.714004",
-                    "ticker_sentiment_score": "0.321883",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "McEwen Mining Inc. Completes $10,000,000 Strategic Investment In Goliath Resources Limited At $1.93 Per Unit",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039603/0/en/McEwen-Mining-Inc-Completes-10-000-000-Strategic-Investment-In-Goliath-Resources-Limited-At-1-93-Per-Unit.html",
-            "time_published": "20250310T111500",
-            "authors": [
-                "Goliath Resources Limited"
-            ],
-            "summary": "TORONTO, March 10, 2025 ( GLOBE NEWSWIRE ) -- Further to its press releases dated January 29, 2025 and February 18, 2025, Goliath Resources Limited ( TSX-V: GOT ) ( OTCQB: GOTRF ) ( FSE: B4IF ) ( the \"Company\" or \"Goliath\" ) is pleased to announce it has closed its strategic non-brokered private ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/1e62eefc-e0e8-4c79-8f62-efd031a735ae",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.891286"
-                }
-            ],
-            "overall_sentiment_score": 0.272741,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MUX",
-                    "relevance_score": "0.285942",
-                    "ticker_sentiment_score": "0.284074",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: Nintendo Stock Will Soar After April 2",
-            "url": "https://www.fool.com/investing/2025/03/10/prediction-nintendo-stock-will-soar-after-april-2/",
-            "time_published": "20250310T111500",
-            "authors": [
-                "Brett Schafer"
-            ],
-            "summary": "The entertainment giant is entering its new era starting next month.",
-            "banner_image": "https://media.ycharts.com/charts/0c9a4586f7cac016168dbd3ac089ea99.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.288533,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NTDOF",
-                    "relevance_score": "0.740815",
-                    "ticker_sentiment_score": "0.437592",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "SKYWORKS SOLUTIONS, INC.  ( NASDAQ: SWKS )  DEADLINE ALERT: Bernstein Liebhard LLP Reminds Skyworks Solutions, Inc. Investors of Upcoming Deadline - Skyworks Solutions  ( NASDAQ:SWKS ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44215830/skyworks-solutions-inc-nasdaq-swks-deadline-alert-bernstein-liebhard-llp-reminds-skyworks-solution",
-            "time_published": "20250310T111500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 10, 2025 ( GLOBE NEWSWIRE ) -- Bernstein Liebhard LLP: Do you, or did you, own shares of Skyworks Solutions, Inc. SWKS? Did you purchase your shares between July 30, 2024 and February 5, 2025, inclusive? Did you lose money in your investment in Skyworks Solutions, Inc.?",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.197653,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SWKS",
-                    "relevance_score": "0.466609",
-                    "ticker_sentiment_score": "0.167198",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROCKET LAB USA, INC.  ( NASDAQ: RKLB )  DEADLINE ALERT: Bernstein Liebhard LLP Reminds Rocket Lab USA, Inc. Investors of Upcoming Deadline - Rocket Lab USA  ( NASDAQ:RKLB ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44215833/rocket-lab-usa-inc-nasdaq-rklb-deadline-alert-bernstein-liebhard-llp-reminds-rocket-lab-usa-inc-in",
-            "time_published": "20250310T111500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 10, 2025 ( GLOBE NEWSWIRE ) -- Bernstein Liebhard LLP: Do you, or did you, own shares of Rocket Lab USA, Inc. RKLB? Did you purchase your shares between November 12, 2024 and February 25, 2025, inclusive? Did you lose money in your investment in Rocket Lab USA, Inc.?",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                }
-            ],
-            "overall_sentiment_score": 0.183619,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RKLB",
-                    "relevance_score": "0.459624",
-                    "ticker_sentiment_score": "0.162478",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Havila Shipping ASA: Contract with Peterson Den Helder BV for PSV Havila Borg",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039589/0/en/Havila-Shipping-ASA-Contract-with-Peterson-Den-Helder-BV-for-PSV-Havila-Borg.html",
-            "time_published": "20250310T111100",
-            "authors": [
-                "Havila Shipping ASA"
-            ],
-            "summary": "Havila Shipping ASA has signed a contract with Peterson Den Helder BV for the PSV Havila Borg on market terms.The contract is planned to be in direct continuation of existing contract and for a firm period of 3 wells estimated to 215 days,with optional periods for 5 wells, each estimated to 65 ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/725bcc04-957f-4a81-9adc-942b14fa4af6",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.15171,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "RC INVESTOR NOTICE: Robbins Geller Rudman & Dowd LLP Announces that Ready Capital Corporation Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit - Ready Capital  ( NYSE:RC ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44215808/rc-investor-notice-robbins-geller-rudman-dowd-llp-announces-that-ready-capital-corporation-investo",
-            "time_published": "20250310T111032",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN DIEGO, March 10, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of Ready Capital Corporation RC common stock between November 7, 2024 and March 2, 2025, both dates inclusive ( the \"Class Period\" ) , have until May 5, 2025 to ...",
-            "banner_image": "https://ml.globenewswire.com/media/a2879a30-a9fa-457e-97f6-7e2cd2528b7b/small/rgrd-logo-2-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.988915"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.123706,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RC",
-                    "relevance_score": "0.794423",
-                    "ticker_sentiment_score": "0.123019",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Cointelegraph Bitcoin & Ethereum Blockchain News",
-            "url": "https://cointelegraph.com/explained/crypto-mixers-and-crosschain-bridges-how-hackers-launder-stolen-assets",
-            "time_published": "20250310T111000",
-            "authors": [],
-            "summary": "Crypto mixers and crosschain bridges help criminals obscure stolen funds, making it harder for investigators to trace illicit transactions.",
-            "banner_image": "https://s3.cointelegraph.com/storage/uploads/view/e595510fdc10981a916e892e48db9a42.jpg",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.99489"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.98396"
-                }
-            ],
-            "overall_sentiment_score": -0.08488,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:CNY",
-                    "relevance_score": "0.013349",
-                    "ticker_sentiment_score": "-0.002561",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.13288",
-                    "ticker_sentiment_score": "-0.034385",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.396019",
-                    "ticker_sentiment_score": "-0.074518",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:UNI",
-                    "relevance_score": "0.026695",
-                    "ticker_sentiment_score": "-0.002797",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:RUNE",
-                    "relevance_score": "0.040033",
-                    "ticker_sentiment_score": "-0.03638",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XMR",
-                    "relevance_score": "0.026695",
-                    "ticker_sentiment_score": "-0.002797",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:CAKE",
-                    "relevance_score": "0.013349",
-                    "ticker_sentiment_score": "-0.002561",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Design Therapeutics Highlights Progress Across Lead GeneTAC\u00ae Programs and Reports Fourth Quarter and Full Year 2024 Financial Results",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039587/0/en/Design-Therapeutics-Highlights-Progress-Across-Lead-GeneTAC-Programs-and-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results.html",
-            "time_published": "20250310T110700",
-            "authors": [
-                "Inc.",
-                "Design Therapeutics"
-            ],
-            "summary": "Initiated Phase 1 Single Ascending Dose Trial of DT-216P2 in Healthy Volunteers. Friedreich Ataxia ( FA ) Patient Dosing to Begin in ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/bbfe687d-5236-42ea-8012-8ab435c6914d",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": 0.108721,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DSGN",
-                    "relevance_score": "0.11763",
-                    "ticker_sentiment_score": "0.033967",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Transactions in connection with share buyback programme",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039586/0/en/Transactions-in-connection-with-share-buyback-programme.html",
-            "time_published": "20250310T110600",
-            "authors": [
-                "Pandora A/S"
-            ],
-            "summary": "On 5 February 2025, Pandora announced a new share buyback programme, cf. Company announcement no. 923. The share buyback programme is executed in accordance with Regulation ( EU ) No 596/2014 of the European Parliament and of the Council of 16 April 2014 on market abuse ( market abuse regulation ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/d0b383fd-1706-44d9-b97c-638bcdc4f635",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.249952,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Kraig Biocraft Laboratories Meets its Target With Largest Ever Product Batch of BAM-1 Spider Silk - Surpassing Entire 2024 Output",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039585/0/en/Kraig-Biocraft-Laboratories-Meets-its-Target-With-Largest-Ever-Product-Batch-of-BAM-1-Spider-Silk-Surpassing-Entire-2024-Output.html",
-            "time_published": "20250310T110500",
-            "authors": [
-                "Kraig Biocraft Laboratories"
-            ],
-            "summary": "Kraig Labs (OTCQB: KBLB) began its largest single batch of BAM-1 recombinant spider silk, exceeding all of its 2024 production ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/a69e49e5-be00-4202-93df-13c1534fe33e/bam-1-silkworms-1-.jpg",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.243839,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.059935",
-                    "ticker_sentiment_score": "0.095",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Kraig Biocraft Laboratories Meets its Target With Largest Ever Product Batch of BAM-1 Spider Silk - Surpassing Entire 2024 Output - Kraig Biocraft  ( OTC:KBLB ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44215743/kraig-biocraft-laboratories-meets-its-target-with-largest-ever-product-batch-of-bam-1-spider-silk-",
-            "time_published": "20250310T110500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ANN ARBOR, Mich., March 10, 2025 ( GLOBE NEWSWIRE ) -- Kraig Biocraft Laboratories, Inc. KBLB ( \"Company\" or \"Kraig Labs\" ) , a global leader in engineered spider silk technologies, is thrilled to announce that it has begun production of the largest single batch of BAM-1 recombinant spider silk ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/a69e49e5-be00-4202-93df-13c1534fe33e/bam-1-silkworms-1-.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.242158,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.055492",
-                    "ticker_sentiment_score": "0.09486",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Kaspi.kz Files Annual Report on Form 20-F",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039584/0/en/Kaspi-kz-Files-Annual-Report-on-Form-20-F.html",
-            "time_published": "20250310T110300",
-            "authors": [
-                "JSC Kaspi.kz"
-            ],
-            "summary": "ALMATY, Kazakhstan, March 10, 2025 ( GLOBE NEWSWIRE ) -- Joint Stock Company Kaspi.kz ( \"Kaspi.kz\", \"we\", or the \"Company\" ) ( Nasdaq: KSPI ) today announced that the Company has filed its Annual Report on Form 20-F for the year ended December 31, 2024 with the U.S.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/1eb80226-7ba7-4120-833c-7754cb49b08c",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.354917,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Food Basics is joining communities across Ontario to 'Celebrate! Share! Enjoy!' this Ramadan",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039583/0/en/Food-Basics-is-joining-communities-across-Ontario-to-Celebrate-Share-Enjoy-this-Ramadan.html",
-            "time_published": "20250310T110200",
-            "authors": [
-                "Metro Inc."
-            ],
-            "summary": "In partnering with Muslim-based organizations across Ontario, Food Basics aims to support and uplift Ramadan celebrations through food and shared experiences In partnering with Muslim-based organizations across Ontario, Food Basics aims to support and uplift Ramadan celebrations through food and ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/4b163d4b-9b04-4618-a7c9-213e23936c60",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.433573,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MTRAF",
-                    "relevance_score": "0.042421",
-                    "ticker_sentiment_score": "0.072102",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GLP",
-                    "relevance_score": "0.042421",
-                    "ticker_sentiment_score": "0.240112",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Automotive Sliding Load Floor Market is Expected to Reach USD 3,517 Million by 2035, Growing at 7.3% CAGR | Fact.MR Report",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44215422/automotive-sliding-load-floor-market-is-expected-to-reach-usd-3-517-million-by-2035-growing-at-7-3",
-            "time_published": "20250310T110000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Rockville, MD, March 10, 2025 ( GLOBE NEWSWIRE ) -- According to Fact.MR, a market research and competitive intelligence provider, the automotive sliding load floor market is estimated to reach a valuation of USD 1,738 million in 2025 and is expected to grow at a CAGR of 7.3% during the forecast ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/4965a01a-b032-41f6-8bc3-1e57e5de4703/automotive-sliding-load-floor-market.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.400863,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
