@@ -1,8 +1,37 @@
 {
-    "items": "34",
+    "items": "35",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Company Unveils Larger Aircraft With a Highly Configurable Cabin and Most Standard Safety Equipment in the Segment, Allowing Operators to Accomplish More",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44212210/company-unveils-larger-aircraft-with-a-highly-configurable-cabin-and-most-standard-safety-equipmen",
+            "time_published": "20250310T004500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "All-New R88 Powered by Single Engine Safran Arriel 2W and Serenity Package Dual Cyclic Controls and Single-Pilot IFR Operations Most Affordable to Own, Operate and Maintain in its Class",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/ef5b7aa1-24d2-4733-afc0-93eac848ad5f/robinson-r88-exterior.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.282746,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GRMN",
+                    "relevance_score": "0.040899",
+                    "ticker_sentiment_score": "0.057757",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Mark Carney Takes Justin Trudeau's Job As Canada's New PM, Ready to Face Trump's Tariff Threats: 'I Know How To Manage Crises'",
             "url": "https://www.benzinga.com/25/03/44212152/mark-carney-takes-justin-trudeaus-job-as-canadas-new-pm-ready-to-face-trumps-tariff-threats-i-know-how-to-manage-",
