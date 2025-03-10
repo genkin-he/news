@@ -1,8 +1,135 @@
 {
-    "items": "32",
+    "items": "31",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "US dollar plunge powers Bitcoin bull case, but other metrics concern: Analyst",
+            "url": "https://cointelegraph.com/news/dollar-plunge-powers-bitcoin-bull-case-but-bond-metrics-flash-warning-signals",
+            "time_published": "20250310T044429",
+            "authors": [
+                "Martin Young"
+            ],
+            "summary": "Real Vision analyst Jamie Coutts says Bitcoin is playing a \"high-stakes game of chicken\" with central banks, giving it a cautious outlook.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957e4e-c92d-7ba8-9e9c-8252977c497c",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998947"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.077867,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.374312",
+                    "ticker_sentiment_score": "-0.115617",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.670742",
+                    "ticker_sentiment_score": "0.261681",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Utah Legislature Passes Blockchain Bill, Drops Bitcoin Reserve Provision",
+            "url": "https://decrypt.co/309284/utah-legislature-passes-blockchain-bill-drops-bitcoin-reserve-provision",
+            "time_published": "20250310T043936",
+            "authors": [
+                "Sebastian Sinclair"
+            ],
+            "summary": "The removed part would have let Utah's treasurer invest state funds in digital assets, possibly creating a state-run Bitcoin reserve.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/Photo-by-Kace-Lott-on-Unsplash-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.073899,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.608634",
+                    "ticker_sentiment_score": "0.247485",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Five Key Moves in March the White House Has Made for Crypto",
+            "url": "https://decrypt.co/309281/five-key-moves-in-march-the-white-house-has-made-for-crypto",
+            "time_published": "20250310T043202",
+            "authors": [
+                "Vince Dioquino"
+            ],
+            "summary": "Last week, Trump hosted crypto leaders at the White House and unveiled a Bitcoin-first strategy, vowing to \"never sell.\" Here's the latest.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/03/White-House-shutterstock_114757342-16x9-1-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.249054,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.061159",
+                    "ticker_sentiment_score": "0.225158",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.557075",
+                    "ticker_sentiment_score": "0.389194",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ADA",
+                    "relevance_score": "0.061159",
+                    "ticker_sentiment_score": "0.150039",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:XRP",
+                    "relevance_score": "0.061159",
+                    "ticker_sentiment_score": "0.150039",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Jamie Dimon Cashed Out $234 Million In JPMorgan Stock, Warren Buffett Stockpiled $334 Billion In Cash - Weeks Later, Markets Crashed. Coincidence? - JPMorgan Chase  ( NYSE:JPM ) , Goldman Sachs Group  ( NYSE:GS ) ",
             "url": "https://www.benzinga.com/markets/equities/25/03/44212672/jamie-dimon-cashed-out-234-million-in-jpmorgan-stock-warren-buffett-stockpiled-334-billion-in-ca",
@@ -55,6 +182,35 @@
                 {
                     "ticker": "TSLA",
                     "relevance_score": "0.184598",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "European bond yields expected to rise along with military spending",
+            "url": "https://www.scmp.com/business/markets/article/3301735/european-bond-yields-set-rise-us-ukraine-stance-boosts-military-spend-bnp-paribas",
+            "time_published": "20250310T042116",
+            "authors": [
+                "Cao Li"
+            ],
+            "summary": "'We're not talking small numbers here,' BNP Paribas executive says.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/10/3f8d345a-58b4-48da-b280-3663f06cb6df_6db17707.jpg?itok=Ala52u6P&v=1741580474",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.989041"
+                }
+            ],
+            "overall_sentiment_score": 0.158284,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:EUR",
+                    "relevance_score": "0.070725",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
                 }
@@ -353,6 +509,64 @@
             ]
         },
         {
+            "title": "Trump refuses to rule out recession, says economy in 'transition' amid market turmoil - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/policy/trump-refuses-to-rule-out-recession-says-economy-in-transition-amid-market-turmoil/118829551",
+            "time_published": "20250310T033722",
+            "authors": [
+                "ETCFO",
+                "TOI World Desk"
+            ],
+            "summary": "US President Donald Trump remains noncommittal about a potential recession in 2025. Despite reassurances from Trump and Commerce Secretary Howard Lutnick, economic indicators such as a negative GDP forecast and declining consumer confidence fuel concerns.",
+            "banner_image": "https://st.etb2bimg.com/Themes/Release/theme4/images/bar-codes/cfo_barcode.png?mod=2846",
+            "source": "Economic Times",
+            "category_within_source": "Top Stories",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": -0.249954,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.109956",
+                    "ticker_sentiment_score": "-0.119483",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.109956",
+                    "ticker_sentiment_score": "-0.119483",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.109956",
+                    "ticker_sentiment_score": "-0.119483",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "GST rates to be reduced further, rationalisation on the cards: FM Sitharaman - ETCFO",
             "url": "https://cfo.economictimes.indiatimes.com/news/tax-legal-accounting/gst-rates-to-be-reduced-further-rationalisation-on-the-cards-fm-sitharaman/118829470",
             "time_published": "20250310T033001",
@@ -402,6 +616,29 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "Auditors and audit committees must strengthen communication on income tax estimates, says NFRA - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/tax-legal-accounting/auditors-and-audit-committees-must-strengthen-communication-on-income-tax-estimates-says-nfra/118829160",
+            "time_published": "20250310T032054",
+            "authors": [
+                "Alekh Shah",
+                "ETCFO"
+            ],
+            "summary": "The National Financial Reporting Authority (NFRA) has called for enhanced communication between auditors and audit committees regarding complex tax estimates under Ind AS 12, particularly Deferred Tax Assets (DTAs) and Liabilities (DTLs).",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Top Stories",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.252547,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Small Plane Crashes In Pennsylvania Retirement Facility Parking Lot After Pilot Reports 'Open Door'",
@@ -1038,235 +1275,6 @@
                     "ticker": "CRYPTO:BTC",
                     "relevance_score": "0.417995",
                     "ticker_sentiment_score": "0.061955",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Stop 'flaunting wealth', Chinese bankers told in new guidelines",
-            "url": "https://www.scmp.com/economy/china-economy/article/3301523/stop-flaunting-wealth-chinese-bankers-told-new-guidelines",
-            "time_published": "20250310T010018",
-            "authors": [
-                "Sylvia Ma"
-            ],
-            "summary": "The draft rules will penalise securities firms if their staff indulge in 'excessive luxury', but reward them for spreading 'positive messages' in the media.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/07/2c97035c-0f8e-4b74-ac79-b4dcf7bb1fc3_13ac2a78.jpg?itok=EoOfcgrM&v=1741340568",
-            "source": "South China Morning Post",
-            "category_within_source": "Money",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": 0.204384,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CNICF",
-                    "relevance_score": "0.080458",
-                    "ticker_sentiment_score": "-0.179542",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Methanex Provides Update on Geismar Operations",
-            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039427/0/en/Methanex-Provides-Update-on-Geismar-Operations.html",
-            "time_published": "20250310T010000",
-            "authors": [
-                "Methanex Corporation"
-            ],
-            "summary": "VANCOUVER, British Columbia, March 09, 2025 ( GLOBE NEWSWIRE ) -- Methanex Corporation ( TSX:MX ) ( Nasdaq:MEOH ) announced today that its 1.8 million tonne methanol plant, Geismar 3 ( G3 ) , in Geismar, Louisiana was impacted by an unplanned outage in late February.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/365b645c-17ea-4b73-a46e-9adb2324f2ca",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.918141"
-                }
-            ],
-            "overall_sentiment_score": 0.065398,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MEOH",
-                    "relevance_score": "0.796338",
-                    "ticker_sentiment_score": "0.164327",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Company Unveils Larger Aircraft With a Highly Configurable Cabin and Most Standard Safety Equipment in the Segment, Allowing Operators to Accomplish More",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44212210/company-unveils-larger-aircraft-with-a-highly-configurable-cabin-and-most-standard-safety-equipmen",
-            "time_published": "20250310T004500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "All-New R88 Powered by Single Engine Safran Arriel 2W and Serenity Package Dual Cyclic Controls and Single-Pilot IFR Operations Most Affordable to Own, Operate and Maintain in its Class",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/ef5b7aa1-24d2-4733-afc0-93eac848ad5f/robinson-r88-exterior.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.282746,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GRMN",
-                    "relevance_score": "0.040899",
-                    "ticker_sentiment_score": "0.057757",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "China's high-end rental market struggles post-Covid amid dwindling expats, firms",
-            "url": "https://www.scmp.com/business/article/3301495/chinas-high-end-rental-market-struggles-post-covid-amid-dwindling-expats-firms",
-            "time_published": "20250310T003013",
-            "authors": [
-                "Yuke Xie"
-            ],
-            "summary": "Rents in upmarket districts of Beijing and Shanghai slumped by as much as 17 per cent year on year in February, Beike says.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/07/709f8e9a-d288-407a-ab0e-e8b037de1d3e_29102b25.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": -0.047868,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BEKE",
-                    "relevance_score": "0.04794",
-                    "ticker_sentiment_score": "-0.055251",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Mark Carney Takes Justin Trudeau's Job As Canada's New PM, Ready to Face Trump's Tariff Threats: 'I Know How To Manage Crises'",
-            "url": "https://www.benzinga.com/25/03/44212152/mark-carney-takes-justin-trudeaus-job-as-canadas-new-pm-ready-to-face-trumps-tariff-threats-i-know-how-to-manage-",
-            "time_published": "20250310T002729",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "Mark Carney, a former central banker, is poised to become Canada's new prime minister, with the task of steering the nation through the challenges posed by tariffs imposed by Donald Trump. What Happened: The Liberals announced Carney as the successor to Justin Trudeau on Sunday, following a party ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Toronto--Canada---January-11-2024-Mark-J.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.055895,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.09989",
-                    "ticker_sentiment_score": "0.06024",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Utah's Senate passes Bitcoin bill - but scraps key provision",
-            "url": "https://cointelegraph.com/news/utah-senate-passes-bitcoin-bill-but-removes-reserve-clause",
-            "time_published": "20250310T000712",
-            "authors": [
-                "Brayden Lindrea"
-            ],
-            "summary": "Utah lawmakers have passed a Bitcoin bill after amending it to remove a section that would have authorized the state treasurer to invest in Bitcoin.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957d3e-ba55-718e-93d2-908c64fb5513",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.079635,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.915592",
-                    "ticker_sentiment_score": "0.238056",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, TOP RANKED INVESTOR COUNSEL, Encourages GSK plc Investors to Secure Counsel Before Important Deadline in Securities Class Action - GSK - GSK  ( NYSE:GSK ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44212060/rosen-top-ranked-investor-counsel-encourages-gsk-plc-investors-to-secure-counsel-before-important-",
-            "time_published": "20250309T235600",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 09, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of American Depositary Receipts ( \"ADRs\" ) of GSK plc GSK between February 5, 2020 and August 14, 2022, both dates inclusive ( the \"Class Period\" ) , of the important ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.128716,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.05387",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GSK",
-                    "relevance_score": "0.500753",
-                    "ticker_sentiment_score": "-0.003239",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
