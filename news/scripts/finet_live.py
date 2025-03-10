@@ -15,21 +15,20 @@ headers = {
     "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
     "cache-control": "no-cache",
     "pragma": "no-cache",
-    "sec-ch-ua": '"Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"',
+    "sec-ch-ua": '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "x-requested-with": "XMLHttpRequest",
-    "cookie": "_ga=GA1.1.315295218.1738825386; Hm_lvt_f5cb0137b11ed6eb8cfe4c83298a2298=1738825386; HMACCOUNT=9A19876B32AC0784; Hm_lpvt_f5cb0137b11ed6eb8cfe4c83298a2298=1738825489; _ga_QV63PCW4FX=GS1.1.1738825385.1.1.1738825893.60.0.0; ci_session=5a2a84054b60998a6e4e50d13f73abf7073213e0",
+    "cookie": "ci_session=15756046187f3017c4dedbed70628509f76c0390; _ga=GA1.1.1437542055.1741571248; Hm_lvt_f5cb0137b11ed6eb8cfe4c83298a2298=1741571248; HMACCOUNT=7E20D69DD237F3AF; Hm_lpvt_f5cb0137b11ed6eb8cfe4c83298a2298=1741571335; _ga_QV63PCW4FX=GS1.1.1741571247.1.1.1741571402.60.0.0",
     "Referer": "https://www.finet.hk/latest/latestnews",
     "Referrer-Policy": "strict-origin-when-cross-origin",
 }
 base_url = "https://www.finet.hk/latest/latestnews"
 filename = "./news/data/finet/live.json"
 util = SpiderUtil()
-
 
 def run():
     # 读取保存的文件
@@ -41,9 +40,9 @@ def run():
     # Using requests instead of urllib
     response = requests.get(
         "https://www.finet.hk/latest/geteslatest/1/{}".format(int(time.time())),
-        headers=headers
+        headers=headers,
     )
-    
+
     if response.status_code == 200:  # Changed from status to status_code
         posts = response.json()["data"]  # Directly using .json() method
         for _, post in enumerate(posts):
