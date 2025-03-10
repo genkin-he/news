@@ -1,8 +1,70 @@
 {
-    "items": "32",
+    "items": "34",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Mark Carney Takes Justin Trudeau's Job As Canada's New PM, Ready to Face Trump's Tariff Threats: 'I Know How To Manage Crises'",
+            "url": "https://www.benzinga.com/25/03/44212152/mark-carney-takes-justin-trudeaus-job-as-canadas-new-pm-ready-to-face-trumps-tariff-threats-i-know-how-to-manage-",
+            "time_published": "20250310T002729",
+            "authors": [
+                "Shivdeep Dhaliwal"
+            ],
+            "summary": "Mark Carney, a former central banker, is poised to become Canada's new prime minister, with the task of steering the nation through the challenges posed by tariffs imposed by Donald Trump. What Happened: The Liberals announced Carney as the successor to Justin Trudeau on Sunday, following a party ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/09/Toronto--Canada---January-11-2024-Mark-J.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.055895,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.09989",
+                    "ticker_sentiment_score": "0.06024",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Utah's Senate passes Bitcoin bill - but scraps key provision",
+            "url": "https://cointelegraph.com/news/utah-senate-passes-bitcoin-bill-but-removes-reserve-clause",
+            "time_published": "20250310T000712",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "Utah lawmakers have passed a Bitcoin bill after amending it to remove a section that would have authorized the state treasurer to invest in Bitcoin.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01957d3e-ba55-718e-93d2-908c64fb5513",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.079635,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.915592",
+                    "ticker_sentiment_score": "0.238056",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "ROSEN, TOP RANKED INVESTOR COUNSEL, Encourages GSK plc Investors to Secure Counsel Before Important Deadline in Securities Class Action - GSK - GSK  ( NYSE:GSK ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44212060/rosen-top-ranked-investor-counsel-encourages-gsk-plc-investors-to-secure-counsel-before-important-",
@@ -42,6 +104,45 @@
                     "ticker": "GSK",
                     "relevance_score": "0.500753",
                     "ticker_sentiment_score": "-0.003239",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Exclusive | Why a Kazakhstan tycoon wants to partner with China to ride the EV wave",
+            "url": "https://www.scmp.com/business/china-business/article/3301654/why-tycoon-kazakhstan-wants-partner-china-ride-overwhelming-ev-wave",
+            "time_published": "20250309T233011",
+            "authors": [
+                "Yujie Xue"
+            ],
+            "summary": "'We are a natural partner for China, especially in the growing EV sector,' says Kenges Rakishev, chairman of the Fincraft Group.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/09/73d3eed6-5f42-4106-8729-720da341037c_f7e793ba.jpg?itok=KxAJPyKu&v=1741486056",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.175957,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "XPEV",
+                    "relevance_score": "0.047185",
+                    "ticker_sentiment_score": "0.068026",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LI",
+                    "relevance_score": "0.047185",
+                    "ticker_sentiment_score": "0.068026",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1287,49 +1388,6 @@
                     "ticker": "FOX",
                     "relevance_score": "0.154455",
                     "ticker_sentiment_score": "-0.055931",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, TRUSTED INVESTOR COUNSEL, Encourages Atkore Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - ATKR - Atkore  ( NYSE:ATKR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44211292/rosen-trusted-investor-counsel-encourages-atkore-inc-investors-to-secure-counsel-before-important-",
-            "time_published": "20250309T173200",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 09, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Atkore Inc. ATKR between February 1, 2024 and February 3, 2025, both dates inclusive ( the \"Class Period\" ) , of the important April 23, 2025 lead ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.133922,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ATKR",
-                    "relevance_score": "0.389744",
-                    "ticker_sentiment_score": "-0.016601",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.058047",
-                    "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
