@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 757448,
+            "title": "Utah scraps bitcoin reserve provision before advancing state’s crypto bill",
+            "description": "The original bill proposed the state treasurer to invest up to 5% of certain public funds in crypto with a market cap above $500 billion.\nsource: https://www.theblock.co/post/345390/utah-scraps-bitcoin-reserve-provision-before-advancing-states-crypto-bill?utm_source=rss&utm_medium=rss",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757448&language=en-US",
+            "pub_date": "2025-03-10 14:51:01",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 757447,
+            "title": "Alberta Securities Commission of Canada: CanCap project may be a crypto investment scam",
+            "description": "Odaily Planet Daily News: The Alberta Securities Commission (ASC) of Canada has issued an investor warning that the crypto investment project CanCap, which has been promoted on social media and the Internet recently, may involve fraud. The scam pretends to be supported by the Alberta government and uses a fake CBC news article containing a picture of Canadian Prime Minister Justin Trudeau, claiming that it supports an investment plan involving digital currency. Upon investigation, CanCap is associated with multiple suspicious websites, including ecosmartfunds.com, heepstekk.com, primeinvests.eu, muxcap.io, webtrader.springhill.top and traderboltai.com, and these platforms and related companies are not registered in Canada and have no right to provide investment transactions or advice.\nThe ASC emphasized that CanCap has nothing to do with the legitimate financial company CanCap Group. The ASC warned that crypto scams often use well-known company names, fake celebrity endorsements, fake news reports and current economic events to create credibility, while promising high returns and low risks to attract investors. The ASC advises the public to visit CheckFirst.ca to verify the registration information of investment companies and be wary of similar frauds.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757447&language=en-US",
+            "pub_date": "2025-03-10 14:53:59",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 757446,
+            "title": "Santiment: Large Bitcoin holders have re-accumulated nearly 5,000 Bitcoins in the past week, and the market performance may improve in the second half of the month",
+            "description": "Odaily Planet Daily News According to Santiment analysis, wallets holding more than 10 bitcoins have re-accumulated nearly 5,000 bitcoins since March 3, while retail investors are panicking.\nThe data chart shows several key time points: large holders began to hoard at the beginning of the bull market on October 12 last year; hoarding was suspended during the holiday decline on December 26; hoarding resumed on January 12, a week before Trump's inauguration (when Bitcoin hit a record high of $109,000); selling began on February 19; hoarding began again on March 3 when retail sentiment was the most pessimistic.\nSantiment said that although prices have not yet responded to large-scale buying behavior, if these key stakeholders continue to hoard, the market performance in the second half of March may be better than the \"bloodbath\" market in the seven weeks after Bitcoin hit a record high.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757446&language=en-US",
+            "pub_date": "2025-03-10 14:56:17",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 757444,
             "title": "Ethereum Sepolia Testnet Faces Challenges After Pectra Upgrade",
             "description": "According to Cointelegraph, the recent Pectra upgrade on Ethereum's Sepolia testnet encountered significant errors, exacerbated by an attacker exploiting an edge case to mine empty blocks. The upgrade was implemented on March 5 at 7:29 am, but Ethereum developer Marius van der Wijden reported on March 8 that error messages began appearing on their geth node, leading to the mining of empty blocks.\n\nThe issue stemmed from the deposit contract triggering a transfer event instead of a deposit event. Although a fix was deployed, van der Wijden noted that they overlooked one edge case, which an unknown user exploited by sending a 0-token transfer to the deposit address, causing the error to resurface. \"After a few minutes, we saw a lot of empty blocks again, so we looked into the transaction pools and found another offending transaction that triggered the same edge cases,\" he explained.\n\nInitially, the team suspected a mistake from trusted validators, but it was soon discovered that the transaction originated from a newly funded account via the faucet. The ERC-20 standard does not prohibit zero token transfers, allowing anyone to transfer tokens to another address, which the attacker utilized. \"The only way to stop the attack would be to filter out all transactions that interact with the deposit contract. So we made the following private fix, which we deployed to a few of the DevOps nodes,\" van der Wijden stated.\n\nBy 2 pm, all nodes were updated with the fix, and the problematic transaction was successfully mined. Van der Wijden assured that finalization was never lost during the incident, and the issue was confined to Sepolia due to the use of a token-gated deposit contract instead of the standard mainnet deposit contract. The Pectra upgrade had previously been tested on the Holesky testnet on February 26, which also faced challenges.\n\nConsequently, developers have decided to delay the Pectra upgrade until further testing can be conducted. The Pectra fork follows the network's Dencun upgrade, which reduced transaction fees for layer-2 networks and enhanced the economics of Ethereum rollups. The Dencun hard fork was rolled out on March 13, 2024. Additionally, the Ethereum Foundation has introduced a new leadership structure, appointing Hsiao-Wei Wang and Tomasz Stańczak as co-directors.",
@@ -66,36 +96,6 @@
             "description": "Odaily Planet Daily News TradingView data shows that the price of Ethereum plunged nearly 20% in the seven days ending March 9, marking the largest weekly percentage drop since November 2022. The sell-off broke the bull trend line that began from the lows after the collapse of Terra algorithmic stablecoin UST in June 2022, which led to the loss of billions of investor wealth. This decisive drop means that Ethereum's nearly three-year bull trend may have ended, and the focus turns to deeper losses, possibly falling to support near the September-October 2023 low, around $1,500. Trendlines help visualize the direction of trader funds and where prices may change. An ascending or bull trendline represents a level where demand is expected to be sufficient to avoid further price declines. When a long-term bullish trendline is broken, as in the case of ETH, it indicates weakening demand, indicating a possible bearish shift in market trends. Breaking through a trendline often prompts other traders to sell, resulting in greater losses. (CoinDesk)",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757434&language=en-US",
             "pub_date": "2025-03-10 14:09:51",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 757432,
-            "title": "UXLINK OAOG (One Account One Gas) protocol is launched",
-            "description": "Odaily Planet Daily News: UXLINK, a social infrastructure project, announced on the official X platform that its OAOG (One Account One Gas) protocol has been officially launched.\nWith UXLINK OAOG, users only need one social account and one GAS token (UXLINK) to seamlessly interact between various blockchains. This innovation simplifies the Web3 experience, enables smoother transactions, and enhances user control.\nThe head of the UXLINK community said that we have been committed to allowing more ordinary users to actively participate in Web3 interactions, but the previous high threshold severely limited user participation. Through the OAOG protocol, users have obtained a smooth interactive experience, convenient account management and better security, which will effectively promote the development of large-scale Web3 applications and help the development of the industry.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757432&language=en-US",
-            "pub_date": "2025-03-10 13:59:59",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 757430,
-            "title": "U.S. Commerce Secretary: Tariff strategy will drive $1.3 trillion in investment and boost U.S. economic growth",
-            "description": "Odaily Planet Daily News: U.S. Commerce Secretary Howard Lutnick denied the risk of a recession and said Trump's tariff strategy would drive $1.3 trillion in investment and unleash the potential for U.S. economic growth. Despite Lutnick's optimism, cryptocurrency traders are less confident, with Bitcoin and other cryptocurrencies falling, and Polymarket's forecast of the probability of a U.S. recession in 2025 rising to 41%. (CoinDesk)",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757430&language=en-US",
-            "pub_date": "2025-03-10 13:45:14",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 757429,
-            "title": "Adam Back: The US Bitcoin strategic reserve is of great significance and provides an authoritative reference for institutional funds to enter the market",
-            "description": "Odaily Planet Daily News: Adam Back, co-founder of Bitcoin infrastructure development company Blockstream, wrote in X: \"The impact of the US Bitcoin strategic reserve statement has been underestimated, and it has far-reaching significance for the social acceptance of Bitcoin. This statement marks that the US government is actually promoting the development of Bitcoin and provides a new authoritative reference for sovereign wealth funds, pension funds and mutual funds to allocate Bitcoin.\"",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=757429&language=en-US",
-            "pub_date": "2025-03-10 13:37:38",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
