@@ -1,8 +1,84 @@
 {
-    "items": "35",
+    "items": "38",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "South Korea Should Consider Bitcoin Reserve, Say Industry Lobbyists, Democratic Party Members",
+            "url": "https://decrypt.co/309278/south-korea-should-consider-bitcoin-reserve-say-industry-lobbyists",
+            "time_published": "20250310T012058",
+            "authors": [
+                "Vince Dioquino"
+            ],
+            "summary": "The country's financial experts and opposition lawmakers proposed adding crypto to a national stockpile Wednesday, as the U.S. pushes ahead.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/11/south-korea-bitcoin-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.890401"
+                }
+            ],
+            "overall_sentiment_score": 0.096745,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.073098",
+                    "ticker_sentiment_score": "0.118927",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.417995",
+                    "ticker_sentiment_score": "0.061955",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Methanex Provides Update on Geismar Operations",
+            "url": "https://www.globenewswire.com/news-release/2025/03/10/3039427/0/en/Methanex-Provides-Update-on-Geismar-Operations.html",
+            "time_published": "20250310T010000",
+            "authors": [
+                "Methanex Corporation"
+            ],
+            "summary": "VANCOUVER, British Columbia, March 09, 2025 ( GLOBE NEWSWIRE ) -- Methanex Corporation ( TSX:MX ) ( Nasdaq:MEOH ) announced today that its 1.8 million tonne methanol plant, Geismar 3 ( G3 ) , in Geismar, Louisiana was impacted by an unplanned outage in late February.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/365b645c-17ea-4b73-a46e-9adb2324f2ca",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                }
+            ],
+            "overall_sentiment_score": 0.065398,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MEOH",
+                    "relevance_score": "0.796338",
+                    "ticker_sentiment_score": "0.164327",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Company Unveils Larger Aircraft With a Highly Configurable Cabin and Most Standard Safety Equipment in the Segment, Allowing Operators to Accomplish More",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44212210/company-unveils-larger-aircraft-with-a-highly-configurable-cabin-and-most-standard-safety-equipmen",
@@ -28,6 +104,39 @@
                     "ticker": "GRMN",
                     "relevance_score": "0.040899",
                     "ticker_sentiment_score": "0.057757",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "China's high-end rental market struggles post-Covid amid dwindling expats, firms",
+            "url": "https://www.scmp.com/business/article/3301495/chinas-high-end-rental-market-struggles-post-covid-amid-dwindling-expats-firms",
+            "time_published": "20250310T003013",
+            "authors": [
+                "Yuke Xie"
+            ],
+            "summary": "Rents in upmarket districts of Beijing and Shanghai slumped by as much as 17 per cent year on year in February, Beike says.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/07/709f8e9a-d288-407a-ab0e-e8b037de1d3e_29102b25.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": -0.047868,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BEKE",
+                    "relevance_score": "0.04794",
+                    "ticker_sentiment_score": "-0.055251",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
