@@ -1,8 +1,243 @@
 {
-    "items": "45",
+    "items": "44",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "We 'must act': Europe retaliates against Trump's 25% tariffs on steel and aluminum imports",
+            "url": "https://www.cnbc.com/2025/03/12/we-must-act-europe-says-retaliating-against-trumps-tariffs.html",
+            "time_published": "20250312T075729",
+            "authors": [],
+            "summary": "The European Union said it would impose counter-tariffs on 26 billion euros ($28.33 billion) worth of U.S. goods starting in April in response to the duties.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": -0.0168,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Elon Musk Says Tesla Will Double US Production in 2 Years After Trump Backs EV Giant Amid Stock Slump - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/markets/equities/25/03/44269513/elon-musk-says-tesla-will-double-us-production-in-2-years-after-trump-backs-ev-giant-amid-stock-",
+            "time_published": "20250312T075039",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "Elon Musk has announced that Tesla Inc. TSLA will double vehicle production in the U.S. within two years. What Happened: Musk, in a post on X said that Tesla commits to doubling vehicle production \"in support of the policies of President Donald Trump\" and to \"demonstrate our confidence in the ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Elon-Musk-Slams-Attacks-On-Tesla-Vehicle.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.246953,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.843315",
+                    "ticker_sentiment_score": "0.453079",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Negative profit warning: Dovre Group Plc lowers its guidance for 2024",
+            "url": "https://www.globenewswire.com/news-release/2025/03/12/3041144/0/en/Negative-profit-warning-Dovre-Group-Plc-lowers-its-guidance-for-2024.html",
+            "time_published": "20250312T073700",
+            "authors": [
+                "Dovre Group Oyj"
+            ],
+            "summary": "Dovre Group Plc Inside information March 12, 2025, at 9:37 am ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/2c706438-01f2-4657-a35d-20cde0a4402d",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.048079,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Trump's 25% Tariffs On Steel And Aluminum Imports Take Effect: US Steel, Nucor, Century Aluminum And Other Domestic Stocks Cheer - Alcoa  ( NYSE:AA ) , Century Aluminum  ( NASDAQ:CENX ) ",
+            "url": "https://www.benzinga.com/markets/equities/25/03/44269301/trumps-25-tariffs-on-steel-and-aluminum-imports-take-effect-eu-retaliates-us-steel-nucor-century",
+            "time_published": "20250312T073447",
+            "authors": [
+                "Namrata Sen"
+            ],
+            "summary": "The 25% tariffs on steel and aluminum imports imposed by U.S. President Donald Trump have now taken effect, triggering a swift retaliation from the European Union.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Braddock--Pa-Usa---December-13--2019-Uni.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.017077,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AA",
+                    "relevance_score": "0.16117",
+                    "ticker_sentiment_score": "0.265456",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CNMTF",
+                    "relevance_score": "0.16117",
+                    "ticker_sentiment_score": "-0.054036",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NYT",
+                    "relevance_score": "0.081001",
+                    "ticker_sentiment_score": "0.078361",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "X",
+                    "relevance_score": "0.16117",
+                    "ticker_sentiment_score": "0.265456",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CENX",
+                    "relevance_score": "0.239698",
+                    "ticker_sentiment_score": "0.216681",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NUE",
+                    "relevance_score": "0.16117",
+                    "ticker_sentiment_score": "0.265456",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Supplement to the proposals of Fingrid Oyj's Shareholders' Nomination Board to the Annual General Meeting 2025",
+            "url": "https://www.globenewswire.com/news-release/2025/03/12/3041142/0/en/Supplement-to-the-proposals-of-Fingrid-Oyj-s-Shareholders-Nomination-Board-to-the-Annual-General-Meeting-2025.html",
+            "time_published": "20250312T073000",
+            "authors": [
+                "Fingrid Oyj"
+            ],
+            "summary": "Fingrid OyjStock Exchange release 12 March 2025 at ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/7c29ef43-f0e1-43e8-954e-8c34ab30931a",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [],
+            "overall_sentiment_score": -0.018616,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OUKPF",
+                    "relevance_score": "0.139265",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OUKPY",
+                    "relevance_score": "0.517168",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Rheinmetall sales surge 36% in 2024, as company forecasts 'major' military order boom",
+            "url": "https://www.cnbc.com/2025/03/12/rheinmetall-earnings-profit-jumps-sales-expected-to-boom.html",
+            "time_published": "20250312T072901",
+            "authors": [],
+            "summary": "Last year's sales boom helped push Rheinmetall's operating profit to a record high.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Earnings",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.299682,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Could the Nasdaq Sell-Off Make This Growth Stock a Buy Again?",
+            "url": "https://www.fool.com/investing/2025/03/12/could-the-nasdaq-sell-off-make-this-growth-stock-a/",
+            "time_published": "20250312T070900",
+            "authors": [
+                "Reuben Gregg Brewer"
+            ],
+            "summary": "Wall Street is an emotional place, which is really what makes markets work. However, every so often, investors flow like lemmings in just one direction. That happens during bull markets and during bear markets.Right now, the Nasdaq Composite ( NASDAQINDEX: ^IXIC ) has fallen more than 10% from a ...",
+            "banner_image": "https://media.ycharts.com/charts/af68710569b75fec64a7f0d148db905f.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.184738,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.34648",
+                    "ticker_sentiment_score": "0.269941",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BNXYF",
+                    "relevance_score": "0.059636",
+                    "ticker_sentiment_score": "0.047576",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Michael Dell Joins Trump, Elon Musk For High-Stakes AI Talks As Dell Eyes $15 Billion In Server Business - NVIDIA  ( NASDAQ:NVDA ) , Dell Technologies  ( NYSE:DELL ) ",
             "url": "https://www.benzinga.com/25/03/44269039/michael-dell-joins-trump-elon-musk-for-high-stakes-ai-talks-as-dell-eyes-15-billion-in-server-business",
@@ -248,6 +483,30 @@
             "overall_sentiment_score": 0.076473,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Transaction in Own Shares",
+            "url": "https://www.globenewswire.com/news-release/2025/03/12/3041130/0/en/Transaction-in-Own-Shares.html",
+            "time_published": "20250312T070000",
+            "authors": [
+                "PayPoint plc"
+            ],
+            "summary": "12th March ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/01c8cd71-2417-44ba-b4a3-462b7db307c0",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [],
+            "overall_sentiment_score": 0.121802,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ITCFY",
+                    "relevance_score": "0.608634",
+                    "ticker_sentiment_score": "-0.281315",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
         },
         {
             "title": "AKVA group ASA: Sale of shares in Abyss Group to Arcus Infrastructure Partners",
@@ -1408,376 +1667,6 @@
                     "relevance_score": "0.22421",
                     "ticker_sentiment_score": "0.107206",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Dogecoin, XRP ETF Filings Delayed By SEC But Influential Analyst Says 'Relatively High' Odds Of Approval - LTC Properties  ( NYSE:LTC ) ",
-            "url": "https://www.benzinga.com/25/03/44268317/sec-postpones-approval-of-several-crypto-spot-etfs-says-influential-analyst",
-            "time_published": "20250312T050635",
-            "authors": [
-                "Aniket Verma"
-            ],
-            "summary": "The Securities and Exchange Commission delayed the approval of several cryptocurrency spot exchange-traded funds Tuesday, including Litecoin LTC/USD, Solana SOL/USD, XRP XRP/USD, and Dogecoin DOGE/USD.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Securities-and-Exchange-Commission.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999336"
-                }
-            ],
-            "overall_sentiment_score": 0.308794,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.451494",
-                    "ticker_sentiment_score": "0.533351",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.368773",
-                    "ticker_sentiment_score": "0.333274",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:LTC",
-                    "relevance_score": "0.368773",
-                    "ticker_sentiment_score": "0.333274",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prime Biome Redefines Beauty & Health: The Gut-Skin Solution Backed by Science",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44268308/prime-biome-redefines-beauty-health-the-gut-skin-solution-backed-by-science",
-            "time_published": "20250312T050029",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ST. PETERSBURG, Fla., March 12, 2025 ( GLOBE NEWSWIRE ) -- Maintaining optimal health can feel daunting in today's fast-paced world. Prime Biome presents an innovative approach to wellness that simplifies the journey toward better health, mainly focusing on gut and skin health.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/8a24bef4-c882-43f8-88ef-095cbe0e47c4/prime-biome.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.578454,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Capital Group wades into active ETF model portfolio market",
-            "url": "https://www.ft.com/content/24c97cb5-db53-4de3-afe3-485b4902efdc",
-            "time_published": "20250312T050001",
-            "authors": [
-                "Steve Johnson"
-            ],
-            "summary": "World's largest active asset manager follows Dimensional in launching suite of its own active ...",
-            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F881c7c96-4cbf-455d-9104-1728f061f511.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
-            "source": "Financial Times",
-            "category_within_source": "Markets",
-            "source_domain": "www.ft.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99737"
-                }
-            ],
-            "overall_sentiment_score": 0.217976,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LPLA",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MORN",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.070999",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "STT",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.049499",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.049835",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Tecan reports 2024 financial results, enhancing operational resilience amid challenging conditions",
-            "url": "https://www.globenewswire.com/news-release/2025/03/12/3041106/0/en/Tecan-reports-2024-financial-results-enhancing-operational-resilience-amid-challenging-conditions.html",
-            "time_published": "20250312T050000",
-            "authors": [
-                "Tecan Group AG"
-            ],
-            "summary": "Ad hoc announcement pursuant to Article 53 of the SIX Exchange Regulation Listing Rules ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/83c37d3d-95a3-4952-b892-3ac9e105a0b7",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.998917"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.576289"
-                }
-            ],
-            "overall_sentiment_score": 0.212883,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ILMN",
-                    "relevance_score": "0.012421",
-                    "ticker_sentiment_score": "0.141823",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:CHF",
-                    "relevance_score": "0.554443",
-                    "ticker_sentiment_score": "0.245126",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.024839",
-                    "ticker_sentiment_score": "0.068474",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.024839",
-                    "ticker_sentiment_score": "0.068474",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "SEC delays decision on XRP, Solana, Litecoin, Dogecoin ETFs",
-            "url": "https://cointelegraph.com/news/sec-delays-decision-xrp-solana-litecoin-dogecoin-etfs",
-            "time_published": "20250312T045529",
-            "authors": [
-                "Stephen Katte"
-            ],
-            "summary": "The US Securities and Exchange Commission has delayed its decision to approve several XRP, Solana, Litecoin and Dogecoin exchange-traded funds.In a slew of filings on March 11, the agency said it has \"designated a longer period\" to decide on the proposed rule changes that would allow the ETFs to ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019588a0-faef-7fd7-a0a1-8e22493053af",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.980509"
-                }
-            ],
-            "overall_sentiment_score": -0.016505,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.378572",
-                    "ticker_sentiment_score": "-0.089679",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.098255",
-                    "ticker_sentiment_score": "0.109584",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:LTC",
-                    "relevance_score": "0.098255",
-                    "ticker_sentiment_score": "0.109584",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Mark Zuckerberg Trolled By Bluesky CEO's Subtle Jab? 'World Without Caesars' Shirt At SXSW Raises Eyebrows - Meta Platforms  ( NASDAQ:META ) ",
-            "url": "https://www.benzinga.com/25/03/44268284/did-bluesky-ceo-jay-graber-subtly-troll-metas-zuckerberg-with-her-a-world-without-caesars-shirt-sxsw-appearance-s",
-            "time_published": "20250312T044937",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Bluesky CEO Jay Graber took the SXSW stage this week wearing a Latin phrase that's now fueling online speculation over whether it was a quiet jab at Meta Platforms, Inc. META CEO Mark Zuckerberg.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Mark-Zuckerberg-Offered-China-Full-Censo.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.110094,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.169081",
-                    "ticker_sentiment_score": "0.083394",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MNDP",
-                    "relevance_score": "0.169081",
-                    "ticker_sentiment_score": "-0.047754",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CZR",
-                    "relevance_score": "0.251247",
-                    "ticker_sentiment_score": "0.046942",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Trump Buys Tesla Model S Plaid, Gary Black Calls Endorsement 'Potentially Huge,' Says It Could Drive 1.7 Million Sales - Tesla  ( NASDAQ:TSLA ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/03/44268275/trump-buys-tesla-model-s-plaid-gary-black-calls-endorsement-potentially-huge-says-it-could-drive",
-            "time_published": "20250312T044840",
-            "authors": [
-                "Kaustubh Bagalkote"
-            ],
-            "summary": "President Donald Trump's recent purchase of a Tesla Inc. TSLA Model S Plaid for White House staff use could significantly boost the electric vehicle maker's sales, according to Gary Black. What Happened: Black, Managing Partner of The Future Fund LLC, wrote on X that \"President Trump's ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Usa-President-Donald-Trump-On-Smartphone.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.248679,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.747807",
-                    "ticker_sentiment_score": "0.339098",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Stitch Fix  ( SFIX )  Q2 2025 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/03/12/stitch-fix-sfix-q2-2025-earnings-call-transcript/",
-            "time_published": "20250312T044511",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "SFIX earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999955"
-                }
-            ],
-            "overall_sentiment_score": 0.352563,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SFIX",
-                    "relevance_score": "0.10574",
-                    "ticker_sentiment_score": "0.185358",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin jumps 7% despite metrics flashing 'bearish territory'",
-            "url": "https://cointelegraph.com/news/bitcoin-price-spike-valuation-metrics-bearish-crypto-analyst",
-            "time_published": "20250312T041552",
-            "authors": [
-                "Ciaran Lyons"
-            ],
-            "summary": "Bitcoin has clocked a 7% gain over the past 24 hours despite all of its valuation metrics leaning bearish and US demand recently waning off.\"All Bitcoin valuation metrics indicate that we are in bearish territory,\" onchain analytics platform CryptoQuant said in a March 11 markets report viewed ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195887a-e821-782d-b8d2-091fe1a27b22",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": -0.151395,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.928139",
-                    "ticker_sentiment_score": "-0.201083",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         }
