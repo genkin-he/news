@@ -1,5 +1,5 @@
 {
-    "items": "48",
+    "items": "49",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -40,6 +40,41 @@
                     "ticker": "ABM",
                     "relevance_score": "0.178648",
                     "ticker_sentiment_score": "-0.013829",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "India's inflation rate dips to cooler-than-expected 3.61% in February, below central bank's target",
+            "url": "https://www.cnbc.com/2025/03/12/indias-cpi-inflation-eases-for-fourth-straight-month-lowest-since-august-2024-.html",
+            "time_published": "20250312T105645",
+            "authors": [],
+            "summary": "The lower inflation reading could give the Reserve Bank of India room to cut rates and support its slowing economy.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.928139"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": -0.149057,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.279015",
+                    "ticker_sentiment_score": "-0.137926",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -125,6 +160,71 @@
                     "relevance_score": "0.710888",
                     "ticker_sentiment_score": "0.276612",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ABM Industries, Adobe And 3 Stocks To Watch Heading Into Wednesday - Adobe  ( NASDAQ:ADBE ) , ABM Indus  ( NYSE:ABM ) ",
+            "url": "https://www.benzinga.com/news/earnings/25/03/44271359/abm-industries-adobe-and-3-stocks-to-watch-heading-into-wednesday",
+            "time_published": "20250312T104758",
+            "authors": [
+                "Avi Kapoor"
+            ],
+            "summary": "With U.S. stock futures trading higher this morning on Wednesday, some of the stocks that may grab investor focus today are as follows: Wall Street expects Adobe Inc. ADBE to report quarterly earnings at $4.97 per share on revenue of $5.66 billion after the closing bell, according to data from ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Medtronic--Fluor-And-3-Stocks-To-Watch-H.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.99737"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.287526,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ADBE",
+                    "relevance_score": "0.364275",
+                    "ticker_sentiment_score": "0.496472",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "GRPN",
+                    "relevance_score": "0.472338",
+                    "ticker_sentiment_score": "0.067613",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AEO",
+                    "relevance_score": "0.247838",
+                    "ticker_sentiment_score": "0.075431",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABM",
+                    "relevance_score": "0.364275",
+                    "ticker_sentiment_score": "0.274532",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SFIX",
+                    "relevance_score": "0.472338",
+                    "ticker_sentiment_score": "0.418038",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -406,6 +506,28 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
+        },
+        {
+            "title": "Building Your Retirement Savings? 1 Easy Trick to Help You Grow Your Wealth Exponentially",
+            "url": "https://www.fool.com/retirement/2025/03/12/building-your-retirement-savings-1-easy-trick-to/",
+            "time_published": "20250312T103000",
+            "authors": [
+                "James Brumley"
+            ],
+            "summary": "Sometimes it's the simplest and smallest of things that can make the biggest difference in the end.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/810390/millionaire-retiree-sleeping-comfortably.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.917436"
+                }
+            ],
+            "overall_sentiment_score": 0.111989,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Secondary Neutron Source Materials Market is Projected to Grow USD 568.9 Million with CAGR of 7.3% by 2035 | Fact.MR Report",
@@ -1834,122 +1956,6 @@
             "overall_sentiment_score": 0.051403,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Opinion: Warren Buffett Is Likely Buying These 2 Stocks During the Latest Nasdaq Sell-Off",
-            "url": "https://www.fool.com/investing/2025/03/12/opinion-warren-buffett-is-likely-buying-these-2-st/",
-            "time_published": "20250312T091500",
-            "authors": [
-                "Keith Speights"
-            ],
-            "summary": "Which Warren Buffett quote is most relevant right now? My vote goes to his classic statement, \"Be fearful when others are greedy and greedy when others are fearful.\"Many investors seem fearful. The Nasdaq Composite Index ( NASDAQINDEX: ^IXIC ) has dropped 13% below its previous high, putting the ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810739/buffett12-tmf.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.996023"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.614606"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.173554,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DMPZF",
-                    "relevance_score": "0.18967",
-                    "ticker_sentiment_score": "0.121429",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DPZ",
-                    "relevance_score": "0.251032",
-                    "ticker_sentiment_score": "0.151024",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SIRI",
-                    "relevance_score": "0.528475",
-                    "ticker_sentiment_score": "0.363805",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Move Over, Artificial Intelligence  ( AI )  -- Businesses Are on Pace to Spend More Than $10 Trillion on This Trend Over the Next Decade",
-            "url": "https://www.fool.com/investing/2025/03/12/move-over-ai-businesses-spend-10-trillion-on-trend/",
-            "time_published": "20250312T090600",
-            "authors": [
-                "Sean Williams"
-            ],
-            "summary": "There's a spending trend that's even hotter than AI, but it has its limitations.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810520%2Fbuy-low-sell-high-stock-market-chart-investing-retirement-getty.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999993"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.99246"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.202848,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.034136",
-                    "ticker_sentiment_score": "0.082421",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.102158",
-                    "ticker_sentiment_score": "0.088374",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.034136",
-                    "ticker_sentiment_score": "0.136105",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.034136",
-                    "ticker_sentiment_score": "0.210596",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
         }
     ]
 }
