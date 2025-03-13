@@ -1,8 +1,224 @@
 {
-    "items": "43",
+    "items": "44",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Dassault Syst\u00e8mes announces the launch of its new employee shareholding program",
+            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041866/0/en/Dassault-Syst%C3%A8mes-announces-the-launch-of-its-new-employee-shareholding-program.html",
+            "time_published": "20250313T055900",
+            "authors": [
+                "Dassault Systemes SE"
+            ],
+            "summary": "Press ReleaseVELIZY-VILLACOUBLAY, France - March ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/cbe18714-5944-40e8-a049-6006dfe1ee86",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.309466,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRARF",
+                    "relevance_score": "0.060085",
+                    "ticker_sentiment_score": "0.120003",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DASTF",
+                    "relevance_score": "0.549012",
+                    "ticker_sentiment_score": "0.444752",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Lazarus Group sends 400 ETH to Tornado Cash, deploys new malware",
+            "url": "https://cointelegraph.com/news/lazarus-group-deposits-400-eth-into-tornado-cash-new-malware",
+            "time_published": "20250313T054955",
+            "authors": [
+                "Martin Young"
+            ],
+            "summary": "North Korean-affiliated hacking collective the Lazarus Group has been moving crypto assets using mixers following a string of high-profile hacks. On March 13, blockchain security firm CertiK alerted its X followers that it had detected a deposit of 400 ETH ( ETH ) worth around $750,000 to the ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01958dfd-1e5d-7382-98c7-cda8007b357d",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.769861"
+                }
+            ],
+            "overall_sentiment_score": -0.130859,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "-0.020349",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Argentine lawyer requests Interpol red notice for LIBRA creator: Report",
+            "url": "https://cointelegraph.com/news/argentina-lawyer-interpol-arrest-warrant-libra-creator",
+            "time_published": "20250313T054438",
+            "authors": [
+                "Jesse Coghlan"
+            ],
+            "summary": "Argentine lawyer Gregorio Dalbon has reportedly asked for a global arrest warrant to be issued for Hayden Davis, the co-creator of the LIBRA token that caused a political scandal in the country.Dalbon submitted a request to prosecutor Eduardo Taiano and judge Mar\u00eda Servini, who are probing ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01958df9-15c9-7efd-ba8a-64471d97017e",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": -0.136156,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Token Metrics CEO Ian Balina Says SEC to Drop Its Case Against Him",
+            "url": "https://decrypt.co/309816/token-metrics-ceo-ian-balina-says-sec-to-drop-its-case-against-him",
+            "time_published": "20250313T054304",
+            "authors": [
+                "Vince Dioquino"
+            ],
+            "summary": "The crypto personality claims the regulator will dismiss charges related to his promotion of Sparkster's $30 million ICO in 2018.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/06/sec-shutterstock_1128745520-16x9-1-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": -0.036387,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.117486",
+                    "ticker_sentiment_score": "-0.066391",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:UNI",
+                    "relevance_score": "0.117486",
+                    "ticker_sentiment_score": "-0.066391",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple supplier Lens Technology joins Chinese firms planning Hong Kong IPOs",
+            "url": "https://www.scmp.com/business/banking-finance/article/3302192/apple-supplier-lens-technology-joins-list-chinese-firms-planning-hong-kong-ipos",
+            "time_published": "20250313T053046",
+            "authors": [
+                "Aileen Chuang"
+            ],
+            "summary": "Avatr Technology, Shenzhen-listed Changan Automobile's EV company, is also reportedly considering a US$1 billion Hong Kong listing.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/13/9667f910-73c2-4f2c-94a0-ead144208871_0220cf4e.jpg?itok=2rmW1WvT&v=1741843845",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.928139"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.170581,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SSNLF",
+                    "relevance_score": "0.057767",
+                    "ticker_sentiment_score": "0.19",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.057767",
+                    "ticker_sentiment_score": "0.19",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "HKXCF",
+                    "relevance_score": "0.057767",
+                    "ticker_sentiment_score": "0.072961",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.057767",
+                    "ticker_sentiment_score": "0.19",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CGSI",
+                    "relevance_score": "0.115232",
+                    "ticker_sentiment_score": "0.021047",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.172097",
+                    "ticker_sentiment_score": "0.090066",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "XIACY",
+                    "relevance_score": "0.057767",
+                    "ticker_sentiment_score": "0.19",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "BioCity Biopharmaceutics Co., Ltd. Announces Clinical Collaboration to Evaluate BC3195 in Combination with KEYTRUDA\u00ae  ( pembrolizumab )  in Patients with Locally Advanced or Metastatic Solid Tumors",
             "url": "https://www.benzinga.com/pressreleases/25/03/n44294810/biocity-biopharmaceutics-co-ltd-announces-clinical-collaboration-to-evaluate-bc3195-in-combination",
@@ -96,6 +312,549 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
+        },
+        {
+            "title": "Station F: flying the flag for France tech and AI development",
+            "url": "https://www.ft.com/content/0e19802c-765d-4b2e-b00c-f974b38003fa",
+            "time_published": "20250313T050037",
+            "authors": [],
+            "summary": "Of the Paris-based incubator's 40 best-performing start-ups, 34 have artificial intelligence at the core of their business ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F33d98363-64f6-4d6a-964a-9a23ad66f397.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.210911,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SSNLF",
+                    "relevance_score": "0.045655",
+                    "ticker_sentiment_score": "0.108179",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.045655",
+                    "ticker_sentiment_score": "0.061863",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DDOG",
+                    "relevance_score": "0.045655",
+                    "ticker_sentiment_score": "0.108179",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Would $50 oil really be good for the US?",
+            "url": "https://www.ft.com/content/95ea3a44-ae18-4763-b45d-47f113c9a549",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Jamie Smyth",
+                "Tom Wilson",
+                "Malcolm Moore",
+                "Amanda Chu"
+            ],
+            "summary": "Bosses warn potential consumer benefits would be offset by squeezed domestic shale industry ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd3f44126-e2d0-456f-8fc7-ad28b6752883.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.019487,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SPGI",
+                    "relevance_score": "0.04076",
+                    "ticker_sentiment_score": "-0.068801",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.04076",
+                    "ticker_sentiment_score": "0.034734",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.04076",
+                    "ticker_sentiment_score": "-0.026909",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Europe's start-ups are using AI to reimagine business models",
+            "url": "https://www.ft.com/content/e6aef340-313b-483d-9a00-c1f4fc14df86",
+            "time_published": "20250313T050037",
+            "authors": [
+                "John Thornhill"
+            ],
+            "summary": "The region can compete with US tech at the application level of artificial intelligence ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fpublic.flourish.studio%2Fvisualisation%2F21771516%2Fthumbnail%3FcacheBuster%3D967690?source=cp-content-pipeline&fit=scale-down&quality=highest&width=980&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.302215,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.049629",
+                    "ticker_sentiment_score": "0.154133",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.049629",
+                    "ticker_sentiment_score": "0.154133",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Founders Factory: helping connect start-ups with the right investors",
+            "url": "https://www.ft.com/content/eedcf2a6-dd8e-4eee-84a9-f34e420bd3d0",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Nick Huber"
+            ],
+            "summary": "The infrastructure to help young companies grow in the UK is varied and well established ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8335afc1-9c33-46e8-ad9c-83840c9b4065.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998962"
+                }
+            ],
+            "overall_sentiment_score": 0.213152,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.030026",
+                    "ticker_sentiment_score": "0.046092",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.030026",
+                    "ticker_sentiment_score": "0.046092",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NNWWF",
+                    "relevance_score": "0.030026",
+                    "ticker_sentiment_score": "0.05076",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RIO",
+                    "relevance_score": "0.030026",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LRLCF",
+                    "relevance_score": "0.030026",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AIVAF",
+                    "relevance_score": "0.089909",
+                    "ticker_sentiment_score": "0.013603",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "What Japan can teach the US in an age of boycotts",
+            "url": "https://www.ft.com/content/a9d45e75-9d49-4a58-8eac-0be2b5676531",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Leo Lewis"
+            ],
+            "summary": "The country wanted to do everything itself and largely still does ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F31fad7dc-565c-47f7-a92a-991ca143ceb0.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Economy",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.15705,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "-0.002",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NFLX",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "0.195018",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "-0.002",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "-0.002",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RKUNF",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "0.195018",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "-0.111434",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.051886",
+                    "ticker_sentiment_score": "-0.011993",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Trump policies a 'welcome' wake-up call for European climate tech",
+            "url": "https://www.ft.com/content/ff393104-e4c9-46e0-9e82-760dd3eb5061",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Rachel Rees"
+            ],
+            "summary": "Some investors and accelerators see the new US president's moves on green issues as an opportunity for the continent ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa35412ab-350f-477c-bbe3-f2aca52f4bdf.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.955357"
+                }
+            ],
+            "overall_sentiment_score": 0.208539,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ALIZF",
+                    "relevance_score": "0.038906",
+                    "ticker_sentiment_score": "0.071283",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Overseas managers have 'no real advantage' in Asia active ETFs",
+            "url": "https://www.ft.com/content/579c0f3e-9e71-4519-a0ad-dde2ed68c6f9",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Ernest Chan"
+            ],
+            "summary": "Senior executive at State Street says expertise in other markets will carry little weight ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdb824034-a4fc-467d-a88b-e53374f603a2.png?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.986413"
+                }
+            ],
+            "overall_sentiment_score": 0.37579,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AB",
+                    "relevance_score": "0.142565",
+                    "ticker_sentiment_score": "0.17904",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "STT",
+                    "relevance_score": "0.346642",
+                    "ticker_sentiment_score": "0.390259",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Dig, baby, dig: the global resources groups betting on a Trump mining revival",
+            "url": "https://www.ft.com/content/96f09c08-1438-4f52-9b52-2178e071bfac",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Leslie Hook"
+            ],
+            "summary": "It takes 29 years to get approval for a new mine in the US but the industry is hoping that will change ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fpublic.flourish.studio%2Fvisualisation%2F21967492%2Fthumbnail%3FcacheBuster%3D967690?source=cp-content-pipeline&fit=scale-down&quality=highest&width=1020&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.165807,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ANFGF",
+                    "relevance_score": "0.064536",
+                    "ticker_sentiment_score": "0.165266",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOLD",
+                    "relevance_score": "0.064536",
+                    "ticker_sentiment_score": "0.234567",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WPM",
+                    "relevance_score": "0.032294",
+                    "ticker_sentiment_score": "-0.083664",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RIO",
+                    "relevance_score": "0.064536",
+                    "ticker_sentiment_score": "0.190359",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SPGI",
+                    "relevance_score": "0.064536",
+                    "ticker_sentiment_score": "0.046087",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FCX",
+                    "relevance_score": "0.032294",
+                    "ticker_sentiment_score": "0.21828",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TCKRF",
+                    "relevance_score": "0.032294",
+                    "ticker_sentiment_score": "0.036005",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Spain's smaller start-up hubs play to their strengths to attract investment",
+            "url": "https://www.ft.com/content/8a248a8a-8dee-41a1-a568-fc6e9043ba7e",
+            "time_published": "20250313T050037",
+            "authors": [],
+            "summary": "Valencia, M\u00e1laga and San Sebasti\u00e1n have bested their bigger rivals in the FT-Statista ranking for ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdc5ae7d8-9b80-41ca-9f08-c5d1941d2b03.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.159652,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BICEF",
+                    "relevance_score": "0.265859",
+                    "ticker_sentiment_score": "0.042204",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.045139",
+                    "ticker_sentiment_score": "0.153033",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "China's obesity crisis is big business",
+            "url": "https://www.ft.com/content/8f05d97a-acfd-4514-84d4-07f03ffc9eeb",
+            "time_published": "20250313T050037",
+            "authors": [],
+            "summary": "Pharmaceutical groups are rushing to dominate market that will grow to 900mn people by ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F473879c0-ff1e-11ef-a3ea-130f454c2cfd-standard.png?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.199124,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ONC",
+                    "relevance_score": "0.091162",
+                    "ticker_sentiment_score": "0.101695",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVO",
+                    "relevance_score": "0.091162",
+                    "ticker_sentiment_score": "0.224844",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Germany's stagnant economy dents investment in consumer start-ups",
+            "url": "https://www.ft.com/content/b5b2dc5e-156f-429c-bea3-215afc6eb93d",
+            "time_published": "20250313T050037",
+            "authors": [
+                "Sophie Spiegelberger"
+            ],
+            "summary": "Funding increased to \u20ac7bn last year but it is a far cry from the 2021 peak of more than ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Fb32a214d-07d0-4622-bdc3-5352b46410a3.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next&fit=scale-down&dpr=2&width=240",
+            "source": "Financial Times",
+            "category_within_source": "Companies",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.153294,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Lights out at Northvolt",
+            "url": "https://www.ft.com/content/b0d3c114-020c-4b33-b277-8c9be5defa27",
+            "time_published": "20250313T050000",
+            "authors": [],
+            "summary": "The collapse of the battery maker hurts Europe's bid to rival China ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fnext-video-editor-images.s3.ap-northeast-1.amazonaws.com%2Fbfe959a6-435f-4181-828c-325fdbcdd631?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Economy",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": -0.129923,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Ripple secures Dubai license to offer crypto payments in UAE",
@@ -1191,778 +1950,6 @@
             "overall_sentiment_score": 0.338377,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Intel names Malaysian-born chip industry veteran Lip-Bu Tan as CEO",
-            "url": "https://www.scmp.com/tech/big-tech/article/3302158/intel-appoints-malaysian-born-chip-industry-veteran-lip-bu-tan-ceo",
-            "time_published": "20250313T024255",
-            "authors": [
-                "Reuters"
-            ],
-            "summary": "Intel is undergoing one of its bleakest periods, as it struggles to cash in on a boom in advanced AI chips that has benefited rival Nvidia.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/13/586d9b51-c259-4970-9ddc-b29b1fba9c4f_86cb82be.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.114961,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CDNS",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "-0.08716",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AVGO",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSM",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Liberty Files Amended and Restated Unaudited Condensed Interim Consolidated Financial Statements and MD&A",
-            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041852/0/en/Liberty-Files-Amended-and-Restated-Unaudited-Condensed-Interim-Consolidated-Financial-Statements-and-MD-A.html",
-            "time_published": "20250313T024000",
-            "authors": [
-                "Liberty Defense"
-            ],
-            "summary": "VANCOUVER, British Columbia and WILMINGTON, Mass., March 12, 2025 ( GLOBE NEWSWIRE ) -- Liberty Defense Holdings Ltd. ( \"Liberty\" or the \"Company\" ) ( TSXV: SCAN, OTCQB: LDDFF, FRANKFURT: LD2A ) , a leading technology provider of AI-based next generation detection solutions for concealed weapons ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/e3680d7e-614f-4715-8d2b-337dbd073cbc",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [],
-            "overall_sentiment_score": 0.25727,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WMGTF",
-                    "relevance_score": "0.047654",
-                    "ticker_sentiment_score": "0.012942",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "INTC, QBTS, ADBE, NVDA, TSLA: Top 5 Trending Stocks Today - Intel  ( NASDAQ:INTC ) , Adobe  ( NASDAQ:ADBE ) ",
-            "url": "https://www.benzinga.com/25/03/44294032/intel-d-wave-quantum-adobe-nvidia-and-tesla-why-these-5-stocks-are-on-investors-radars-today",
-            "time_published": "20250313T023352",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "Wall Street saw a strong rebound on Wednesday as major indices snapped a two-day losing streak. The S&P 500 gained 0.5% to close at 5,599.30, while the Nasdaq surged 1.2% to 17,648.45. However, the Dow Jones Industrial Average dipped 0.2% to 41,350.93.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Nvidia--AMD--Archer-Aviation--Rocket-Lab.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.54554"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.156915,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "0.002089",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AVGO",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "0.002089",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "-0.039861",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "QBTS",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "0.132002",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SKYT",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "0.132002",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "INTC",
-                    "relevance_score": "0.179121",
-                    "ticker_sentiment_score": "0.062519",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ADBE",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "0.040926",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.090134",
-                    "ticker_sentiment_score": "0.002089",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Crypto trading volume slumps, signaling market exhaustion: Analysis",
-            "url": "https://cointelegraph.com/news/crypto-trading-volume-decline-reflects-diminishing-trader-enthusiasm-analysts",
-            "time_published": "20250313T022658",
-            "authors": [
-                "Martin Young"
-            ],
-            "summary": "Crypto trading volumes and dwindling digital asset prices are flashing signs of trader exhaustion and potentially weaker market momentum, according to analysts. Crypto-wide trading volume has been dropping since it peaked in February amid dip-buying opportunities.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01958d45-74d0-722a-8401-91b3ef38c654",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": -0.283603,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.094762",
-                    "ticker_sentiment_score": "-0.162906",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Hong Kong stocks drop for fifth day as trade-war fears mount",
-            "url": "https://www.scmp.com/business/china-business/article/3302155/hong-kong-stocks-drop-fifth-day-trade-war-fears-mount",
-            "time_published": "20250313T021440",
-            "authors": [
-                "Yulu Ao"
-            ],
-            "summary": "The benchmark Hang Seng Index heads for the longest losing streak in two months amid tit-for-tat tariffs and countermeasures.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/13/78ae3cff-83be-49c0-a3e2-572e7bebeece_19cbc60b.jpg?itok=ly8DMBA4&v=1741832076",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.316545,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "-0.14606",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LNVGF",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "0.258678",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NTES",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "-0.14606",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LI",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "0.066349",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Elon Musk Expects Tesla Output To Double Over Next Couple Of Years, But Gene Munster Predicts Number To Drop Before A Surge In 2026 - Tesla  ( NASDAQ:TSLA ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/03/44293798/elon-musk-expects-tesla-output-to-double-over-next-couple-of-years-but-gene-munster-predicts-num",
-            "time_published": "20250313T021149",
-            "authors": [
-                "Kaustubh Bagalkote"
-            ],
-            "summary": "Tesla Inc. TSLA will likely face near-term delivery challenges before experiencing significant growth in 2026, according to Gene Munster, Managing Partner at Deepwater Asset Management.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Tesla-Opens-Hiring-In-India-In-Likely-Hi.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.195832,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SPGI",
-                    "relevance_score": "0.097457",
-                    "ticker_sentiment_score": "0.062032",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.672712",
-                    "ticker_sentiment_score": "0.229947",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin, Dogecoin Rise, Ethereum Trades Flat On Cooler-Than-Expected Inflation: Top Analyst Anticipates BTC's Bullish Breakout Toward $91,000 - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
-            "url": "https://www.benzinga.com/trading-ideas/movers/25/03/44293785/bitcoin-dogecoin-rise-ethereum-trades-flat-on-cooler-than-expected-inflation-top-analyst-ant",
-            "time_published": "20250313T021050",
-            "authors": [
-                "Aniket Verma"
-            ],
-            "summary": "Leading cryptocurrencies rose further on Wednesday as cooler inflation data boosted risk appetite. What Happened: Bitcoin surpassed $84,000 in the early morning hours, but profit-taking swiftly reversed the gains. The leading cryptocurrency progressively increased and stabilized in the $83,000 ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Cryptocurrency-Photo-by-SvetlanaParnikov_1.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.838487"
-                }
-            ],
-            "overall_sentiment_score": 0.087389,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RUM",
-                    "relevance_score": "0.152499",
-                    "ticker_sentiment_score": "0.137198",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.436009",
-                    "ticker_sentiment_score": "0.218499",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.076602",
-                    "ticker_sentiment_score": "-0.064577",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Conifex Announces 2024 Year-End and Fourth Quarter 2024 Results",
-            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041851/0/en/Conifex-Announces-2024-Year-End-and-Fourth-Quarter-2024-Results.html",
-            "time_published": "20250313T020400",
-            "authors": [
-                "Conifex Timber Inc"
-            ],
-            "summary": "VANCOUVER, British Columbia, March 12, 2025 ( GLOBE NEWSWIRE ) -- Conifex Timber Inc. ( \"Conifex\", \"we\" or \"us\" ) ( TSX: CFF ) today reported results for the fourth quarter and year ended December 31, 2024. EBITDA* from continuing operations was negative $2.1 million for the quarter and negative ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/8b1e7b31-2149-44cb-9956-fa8ecbf0ed43",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999938"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.106597,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.008369",
-                    "ticker_sentiment_score": "0.089975",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CFXTF",
-                    "relevance_score": "0.008369",
-                    "ticker_sentiment_score": "-0.148373",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:CAD",
-                    "relevance_score": "0.058533",
-                    "ticker_sentiment_score": "0.033079",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.075213",
-                    "ticker_sentiment_score": "0.057015",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Joey Bosa Reportedly Signed A $12.6M Deal With The Bills - But His Real Power Play Might Be The $5.85M Florida Mansion And A Portfolio Built For Life After The NFL",
-            "url": "https://www.benzinga.com/general/sports/25/03/44293773/joey-bosa-reportedly-signed-a-12-6m-deal-with-the-bills-but-his-real-power-play-might-be-the-5-85m",
-            "time_published": "20250313T020327",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Joey Bosa may be suiting up for a new NFL team this season, but off the field, he's already built the kind of empire that could outlast any football career.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Los-Angeles-Chargers-Outside-Linebacker-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.229098,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "Z",
-                    "relevance_score": "0.076358",
-                    "ticker_sentiment_score": "0.112303",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Tesla pins hope on refreshed Model Y to regain share after sales dive in China",
-            "url": "https://www.scmp.com/business/china-business/article/3302132/tesla-pins-hope-refreshed-model-y-regain-share-after-sales-dive-china",
-            "time_published": "20250313T015500",
-            "authors": [
-                "Daniel Ren"
-            ],
-            "summary": "Orders for the revamped model, which starts from US$36,292 have crossed 200,000 units, according to Chinese tech site 36kr.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/12/41ce024a-6f7d-43c7-ad07-64803fb1255f_547d3cf3.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": -0.007191,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "XIACY",
-                    "relevance_score": "0.143843",
-                    "ticker_sentiment_score": "0.061432",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.474207",
-                    "ticker_sentiment_score": "0.05578",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Binance secures 'largest investment ever' in crypto as Abu Dhabi's MGX pledges $2 billion",
-            "url": "https://www.cnbc.com/2025/03/13/abu-dhabis-mgx-to-invest-2-billion-in-crypto-exchange-binance.html",
-            "time_published": "20250313T015146",
-            "authors": [],
-            "summary": "Emirati state-owned investment firm MGX announced a $2 billion investment into Binance, marking the cryptocurrency exchange's first institutional investment.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Top News",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.928139"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.108227,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.117486",
-                    "ticker_sentiment_score": "0.077304",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Tarsus Announces Pricing of Upsized $125.0 Million Public Offering",
-            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041850/0/en/Tarsus-Announces-Pricing-of-Upsized-125-0-Million-Public-Offering.html",
-            "time_published": "20250313T014900",
-            "authors": [
-                "Inc",
-                "Tarsus Pharmaceuticals"
-            ],
-            "summary": "IRVINE, Calif., March 12, 2025 ( GLOBE NEWSWIRE ) -- Tarsus Pharmaceuticals, Inc. ( Nasdaq: TARS ) ( the \"Company\" or \"Tarsus\" ) today announced the pricing of an upsized underwritten public offering of 2,808,988 shares of its common stock at a public offering price of $44.50 per share.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/22d429f7-9b81-4c03-a147-1d9cbc86d1dd",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.769861"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.917436"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.156805,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BR",
-                    "relevance_score": "0.049221",
-                    "ticker_sentiment_score": "0.042502",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TARS",
-                    "relevance_score": "0.146916",
-                    "ticker_sentiment_score": "0.170914",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.098255",
-                    "ticker_sentiment_score": "0.053805",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.098255",
-                    "ticker_sentiment_score": "0.053805",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Cathie Wood's Wednesday Moves: Ark Pours $1.36 Million Into Tempus AI Shares Following Deep 6 AI Acquisition, Offloads Rocket Lab Stock - ARK Autonomous Technology & Robotics ETF  ( BATS:ARKQ ) , ARK Innovation ETF  ( ARCA:ARKK ) ",
-            "url": "https://www.benzinga.com/25/03/44293571/cathie-woods-wednesday-moves-ark-pours-1-36-million-into-tempus-ai-shares-following-deep-6-ai-acquisition-offload",
-            "time_published": "20250313T014030",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "On Wednesday, Cathie Wood-led Ark Invest made significant trades involving Tempus AI Inc. TEM and Rocket Lab USA Inc. RKLB. Ark Invest's ARK Innovation ETF ARKK acquired 29,845 shares of Tempus AI, valued at approximately $1.36 million, based on the closing price of $45.50.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/Trumps-Economic-Gambit-Sparks-Fierce-Deb.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.986714"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.875462"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                }
-            ],
-            "overall_sentiment_score": 0.377184,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EADSF",
-                    "relevance_score": "0.083251",
-                    "ticker_sentiment_score": "0.152595",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRSP",
-                    "relevance_score": "0.165598",
-                    "ticker_sentiment_score": "0.383226",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "AVAV",
-                    "relevance_score": "0.165598",
-                    "ticker_sentiment_score": "0.383226",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "RKLB",
-                    "relevance_score": "0.165598",
-                    "ticker_sentiment_score": "0.154058",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CDNA",
-                    "relevance_score": "0.165598",
-                    "ticker_sentiment_score": "0.321831",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MYNA",
-                    "relevance_score": "0.083251",
-                    "ticker_sentiment_score": "0.063303",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TEM",
-                    "relevance_score": "0.398781",
-                    "ticker_sentiment_score": "0.384161",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "NTLA",
-                    "relevance_score": "0.165598",
-                    "ticker_sentiment_score": "0.383226",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "WeRide Launches Commercial Robotaxi Service in Beijing's Core Urban Area for the First Time at Beijing South Railway Station - WeRide  ( NASDAQ:WRD ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44293568/weride-launches-commercial-robotaxi-service-in-beijings-core-urban-area-for-the-first-time-at-beij",
-            "time_published": "20250313T013839",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "BEIJING, March 12, 2025 ( GLOBE NEWSWIRE ) -- WeRide WRD, a global leader in autonomous driving technology, today announced that the company has officially received the permit to conduct commercial Robotaxi ride-hailing services between the Beijing Economic-Technological Development Area ( BDA ) ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.18964,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WRD",
-                    "relevance_score": "0.509589",
-                    "ticker_sentiment_score": "0.26833",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.091509",
-                    "ticker_sentiment_score": "0.090435",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "EV Market worth USD 620.3 billion by 2030, Globally, at a CAGR of 7.7%, says MarketsandMarkets\u2122",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44293525/ev-market-worth-usd-620-3-billion-by-2030-globally-at-a-cagr-of-7-7-says-marketsandmarkets",
-            "time_published": "20250313T013000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Delray Beach, FL, March 12, 2025 ( GLOBE NEWSWIRE ) -- EV market size is projected to grow from USD 396.49 billion in 2024 to USD 620.33 billion by 2030, at a CAGR of 7.7%, as per the recent study by MarketsandMarkets\u2122.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.295731,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOEV",
-                    "relevance_score": "0.031738",
-                    "ticker_sentiment_score": "0.075447",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "RNSDF",
-                    "relevance_score": "0.031738",
-                    "ticker_sentiment_score": "0.143212",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.031738",
-                    "ticker_sentiment_score": "0.038061",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VWAGY",
-                    "relevance_score": "0.031738",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "NOVONIX Receives Approval for Purchase of Enterprise South Land for Planned Enterprise South Manufacturing Facility - NOVONIX  ( NASDAQ:NVX ) , NOVONIX  ( OTC:NVNXF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44293435/novonix-receives-approval-for-purchase-of-enterprise-south-land-for-planned-enterprise-south-manuf",
-            "time_published": "20250313T011149",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "BRISBANE, Australia, March 13, 2025 ( GLOBE NEWSWIRE ) -- NOVONIX Limited NVXNVX ) ( \"NOVONIX\" or \"the Company\" ) , a leading battery materials and technology company, announced today, that it has received unanimous approval from each of the City of Chattanooga and Hamilton County for the ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999365"
-                }
-            ],
-            "overall_sentiment_score": 0.274911,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PCRFF",
-                    "relevance_score": "0.059194",
-                    "ticker_sentiment_score": "0.187014",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVX",
-                    "relevance_score": "0.606873",
-                    "ticker_sentiment_score": "0.539376",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
         }
     ]
 }
