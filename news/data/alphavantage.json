@@ -1,8 +1,307 @@
 {
-    "items": "48",
+    "items": "49",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Crypto trader gets sandwich attacked in stablecoin swap, loses $215K",
+            "url": "https://cointelegraph.com/news/crypto-trader-loses-least-215000-stablecoins-from-sandwich-attack",
+            "time_published": "20250313T005432",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "A crypto trader fell victim to a sandwich attack while making a $220,764 stablecoin transfer on March 12 - losing almost 98% of its value to a Maximum Extractable Value ( MEV ) bot.$220,764 worth of the USD Coin ( USDC ) stablecoin was swapped to $5,271 of Tether ( USDT ) in eight seconds as the ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01958cd9-e19b-7a62-8876-f924873a55e1",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": -0.218904,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.313484",
+                    "ticker_sentiment_score": "-0.363888",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:AAVE",
+                    "relevance_score": "0.107016",
+                    "ticker_sentiment_score": "-0.179605",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:UNI",
+                    "relevance_score": "0.653656",
+                    "ticker_sentiment_score": "-0.355589",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:USDT",
+                    "relevance_score": "0.313484",
+                    "ticker_sentiment_score": "0.075716",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "AOC Claps Back At Mike Johnson As Senate Moves Closer To Government Shutdown: 'If You Need Democrats, Then You Need To Negotiate'",
+            "url": "https://www.benzinga.com/25/03/44293219/aoc-claps-back-at-mike-johnson-as-senate-moves-closer-to-government-shutdown-if-you-need-democrats-then-you-need-",
+            "time_published": "20250313T004708",
+            "authors": [
+                "Shivdeep Dhaliwal"
+            ],
+            "summary": "On Wednesday, Rep. Alexandria Ocasio-Cortez ( D-N.Y. ) responded to House Speaker Mike Johnson ( R-La. ) addressing the ongoing government shutdown debate. What Happened: Johnson claimed that the Democrats were responsible for the looming government shutdown.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/AOC-Slams-Trump-Over-His-Claims-On-The-L.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.101105,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "The Bancorp  ( TBBK )  Stumble Raises Questions About Loan Portfolio - Hagens Berman",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44293192/the-bancorp-tbbk-stumble-raises-questions-about-loan-portfolio-hagens-berman",
+            "time_published": "20250313T004046",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "SAN FRANCISCO, March 12, 2025 ( GLOBE NEWSWIRE ) -- The Bancorp, Inc. saw its shares plummet $2.35 on March 5, 2025, as investors grappled with the company's startling admission that its recently filed financial statements should no longer be relied upon.",
+            "banner_image": "https://ml.globenewswire.com/media/51670c91-d369-4a8c-8102-d393de9f6d19/small/download-jpg.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                }
+            ],
+            "overall_sentiment_score": 0.08486,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TBBK",
+                    "relevance_score": "0.116067",
+                    "ticker_sentiment_score": "-0.078234",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Anteris Reports 2024 Financial Results and Provides Corporate Update",
+            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041843/0/en/Anteris-Reports-2024-Financial-Results-and-Provides-Corporate-Update.html",
+            "time_published": "20250313T003300",
+            "authors": [
+                "Anteris Technologies Ltd"
+            ],
+            "summary": "Anteris Technologies Global Corp. Reports 2024 Financial Results and Provides Corporate Update ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/90a5ae8d-7cf0-4a3d-b38c-f4ad7e3fbf0e",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.838487"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.988915"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.215178,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GLP",
+                    "relevance_score": "0.023957",
+                    "ticker_sentiment_score": "0.033661",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AWON",
+                    "relevance_score": "0.023957",
+                    "ticker_sentiment_score": "0.094879",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BCS",
+                    "relevance_score": "0.023957",
+                    "ticker_sentiment_score": "0.190963",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MDT",
+                    "relevance_score": "0.023957",
+                    "ticker_sentiment_score": "0.058395",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVR",
+                    "relevance_score": "0.142989",
+                    "ticker_sentiment_score": "0.258675",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:EUR",
+                    "relevance_score": "0.023957",
+                    "ticker_sentiment_score": "0.026507",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "China's commercial properties unloved as foreign funds sell for fourth year",
+            "url": "https://www.scmp.com/property/article/3302089/global-funds-exit-chinas-commercial-properties-fourth-year-net-selling",
+            "time_published": "20250313T003013",
+            "authors": [
+                "Yuke Xie"
+            ],
+            "summary": "Cumulative net selling from 2021 to 2024 amounted to US$11.2 billion, surpassing net buying in 2019 to 2020.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/12/e0578907-9f97-4aa4-8719-6921438d0524_8c1b7a07.jpg?itok=Xi9NNUPV&v=1741769603",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                }
+            ],
+            "overall_sentiment_score": 0.081514,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BX",
+                    "relevance_score": "0.056143",
+                    "ticker_sentiment_score": "0.132919",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SVLPF",
+                    "relevance_score": "0.056143",
+                    "ticker_sentiment_score": "-0.052907",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.056143",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "China's stock rerating spurs widening premiums in ADRs for Alibaba, Li Auto",
+            "url": "https://www.scmp.com/business/china-business/article/3302085/chinas-stock-rerating-spurs-widening-premiums-adrs-alibaba-li-auto",
+            "time_published": "20250313T003008",
+            "authors": [
+                "Zhang Shidong"
+            ],
+            "summary": "The price gaps come as Chinese tech stocks have regained favour among investors after the rapid ascent of AI start-up DeepSeek.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/12/e0575448-4041-480f-9e0e-e9792ea7396d_5d172284.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.157619,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.186738",
+                    "ticker_sentiment_score": "0.111563",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "C",
+                    "relevance_score": "0.062761",
+                    "ticker_sentiment_score": "0.090343",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.062761",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LI",
+                    "relevance_score": "0.062761",
+                    "ticker_sentiment_score": "-0.048007",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TCTZF",
+                    "relevance_score": "0.062761",
+                    "ticker_sentiment_score": "0.080022",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Kirby McInerney LLP Announces Investigation Against RH  ( RH )  on Behalf of Investors - RH  ( NYSE:RH ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44292821/kirby-mcinerney-llp-announces-investigation-against-rh-rh-on-behalf-of-investors",
@@ -235,6 +534,53 @@
             ]
         },
         {
+            "title": "Are Stock Splits Buy Signals?",
+            "url": "https://www.zacks.com/stock/news/2429397/are-stock-splits-buy-signals",
+            "time_published": "20250312T230500",
+            "authors": [
+                "Derek Lewis"
+            ],
+            "summary": "We've seen many notable splits in recent years as companies aim to increase liquidity within shares and erase barriers to entry for potential investors. But how should market participants react?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/f8/14626.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.336175,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSCO",
+                    "relevance_score": "0.236972",
+                    "ticker_sentiment_score": "0.016809",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PANW",
+                    "relevance_score": "0.236972",
+                    "ticker_sentiment_score": "-0.123077",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Google's New AI Model Gemma 3 Shines for Creative Writers, Falls Short Elsewhere",
             "url": "https://decrypt.co/309718/googles-new-ai-model-gemma-3-shines-for-creative-writers-falls-short-elsewhere",
             "time_published": "20250312T230447",
@@ -388,6 +734,53 @@
             ]
         },
         {
+            "title": "Nektar Therapeutics  ( NKTR )  Q4 Earnings Beat Estimates",
+            "url": "https://www.zacks.com/stock/news/2429398/nektar-therapeutics-nktr-q4-earnings-beat-estimates",
+            "time_published": "20250312T230002",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Nektar (NKTR) delivered earnings and revenue surprises of 215.38% and 25.23%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default75.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999892"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.105915,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OABI",
+                    "relevance_score": "0.209365",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NKTR",
+                    "relevance_score": "0.140485",
+                    "ticker_sentiment_score": "-0.02502",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Federman & Sherwood Investigates Sunflower Medical Group, P.A. for Data Breach",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44292346/federman-sherwood-investigates-sunflower-medical-group-p-a-for-data-breach",
             "time_published": "20250312T230000",
@@ -406,6 +799,28 @@
                 }
             ],
             "overall_sentiment_score": 0.311358,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Greece ETF  ( GREK )  Hits New 52-Week High",
+            "url": "https://www.zacks.com/stock/news/2429396/greece-etf-grek-hits-new-52-week-high",
+            "time_published": "20250312T230000",
+            "authors": [
+                "Yashwardhan Jain"
+            ],
+            "summary": "This Greece ETF hits a new 52-week high. Are more gains in store for this ETF?",
+            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.227732,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
         },
@@ -1078,6 +1493,92 @@
             ]
         },
         {
+            "title": "Berry Petroleum  ( BRY )  Surpasses Q4 Earnings and Revenue Estimates",
+            "url": "https://www.zacks.com/stock/news/2429394/berry-petroleum-bry-surpasses-q4-earnings-and-revenue-estimates",
+            "time_published": "20250312T224003",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Berry Petroleum (BRY) delivered earnings and revenue surprises of 75% and 7.78%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default265.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999997"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.194299,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BRY",
+                    "relevance_score": "0.396052",
+                    "ticker_sentiment_score": "0.1878",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "EPSN",
+                    "relevance_score": "0.204647",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Algoma Steel Group Inc.  ( ASTL )  Reports Q3 Loss, Tops Revenue Estimates",
+            "url": "https://www.zacks.com/stock/news/2429395/algoma-steel-group-inc-astl-reports-q3-loss-tops-revenue-estimates",
+            "time_published": "20250312T224002",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Legato Merger (ASTL) delivered earnings and revenue surprises of 37.14% and 4.72%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default265.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999892"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.08909,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ASTL",
+                    "relevance_score": "0.140485",
+                    "ticker_sentiment_score": "-0.064431",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SZGPF",
+                    "relevance_score": "0.070517",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Bitcoin Miner Bitdeer's Own BTC Holdings Surge Since Start of Year",
             "url": "https://decrypt.co/309714/bitcoin-miner-bitdeers-own-btc-holdings-surge-since-start-of-year",
             "time_published": "20250312T223233",
@@ -1201,6 +1702,28 @@
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
+        },
+        {
+            "title": "Compared to Estimates, Adobe  ( ADBE )  Q1 Earnings: A Look at Key Metrics",
+            "url": "https://www.zacks.com/stock/news/2429393/compared-to-estimates-adobe-adbe-q1-earnings-a-look-at-key-metrics",
+            "time_published": "20250312T223002",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "Although the revenue and EPS for Adobe (ADBE) give a sense of how its business performed in the quarter ended February 2025, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.227732,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "Swiss Water Reports Year End and Fourth Quarter 2024 Results",
@@ -1407,6 +1930,39 @@
             ]
         },
         {
+            "title": "OTC Markets Group Inc.  ( OTCM )  Q4 Earnings Lag Estimates",
+            "url": "https://www.zacks.com/stock/news/2429392/otc-markets-group-inc-otcm-q4-earnings-lag-estimates",
+            "time_published": "20250312T222502",
+            "authors": [
+                "Zacks Equity Research"
+            ],
+            "summary": "OTC Markets Group (OTCM) delivered earnings and revenue surprises of -14.29% and 2.27%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default267.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999997"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.993856"
+                }
+            ],
+            "overall_sentiment_score": 0.162158,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ALTI",
+                    "relevance_score": "0.201803",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "AGNC Investment Corp.: Why I Would Prefer Half the Dividend and 100% More Certainty",
             "url": "https://www.fool.com/investing/2025/03/12/agnc-investment-corp-why-i-would-prefer-half-the-d/",
             "time_published": "20250312T222300",
@@ -1483,446 +2039,6 @@
                     "relevance_score": "0.11983",
                     "ticker_sentiment_score": "-0.005769",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "American Eagle Outfitters' Q4 EPS Surges",
-            "url": "https://www.fool.com/data-news/2025/03/12/american-eagle-outfitters-eps-surges/",
-            "time_published": "20250312T221748",
-            "authors": [
-                "JesterAI"
-            ],
-            "summary": "American Eagle Outfitters impresses with robust EPS yet faces challenges with declining revenue.",
-            "banner_image": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/05ceb0746e78d5f627448d11efff2d0e654b87b6-1398x1398.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999612"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.376655,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AEO",
-                    "relevance_score": "0.371523",
-                    "ticker_sentiment_score": "0.465781",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Hasbro  ( HAS )  Stock Drops Despite Market Gains: Important Facts to Note",
-            "url": "https://www.zacks.com/stock/news/2429373/hasbro-has-stock-drops-despite-market-gains-important-facts-to-note",
-            "time_published": "20250312T221519",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the closing of the recent trading day, Hasbro (HAS) stood at $61.89, denoting a -1.68% change from the preceding trading day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default192.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.182006,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HAS",
-                    "relevance_score": "0.395012",
-                    "ticker_sentiment_score": "0.293117",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Kyndryl Holdings, Inc.  ( KD )  Stock Drops Despite Market Gains: Important Facts to Note",
-            "url": "https://www.zacks.com/stock/news/2429374/kyndryl-holdings-inc-kd-stock-drops-despite-market-gains-important-facts-to-note",
-            "time_published": "20250312T221519",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the closing of the recent trading day, Kyndryl Holdings, Inc. (KD) stood at $34, denoting a -0.87% change from the preceding trading day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default60.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.159847,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "KD",
-                    "relevance_score": "0.517534",
-                    "ticker_sentiment_score": "0.327831",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "General Dynamics  ( GD )  Stock Falls Amid Market Uptick: What Investors Need to Know",
-            "url": "https://www.zacks.com/stock/news/2429372/general-dynamics-gd-stock-falls-amid-market-uptick-what-investors-need-to-know",
-            "time_published": "20250312T221519",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the latest trading session, General Dynamics (GD) closed at $260.01, marking a -1.56% move from the previous day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default241.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.938793"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.168401,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GD",
-                    "relevance_score": "0.595343",
-                    "ticker_sentiment_score": "0.260054",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "AppFolio  ( APPF )  Stock Dips While Market Gains: Key Facts",
-            "url": "https://www.zacks.com/stock/news/2429375/appfolio-appf-stock-dips-while-market-gains-key-facts",
-            "time_published": "20250312T221518",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "AppFolio (APPF) concluded the recent trading session at $210.25, signifying a -1.96% move from its prior day's close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default286.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.177637,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APPF",
-                    "relevance_score": "0.595343",
-                    "ticker_sentiment_score": "0.250731",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "BellRing Brands  ( BRBR )  Rises Higher Than Market: Key Facts",
-            "url": "https://www.zacks.com/stock/news/2429376/bellring-brands-brbr-rises-higher-than-market-key-facts",
-            "time_published": "20250312T221518",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "BellRing Brands (BRBR) reachead $68.10 at the closing of the latest trading day, reflecting a +1.19% change compared to its last close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default197.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.986564"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.145672,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRBR",
-                    "relevance_score": "0.608634",
-                    "ticker_sentiment_score": "0.351162",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Sirius XM  ( SIRI )  Stock Drops Despite Market Gains: Important Facts to Note",
-            "url": "https://www.zacks.com/stock/news/2429377/sirius-xm-siri-stock-drops-despite-market-gains-important-facts-to-note",
-            "time_published": "20250312T221518",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the most recent trading session, Sirius XM (SIRI) closed at $22.52, indicating a -0.79% shift from the previous trading day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default203.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.976913"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.159199,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SIRI",
-                    "relevance_score": "0.588876",
-                    "ticker_sentiment_score": "0.296632",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Diamondback Energy  ( FANG )  Laps the Stock Market: Here's Why",
-            "url": "https://www.zacks.com/stock/news/2429378/diamondback-energy-fang-laps-the-stock-market-heres-why",
-            "time_published": "20250312T221518",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the latest trading session, Diamondback Energy (FANG) closed at $146.55, marking a +1.31% move from the previous day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default127.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.95493"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.189168,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FANG",
-                    "relevance_score": "0.5341",
-                    "ticker_sentiment_score": "0.308514",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Astrazeneca  ( AZN )  Outperforms Broader Market: What You Need to Know",
-            "url": "https://www.zacks.com/stock/news/2429379/astrazeneca-azn-outperforms-broader-market-what-you-need-to-know",
-            "time_published": "20250312T221517",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the latest trading session, Astrazeneca (AZN) closed at $75.57, marking a +1.79% move from the previous day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default113.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.195843,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AZN",
-                    "relevance_score": "0.551622",
-                    "ticker_sentiment_score": "0.335079",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Humacyte, Inc.  ( HUMA )  Stock Sinks As Market Gains: Here's Why",
-            "url": "https://www.zacks.com/stock/news/2429380/humacyte-inc-huma-stock-sinks-as-market-gains-heres-why",
-            "time_published": "20250312T221517",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Humacyte, Inc. (HUMA) concluded the recent trading session at $2.99, signifying a -0.33% move from its prior day's close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default114.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.177837,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HUMA",
-                    "relevance_score": "0.615462",
-                    "ticker_sentiment_score": "0.473347",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Great Lakes Dredge & Dock  ( GLDD )  Exceeds Market Returns: Some Facts to Consider",
-            "url": "https://www.zacks.com/stock/news/2429381/great-lakes-dredge-dock-gldd-exceeds-market-returns-some-facts-to-consider",
-            "time_published": "20250312T221517",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Great Lakes Dredge & Dock (GLDD) concluded the recent trading session at $7.92, signifying a +1.8% move from its prior day's close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default270.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.140112,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GLDD",
-                    "relevance_score": "0.439786",
-                    "ticker_sentiment_score": "0.211691",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Honeywell International Inc.  ( HON )  Stock Falls Amid Market Uptick: What Investors Need to Know",
-            "url": "https://www.zacks.com/stock/news/2429382/honeywell-international-inc-hon-stock-falls-amid-market-uptick-what-investors-need-to-know",
-            "time_published": "20250312T221517",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Honeywell International Inc. (HON) closed at $206.35 in the latest trading session, marking a -1.07% move from the prior day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default315.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.196942,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HON",
-                    "relevance_score": "0.592095",
-                    "ticker_sentiment_score": "0.290087",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
