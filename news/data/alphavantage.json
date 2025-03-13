@@ -1,8 +1,143 @@
 {
-    "items": "45",
+    "items": "42",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Palantir's $4 Million ARPC Estimate 'Flawed,' Says 'Pharma Bro' Martin Shkreli, But 'I Wouldn't Bet Against Them' - Dow  ( NYSE:DOW ) , Palantir Technologies  ( NASDAQ:PLTR ) ",
+            "url": "https://www.benzinga.com/markets/equities/25/03/44294672/palantirs-4-million-arpc-estimate-flawed-says-pharma-bro-martin-shkreli-but-i-wouldnt-bet-agains",
+            "time_published": "20250313T044845",
+            "authors": [
+                "Kaustubh Bagalkote"
+            ],
+            "summary": "Martin Shkreli, the controversial former hedge fund manager known as \"Pharma Bro,\" questioned but ultimately defended Palantir Technologies Inc.'s PLTR growth projections on Wednesday, calling analysis of the company's $4 million average revenue per customer \"flawed.\"",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/13/Comments-From-Palantirs-CTO.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.230949,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "C",
+                    "relevance_score": "0.090134",
+                    "ticker_sentiment_score": "0.147505",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DOW",
+                    "relevance_score": "0.090134",
+                    "ticker_sentiment_score": "0.164665",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SNOW",
+                    "relevance_score": "0.265859",
+                    "ticker_sentiment_score": "0.107917",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.265859",
+                    "ticker_sentiment_score": "-0.020581",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Nebraska governor signs bill to regulate crypto ATMs, citing growing fraud",
+            "url": "https://cointelegraph.com/news/nebraska-governor-signs-crypto-atm-fraud-protection-bill",
+            "time_published": "20250313T043710",
+            "authors": [
+                "Martin Young"
+            ],
+            "summary": "The governor of Nebraska, Jim Pillen, has signed legislation to protect against cryptocurrency fraud as crypto ATM crime skyrockets in the United States.\"Cryptocurrency is an important, emerging industry, and we've been working hard to build Nebraska into a cryptocurrency leader,\" said Governor ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01958dbc-c7e4-7ffc-9348-185f4fa49eac",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": -0.149489,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.198221",
+                    "ticker_sentiment_score": "-0.200436",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Nokia selected to upscale Vodafone Idea's IP backhaul network for superior 4G and 5G experience",
+            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041863/0/en/Nokia-selected-to-upscale-Vodafone-Idea-s-IP-backhaul-network-for-superior-4G-and-5G-experience.html",
+            "time_published": "20250313T043000",
+            "authors": [
+                "Nokia Oyj"
+            ],
+            "summary": "Nokia selected to upscale Vodafone Idea's IP backhaul network for superior 4G and 5G experience \u2022 Nokia's trusted performance in critical network infrastructure strengthens its partnership with Vodafone Idea to deliver robust IP backhaul expansion through high-performance IP/MPLS solutions. \u2022 ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/e6523d78-c43a-4057-8aa9-68206d3af4a8",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.543608,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VOD",
+                    "relevance_score": "0.466325",
+                    "ticker_sentiment_score": "0.630281",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NOK",
+                    "relevance_score": "0.544869",
+                    "ticker_sentiment_score": "0.720583",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "Jamie Dimon's Crypto Change Of Heart? Trump Once Claimed Shift, But JPMorgan CEO Still A Skeptic When It Comes To Bitcoin - Fidelity Wise Origin Bitcoin Fund Common Shares of Beneficial Interest  ( BATS:FBTC ) ",
             "url": "https://www.benzinga.com/markets/cryptocurrency/25/03/44294343/jamie-dimons-crypto-change-of-heart-trump-once-claimed-shift-but-jpmorgan-ceo-still-a-skep",
@@ -1861,276 +1996,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "AOC Claps Back At Mike Johnson As Senate Moves Closer To Government Shutdown: 'If You Need Democrats, Then You Need To Negotiate'",
-            "url": "https://www.benzinga.com/25/03/44293219/aoc-claps-back-at-mike-johnson-as-senate-moves-closer-to-government-shutdown-if-you-need-democrats-then-you-need-",
-            "time_published": "20250313T004708",
-            "authors": [
-                "Shivdeep Dhaliwal"
-            ],
-            "summary": "On Wednesday, Rep. Alexandria Ocasio-Cortez ( D-N.Y. ) responded to House Speaker Mike Johnson ( R-La. ) addressing the ongoing government shutdown debate. What Happened: Johnson claimed that the Democrats were responsible for the looming government shutdown.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/12/AOC-Slams-Trump-Over-His-Claims-On-The-L.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.101105,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "The Bancorp  ( TBBK )  Stumble Raises Questions About Loan Portfolio - Hagens Berman",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44293192/the-bancorp-tbbk-stumble-raises-questions-about-loan-portfolio-hagens-berman",
-            "time_published": "20250313T004046",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SAN FRANCISCO, March 12, 2025 ( GLOBE NEWSWIRE ) -- The Bancorp, Inc. saw its shares plummet $2.35 on March 5, 2025, as investors grappled with the company's startling admission that its recently filed financial statements should no longer be relied upon.",
-            "banner_image": "https://ml.globenewswire.com/media/51670c91-d369-4a8c-8102-d393de9f6d19/small/download-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                }
-            ],
-            "overall_sentiment_score": 0.08486,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TBBK",
-                    "relevance_score": "0.116067",
-                    "ticker_sentiment_score": "-0.078234",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Anteris Reports 2024 Financial Results and Provides Corporate Update",
-            "url": "https://www.globenewswire.com/news-release/2025/03/13/3041843/0/en/Anteris-Reports-2024-Financial-Results-and-Provides-Corporate-Update.html",
-            "time_published": "20250313T003300",
-            "authors": [
-                "Anteris Technologies Ltd"
-            ],
-            "summary": "Anteris Technologies Global Corp. Reports 2024 Financial Results and Provides Corporate Update ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/90a5ae8d-7cf0-4a3d-b38c-f4ad7e3fbf0e",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.838487"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.988915"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.215178,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GLP",
-                    "relevance_score": "0.023957",
-                    "ticker_sentiment_score": "0.033661",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AWON",
-                    "relevance_score": "0.023957",
-                    "ticker_sentiment_score": "0.094879",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.023957",
-                    "ticker_sentiment_score": "0.190963",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MDT",
-                    "relevance_score": "0.023957",
-                    "ticker_sentiment_score": "0.058395",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AVR",
-                    "relevance_score": "0.142989",
-                    "ticker_sentiment_score": "0.258675",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.023957",
-                    "ticker_sentiment_score": "0.026507",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "China's commercial properties unloved as foreign funds sell for fourth year",
-            "url": "https://www.scmp.com/property/article/3302089/global-funds-exit-chinas-commercial-properties-fourth-year-net-selling",
-            "time_published": "20250313T003013",
-            "authors": [
-                "Yuke Xie"
-            ],
-            "summary": "Cumulative net selling from 2021 to 2024 amounted to US$11.2 billion, surpassing net buying in 2019 to 2020.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/12/e0578907-9f97-4aa4-8719-6921438d0524_8c1b7a07.jpg?itok=Xi9NNUPV&v=1741769603",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": 0.081514,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BX",
-                    "relevance_score": "0.056143",
-                    "ticker_sentiment_score": "0.132919",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SVLPF",
-                    "relevance_score": "0.056143",
-                    "ticker_sentiment_score": "-0.052907",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SCBFF",
-                    "relevance_score": "0.056143",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "China's stock rerating spurs widening premiums in ADRs for Alibaba, Li Auto",
-            "url": "https://www.scmp.com/business/china-business/article/3302085/chinas-stock-rerating-spurs-widening-premiums-adrs-alibaba-li-auto",
-            "time_published": "20250313T003008",
-            "authors": [
-                "Zhang Shidong"
-            ],
-            "summary": "The price gaps come as Chinese tech stocks have regained favour among investors after the rapid ascent of AI start-up DeepSeek.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/12/e0575448-4041-480f-9e0e-e9792ea7396d_5d172284.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.918141"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.157619,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.186738",
-                    "ticker_sentiment_score": "0.111563",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.062761",
-                    "ticker_sentiment_score": "0.090343",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.062761",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LI",
-                    "relevance_score": "0.062761",
-                    "ticker_sentiment_score": "-0.048007",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TCTZF",
-                    "relevance_score": "0.062761",
-                    "ticker_sentiment_score": "0.080022",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Nektar  ( NKTR )  Reports Q4 Earnings: What Key Metrics Have to Say",
-            "url": "https://www.zacks.com/stock/news/2429401/nektar-nktr-reports-q4-earnings-what-key-metrics-have-to-say",
-            "time_published": "20250313T003002",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "The headline numbers for Nektar (NKTR) give insight into how the company performed in the quarter ended December 2024, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
-            "banner_image": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.227732,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
