@@ -1,8 +1,94 @@
 {
-    "items": "45",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Why Ross Gerber Finds Tesla Stock Expensive Despite Its 50% Plunge? 'Fundamental Story Has To Be Revalued' - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/25/03/44321998/why-ross-gerber-finds-tesla-stock-expensive-despite-its-50-plunge-fundamental-story-has-to-be-revalued",
+            "time_published": "20250314T051934",
+            "authors": [
+                "Namrata Sen"
+            ],
+            "summary": "Despite nearly a 50% drop since mid-December, Tesla Inc. TSLA shares are still too expensive to attract seasoned investor Ross Gerber back into the fold.",
+            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/03/14003503/image-108.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.54554"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.614606"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.039108,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.149192",
+                    "ticker_sentiment_score": "0.144622",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.54816",
+                    "ticker_sentiment_score": "0.055035",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Court says Bitcoin mining host can't block tenant access to its rigs",
+            "url": "https://cointelegraph.com/news/court-rules-btc-miner-host-cant-block-tenant-access-30-m-rigs",
+            "time_published": "20250314T050028",
+            "authors": [
+                "Stephen Katte"
+            ],
+            "summary": "A Delaware court has granted a temporary reprieve to a Pennsylvanian Bitcoin mining firm currently in a payment dispute with its hosting company - barring the hosting provider from blocking access and otherwise commandeering the miner's 21,000 rigs at the property.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019592ec-64ee-71de-850d-43893367fdbe",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.076602,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MIGI",
+                    "relevance_score": "0.085324",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.546745",
+                    "ticker_sentiment_score": "0.003408",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Palace Museum bridging civilizations",
             "url": "https://www.benzinga.com/pressreleases/25/03/n44321855/palace-museum-bridging-civilizations",
@@ -1851,35 +1937,6 @@
                     "relevance_score": "0.418689",
                     "ticker_sentiment_score": "0.075942",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Microsoft to Integrate AI into Xbox With Copilot for Game Assistance",
-            "url": "https://decrypt.co/309968/ai-comes-to-xbox-microsofts-copilot-to-help-gamers-improve-and-manage-games",
-            "time_published": "20250314T005254",
-            "authors": [
-                "Jason Nelson"
-            ],
-            "summary": "Microsoft's AI Copilot is launching on Xbox, positioning it as a way to help gamers with gameplay tips, updates, and more.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/03/gamer-gains-gID_7.png",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.29787,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.47147",
-                    "ticker_sentiment_score": "0.30636",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
