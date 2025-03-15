@@ -1,8 +1,165 @@
 {
-    "items": "27",
+    "items": "32",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Warren Buffett's Berkshire Hathaway Sold $134 Billion In Stocks In 2024, Timing It Perfectly As Recession Fears Mount: The Internet Is In Awe",
+            "url": "https://www.benzinga.com/markets/25/03/44345565/warren-buffetts-berkshire-hathaway-sold-134-billion-in-stocks-in-2024-timing-it-perfectly-as-recession-fe",
+            "time_published": "20250315T084109",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Last year, Warren Buffett was criticized and mocked for sitting on a mountain of cash while markets surged. However, now, with stocks tumbling and recession fears mounting, the \"Oracle of Omaha\" suddenly looks like the only one who saw it coming.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/15/Why-Warren-Buffett-Turns-To-Kiplings-189.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.94762"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": -0.007405,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.073773",
+                    "ticker_sentiment_score": "-0.183859",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.073773",
+                    "ticker_sentiment_score": "-0.183859",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.073773",
+                    "ticker_sentiment_score": "-0.103696",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.073773",
+                    "ticker_sentiment_score": "0.095767",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Elon Musk's Tesla Halts Cybertruck Deliveries After Metal Panels Reportedly Fall Off - Owners Living In Cold Weather Say Glue Is Failing - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/media/25/03/44345553/elon-musks-tesla-halts-cybertruck-deliveries-after-metal-panels-reportedly-fall-off-owners-living-in-cold-w",
+            "time_published": "20250315T083101",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Tesla Inc. TSLA has reportedly paused deliveries of Cybertruck after multiple owners complained that exterior metal panels were detaching. What Happened: Tesla delivery agents have stated that all outbound Cybertruck shipments have been halted due to concerns that the adhesive used to attach the ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/15/Elon-Musk-Offered-A-Cybertruck-Bounty-To.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.159255,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.548363",
+                    "ticker_sentiment_score": "-0.251888",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Macroscope | How will nations pay for a Trump-induced rush to arms?",
+            "url": "https://www.scmp.com/opinion/world-opinion/article/3302237/how-will-nations-pay-trump-induced-rush-arms",
+            "time_published": "20250315T083008",
+            "authors": [
+                "Anthony Rowley"
+            ],
+            "summary": "Those aiming to raise defence spending should ask where the money will come from and remember needs like infrastructure and climate change.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/02/27/oi.00_00_09_20.Still003.jpg?itok=lnEo-R0h",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.955357"
+                }
+            ],
+            "overall_sentiment_score": 0.048223,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAESF",
+                    "relevance_score": "0.045482",
+                    "ticker_sentiment_score": "0.045085",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "EADSF",
+                    "relevance_score": "0.045482",
+                    "ticker_sentiment_score": "0.045085",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSBHF",
+                    "relevance_score": "0.045482",
+                    "ticker_sentiment_score": "0.045085",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FNCNF",
+                    "relevance_score": "0.045482",
+                    "ticker_sentiment_score": "0.045085",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MHVYF",
+                    "relevance_score": "0.045482",
+                    "ticker_sentiment_score": "0.045085",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "JELU Coin Introduces Multi-Chain Presale, Staking Rewards, and Referral Incentives",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44345545/jelu-coin-introduces-multi-chain-presale-staking-rewards-and-referral-incentives",
@@ -38,6 +195,326 @@
                     "ticker": "CRYPTO:USDT",
                     "relevance_score": "0.070725",
                     "ticker_sentiment_score": "0.213408",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Have $3,000? These 3 Stocks Could Be Bargain Buys for 2025 and Beyond",
+            "url": "https://www.fool.com/investing/2025/03/15/stocks-bargain-buys-2025-uber-rivian-oracle/",
+            "time_published": "20250315T082400",
+            "authors": [
+                "Leo Sun"
+            ],
+            "summary": "Uber, Rivian, and Oracle look cheap relative to their growth potential.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810872%2Ftrader-investor-chart-graph-screen-woman-market-exchange.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999606"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.202576,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.046363",
+                    "ticker_sentiment_score": "0.07047",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.046363",
+                    "ticker_sentiment_score": "0.073604",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.046363",
+                    "ticker_sentiment_score": "0.073604",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ORCL",
+                    "relevance_score": "0.315975",
+                    "ticker_sentiment_score": "0.181031",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "RIVN",
+                    "relevance_score": "0.272788",
+                    "ticker_sentiment_score": "0.190265",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.272788",
+                    "ticker_sentiment_score": "0.223559",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "2 Beaten-Down Stocks That Are Screaming Buys in March",
+            "url": "https://www.fool.com/investing/2025/03/15/2-beaten-down-stocks-that-are-screaming-buys-in-ma/",
+            "time_published": "20250315T081500",
+            "authors": [
+                "Jake Lerch"
+            ],
+            "summary": "There are two big challenges for buy-and-hold investors:The recent sell-off gives investors a chance to do both. So, let's examine two stocks that are great long-term buy-and-hold candidates.Image source: Getty Images.Continue reading ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810421%2Famazon-amzn-stock-market-correction.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999365"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.875462"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.222425,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SPOT",
+                    "relevance_score": "0.316846",
+                    "ticker_sentiment_score": "0.2897",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.390092",
+                    "ticker_sentiment_score": "0.035557",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Prediction: This Will Be Nvidia's Next Big Move  ( and It Will Start on March 18 ) ",
+            "url": "https://www.fool.com/investing/2025/03/15/prediction-this-will-be-nvidias-next-big-move/",
+            "time_published": "20250315T081000",
+            "authors": [
+                "Adria Cimino"
+            ],
+            "summary": "Nvidia ( NASDAQ: NVDA ) has wowed investors with many of its moves over the past few years, from introducing game-changing new products into the artificial intelligence ( AI ) market to earning a spot in the prestigious Dow Jones Industrial Average ( DJINDICES: ^DJI ) .The company elevated its ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811036%2Fgettyimages-man-smiles-on-phone-at-computer.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.938793"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.286677,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.049835",
+                    "ticker_sentiment_score": "0.124191",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.618426",
+                    "ticker_sentiment_score": "0.469151",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Want Decades of Passive Income? 3 Best Oil Stocks to Buy Right Now",
+            "url": "https://www.fool.com/investing/2025/03/15/want-decades-passive-income-3-best-oil-stocks-buy/",
+            "time_published": "20250315T080700",
+            "authors": [
+                "Neha Chamaria"
+            ],
+            "summary": "These incredible oil stocks, yielding between 3.6% and 6.5%, should increase their dividends every year for years to come.",
+            "banner_image": "https://media.ycharts.com/charts/91d800f5f027a17d933f949c56259c28.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99793"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.362354,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ENB",
+                    "relevance_score": "0.421485",
+                    "ticker_sentiment_score": "0.332953",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "XOM",
+                    "relevance_score": "0.378572",
+                    "ticker_sentiment_score": "0.43245",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "This Recession Indicator Hasn't Been Wrong in 59 Years: Here's What It Says Happens Next",
+            "url": "https://www.fool.com/investing/2025/03/15/recession-indicator-not-wrong-59-years-what-next/",
+            "time_published": "20250315T080600",
+            "authors": [
+                "Sean Williams"
+            ],
+            "summary": "Headwinds appear to be mounting for the U.S. economy and stock market.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811034%2Frecession-fear-economy-downturn-newspaper-gdp-bear-market-invest-getty.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.890401"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.034082,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.037563",
+                    "ticker_sentiment_score": "-0.12556",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "What Stock Market Sell-Off? These 2 Dow Jones Dividend Stocks Are Near Their All-Time Highs",
+            "url": "https://www.fool.com/investing/2025/03/15/stock-market-sell-off-buy-dow-jones-dividend-stock/",
+            "time_published": "20250315T080500",
+            "authors": [
+                "Daniel Foelber"
+            ],
+            "summary": "Stock market volatility is back, with the S&P 500, Nasdaq Composite, and Dow Jones Industrial Average all down year to date -- with their declines led by sell-offs in growth-focused sectors like technology and consumer discretionary.However, the Dow is outperforming the S&P 500 and Nasdaq in ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810577%2Fgettyimages-1349321741-1201x808-d335793-2.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.990999"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.917436"
+                }
+            ],
+            "overall_sentiment_score": 0.268434,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KO",
+                    "relevance_score": "0.210274",
+                    "ticker_sentiment_score": "0.113522",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.053153",
+                    "ticker_sentiment_score": "0.19439",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "PG",
+                    "relevance_score": "0.10607",
+                    "ticker_sentiment_score": "0.136458",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.210274",
+                    "ticker_sentiment_score": "0.166831",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1007,127 +1484,6 @@
             "overall_sentiment_score": 0.256792,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Ray Dalio Has A Chilling Warning For President Trump: Debt Crisis Is Imminent, And An Issue Of 'Paramount Importance'",
-            "url": "https://www.benzinga.com/25/03/44345022/ray-dalio-has-a-chilling-warning-for-president-trump-debt-crisis-is-imminent-and-an-issue-of-paramount-importance",
-            "time_published": "20250315T040151",
-            "authors": [
-                "Rounak Jain"
-            ],
-            "summary": "Ray Dalio, founder of Bridgewater Associates, has raised alarms about the United States' national debt, predicting an imminent crisis. What Happened: According to a report by Fortune, Dalio expressed his concerns during his speech at the CONVERGE LIVE event in Singapore on Thursday.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/15/Ray-Dalio-Says-China-Is-Way-Ahead-Of-US-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": -0.25709,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Arthur Hayes Predicts Bitcoin Surge To $250,000 By Year-End, Says Current Downturn Is Clearing Out Deadwood: 'Short-Term Pain' - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
-            "url": "https://www.benzinga.com/25/03/44345006/arthur-hayes-predicts-bitcoin-surge-to-250000-by-year-end-says-current-downturn-is-clearing-out-deadwood-short-te",
-            "time_published": "20250315T035134",
-            "authors": [
-                "Rounak Jain"
-            ],
-            "summary": "Arthur Hayes, co-founder of BitMEX, has projected a significant increase in Bitcoin's value, anticipating it will reach $250,000 by the close of the year. What Happened: Hayes suggests that the current downturn in the crypto market is a temporary setback, part of a natural cycle.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/14/Mini-Financial-Crisis-For-Crypto-Incomin.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                }
-            ],
-            "overall_sentiment_score": 0.236786,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.658245",
-                    "ticker_sentiment_score": "0.348117",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Apple Reportedly Fights UK Government's 'Unacceptable' Encryption Order Behind Closed Doors - No Press Or Public Allowed - Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/news/legal/25/03/44344993/apple-reportedly-fights-uk-governments-unacceptable-encryption-order-behind-closed-doors-no-press-or-p",
-            "time_published": "20250315T033936",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "A highly secretive court hearing believed to be Apple Inc.'s AAPL appeal against a U.K. government demand for backdoor access to its encrypted cloud systems took place Friday in London - with the public and media barred from attending.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/14/Penang--Malaysia---Oct-10--2022-Apple-Ip.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.002469,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.591019",
-                    "ticker_sentiment_score": "0.028378",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "NASA, SpaceX One Step Closer To Bring Back Astronauts Butch Wilmore, Sunita Williams Stranded Due To Boeing's Starliner Issues: Replacement Crew Launches Successfully - Boeing  ( NYSE:BA ) ",
-            "url": "https://www.benzinga.com/25/03/44344973/nasa-spacex-one-step-closer-to-bring-back-astronauts-butch-wilmore-sunita-williams-stranded-due-to-boeings-starli",
-            "time_published": "20250315T032614",
-            "authors": [
-                "Rounak Jain"
-            ],
-            "summary": "NASA and Elon Musk-led SpaceX successfully launched a new crew to the International Space Station ( ISS ) on Friday, aiming to bring back U.S. astronauts Butch Wilmore and Sunita Williams, who have been on the ISS for an extended period of nine months. What Happened: The launch occurred at ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/14/Sunita-Williams-Butch-Wilmore.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.028756,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BA",
-                    "relevance_score": "0.211191",
-                    "ticker_sentiment_score": "0.065991",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
