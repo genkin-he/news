@@ -1,8 +1,90 @@
 {
-    "items": "50",
+    "items": "49",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Opinion | Hong Kong must ensure it won't lose control of Northern Metropolis",
+            "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3302181/hong-kong-must-ensure-it-wont-lose-control-northern-metropolis",
+            "time_published": "20250315T013008",
+            "authors": [
+                "Andy Cheng"
+            ],
+            "summary": "As the city moves away from conventional development models, risks and rewards with the private sector should still be distributed fairly.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/13/3e11d0c7-fd2b-4dad-bea4-ac8e999998c1_629284a6.jpg?itok=lvmqXOox&v=1741841050",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.205123,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.19231",
+                    "ticker_sentiment_score": "0.050048",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Sacks and his VC firm sold over $200M in crypto and stocks before WH role",
+            "url": "https://cointelegraph.com/news/david-sacks-sold-off-crypto-related-assets-prior-crypto-czar-white-house",
+            "time_published": "20250315T010837",
+            "authors": [
+                "Ciaran Lyons"
+            ],
+            "summary": "David Sacks and his venture capital firm offloaded over $200 million in crypto and crypto-related stocks before he commenced his role as the White House AI and crypto czar, a White House memorandum disclosed.\"You and Craft Ventures have divested over $200 million of positions related to the ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195973e-1899-7e4f-ac93-327dcc534dbe",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                }
+            ],
+            "overall_sentiment_score": 0.105871,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.169081",
+                    "ticker_sentiment_score": "0.105368",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.330654",
+                    "ticker_sentiment_score": "0.049444",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.251247",
+                    "ticker_sentiment_score": "0.001875",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Petro-Victory Energy Corp. Engages Alliance Advisors IR for Investor Relations Services",
             "url": "https://www.benzinga.com/pressreleases/25/03/n44344406/petro-victory-energy-corp-engages-alliance-advisors-ir-for-investor-relations-services",
@@ -1681,141 +1763,6 @@
                     "relevance_score": "0.645091",
                     "ticker_sentiment_score": "0.278643",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, LEADING INVESTOR COUNSEL, Encourages Game of Silks NFT Investors to Secure Counsel Before Important Deadline in Securities Class Action",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44343362/rosen-leading-investor-counsel-encourages-game-of-silks-nft-investors-to-secure-counsel-before-imp",
-            "time_published": "20250314T214100",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 14, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of Game of Silks non-fungible tokens ( \"NFTs\" ) , including Silks Avatar NFTs, Silks Horse NFTs, and Silks Land NFTs, and who were damaged thereby, of the important April ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.857896"
-                }
-            ],
-            "overall_sentiment_score": 0.172461,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.057079",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "VanEck files for AVAX ETF",
-            "url": "https://cointelegraph.com/news/vaneck-files-avalanche-etf",
-            "time_published": "20250314T213742",
-            "authors": [
-                "Sam Bourgi"
-            ],
-            "summary": "Global investment manager VanEck has filed for an Avalanche ( AVAX ) exchange-traded fund ( ETF ) with the US Securities and Exchange Commission ( SEC ) seeking to offer investors direct exposure to the smart contract platform. A snippet of the S-1 filing was shared on social media on March 14 by ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01959690-4f7b-7ca0-b75c-387f788aab1d",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.838487"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.96136"
-                }
-            ],
-            "overall_sentiment_score": 0.147945,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.211191",
-                    "ticker_sentiment_score": "0.085593",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.106541",
-                    "ticker_sentiment_score": "-0.01874",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.211191",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:LTC",
-                    "relevance_score": "0.211191",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Global Federal Credit Union and First Financial Northwest, Inc. Announce Expected Closing Date for Transaction - First Financial Northwest  ( NASDAQ:FFNW ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44343294/global-federal-credit-union-and-first-financial-northwest-inc-announce-expected-closing-date-for-t",
-            "time_published": "20250314T213507",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "ANCHORAGE, Alaska and RENTON, Wash., March 14, 2025 ( GLOBE NEWSWIRE ) -- Global Federal Credit Union ( \"Global\" ) and First Financial Northwest, Inc. ( the \"Company\" ) ( NASDAQ GS: FFNW ) , the holding company for First Financial Northwest Bank ( the \"Bank\" ) , jointly announced today they have ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "Mergers",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.838487"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.858979"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.026592,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ALK",
-                    "relevance_score": "0.031612",
-                    "ticker_sentiment_score": "0.093912",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FFNW",
-                    "relevance_score": "0.187949",
-                    "ticker_sentiment_score": "0.103829",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
