@@ -1,8 +1,43 @@
 {
-    "items": "38",
+    "items": "35",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Crypto faces 'starkest' gap between sentiment and fundamentals: BlockTower",
+            "url": "https://cointelegraph.com/news/crypto-market-divergence-sentiment-fundamentals-blocktower-founder",
+            "time_published": "20250315T050119",
+            "authors": [
+                "Ciaran Lyons"
+            ],
+            "summary": "The major disconnect between crypto traders' growing short-term market uncertainty and crypto builders becoming more bullish than ever creates a prime setup for long-term investors, according to a crypto hedge fund founder.\"This is one of the starkest divergences I've seen in sentiment and ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01959821-dee3-730b-8f5a-1dfb955bf8a4",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.186864,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.351807",
+                    "ticker_sentiment_score": "-0.104713",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.18046",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Ray Dalio Has A Chilling Warning For President Trump: Debt Crisis Is Imminent, And An Issue Of 'Paramount Importance'",
             "url": "https://www.benzinga.com/25/03/44345022/ray-dalio-has-a-chilling-warning-for-president-trump-debt-crisis-is-imminent-and-an-issue-of-paramount-importance",
@@ -1230,154 +1265,6 @@
                     "ticker": "CRYPTO:BTC",
                     "relevance_score": "0.582526",
                     "ticker_sentiment_score": "-0.091009",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Cannabix Technologies announces Stock Option Grant and Director Resignation",
-            "url": "https://www.globenewswire.com/news-release/2025/03/14/3043213/0/en/Cannabix-Technologies-announces-Stock-Option-Grant-and-Director-Resignation.html",
-            "time_published": "20250314T221500",
-            "authors": [
-                "Cannabix Technologies Inc."
-            ],
-            "summary": "VANCOUVER, British Columbia, March 14, 2025 ( GLOBE NEWSWIRE ) -- Cannabix Technologies Inc. ( CSE: BLO ) ( OTC PINK: BLOZF ) ( Frankfurt: 8CT ) ( the \"Company or Cannabix\" ) reports it is granting 3,375,000 incentive stock options to officers, directors and consultants of the Company, ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/c82e010e-984e-4788-b222-2539a90d3394",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.093939,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BLOZF",
-                    "relevance_score": "0.443626",
-                    "ticker_sentiment_score": "0.227773",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Cannabix Technologies announces Stock Option Grant and Director Resignation - Cannabix Technologies  ( OTC:BLOZF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44343625/cannabix-technologies-announces-stock-option-grant-and-director-resignation",
-            "time_published": "20250314T221500",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "VANCOUVER, British Columbia, March 14, 2025 ( GLOBE NEWSWIRE ) -- Cannabix Technologies Inc.",
-            "banner_image": "https://ml.globenewswire.com/media/c82e010e-984e-4788-b222-2539a90d3394/small/logo-full-color-symbol-blueslash-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.150939,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BLOZF",
-                    "relevance_score": "0.388879",
-                    "ticker_sentiment_score": "0.203131",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Gold ETFs Winning the Asset Race With Bitcoin Funds-for Now",
-            "url": "https://decrypt.co/310003/gold-etfs-winning-the-asset-race-with-bitcoin-funds",
-            "time_published": "20250314T220716",
-            "authors": [
-                "Mat Di Salvo"
-            ],
-            "summary": "The price of the traditional safe-haven asset has soared recently, but bitcoin is the real \"hot sauce,\" says analyst Eric Balchunas.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/09/Goldimage1-scaled-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.967645"
-                }
-            ],
-            "overall_sentiment_score": 0.24887,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.790165",
-                    "ticker_sentiment_score": "0.401645",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Market Correction: This Dirt Cheap ETF Is Down by Almost 20%",
-            "url": "https://www.fool.com/investing/2025/03/14/market-correction-this-dirt-cheap-etf-is-down-by-a/",
-            "time_published": "20250314T220600",
-            "authors": [
-                "Matt Frankel"
-            ],
-            "summary": "The benchmark S&P 500 index recently reached correction territory, indicated by a 10% drop from its highs. But certain other parts of the stock market have been hit even harder.One big area of underperformance in the recent market sell-off is small-cap stocks.",
-            "banner_image": "https://media.ycharts.com/charts/39a25be4b4e0fc72cc3e7aceb1566721.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998663"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.132425,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PCVX",
-                    "relevance_score": "0.05257",
-                    "ticker_sentiment_score": "0.028925",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "INSM",
-                    "relevance_score": "0.05257",
-                    "ticker_sentiment_score": "0.028925",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SFM",
-                    "relevance_score": "0.05257",
-                    "ticker_sentiment_score": "0.028925",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
