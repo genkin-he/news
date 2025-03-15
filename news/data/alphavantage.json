@@ -1,8 +1,426 @@
 {
-    "items": "39",
+    "items": "37",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of e.l.f. Beauty - e.l.f. Beauty  ( NYSE:ELF ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345913/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-e-l-",
+            "time_published": "20250315T122200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In e.l.f. Beauty To Contact Him Directly To Discuss Their Options If you purchased or acquired securities in e.l.f.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.149672,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.050044",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Block - Block  ( NYSE:XYZ ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345912/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-bloc",
+            "time_published": "20250315T122200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Block To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/f08ef15c-387e-4214-8ce6-30cbdada61ea/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.995015"
+                }
+            ],
+            "overall_sentiment_score": -0.233773,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.037563",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BSQKZ",
+                    "relevance_score": "0.075043",
+                    "ticker_sentiment_score": "0.091863",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BNXYF",
+                    "relevance_score": "0.037563",
+                    "ticker_sentiment_score": "-0.240115",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.037563",
+                    "ticker_sentiment_score": "-0.240115",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Maravai LifeSciences - Maravai LifeSciences  ( NASDAQ:MRVI ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345910/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-mara",
+            "time_published": "20250315T121900",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Maravai LifeSciences To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.87644"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.14362,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MRVI",
+                    "relevance_score": "0.353059",
+                    "ticker_sentiment_score": "0.176352",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.060848",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Skyworks - Skyworks Solutions  ( NASDAQ:SWKS ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345907/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-skyw",
+            "time_published": "20250315T121800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Skyworks To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/40c366b5-14e0-4b22-97a7-aa038b861baa/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.905476"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.203583,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SWKS",
+                    "relevance_score": "0.231884",
+                    "ticker_sentiment_score": "0.157829",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Polestar Automotive - Polestar Automotive  ( NASDAQ:PSNY ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345903/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-pole",
+            "time_published": "20250315T121700",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Polestar To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/d6e81e3d-0277-4a0f-a7fb-420e46f048c2/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                }
+            ],
+            "overall_sentiment_score": 0.094058,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.060388",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PSNY",
+                    "relevance_score": "0.179788",
+                    "ticker_sentiment_score": "0.128604",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of TELUS International  ( Cda )  - TELUS Intl  ( NYSE:TIXT ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345898/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-telu",
+            "time_published": "20250315T121300",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Telus International To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/c02551d8-04d5-439f-bf00-785b2cdc2bc1/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.77141"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                }
+            ],
+            "overall_sentiment_score": 0.144571,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.045743",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TU",
+                    "relevance_score": "0.471943",
+                    "ticker_sentiment_score": "0.082917",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TIXT",
+                    "relevance_score": "0.433771",
+                    "ticker_sentiment_score": "0.134077",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Bulls And Bears: DocuSign, Magnificent 7, Palantir - And Tariffs Keep Roiling Markets - DocuSign  ( NASDAQ:DOCU ) , Trump Media & Technology  ( NASDAQ:DJT ) ",
+            "url": "https://www.benzinga.com/25/03/44345850/benzinga-bulls-and-bears-docusign-magnificent-7-palantir-and-tariffs-keep-roiling-markets",
+            "time_published": "20250315T120046",
+            "authors": [
+                "Benzinga Senior Editor"
+            ],
+            "summary": "Benzinga examined the prospects for many investors' favorite stocks over the last week - here's a look at some of our top stories. This week, U.S. stock markets tumbled into correction territory, with the S&P 500 dropping over 10% from February highs.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/15/bulls-and-bears-22ai.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.990999"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.938793"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.146301,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.121343",
+                    "ticker_sentiment_score": "-0.008476",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TYHOF",
+                    "relevance_score": "0.060848",
+                    "ticker_sentiment_score": "0.098004",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DOCU",
+                    "relevance_score": "0.181137",
+                    "ticker_sentiment_score": "0.052981",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QBTS",
+                    "relevance_score": "0.181137",
+                    "ticker_sentiment_score": "0.44993",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "DJT",
+                    "relevance_score": "0.121343",
+                    "ticker_sentiment_score": "-0.080802",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.121343",
+                    "ticker_sentiment_score": "0.083359",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Goodbye to 'bags fly free' on Southwest, the last airline freebie in America",
+            "url": "https://www.cnbc.com/2025/03/15/goodbye-free-bags-southwest-airlines.html",
+            "time_published": "20250315T120001",
+            "authors": [],
+            "summary": "Southwest's customer-focused business model won it a loyal following during its half-century of flying.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Business",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.495866"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.114768,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UAL",
+                    "relevance_score": "0.045353",
+                    "ticker_sentiment_score": "0.131148",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.045353",
+                    "ticker_sentiment_score": "0.139923",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LUV",
+                    "relevance_score": "0.090559",
+                    "ticker_sentiment_score": "0.154584",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SBUX",
+                    "relevance_score": "0.022686",
+                    "ticker_sentiment_score": "-0.048938",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DAL",
+                    "relevance_score": "0.045353",
+                    "ticker_sentiment_score": "-0.071832",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BA",
+                    "relevance_score": "0.022686",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Edison International - Edison Intl  ( NYSE:EIX ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44345837/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-edis",
@@ -1246,396 +1664,6 @@
                     "relevance_score": "0.039353",
                     "ticker_sentiment_score": "0.154914",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Here's 1 Piece of Good News for Ethereum. But Is It a Buy?",
-            "url": "https://www.fool.com/investing/2025/03/15/heres-1-new-piece-of-good-news-for-ethereum-but-is/",
-            "time_published": "20250315T093000",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "After its price fell by 23% during the past three years, holders of Ethereum ( CRYPTO: ETH ) are understandably quite hungry for any signs that better times are ahead.They're in luck. But is one piece of good news enough to make the coin worth buying again?",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811086/investor-looks-at-phone-and-cheers.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.929393"
-                }
-            ],
-            "overall_sentiment_score": 0.144026,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.067158",
-                    "ticker_sentiment_score": "0.063116",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.793786",
-                    "ticker_sentiment_score": "0.194075",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Opinion: Intel Made an Amazing Decision Appointing Its New CEO",
-            "url": "https://www.fool.com/investing/2025/03/15/opinion-intel-made-an-amazing-decision-appointing/",
-            "time_published": "20250315T093000",
-            "authors": [
-                "Jose Najarro"
-            ],
-            "summary": "Intel appoints Lip-Bu Tan as CEO.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811273/intel-cube-in-front-of-intel-headquarters-with-logo-on-front_intel.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.119699,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "INTC",
-                    "relevance_score": "0.947069",
-                    "ticker_sentiment_score": "0.335506",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Is the Strategic Bitcoin Reserve Really Going to Send Bitcoin Skyrocketing in Value?  ( The Answer Might Surprise You ) ",
-            "url": "https://www.fool.com/investing/2025/03/15/is-the-crypto-strategic-reserve-a-millionaire-make/",
-            "time_published": "20250315T092000",
-            "authors": [
-                "Dominic Basulto"
-            ],
-            "summary": "On the surface, the newly announced Strategic Bitcoin Reserve sounds like the perfect catalyst for sending Bitcoin ( CRYPTO: BTC ) higher for years to come. Now that it has the support of the U.S. government, shouldn't the world's most popular cryptocurrency soar in value?Unfortunately, it's more ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F809855%2Finvestor-on-top-of-pile-of-money.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.769861"
-                }
-            ],
-            "overall_sentiment_score": 0.135237,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.051111",
-                    "ticker_sentiment_score": "0.027979",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.936969",
-                    "ticker_sentiment_score": "0.277698",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.102013",
-                    "ticker_sentiment_score": "0.079735",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ADA",
-                    "relevance_score": "0.102013",
-                    "ticker_sentiment_score": "0.079735",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.152499",
-                    "ticker_sentiment_score": "0.096754",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "1 Artificial Intelligence  ( AI )  Stock Millennials Should Buy Today and Hold for Decades",
-            "url": "https://www.fool.com/investing/2025/03/15/artificial-intelligence-ai-stock-millennials/",
-            "time_published": "20250315T091500",
-            "authors": [
-                "Ryan Vanzo"
-            ],
-            "summary": "Demand for artificial intelligence ( AI ) infrastructure, software, and services is about to reach a huge inflection point. This could be the biggest growth market in history, especially when it comes to business adoption.According to a recent survey by global consultancy McKinsey & Co., around ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/809765/gettyimages-2157868816-1200x675-128554e.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.256221,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.053992",
-                    "ticker_sentiment_score": "0.063134",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.583576",
-                    "ticker_sentiment_score": "0.331345",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why Nvidia Stock Investors Should Hope AI Gets Extremely Cheap",
-            "url": "https://www.fool.com/investing/2025/03/15/why-nvidia-stock-investors-should-hope-ai-gets-ext/",
-            "time_published": "20250315T091500",
-            "authors": [
-                "Jose Najarro"
-            ],
-            "summary": "Nvidia's management wants to build a world full of AI factories.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811266/nvidia-headquarters-outside-with-black-nvidia-sign-with-nvidia-logo.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.099038,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.876064",
-                    "ticker_sentiment_score": "0.327744",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Have $500? 2 Absurdly Cheap Stocks Long-Term Investors Should Buy Right Now",
-            "url": "https://www.fool.com/investing/2025/03/15/have-500-2-absurdly-cheap-stocks-long-term-investo/",
-            "time_published": "20250315T091000",
-            "authors": [
-                "Geoffrey Seiler"
-            ],
-            "summary": "With the recent market sell-off, a number of stocks have just been tossed right into the bargain bin. This includes some very well-known names that are trading at very low valuations.Let's look at two absurdly cheap stocks to buy right now.For those unfamiliar with Sirius XM ( NASDAQ: SIRI ) , it ...",
-            "banner_image": "https://media.ycharts.com/charts/0e34fa30681f70196ebcdf6569175cc5.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.5855"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.189723,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CROX",
-                    "relevance_score": "0.41838",
-                    "ticker_sentiment_score": "0.256583",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SIRI",
-                    "relevance_score": "0.14573",
-                    "ticker_sentiment_score": "0.00796",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "My 2 Favorite Stocks to Buy Right Now",
-            "url": "https://www.fool.com/investing/2025/03/15/my-2-favorite-stocks-to-buy-right-now/",
-            "time_published": "20250315T090500",
-            "authors": [
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "Since the start of 2023, the big story on Wall Street has been technology. The boring consumer staples sector has lagged far behind both the tech sector and the broader S&P 500 index ( SNPINDEX: ^GSPC ) over the past three to five years.",
-            "banner_image": "https://media.ycharts.com/charts/20483e99ef4b667b22cd38f803dd18a4.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.990999"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.838487"
-                }
-            ],
-            "overall_sentiment_score": 0.092062,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GIS",
-                    "relevance_score": "0.047465",
-                    "ticker_sentiment_score": "-0.08766",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PEP",
-                    "relevance_score": "0.279015",
-                    "ticker_sentiment_score": "0.199528",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "HRL",
-                    "relevance_score": "0.094762",
-                    "ticker_sentiment_score": "0.082036",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "China lays track for stronger regional relations through railway lines",
-            "url": "https://www.scmp.com/economy/china-economy/article/3302416/china-lays-track-stronger-regional-relations-through-railway-lines",
-            "time_published": "20250315T090009",
-            "authors": [
-                "Kandy Wong"
-            ],
-            "summary": "China's neighbours in Southeast and Central Asia have begun construction or made agreements on cross-border railway projects, bolstering bilateral ties.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/14/03b26e78-ac80-4b26-9a7d-b454cc8cc370_c074016b.jpg?itok=bc9leXxu&v=1741944573",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.163253,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRWOF",
-                    "relevance_score": "0.053749",
-                    "ticker_sentiment_score": "0.114724",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "3 Reasons to Hold Your XRP Forever, and 1 Reason to Sell It Right Now",
-            "url": "https://www.fool.com/investing/2025/03/15/3-reasons-to-hold-your-xrp-forever-and-1-reason-to/",
-            "time_published": "20250315T090000",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "As its holders already know thanks to its growth of 1,200% during the past five years, XRP ( CRYPTO: XRP ) is a great asset for buying and holding forever.There are at least three reasons you should be considering the cryptocurrency for the longest holding period that you can imagine.",
-            "banner_image": "https://media.ycharts.com/charts/e16589cd90ae2d816b6e2c322e5d9e33.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                }
-            ],
-            "overall_sentiment_score": 0.007273,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.051003",
-                    "ticker_sentiment_score": "-0.102408",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.435177",
-                    "ticker_sentiment_score": "0.111729",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "The Next Few Days Could Make or Break Nvidia Stock  ( Here's Why ) ",
-            "url": "https://www.fool.com/investing/2025/03/15/the-next-few-days-could-make-or-break-nvidia-stock/",
-            "time_published": "20250315T090000",
-            "authors": [
-                "Jose Najarro"
-            ],
-            "summary": "Nvidia's GTC event will bring to light all the innovations Nvidia has been working on.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811264/nvidia-headquarters-outside-with-black-nvidia-sign-with-nvidia-logo.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.158543,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.971845",
-                    "ticker_sentiment_score": "0.389663",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
