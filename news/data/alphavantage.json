@@ -1,5 +1,5 @@
 {
-    "items": "45",
+    "items": "43",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -88,6 +88,65 @@
                     "relevance_score": "0.172713",
                     "ticker_sentiment_score": "-0.281553",
                     "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "In SAFE hands: China's secret plan for US$1 trillion reserves fund in Hong Kong",
+            "url": "https://www.scmp.com/business/banking-finance/article/3302431/safe-hands-chinas-secret-plan-us1-trillion-reserves-fund-hong-kong",
+            "time_published": "20250315T020013",
+            "authors": [
+                "Cao Li"
+            ],
+            "summary": "Cheng Hao, the man involved in the rescue of China's 2015 market crash, runs what is the world's third largest wealth fund in Hong Kong.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/14/6ea117c4-c83d-4475-aed4-3d83566e3151_a56d9be1.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Money",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.14628,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BACHY",
+                    "relevance_score": "0.023441",
+                    "ticker_sentiment_score": "0.006328",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TJIPF",
+                    "relevance_score": "0.023441",
+                    "ticker_sentiment_score": "0.081649",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:HKD",
+                    "relevance_score": "0.023441",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.070242",
+                    "ticker_sentiment_score": "0.039138",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1488,110 +1547,6 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
-        },
-        {
-            "title": "First Solar  ( FSLR )  Stock Drops Despite Market Gains: Important Facts to Note",
-            "url": "https://www.zacks.com/stock/news/2430401/first-solar-fslr-stock-drops-despite-market-gains-important-facts-to-note",
-            "time_published": "20250314T214511",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "First Solar (FSLR) concluded the recent trading session at $132.51, signifying a -0.23% move from its prior day's close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default276.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.117838,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FSLR",
-                    "relevance_score": "0.47672",
-                    "ticker_sentiment_score": "0.263662",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Intel  ( INTC )  Ascends But Remains Behind Market: Some Facts to Note",
-            "url": "https://www.zacks.com/stock/news/2430402/intel-intc-ascends-but-remains-behind-market-some-facts-to-note",
-            "time_published": "20250314T214511",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Intel (INTC) concluded the recent trading session at $24.05, signifying a +1.48% move from its prior day's close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default27.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.136368,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "INTC",
-                    "relevance_score": "0.537213",
-                    "ticker_sentiment_score": "0.252619",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Lululemon  ( LULU )  Advances But Underperforms Market: Key Facts",
-            "url": "https://www.zacks.com/stock/news/2430403/lululemon-lulu-advances-but-underperforms-market-key-facts",
-            "time_published": "20250314T214511",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "Lululemon (LULU) concluded the recent trading session at $311.03, signifying a +0.44% move from its prior day's close.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default292.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.990786"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.179431,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
