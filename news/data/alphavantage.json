@@ -1,8 +1,155 @@
 {
-    "items": "32",
+    "items": "34",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "China lays track for stronger regional relations through railway lines",
+            "url": "https://www.scmp.com/economy/china-economy/article/3302416/china-lays-track-stronger-regional-relations-through-railway-lines",
+            "time_published": "20250315T090009",
+            "authors": [
+                "Kandy Wong"
+            ],
+            "summary": "China's neighbours in Southeast and Central Asia have begun construction or made agreements on cross-border railway projects, bolstering bilateral ties.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/14/03b26e78-ac80-4b26-9a7d-b454cc8cc370_c074016b.jpg?itok=bc9leXxu&v=1741944573",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.163253,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRWOF",
+                    "relevance_score": "0.053749",
+                    "ticker_sentiment_score": "0.114724",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Prediction: President Trump's Tariffs Won't Cause a Stock Market Crash for 1 Simple Reason",
+            "url": "https://www.fool.com/investing/2025/03/15/prediction-president-trumps-tariffs-wont-cause-a-s/",
+            "time_published": "20250315T084700",
+            "authors": [
+                "Keith Speights"
+            ],
+            "summary": "The Tonight Show host Jimmy Fallon joked this week, \"It's not great when the summary of Trump's first two months in office is: stocks down, measles up.\"President Trump doesn't deserve blame for the recent measles outbreak.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810765%2Ftariffs-money.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.196601,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.108712",
+                    "ticker_sentiment_score": "0.071266",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "3 Vanguard ETFs to Buy With $1,000 and Hold Forever",
+            "url": "https://www.fool.com/investing/2025/03/15/3-vanguard-etfs-to-buy-with-1000-and-hold-forever/",
+            "time_published": "20250315T084400",
+            "authors": [
+                "Scott Levine"
+            ],
+            "summary": "Thanks to their extremely low management fees, Vanguard's exchange-traded funds ( ETFs ) are consistently on the radars of investors keen on maximizing the returns on their investments -- and not losing money to fund managers.But which Vanguard ETFs represent compelling options for investors ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/809847/private-investor-1200x675-128554e.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.373275,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.155451",
+                    "ticker_sentiment_score": "0.194315",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.104002",
+                    "ticker_sentiment_score": "0.166931",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.052112",
+                    "ticker_sentiment_score": "0.130882",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MA",
+                    "relevance_score": "0.052112",
+                    "ticker_sentiment_score": "0.043929",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Saving Social Security Might Involve Raising Taxes. Here's Why It May Not Be as Bad as You Think",
+            "url": "https://www.fool.com/retirement/2025/03/15/saving-social-security-might-involve-raising-taxes/",
+            "time_published": "20250315T084400",
+            "authors": [
+                "Kailey Hagen"
+            ],
+            "summary": "You pay 6.2% of the first $176,100 you earn in Social Security payroll taxes in 2025. Self-employed workers pay even more. That's already a pretty substantial bite out of your annual income, so it makes sense if you're not a fan of raising payroll taxes as a way to keep Social Security ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810814%2Fman-mid-aged-laptop-stressed.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.138119,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
         {
             "title": "Warren Buffett's Berkshire Hathaway Sold $134 Billion In Stocks In 2024, Timing It Perfectly As Recession Fears Mount: The Internet Is In Awe",
             "url": "https://www.benzinga.com/markets/25/03/44345565/warren-buffetts-berkshire-hathaway-sold-134-billion-in-stocks-in-2024-timing-it-perfectly-as-recession-fe",
@@ -62,6 +209,49 @@
                     "ticker": "BRK-A",
                     "relevance_score": "0.073773",
                     "ticker_sentiment_score": "0.095767",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Down 93%, Is It Finally Time to Buy Moderna?",
+            "url": "https://www.fool.com/investing/2025/03/15/down-93-is-it-finally-time-to-buy-moderna/",
+            "time_published": "20250315T083800",
+            "authors": [
+                "Cory Renauer"
+            ],
+            "summary": "As we near the five-year anniversary of the COVID-19 pandemic, it's a good time to revisit the drugmaker stock that was top of mind back then. A few years ago, Moderna ( NASDAQ: MRNA ) stock soared on the back of the highly successful vaccine it developed in record time.At its peak in 2021, ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/810891/investor-stock-charts-laptop-getty.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                }
+            ],
+            "overall_sentiment_score": -0.007306,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MRNA",
+                    "relevance_score": "0.46648",
+                    "ticker_sentiment_score": "0.086382",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PFE",
+                    "relevance_score": "0.090134",
+                    "ticker_sentiment_score": "-0.00852",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -157,6 +347,35 @@
                     "relevance_score": "0.045482",
                     "ticker_sentiment_score": "0.045085",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Time to Buy the Dip on Bitcoin?",
+            "url": "https://www.fool.com/investing/2025/03/15/time-to-buy-dip-bitcoin-btc/",
+            "time_published": "20250315T083000",
+            "authors": [
+                "Ryan Vanzo"
+            ],
+            "summary": "Bitcoin ( CRYPTO: BTC ) is famous for its huge surges and sudden plunges. But in the long term, it's been a terrific investment for patient investors. During the past five years alone, Bitcoin's value has risen by nearly 1,500%.So far this year, however, crypto markets have been down across the ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/810972/gettyimages-1167779631-1200x600-7cb9712.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.239063,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.627119",
+                    "ticker_sentiment_score": "0.448724",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1357,133 +1576,6 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
-        },
-        {
-            "title": "Crypto faces 'starkest' gap between sentiment and fundamentals: BlockTower",
-            "url": "https://cointelegraph.com/news/crypto-market-divergence-sentiment-fundamentals-blocktower-founder",
-            "time_published": "20250315T050119",
-            "authors": [
-                "Ciaran Lyons"
-            ],
-            "summary": "The major disconnect between crypto traders' growing short-term market uncertainty and crypto builders becoming more bullish than ever creates a prime setup for long-term investors, according to a crypto hedge fund founder.\"This is one of the starkest divergences I've seen in sentiment and ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01959821-dee3-730b-8f5a-1dfb955bf8a4",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.186864,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.351807",
-                    "ticker_sentiment_score": "-0.104713",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.18046",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "End of 'blank cheque' era for outside consultants in Saudi Arabia",
-            "url": "https://www.ft.com/content/d3999d9a-4173-4543-886d-9ede0eaa5b35",
-            "time_published": "20250315T050028",
-            "authors": [
-                "Ellesheva Kissin",
-                "Andrew England",
-                "Chloe Cornish"
-            ],
-            "summary": "Western firms profited as kingdom launched 'giga-projects' but market is slowing as Riyadh reins in spending ...",
-            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd90cf404-2c7d-4da2-8223-13776d608364.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
-            "source": "Financial Times",
-            "category_within_source": "Companies",
-            "source_domain": "www.ft.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.040753,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Joint-life annuity rates at 17-year high",
-            "url": "https://www.ft.com/content/caf3891d-df20-4571-b43d-22918faebdbf",
-            "time_published": "20250315T050028",
-            "authors": [
-                "Georgina Quach",
-                "Jamie John"
-            ],
-            "summary": "Income offered on retirement products highest since global financial crisis ...",
-            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2Fa558fc90-00d2-11f0-bfb6-295d430be750-standard.png?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
-            "source": "Financial Times",
-            "category_within_source": "Companies",
-            "source_domain": "www.ft.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.147384,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HRGLF",
-                    "relevance_score": "0.147366",
-                    "ticker_sentiment_score": "0.041248",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Adnoc chief Sultan al-Jaber: 'It's time to make energy great again'",
-            "url": "https://www.ft.com/content/1376e4cd-63c8-41f4-91bd-fb3bb2193241",
-            "time_published": "20250315T050028",
-            "authors": [
-                "Malcolm Moore"
-            ],
-            "summary": "The oil boss and COP28 president on what the Trump era means for his industry - and being a 'climate realist' ...",
-            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fedf754bc-207f-484f-a2f9-85aac22e991c.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
-            "source": "Financial Times",
-            "category_within_source": "Markets",
-            "source_domain": "www.ft.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.256792,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
