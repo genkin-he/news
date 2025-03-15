@@ -1,8 +1,428 @@
 {
-    "items": "44",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Newmont - Newmont  ( NYSE:NEM ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44346041/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-newm",
+            "time_published": "20250315T131800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Newmont To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.181396,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.067727",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NEM",
+                    "relevance_score": "0.555653",
+                    "ticker_sentiment_score": "0.151811",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:NEM",
+                    "relevance_score": "0.134968",
+                    "ticker_sentiment_score": "0.108833",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Novo Nordisk - Novo Nordisk  ( NYSE:NVO ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44346028/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-novo",
+            "time_published": "20250315T131200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Novo Nordisk To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.203176,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.063091",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVO",
+                    "relevance_score": "0.420483",
+                    "ticker_sentiment_score": "0.196577",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Manhattan Associates - Manhattan Associates  ( NASDAQ:MANH ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345996/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-manh",
+            "time_published": "20250315T130400",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Manhattan Associates To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.796627"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                }
+            ],
+            "overall_sentiment_score": 0.223759,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MANH",
+                    "relevance_score": "0.631445",
+                    "ticker_sentiment_score": "0.167027",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.06515",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Ether may fall below $1.9K 'robust' demand zone, analysts eye capitulation",
+            "url": "https://cointelegraph.com/news/ether-fall-below-1-9k-robust-demand-zone-analysts-capitulation",
+            "time_published": "20250315T130109",
+            "authors": [
+                "Zoltan Vardai"
+            ],
+            "summary": "Ether risks another decline below $1,900, which may open up a significant amount of investor demand, which may catalyze Ether's recovery from its three-month downtrendEther ( ETH ) price fell over 52% during its three-month downtrend after it peaked above $4,100 on Dec. 16, 2024, TradingView ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/019599d2-45fe-7cf1-acc5-198153bfa900",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": -0.192484,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BNXYF",
+                    "relevance_score": "0.132368",
+                    "ticker_sentiment_score": "-0.121996",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.132368",
+                    "ticker_sentiment_score": "-0.328116",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.904419",
+                    "ticker_sentiment_score": "-0.290758",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "This Week in Bitcoin: Strategy Stalls, But White House Plans to Buy More BTC",
+            "url": "https://decrypt.co/309992/this-week-in-bitcoin-strategy-stalls-white-house-to-buy-more-btc",
+            "time_published": "20250315T130103",
+            "authors": [
+                "Mat Di Salvo"
+            ],
+            "summary": "The cryptocurrency may be down from the high it touched in January, but the Trump administration intends to purchase more of the asset.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/bitcoin-btc-sitting-on-table-dark-lighting-gID_7.png",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.094735,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.076602",
+                    "ticker_sentiment_score": "0.056989",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.076602",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STRK",
+                    "relevance_score": "0.227007",
+                    "ticker_sentiment_score": "0.010427",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.076602",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.876064",
+                    "ticker_sentiment_score": "0.200938",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Constellation Brands - Constellation Brands  ( NYSE:STZ ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44345981/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-cons",
+            "time_published": "20250315T130100",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Constellation Brands To Contact Him Directly To Discuss Their Options",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/263d55b7-9072-4281-8770-859ca3d284fa/image1.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.223804,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "STZ",
+                    "relevance_score": "0.378094",
+                    "ticker_sentiment_score": "0.185286",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.065506",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "3 Highest-Yielding Dividend Stocks to Buy",
+            "url": "https://www.fool.com/investing/2025/03/15/3-highest-yielding-dividend-stocks-to-buy/",
+            "time_published": "20250315T130000",
+            "authors": [
+                "Rick Orford"
+            ],
+            "summary": "These high-yield dividend stocks all have growing earnings and buy ratings from Wall Street.",
+            "banner_image": "https://optimize.foolcdn.com/?url=https%3A%2F%2Fg.foolcdn.com%2Fmisc-assets/jester.png&w=400&op=resize",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.14943,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Trade war puts Bitcoin's status as safe-haven asset in doubt",
+            "url": "https://cointelegraph.com/news/bitcoin-trade-tariff-safe-haven",
+            "time_published": "20250315T130000",
+            "authors": [
+                "Andrew Singer"
+            ],
+            "summary": "Several years back, many in the crypto community described Bitcoin as a \"safe-haven\" asset. Fewer are calling it that today.A safe-haven asset maintains or increases in value in times of economic stress. It can be a government bond, a currency like the US dollar, a commodity like gold, or even a ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195951b-888d-754e-bef7-e8312a33aee5",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99676"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.053499,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SBNY",
+                    "relevance_score": "0.068209",
+                    "ticker_sentiment_score": "-0.05074",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCBFF",
+                    "relevance_score": "0.034136",
+                    "ticker_sentiment_score": "-0.135532",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.068209",
+                    "ticker_sentiment_score": "0.074416",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.815384",
+                    "ticker_sentiment_score": "0.102437",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "2 Stock-Split Artificial Intelligence  ( AI )  Stocks to Buy Before They Zoom Higher, According to Wall Street Analysts",
+            "url": "https://www.fool.com/investing/2025/03/15/2-stock-split-artificial-intelligence-ai-stocks-to/",
+            "time_published": "20250315T130000",
+            "authors": [
+                "Adam Levy"
+            ],
+            "summary": "Strong price appreciation led to stock splits, but these two can keep climbing higher.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810819%2Fgettyimages-ai-graphic-overview-man-laptop.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.995015"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.503496"
+                }
+            ],
+            "overall_sentiment_score": 0.344409,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LRCX",
+                    "relevance_score": "0.094204",
+                    "ticker_sentiment_score": "0.050204",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PANW",
+                    "relevance_score": "0.140896",
+                    "ticker_sentiment_score": "0.157164",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Crocs - Crocs  ( NASDAQ:CROX ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44345960/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-croc",
@@ -149,6 +569,43 @@
             ]
         },
         {
+            "title": "If You'd Invested $10,000 in Deckers Outdoor Stock 10 Years Ago, Here's How Much You'd Have Today",
+            "url": "https://www.fool.com/investing/2025/03/15/if-youd-invested-10000-in-deckers-outdoor-stock-10/",
+            "time_published": "20250315T124500",
+            "authors": [
+                "Dan Victor"
+            ],
+            "summary": "Deckers Outdoor ( NYSE: DECK ) is recognized for its footwear brands, including the iconic UGG sheepskin boots that have been widely popular since the early 2000s.Perhaps its biggest success story is from the Hoka brand of high-performance running and athletic shoes, which it reportedly acquired ...",
+            "banner_image": "https://media.ycharts.com/charts/d75cd0f28f9c5d3a6d2af17be4097d5c.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.875462"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.298198,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DECK",
+                    "relevance_score": "0.567746",
+                    "ticker_sentiment_score": "0.500437",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
             "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Mullen - Mullen Automotive  ( NASDAQ:MULN ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44345953/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-mull",
             "time_published": "20250315T124200",
@@ -212,6 +669,67 @@
             "overall_sentiment_score": 0.476513,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Gems Launchpad introduces its 'Gems Protect' feature as a safety net for investors",
+            "url": "https://markets.businessinsider.com/news/stocks/gems-launchpad-introduces-its-gems-protect-feature-as-a-safety-net-for-investors-1034480687",
+            "time_published": "20250315T123339",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "To provide its community with greater security and confidence, the Gems Protect risk-mitigation feature allows investors in the Gems Miner program to offset any possible financial losses",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/59ff8895-f2cb-4c17-af5c-2d3a90c24514/photo-2025-03-14-17-58-29.jpeg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.472398,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "DraftKings drew inspiration from Netflix for the strategy behind one of its big bets",
+            "url": "https://www.businessinsider.com/draftkings-models-online-casino-app-netflix-expands-original-games-2025-3",
+            "time_published": "20250315T123102",
+            "authors": [
+                "Mackenzie Meaney"
+            ],
+            "summary": "\u2022 DraftKings is expanding original games for its online casino. \u2022 It's modeling the user experience after Netflix and the way it delivers recommendations. \u2022 DraftKings' online casino business grew 21% year over year in the fourth quarter.",
+            "banner_image": "https://i.insider.com/67d4a982b8b41a9673fac5e7?width=1200&format=jpeg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "www.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.192966,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DKNG",
+                    "relevance_score": "0.73856",
+                    "ticker_sentiment_score": "0.284176",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NFLX",
+                    "relevance_score": "0.25168",
+                    "ticker_sentiment_score": "0.157455",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
         },
         {
             "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Intellia Therapeutics - Intellia Therapeutics  ( NASDAQ:NTLA ) ",
@@ -300,6 +818,98 @@
                     "relevance_score": "0.064449",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, A LONGSTANDING LAW FIRM, Encourages Intellia Therapeutics, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - NTLA",
+            "url": "https://markets.businessinsider.com/news/stocks/rosen-a-longstanding-law-firm-encourages-intellia-therapeutics-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-ntla-1034480697",
+            "time_published": "20250315T123000",
+            "authors": [
+                "NEWSFILE"
+            ],
+            "summary": "ROSEN, A LONGSTANDING LAW FIRM, Encourages Intellia Therapeutics, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action ...",
+            "banner_image": "https://api.newsfilecorp.com/newsinfo/244612/208",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.159481,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.064973",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NTLA",
+                    "relevance_score": "0.255641",
+                    "ticker_sentiment_score": "-0.065787",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "1 Tech Stock With More Potential Than Any Cryptocurrency",
+            "url": "https://www.fool.com/investing/2025/03/15/tech-stock-with-more-potential-than-any-crypto/",
+            "time_published": "20250315T123000",
+            "authors": [
+                "Dominic Basulto"
+            ],
+            "summary": "Given that Bitcoin ( CRYPTO: BTC ) is up an incredible 600% since August 2020, it might seem incomprehensible that any tech stock has been able to keep up with that blistering pace.But what if I told you that one tech stock is up more than 1,800% during that time period?",
+            "banner_image": "https://s3.tradingview.com/snapshots/x/Xdfc15vx.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.980922"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.083084,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.104683",
+                    "ticker_sentiment_score": "0.028555",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STRK",
+                    "relevance_score": "0.104683",
+                    "ticker_sentiment_score": "0.027881",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.985076",
+                    "ticker_sentiment_score": "0.158692",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -564,6 +1174,96 @@
             ]
         },
         {
+            "title": "IIPR DEADLINE ALERT: ROSEN, TOP RANKED GLOBAL COUNSEL, Encourages Innovative Industrial Properties, Inc. Investors to Secure Counsel Before Important March 18 Deadline in Securities Class Action -...",
+            "url": "https://markets.businessinsider.com/news/stocks/iipr-deadline-alert-rosen-top-ranked-global-counsel-encourages-innovative-industrial-properties-inc.-investors-to-secure-counsel-before-important-march-18-deadline-in-securities-class-action-iipr-1034480680",
+            "time_published": "20250315T121700",
+            "authors": [
+                "NEWSFILE"
+            ],
+            "summary": "New York, New York-- ( Newsfile Corp. - March 15, 2025 ) - WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Innovative Industrial Properties, Inc. ( NYSE: IIPR ) between February 27, 2024 and December 19, 2024, both dates inclusive ( the \"Class Period\" ...",
+            "banner_image": "https://api.newsfilecorp.com/newsinfo/244601/208",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.155365,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IIPR",
+                    "relevance_score": "0.458446",
+                    "ticker_sentiment_score": "0.037112",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.069495",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, A TRUSTED AND LEADING LAW FIRM, Encourages Digimarc Corporation Investors to Secure Counsel Before Important Deadline in Securities Class Action - DMRC",
+            "url": "https://markets.businessinsider.com/news/stocks/rosen-a-trusted-and-leading-law-firm-encourages-digimarc-corporation-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-dmrc-1034480679",
+            "time_published": "20250315T121700",
+            "authors": [
+                "NEWSFILE"
+            ],
+            "summary": "ROSEN, A TRUSTED AND LEADING LAW FIRM, Encourages Digimarc Corporation Investors to Secure Counsel Before Important Deadline in Securities Class Action ...",
+            "banner_image": "https://api.newsfilecorp.com/newsinfo/244662/208",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.143591,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.07157",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DMRC",
+                    "relevance_score": "0.410059",
+                    "ticker_sentiment_score": "-0.002866",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Polestar Automotive - Polestar Automotive  ( NASDAQ:PSNY ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44345903/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-pole",
             "time_published": "20250315T121700",
@@ -705,6 +1405,75 @@
                     "relevance_score": "0.433771",
                     "ticker_sentiment_score": "0.134077",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "An AI stock picker that beat the S&P 500 last year is dumping tech stocks - but holding on to these Magnificent 7 firms",
+            "url": "https://www.businessinsider.com/market-beating-ai-stock-picker-nvidia-tesla-tech-sell-off-2025-3",
+            "time_published": "20250315T120201",
+            "authors": [
+                "Christine Ji"
+            ],
+            "summary": "\u2022 Qraft Technologies' AI-enhanced momentum fund beat the S&P 500 by over 10% last year. \u2022 This year, the fund is seriously shedding its tech holdings. \u2022 But the AI algorithm is still hanging on to NVDA, META, and TSLA. Beating the S&P 500's 23% gain in 2024 was no easy feat, but an AI-backed ETF ...",
+            "banner_image": "https://i.insider.com/67d329ce69253ccddf993009?width=1200&format=jpeg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "www.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.992549"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.495866"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.120976,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.143415",
+                    "ticker_sentiment_score": "0.041069",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.412298",
+                    "ticker_sentiment_score": "0.230244",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.412298",
+                    "ticker_sentiment_score": "0.1452",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.143415",
+                    "ticker_sentiment_score": "0.102526",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.282234",
+                    "ticker_sentiment_score": "0.329598",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -914,6 +1683,49 @@
                     "relevance_score": "0.348919",
                     "ticker_sentiment_score": "0.312907",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, A LONGSTANDING LAW FIRM, Encourages GSK plc Investors to Secure Counsel Before Important Deadline in Securities Class Action - GSK",
+            "url": "https://markets.businessinsider.com/news/stocks/rosen-a-longstanding-law-firm-encourages-gsk-plc-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-gsk-1034389070",
+            "time_published": "20250315T120000",
+            "authors": [
+                "NEWSFILE"
+            ],
+            "summary": "ROSEN, A LONGSTANDING LAW FIRM, Encourages GSK plc Investors to Secure Counsel Before Important Deadline in Securities Class Action ...",
+            "banner_image": "https://api.newsfilecorp.com/newsinfo/244645/208",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.121742,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.057767",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GSK",
+                    "relevance_score": "0.574608",
+                    "ticker_sentiment_score": "0.010502",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1202,6 +2014,41 @@
             ]
         },
         {
+            "title": "If you earn more than $125K and live in a city, you probably shop at Costco - not Sam's Club",
+            "url": "https://www.businessinsider.com/how-costco-sams-club-shoppers-differ-income-spending-habits-2025-3",
+            "time_published": "20250315T113401",
+            "authors": [
+                "Dominick Reuter"
+            ],
+            "summary": "\u2022 On the surface, Costco and Sam's Club have a lot of similarities. \u2022 A deeper look reveals some notable differences between the two brands' customer profiles. \u2022 For example, Numerator data indicates wealthy urban shoppers are more likely to be members of Costco than Sam's Club.",
+            "banner_image": "https://i.insider.com/67d330b469253ccddf993268?width=1200&format=jpeg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "www.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.238122,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.746257",
+                    "ticker_sentiment_score": "0.3883",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "WMT",
+                    "relevance_score": "0.129516",
+                    "ticker_sentiment_score": "0.140824",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Billionaire Ron Baron Refuses to Sell This Beaten-Down Stock. 1 Wall Street Analyst Thinks It Could Soar 220%. Should You Buy It?",
             "url": "https://www.fool.com/investing/2025/03/15/billionaire-ron-baron-refuses-to-sell-this-beaten/",
             "time_published": "20250315T113000",
@@ -1251,746 +2098,6 @@
                     "relevance_score": "0.652756",
                     "ticker_sentiment_score": "0.224503",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Monolithic Power Systems - Monolithic Power Systems  ( NASDAQ:MPWR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44345809/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-mono",
-            "time_published": "20250315T113000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In Monolithic Power Systems To Contact Him Directly To Discuss Their Options",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.060638,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.04872",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.286082",
-                    "ticker_sentiment_score": "-0.214575",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of ESSA Pharma - ESSA Pharma  ( NASDAQ:EPIX ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44345795/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-essa",
-            "time_published": "20250315T112300",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In ESSA Pharma To Contact Him Directly To Discuss Their Options",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/fde2fe7b-165f-4f25-b274-82a516dcf056/image1.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.070491,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.057628",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EPIX",
-                    "relevance_score": "0.335519",
-                    "ticker_sentiment_score": "0.16976",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Nvidia-Backed Company Is Seeking a $35 Billion Valuation in One of the Most Eagerly Anticipated IPOs of 2025: 3 Things You Should Know",
-            "url": "https://www.fool.com/investing/2025/03/15/this-nvidia-backed-company-is-seeking-a-35-billion/",
-            "time_published": "20250315T112000",
-            "authors": [
-                "Bram Berkowitz"
-            ],
-            "summary": "Many market strategists have predicted a revival in initial public offerings ( IPO ) after a sluggish market over the last few years. While it still could take some time for the IPO market to thaw and the floodgates open, especially after recent turbulence in the market, more private companies ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810570%2Fai-pic-1.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.929393"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.230694,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.308504",
-                    "ticker_sentiment_score": "0.148096",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.063258",
-                    "ticker_sentiment_score": "0.074179",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.126119",
-                    "ticker_sentiment_score": "0.078385",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "2 Beaten-Down Stocks Near Their 52-Week Lows That Aren't Worth Buying",
-            "url": "https://www.fool.com/investing/2025/03/15/2-beaten-down-stocks-near-their-52-week-lows-that/",
-            "time_published": "20250315T111500",
-            "authors": [
-                "Prosper Junior Bakiny"
-            ],
-            "summary": "Buying stocks after they have lost significant market value can lead to excellent returns in the long run, but only if the company in question can reverse its fortunes.Sometimes, corporations lag the broader market for good reasons.",
-            "banner_image": "https://media.ycharts.com/charts/42e2502920465bd8774e1d979c670407.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.111839,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TLRY",
-                    "relevance_score": "0.140076",
-                    "ticker_sentiment_score": "-0.098038",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVAX",
-                    "relevance_score": "0.362065",
-                    "ticker_sentiment_score": "0.073304",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MRNA",
-                    "relevance_score": "0.046907",
-                    "ticker_sentiment_score": "0.04586",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PFE",
-                    "relevance_score": "0.046907",
-                    "ticker_sentiment_score": "0.04586",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNTX",
-                    "relevance_score": "0.046907",
-                    "ticker_sentiment_score": "0.04586",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.093653",
-                    "ticker_sentiment_score": "0.059249",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of AppLovin - AppLovin  ( NASDAQ:APP ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44345792/investor-deadline-approaching-faruqi-faruqi-llp-investigates-claims-on-behalf-of-investors-of-appl",
-            "time_published": "20250315T111300",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James ( Josh ) Wilson Encourages Investors Who Suffered Losses In AppLovin To Contact Him Directly To Discuss Their Options",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/fdafeab3-e66c-4705-b292-211a18341546/image1.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                }
-            ],
-            "overall_sentiment_score": 0.174832,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APP",
-                    "relevance_score": "0.523784",
-                    "ticker_sentiment_score": "0.016654",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.125789",
-                    "ticker_sentiment_score": "-0.133758",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Got $200? 3 Top High-Yield Dividend Stocks to Buy Right Now",
-            "url": "https://www.fool.com/investing/2025/03/15/got-200-3-top-high-yield-dividend-stocks-to-buy-ri/",
-            "time_published": "20250315T104800",
-            "authors": [
-                "Matt DiLallo"
-            ],
-            "summary": "The stock market has taken a little bit of a dip recently. The silver lining of sell-offs is that dividend yields rise when stock prices fall. Because of that, right now is a great time to lock in even higher yields on some top-notch dividend stocks.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811219/dividends-cart-full-of-money-on-hundred-dollar-bills.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999355"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.34422,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BIPC",
-                    "relevance_score": "0.263373",
-                    "ticker_sentiment_score": "0.238717",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "VICI",
-                    "relevance_score": "0.313484",
-                    "ticker_sentiment_score": "0.405358",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "ET",
-                    "relevance_score": "0.313484",
-                    "ticker_sentiment_score": "0.395137",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "3 No-Brainer Dividend Stocks to Buy With $1,000 Right Now",
-            "url": "https://www.fool.com/investing/2025/03/15/3-no-brainer-dividend-stocks-to-buy-with-1000-righ/",
-            "time_published": "20250315T104700",
-            "authors": [
-                "Courtney Carlsen"
-            ],
-            "summary": "Investing in the stock market is a great way to build long-term wealth and passive income. One method that stands out for its income generation is dividend investing. Dividend stocks can provide a steady, reliable payout for investors.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811074%2Fgetty-dividend-income.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                }
-            ],
-            "overall_sentiment_score": 0.438977,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "D",
-                    "relevance_score": "0.054236",
-                    "ticker_sentiment_score": "0.133779",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ENB",
-                    "relevance_score": "0.16171",
-                    "ticker_sentiment_score": "0.178376",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SUN",
-                    "relevance_score": "0.459624",
-                    "ticker_sentiment_score": "0.54255",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "As Artificial Intelligence  ( AI )  Stocks Fall, Investors Should Consider Buying More of These 2 Powerhouses",
-            "url": "https://www.fool.com/investing/2025/03/15/as-artificial-intelligence-ai-stocks-fall-investor/",
-            "time_published": "20250315T104500",
-            "authors": [
-                "Harsh Chauhan"
-            ],
-            "summary": "Artificial intelligence ( AI ) stocks generally delivered outstanding gains to investors in 2023 and 2024, but due to factors outside their control, this year is turning out to be a more challenging one for them.Investors have shifted into risk-off mode of late due to the nascent trade war that ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810706/ai-written-on-smartphone.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999162"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.327924,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.08183",
-                    "ticker_sentiment_score": "0.167532",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.427973",
-                    "ticker_sentiment_score": "0.372566",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Robinhood Stock: Buy, Sell, or Hold?",
-            "url": "https://www.fool.com/investing/2025/03/15/robinhood-stock-buy-sell-or-hold/",
-            "time_published": "20250315T104500",
-            "authors": [
-                "Travis Hoium"
-            ],
-            "summary": "Robinhood stock is down, but is it out?",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811134/chart-going-up.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.157905,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Bitcoin's megaphone pattern, explained: How to trade it",
-            "url": "https://cointelegraph.com/news/bitcoin-s-megaphone-pattern-explained-how-to-trade-it",
-            "time_published": "20250315T103732",
-            "authors": [
-                "Bradley Peak"
-            ],
-            "summary": "Key takeawaysThe Bitcoin megaphone pattern features at least two higher highs and two lower lows, forming an expanding structure.Connecting these highs and lows with trendlines creates a megaphone-like appearance, reflecting market instability.The formation signals heightened volatility, with ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/01959956-4202-797b-a2ad-71383031c5ea",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                }
-            ],
-            "overall_sentiment_score": -0.009897,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.147301",
-                    "ticker_sentiment_score": "-0.025665",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "This 1 Key Category Could Drive XRP to $3 and Beyond, but Does It Make the Coin a Buy?",
-            "url": "https://www.fool.com/investing/2025/03/15/this-1-key-category-could-drive-xrp-to-3-and-beyon/",
-            "time_published": "20250315T103000",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "The target market for XRP ( CRYPTO: XRP ) is the financial industry. That makes sense, given that the chain's focus is on providing nearly free transactions which close roughly as fast as swiping a credit card. But banks and other financial institutions aren't the only organizations that stand to ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811069/investors-gather-around-table.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.156613,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.066414",
-                    "ticker_sentiment_score": "-0.097179",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.495015",
-                    "ticker_sentiment_score": "0.162046",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Is the Best AI Stock Today",
-            "url": "https://www.fool.com/investing/2025/03/15/this-is-the-best-ai-stock-today/",
-            "time_published": "20250315T103000",
-            "authors": [
-                "Travis Hoium"
-            ],
-            "summary": "Google is dominating in AI, and this week showed why.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811135/ai-software.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.030499,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.985002",
-                    "ticker_sentiment_score": "0.07298",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "XRP Whales Rush to ExoraPad Presale as Ripple vs SEC Verdict Nears-Over 40% Softcap Filled in Hours!",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44345739/xrp-whales-rush-to-exorapad-presale-as-ripple-vs-sec-verdict-nears-over-40-softcap-filled-in-hours",
-            "time_published": "20250315T102751",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "CORK, Ireland, March 15, 2025 ( GLOBE NEWSWIRE ) -- As Ripple's long-standing legal battle with the SEC edges closer to resolution, XRP whales are swiftly moving to capitalize on emerging opportunities within the XRP ecosystem.",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/46f0a52d-19a3-49db-830b-c9075788170e/photo-2025-03-15-15-14-19.jpeg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.336385,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.064973",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:XRP",
-                    "relevance_score": "0.630142",
-                    "ticker_sentiment_score": "0.505677",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "ROSEN, A TOP RANKED LAW FIRM, Encourages FMC Corporation Investors to Secure Counsel Before Important Deadline in Securities Class Action - FMC - FMC  ( NYSE:FMC ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44345731/rosen-a-top-ranked-law-firm-encourages-fmc-corporation-investors-to-secure-counsel-before-importan",
-            "time_published": "20250315T102200",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 15, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of FMC Corporation FMC between November 16, 2023 and February 4, 2025, both dates inclusive ( the \"Class Period\" ) , of the important April 14, 2025 lead ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.173399,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.059341",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "I'm Cautiously Optimistic About Sea Limited's Gaming Business. Here's Why.",
-            "url": "https://www.fool.com/investing/2025/03/15/im-cautiously-optimistic-about-sea-limiteds-gaming/",
-            "time_published": "20250315T101500",
-            "authors": [
-                "Lawrence Nga"
-            ],
-            "summary": "Garena remains a hugely profitable franchise within Sea's umbrella of businesses.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F810708%2Fgaming-1.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.274003,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NTES",
-                    "relevance_score": "0.053509",
-                    "ticker_sentiment_score": "0.054079",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SE",
-                    "relevance_score": "0.159569",
-                    "ticker_sentiment_score": "0.067401",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TCTZF",
-                    "relevance_score": "0.106778",
-                    "ticker_sentiment_score": "0.061334",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "A New Triumvirate Emerges in American Defense With Archer Aviation, Anduril, and Palantir Joining Forces",
-            "url": "https://www.fool.com/investing/2025/03/15/a-new-triumvirate-emerges-in-american-defense-with/",
-            "time_published": "20250315T101500",
-            "authors": [
-                "George Budwell"
-            ],
-            "summary": "An unprecedented alliance is reshaping America's defense industry. This new triumvirate, consisting of Archer Aviation ( NYSE: ACHR ) , Anduril, and Palantir Technologies ( NASDAQ: PLTR ) , unites breakthrough innovations in three domains: advanced aerial mobility, autonomous defense systems, and ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811220%2Fgettyimages-1714982016.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.314261,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DTII",
-                    "relevance_score": "0.03463",
-                    "ticker_sentiment_score": "0.055263",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EADSF",
-                    "relevance_score": "0.03463",
-                    "ticker_sentiment_score": "0.293857",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "ACHR",
-                    "relevance_score": "0.171851",
-                    "ticker_sentiment_score": "0.32815",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BA",
-                    "relevance_score": "0.03463",
-                    "ticker_sentiment_score": "0.293857",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PLTR",
-                    "relevance_score": "0.069194",
-                    "ticker_sentiment_score": "0.259713",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Ethereum Has Been Cut in Half Over the Past 12 Months. What Might the Next Year Hold?",
-            "url": "https://www.fool.com/investing/2025/03/15/ethereum-has-been-cut-in-half-over-the-past-12-mon/",
-            "time_published": "20250315T101100",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "Alas, Ethereum ( CRYPTO: ETH ) is, on average, an infuriating coin to hold. If you'd invested a meaty sum of $4,000 into it 12 months ago, today you'd have a grand total of $1,859 and probably some sour questions about your life's decisions.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810820/facepalming-investor-sits-at-desk-with-computer.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.838487"
-                }
-            ],
-            "overall_sentiment_score": 0.050843,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.409503",
-                    "ticker_sentiment_score": "0.02564",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
