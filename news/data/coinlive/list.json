@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 764691,
+            "title": "ZKsync: During the protocol upgrade v26, there was a temporary problem with the Mailbox contract. It is recommended to migrate to BridgeHu",
+            "description": "Odaily Planet Daily News ZKsync issued a reminder on the X platform that during the protocol upgrade v26, there was a temporary problem with the backward compatibility of the Mailbox contract, which would affect L1 → L2 transactions. L1 → L2 transactions were originally handled by the Mailbox contract, but during the v26 upgrade, because the bridge and L2 were in different transition stages, backward compatibility did not work temporarily. \nIt may take 1.5-2 weeks to solve this problem, so users are advised to use \"requestL2TransactionDirect requestL2TransactionTwoBridges\" on BridgeHub instead of Mailbox, and it is recommended to migrate to BridgeHub to avoid the Mailbox contract being deprecated in the future.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=764691&language=en-US",
+            "pub_date": "2025-03-20 20:47:25",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 764690,
+            "title": "ZKsync Advises Users on Protocol Upgrade Compatibility Issues",
+            "description": "According to Odaily, ZKsync has issued a notice on the X platform regarding a temporary compatibility issue during the protocol upgrade to version 26. The Mailbox contract, which initially handles L1 to L2 transactions, is experiencing backward compatibility problems due to the different transitional stages of bridging and L2 during the upgrade. This issue may take approximately 1.5 to 2 weeks to resolve. Users are advised to use 'requestL2TransactionDirect' and 'requestL2TransactionTwoBridges' on BridgeHub instead of Mailbox. Additionally, ZKsync recommends migrating to BridgeHub to avoid potential deprecation of the Mailbox contract in the future.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=764690&language=en-US",
+            "pub_date": "2025-03-20 20:53:37",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 764685,
             "title": "CoreWeave may go public with an IPO valuation of $30 billion",
             "description": "Odaily Planet Daily News According to the disclosed IPO documents, cloud computing provider CoreWeave may go public with an IPO valuation of $30 billion. It is reported that CoreWeave and Bitcoin mining company Core Scientific plan to invest $1.2 billion to expand the data center in Texas. The two parties have also reached a 12-year AI data center expansion agreement. (The Information)",
@@ -76,26 +96,6 @@
             "description": "Odaily Planet Daily News According to data from DeFilama and CoinMarketCap, BNB Chain has been active against the trend in the past week. Since March 15, DEX based on BNB Chain has occupied more than 30% of the total transaction volume of decentralized trading platforms for 6 consecutive days, surpassing other public chains. Since March 17, the average daily fee on the chain has exceeded US$1.6 million.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=764675&language=en-US",
             "pub_date": "2025-03-20 20:33:56",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 764669,
-            "title": "UniSat announces the launch of a new version of its extended wallet, which will support the detection of phishing websites",
-            "description": "Odaily Planet Daily News UniSat announced on the X platform that its extended wallet v1.5.8 is now online. The new version of the wallet will support phishing website detection, and you will receive an immediate alert when visiting a reported or blacklisted website. In addition, it also fixes the problem of not being able to prompt the UniSat signature due to conflicts with other extensions.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=764669&language=en-US",
-            "pub_date": "2025-03-20 20:17:08",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 764668,
-            "title": "Bedrock (BR) listed on Binance Alpha",
-            "description": "Odaily Planet Daily News: According to the Binance page, Binance Alpha has launched Bedrock (BR).",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=764668&language=en-US",
-            "pub_date": "2025-03-20 20:20:41",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
