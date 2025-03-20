@@ -1,8 +1,601 @@
 {
-    "items": "44",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Coinbase becomes Ethereum's largest node operator with 11% stake",
+            "url": "https://cointelegraph.com/news/coinbase-largest-ethereum-node-operator-11-percent-staked-eth",
+            "time_published": "20250320T085729",
+            "authors": [
+                "Ezra Reguerra"
+            ],
+            "summary": "A Coinbase report revealed that the crypto exchange is Ethereum's biggest node operator, having 11.42% of the total staked Ether within the blockchain network. In a performance report, Coinbase said it had 3.84 million Ether ( ETH ) , worth about $6.8 billion, staked to its validators.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195b2b8-9ab4-7abd-8f84-1faca15a9b7f",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                }
+            ],
+            "overall_sentiment_score": 0.070753,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.747404",
+                    "ticker_sentiment_score": "0.307065",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.796338",
+                    "ticker_sentiment_score": "-0.107918",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Bybit: 89% of stolen $1.4B crypto still traceable post-hack",
+            "url": "https://cointelegraph.com/news/bybit-1-4b-hack-88-percent-traceable-lazarus-group",
+            "time_published": "20250320T085255",
+            "authors": [
+                "Zoltan Vardai"
+            ],
+            "summary": "The lion's share of the hacked Bybit funds is still traceable after the historic cybertheft, as blockchain investigators continue their efforts to freeze and recover these funds.The crypto industry was rocked by the largest hack in history on Feb. 21, when Bybit lost over $1.4 billion in ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195b2b1-743e-72d1-ab77-ed68111a07f5",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.769861"
+                }
+            ],
+            "overall_sentiment_score": -0.145402,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "0.071766",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "-0.103712",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:RUNE",
+                    "relevance_score": "0.089129",
+                    "ticker_sentiment_score": "-0.146129",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "MEXC Dominates Token Listings with Highest Success Rate and Speed - TokenInsight Report",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44411584/mexc-dominates-token-listings-with-highest-success-rate-and-speed-tokeninsight-report",
+            "time_published": "20250320T084818",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "VICTORIA, Seychelles, March 20, 2025 ( GLOBE NEWSWIRE ) -- MEXC, a global cryptocurrency exchange, has reaffirmed its leadership in token listings, surpassing competitors in speed, volume, and market positioning, according to the latest TokenInsight Crypto Exchange report.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/7fc75310-f85c-45f9-b803-96869eb2c148/photo-2025-03-20-14-17-20.jpeg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.335705,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SPGX",
+                    "relevance_score": "0.04912",
+                    "ticker_sentiment_score": "0.129053",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Jamie Dimon Says 'There's A Lot Of Turbulence Out There' As He Weighs In On Tarrifs, Geopolitical Risks And Inflation - JPMorgan Chase  ( NYSE:JPM ) , Adobe  ( NASDAQ:ADBE ) ",
+            "url": "https://www.benzinga.com/markets/25/03/44411483/jamie-dimon-says-theres-a-lot-of-turbulence-out-there-amid-trump-tariffs-inflation-woes-and-geopolitical-",
+            "time_published": "20250320T083613",
+            "authors": [
+                "Namrata Sen"
+            ],
+            "summary": "Jamie Dimon, CEO of JPMorgan Chase & Co. JPM, expressed his views on the current economic landscape, highlighting concerns over geopolitical tensions and potential tariff impacts.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/20/Jamie-Dimons-Longstanding-Belief-In-Smar.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Economy - Macro",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.019664,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ADBE",
+                    "relevance_score": "0.18967",
+                    "ticker_sentiment_score": "0.020001",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Macroscope | Why Europe and China are no safe havens from Trump's chaos",
+            "url": "https://www.scmp.com/opinion/world-opinion/article/3303088/why-europe-and-china-are-no-safe-havens-trumps-chaos",
+            "time_published": "20250320T083008",
+            "authors": [
+                "Nicholas Spiro"
+            ],
+            "summary": "Just because the US is no longer the darling of markets does not mean the likes of Europe or China are safe bets.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/video/thumbnail/2025/02/14/thumb.jpg?itok=kUQuKKnr",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.977154"
+                }
+            ],
+            "overall_sentiment_score": 0.083647,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.127231",
+                    "ticker_sentiment_score": "0.101671",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCGLF",
+                    "relevance_score": "0.042571",
+                    "ticker_sentiment_score": "0.120806",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.085022",
+                    "ticker_sentiment_score": "-0.08593",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Equinor presents 2024 Annual report",
+            "url": "https://www.globenewswire.com/news-release/2025/03/20/3046001/0/en/Equinor-presents-2024-Annual-report.html",
+            "time_published": "20250320T083000",
+            "authors": [
+                "Equinor ASA"
+            ],
+            "summary": "Equinor ASA ( OSE: EQNR, NYSE: EQNR ) publishes annual report for 2024, including financial and sustainability reporting.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/e60cd9f0-14f4-48a6-8ef3-351dd8211a6c",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.967645"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.744043"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.218939,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EQNR",
+                    "relevance_score": "0.233806",
+                    "ticker_sentiment_score": "0.091052",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "In overseas first, China to issue sovereign green bonds in London",
+            "url": "https://www.scmp.com/economy/china-economy/article/3303154/chinas-finance-ministry-issue-sovereign-green-bonds-london",
+            "time_published": "20250320T082821",
+            "authors": [
+                "Sylvia Ma"
+            ],
+            "summary": "Move was first flagged at UK-China Economic and Financial Dialogue in January.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/20/120a8e91-2c1f-448e-af1a-884ca738e31e_3203b91d.jpg?itok=4XWwhVVT&v=1742459298",
+            "source": "South China Morning Post",
+            "category_within_source": "Economy",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.251764,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SPGX",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.042511",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:CNY",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.2057",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "If I Could Only Buy and Hold a Single Stock, This Would Be It",
+            "url": "https://www.fool.com/investing/2025/03/20/if-i-could-only-buy-and-hold-a-single-stock-this-w/",
+            "time_published": "20250320T082500",
+            "authors": [
+                "Lawrence Rothman",
+                "CFA"
+            ],
+            "summary": "It's tempting to purchase a high-flying technology company. After all, they get a lot of attention from investors and the press.But it's challenging to find long-term winners since new technology crops up all the time, and things change quickly.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811338%2Fcostco-warehouse-wholesale-shopping-1201x768-f5af3bb.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                }
+            ],
+            "overall_sentiment_score": 0.326961,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COST",
+                    "relevance_score": "0.535653",
+                    "ticker_sentiment_score": "0.43344",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Warren Buffett Sold 2 S&P 500 Index Funds Mere Months Before the Correction, but He Doesn't Have a Crystal Ball",
+            "url": "https://www.fool.com/investing/2025/03/20/warren-buffett-sold-2-sp-500-index-funds-crystal/",
+            "time_published": "20250320T081800",
+            "authors": [
+                "Anthony Di Pizio"
+            ],
+            "summary": "Had you invested $1,000 in the Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) holding company when Warren Buffett took the helm as CEO in 1965, you would have been sitting on a whopping $44.7 million at the end of 2024. The same investment in the S&P 500 ( SNPINDEX: ^GSPC ) index would have ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811472%2Fwarren-buffett-looking-at-the-camera.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.682689"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                }
+            ],
+            "overall_sentiment_score": 0.252684,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DMPZF",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.234059",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.179454",
+                    "ticker_sentiment_score": "0.115554",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ULTA",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.041122",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.041122",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LPX",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.041122",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.041122",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STZ",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.234059",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "POOL",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.234059",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CHTR",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.041122",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FND",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.041122",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DPZ",
+                    "relevance_score": "0.045224",
+                    "ticker_sentiment_score": "0.234059",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Alibaba's Joe Tsai, NWD scion Adrian Cheng to headline Hong Kong wealth summit",
+            "url": "https://www.scmp.com/business/article/3303151/alibabas-joe-tsai-nwd-scion-adrian-cheng-headline-wealth-good-hong-kong-summit",
+            "time_published": "20250320T081649",
+            "authors": [
+                "Cao Li"
+            ],
+            "summary": "Other speakers include Steve Davis of the Gates Foundation and James Peng from Pony.ai.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/20/9be97ef4-80d6-4467-b162-fa487cffdd7e_6ff1fa7f.jpg?itok=RpLfp_hA&v=1742458571",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.30703,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.08183",
+                    "ticker_sentiment_score": "0.230444",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NWWDF",
+                    "relevance_score": "0.08183",
+                    "ticker_sentiment_score": "0.230444",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "2 High-Yield Dividend Stocks to Buy Now",
+            "url": "https://www.fool.com/investing/2025/03/20/2-high-yield-dividend-stocks-to-buy-now/",
+            "time_published": "20250320T081500",
+            "authors": [
+                "John Ballard"
+            ],
+            "summary": "Investing in top consumer brands when they offer high dividend yields can be a rewarding investment strategy. But a high yield will sometimes reflect something wrong with the business that investors should make certain is temporary before committing to buying shares.Dollar General ( NYSE: DG ) ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/811485/stock-market-graph-smartphone-hundred-dollar-bills-money.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99793"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.983605"
+                }
+            ],
+            "overall_sentiment_score": 0.210733,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DG",
+                    "relevance_score": "0.211652",
+                    "ticker_sentiment_score": "-0.025553",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HSY",
+                    "relevance_score": "0.262805",
+                    "ticker_sentiment_score": "0.11834",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Should You Forget Palantir and Buy These 2 Millionaire-Maker Stocks Instead?",
+            "url": "https://www.fool.com/investing/2025/03/20/should-you-forget-palantir-and-buy-these-2-million/",
+            "time_published": "20250320T080500",
+            "authors": [
+                "Harsh Chauhan"
+            ],
+            "summary": "Palantir Technologies ( NASDAQ: PLTR ) has been one of the hottest stocks on the market in the past couple of years, rising an incredible 1,000% as of this writing and beating the S&P 500 index's gains of just 45% during this period by a heavy margin.The software specialist's stunning rally can ...",
+            "banner_image": "https://media.ycharts.com/charts/2e72cd23c3d0c8d56c8872b9270d1d9e.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.962106"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.99994"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.412675,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.424756",
+                    "ticker_sentiment_score": "0.511596",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.034381",
+                    "ticker_sentiment_score": "-0.031045",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PLTR",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "0.069777",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "A New Social Security Law Will Give Some Retirees Over $1,000 More Per Month, but Not Everyone Will See a Change",
+            "url": "https://www.fool.com/retirement/2025/03/20/social-security-law-gives-some-retirees-1000-more/",
+            "time_published": "20250320T080000",
+            "authors": [
+                "Kailey Hagen"
+            ],
+            "summary": "If you're on Social Security, you're probably used to small changes to the size of your benefit checks every year due to cost-of-living adjustments ( COLAs ) . But major changes to those benefits are pretty rare. That's what makes the recently enacted Social Security Fairness Act such big ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811645%2Fexcited-couple-looking-at-document-together.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.184498,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "Pacific Green Completes Sale of 250MW / 500 MWh Limestone Coast North Battery Energy Park Development",
             "url": "https://www.globenewswire.com/news-release/2025/03/20/3045988/0/en/Pacific-Green-Completes-Sale-of-250MW-500-MWh-Limestone-Coast-North-Battery-Energy-Park-Development.html",
@@ -1152,445 +1745,6 @@
                     "relevance_score": "0.13459",
                     "ticker_sentiment_score": "0.363901",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Transaction in Own Shares",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045950/0/en/Transaction-in-Own-Shares.html",
-            "time_published": "20250320T063000",
-            "authors": [
-                "Endeavour Mining PLC"
-            ],
-            "summary": "London, 20 March 2025 - Endeavour Mining plc ( LSE:EDV, TSX:EDV ) ( \"the Company\" ) announces it has purchased the following number of its ordinary shares of USD 0.01 each from Stifel Nicolaus Europe Limited.",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/cff109e5-0693-447f-8afe-290bcfdfd66f",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.77141"
-                }
-            ],
-            "overall_sentiment_score": 0.152933,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.020175",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LDNXF",
-                    "relevance_score": "0.063933",
-                    "ticker_sentiment_score": "0.231468",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "EXOSENS JOINS THE SBF 120 INDEX",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045949/0/en/EXOSENS-JOINS-THE-SBF-120-INDEX.html",
-            "time_published": "20250320T063000",
-            "authors": [
-                "Exosens"
-            ],
-            "summary": "PRESS RELEASEM\u00c9RIGNAC, FRANCE - 20 MARCH ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/2c7bfb64-6a9c-4878-80a4-1315430ad8f0",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.21732,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DTII",
-                    "relevance_score": "0.124809",
-                    "ticker_sentiment_score": "0.25348",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "DEMIRE achieves 2024 guidance for rental income and FFO",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045951/0/en/DEMIRE-achieves-2024-guidance-for-rental-income-and-FFO.html",
-            "time_published": "20250320T063000",
-            "authors": [
-                "DEMIRE Deutsche Mittelstand Real Estate AG"
-            ],
-            "summary": "\u2022 Rental income of EUR 65.3 million ( previous year: EUR 78.5 million ) and FFO I of EUR 23.8 million ( previous year: EUR 36.7 million ) in line with expectations \u2022 Guidance for 2025: rental income between EUR 51.0 million and EUR 53.0 million and FFO I between EUR 3.5 million and EUR 5.5 ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/81c733dd-fff8-497c-8ba1-803e35accbd4",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999864"
-                }
-            ],
-            "overall_sentiment_score": 0.222309,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "$77K likely the Bitcoin bottom as QT is 'effectively dead' - Analysts",
-            "url": "https://cointelegraph.com/news/arthur-hayes-calls-bitcoin-price-77k-bottom-analysts-qt-dead",
-            "time_published": "20250320T062805",
-            "authors": [
-                "Ciaran Lyons"
-            ],
-            "summary": "Bitcoin is unlikely to revisit the $77,000 price level anytime soon after the Fed signaled a slowdown in quantitative tightening ( QT ) , says BitMEX co-founder Arthur Hayes.On March 10, Bitcoin ( BTC ) dipped near the $77,000 level for the first time since November, according to CoinMarketCap ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195b229-83f1-7210-b636-b28427eb071a",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.202508,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.586141",
-                    "ticker_sentiment_score": "0.374074",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "VEON to Proceed with USD 35 Million Share Buyback - VEON  ( NASDAQ:VEON ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44410541/veon-to-proceed-with-usd-35-million-share-buyback",
-            "time_published": "20250320T062532",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Announcement marks second phase of USD 100 million share buyback program announced on August 1, 2024 Dubai, March 20, 2025: VEON Ltd.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.216943,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VEON",
-                    "relevance_score": "0.722311",
-                    "ticker_sentiment_score": "0.297166",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "VEON to Proceed with USD 35 Million Share Buyback",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045948/0/en/VEON-to-Proceed-with-USD-35-Million-Share-Buyback.html",
-            "time_published": "20250320T062500",
-            "authors": [
-                "VEON Ltd."
-            ],
-            "summary": "Announcement marks second phase of USD 100 million share buyback program Dubai, March 20, 2025: VEON Ltd. ( Nasdaq: VEON ) , a global digital operator ( \"VEON\" or the \"Company\" ) , announces that it will shortly commence the second phase of its previously announced share buyback program with ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/3a431b22-b647-4855-ab72-b3a8aa08a08f",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.205444,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VEON",
-                    "relevance_score": "0.749619",
-                    "ticker_sentiment_score": "0.312305",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Beware of 'cracked' TradingView - it's a crypto-stealing trojan",
-            "url": "https://cointelegraph.com/news/beware-of-cracked-version-trading-view-a-crypto-stealing-trojan",
-            "time_published": "20250320T062237",
-            "authors": [
-                "Stephen Katte"
-            ],
-            "summary": "Cybersecurity firm Malwarebytes has warned of a new form of crypto-stealing malware hidden inside a \"cracked\" version of TradingView Premium, software that provides charting tools for financial markets. The scammers are lurking on crypto subreddits, posting links to Windows and Mac installers for ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195b210-c102-76f9-b1d3-d5297b1835bd",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": -0.200458,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RDDT",
-                    "relevance_score": "0.083251",
-                    "ticker_sentiment_score": "-0.286976",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "VEON FY24 and 4Q24 Trading Update: Strong Delivery in 2024, Digital Services Driving Growth",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045947/0/en/VEON-FY24-and-4Q24-Trading-Update-Strong-Delivery-in-2024-Digital-Services-Driving-Growth.html",
-            "time_published": "20250320T061300",
-            "authors": [
-                "VEON Ltd."
-            ],
-            "summary": "\u2022 Total revenue growth of 8.3% YoY to USD 4,004 million ( +14.6% YoY in underlying local currency terms ) \u2022 EBITDA growth of 4.9% YoY to USD 1,691 million ( +12.0% YoY in underlying local currency terms ) \u2022 Direct digital revenue growth of 63.0% YoY to USD 460 million ( +64.1% YoY in local ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/3a431b22-b647-4855-ab72-b3a8aa08a08f",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.997902"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999966"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.127922,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VEON",
-                    "relevance_score": "0.295029",
-                    "ticker_sentiment_score": "0.12397",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "VEON FY24 and 4Q24 Trading Update: Strong Delivery in 2024, Digital Services Driving Growth - VEON  ( NASDAQ:VEON ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44410500/veon-fy24-and-4q24-trading-update-strong-delivery-in-2024-digital-services-driving-growth",
-            "time_published": "20250320T061249",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "VEON FY24 and 4Q24 Trading Update: Strong Delivery in 2024, Digital Services Driving Growth Total revenue growth of 8.3% YoY to USD 4,004 million ( +14.6% YoY in underlying local currency terms ) EBITDA growth of 4.9% YoY to USD 1,691 million ( +12.0% YoY in underlying local currency terms )",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999997"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999966"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.144124,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VEON",
-                    "relevance_score": "0.296463",
-                    "ticker_sentiment_score": "0.130883",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Federal Reserve Brings Back 'Transitory' Inflation Amid Tariff War: Economist Mohamed El-Erian Calls It A 'Big Policy Mistake' - Invesco QQQ Trust, Series 1  ( NASDAQ:QQQ ) , SPDR S&P 500  ( ARCA:SPY ) ",
-            "url": "https://www.benzinga.com/analyst-ratings/analyst-color/25/03/44410479/federal-reserve-brings-back-transitory-inflation-amid-tariff-war-economist-mohamed-",
-            "time_published": "20250320T061144",
-            "authors": [
-                "Rishabh Mishra"
-            ],
-            "summary": "Senior economist Mohamed El-Erian has criticized Federal Reserve Chair Jerome Powell's use of the word \"transitory\" to describe the potential inflationary impact of tariffs. What Happened: The Federal Reserve held rates steady in the range of 4.25%-4.5% on Wednesday.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/20/Asserting-Independence.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.983605"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": -0.06128,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.075161",
-                    "ticker_sentiment_score": "0.244272",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "ALIZF",
-                    "relevance_score": "0.075161",
-                    "ticker_sentiment_score": "-0.118207",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Valneva Reports Full Year 2024 Results and Provides Business Updates and Outlook",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045946/0/en/Valneva-Reports-Full-Year-2024-Results-and-Provides-Business-Updates-and-Outlook.html",
-            "time_published": "20250320T060000",
-            "authors": [
-                "VALNEVA"
-            ],
-            "summary": "Saint-Herblain ( France ) , March 20, 2025 - Valneva SE ( Nasdaq: VALN. Euronext Paris: VLA ) , a specialty vaccine company, today reported its consolidated financial results for the year ended December 31, 2024 and provided key corporate updates and guidance for its future results.",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/04f398df-96ac-4b7a-8544-2a2ce2495778",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.980716"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.967321"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.191998,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VALN",
-                    "relevance_score": "0.481602",
-                    "ticker_sentiment_score": "0.242474",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "PFE",
-                    "relevance_score": "0.077656",
-                    "ticker_sentiment_score": "0.059378",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Press Release: Sanofi to acquire Dren Bio's bispecific myeloid cell engager for deep B-cell depletion, broadening immunology pipeline",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3045945/0/en/Press-Release-Sanofi-to-acquire-Dren-Bio-s-bispecific-myeloid-cell-engager-for-deep-B-cell-depletion-broadening-immunology-pipeline.html",
-            "time_published": "20250320T060000",
-            "authors": [
-                "Sanofi Winthrop Industrie"
-            ],
-            "summary": "Sanofi to acquire Dren Bio's bispecific myeloid cell engager for deep B-cell depletion, broadening immunology pipeline ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/06da731a-67a1-4258-939f-6ef0531ee3bf",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.220125,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SNY",
-                    "relevance_score": "0.373039",
-                    "ticker_sentiment_score": "0.158902",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
