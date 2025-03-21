@@ -1,8 +1,90 @@
 {
-    "items": "49",
+    "items": "50",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "SMS scammers posing as Binance have an even trickier way to fool victims",
+            "url": "https://cointelegraph.com/news/sms-scammers-posing-binance-have-trickier-way-fool-victims",
+            "time_published": "20250321T032757",
+            "authors": [
+                "Stephen Katte"
+            ],
+            "summary": "Australian federal police have alerted over 130 people of a new text message scam aimed at crypto users that copies the same \"sender ID\" as legitimate crypto exchanges such as Binance. The impersonation scam involves the fraudsters sending out messages through text and encrypted messaging ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195b69c-32bc-7ecd-a3b4-34d7e6c2a531",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                }
+            ],
+            "overall_sentiment_score": -0.18125,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.067919",
+                    "ticker_sentiment_score": "-0.197016",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Elon Musk Says 'Hang On To Your Stock' In Surprise Late-Evening Tesla All-Hands Meeting - Touts 7 Million EVs, Optimus Robot, And AI Supercomputer Dojo - Tesla  ( NASDAQ:TSLA ) ",
+            "url": "https://www.benzinga.com/tech/25/03/44429586/tesla-stuns-with-surprise-late-evening-all-hands-meeting-elon-musk-says-hang-on-to-your-stock-touting-7-mill",
+            "time_published": "20250321T031523",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "On Thursday night, Tesla Inc. TSLA abruptly scheduled an all-hands meeting. The event was set to begin at 9:30 p.m. ET, but it didn't start until 9:58 p.m. ET.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/20/Elon-Musk-Has-No-Actual-Authority-To-Mak.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.294799,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.053992",
+                    "ticker_sentiment_score": "-0.025966",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OPTGF",
+                    "relevance_score": "0.16099",
+                    "ticker_sentiment_score": "0.197629",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.543681",
+                    "ticker_sentiment_score": "0.332566",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "LG to Shut Down NFT Marketplace Art Lab on Smart TVs by June",
             "url": "https://decrypt.co/311039/lg-to-shut-down-nft-marketplace-art-lab-on-smart-tvs-by-june",
@@ -24,6 +106,43 @@
             "overall_sentiment_score": 0.040303,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Wingtech sells 4.6 billion yuan assembly assets after losses from US sanctions",
+            "url": "https://www.scmp.com/business/article/3303249/wingtech-sells-46-bln-yuan-assembly-assets-luxshare-after-losses-us-sanctions",
+            "time_published": "20250321T025103",
+            "authors": [
+                "Bloomberg"
+            ],
+            "summary": "The company signed an agreement to sell its stake in five subsidiaries to Luxshare Precision Industry, according to a filing with the Shanghai Stock Exchange.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/21/f8c6d358-c5d0-4905-a76a-5d3a4df2f2a6_610daeca.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.018973,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ON",
+                    "relevance_score": "0.098659",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "Elon Musk's New X Post Sends Kekius Maximus Soaring 75%-Frog-Themed Pepe Also Rallies",
@@ -54,6 +173,63 @@
                     "ticker": "CRYPTO:ETH",
                     "relevance_score": "0.126784",
                     "ticker_sentiment_score": "0.002386",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Hong Kong stocks extend slide as CK Hutchison, CK Asset earnings disappoint",
+            "url": "https://www.scmp.com/business/china-business/article/3303247/hong-kong-stocks-extend-slide-ck-hutchison-ck-asset-earnings-disappoint",
+            "time_published": "20250321T024407",
+            "authors": [
+                "Zhang Shidong"
+            ],
+            "summary": "Traders remain wary of the rapid gains in recent weeks as realities on the ground do not match fundamentals.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/21/cca4507f-f199-4d54-80aa-5ac69f2d873b_decd7102.jpg?itok=yu5LrIkn&v=1742524918",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": -0.059654,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.12546",
+                    "ticker_sentiment_score": "-0.321396",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CKHUF",
+                    "relevance_score": "0.12546",
+                    "ticker_sentiment_score": "-0.122059",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HLDVF",
+                    "relevance_score": "0.12546",
+                    "ticker_sentiment_score": "0.081141",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.12546",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CHKGF",
+                    "relevance_score": "0.12546",
+                    "ticker_sentiment_score": "0.081141",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -2007,93 +2183,6 @@
                     "ticker": "FOREX:USD",
                     "relevance_score": "0.009235",
                     "ticker_sentiment_score": "0.014102",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Jim Cramer says holding Home Depot stock is a good idea",
-            "url": "https://www.cnbc.com/2025/03/20/jim-cramer-says-holding-home-depot-stock-is-a-good-idea.html",
-            "time_published": "20250320T230242",
-            "authors": [],
-            "summary": "Jim Cramer spoke with Home Depot CEO Ted Decker on how the company may thrive despite Trump's tariffs.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Top News",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.21227,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HD",
-                    "relevance_score": "0.204072",
-                    "ticker_sentiment_score": "0.158304",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.102888",
-                    "ticker_sentiment_score": "-0.097567",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Here's How Much $1000 Invested In Enterprise Prods Partners 5 Years Ago Would Be Worth Today - Enterprise Prods Partners  ( NYSE:EPD ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44428226/heres-how-much-1000-invested-in-enterprise-prods-partners-5-years-ago-would-be-worth-today",
-            "time_published": "20250320T230012",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Enterprise Prods Partners EPD has outperformed the market over the past 5 years by 1.27% on an annualized basis producing an average annual return of 19.66%. Currently, Enterprise Prods Partners has a market capitalization of $74.00 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1742511608_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.243318,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Are cheap Indonesian durians about to flood the Chinese market?",
-            "url": "https://www.scmp.com/economy/china-economy/article/3303171/indonesias-vast-durian-industry-poised-begin-exports-china",
-            "time_published": "20250320T230007",
-            "authors": [
-                "Ralph Jennings"
-            ],
-            "summary": "Indonesia's huge fruit industry is preparing to begin exporting durians to China, threatening the dominance of Thai and Vietnamese growers.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/20/f976b3ca-c4c5-47a0-bea8-b7a5aa38c0eb_bcc6527e.jpg?itok=70lXNE4N&v=1742461740",
-            "source": "South China Morning Post",
-            "category_within_source": "Economy",
-            "source_domain": "www.scmp.com",
-            "topics": [],
-            "overall_sentiment_score": 0.094377,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.050894",
-                    "ticker_sentiment_score": "0.124364",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
