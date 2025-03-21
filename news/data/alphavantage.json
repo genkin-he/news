@@ -1,8 +1,59 @@
 {
-    "items": "47",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Larry Summers Calls Trump Tariffs 'Self-Inflicted Wound' As Fed Navigates Inflation Worries: 'Policy Is Moving In Wrong Direction'",
+            "url": "https://www.benzinga.com/news/25/03/44430061/larry-summers-calls-trump-tariffs-self-inflicted-wound-as-fed-navigates-inflation-worries-policy-is-moving-i",
+            "time_published": "20250321T044816",
+            "authors": [
+                "Kaustubh Bagalkote"
+            ],
+            "summary": "Former Treasury Secretary Larry Summers warned on Thursday that President Donald Trump's tariff policies are creating a \"self-inflicted wound\" on the U.S. economy, pushing inflation up while threatening growth. What Happened: \"We should be focused on the fact that we had a shock that pushed ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/21/Why-It-Matters.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.928139"
+                }
+            ],
+            "overall_sentiment_score": -0.228388,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Metaplanet Appoints Eric Trump to Newly Formed Strategic Advisory Board",
+            "url": "https://decrypt.co/311041/metaplanet-appoints-eric-trump-to-newly-formed-strategic-advisory-board",
+            "time_published": "20250321T044235",
+            "authors": [
+                "Vismaya V"
+            ],
+            "summary": "Metaplanet has named Eric Trump as the first member of its new Strategic Board of Advisors, part of its push to expand Bitcoin \"adoption.\" ...",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/08/eric-trump-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.330839,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.91434",
+                    "ticker_sentiment_score": "0.51037",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
         {
             "title": "JuicyChat.AI Launches NSFW and Hentai AI Chatbots in 2025, Redefining Virtual Roleplay",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44429927/juicychat-ai-launches-nsfw-and-hentai-ai-chatbots-in-2025-redefining-virtual-roleplay",
@@ -115,6 +166,86 @@
             ]
         },
         {
+            "title": "M&As, PE flows to remain robust in 2025 despite economic uncertainties, say experts - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/strategy-operations/mas-pe-flows-to-remain-robust-in-2025-despite-economic-uncertainties-say-experts/119283750",
+            "time_published": "20250321T040924",
+            "authors": [
+                "Shivam Tyagi",
+                "ETCFO"
+            ],
+            "summary": "Mergers and acquisitions in India are thriving with robust domestic demand and increased private equity investments. Sectors like retail, IT, and pharma lead volume growth, while energy and manufacturing sectors contribute significantly to deal value.",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Top Stories",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.890401"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.998356"
+                }
+            ],
+            "overall_sentiment_score": 0.308261,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Hong Kong investment arm backs Chinese RISC-V start-up StarFive",
+            "url": "https://www.scmp.com/tech/policy/article/3303258/hong-kong-investment-arm-backs-chinese-risc-v-start-starfive-tech-push",
+            "time_published": "20250321T040106",
+            "authors": [
+                "Xinmei Shen"
+            ],
+            "summary": "The partnership will see Hong Kong support StarFive in rolling out RISC-V chip applications in the city.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/21/c4c0c3da-c721-4cc3-a63d-cca355b636f5_4bb2538e.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Companies",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.159471,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.109455",
+                    "ticker_sentiment_score": "0.064332",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CGHOF",
+                    "relevance_score": "0.054857",
+                    "ticker_sentiment_score": "0.090817",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HLDVF",
+                    "relevance_score": "0.054857",
+                    "ticker_sentiment_score": "0.124826",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ARM",
+                    "relevance_score": "0.054857",
+                    "ticker_sentiment_score": "0.048039",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BNXYF",
+                    "relevance_score": "0.054857",
+                    "ticker_sentiment_score": "0.049853",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Microchip Technology Announces Pricing of Offering of Depositary Shares Representing Interests in Series A Mandatory Convertible Preferred Stock",
             "url": "https://www.globenewswire.com/news-release/2025/03/21/3046834/0/en/Microchip-Technology-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Interests-in-Series-A-Mandatory-Convertible-Preferred-Stock.html",
             "time_published": "20250321T040000",
@@ -152,6 +283,28 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
+        },
+        {
+            "title": "Japan's core inflation hits 3% in February, keeps alive BOJ rate-hike bets - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/economy/japans-core-inflation-hits-3-in-february-keeps-alive-boj-rate-hike-bets/119283455",
+            "time_published": "20250321T034626",
+            "authors": [
+                "ETCFO"
+            ],
+            "summary": "Japan's core inflation reached 3.0% in February, with an index excluding fuel costs accelerating at the fastest rate in nearly a year, indicating broadening price pressure. This has reinforced market expectations for potential interest rate hikes, driven by rising food costs and ...",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Economy",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.99489"
+                }
+            ],
+            "overall_sentiment_score": 0.091803,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Perplexity Can Make 'Apple Intelligence Work' Says CEO Aravind Srinivas As iPhone Maker Attracts Criticism On Siri And AI Delays - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
@@ -1912,230 +2065,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "Japan core inflation rose 3% in February, bolstering expectations of interest rate hikes",
-            "url": "https://www.cnbc.com/2025/03/21/japan-inflation-eases-to-3point7percent-february-down-from-a-two-year-high.html",
-            "time_published": "20250321T002011",
-            "authors": [],
-            "summary": "Japan's core inflation beat expectations and came in at 3% in February, government data showed on Friday, bolstering the case for further interest rate hikes.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Top News",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.999855"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.081137,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:JPY",
-                    "relevance_score": "0.082111",
-                    "ticker_sentiment_score": "0.125613",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.082111",
-                    "ticker_sentiment_score": "0.125613",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "MacroGenics  ( MGNX )  Q4 2024 Earnings Call Transcript",
-            "url": "https://www.fool.com/earnings/call-transcripts/2025/03/20/macrogenics-mgnx-q4-2024-earnings-call-transcript/",
-            "time_published": "20250321T001511",
-            "authors": [
-                "Motley Fool Transcribing"
-            ],
-            "summary": "MGNX earnings call for the period ending December 31, 2024.",
-            "banner_image": "https://g.foolcdn.com/misc-assets/fool-transcripts-logo.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.98396"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.16719,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EVR",
-                    "relevance_score": "0.00954",
-                    "ticker_sentiment_score": "0.221888",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "MGNX",
-                    "relevance_score": "0.095176",
-                    "ticker_sentiment_score": "0.177229",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "INCY",
-                    "relevance_score": "0.019079",
-                    "ticker_sentiment_score": "0.126962",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BCS",
-                    "relevance_score": "0.00954",
-                    "ticker_sentiment_score": "0.223797",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AZN",
-                    "relevance_score": "0.00954",
-                    "ticker_sentiment_score": "0.061994",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Condor Announces 2024 Year-End Results",
-            "url": "https://www.globenewswire.com/news-release/2025/03/21/3046809/0/en/Condor-Announces-2024-Year-End-Results.html",
-            "time_published": "20250321T001500",
-            "authors": [
-                "Condor Energies Inc."
-            ],
-            "summary": "CALGARY, Alberta, March 20, 2025 ( GLOBE NEWSWIRE ) -- Condor Energies Inc. ( \"Condor\" or the \"Company\" ) ( TSX:CDR ) , a Canadian based, internationally focused energy transition company focused on Central Asia is pleased to announce the release of its audited consolidated financial statements ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/b07e210d-bb08-4ecd-ba72-7f0c0a9416b9",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.413559"
-                }
-            ],
-            "overall_sentiment_score": 0.228755,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CNPRF",
-                    "relevance_score": "0.008865",
-                    "ticker_sentiment_score": "0.081639",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CURN",
-                    "relevance_score": "0.008865",
-                    "ticker_sentiment_score": "-0.004195",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MALRF",
-                    "relevance_score": "0.017729",
-                    "ticker_sentiment_score": "-0.033669",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Hong Kong's SFC tells brokers to clean up act on imprudent IPO margin financing",
-            "url": "https://www.scmp.com/business/banking-finance/article/3303214/hong-kongs-sfc-tells-brokers-end-imprudent-aggressive-ipo-financing-practices",
-            "time_published": "20250321T000018",
-            "authors": [
-                "Aileen Chuang"
-            ],
-            "summary": "Review discovered many 'deficiencies' in IPO practices among some undisclosed brokerages, the market watchdog said in a circular.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/20/71f1f2de-958d-4867-9949-aacee6f7ad4f_5225f804.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.092338,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Here's How Much $1000 Invested In Franco-Nevada 10 Years Ago Would Be Worth Today - Franco-Nevada  ( NYSE:FNV ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44428481/heres-how-much-1000-invested-in-franco-nevada-10-years-ago-would-be-worth-today",
-            "time_published": "20250320T234515",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Franco-Nevada FNV has outperformed the market over the past 10 years by 1.35% on an annualized basis producing an average annual return of 11.99%. Currently, Franco-Nevada has a market capitalization of $29.95 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1742514312_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.25,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FNV",
-                    "relevance_score": "0.941873",
-                    "ticker_sentiment_score": "0.382786",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Vortex Announces Proposed Share Consolidation",
-            "url": "https://www.globenewswire.com/news-release/2025/03/20/3046807/0/en/Vortex-Announces-Proposed-Share-Consolidation.html",
-            "time_published": "20250320T233400",
-            "authors": [
-                "VORTEX ENERGY CORP"
-            ],
-            "summary": "VANCOUVER, British Columbia, March 20, 2025 ( GLOBE NEWSWIRE ) -- Vortex Energy Corp. ( CSE: VRTX | OTC: VTECF | FRA: AA3 ) ( \"Vortex\" or the \"Company\" ) announces a proposed consolidation of the common shares of the Company ( the \"Common Shares\" ) on the basis of ten ( 10 ) pre-consolidation ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/153ca1c4-6764-4e6f-810f-c49ff7e33b38",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.795202"
-                }
-            ],
-            "overall_sentiment_score": 0.22241,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
         }
     ]
 }
