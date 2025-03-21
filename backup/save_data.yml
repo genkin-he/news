@@ -1,0 +1,39 @@
+name: sync posts
+
+on:
+  push:
+    paths:
+      - 'news/data/*/*'
+
+env:
+  SUPABASE_DBNAME: ${{ secrets.SUPABASE_DBNAME }}
+  SUPABASE_USER: ${{ secrets.SUPABASE_USER }}
+  SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
+  SUPABASE_HOST: ${{ secrets.SUPABASE_HOST }}
+  SUPABASE_PORT: 5432
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install psycopg2-binary
+        
+      - name: Execute Python scripts
+        run: |
+          chmod +x ./news/scripts/util/save_posts.py
+          python3 ./news/scripts/util/save_posts.py
