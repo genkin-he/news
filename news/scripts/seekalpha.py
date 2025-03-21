@@ -27,8 +27,7 @@ headers = {
 base_url = "https://seekingalpha.com"
 filename = "./news/data/seekalpha/list.json"
 
-util = SpiderUtil()
-
+util = SpiderUtil(notify=False)
 
 def run():
     data = util.history_posts(filename)
