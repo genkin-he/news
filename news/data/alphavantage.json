@@ -1,8 +1,45 @@
 {
-    "items": "48",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Mark Zuckerberg Once Said 'The Social Network' Made Up Stuff That Was Kind Of Hurtful Because Real Life Wasn't Glamorous Enough For Hollywood - Meta Platforms  ( NASDAQ:META ) ",
+            "url": "https://www.benzinga.com/25/03/44447324/mark-zuckerberg-once-said-the-social-network-made-up-stuff-that-was-kind-of-hurtful-because-real-life-wasnt-glamo",
+            "time_published": "20250322T040533",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Meta Platforms Inc. META co-founder and CEO Mark Zuckerberg once shared that the 2010 film \"The Social Network\" left him feeling misrepresented and hurt, criticizing the movie for fabricating parts of his life to make the story more dramatic.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/What-Happened-.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.495866"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.114723,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.297061",
+                    "ticker_sentiment_score": "-0.163248",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
         {
             "title": "McKinney overcomes early nerves to take Day 1 Classic lead",
             "url": "https://www.benzinga.com/pressreleases/25/03/n44447299/mckinney-overcomes-early-nerves-to-take-day-1-classic-lead",
@@ -1649,122 +1686,6 @@
                     "ticker": "HSAI",
                     "relevance_score": "0.556784",
                     "ticker_sentiment_score": "-0.006886",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Eros Resources Announces Non-Brokered Private Placement Financing",
-            "url": "https://www.globenewswire.com/news-release/2025/03/21/3047356/0/en/Eros-Resources-Announces-Non-Brokered-Private-Placement-Financing.html",
-            "time_published": "20250321T220000",
-            "authors": [
-                "Eros Resources Corp."
-            ],
-            "summary": "Not for distribution to United States newswire services or for release publication, distribution or dissemination directly, or indirectly, in whole or in part, in or into the United States. Not for distribution to United States newswire services or for release publication, distribution or ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/d6ba093d-d236-4168-ac29-f86c9a2617a5",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.25361,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MALRF",
-                    "relevance_score": "0.062597",
-                    "ticker_sentiment_score": "0.205666",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Atea Pharmaceuticals Issues Statement Regarding Director Nominations - Atea Pharmaceuticals  ( NASDAQ:AVIR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44445386/atea-pharmaceuticals-issues-statement-regarding-director-nominations",
-            "time_published": "20250321T215416",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "BOSTON, March 21, 2025 ( GLOBE NEWSWIRE ) -- Atea Pharmaceuticals, Inc. AVIR ( Atea or Company ) a clinical-stage biopharmaceutical company engaged in the discovery and development of oral antiviral therapeutics for serious viral diseases, today confirmed receipt of a notice from Bradley L.",
-            "banner_image": "https://ml.globenewswire.com/media/1506ab30-7618-4ed0-98de-e3815adb3aa6/small/avir-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.202318,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AVIR",
-                    "relevance_score": "0.071892",
-                    "ticker_sentiment_score": "0.069554",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EVR",
-                    "relevance_score": "0.035983",
-                    "ticker_sentiment_score": "0.08208",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Atea Pharmaceuticals Issues Statement Regarding Director Nominations",
-            "url": "https://www.globenewswire.com/news-release/2025/03/21/3047353/0/en/Atea-Pharmaceuticals-Issues-Statement-Regarding-Director-Nominations.html",
-            "time_published": "20250321T215400",
-            "authors": [
-                "Inc.",
-                "Atea Pharmaceuticals"
-            ],
-            "summary": "No Shareholder Action is Required at this Time No Shareholder Action is Required at this Time ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/1506ab30-7618-4ed0-98de-e3815adb3aa6",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.193178,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AVIR",
-                    "relevance_score": "0.076479",
-                    "ticker_sentiment_score": "0.074055",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EVR",
-                    "relevance_score": "0.038284",
-                    "ticker_sentiment_score": "0.082792",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
