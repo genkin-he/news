@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "id": "20250322A04L2S",
+            "title": "AMD 推出 AI 开源项目“GAIA”：目前仅适用于 Windows",
+            "description": "<div class=\"rich_media_content\"><p data-vmark=\"21c1\">IT之家 3 月 22 日消息，当地时间周四，AMD 宣布推出专为本地运行大语言模型（LLM）设计的应用 GAIA（发音为/ˈɡaɪ.ə/）并在 Github 开源，目前仅限于 Windows 平台。</p><p data-vmark=\"f75a\" style=\"text-align:center\"><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/OyAaXBHbAq5OekbGbh4zMW--O5CdzH6JGJ2x9XVH_WLfAAA/641\" src=\"https://inews.gtimg.com/om_bt/OyAaXBHbAq5OekbGbh4zMW--O5CdzH6JGJ2x9XVH_WLfAAA/641\" style=\"border-radius:6px;width:100%;height:100%\"/></p><p data-vmark=\"7cb9\">GAIA 是一款生成式 AI 应用，能够在 Windows PC 上实现本地化私密运行 LLM，并针对锐龙 AI 300 系列处理器进行了优化，标志着 AMD 在边缘计算领域的又一重要布局。</p><p data-vmark=\"8847\" style=\"text-align:center\"><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/OPC8RHr_2TugcXhI_IQwWRg8n-Hbco47gsHffOV3nr_YcAA/641\" src=\"https://inews.gtimg.com/om_bt/OPC8RHr_2TugcXhI_IQwWRg8n-Hbco47gsHffOV3nr_YcAA/641\" style=\"border-radius:6px;width:100%;height:100%\"/></p><p data-vmark=\"8f62\">在 NPU 上运行 GAIA 可提高 AI 特定任务的性能。从 Ryzen AI 软件版本 1.3 开始，混合支持部署同时使用 NPU 和核显的量化 LLM。</p><p data-vmark=\"c977\" style=\"text-align:center\"><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/O_Pe4KGQeuxZvSZ1X9d2jCC-d-Y0dot3y94ZcJ5rbn7r4AA/641\" src=\"https://inews.gtimg.com/om_bt/O_Pe4KGQeuxZvSZ1X9d2jCC-d-Y0dot3y94ZcJ5rbn7r4AA/641\" style=\"border-radius:6px;width:100%;height:100%\"/></p><p data-vmark=\"b4e6\">其核心组件基于 ONNX TurnkeyML 的 Lemonade SDK 开发，采用检索增强生成（RAG）技术框架，通过本地向量索引实现 YouTube、GitHub 等外部数据的实时检索与分析。</p><p data-vmark=\"e0bd\">系统工作流包含 LLM 连接器、LlamaIndex RAG 管道和代理 Web 服务器三大模块，支持 Llama、Phi 等主流模型。功能模块包含四大 AI 智能体：</p><ul class=\"list-paddingleft-2\"><ul class=\"list-paddingleft-2\"><li><p data-vmark=\"63dd\">Chaty：支持历史对话的聊天机器人</p></li><li><p data-vmark=\"d124\">Clip：YouTube 视频搜索与问答专家</p></li><li><p data-vmark=\"6bff\">Joker：具备幽默风格的笑话生成器</p></li><li><p data-vmark=\"d20d\">Simple Prompt：模型直接交互测试工具</p></li></ul></ul><p data-vmark=\"1775\" style=\"text-align:center\"><img alt=\"图片\" class=\"qnt-img-img qnr-img-lazy-load-img qnr-img-lazy-load-img-placeholder\" data-src=\"https://inews.gtimg.com/om_bt/OVCDhBX8TlEKMLY8Qfrbandof4fIi8F6la3XBQS5C09r4AA/641\" src=\"https://inews.gtimg.com/om_bt/OVCDhBX8TlEKMLY8Qfrbandof4fIi8F6la3XBQS5C09r4AA/641\" style=\"border-radius:6px;width:100%;height:100%\"/></p><p data-vmark=\"c6da\">硬件方面，<!-- -->AMD<!-- --> 提供普通版与混合版两种安装方案。普通安装包兼容任意 Windows PC（含非 AMD 硬件设备），通过 Ollama 后端实现跨平台支持。</p><p data-vmark=\"0e34\">混合安装包专为配备锐龙 AI 300 系列处理器的设备进行优化，可智能分配 NPU 与集成显卡的计算负载。AMD 表示，Ryzen AI 软件自 1.3 版本起支持量化模型在 NPU 和集成显卡间的混合部署。</p><p data-vmark=\"28b7\">隐私与性能优势方面：</p><ul class=\"list-paddingleft-2\"><ul class=\"list-paddingleft-2\"><li><p data-vmark=\"aca1\">本地化处理确保医疗、金融等敏感行业数据不出境</p></li><li><p data-vmark=\"7c13\">响应延迟降低至毫秒级（相较云端方案缩短 40-60%）</p></li><li><p data-vmark=\"8ce6\">NPU 专用架构实现每瓦性能提升，支持离线环境运行</p></li></ul></ul><p data-vmark=\"efa6\">该项目采用 MIT 开源协议，代码库已在 GitHub 开放。AMD 特别鼓励开发者贡献自定义代理模块，目前已有多个行业定制化代理处于开发阶段。</p><p data-vmark=\"75ea\">此外，尽管 GAIA 目前暂不支持 Linux / macOS 系统，但 AMD 官方文档透露未来可能扩展多平台支持。</p><p data-vmark=\"1606\">IT之家附 Github 地址：<br/><span class=\"link-text-start-with-http\">https://github.com/amd/gaia</span></p></div>",
+            "image": "https://inews.gtimg.com/om_ls/OhUhijFqhh9VDrFSqzkR5R_XsNGYCiJUBkmKPPyMDWxvQAA_640360/0",
+            "link": "https://new.qq.com/rain/a/20250322A04L2S00",
+            "author": "IT之家",
+            "pub_date": "2025-03-22 13:30:08",
+            "source": "qq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "20250322A04WD3",
             "title": "三家药企合谋推高药价猛涨21倍，市场监管总局重拳出击开出2亿罚单！",
             "description": "<div class=\"rich_media_content\"><p>近日，一起涉及医药行业的重大垄断协议案在上海市场监管局的严厉查处下落下帷幕，引发了社会各界的广泛关注。根据市场监管总局的指定管辖，上海市市场监管局对上海信谊联合医药药材有限公司、河南润弘制药股份有限公司、成都汇信医药有限公司三家企业展开了深入的立案调查，并最终作出了严厉的行政处罚决定。</p><p>2024年4月30日，上海市市场监管局正式对该案启动调查程序。经过细致的调查和取证，监管局发现，这三家医药企业在涉案期间存在严重的横向垄断行为。他们合谋推高了甲硫酸新斯的明注射液的销售价格，涨幅竟然达到了惊人的11-21倍。这一行为不仅严重损害了消费者的合法权益，还对社会公共利益造成了极大的损害。</p><p>除了价格垄断外，这三家企业还涉嫌分割国内<!-- -->公立医院<!-- -->和民营医院的销售市场，通过维持各自的市场份额稳定来排除和限制市场的公平竞争。这种行为严重破坏了市场经济的秩序，阻碍了行业的健康发展。</p><p>针对这些违法行为，上海市市场监管局依据《反垄断法》的相关规定，作出了严厉的行政处罚决定。责令三家医药企业立即停止违法行为，并没收其违法所得。同时，对三家企业合计处以222,997,766.22元的罚款，这一数字无疑是对其违法行为的沉重打击。</p><p>值得一提的是，该案还是2022年《反垄断法》修订后，首次对达成垄断协议的自然人追究个人责任。市场监管局对在违法行为中负有个人责任的自然人处以500,000元的罚款，这一举措有助于压实经营者及其管理人员的反垄断合规主体责任，推动行业规范健康发展。</p><p>在案件处理过程中，上海市市场监管局坚持宽严相济的原则。在没收涉案企业违法所得的同时，对在违法行为中起主要作用的牵头组织企业，按上一年度销售额10%的幅度顶格从重处罚。同时，也考虑了企业主动报告重要证据等情况，接受了其宽大申请，依法予以减轻处罚。</p></div>",
@@ -164,18 +176,6 @@
             "link": "https://new.qq.com/rain/a/20250322A04LJ200",
             "author": "快科技",
             "pub_date": "2025-03-22 13:32:12",
-            "source": "qq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "20250322A04L0X",
-            "title": "抖音否认总裁韩尚佑将离职",
-            "description": "<div class=\"rich_media_content\"><p>近日网传消息称抖音总裁韩尚佑将离职。对此，抖音相关负责人表示，此为谣言。</p><p>韩尚佑出生于1990年，2016年加入字节跳动后负责火山小视频业务。2019年，抖音内部搭建直播中台，韩尚佑成为抖音直播负责人。2021年下半年，韩尚佑兼任抖音生活服务和抖音开放平台负责人。</p><p>2022年12月，据知情人士透露，抖音副总裁韩尚佑成为抖音部门负责人，统筹管理抖音、中国直播、生活服务业务线。</p></div>",
-            "image": "",
-            "link": "https://new.qq.com/rain/a/20250322A04L0X00",
-            "author": "三言科技",
-            "pub_date": "2025-03-22 13:30:08",
             "source": "qq",
             "kind": 1,
             "language": "zh-CN"
