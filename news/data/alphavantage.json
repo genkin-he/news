@@ -1,8 +1,55 @@
 {
-    "items": "46",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "CROX FINAL DEADLINE: ROSEN, A LEADING LAW FIRM, Encourages Crocs, Inc. Investors to Secure Counsel Before Important March 24 Deadline in Securities Class Action - CROX - Crocs  ( NASDAQ:CROX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44448602/crox-final-deadline-rosen-a-leading-law-firm-encourages-crocs-inc-investors-to-secure-counsel-befo",
+            "time_published": "20250322T133000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 22, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Crocs, Inc. CROX between November 3, 2022 and October 28, 2024, inclusive ( the \"Class Period\" ) , of the important March 24, 2025 lead plaintiff ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.967645"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.159234,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CROX",
+                    "relevance_score": "0.465901",
+                    "ticker_sentiment_score": "0.034202",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Welnax BioClear - How This Leading Toenail Fungus Device Uses Laser Therapy for Clear Nails",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44448585/welnax-bioclear-how-this-leading-toenail-fungus-device-uses-laser-therapy-for-clear-nails",
@@ -1970,61 +2017,6 @@
                     "relevance_score": "0.630142",
                     "ticker_sentiment_score": "0.388499",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Social Security's 2026 Cost-of-Living Adjustment May Surprise Retirees",
-            "url": "https://www.fool.com/retirement/2025/03/22/social-securitys-2026-cost-of-living-adjustment-ma/",
-            "time_published": "20250322T104900",
-            "authors": [
-                "Maurie Backman"
-            ],
-            "summary": "Many older Americans today would not be able to get by without Social Security. The Federal Reserve puts median retirement savings among 65- to 74-year-olds at just $200,000 as of 2022.That's not a lot of money to spread out over what could be 20 years of retirement or more.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F812049%2Folder-man-denim-shirt-laptop_gettyimages-622914958.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.983605"
-                }
-            ],
-            "overall_sentiment_score": 0.065475,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Is Dogecoin the Smartest Investment You Can Make Today?",
-            "url": "https://www.fool.com/investing/2025/03/22/dogecoin-doge-smartest-crypto-investment/",
-            "time_published": "20250322T104500",
-            "authors": [
-                "Ryan Vanzo"
-            ],
-            "summary": "Crypto markets are down big so far this year. Dogecoin ( CRYPTO: DOGE ) is no exception. After a huge run-up in 2024, Dogecoin's value has been cut nearly in half during the first few months of 2025. Yet some speculators believe this is a huge buying opportunity, calling for 500% or more in ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/810977/shiba-inu-dog-doge-dogecoin-1201x800-6a45073.jpeg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": 0.156373,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.623976",
-                    "ticker_sentiment_score": "0.226164",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
