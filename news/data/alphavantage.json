@@ -1,8 +1,96 @@
 {
-    "items": "42",
+    "items": "39",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Facebook Whistleblower Says Mark Zuckerberg-Led Meta's Gag Order Is Silencing Her From Speaking To Congress About China Ties, Teen Harm, And Harassment Claims - Meta Platforms  ( NASDAQ:META ) ",
+            "url": "https://www.benzinga.com/25/03/44447618/facebook-whistleblower-says-mark-zuckerberg-led-metas-gag-order-is-silencing-her-from-speaking-to-congress-about-",
+            "time_published": "20250322T055534",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Former Facebook executive turned whistleblower says Meta Platforms Inc. META has been blocking her from speaking with lawmakers about explosive allegations involving the company's ties to China, harm to teen users, and workplace misconduct.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/Price-Action.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": -0.048928,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WBD",
+                    "relevance_score": "0.103331",
+                    "ticker_sentiment_score": "-0.049199",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.396574",
+                    "ticker_sentiment_score": "-0.478709",
+                    "ticker_sentiment_label": "Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Tether seeks Big Four firm for its first full financial audit: Report",
+            "url": "https://cointelegraph.com/news/stablecoin-issuer-tether-big-four-firm-full-reserve-audit-report",
+            "time_published": "20250322T054159",
+            "authors": [
+                "Ciaran Lyons"
+            ],
+            "summary": "Stablecoin issuer Tether is reportedly engaging with a Big Four accounting firm to audit its assets reserve and verify that its USDT ( USDT ) stablecoin is backed at a 1:1 ratio.Tether CEO Paolo Ardoino reportedly said the audit process would be more straightforward under pro-crypto US President ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195bc47-4957-7998-bfba-960e256eda5b",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.031434,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.085936",
+                    "ticker_sentiment_score": "0.168964",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.085936",
+                    "ticker_sentiment_score": "0.18452",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:USDT",
+                    "relevance_score": "0.48268",
+                    "ticker_sentiment_score": "0.053913",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Prime Biome Reviews 2025  ( Investigative Report )  Ingredients, Benefits, Complaints, And Honest Consumer Report!",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44447533/prime-biome-reviews-2025-investigative-report-ingredients-benefits-complaints-and-honest-consumer-",
@@ -46,6 +134,47 @@
             "overall_sentiment_score": 0.297728,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
+        },
+        {
+            "title": "Can the dollar remain king of currencies?",
+            "url": "https://www.ft.com/content/8a71dceb-806f-4681-80f9-416aa4c366ca",
+            "time_published": "20250322T050051",
+            "authors": [],
+            "summary": "The greenback's global dominance was forged on trade, alliances and institutions - now that era is at risk of drawing to a close ...",
+            "banner_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Faa4d4984-b931-4b9b-a5b5-862019d17979.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "Financial Times",
+            "category_within_source": "Economy",
+            "source_domain": "www.ft.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.983605"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.125046,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:GBP",
+                    "relevance_score": "0.088363",
+                    "ticker_sentiment_score": "0.073639",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.288553",
+                    "ticker_sentiment_score": "0.072191",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
         },
         {
             "title": "Trump Administration Revokes Legal Status From Half A Million Migrants",
@@ -1292,181 +1421,6 @@
             "overall_sentiment_score": 0.121187,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": []
-        },
-        {
-            "title": "Solo Bitcoin Miner Hits the Jackpot, Scoring $266K Reward",
-            "url": "https://decrypt.co/311145/solo-bitcoin-miner-scores-260k-reward",
-            "time_published": "20250321T223116",
-            "authors": [
-                "Mat Di Salvo"
-            ],
-            "summary": "A solo miner just scooped up another huge Bitcoin reward by processing a block alone. But it isn't as easy as it sounds.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/05/bitcoin-mining-gID_7.png",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.451494"
-                }
-            ],
-            "overall_sentiment_score": 0.180495,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.784481",
-                    "ticker_sentiment_score": "0.068922",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Here's How Much You Would Have Made Owning Booking Holdings Stock In The Last 10 Years - Booking Holdings  ( NASDAQ:BKNG ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44445743/heres-how-much-you-would-have-made-owning-booking-holdings-stock-in-the-last-10-years",
-            "time_published": "20250321T223016",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Booking Holdings BKNG has outperformed the market over the past 10 years by 4.37% on an annualized basis producing an average annual return of 15.01%. Currently, Booking Holdings has a market capitalization of $151.52 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1742596213_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.25,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BKNG",
-                    "relevance_score": "0.936499",
-                    "ticker_sentiment_score": "0.382177",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Teck Reports 2024 Sustainability Performance",
-            "url": "https://www.globenewswire.com/news-release/2025/03/21/3047362/0/en/Teck-Reports-2024-Sustainability-Performance.html",
-            "time_published": "20250321T222800",
-            "authors": [
-                "Teck Resources Ltd"
-            ],
-            "summary": "VANCOUVER, British Columbia, March 21, 2025 ( GLOBE NEWSWIRE ) -- Teck Resources Limited ( TSX: TECK.A and TECK.B, NYSE: TECK ) ( \"Teck\" ) has released its 24th annual Sustainability Report, highlighting the company's 2024 performance in key areas, including support for communities, Indigenous ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/73d91826-9b81-4af4-8ce0-b2bbf5f4f77a",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                }
-            ],
-            "overall_sentiment_score": 0.356041,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TCKRF",
-                    "relevance_score": "0.109956",
-                    "ticker_sentiment_score": "0.142928",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Ita\u00fa Chile announces changes to the Executive committee of its banking subsidiary in Colombia",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44445680/ita-chile-announces-changes-to-the-executive-committee-of-its-banking-subsidiary-in-colombia",
-            "time_published": "20250321T221616",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "SANTIAGO, Chile, March 21, 2025 ( GLOBE NEWSWIRE ) -- BANCO ITA\u00da CHILE ITAUCL Ita\u00fa Chile today informs about changes in the Executive committee of its banking subsidiary in Colombia.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.208599,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "If You Invested $1000 In This Stock 5 Years Ago, You Would Have This Much Today - Waste Management  ( NYSE:WM ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44445668/if-you-invested-1000-in-this-stock-5-years-ago-you-would-have-this-much-today",
-            "time_published": "20250321T221511",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Waste Management WM has outperformed the market over the past 5 years by 1.23% on an annualized basis producing an average annual return of 19.56%. Currently, Waste Management has a market capitalization of $90.44 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1742595308_0.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.25,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WM",
-                    "relevance_score": "0.936499",
-                    "ticker_sentiment_score": "0.382177",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Ethena's USDe Stablecoin Sales Blocked by German Regulator Over 'Serious Deficiencies'",
-            "url": "https://decrypt.co/311161/ethena-usde-stablecoin-sales-blocked-germany",
-            "time_published": "20250321T221427",
-            "authors": [
-                "Logan Hitchcock"
-            ],
-            "summary": "The German regulator stepped in to squash offerings of Ethena's USDe stablecoin, citing \"serious deficiencies in the approval procedure.\" ...",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/10/gavel-law-book-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.769861"
-                }
-            ],
-            "overall_sentiment_score": -0.031111,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.183895",
-                    "ticker_sentiment_score": "0.017187",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
         }
     ]
 }
