@@ -1,8 +1,415 @@
 {
-    "items": "40",
+    "items": "42",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "ROSEN, NATIONAL INVESTOR COUNSEL, Encourages Venture Global, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - VG - Venture Global  ( NYSE:VG ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44448472/rosen-national-investor-counsel-encourages-venture-global-inc-investors-to-secure-counsel-before-i",
+            "time_published": "20250322T121100",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 22, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of stock of Venture Global, Inc.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.19758,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.05833",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "VG",
+                    "relevance_score": "0.441698",
+                    "ticker_sentiment_score": "0.153171",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "TTD CLASS ACTION NEWS: Lose Money on Trade Desk, Inc.? Investors are Reminded to Contact BFA Law before April 21 Deadline  ( NASDAQ:TTD )  - Trade Desk  ( NASDAQ:TTD ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44448468/ttd-class-action-news-lose-money-on-trade-desk-inc-investors-are-reminded-to-contact-bfa-law-befor",
+            "time_published": "20250322T120800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against The Trade Desk, Inc. TTD and certain of the Company's senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.154437,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TTD",
+                    "relevance_score": "0.639616",
+                    "ticker_sentiment_score": "0.181329",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.072876",
+                    "ticker_sentiment_score": "0.140598",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "RC CLASS ACTION NEWS: Lose Money on Ready Capital? Investors are Reminded to Contact BFA Law before May 5 Deadline  ( NYSE:RC )  - Ready Capital  ( NYSE:RC ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44448462/rc-class-action-news-lose-money-on-ready-capital-investors-are-reminded-to-contact-bfa-law-before-",
+            "time_published": "20250322T120700",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Ready Capital Corporation RC and certain of the Company's senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.177041,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "RC",
+                    "relevance_score": "0.663719",
+                    "ticker_sentiment_score": "0.226431",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.076602",
+                    "ticker_sentiment_score": "0.141373",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "FLNC CLASS ACTION NEWS: Lose Money on Fluence Energy, Inc.? Investors are Reminded to Contact BFA Law before May 12 Deadline  ( NASDAQ:FLNC )  - Fluence Energy  ( NASDAQ:FLNC ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44448461/flnc-class-action-news-lose-money-on-fluence-energy-inc-investors-are-reminded-to-contact-bfa-law-",
+            "time_published": "20250322T120700",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Fluence Energy, Inc. FLNC and certain of the Company's senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.905476"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.986564"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.087595,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FLNC",
+                    "relevance_score": "0.76323",
+                    "ticker_sentiment_score": "0.028288",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.067347",
+                    "ticker_sentiment_score": "0.13972",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "TMDX CLASS ACTION NEWS: Lose Money on TransMedics Group? Investors are Reminded to Contact BFA Law before April 15 Deadline  ( NASDAQ:TMDX )  - TransMedics Group  ( NASDAQ:TMDX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44448460/tmdx-class-action-news-lose-money-on-transmedics-group-investors-are-reminded-to-contact-bfa-law-b",
+            "time_published": "20250322T120600",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 22, 2025 ( GLOBE NEWSWIRE ) -- Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against TransMedics Group, Inc. TMDX and certain of the Company's senior executives for potential violations of the federal securities laws.",
+            "banner_image": "https://ml.globenewswire.com/media/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e/small/bfa-logo-transparent-002-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.113596,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TMDX",
+                    "relevance_score": "0.713384",
+                    "ticker_sentiment_score": "0.10129",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.065327",
+                    "ticker_sentiment_score": "0.139484",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Crypto markets will be pressured by trade wars until April: analyst",
+            "url": "https://cointelegraph.com/news/crypto-markets-pressured-trade-wars-april-analyst",
+            "time_published": "20250322T120459",
+            "authors": [
+                "Zoltan Vardai"
+            ],
+            "summary": "Both cryptocurrency and traditional markets will be pressured by global trade war concerns until at least the beginning of April, but the potential resolution may bring the next big market catalyst.Bitcoin's ( BTC ) price fell over 17% since US President Donald Trump first announced import ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195bdae-ae2d-7962-bb41-8eb2b82a95d0",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": -0.019673,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.104683",
+                    "ticker_sentiment_score": "-0.035362",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Bulls And Bears: Tesla, Nvidia, FedEx - And The Market Digests The Fed's Rate Decision Bulls And Bears: Tesla, Nvidia, FedEx - And The Market Digests The Fed's Rate Decision - Apple  ( NASDAQ:AAPL ) ",
+            "url": "https://www.benzinga.com/25/03/44448437/benzinga-bulls-and-bears-tesla-nvidia-fedex-and-the-market-digests-the-feds-rate-decision",
+            "time_published": "20250322T120118",
+            "authors": [
+                "Benzinga Senior Editor"
+            ],
+            "summary": "Benzinga examined the prospects for many investors' favorite stocks over the last week - here's a look at some of our top stories. Markets ended the week mixed, with the S&P 500 and Dow slipping while the Nasdaq notched a slight gain, buoyed by strength in tech. Tesla Inc.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/bulls-and-bears-ai12.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                }
+            ],
+            "overall_sentiment_score": 0.146527,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.193723",
+                    "ticker_sentiment_score": "0.458083",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.193723",
+                    "ticker_sentiment_score": "0.458083",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.317254",
+                    "ticker_sentiment_score": "0.43938",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "0.282902",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NISTF",
+                    "relevance_score": "0.06515",
+                    "ticker_sentiment_score": "0.056047",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "X",
+                    "relevance_score": "0.193723",
+                    "ticker_sentiment_score": "0.007688",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RIVN",
+                    "relevance_score": "0.129866",
+                    "ticker_sentiment_score": "-0.210232",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "FDX",
+                    "relevance_score": "0.193723",
+                    "ticker_sentiment_score": "-0.447858",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "DJT",
+                    "relevance_score": "0.06515",
+                    "ticker_sentiment_score": "0.095777",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Take a look inside French luxury retailer Printemps' first U.S. store",
+            "url": "https://www.cnbc.com/2025/03/22/look-inside-french-luxury-retailer-printemps-first-store-new-york.html",
+            "time_published": "20250322T120001",
+            "authors": [],
+            "summary": "Printemps opened a 55,000-square-foot store in New York City with luxury brands and food concepts, including a restaurant and a caf\u00e9 with French pastries.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Business",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.217547,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Is Micron Stock a Buy for Just $94 Right Now?",
+            "url": "https://www.fool.com/investing/2025/03/22/is-micron-stock-a-buy-for-just-94-right-now/",
+            "time_published": "20250322T114500",
+            "authors": [
+                "Neil Rozenbaum"
+            ],
+            "summary": "In this video, I will review Micron's ( NASDAQ: MU ) latest earnings report and why I remain extremely bullish on this company's future. Watch the short video to learn more, consider subscribing, and click the special offer link below.*Stock prices used were from the trading day of March 21, 2025.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/812052/gettyimages-1415178940.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.252836,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
         {
             "title": "GAAPP and the EoE Day Alliance Announce the Launch of the First-Ever World EoE Day on May 22",
             "url": "https://www.benzinga.com/pressreleases/25/03/r44448384/gaapp-and-the-eoe-day-alliance-announce-the-launch-of-the-first-ever-world-eoe-day-on-may-22",
@@ -1350,354 +1757,6 @@
                     "relevance_score": "0.015675",
                     "ticker_sentiment_score": "-0.163035",
                     "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "China's hottest new show is a Sichuan-dialect micro drama set in the 1980s",
-            "url": "https://www.scmp.com/economy/china-economy/article/3303344/chinas-hottest-new-show-sichuan-dialect-micro-drama-set-1980s",
-            "time_published": "20250322T083014",
-            "authors": [
-                "He Huifeng"
-            ],
-            "summary": "My Sweet Home has achieved phenomenal success by moving beyond the trashy tropes of China's booming micro drama industry.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/03/21/2e90e10f-6f5f-4b06-810d-52e5f8ed730d_a982f70c.jpg?itok=BT0q6HLJ&v=1742548626",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.322953,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "President Trump Has Been in Office for Less Than 2 Months. Here's What He Could Do for Cryptocurrency Over the Next Year.",
-            "url": "https://www.fool.com/investing/2025/03/22/president-trump-has-been-in-office-for-less-than-2/",
-            "time_published": "20250322T083000",
-            "authors": [
-                "Dominic Basulto"
-            ],
-            "summary": "Changes to the crypto market have been happening at warp speed in 2025. We're only two months into the second presidency of Donald Trump, and we've already seen a scaling back of the Security and Exchange Commission's crypto oversight power, the creation of a Strategic Bitcoin ( CRYPTO: BTC ) ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811743%2Ftrader-newspaper-wall-street-investing-business.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.9545"
-                }
-            ],
-            "overall_sentiment_score": 0.229297,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "STRK",
-                    "relevance_score": "0.040484",
-                    "ticker_sentiment_score": "0.105986",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BNXYF",
-                    "relevance_score": "0.040484",
-                    "ticker_sentiment_score": "0.271216",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.160901",
-                    "ticker_sentiment_score": "0.126456",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.829487",
-                    "ticker_sentiment_score": "0.412335",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Meet the Spectacular Vanguard ETF With 43.2% of Its Portfolio Invested in Nvidia, Amazon, Apple, and Microsoft",
-            "url": "https://www.fool.com/investing/2025/03/22/meet-vanguard-etf-432-portfolio-in-nvidia-amazon/",
-            "time_published": "20250322T082600",
-            "authors": [
-                "Anthony Di Pizio"
-            ],
-            "summary": "The S&P 500 ( SNPINDEX: ^GSPC ) has only delivered back-to-back annual gains of 25% or more ( including dividends ) on two occasions in its history dating back to 1957: during the dot-com internet boom in 1997 and 1998, and during the artificial intelligence ( AI ) boom in 2023 and 2024.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811854%2Fa-sculpture-of-a-golden-bull-standing-on-a-laptop-computer.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99237"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.256672,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.272788",
-                    "ticker_sentiment_score": "0.264001",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.055621",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.219809",
-                    "ticker_sentiment_score": "0.233671",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.272788",
-                    "ticker_sentiment_score": "0.294922",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AVGO",
-                    "relevance_score": "0.055621",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.055621",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.055621",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.272788",
-                    "ticker_sentiment_score": "0.212088",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: Dollar General Will Beat the Market. Here's Why.",
-            "url": "https://www.fool.com/investing/2025/03/22/prediction-dollar-general-will-beat-the-market-her/",
-            "time_published": "20250322T082500",
-            "authors": [
-                "Jeremy Bowman"
-            ],
-            "summary": "Dollar General ( NYSE: DG ) has been a laggard on the stock market in recent years as the company has lost market share to Walmart and struggled in an environment with weak consumer discretionary spending. Over the last three years, Dollar General's stock is down 63% while the broad market has ...",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811712%2Fstore-aisle-5-below-dollar-general-dollar-tree-1201x775-6ad09b4.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.990786"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.977154"
-                }
-            ],
-            "overall_sentiment_score": 0.150979,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DG",
-                    "relevance_score": "0.596651",
-                    "ticker_sentiment_score": "0.227061",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.066598",
-                    "ticker_sentiment_score": "-0.099617",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "The S&P 500 Entered a Correction Last Week. 3 Stocks Down 20% or More to Buy on the Dip.",
-            "url": "https://www.fool.com/investing/2025/03/22/the-sp-500-entered-a-correction-last-week-3-stocks/",
-            "time_published": "20250322T081500",
-            "authors": [
-                "Jon Quast"
-            ],
-            "summary": "A stock market correction refers to a 10% to 20% pullback from a peak. The S&P 500 ( SNPINDEX: ^GSPC ) -- an index that includes roughly 500 of the country's biggest, profitable publicly traded businesses -- hit correction territory on March 13.",
-            "banner_image": "https://media.ycharts.com/charts/1aefedb104ebd2964bd8d89146737771.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999998"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.769861"
-                }
-            ],
-            "overall_sentiment_score": 0.291296,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PYPL",
-                    "relevance_score": "0.401331",
-                    "ticker_sentiment_score": "0.378258",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "PEP",
-                    "relevance_score": "0.093108",
-                    "ticker_sentiment_score": "0.162048",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "ULTA",
-                    "relevance_score": "0.230017",
-                    "ticker_sentiment_score": "0.186246",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Who Is Nvidia's Biggest Rival? Jensen Huang Offered a Clue, and You May be Surprised by the Answer.",
-            "url": "https://www.fool.com/investing/2025/03/22/who-is-nvidias-biggest-rival-huangs-clue/",
-            "time_published": "20250322T081000",
-            "authors": [
-                "Adria Cimino"
-            ],
-            "summary": "Nvidia ( NASDAQ: NVDA ) has built a dominant position in one of the highest-growth areas around: artificial intelligence ( AI ) chips. That has helped it generate enormous levels of revenue, for example, $130 billion last year. register quadruple-digit gains in stock price over the past five years.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811869%2Fgettyimages-1316372349.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.918141"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.172288,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AMD",
-                    "relevance_score": "0.103331",
-                    "ticker_sentiment_score": "0.079378",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.103331",
-                    "ticker_sentiment_score": "0.155814",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.524949",
-                    "ticker_sentiment_score": "0.256066",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Trump Administration's Promotion Of Elon Musk's Tesla Draws Criticism From Experts: 'The Commerce Secretary Is Not Jim Cramer,' Says Former Ethics Counsel - Tesla  ( NASDAQ:TSLA ) ",
-            "url": "https://www.benzinga.com/25/03/44447891/donald-trump-white-houses-elon-musk-ev-company-cheerleading-sparks-ethics-firestormeven-as-stock-tanks-and-teslat",
-            "time_published": "20250322T080804",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "Ethics experts are raising alarm over members of the Donald Trump administration openly promoting Elon Musk's Tesla Inc. TSLA, even as the electric vehicle company faces public backlash and its stock continues to slide.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/What-Happened.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.178035,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOX",
-                    "relevance_score": "0.077593",
-                    "ticker_sentiment_score": "0.129791",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.669956",
-                    "ticker_sentiment_score": "0.392934",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
