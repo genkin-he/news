@@ -1,8 +1,67 @@
 {
-    "items": "46",
+    "items": "45",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Elon Musk Warns Pentagon Leakers Following Expos\u00e9 on Alleged Secret China War Briefing: 'They Will Be Found'",
+            "url": "https://www.benzinga.com/news/25/03/44448709/elon-musk-warns-pentagon-leakers-following-expose-on-alleged-secret-china-war-briefing-they-will-be-found",
+            "time_published": "20250322T143117",
+            "authors": [
+                "Bibhu Pattnaik"
+            ],
+            "summary": "Elon Musk confronts Pentagon leakers, promising repercussions for those exposing classified briefings. Pentagon and Trump deny war plans with China, slamming the New York Times' report as false propaganda. Volatility can create massive trading opportunities-if you know how to capitalize on it.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/China-Flag-On-Wood-And-Soldiers-Shadow.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.073693,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NYT",
+                    "relevance_score": "0.415927",
+                    "ticker_sentiment_score": "-0.247575",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Should You Buy a S&P 500 Index Fund Before April 2?",
+            "url": "https://www.fool.com/investing/2025/03/22/should-you-buy-a-sp-500-index-fund-before-april-2/",
+            "time_published": "20250322T142000",
+            "authors": [
+                "Bram Berkowitz"
+            ],
+            "summary": "The broader benchmark S&P 500 index has gotten off to a less-than-ideal start in 2025, down about 4% this year. It also briefly flirted with correction territory from highs seen in mid to late February. Concerns about the economy, growth, and President Donald Trump's trade war seem to be weighing ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811683%2Fboardroom-1.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.062525,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
         {
             "title": "Is Chevron Stock a Buy Now?",
             "url": "https://www.fool.com/investing/2025/03/22/is-chevron-stock-a-buy-now/",
@@ -82,6 +141,124 @@
                     "relevance_score": "0.070105",
                     "ticker_sentiment_score": "0.080105",
                     "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "3 Important Things to Know About the U.S. Digital Asset Stockpile",
+            "url": "https://www.fool.com/investing/2025/03/22/3-important-details-about-digital-asset-stockpile/",
+            "time_published": "20250322T141100",
+            "authors": [
+                "Dominic Basulto"
+            ],
+            "summary": "On March 6, the White House announced the creation of the U.S. Digital Asset Stockpile. The move was highly anticipated by the crypto industry, which initially viewed it as a major step by the Trump administration toward making America the \"crypto capital of the world\" -- a commonly cited ...",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F812016%2Fstack-of-gold-coins-with-zeroes-and-ones-on-them-cryptocurrency-virtual-digital-currency.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.990678"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.167311,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.047185",
+                    "ticker_sentiment_score": "0.051687",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.232661",
+                    "ticker_sentiment_score": "0.154346",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:ETH",
+                    "relevance_score": "0.277433",
+                    "ticker_sentiment_score": "0.117942",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:LINK",
+                    "relevance_score": "0.140896",
+                    "ticker_sentiment_score": "0.140911",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:UNI",
+                    "relevance_score": "0.047185",
+                    "ticker_sentiment_score": "0.074963",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:ADA",
+                    "relevance_score": "0.094204",
+                    "ticker_sentiment_score": "0.053876",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BNB",
+                    "relevance_score": "0.140896",
+                    "ticker_sentiment_score": "0.134388",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Tesla: Buy, Sell, or Hold?",
+            "url": "https://www.fool.com/investing/2025/03/22/tesla-buy-sell-or-hold/",
+            "time_published": "20250322T140500",
+            "authors": [
+                "Neil Patel"
+            ],
+            "summary": "Shares of Tesla ( NASDAQ: TSLA ) had a phenomenal run in the last several weeks of 2024, virtually doubling in about two months' time. This is largely due to the market's enthusiasm about the company's prospects under President Donald Trump.It hasn't been a smooth ride at all this year, though.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/811709/two-teslas-in-a-line-driving-on-road.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.116205,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OPTGF",
+                    "relevance_score": "0.123209",
+                    "ticker_sentiment_score": "0.101718",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.06179",
+                    "ticker_sentiment_score": "0.05321",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.464844",
+                    "ticker_sentiment_score": "0.236909",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         },
@@ -297,6 +474,43 @@
             ]
         },
         {
+            "title": "Down 50%, Is Signet Jewelers a Buy on the Dip?",
+            "url": "https://www.fool.com/investing/2025/03/22/down-50-is-signet-jewelers-a-buy-on-the-dip/",
+            "time_published": "20250322T133000",
+            "authors": [
+                "Jeremy Bowman"
+            ],
+            "summary": "Signet Jewelers ( NYSE: SIG ) has long had many of the elements of an attractive value stock.The company is the world's largest retailer of diamond jewelry and has a stable of well-known brands, including Kay, Zales, Jared, and Blue Nile.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811793%2Fjewelry-shopping-online.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.988787"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                }
+            ],
+            "overall_sentiment_score": 0.297724,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SIG",
+                    "relevance_score": "0.12013",
+                    "ticker_sentiment_score": "0.348561",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
             "title": "Welnax BioClear - How This Leading Toenail Fungus Device Uses Laser Therapy for Clear Nails",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44448585/welnax-bioclear-how-this-leading-toenail-fungus-device-uses-laser-therapy-for-clear-nails",
             "time_published": "20250322T132132",
@@ -445,6 +659,45 @@
                     "ticker": "CRYPTO:ETH",
                     "relevance_score": "0.075954",
                     "ticker_sentiment_score": "-0.005108",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Better Artificial Intelligence  ( AI )  Stock: Oracle vs. Dell",
+            "url": "https://www.fool.com/investing/2025/03/22/better-artificial-intelligence-stock-oracle-dell/",
+            "time_published": "20250322T130000",
+            "authors": [
+                "Harsh Chauhan"
+            ],
+            "summary": "Demand for artificial intelligence ( AI ) hardware has jumped substantially in the past couple of years. Technology giants in the U.S. and abroad, along with governments around the globe, are pouring billions of dollars into developing powerful large language models ( LLMs ) , which can then be ...",
+            "banner_image": "https://media.ycharts.com/charts/9ee94db44672b83ff2d63d03052fe1f9.png",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.998333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.267879,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ORCL",
+                    "relevance_score": "0.446019",
+                    "ticker_sentiment_score": "0.270097",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "DELL",
+                    "relevance_score": "0.072545",
+                    "ticker_sentiment_score": "0.07648",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1695,318 +1948,6 @@
                     "relevance_score": "0.162802",
                     "ticker_sentiment_score": "-0.023645",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "GAAPP and the EoE Day Alliance Announce the Launch of the First-Ever World EoE Day on May 22",
-            "url": "https://www.benzinga.com/pressreleases/25/03/r44448384/gaapp-and-the-eoe-day-alliance-announce-the-launch-of-the-first-ever-world-eoe-day-on-may-22",
-            "time_published": "20250322T112938",
-            "authors": [
-                "PR.com"
-            ],
-            "summary": "Vienna, Austria March 22, 2025 -- ( PR.com ) -- The Global Allergy and Airways Patient Platform ( GAAPP ) , together with the EoE Day Alliance, is proud to announce the launch of the first-ever World Eosinophilic Esophagitis Day ( #EoEDay ) on May 22, 2025.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.29116,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Is Howmet Aerospace a Stock to Buy and Hold Forever? Here's Why It Could Be.",
-            "url": "https://www.fool.com/investing/2025/03/22/is-howmet-aerospace-a-stock-to-buy-and-hold-foreve/",
-            "time_published": "20250322T112200",
-            "authors": [
-                "Lou Whiteman"
-            ],
-            "summary": "For investors seeking stability and the potential for consistent performance in their portfolios, Howmet Aerospace ( NYSE: HWM ) is an intriguing option. Shares of Howmet more than doubled in 2024, and the aerospace component manufacturer is well-positioned to continue to fly higher from ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811959/gettyimages-1097759054.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.259756,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "EADSF",
-                    "relevance_score": "0.104683",
-                    "ticker_sentiment_score": "-0.046162",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BA",
-                    "relevance_score": "0.104683",
-                    "ticker_sentiment_score": "-0.046162",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HWM",
-                    "relevance_score": "0.401331",
-                    "ticker_sentiment_score": "0.420146",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "2 Hidden AI Stocks to Buy in the S&P 500 Sell-Off",
-            "url": "https://www.fool.com/investing/2025/03/22/2-hidden-ai-stocks-to-buy-in-the-sp-500-sell-off/",
-            "time_published": "20250322T112000",
-            "authors": [
-                "Lee Samaha"
-            ],
-            "summary": "It's no secret that artificial intelligence ( AI ) -related stocks have sold off in the recent market correction. It's partly due to investors locking in gains, competitive concerns relating to Chinese start-up DeepSeek, and, most notably, valuation concerns.",
-            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F811717%2Finvestor-smiling-tablet-outdoor-background-1200x800-5b2df79.jpg&op=resize&w=700",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.309538,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.056808",
-                    "ticker_sentiment_score": "0.058199",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.056808",
-                    "ticker_sentiment_score": "0.057008",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VRT",
-                    "relevance_score": "0.27838",
-                    "ticker_sentiment_score": "0.192012",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CSLI",
-                    "relevance_score": "0.056808",
-                    "ticker_sentiment_score": "0.044131",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "VST",
-                    "relevance_score": "0.431371",
-                    "ticker_sentiment_score": "0.30282",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Airbus' rarest plane is about to fly to more places - here's where you can catch it",
-            "url": "https://www.businessinsider.com/airbus-rare-jetliner-a330neo-flying-more-places-airlines-2025-3",
-            "time_published": "20250322T111501",
-            "authors": [
-                "Taylor Rains"
-            ],
-            "summary": "\u2022 Airbus' worst-selling A330-800neo is expanding to more routes. \u2022 The jet is unpopular due to its higher seat cost and smaller capacity compared to the A330-900neo. \u2022 Only three global are scheduled to fly the plane on a few dozen routes in 2025.",
-            "banner_image": null,
-            "source": "Business Insider",
-            "category_within_source": "RSS",
-            "source_domain": "www.businessinsider.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.026017,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RYCEF",
-                    "relevance_score": "0.052801",
-                    "ticker_sentiment_score": "-0.082651",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "EADSF",
-                    "relevance_score": "0.259451",
-                    "ticker_sentiment_score": "-0.124178",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BA",
-                    "relevance_score": "0.157483",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Prediction: Nvidia Stock Will Be Over $200 by the End of 2026",
-            "url": "https://www.fool.com/investing/2025/03/22/prediction-nvidia-stock-will-be-over-200-by-the-en/",
-            "time_published": "20250322T111500",
-            "authors": [
-                "Neil Rozenbaum"
-            ],
-            "summary": "In this video, I will be talking about the recent updates regarding Nvidia ( NASDAQ: NVDA ) and my stock prediction. Watch the short video to learn more, consider subscribing, and click the special offer link below.*Stock prices used were from the trading day of March 19, 2025.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/812095/nvidia-headquarters-outside-with-black-nvidia-sign-with-nvidia-logo.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.112818,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.9545",
-                    "ticker_sentiment_score": "0.317331",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Is This One Catalyst for XRP a Sell-the-News Event?",
-            "url": "https://www.fool.com/investing/2025/03/22/is-this-1-upcoming-catalyst-for-xrp-a-sell-the-new/",
-            "time_published": "20250322T111500",
-            "authors": [
-                "Alex Carchidi"
-            ],
-            "summary": "XRP ( CRYPTO: XRP ) just got a catalyst that was originally anticipated for mid-April. It was very positive, and the impact will resonate for years to come.But it's often the case in the financial markets that it's wise to sell an asset upon receiving significant news, as many catalysts are ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811759/pensive-investor-looks-into-camera.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                }
-            ],
-            "overall_sentiment_score": 0.134782,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HOOD",
-                    "relevance_score": "0.065685",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "COIN",
-                    "relevance_score": "0.130926",
-                    "ticker_sentiment_score": "0.083256",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Worried About the Markets? This Tech ETF Is Up Over 25% This Year and Could Still Go Higher.",
-            "url": "https://www.fool.com/investing/2025/03/22/worried-about-the-markets-this-tech-etf-is-up-over/",
-            "time_published": "20250322T111300",
-            "authors": [
-                "David Jagielski"
-            ],
-            "summary": "The stock market has been falling in recent weeks, and many tech stocks have been performing especially poorly. Since the start of the year, the S&P 500 is now down more than 4%. And the Technology Select Sector SPDR Fund, which tracks the tech sector of the broad index, has plummeted by around ...",
-            "banner_image": "https://g.foolcdn.com/editorial/images/811330/people-discussing-a-sales-report.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999986"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.111528,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PDD",
-                    "relevance_score": "0.123526",
-                    "ticker_sentiment_score": "0.169115",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "IVZ",
-                    "relevance_score": "0.184363",
-                    "ticker_sentiment_score": "0.160745",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TCTZF",
-                    "relevance_score": "0.061949",
-                    "ticker_sentiment_score": "0.231242",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "BIDU",
-                    "relevance_score": "0.123526",
-                    "ticker_sentiment_score": "0.169115",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
