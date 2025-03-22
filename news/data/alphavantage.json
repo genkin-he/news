@@ -1,8 +1,45 @@
 {
-    "items": "50",
+    "items": "49",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "TMDX INVESTOR ALERT: Robbins Geller Rudman & Dowd LLP Announces that TransMedics Group, Inc. Investors with Substantial Losses Have Opportunity to Lead Investor Class Action Lawsuit - TransMedics Group  ( NASDAQ:TMDX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44447239/tmdx-investor-alert-robbins-geller-rudman-dowd-llp-announces-that-transmedics-group-inc-investors-",
+            "time_published": "20250322T024057",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "SAN DIEGO, March 21, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of TransMedics Group, Inc.",
+            "banner_image": "https://ml.globenewswire.com/media/a2879a30-a9fa-457e-97f6-7e2cd2528b7b/small/rgrd-logo-2-jpg.jpg",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.905476"
+                }
+            ],
+            "overall_sentiment_score": 0.058968,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TMDX",
+                    "relevance_score": "0.890969",
+                    "ticker_sentiment_score": "-0.038809",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "Crypto VC giant targets $1B for new funds, expects oversubscription - Report",
             "url": "https://cointelegraph.com/news/crypto-venture-capitalist-one-billion-two-new-crypto-funds",
@@ -59,6 +96,51 @@
                     "relevance_score": "0.091162",
                     "ticker_sentiment_score": "0.186665",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Exclusive | Why Lee Kai-fu is betting his AI start-up's future on DeepSeek",
+            "url": "https://www.scmp.com/tech/tech-trends/article/3303403/ai-entrepreneur-lee-kai-fu-bets-his-start-ups-future-deepseek-and-open-source",
+            "time_published": "20250322T020013",
+            "authors": [
+                "Xinmei Shen"
+            ],
+            "summary": "In an interview with the Post, Lee discusses China's 'ChatGPT moment' and 01.AI's transition from a model developer to a solutions provider.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/21/54d88571-6f3a-4fcc-bb57-a6a2b51fe5cf_d13e8de6.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Money",
+            "source_domain": "www.scmp.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.684621"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.1575,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.122269",
+                    "ticker_sentiment_score": "0.045472",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LNVGF",
+                    "relevance_score": "0.061315",
+                    "ticker_sentiment_score": "0.136032",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.122269",
+                    "ticker_sentiment_score": "0.104973",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -1725,102 +1807,6 @@
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
-        },
-        {
-            "title": "Marathon Digital Holdings, Inc.  ( MARA )  Stock Declines While Market Improves: Some Information for Investors",
-            "url": "https://www.zacks.com/stock/news/2433691/marathon-digital-holdings-inc-mara-stock-declines-while-market-improves-some-information-for-investors",
-            "time_published": "20250321T214516",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the latest trading session, Marathon Digital Holdings, Inc. (MARA) closed at $12.38, marking a -0.96% move from the previous day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default105.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.858979"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.147926,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MARA",
-                    "relevance_score": "0.461283",
-                    "ticker_sentiment_score": "0.277709",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "McDonald's  ( MCD )  Stock Sinks As Market Gains: Here's Why",
-            "url": "https://www.zacks.com/stock/news/2433692/mcdonalds-mcd-stock-sinks-as-market-gains-heres-why",
-            "time_published": "20250321T214516",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "McDonald's (MCD) closed at $305.44 in the latest trading session, marking a -0.51% move from the prior day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default111.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.95493"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.117148,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MDNDF",
-                    "relevance_score": "0.546745",
-                    "ticker_sentiment_score": "0.204779",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "IBM  ( IBM )  Outpaces Stock Market Gains: What You Should Know",
-            "url": "https://www.zacks.com/stock/news/2433688/ibm-ibm-outpaces-stock-market-gains-what-you-should-know",
-            "time_published": "20250321T214516",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "In the closing of the recent trading day, IBM (IBM) stood at $243.92, denoting a +0.25% change from the preceding trading day.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default123.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.961735"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.147176,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
         }
     ]
 }
