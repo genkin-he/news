@@ -1,8 +1,113 @@
 {
-    "items": "30",
+    "items": "29",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Jamie Dimon Reveals He Will Remain JPMorgan's CEO For 'Few More Years,' Jokes He Won't Swear This Time - JPMorgan Chase  ( NYSE:JPM ) ",
+            "url": "https://www.benzinga.com/25/03/44447865/jamie-dimon-reveals-he-will-remain-jpmorgans-ceo-for-few-more-years-jokes-he-wont-swear-this-time",
+            "time_published": "20250322T075238",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "Jamie Dimon, CEO of JPMorgan Chase & Co. JPM, addressed employees at a town hall meeting on Thursday at the bank's Dallas corporate conference center in Plano, Texas.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/Lot-Of-Turbulence-Out-There-Jamie-Dimon-.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.167955,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Cathie Wood's Ark Invest Scoops Up Iridium, Beam, Pacific Biosciences While Offloading Illumina And Amgen - Absci  ( NASDAQ:ABSI ) , Amgen  ( NASDAQ:AMGN ) ",
+            "url": "https://www.benzinga.com/25/03/44447844/cathie-woods-ark-invest-scoops-up-iridium-beam-pacific-biosciences-while-offloading-illumina-and-amgen",
+            "time_published": "20250322T072329",
+            "authors": [
+                "Rounak Jain"
+            ],
+            "summary": "On Friday, March 21, 2025, the Cathie Wood-led Ark Invest made some notable trades, including significant buys and sells. Ark Invest's fund bought Iridium Communications Inc. IRDM, Beam Therapeutics Inc. BEAM, Pacific Biosciences of California Inc. PACB and Absci Corp ABSI, while selling Illumina ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/22/Cathie-Wood-Offloads-Meta-Stock-While-Ma.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.818451"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.397959,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BEAM",
+                    "relevance_score": "0.449503",
+                    "ticker_sentiment_score": "0.029573",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "IRDM",
+                    "relevance_score": "0.449503",
+                    "ticker_sentiment_score": "0.414215",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "RPTX",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "0.014835",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PACB",
+                    "relevance_score": "0.449503",
+                    "ticker_sentiment_score": "0.014839",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ILMN",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "0.027086",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "VEEV",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "0.014835",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABSI",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "0.014835",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMGN",
+                    "relevance_score": "0.345674",
+                    "ticker_sentiment_score": "0.014835",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
         {
             "title": "A Peek Inside Google's 100-Day AI Sprint: How Gemini Went From Generating Controversial Images To Emerging As A ChatGPT Rival - Alphabet  ( NASDAQ:GOOG ) , Alphabet  ( NASDAQ:GOOGL ) ",
             "url": "https://www.benzinga.com/25/03/44447804/a-peek-inside-googles-100-day-ai-sprint-how-gemini-went-from-generating-controversial-images-to-emerging-as-a-cha",
@@ -1020,95 +1125,6 @@
                     "relevance_score": "0.181137",
                     "ticker_sentiment_score": "0.205445",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Grupo Aeroportuario del Pacifico Announces Credit Line Refinancing for USD$40.0 Million - Grupo Aeroportuario del  ( NYSE:PAC ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44446259/grupo-aeroportuario-del-pacifico-announces-credit-line-refinancing-for-usd-40-0-million",
-            "time_published": "20250321T234733",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "GUADALAJARA, Mexico, March 21, 2025 ( GLOBE NEWSWIRE ) -- Grupo Aeroportuario del Pac\u00edfico, S.A.B. de C.V., PACGAP ( \"the Company\" or \"GAP\" ) announces it has completed the refinancing of the credit facility that matured today with Banco Nacional de M\u00e9xico, S.A., ( \"Citibanamex\" ) for USD$40.0 ...",
-            "banner_image": "https://ml.globenewswire.com/media/a8b922ac-5cd6-4342-afd5-c5c2aea7213c/small/gap-logo-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                }
-            ],
-            "overall_sentiment_score": 0.054804,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "PAC",
-                    "relevance_score": "0.211191",
-                    "ticker_sentiment_score": "0.06515",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Grupo Aeroportuario del Pacifico Announces Credit Line Refinancing for USD$40.0 Million",
-            "url": "https://www.globenewswire.com/news-release/2025/03/21/3047370/0/en/Grupo-Aeroportuario-del-Pacifico-Announces-Credit-Line-Refinancing-for-USD-40-0-Million.html",
-            "time_published": "20250321T234700",
-            "authors": [
-                "S.A.B. de C.V.",
-                "Grupo Aeroportuario del Pac\u00edfico"
-            ],
-            "summary": "GUADALAJARA, Mexico, March 21, 2025 ( GLOBE NEWSWIRE ) -- Grupo Aeroportuario del Pac\u00edfico, S.A.B. de C.V., ( NYSE: PAC. BMV: GAP ) ( \"the Company\" or \"GAP\" ) announces it has completed the refinancing of the credit facility that matured today with Banco Nacional de M\u00e9xico, S.A., ( \"Citibanamex\" ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/a8b922ac-5cd6-4342-afd5-c5c2aea7213c",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.744043"
-                }
-            ],
-            "overall_sentiment_score": -0.004763,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Here's How Much $100 Invested In Kinross Gold 10 Years Ago Would Be Worth Today - Kinross Gold  ( NYSE:KGC ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44446239/heres-how-much-100-invested-in-kinross-gold-10-years-ago-would-be-worth-today",
-            "time_published": "20250321T234512",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Kinross Gold KGC has outperformed the market over the past 10 years by 7.18% on an annualized basis producing an average annual return of 17.82%. Currently, Kinross Gold has a market capitalization of $15.01 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1742600709_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.25,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "KGC",
-                    "relevance_score": "0.936499",
-                    "ticker_sentiment_score": "0.382177",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
