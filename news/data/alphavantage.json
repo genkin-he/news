@@ -1,8 +1,495 @@
 {
-    "items": "49",
+    "items": "50",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "'Negative GDP Growth Is More Likely Than Not' In Q1, Economist Warns - SPDR S&P 500  ( ARCA:SPY ) ",
+            "url": "https://www.benzinga.com/analyst-ratings/analyst-color/25/03/44520487/negative-gdp-growth-is-more-likely-than-not-in-q1-economist-warns",
+            "time_published": "20250327T172536",
+            "authors": [
+                "Erica Kollmann"
+            ],
+            "summary": "The US economy grows at an annualized rate of 2.4% in the fourth quarter of 2024, a slight increase from the earlier estimate of 2.3%. But experts warn Q1 GDP will \"not be so rosy.\" Pelosi's latest AI pick skyrocketed 169% in just one month.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/The-Economic-Climate-and-Uncertainty-Ahe.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.918141"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.082007,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IVZ",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "0.119226",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CMA",
+                    "relevance_score": "0.066047",
+                    "ticker_sentiment_score": "-0.202605",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "What's Going On With Petco Health Stock Today? - Petco Health and Wellness  ( NASDAQ:WOOF ) ",
+            "url": "https://www.benzinga.com/25/03/44520446/whats-going-on-with-petco-health-stock-today",
+            "time_published": "20250327T172314",
+            "authors": [
+                "Nabaparna Bhattacharya"
+            ],
+            "summary": "Petco partners with Uber Eats to offer on-demand pet essentials, boosting accessibility and convenience for pet owners. Despite a Q4 earnings miss, Petco's stock rises, signaling market optimism amid the new Uber Eats collaboration. Feel unsure about the market's next move?",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.962106"
+                }
+            ],
+            "overall_sentiment_score": 0.292115,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "0.498188",
+                    "ticker_sentiment_score": "0.377128",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "WOOF",
+                    "relevance_score": "0.629492",
+                    "ticker_sentiment_score": "0.160564",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "MyServe Expands AI-Powered Marketplace to Meet Rising Demand for Flexible Workspaces",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520436/myserve-expands-ai-powered-marketplace-to-meet-rising-demand-for-flexible-workspaces",
+            "time_published": "20250327T172211",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- MyServe Inc., the first AI-powered, three-sided marketplace purpose-built for the service industry, has announced its upcoming launch and expansion plans across major U.S. cities.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/5093230e-6337-4874-84ca-d8f49f0f65dd/unnamed-48-.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.321575,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.063258",
+                    "ticker_sentiment_score": "0.110065",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Viatris Inc. Announcement: If You Have Suffered Losses in Viatris Inc.  ( NASDAQ: VTRS ) , You Are Encouraged to Contact The Rosen Law Firm About Your Rights - Viatris  ( NASDAQ:VTRS ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520379/viatris-inc-announcement-if-you-have-suffered-losses-in-viatris-inc-nasdaq-vtrs-you-are-encouraged",
+            "time_published": "20250327T171701",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, announces an investigation of potential securities claims on behalf of shareholders of Viatris Inc.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.839681"
+                }
+            ],
+            "overall_sentiment_score": 0.150755,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.068896",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "VTRS",
+                    "relevance_score": "0.454945",
+                    "ticker_sentiment_score": "-0.015004",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "ROSEN, RECOGNIZED INVESTOR COUNSEL, Encourages Mullen Automotive, Inc. f/k/a Net Element, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - MULN, NETE - Mullen Automotive  ( NASDAQ:MULN ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520360/rosen-recognized-investor-counsel-encourages-mullen-automotive-inc-fka-net-element-inc-investors-t",
+            "time_published": "20250327T171626",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Mullen Automotive, Inc. f/k/a Net Element, Inc.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.839681"
+                }
+            ],
+            "overall_sentiment_score": 0.119712,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.053749",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MULN",
+                    "relevance_score": "0.107255",
+                    "ticker_sentiment_score": "0.122772",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "What's Going On With Tsakos Energy Navigation Stock Today? - Tsakos Energy Navigation  ( NYSE:TEN ) ",
+            "url": "https://www.benzinga.com/25/03/44520342/whats-going-on-with-tsakos-energy-navigation-stock-today",
+            "time_published": "20250327T171435",
+            "authors": [
+                "Nabaparna Bhattacharya"
+            ],
+            "summary": "Tsakos Energy Navigation reported strong Q4 earnings, surpassing estimates with $188.26M in sales and $85.6M in adjusted EBITDA. Tsakos Energy Navigation's fleet utilization reached 93.3%. Feel unsure about the market's next move?",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/Keep-An-Eye-On-Earnings-Reports_0.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.818451"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.269312,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TEN",
+                    "relevance_score": "0.473208",
+                    "ticker_sentiment_score": "0.1778",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "'Ghiblification' AI Anime Image Trend Pumps GHIBLI Solana Meme Coin",
+            "url": "https://decrypt.co/311958/ghiblification-ai-ghibli-solana-meme-coin-pumps",
+            "time_published": "20250327T171113",
+            "authors": [
+                "Ryan S. Gladwin"
+            ],
+            "summary": "Studio Ghibli-inspired AI images are everywhere right now, and the social media trend has pumped a Solana meme coin inspired by it.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/03/GhibliSolana-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [],
+            "overall_sentiment_score": 0.178831,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:SHIB",
+                    "relevance_score": "0.064797",
+                    "ticker_sentiment_score": "-0.005073",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "HireVue Unveils Reimagined Hiring Experience and Solidifies Its Role As the Backbone of Skills-Based Hiring at Horizon Conference",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520188/hirevue-unveils-reimagined-hiring-experience-and-solidifies-its-role-as-the-backbone-of-skills-bas",
+            "time_published": "20250327T170417",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Salt Lake City, UT, March 27, 2025 ( GLOBE NEWSWIRE ) -- HireVue, the global leader in skills-based hiring, delivered an immersive and impactful experience for talent leaders with the return of its user conference, Horizon.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.365585,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PEP",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "0.055148",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.068698",
+                    "ticker_sentiment_score": "0.055148",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Investors in Zynex, Inc. Should Contact Levi & Korsinsky Before May 19, 2025 to Discuss Your Rights - ZYXI - Zynex  ( NASDAQ:ZYXI ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520174/investors-in-zynex-inc-should-contact-levi-korsinsky-before-may-19-2025-to-discuss-your-rights-zyx",
+            "time_published": "20250327T170400",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Zynex, Inc. ( \"Zynex, Inc.\" or the \"Company\" ) ZYXI of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.043889,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ZYXI",
+                    "relevance_score": "0.620664",
+                    "ticker_sentiment_score": "-0.098381",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Contact Levi & Korsinsky by May 5, 2025 Deadline to Join Class Action Against Maravai LifeSciences Holdings, Inc.  ( MRVI )  - Maravai LifeSciences  ( NASDAQ:MRVI ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520138/contact-levi-korsinsky-by-may-5-2025-deadline-to-join-class-action-against-maravai-lifesciences-ho",
+            "time_published": "20250327T170300",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Maravai LifeSciences Holdings, Inc. ( \"Maravai LifeSciences\" or the \"Company\" ) MRVI of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.058845,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MRVI",
+                    "relevance_score": "0.521465",
+                    "ticker_sentiment_score": "-0.046751",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Levi & Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of May 23, 2025 in Ultra Clean Holdings, Inc. Lawsuit - UCTT - Ultra Clean Hldgs  ( NASDAQ:UCTT ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44520137/levi-korsinsky-reminds-shareholders-of-a-lead-plaintiff-deadline-of-may-23-2025-in-ultra-clean-hol",
+            "time_published": "20250327T170300",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Ultra Clean Holdings, Inc. ( \"Ultra Clean\" or the \"Company\" ) UCTT of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.538269"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.041818,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Check Out What Whales Are Doing With CDNS - Cadence Design Systems  ( NASDAQ:CDNS ) ",
+            "url": "https://www.benzinga.com/insights/options/25/03/44520128/check-out-what-whales-are-doing-with-cdns",
+            "time_published": "20250327T170248",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Deep-pocketed investors have adopted a bullish approach towards Cadence Design Systems CDNS, and it's something market players shouldn't ignore. Our tracking of public options records at Benzinga unveiled this significant move today.",
+            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743094965_0.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                }
+            ],
+            "overall_sentiment_score": 0.292717,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CDNS",
+                    "relevance_score": "0.596796",
+                    "ticker_sentiment_score": "0.438693",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Regulus Therapeutics Stock Shoots Higher After Positive Results From Investigational Drug For Rare Type Of Kidney Disease - Regulus Therapeutics  ( NASDAQ:RGLS ) ",
+            "url": "https://www.benzinga.com/general/biotech/25/03/44519887/regulus-therapeutics-stock-shoots-higher-after-positive-results-from-investigational-drug-for-rar",
+            "time_published": "20250327T165904",
+            "authors": [
+                "Vandana Singh"
+            ],
+            "summary": "Farabursen 300 mg showed a mean htTKV growth rate of 0.05% vs. 2.58% in placebo, indicating a potential impact on ADPKD progression. Urinary PC1 and PC2 levels increased significantly, consistent with prior cohorts, supporting the drug's mechanism.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/Medical-Research-Laboratory-Portrait-Of-.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.241101,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "RGLS",
+                    "relevance_score": "0.342093",
+                    "ticker_sentiment_score": "-0.188869",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
         {
             "title": "Transaction in Own Shares",
             "url": "https://www.globenewswire.com/news-release/2025/03/27/3050857/0/en/Transaction-in-Own-Shares.html",
@@ -28,6 +515,240 @@
                     "ticker": "RYDAF",
                     "relevance_score": "0.107016",
                     "ticker_sentiment_score": "0.205938",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Paychex Analyst Sees Limited Upside Despite Q3 Profitability Surge - Paychex  ( NASDAQ:PAYX ) ",
+            "url": "https://www.benzinga.com/25/03/44519829/ai-investments-and-cost-savings-drive-paychexs-q3-profitability-surge-says-analyst",
+            "time_published": "20250327T165609",
+            "authors": [
+                "Shivani Kumaresan"
+            ],
+            "summary": "Paychex exceeded Q3 earnings estimates, reporting $1.509 billion in revenue. Company sees strong retention and cross-selling opportunities in HR services. Pelosi's latest AI pick skyrocketed 169% in just one month. Click here to discover the next stock our government trade tracker is ...",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/Taxpayers-Bet-on-Fewer-Audits.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.998333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                }
+            ],
+            "overall_sentiment_score": 0.389457,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PAYX",
+                    "relevance_score": "0.647003",
+                    "ticker_sentiment_score": "0.447772",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Levi & Korsinsky Notifies Walgreens Boots Alliance, Inc. Investors of a Class Action Lawsuit and Upcoming Deadline - WBA - Walgreens Boots Alliance  ( NASDAQ:WBA ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519775/levi-korsinsky-notifies-walgreens-boots-alliance-inc-investors-of-a-class-action-lawsuit-and-upcom",
+            "time_published": "20250327T165300",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Walgreens Boots Alliance, Inc. ( \"Walgreens\" or the \"Company\" ) WBA of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": -0.012282,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WBA",
+                    "relevance_score": "0.259267",
+                    "ticker_sentiment_score": "0.011652",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Investors who lost money on Merck & Co., Inc.  ( MRK )  should contact Levi & Korsinsky about pending Class Action - MRK - Merck & Co  ( NYSE:MRK ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519773/investors-who-lost-money-on-merck-co-inc-mrk-should-contact-levi-korsinsky-about-pending-class-act",
+            "time_published": "20250327T165300",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Merck & Co., Inc. ( \"Merck\" or the \"Company\" ) MRK of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                }
+            ],
+            "overall_sentiment_score": 0.108981,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "Shareholders that lost money on TELUS International  ( Cda )  Inc.  ( TIXT )  Urged to Join Class Action - Contact Levi & Korsinsky to Learn More - TELUS Intl  ( NYSE:TIXT ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519761/shareholders-that-lost-money-on-telus-international-cda-inc-tixt-urged-to-join-class-action-contac",
+            "time_published": "20250327T165200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in TELUS International ( Cda ) Inc. ( \"TELUS International\" or the \"Company\" ) TIXT of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.070747,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TU",
+                    "relevance_score": "0.503018",
+                    "ticker_sentiment_score": "-0.029651",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TIXT",
+                    "relevance_score": "0.503018",
+                    "ticker_sentiment_score": "-0.045703",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "April 7, 2025 Deadline: Contact Levi & Korsinsky to Join Class Action Suit Against NMRA - Neumora Therapeutics  ( NASDAQ:NMRA ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519760/april-7-2025-deadline-contact-levi-korsinsky-to-join-class-action-suit-against-nmra",
+            "time_published": "20250327T165200",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Neumora Therapeutics, Inc. ( \"Neumora Therapeutics, Inc.\" or the \"Company\" ) NMRA of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                }
+            ],
+            "overall_sentiment_score": 0.046486,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NMRA",
+                    "relevance_score": "0.432291",
+                    "ticker_sentiment_score": "-0.064866",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Why Is Autoimmune Disease Focused Nkarta Stock Trading Higher On Thursday? - Nkarta  ( NASDAQ:NKTX ) ",
+            "url": "https://www.benzinga.com/25/03/44519736/why-is-autoimmune-disease-focused-nkarta-stock-trading-higher-on-thursday",
+            "time_published": "20250327T165030",
+            "authors": [
+                "Vandana Singh"
+            ],
+            "summary": "Nkarta posted a Q4 loss of $0.35 per share, beating estimates of a $0.41 loss, and announced a 34% workforce reduction. Nkarta holds $380.5M in cash and investments as of Dec. 31, 2024, expected to fund operations into 2029. Feel unsure about the market's next move?",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/NKTX.png?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.076467,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NKTX",
+                    "relevance_score": "0.588876",
+                    "ticker_sentiment_score": "-0.300473",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "UNIVERSAL MUSIC GROUP BOARD PUBLISHES 2024 ANNUAL REPORT AND AGENDA FOR 2025 ANNUAL GENERAL MEETING OF SHAREHOLDERS - Universal Music Group  ( OTC:UNVGY ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/n44519733/universal-music-group-board-publishes-2024-annual-report-and-agenda-for-2025-annual-general-meetin",
+            "time_published": "20250327T165000",
+            "authors": [
+                "PRNewswire"
+            ],
+            "summary": "HILVERSUM, Netherlands, March 27, 2025 /PRNewswire/ -- Universal Music Group N.V. ( \"UMG\" or \"the Company\" ) today published its 2024 annual report and the agenda for its 2025 annual general meeting of shareholders ( \"2025 AGM\" ) , which is to be held on May 14, 2025, starting at 2:00 p.m.",
+            "banner_image": "https://mma.prnewswire.com/media/512308/UMG.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.179749,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UMGNF",
+                    "relevance_score": "0.114956",
+                    "ticker_sentiment_score": "0.159533",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -66,6 +787,177 @@
             ]
         },
         {
+            "title": "Shareholders that lost money on Newmont Corporation  ( NEM )  Urged to Join Class Action - Contact Levi & Korsinsky to Learn More - Newmont  ( NYSE:NEM ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519719/shareholders-that-lost-money-on-newmont-corporation-nem-urged-to-join-class-action-contact-levi-ko",
+            "time_published": "20250327T164900",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Newmont Corporation ( \"Newmont\" or the \"Company\" ) NEM of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.053532,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NEM",
+                    "relevance_score": "0.647749",
+                    "ticker_sentiment_score": "-0.096632",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:NEM",
+                    "relevance_score": "0.183895",
+                    "ticker_sentiment_score": "0.008888",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Shareholders that lost money on ModivCare Inc.  ( MODV )  Urged to Join Class Action - Contact Levi & Korsinsky to Learn More - ModivCare  ( NASDAQ:MODV ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519704/shareholders-that-lost-money-on-modivcare-inc-modv-urged-to-join-class-action-contact-levi-korsins",
+            "time_published": "20250327T164800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in ModivCare Inc. ( \"ModivCare\" or the \"Company\" ) MODV of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.061083,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MODV",
+                    "relevance_score": "0.526707",
+                    "ticker_sentiment_score": "-0.047023",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Class Action Filed Against TransMedics Group, Inc.  ( TMDX )  - April 15, 2025 Deadline to Join - Contact Levi & Korsinsky - TransMedics Group  ( NASDAQ:TMDX ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519705/class-action-filed-against-transmedics-group-inc-tmdx-april-15-2025-deadline-to-join-contact-levi-",
+            "time_published": "20250327T164800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in TransMedics Group, Inc. ( \"TransMedics\" or the \"Company\" ) TMDX of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": -0.024753,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TMDX",
+                    "relevance_score": "0.702807",
+                    "ticker_sentiment_score": "-0.303104",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Levi & Korsinsky Notifies Shareholders of Intellia Therapeutics, Inc.  ( NTLA )  of a Class Action Lawsuit and an Upcoming Deadline - Intellia Therapeutics  ( NASDAQ:NTLA ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519707/levi-korsinsky-notifies-shareholders-of-intellia-therapeutics-inc-ntla-of-a-class-action-lawsuit-a",
+            "time_published": "20250327T164800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Intellia Therapeutics, Inc. ( \"Intellia\" or the \"Company\" ) NTLA of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.048482,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NTLA",
+                    "relevance_score": "0.458446",
+                    "ticker_sentiment_score": "-0.015167",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Contact Levi & Korsinsky by April 21, 2025 Deadline to Join Class Action Against Constellation Brands, Inc.  ( STZ )  - Constellation Brands  ( NYSE:STZ ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519706/contact-levi-korsinsky-by-april-21-2025-deadline-to-join-class-action-against-constellation-brands",
+            "time_published": "20250327T164800",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in Constellation Brands, Inc. ( \"Constellation\" or the \"Company\" ) STZ of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.115821,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "STZ",
+                    "relevance_score": "0.23281",
+                    "ticker_sentiment_score": "0.010677",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Shareholders of Grocery Outlet Holding Corp. Should Contact Levi & Korsinsky Before March 31, 2025 to Discuss Your Rights - GO - Grocery Outlet Holding  ( NASDAQ:GO ) ",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44519692/shareholders-of-grocery-outlet-holding-corp-should-contact-levi-korsinsky-before-march-31-2025-to-",
             "time_published": "20250327T164700",
@@ -94,6 +986,39 @@
                     "ticker": "GO",
                     "relevance_score": "0.558244",
                     "ticker_sentiment_score": "-0.034597",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "ArcelorMittal announces publication of the 2024 statutory financial statements of ArcelorMittal parent company",
+            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050838/0/en/ArcelorMittal-announces-publication-of-the-2024-statutory-financial-statements-of-ArcelorMittal-parent-company.html",
+            "time_published": "20250327T164700",
+            "authors": [
+                "ArcelorMittal S.A."
+            ],
+            "summary": "27 March ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/b63cd58c-c7c3-4ece-b5f9-2f69f23244cd",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.839681"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.268161,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MT",
+                    "relevance_score": "0.946216",
+                    "ticker_sentiment_score": "0.05907",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -132,6 +1057,32 @@
             ]
         },
         {
+            "title": "Shareholders that lost money on ICON Public Limited Company  ( ICLR )  should contact Levi & Korsinsky about pending Class Action - ICLR - Icon  ( NASDAQ:ICLR ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/03/g44519690/shareholders-that-lost-money-on-icon-public-limited-company-iclr-should-contact-levi-korsinsky-abo",
+            "time_published": "20250327T164600",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Levi & Korsinsky, LLP notifies investors in ICON Public Limited Company ( \"ICON \" or the \"Company\" ) ICLR of a class action securities lawsuit.",
+            "banner_image": "https://ml.globenewswire.com/media/d91bd4e6-7d18-43f7-a479-4f992242a82a/small/gradient-box-png.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.108179"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": -0.007334,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
+        },
+        {
             "title": "If You Invested $100 In This Stock 5 Years Ago, You Would Have This Much Today - MercadoLibre  ( NASDAQ:MELI ) ",
             "url": "https://www.benzinga.com/insights/news/25/03/44519678/if-you-invested-100-in-this-stock-5-years-ago-you-would-have-this-much-today",
             "time_published": "20250327T164512",
@@ -156,6 +1107,75 @@
                     "ticker": "MELI",
                     "relevance_score": "0.941873",
                     "ticker_sentiment_score": "0.382786",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Transgene Achieves Key Milestones in 2024, Including Clinical Proof of Principle for Individualized Cancer Vaccine \u0336 Strong Outlook for 2025",
+            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050835/0/en/Transgene-Achieves-Key-Milestones-in-2024-Including-Clinical-Proof-of-Principle-for-Individualized-Cancer-Vaccine-%CC%B6-Strong-Outlook-for-2025.html",
+            "time_published": "20250327T164500",
+            "authors": [
+                "Transgene S.A."
+            ],
+            "summary": "2024 Full-year results and business update ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/2669e03f-d923-403b-9b20-6c935964b426",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999606"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.117039,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AZN",
+                    "relevance_score": "0.030216",
+                    "ticker_sentiment_score": "-0.017024",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TRGNF",
+                    "relevance_score": "0.309169",
+                    "ticker_sentiment_score": "0.095435",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Viridien Announces its First Quarter 2025 Financial Results on Tuesday, April 29, 2025, after Market Close",
+            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050834/0/en/Viridien-Announces-its-First-Quarter-2025-Financial-Results-on-Tuesday-April-29-2025-after-Market-Close.html",
+            "time_published": "20250327T164500",
+            "authors": [
+                "Viridien"
+            ],
+            "summary": "Paris, France - March ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/7798dce6-6d8b-4f2c-aed6-c3e62dfd88b2",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [],
+            "overall_sentiment_score": 0.310908,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CGPVF",
+                    "relevance_score": "0.666827",
+                    "ticker_sentiment_score": "0.555466",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NRHI",
+                    "relevance_score": "0.19117",
+                    "ticker_sentiment_score": "0.355076",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
@@ -277,6 +1297,57 @@
             ]
         },
         {
+            "title": "Fluxys Belgium - Regulated information: 2024 annual results",
+            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050832/0/en/Fluxys-Belgium-Regulated-information-2024-annual-results.html",
+            "time_published": "20250327T164500",
+            "authors": [
+                "Fluxys"
+            ],
+            "summary": "Overview of 2024 annual results ...",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/286ca433-db7d-43d2-bcb5-122e47ddcc77",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.210856,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NNWWF",
+                    "relevance_score": "0.050894",
+                    "ticker_sentiment_score": "0.11038",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRBO",
+                    "relevance_score": "0.02546",
+                    "ticker_sentiment_score": "0.104138",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OLO",
+                    "relevance_score": "0.02546",
+                    "ticker_sentiment_score": "0.124537",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FHYDF",
+                    "relevance_score": "0.02546",
+                    "ticker_sentiment_score": "0.107539",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Wyoming Stablecoin Is Just a State-Issued CBDC by Another Name: Rep. Tom Emmer",
             "url": "https://decrypt.co/311969/wyoming-stablecoin-cbdc-another-name-emmer",
             "time_published": "20250327T164400",
@@ -388,6 +1459,35 @@
             ]
         },
         {
+            "title": "US Department of Health And Human Services Aligns With Trump's Executive Order, To Cut 10K Jobs, Save $1.8 Billion",
+            "url": "https://www.benzinga.com/government/regulations/25/03/44519638/us-department-of-health-and-human-services-aligns-with-trumps-executive-order-to-cut-10k-j",
+            "time_published": "20250327T164116",
+            "authors": [
+                "Vandana Singh"
+            ],
+            "summary": "HHS will cut 10,000 jobs, saving $1.8B annually, and consolidate 28 divisions into 15 to enhance efficiency and reduce redundancies. New Administration for Healthy America will integrate key agencies to focus on primary care, mental health and public health initiatives.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/Healthcare-Workers-Sound-the-Alarm.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.129521,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NYT",
+                    "relevance_score": "0.146916",
+                    "ticker_sentiment_score": "-0.076285",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Spherix Global Insights' Tucker Hurtado Recognized as Luminary by Healthcare Businesswomen's Association",
             "url": "https://www.benzinga.com/pressreleases/25/03/g44519450/spherix-global-insights-tucker-hurtado-recognized-as-luminary-by-healthcare-businesswomens-associa",
             "time_published": "20250327T163051",
@@ -434,6 +1534,101 @@
                     "ticker": "LAUR",
                     "relevance_score": "0.203215",
                     "ticker_sentiment_score": "0.145272",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Looking Into Honda Motor Co's Recent Short Interest - Honda Motor Co  ( NYSE:HMC ) ",
+            "url": "https://www.benzinga.com/insights/short-sellers/25/03/44519382/looking-into-honda-motor-cos-recent-short-interest",
+            "time_published": "20250327T163023",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Honda Motor Co's HMC short percent of float has fallen 6.06% since its last report. The company recently reported that it has 4.53 million shares sold short, which is 0.31% of all regular shares that are available for trading.",
+            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743093020_0.png",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.26653,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HMC",
+                    "relevance_score": "0.388879",
+                    "ticker_sentiment_score": "0.22949",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "$100 Invested In PDD Holdings 5 Years Ago Would Be Worth This Much Today - PDD Holdings  ( NASDAQ:PDD ) ",
+            "url": "https://www.benzinga.com/insights/news/25/03/44519383/100-invested-in-pdd-holdings-5-years-ago-would-be-worth-this-much-today",
+            "time_published": "20250327T163023",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "PDD Holdings PDD has outperformed the market over the past 5 years by 10.95% on an annualized basis producing an average annual return of 28.11%. Currently, PDD Holdings has a market capitalization of $172.64 billion.",
+            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743093020_0_0.png",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.25,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PDD",
+                    "relevance_score": "0.936499",
+                    "ticker_sentiment_score": "0.382177",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "How Is The Market Feeling About Chewy? - Chewy  ( NYSE:CHWY ) ",
+            "url": "https://www.benzinga.com/insights/short-sellers/25/03/44519381/how-is-the-market-feeling-about-chewy",
+            "time_published": "20250327T163018",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Chewy's CHWY short percent of float has fallen 4.11% since its last report. The company recently reported that it has 10.82 million shares sold short, which is 6.76% of all regular shares that are available for trading. Based on its trading volume, it would take traders 1.77 days to cover their ...",
+            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743093015_0.png",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                }
+            ],
+            "overall_sentiment_score": 0.268841,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CHWY",
+                    "relevance_score": "0.205807",
+                    "ticker_sentiment_score": "0.079987",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -525,1251 +1720,6 @@
                     "relevance_score": "0.069094",
                     "ticker_sentiment_score": "0.262722",
                     "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Empire State Development Announces 10 Startups Selected for Round Eight of Luminate NY",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44519259/empire-state-development-announces-10-startups-selected-for-round-eight-of-luminate-ny",
-            "time_published": "20250327T162108",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "Accelerator to Speed the Most Promising Deep Technologies to Market through Support from the Region's World Class Optics, Photonics, and Imaging Ecosystem Luminate NY is Supported by \"Finger Lakes Forward\" - The Region's Comprehensive Strategy to Revitalize Communities and Grow the Economy",
-            "banner_image": "https://ml.globenewswire.com/media/70539630-14a6-4bef-9555-5913e5390b13/small/luminate-png.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                }
-            ],
-            "overall_sentiment_score": 0.419277,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.02607",
-                    "ticker_sentiment_score": "0.246875",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Issue of Equity",
-            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050809/0/en/Issue-of-Equity.html",
-            "time_published": "20250327T162100",
-            "authors": [
-                "Foresight Technology VCT PLC"
-            ],
-            "summary": "FORESIGHT TECHNOLOGY ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/0634a3a2-64f4-4be3-9256-c08251ef1c12",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.423971,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LDNXF",
-                    "relevance_score": "0.318897",
-                    "ticker_sentiment_score": "0.242415",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "DEADLINE ALERT for SWKS, MRVI, APP, and RC: The Law Offices of Frank R. Cruz Reminds Investors of Class Actions on Behalf of Shareholders - AppLovin  ( NASDAQ:APP ) , Maravai LifeSciences  ( NASDAQ:MRVI ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44519256/deadline-alert-for-swks-mrvi-app-and-rc-the-law-offices-of-frank-r-cruz-reminds-investors-of-class",
-            "time_published": "20250327T162000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "LOS ANGELES, March 27, 2025 ( GLOBE NEWSWIRE ) -- The Law Offices of Frank R. Cruz reminds investors that class action lawsuits have been filed on behalf of shareholders of the following publicly-traded companies. Investors have until the deadlines listed below to file a lead plaintiff motion.",
-            "banner_image": "https://ml.globenewswire.com/media/778ea178-25d1-48a3-9141-a162814899d4/small/close-up-logo-hd-blue-jpg.jpg",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.25"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.25"
-                }
-            ],
-            "overall_sentiment_score": 0.017061,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APP",
-                    "relevance_score": "0.220809",
-                    "ticker_sentiment_score": "-0.171576",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "RC",
-                    "relevance_score": "0.220809",
-                    "ticker_sentiment_score": "-0.171576",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "SWKS",
-                    "relevance_score": "0.148273",
-                    "ticker_sentiment_score": "0.139983",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "MRVI",
-                    "relevance_score": "0.148273",
-                    "ticker_sentiment_score": "0.139983",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Smart Money Is Betting Big In GOLD Options - Barrick Gold  ( NYSE:GOLD ) ",
-            "url": "https://www.benzinga.com/insights/options/25/03/44519216/smart-money-is-betting-big-in-gold-options",
-            "time_published": "20250327T161752",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Whales with a lot of money to spend have taken a noticeably bearish stance on Barrick Gold. Looking at options history for Barrick Gold GOLD we detected 9 trades. If we consider the specifics of each trade, it is accurate to state that 22% of the investors opened trades with bullish expectations ...",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743092269_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.365926"
-                }
-            ],
-            "overall_sentiment_score": 0.202859,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOLD",
-                    "relevance_score": "0.562664",
-                    "ticker_sentiment_score": "0.184038",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "RKIGF",
-                    "relevance_score": "0.077343",
-                    "ticker_sentiment_score": "0.102295",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NEM",
-                    "relevance_score": "0.077343",
-                    "ticker_sentiment_score": "0.102295",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Blackstone's Options: A Look at What the Big Money is Thinking - Blackstone  ( NYSE:BX ) ",
-            "url": "https://www.benzinga.com/insights/options/25/03/44519215/blackstones-options-a-look-at-what-the-big-money-is-thinking",
-            "time_published": "20250327T161747",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Investors with a lot of money to spend have taken a bullish stance on Blackstone BX. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743092264_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.962106"
-                }
-            ],
-            "overall_sentiment_score": 0.201989,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.075397",
-                    "ticker_sentiment_score": "0.106082",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BX",
-                    "relevance_score": "0.656041",
-                    "ticker_sentiment_score": "0.337094",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Looking At Abercrombie & Fitch's Recent Unusual Options Activity - Abercrombie & Fitch  ( NYSE:ANF ) ",
-            "url": "https://www.benzinga.com/insights/options/25/03/44519211/looking-at-abercrombie-fitchs-recent-unusual-options-activity",
-            "time_published": "20250327T161742",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Investors with a lot of money to spend have taken a bearish stance on Abercrombie & Fitch ANF. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743092259_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.179718,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ANF",
-                    "relevance_score": "0.734661",
-                    "ticker_sentiment_score": "0.208809",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.059194",
-                    "ticker_sentiment_score": "0.076002",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Legible Announces $4M Financing Round with Strategic Lead Investment and Capital Structure Enhancements - Legible  ( OTC:LEBGF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44519206/legible-announces-4m-financing-round-with-strategic-lead-investment-and-capital-structure-enhancem",
-            "time_published": "20250327T161645",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "VANCOUVER, British Columbia, March 27, 2025 ( GLOBE NEWSWIRE ) -- Legible Inc.",
-            "banner_image": "https://ml.globenewswire.com/media/2b4c47a2-be04-4f6e-a232-e3b6cf6addea/small/legible-logo-rgb-colour-500-png.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.995077"
-                }
-            ],
-            "overall_sentiment_score": 0.262689,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LEBGF",
-                    "relevance_score": "0.343279",
-                    "ticker_sentiment_score": "0.220395",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Legible Announces $4M Financing Round with Strategic Lead Investment and Capital Structure Enhancements",
-            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050805/0/en/Legible-Announces-4M-Financing-Round-with-Strategic-Lead-Investment-and-Capital-Structure-Enhancements.html",
-            "time_published": "20250327T161600",
-            "authors": [
-                "Legible"
-            ],
-            "summary": "Legible Inc. announces a non-brokered private placement offering of Units of the Company ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/2b4c47a2-be04-4f6e-a232-e3b6cf6addea",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.989041"
-                }
-            ],
-            "overall_sentiment_score": 0.251671,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LEBGF",
-                    "relevance_score": "0.363388",
-                    "ticker_sentiment_score": "0.219709",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "$100 Invested In This Stock 20 Years Ago Would Be Worth This Much Today - CSX  ( NASDAQ:CSX ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44519191/100-invested-in-this-stock-20-years-ago-would-be-worth-this-much-today",
-            "time_published": "20250327T161511",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "CSX CSX has outperformed the market over the past 20 years by 5.34% on an annualized basis producing an average annual return of 13.5%. Currently, CSX has a market capitalization of $56.30 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743092108_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.25,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Prospective SEC chair pressed on sale of FTX-tied firm",
-            "url": "https://cointelegraph.com/news/senator-elizabeth-warren-paul-atkins-hearing-conflicts-interest-ftx",
-            "time_published": "20250327T161442",
-            "authors": [
-                "Turner Wright"
-            ],
-            "summary": "Lawmakers in the US Senate Banking Committee questioned prospective Securities and Exchange Commission ( SEC ) member Paul Atkins on his ties to the crypto industry and how he might regulate digital assets if confirmed.Questioning Atkins at his nomination hearing on March 27, Massachusetts ...",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195d82e-ad09-7b27-8af4-5849cf395748",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": -0.026037,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GLP",
-                    "relevance_score": "0.136888",
-                    "ticker_sentiment_score": "-0.111989",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "SCREENVISION MEDIA FURTHER SECURES ITS ROBUST EXHIBITOR NETWORK VIA PARTNERSHIP EXTENSION WITH MARCUS THEATRES - Marcus  ( NYSE:MCS ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/n44519187/screenvision-media-further-secures-its-robust-exhibitor-network-via-partnership-extension-with-mar",
-            "time_published": "20250327T161400",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "Agreement with Nation's Fourth Largest Cinema Exhibitor Includes Screenvision's Platinum Inventory & Enhancements to the Preshow Experience",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.266595,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MCS",
-                    "relevance_score": "0.726144",
-                    "ticker_sentiment_score": "0.380499",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.072655",
-                    "ticker_sentiment_score": "0.072456",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Luminar Soars On Caterpillar Partnership To Power Next-Gen Autonomous Trucks: Details - Luminar Technologies  ( NASDAQ:LAZR ) ",
-            "url": "https://www.benzinga.com/25/03/44519166/luminar-and-caterpillar-join-forces-to-revolutionize-autonomous-hauling-with-lidar-tech",
-            "time_published": "20250327T161347",
-            "authors": [
-                "Nabaparna Bhattacharya"
-            ],
-            "summary": "Luminar and Caterpillar collaborate to integrate LiDAR tech in autonomous trucks, enhancing safety and efficiency in hauling operations. The partnership targets quarry and aggregate operations, with autonomous trucks already moving billions of tons globally. Feel unsure about the market's next ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/Luminar-Technologies-Inc--LAZR.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.365031,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "LAZR",
-                    "relevance_score": "0.371523",
-                    "ticker_sentiment_score": "0.272664",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CAT",
-                    "relevance_score": "0.371523",
-                    "ticker_sentiment_score": "0.542961",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Greystone Provides $15.4 Million in Fannie Mae DUS\u00ae Financing for Midwest Multifamily Portfolio",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44519168/greystone-provides-15-4-million-in-fannie-mae-dus-financing-for-midwest-multifamily-portfolio",
-            "time_published": "20250327T161347",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "NEW YORK, March 27, 2025 ( GLOBE NEWSWIRE ) -- Greystone, a leading national commercial real estate finance company, has provided a total of $15.4 million in Fannie Mae Delegated Underwriting & Servicing ( DUS\u00ae ) financing to refinance two properties with 253 units total in Wisconsin and ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.227055,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "WEOC Announces Leadership Transition as Inaugural CEO Prepares to Step Down",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44519167/weoc-announces-leadership-transition-as-inaugural-ceo-prepares-to-step-down",
-            "time_published": "20250327T161346",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "WINNIPEG, Manitoba, March 27, 2025 ( GLOBE NEWSWIRE ) -- The Board of Directors of Women's Enterprise Organizations of Canada ( WEOC ) today announced that its inaugural CEO, Alison Kirkland, has indicated her intention to step down following the WEOC National Summit in May 2025.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.359975,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "KIRK",
-                    "relevance_score": "0.079921",
-                    "ticker_sentiment_score": "0.146616",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Gold Gains Over 1%; TD SYNNEX Shares Plunge After Downbeat Results - Dermata Therapeutics  ( NASDAQ:DRMA ) , Auddia  ( NASDAQ:AUUD ) ",
-            "url": "https://www.benzinga.com/25/03/44519152/gold-gains-1-td-synnex-shares-plunge-after-downbeat-results",
-            "time_published": "20250327T161253",
-            "authors": [
-                "Avi Kapoor"
-            ],
-            "summary": "U.S. stocks traded lower midway through trading, with the Dow Jones index falling around 90 points on Thursday. The Dow traded down 0.23% to 42,358.68 while the NASDAQ fell 0.05% to 17,890.40. The S&P 500 also fell, dropping, 0.04% to 5,709.99. Consumer discretionary shares jumped by 1.2% on ...",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/27/Macro-View-Of-Stacks-Of-Gold-Bars_0.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.891286"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.02924,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "DRMA",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "0.203701",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AMV",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "0.014844",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GTEC",
-                    "relevance_score": "0.074692",
-                    "ticker_sentiment_score": "0.290007",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "EQ",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "-0.006512",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SLNO",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "0.216187",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SNX",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "0.161823",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AUUD",
-                    "relevance_score": "0.148731",
-                    "ticker_sentiment_score": "-0.24547",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Award-winning Musicians Remake \"Blue Skies\" to Support North Carolina's Economic Development and Hurricane Helene Recovery",
-            "url": "https://www.benzinga.com/pressreleases/25/03/n44519105/award-winning-musicians-remake-blue-skies-to-support-north-carolinas-economic-development-and-hurr",
-            "time_published": "20250327T161000",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "Globally recognized artists from bands including MJ Lenderman, Sylvan Esso and Iron & Wine donate talents and money to support storm recovery in their home state.",
-            "banner_image": "https://mma.prnewswire.com/media/2651293/EDPNC_Stack_2020_Logo.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Fiscal",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.400774,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.043108",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "VUE SIGNS MAJOR DEAL WITH LEADING CINEMA TECHNOLOGY PROVIDER BARCO",
-            "url": "https://www.benzinga.com/pressreleases/25/03/n44519076/vue-signs-major-deal-with-leading-cinema-technology-provider-barco",
-            "time_published": "20250327T160800",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "LONDON, March 27, 2025 /PRNewswire/ -- Vue, the largest privately owned cinema operator in Europe and number one exhibitor in the U.K, has signed terms with Barco, the global leader in laser cinema, to bring its award-winning laser projectors across Vue's European estate.",
-            "banner_image": "https://mma.prnewswire.com/media/2383017/Barco_Logo.jpg",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.684621"
-                }
-            ],
-            "overall_sentiment_score": 0.44407,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.244673",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NNWWF",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.019841",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOREX:EUR",
-                    "relevance_score": "0.051886",
-                    "ticker_sentiment_score": "0.244673",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "NextEra Energy Unusual Options Activity For March 27 - NextEra Energy  ( NYSE:NEE ) ",
-            "url": "https://www.benzinga.com/insights/options/25/03/44518994/nextera-energy-unusual-options-activity-for-march-27",
-            "time_published": "20250327T160307",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Investors with a lot of money to spend have taken a bullish stance on NextEra Energy NEE. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743091384_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.503496"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.176365,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MS",
-                    "relevance_score": "0.064104",
-                    "ticker_sentiment_score": "-0.050238",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NEE",
-                    "relevance_score": "0.57877",
-                    "ticker_sentiment_score": "0.160447",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "A Closer Look at IREN's Options Market Dynamics - IREN  ( NASDAQ:IREN ) ",
-            "url": "https://www.benzinga.com/insights/options/25/03/44518993/a-closer-look-at-irens-options-market-dynamics",
-            "time_published": "20250327T160302",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Investors with a lot of money to spend have taken a bullish stance on IREN IREN. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743091379_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                }
-            ],
-            "overall_sentiment_score": 0.219129,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.083833",
-                    "ticker_sentiment_score": "0.226146",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "This Is What Whales Are Betting On Applied Optoelectronics - Applied Optoelectronics  ( NASDAQ:AAOI ) ",
-            "url": "https://www.benzinga.com/insights/options/25/03/44518992/this-is-what-whales-are-betting-on-applied-optoelectronics",
-            "time_published": "20250327T160257",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Financial giants have made a conspicuous bearish move on Applied Optoelectronics. Our analysis of options history for Applied Optoelectronics AAOI revealed 14 unusual trades. Delving into the details, we found 42% of traders were bullish, while 50% showed bearish tendencies.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743091373_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.192101,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AAOI",
-                    "relevance_score": "0.639616",
-                    "ticker_sentiment_score": "0.107914",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Avance Gas Holding Ltd: Annual Report 2024",
-            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050794/0/en/Avance-Gas-Holding-Ltd-Annual-Report-2024.html",
-            "time_published": "20250327T160200",
-            "authors": [
-                "Avance Gas Holding Ltd"
-            ],
-            "summary": "Hamilton, Bermuda ...",
-            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/9f01b965-9d4b-4ded-999e-3597c443959b",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.183506,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AVACF",
-                    "relevance_score": "0.459624",
-                    "ticker_sentiment_score": "0.123204",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "P/E Ratio Insights for Fiserv - Fiserv  ( NYSE:FI ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44518935/pe-ratio-insights-for-fiserv",
-            "time_published": "20250327T160117",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Looking into the current session, Fiserv Inc. FI shares are trading at $219.21, after a 1.12% decrease. Over the past month, the stock fell by 5.37%, but over the past year, it actually went up by 38.20%.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743091273_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.413559"
-                }
-            ],
-            "overall_sentiment_score": 0.136378,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FI",
-                    "relevance_score": "0.359014",
-                    "ticker_sentiment_score": "-0.040908",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin Options Worth $12 Billion Expire Tomorrow-Here's What It Means",
-            "url": "https://decrypt.co/311871/12-billion-bitcoin-options-expire-tomorrow",
-            "time_published": "20250327T160041",
-            "authors": [
-                "Stacy Elliott"
-            ],
-            "summary": "Deribit's own DVOL index is signaling low implied volatility and limited expectations for sharp price action,\" the CEO said.",
-            "banner_image": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-11.13.36\u202fAM.png@webp",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.938793"
-                }
-            ],
-            "overall_sentiment_score": -0.119435,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.098255",
-                    "ticker_sentiment_score": "-0.06821",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.462953",
-                    "ticker_sentiment_score": "-0.218266",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.098255",
-                    "ticker_sentiment_score": "-0.146258",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Here's How Much $1000 Invested In Applied Industrial Techs 5 Years Ago Would Be Worth Today - Applied Industrial Techs  ( NYSE:AIT ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44518848/heres-how-much-1000-invested-in-applied-industrial-techs-5-years-ago-would-be-worth-today",
-            "time_published": "20250327T160023",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Applied Industrial Techs AIT has outperformed the market over the past 5 years by 21.28% on an annualized basis producing an average annual return of 38.42%. Currently, Applied Industrial Techs has a market capitalization of $8.94 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743091220_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.243318,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "How a Dungeons & Dragons livestream became a multiplatform media company",
-            "url": "https://www.cnbc.com/2025/03/27/critical-role-d-and-d-media-company.html",
-            "time_published": "20250327T160002",
-            "authors": [],
-            "summary": "Critical Role operates a production studio, a publishing arm, a gaming division, a streaming service, a record label and a charity initiative.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Business",
-            "source_domain": "www.cnbc.com",
-            "topics": [
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.119411,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HAS",
-                    "relevance_score": "0.031654",
-                    "ticker_sentiment_score": "0.18622",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Albion Enterprise VCT PLC: Interim management report",
-            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050792/0/en/Albion-Enterprise-VCT-PLC-Interim-management-report.html",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Albion Enterprise VCT PLC"
-            ],
-            "summary": "ALBION ENTERPRISE VCT PLC LEI Code: 213800OVSRDHRJBMO720 Interim Management Statement ...",
-            "banner_image": "",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.26863,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Deadline Alert: Alarum Technologies Ltd.  ( ALAR )  Investors Who Lost Money Urged To Contact Glancy Prongay & Murray LLP About Securities Fraud Lawsuit - Alarum Technologies  ( NASDAQ:ALAR ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44518815/deadline-alert-alarum-technologies-ltd-alar-investors-who-lost-money-urged-to-contact-glancy-prong",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "LOS ANGELES, March 27, 2025 ( GLOBE NEWSWIRE ) -- Glancy Prongay & Murray LLP reminds investors of the upcoming April 15, 2025 deadline to file a lead plaintiff motion in the class action filed on behalf of investors who purchased or otherwise acquired Alarum Technologies Ltd. ( \"Alarum\" or the ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.796627"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.538269"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.120624,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.071357",
-                    "ticker_sentiment_score": "0.136355",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "ALAR",
-                    "relevance_score": "0.142144",
-                    "ticker_sentiment_score": "0.076093",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "DEADLINE ALERT for SWKS, APP, RC, ELF: Law Offices of Howard G. Smith Reminds Investors of Opportunity to Lead Securities Fraud Class Actions - AppLovin  ( NASDAQ:APP ) , e.l.f. Beauty  ( NYSE:ELF ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44518813/deadline-alert-for-swks-app-rc-elf-law-offices-of-howard-g-smith-reminds-investors-of-opportunity-",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "BENSALEM, Pa., March 27, 2025 ( GLOBE NEWSWIRE ) -- Law Offices of Howard G. Smith reminds investors that class action lawsuits have been filed on behalf of shareholders of the following publicly-traded companies. Investors have until the deadlines listed below to file a lead plaintiff motion.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": -0.039188,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APP",
-                    "relevance_score": "0.150592",
-                    "ticker_sentiment_score": "-0.132614",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "RC",
-                    "relevance_score": "0.150592",
-                    "ticker_sentiment_score": "-0.061601",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "SWKS",
-                    "relevance_score": "0.100729",
-                    "ticker_sentiment_score": "0.118287",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "NEC X Unveils Elev X! Ignite Batch 13: Six Disruptive Startups Driving Innovation in Fintech, AgTech, Lifesciences Tech and More",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44518816/nec-x-unveils-elev-x-ignite-batch-13-six-disruptive-startups-driving-innovation-in-fintech-agtech-",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "PALO ALTO, Calif., March 27, 2025 ( GLOBE NEWSWIRE ) -- NEC X, the Silicon Valley venture studio backed by NEC's advanced technologies and global businesses, today announced the six visionary startups selected for Batch 13 of its Elev X! Ignite program - a cohort that reflects surging demand for ...",
-            "banner_image": "https://ml.globenewswire.com/media/b0ca0ced-aba8-4c72-a84b-7633a1f47d5c/small/b-g-h-necx-5-png.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                }
-            ],
-            "overall_sentiment_score": 0.436445,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NIPNF",
-                    "relevance_score": "0.1568",
-                    "ticker_sentiment_score": "0.326768",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "USDT0 deployed on OP Superchain",
-            "url": "https://cointelegraph.com/news/tether-crosschain-usdt0-op-superchain",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Sam Bourgi"
-            ],
-            "summary": "Crosschain US-dollar stablecoin USDT0 has been deployed to Optimism's Superchain, increasing access to the world's most widely used stable asset across Ethereum's layer-2 ecosystem.On March 27, Optimism announced that the dollar-pegged USDT0 is now live on the OP mainnet.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195d843-0b0b-7057-97cb-16cef3c55f8b",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.9545"
-                }
-            ],
-            "overall_sentiment_score": 0.343463,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FOREX:USD",
-                    "relevance_score": "0.219809",
-                    "ticker_sentiment_score": "0.227134",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.423251",
-                    "ticker_sentiment_score": "0.344856",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:USDT",
-                    "relevance_score": "0.110973",
-                    "ticker_sentiment_score": "0.09439",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "VCI Global Unveils DeepAI via V Gallant: Enterprise-Grade AI Without the Heavy Price Tag or Technical Bottlenecks",
-            "url": "https://www.globenewswire.com/news-release/2025/03/27/3050786/0/en/VCI-Global-Unveils-DeepAI-via-V-Gallant-Enterprise-Grade-AI-Without-the-Heavy-Price-Tag-or-Technical-Bottlenecks.html",
-            "time_published": "20250327T160000",
-            "authors": [
-                "VCI Global Limited"
-            ],
-            "summary": "DeepAI Makes Advanced AI Adoption Plug-and-Play for Businesses of All Sizes - Instantly Scalable, Zero Friction DeepAI Makes Advanced AI Adoption Plug-and-Play for Businesses of All Sizes - Instantly Scalable, Zero Friction ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/a5732b87-b5d4-4b9e-8452-fed90f097c33",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.33209,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VCIG",
-                    "relevance_score": "0.357865",
-                    "ticker_sentiment_score": "0.483327",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "VCI Global Unveils DeepAI via V Gallant: Enterprise-Grade AI Without the Heavy Price Tag or Technical Bottlenecks - VCI Global  ( NASDAQ:VCIG ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44518812/vci-global-unveils-deepai-via-v-gallant-enterprise-grade-ai-without-the-heavy-price-tag-or-technic",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "KUALA LUMPUR, Malaysia, March 27, 2025 ( GLOBE NEWSWIRE ) -- VCI Global Limited VCIG ( \"VCI Global\" or the \"Company\" ) , through its subsidiary, V Gallant Sdn Bhd ( \"V Gallant\" ) , today announced the official launch of DeepAI, a plug-and-play AI infrastructure platform designed to accelerate ...",
-            "banner_image": "https://ml.globenewswire.com/media/a5732b87-b5d4-4b9e-8452-fed90f097c33/small/vcig-logo-with-company-name-ticker-rgb-png.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.538269"
-                }
-            ],
-            "overall_sentiment_score": 0.331895,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VCIG",
-                    "relevance_score": "0.33127",
-                    "ticker_sentiment_score": "0.442455",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Deadline Alert: enCore Energy Corp.  ( EU )  Investors Who Lost Money Urged To Contact Glancy Prongay & Murray LLP About Securities Fraud Lawsuit - enCore Energy  ( NASDAQ:EU ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44518811/deadline-alert-encore-energy-corp-eu-investors-who-lost-money-urged-to-contact-glancy-prongay-murr",
-            "time_published": "20250327T160000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "LOS ANGELES, March 27, 2025 ( GLOBE NEWSWIRE ) -- Glancy Prongay & Murray LLP reminds investors of the upcoming May 13, 2025 deadline to file a lead plaintiff motion in the class action filed on behalf of investors who purchased or otherwise acquired enCore Energy Corp. ( \"enCore\" or the ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.87644"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Mergers & Acquisitions",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.034055,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.060848",
-                    "ticker_sentiment_score": "0.135142",
-                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         }
