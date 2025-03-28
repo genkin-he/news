@@ -1,5 +1,5 @@
 {
-    "items": "49",
+    "items": "48",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
@@ -1746,51 +1746,6 @@
                     "relevance_score": "0.019349",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "AppLovin Shares Were Up Today: What's Going On? - AppLovin  ( NASDAQ:APP ) ",
-            "url": "https://www.benzinga.com/trading-ideas/movers/25/03/44541294/applovin-shares-were-up-today-whats-going-on",
-            "time_published": "20250328T164602",
-            "authors": [
-                "Vaishali Prayag"
-            ],
-            "summary": "AppLovin shares are up 6.27% after falling 20% earlier in the week due to a short-seller report from Muddy Waters. Muddy Waters accused AppLovin of excessive retargeting, data extraction from major platforms. Pelosi's latest AI pick skyrocketed 169% in just one month.",
-            "banner_image": "https://editorial-assets.benzinga.com/wp-content/uploads/2025/03/28120436/Screenshot-2025-03-28-at-12.04.12-1024x536.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": -0.089752,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "APP",
-                    "relevance_score": "0.87799",
-                    "ticker_sentiment_score": "-0.354185",
-                    "ticker_sentiment_label": "Bearish"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.122894",
-                    "ticker_sentiment_score": "-0.004831",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CMCM",
-                    "relevance_score": "0.122894",
-                    "ticker_sentiment_score": "-0.217127",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         }
