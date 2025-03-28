@@ -1,8 +1,158 @@
 {
-    "items": "48",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "GameStop stocks hit restrictions on NYSE after short volume rockets 234%",
+            "url": "https://cointelegraph.com/news/gamestop-stocks-restrictions-nyse-short-selling-volume-skyrockets",
+            "time_published": "20250328T040608",
+            "authors": [
+                "Ciaran Lyons"
+            ],
+            "summary": "The New York Stock Exchange ( NYSE ) has imposed a Short Sale Restriction ( SSR ) on GameStop after volume spiked to levels reminiscent of GameStop's famous 2021 short squeeze.GameStop ( GME ) short sales volume - the total number of shares sold short within a specific timeframe - rose 234% over ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-03/0195dadb-9fd6-70ea-91d9-959ba93df290",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999999"
+                }
+            ],
+            "overall_sentiment_score": -0.01914,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.071357",
+                    "ticker_sentiment_score": "0.009128",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STRK",
+                    "relevance_score": "0.071357",
+                    "ticker_sentiment_score": "-0.10762",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GME",
+                    "relevance_score": "0.629492",
+                    "ticker_sentiment_score": "0.076831",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.469253",
+                    "ticker_sentiment_score": "-0.099",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Elon Musk Says Tesla Doesn't Need Lidar Because 'People Don't Shoot Lasers Out Of Their Eyes' After YouTubers Put His Cars Through Wylie E. Coyote Tests - BYD  ( OTC:BYDDF ) , Baidu  ( NASDAQ:BIDU ) ",
+            "url": "https://www.benzinga.com/25/03/44529187/elon-musk-says-tesla-doesnt-need-lidar-because-people-dont-shoot-lasers-out-of-their-eyes-yet-his-ev-company-quie",
+            "time_published": "20250328T040343",
+            "authors": [
+                "Ananya Gairola"
+            ],
+            "summary": "Tesla Inc. TSLA CEO Elon Musk doubled down on his longtime skepticism of LiDAR technology on Thursday following the videos of YouTubers testing his EV vehicles against a 'Wile E. Coyote' fake wall challenge.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/03/28/Elon-Musk-Backs-SBA-Crackdown-After-333M.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.614606"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.033863,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.107978",
+                    "ticker_sentiment_score": "0.046465",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HSAI",
+                    "relevance_score": "0.265666",
+                    "ticker_sentiment_score": "0.170361",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.544699",
+                    "ticker_sentiment_score": "-0.088374",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BYDDF",
+                    "relevance_score": "0.107978",
+                    "ticker_sentiment_score": "0.148275",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GM",
+                    "relevance_score": "0.161349",
+                    "ticker_sentiment_score": "0.028973",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIDU",
+                    "relevance_score": "0.107978",
+                    "ticker_sentiment_score": "0.024357",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Opening of GreenTech Hub aims to power Hong Kong's green future",
+            "url": "https://www.scmp.com/native/business/topics/innovation-hub-supports-green-tech/article/3304087/opening-greentech-hub-aims-power-hong-kongs-green-future",
+            "time_published": "20250328T040014",
+            "authors": [
+                "Morning Studio editors"
+            ],
+            "summary": "Supported by government-industry-academia partnerships, GreenTech Hub is at the forefront of new technologies that help get start-ups off the ground.",
+            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/03/27/044b90da-ad13-4fca-acfa-ccc453964c96_46c0ddfb.jpg",
+            "source": "South China Morning Post",
+            "category_within_source": "Business",
+            "source_domain": "www.scmp.com",
+            "topics": [],
+            "overall_sentiment_score": 0.388646,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SZIHF",
+                    "relevance_score": "0.042196",
+                    "ticker_sentiment_score": "0.200891",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Bitcoin Options Worth Over $12 Billion Set To Expire On Friday: Market Volatility Looming Large? - Trump Media & Tech Gr  ( NASDAQ:DJT ) ",
             "url": "https://www.benzinga.com/25/03/44529016/bitcoin-options-worth-over-12-billion-set-to-expire-on-fridayheres-why-you-should-watch-out-for-volatility",
@@ -348,6 +498,33 @@
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
+        },
+        {
+            "title": "FY26: Need a spring of jobs and private capex - ETCFO",
+            "url": "https://cfo.economictimes.indiatimes.com/news/economy/fy26-need-a-spring-of-jobs-and-private-capex/119627784",
+            "time_published": "20250328T025049",
+            "authors": [
+                "ETCFO",
+                "Amol Dethe"
+            ],
+            "summary": "March-end is always a deadly combination. I'm certain that many offices will be working through the weekends, despite a holiday on Monday. Every department has its task - wrapping up the books, closing accounts, and clearing dues. There's a palpable buzz in the air as everyone talks about ...",
+            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
+            "source": "Economic Times",
+            "category_within_source": "Economy",
+            "source_domain": "cfo.economictimes.indiatimes.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                }
+            ],
+            "overall_sentiment_score": 0.102625,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": []
         },
         {
             "title": "Hong Kong stocks rise for a third day as investors look past US car tariffs",
@@ -1742,207 +1919,6 @@
                     "relevance_score": "0.042346",
                     "ticker_sentiment_score": "0.123614",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "CORRECTING and REPLACING: Reed's Reports Fourth Quarter and Full Year 2024 Results",
-            "url": "https://www.globenewswire.com/news-release/2025/03/27/3051111/10765/en/CORRECTING-and-REPLACING-Reed-s-Reports-Fourth-Quarter-and-Full-Year-2024-Results.html",
-            "time_published": "20250327T231100",
-            "authors": [
-                "Reeds",
-                "Inc."
-            ],
-            "summary": "NORWALK, Conn., March 27, 2025 ( GLOBE NEWSWIRE ) -- The Company is issuing a corrected version of its fourth quarter and full year 2024 earnings press release to account for a $750,000 provision related to contract proceedings with a vendor, which impacted the previously reported selling, ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/2ff0e714-476d-422c-b30f-4b1a38d830da",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.650727"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.98396"
-                }
-            ],
-            "overall_sentiment_score": 0.152006,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "COST",
-                    "relevance_score": "0.020885",
-                    "ticker_sentiment_score": "0.12986",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Co-Diagnostics, Inc.  ( CODX )  Reports Q4 Loss, Misses Revenue Estimates",
-            "url": "https://www.zacks.com/stock/news/2436550/co-diagnostics-inc-codx-reports-q4-loss-misses-revenue-estimates",
-            "time_published": "20250327T230502",
-            "authors": [
-                "Zacks Equity Research"
-            ],
-            "summary": "CoDiagnostics (CODX) delivered earnings and revenue surprises of -5.88% and 60.79%, respectively, for the quarter ended December 2024. Do the numbers hold clues to what lies ahead for the stock?",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default118.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999892"
-                },
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.077653,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MEDP",
-                    "relevance_score": "0.139669",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CODX",
-                    "relevance_score": "0.139669",
-                    "ticker_sentiment_score": "-0.064213",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "$100 Invested In Broadcom 5 Years Ago Would Be Worth This Much Today - Broadcom  ( NASDAQ:AVGO ) ",
-            "url": "https://www.benzinga.com/insights/news/25/03/44527314/100-invested-in-broadcom-5-years-ago-would-be-worth-this-much-today",
-            "time_published": "20250327T230015",
-            "authors": [
-                "Benzinga Insights"
-            ],
-            "summary": "Broadcom AVGO has outperformed the market over the past 5 years by 31.55% on an annualized basis producing an average annual return of 48.63%. Currently, Broadcom has a market capitalization of $809.21 billion.",
-            "banner_image": "https://www.benzinga.com/files/images/story/2025/1743116412_0.png",
-            "source": "Benzinga",
-            "category_within_source": "Trading",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.25,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AVGO",
-                    "relevance_score": "0.941873",
-                    "ticker_sentiment_score": "0.382786",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Federman & Sherwood Investigates Crossroads Trading for Data Breach",
-            "url": "https://www.benzinga.com/pressreleases/25/03/g44527307/federman-sherwood-investigates-crossroads-trading-for-data-breach",
-            "time_published": "20250327T230000",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "OKLAHOMA CITY, March 27, 2025 ( GLOBE NEWSWIRE ) -- The law firm of Federman & Sherwood has initiated an investigation into Crossroads Trading with respect to their recent data breach.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": 0.162077,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Pfizer: Value Play or Past Its Prime?",
-            "url": "https://www.fool.com/investing/2025/03/27/pfizer-value-play-or-past-its-prime/",
-            "time_published": "20250327T230000",
-            "authors": [
-                "Motley Fool YouTube"
-            ],
-            "summary": "Explore the exciting world of Pfizer ( NYSE: PFE ) with our expert analysts in this Motley Fool Scoreboard episode. Check out the video below to gain valuable insights into market trends and potential investment opportunities!*Stock prices used were the prices of Feb. 19, 2025.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/812367/copy-of-tmf-yt-thumbnails-11.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.369362,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Braze's Fiscal Q4 Results Top Forecast",
-            "url": "https://www.fool.com/data-news/2025/03/27/braze-s-fiscal-q4-results-top-forecast/",
-            "time_published": "20250327T225901",
-            "authors": [
-                "JesterAI"
-            ],
-            "summary": "The customer engagement platform company beat adjusted earnings expectations and delivered strong revenue growth, but its dollar-based net retention rate slid.",
-            "banner_image": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/2e67fde4d458002cf59f26acf09dd58f97b62ce0-1024x1024.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999997"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.542394,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRZE",
-                    "relevance_score": "0.600271",
-                    "ticker_sentiment_score": "0.789628",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "SHOP",
-                    "relevance_score": "0.083833",
-                    "ticker_sentiment_score": "0.275891",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
