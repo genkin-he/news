@@ -1,8 +1,102 @@
 {
-    "items": "49",
+    "items": "46",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Will the Nintendo Switch 2 Be Too Big?",
+            "url": "https://decrypt.co/312244/nintendo-switch-2-too-big",
+            "time_published": "20250329T141932",
+            "authors": [
+                "Eric Frederiksen"
+            ],
+            "summary": "Before Nintendo spills all the beans on its launch plans, there's growing concern that bigger won't actually be better with the Switch 2.",
+            "banner_image": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2024/11/switch2-attach.png@webp",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.096654,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.043421",
+                    "ticker_sentiment_score": "0.052572",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SNEJF",
+                    "relevance_score": "0.043421",
+                    "ticker_sentiment_score": "0.052572",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NTDOF",
+                    "relevance_score": "0.826537",
+                    "ticker_sentiment_score": "0.09341",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Got $200 to Invest? 2 Elite Ultra-High-Yield Dividend Stocks to Buy for Income and Never Look Back.",
+            "url": "https://www.fool.com/investing/2025/03/29/got-200-2-elite-ultra-high-yield-dividend-stocks-t/",
+            "time_published": "20250329T135200",
+            "authors": [
+                "Matt DiLallo"
+            ],
+            "summary": "Some companies really stand out for their ability to pay dividends. Their high-yielding payouts supply investors with lucrative and reliable income streams. And some have impressively long track records of regularly increasing their payouts.Enterprise Products Partners ( NYSE: EPD ) and NNN REIT ...",
+            "banner_image": "https://g.foolcdn.com/editorial/images/812722/a-rising-arrow-with-100-bills-in-the-background.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.990999"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.376234,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "OXY",
+                    "relevance_score": "0.048036",
+                    "ticker_sentiment_score": "0.117868",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WYCC",
+                    "relevance_score": "0.048036",
+                    "ticker_sentiment_score": "0.287848",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NNN",
+                    "relevance_score": "0.282234",
+                    "ticker_sentiment_score": "0.287279",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Bitcoin adoption in EU limited by 'fragmented' regulations - Analysts",
             "url": "https://cointelegraph.com/news/bitcoin-adoption-eu-fragmented-regulations-analysts",
@@ -35,6 +129,28 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
+        },
+        {
+            "title": "Here's Last Year's Average 401 ( k )  Contribution",
+            "url": "https://www.fool.com/retirement/2025/03/29/heres-last-years-average-401k-contribution/",
+            "time_published": "20250329T133000",
+            "authors": [
+                "James Brumley"
+            ],
+            "summary": "Most workers are taking full advantage of the workplace-offered savings option, and are well rewarded for doing so.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F812596%2Finvestor-reviewing-a-stock-portfolio.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.203151,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "QUBT ANNOUNCEMENT: Kessler Topaz Meltzer & Check, LLP Notifies Investors of a Class Action Lawsuit Against Quantum Computing Inc.  ( QUBT )  - Quantum Computing  ( NASDAQ:QUBT ) ",
@@ -2000,285 +2116,6 @@
                     "relevance_score": "0.074692",
                     "ticker_sentiment_score": "0.140958",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "TBBK REPORT: The Bancorp, Inc. Investors with Losses are Reminded of the Imminent May 16 Class Action Deadline",
-            "url": "https://markets.businessinsider.com/news/stocks/tbbk-report-the-bancorp-inc.-investors-with-losses-are-reminded-of-the-imminent-may-16-class-action-deadline-1034528114",
-            "time_published": "20250329T110800",
-            "authors": [
-                "NEWSFILE"
-            ],
-            "summary": "New York, New York-- ( Newsfile Corp. - March 29, 2025 ) - Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against The Bancorp, Inc. ( NASDAQ: TBBK ) and certain of the Company's senior executives for potential violations of the federal securities ...",
-            "banner_image": "https://api.newsfilecorp.com/newsinfo/246472/208",
-            "source": "Business Insider",
-            "category_within_source": "RSS",
-            "source_domain": "markets.businessinsider.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.977154"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.02455,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TBBK",
-                    "relevance_score": "0.293741",
-                    "ticker_sentiment_score": "0.026677",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.060085",
-                    "ticker_sentiment_score": "0.139086",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "FLNC REPORT: Fluence Energy, Inc. Investors with Losses are Reminded of the Imminent May 12 Class Action Deadline",
-            "url": "https://markets.businessinsider.com/news/stocks/flnc-report-fluence-energy-inc.-investors-with-losses-are-reminded-of-the-imminent-may-12-class-action-deadline-1034528116",
-            "time_published": "20250329T110800",
-            "authors": [
-                "NEWSFILE"
-            ],
-            "summary": "New York, New York-- ( Newsfile Corp. - March 29, 2025 ) - Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Fluence Energy, Inc. ( NASDAQ: FLNC ) and certain of the Company's senior executives for potential violations of the federal ...",
-            "banner_image": "https://api.newsfilecorp.com/newsinfo/246469/208",
-            "source": "Business Insider",
-            "category_within_source": "RSS",
-            "source_domain": "markets.businessinsider.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.839681"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.986564"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.061148,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "FLNC",
-                    "relevance_score": "0.862954",
-                    "ticker_sentiment_score": "0.016933",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.069697",
-                    "ticker_sentiment_score": "0.140053",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "RC REPORT: Ready Capital Investors with Losses are Reminded of the Imminent May 5 Class Action Deadline",
-            "url": "https://markets.businessinsider.com/news/stocks/rc-report-ready-capital-investors-with-losses-are-reminded-of-the-imminent-may-5-class-action-deadline-1034528115",
-            "time_published": "20250329T110800",
-            "authors": [
-                "NEWSFILE"
-            ],
-            "summary": "New York, New York-- ( Newsfile Corp. - March 29, 2025 ) - Leading securities law firm Bleichmar Fonti & Auld LLP announces that a lawsuit has been filed against Ready Capital Corporation ( NYSE: RC ) and certain of the Company's senior executives for potential violations of the federal ...",
-            "banner_image": "https://api.newsfilecorp.com/newsinfo/246470/208",
-            "source": "Business Insider",
-            "category_within_source": "RSS",
-            "source_domain": "markets.businessinsider.com",
-            "topics": [
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.12932,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "RC",
-                    "relevance_score": "0.831503",
-                    "ticker_sentiment_score": "0.171298",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.078354",
-                    "ticker_sentiment_score": "0.141787",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Should You Be Invested in Stocks Right Now? Here's What History Says.",
-            "url": "https://www.fool.com/investing/2025/03/29/should-you-be-invested-in-stocks-right-now-heres-w/",
-            "time_published": "20250329T110500",
-            "authors": [
-                "Brett Schafer"
-            ],
-            "summary": "The stock market has crossed back out of its recent correction. Even the tech-centric Nasdaq-100 is only down 9% from its all-time high, compared to the 10%-below-peak threshold that officially marks a correction.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/812377/chart.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.998333"
-                }
-            ],
-            "overall_sentiment_score": -0.036274,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "This Is the Top Mag 7 Stock to Buy Today",
-            "url": "https://www.fool.com/investing/2025/03/29/the-top-mag-7-stock-to-buy-today/",
-            "time_published": "20250329T110000",
-            "authors": [
-                "Travis Hoium"
-            ],
-            "summary": "One stock stands out above the rest.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/812850/thinking.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.108179"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": -0.132771,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.441059",
-                    "ticker_sentiment_score": "-0.364754",
-                    "ticker_sentiment_label": "Bearish"
-                },
-                {
-                    "ticker": "NFLX",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "-0.172504",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.441059",
-                    "ticker_sentiment_score": "-0.364754",
-                    "ticker_sentiment_label": "Bearish"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "-0.172504",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.154455",
-                    "ticker_sentiment_score": "-0.172504",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.303175",
-                    "ticker_sentiment_score": "-0.282854",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.303175",
-                    "ticker_sentiment_score": "-0.282854",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Is SoundHound AI Stock the Best Buy Now After the Market Correction?",
-            "url": "https://www.fool.com/investing/2025/03/29/stock-market-correction-is-soundhound-ai-stock-the/",
-            "time_published": "20250329T110000",
-            "authors": [
-                "Keithen Drury"
-            ],
-            "summary": "While the stock market has risen out of correction territory, plenty of stocks are much lower than just a few months ago. One of those is SoundHound AI ( NASDAQ: SOUN ) , which is still down around 60% from its December highs. With the stock that low, many investors might wonder if this is a ...",
-            "banner_image": "https://media.ycharts.com/charts/1686080c79f25129ef2467fa742b5d43.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.992549"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.999999"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.217381,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.40225",
-                    "ticker_sentiment_score": "0.363216",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "SOUN",
-                    "relevance_score": "0.40225",
-                    "ticker_sentiment_score": "0.358873",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
