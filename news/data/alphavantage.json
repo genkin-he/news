@@ -1,8 +1,236 @@
 {
-    "items": "41",
+    "items": "44",
     "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
+        {
+            "title": "Trump Unveils Massive Tariff Plan to Slash $1.2 Trillion Trade Deficit: 'Access To The American Market Is A Privilege'",
+            "url": "https://www.benzinga.com/markets/25/04/44621408/market-access-has-a-price-trump-unveils-list-of-tariffs-countries-targeted",
+            "time_published": "20250403T054911",
+            "authors": [
+                "Vishaal Sanjay"
+            ],
+            "summary": "President Donald Trump declared a national emergency to unveil his list of reciprocal tariffs on some of America's biggest trade partners.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/04/03/Trump-Makes-It-Clear-Hes-Not-Joking-Abou.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.796627"
+                }
+            ],
+            "overall_sentiment_score": -0.077412,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FOREX:USD",
+                    "relevance_score": "0.040553",
+                    "ticker_sentiment_score": "0.077148",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Tesla Brand Won't Suffer From Elon Musk's 'Antics,' Says Analyst Despite Delivery Miss, 8% Stock Drop In After-Hours Trading - Lucid Group  ( NASDAQ:LCID ) , NIO  ( NYSE:NIO ) ",
+            "url": "https://www.benzinga.com/markets/equities/25/04/44621297/tesla-brand-wont-suffer-from-elon-musks-antics-says-analyst-despite-delivery-miss-8-stock-drop-i",
+            "time_published": "20250403T054423",
+            "authors": [
+                "Kaustubh Bagalkote"
+            ],
+            "summary": "New Street Research analyst Pierre Ferragu defended his position on Wednesday that negative publicity surrounding CEO Elon Musk won't harm Tesla Inc. TSLA in the medium term.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/04/03/Tariffs-Hit-Tesla-Hard.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.996023"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": -0.019657,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LCID",
+                    "relevance_score": "0.158519",
+                    "ticker_sentiment_score": "0.119436",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RIVN",
+                    "relevance_score": "0.158519",
+                    "ticker_sentiment_score": "0.119436",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.576289",
+                    "ticker_sentiment_score": "-0.119231",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NIO",
+                    "relevance_score": "0.158519",
+                    "ticker_sentiment_score": "0.119436",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Lawmakers Press SEC for Details on Trump's Crypto Connections",
+            "url": "https://decrypt.co/313094/lawmakers-press-sec-details-trumps-crypto-connections",
+            "time_published": "20250403T054023",
+            "authors": [
+                "Vismaya V"
+            ],
+            "summary": "Trump's crypto ties pose \"an unprecedented conflict of interest,\" said lawmakers asking the SEC for answers on paused enforcement cases.",
+            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/09/BarronTrump-scaled-gID_7.jpg",
+            "source": "Decrypt.co",
+            "category_within_source": "n/a",
+            "source_domain": "decrypt.co",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.451494"
+                }
+            ],
+            "overall_sentiment_score": 0.04804,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "COIN",
+                    "relevance_score": "0.068112",
+                    "ticker_sentiment_score": "-0.091256",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:UNI",
+                    "relevance_score": "0.068112",
+                    "ticker_sentiment_score": "-0.091256",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Did ChatGPT come up with Trump's tariff rate formula?",
+            "url": "https://cointelegraph.com/news/trump-tariff-rate-formula-replicated-chatgpt-observers-claim",
+            "time_published": "20250403T053608",
+            "authors": [
+                "Martin Young"
+            ],
+            "summary": "There's a crazy theory on social media that US President Donald Trump's newly announced reciprocal tariff plan - which hits all countries with a minimum 10% tariff - could have been designed by an artificial intelligence chatbot.Only a short period after Trump announced the tariffs at the White ...",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-04/0195fa12-8485-76d2-934d-2c33df9cb136",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Blockchain",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.033077,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.178459",
+                    "ticker_sentiment_score": "-0.329265",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "FemiPro Reviews  ( Is It Safe And Legit? )  Clinically Researched Ingredients For Healthy Urinary System or Over Hype?",
+            "url": "https://www.benzinga.com/pressreleases/25/04/g44621279/femipro-reviews-is-it-safe-and-legit-clinically-researched-ingredients-for-healthy-urinary-system-",
+            "time_published": "20250403T053043",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "SEATTLE, April 03, 2025 ( GLOBE NEWSWIRE ) -- A healthy and strong urinary system is a key element in determining the overall health of an individual. This FemiPro review aims to introduce a novel urinary health support formula that works uniquely to enhance the health of the urinary system.",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/43aa2203-143f-4fc5-881d-4bd49a6a1609/femipro-reviews.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.370679,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EBAY",
+                    "relevance_score": "0.0226",
+                    "ticker_sentiment_score": "0.070257",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Transaction in Own Shares",
+            "url": "https://www.globenewswire.com/news-release/2025/04/03/3054827/0/en/Transaction-in-Own-Shares.html",
+            "time_published": "20250403T053000",
+            "authors": [
+                "Endeavour Mining PLC"
+            ],
+            "summary": "London, 03 April 2025 - Endeavour Mining plc ( LSE:EDV, TSX:EDV ) ( \"the Company\" ) announces it has purchased the following number of its ordinary shares of USD 0.01 each from Stifel Nicolaus Europe Limited.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/cff109e5-0693-447f-8afe-290bcfdfd66f",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.77141"
+                }
+            ],
+            "overall_sentiment_score": 0.152933,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CURN",
+                    "relevance_score": "0.063933",
+                    "ticker_sentiment_score": "0.020175",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LDNXF",
+                    "relevance_score": "0.063933",
+                    "ticker_sentiment_score": "0.231468",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
         {
             "title": "Bitcoin Reeling From Trump's 'Liberation Day' Shock But These Gold-Backed Coins Are Killing It This Year - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
             "url": "https://www.benzinga.com/25/04/44621245/gold-backed-cryptos-match-yellow-metals-highs-following-trumps-liberation-day-shock",
@@ -39,6 +267,47 @@
                     "relevance_score": "0.228073",
                     "ticker_sentiment_score": "0.465997",
                     "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Bitcoiner speculates 'massive' bot spam briefly took down Bitcoin mailing list",
+            "url": "https://cointelegraph.com/news/bitcoiner-speculates-massive-bot-spam-caused-google-briefly-ban-bitcoin-mailing-list",
+            "time_published": "20250403T051554",
+            "authors": [
+                "Brayden Lindrea"
+            ],
+            "summary": "One of Bitcoin's key communication tools used to discuss potential protocol changes was knocked out for several hours starting on April 2, with one moderator speculating it may have been a targeted attack assisted by bots.",
+            "banner_image": "https://s3.cointelegraph.com/uploads/2025-04/0195fa02-e127-7aa7-aeb9-772fda100ca8",
+            "source": "Cointelegraph",
+            "category_within_source": "n/a",
+            "source_domain": "cointelegraph.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": -0.12379,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.507932",
+                    "ticker_sentiment_score": "-0.423618",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "BSQKZ",
+                    "relevance_score": "0.091162",
+                    "ticker_sentiment_score": "-0.140046",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:BTC",
+                    "relevance_score": "0.914123",
+                    "ticker_sentiment_score": "-0.159571",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
         },
@@ -84,6 +353,28 @@
             ],
             "overall_sentiment_score": 0.373294,
             "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
+            "title": "SIKA EXPANDS PRESENCE IN ECUADOR WITH A NEW PLANT",
+            "url": "https://www.globenewswire.com/news-release/2025/04/03/3054818/0/en/SIKA-EXPANDS-PRESENCE-IN-ECUADOR-WITH-A-NEW-PLANT.html",
+            "time_published": "20250403T050000",
+            "authors": [
+                "Sika AG"
+            ],
+            "summary": "SIKA EXPANDS PRESENCE IN ECUADOR WITH A NEW PLANT With the opening of the new plant in Quito, Sika further strengthens its presence and proximity to customers in Ecuador.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/c6caa31b-0036-4000-94ed-fb7a27903089",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.344776,
+            "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": []
         },
         {
@@ -196,6 +487,68 @@
                     "ticker": "SNY",
                     "relevance_score": "0.226213",
                     "ticker_sentiment_score": "0.064253",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "DNO Releases 2024 Annual Report and Accounts",
+            "url": "https://www.globenewswire.com/news-release/2025/04/03/3054821/0/en/DNO-Releases-2024-Annual-Report-and-Accounts.html",
+            "time_published": "20250403T050000",
+            "authors": [
+                "DNO ASA"
+            ],
+            "summary": "Oslo, 3 April 2025 - DNO ASA, the Norwegian oil and gas operator, today released its 2024 Annual Report and Accounts together with its Remuneration Report and Annual Statement of Reserves and Resources.",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/f3535e5c-2f97-43d5-92ad-95946b858642",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                }
+            ],
+            "overall_sentiment_score": 0.252836,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DTNOF",
+                    "relevance_score": "0.524949",
+                    "ticker_sentiment_score": "0.287913",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Pharming Group announces the filing of its 2024 Annual Report and Form 20-F",
+            "url": "https://www.globenewswire.com/news-release/2025/04/03/3054819/0/en/Pharming-Group-announces-the-filing-of-its-2024-Annual-Report-and-Form-20-F.html",
+            "time_published": "20250403T050000",
+            "authors": [
+                "Pharming Group N.V."
+            ],
+            "summary": "Leiden, the Netherlands, April 3, 2025: Pharming Group N.V. ( \"Pharming\" or \"the Company\" ) ( Euronext Amsterdam: PHARM / Nasdaq: PHAR ) announces the filing of its Annual Report for the year ended December 31, 2024 ( the \"Period\" ) .",
+            "banner_image": "https://ml-eu.globenewswire.com/Resource/Download/f164672f-d67c-41d2-9c79-46caee419077",
+            "source": "GlobeNewswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.globenewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.009494,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PHAR",
+                    "relevance_score": "0.674691",
+                    "ticker_sentiment_score": "0.026253",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1201,267 +1554,6 @@
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
-        },
-        {
-            "title": "Hong Kong stocks slide to 6-week low on Trump tariffs as exporters tumble",
-            "url": "https://www.scmp.com/business/china-business/article/3304986/hong-kong-stocks-slide-6-week-low-trump-tariffs-exporters-tumble",
-            "time_published": "20250403T022917",
-            "authors": [
-                "Zhang Shidong"
-            ],
-            "summary": "Companies with the biggest overseas sales lead decliners among Hong Kong stocks.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/04/03/8efc7060-82f4-4516-8dd3-58d6d8fe6c0a_c6761f15.jpg?itok=IBb2Cl16&v=1743647244",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.214378"
-                }
-            ],
-            "overall_sentiment_score": -0.19169,
-            "overall_sentiment_label": "Somewhat-Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BABA",
-                    "relevance_score": "0.102449",
-                    "ticker_sentiment_score": "-0.085522",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "LNVGF",
-                    "relevance_score": "0.102449",
-                    "ticker_sentiment_score": "-0.269269",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "TCTZF",
-                    "relevance_score": "0.102449",
-                    "ticker_sentiment_score": "-0.085522",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Amid uncertainty, US Inc hoarding cash - ETCFO",
-            "url": "https://cfo.economictimes.indiatimes.com/news/economy/amid-uncertainty-us-inc-hoarding-cash/119925419",
-            "time_published": "20250403T022216",
-            "authors": [
-                "ETCFO"
-            ],
-            "summary": "The value of announced buybacks in the US reached $39.1 billion in March, the lowest dollar value since October 2020 and the lowest for March since 2019, according to data compiled by Birinyi Associates. That's a worrisome sign for investors since buybacks offer a crucial pillar of support for ...",
-            "banner_image": "https://img.etb2bimg.com/files/cp/upload-1716885663-etcfo-default.webp",
-            "source": "Economic Times",
-            "category_within_source": "Economy",
-            "source_domain": "cfo.economictimes.indiatimes.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.858979"
-                }
-            ],
-            "overall_sentiment_score": -0.056503,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "OnlyFans Founder's New Startup and Hbar Foundation Submit Bid for TikTok",
-            "url": "https://decrypt.co/313066/onlyfans-founders-new-startup-hbar-foundation-tiktok-bid",
-            "time_published": "20250403T021824",
-            "authors": [
-                "Callan Quinn"
-            ],
-            "summary": "The duo join a growing number of crypto firms and tech giants vying for TikTok as a U.S. divest-or-ban deadline looms.",
-            "banner_image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/05/shutterstock_1451827259-gID_7.jpg",
-            "source": "Decrypt.co",
-            "category_within_source": "n/a",
-            "source_domain": "decrypt.co",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": 0.033659,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.119235",
-                    "ticker_sentiment_score": "0.262281",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "RDDT",
-                    "relevance_score": "0.119235",
-                    "ticker_sentiment_score": "0.084527",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.119235",
-                    "ticker_sentiment_score": "0.262281",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "CRYPTO:HBAR",
-                    "relevance_score": "0.235823",
-                    "ticker_sentiment_score": "-0.001784",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Trump's Sweeping Tariffs Could Cost US $20 Trillion, Crash Markets Warn Economists: 'Monstrously Destructive' - Apple  ( NASDAQ:AAPL ) ",
-            "url": "https://www.benzinga.com/markets/equities/25/04/44620423/trumps-sweeping-tariffs-could-cost-us-20-trillion-crash-markets-warn-economists-monstrously-dest",
-            "time_published": "20250403T021150",
-            "authors": [
-                "Kaustubh Bagalkote"
-            ],
-            "summary": "Leading economists reacted with alarm after President Donald Trump announced sweeping new tariffs on U.S. trading partners, with some projecting potential economic losses of up to $20 trillion.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/04/02/Tariffs-News-Headlines-Over-An-American-.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.977154"
-                }
-            ],
-            "overall_sentiment_score": -0.024746,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "ALIZF",
-                    "relevance_score": "0.067158",
-                    "ticker_sentiment_score": "0.125333",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.133841",
-                    "ticker_sentiment_score": "0.019489",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Mark Zuckerberg-Led Meta Set To Face 'Truth' At Senate Hearing Over China Operations And Communist Party Censorship Efforts - Meta Platforms  ( NASDAQ:META ) ",
-            "url": "https://www.benzinga.com/news/legal/25/04/44620411/mark-zuckerberg-led-meta-set-to-face-truth-at-senate-hearing-over-china-operations-and-communist-party",
-            "time_published": "20250403T020948",
-            "authors": [
-                "Ananya Gairola"
-            ],
-            "summary": "The Senate Judiciary Subcommittee is set to hold a hearing next week to examine Mark Zuckerberg-led Meta Platforms, Inc.'s META alleged efforts to establish a presence in China and its ties to censorship tools.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/04/02/Meta-Platforms-Inc-_0.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "News",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.266143"
-                }
-            ],
-            "overall_sentiment_score": 0.150512,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "META",
-                    "relevance_score": "0.246999",
-                    "ticker_sentiment_score": "0.011131",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Apple shares tumble as Trump imposes tariffs on production hubs",
-            "url": "https://www.scmp.com/tech/big-tech/article/3304981/apple-shares-tumble-trump-imposes-tariffs-production-hubs-including-china",
-            "time_published": "20250403T020019",
-            "authors": [
-                "Bloomberg"
-            ],
-            "summary": "The new levies are likely to squeeze Apple's margins, given that it is unlikely to hike prices to offset the effects, analysts say.",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/04/03/87e75ade-a542-4919-add3-9a76af7ab2b5_16a4a478.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": -0.028668,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SSNLF",
-                    "relevance_score": "0.082111",
-                    "ticker_sentiment_score": "-0.147984",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "MPF gained US$4.5 billion in first quarter due to market rally",
-            "url": "https://www.scmp.com/business/article/3304959/hong-kongs-mpf-gained-us45-billion-first-quarter-or-us936-each-member",
-            "time_published": "20250403T020007",
-            "authors": [
-                "Enoch Yiu"
-            ],
-            "summary": "Hong Kong and China equities led all asset classes in the first quarter, while US equities slumped, according to MPF Ratings.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/04/02/5ec5cb7b-6078-4fbb-88f9-d5eb2375b83a_a8de3298.jpg?itok=Jhcs2YGb&v=1743604492",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.576289"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.084731,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": []
         }
     ]
 }
