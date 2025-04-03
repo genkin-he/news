@@ -47,12 +47,6 @@ def run():
                 title = post["attributes"]["title"]
                 image = post["links"]["uriImage"]
                 link = base_url + post["links"]["self"]
-                publish_on = post["attributes"]["publishOn"]
-                pub_date = util.current_time_string()
-                if "-05:00" in publish_on:
-                    pub_date = util.parse_time(publish_on, "%Y-%m-%dT%H:%M:%S-05:00")
-                elif "-04:00" in publish_on:
-                    pub_date = util.parse_time(publish_on, "%Y-%m-%dT%H:%M:%S-04:00")
 
                 if link in ",".join(links):
                     util.info("exists link: {}".format(link))
@@ -72,7 +66,7 @@ def run():
                             "description": description,
                             "image": image,
                             "link": link,
-                            "pub_date": pub_date,
+                            "pub_date": util.current_time_string(),
                             "source": "seekalpha",
                             "kind": 1,
                             "language": "en",
