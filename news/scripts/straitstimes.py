@@ -79,7 +79,12 @@ def run():
         for index in range(len(items)):
             if index > 2:
                 break
-            link = base_url + items[index].select_one(".stretched-link")["href"].strip()
+            stretched_link = items[index].select_one(".stretched-link")
+            if stretched_link and stretched_link.get("href"):
+                link = base_url + stretched_link["href"].strip()
+            else:
+                util.error("无法找到链接元素或 href 属性")
+                continue
             if link in ",".join(_links):
                 util.info("exists link: {}".format(link))
                 continue
