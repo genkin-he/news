@@ -1,6 +1,38 @@
 {
     "news": [
         {
+            "id": "9643422b-37d7-48c8-b41d-00090095be99",
+            "timestamp": "2025-04-13T11:47:01Z",
+            "date": "2025-04-13",
+            "time": "11:47:01",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "url": "https://cointelegraph.com/news/how-to-build-an-ai-crypto-trading-bot-with-custom-gpts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "summary": "The article discusses how AI, specifically Custom GPTs, is revolutionizing cryptocurrency trading by allowing beginners and enthusiasts to create intelligent trading bots that can analyze data, generate signals, and execute trades. To build an AI trading bot, users need tools like OpenAI ChatGPT Plus subscription, a crypto exchange account with API access (e.g., Coinbase, Binance), basic Python knowledge, and a paper trading environment for testing. The article provides a step-by-step guide to setting up a bot, creating a custom GPT, generating trading code, implementing risk management, testing in a paper trading environment, and deploying the bot for live trading.Important numbers and concepts mentioned include the need for a ChatGPT Plus subscription for access to GPT-4 and custom GPTs, the necessity of API access for exchanges like Coinbase, Binance, Kraken, and the importance of defining clear trading strategies. The article offers examples such as buying when Bitcoin's price drops by more than 3%, selling based on RSI exceeding 70, and entering a long position after MACD crossover. It also discusses Python libraries like ccxt, pandas, ta, and schedule for trading bot development. Additionally, the article emphasizes risk management, such as implementing stop-loss mechanisms, position size limits, and capital allocation controls.The piece highlights the use of testnets or sandbox environments for simulated trading, backtesting, and the need for continuous monitoring of bots for potential errors or market changes. It advises on securely replacing test API keys with live ones for actual trading and suggests hosting the bot on a cloud server for continuous operation. Furthermore, the article warns about risks associated with trading bots, including market volatility, API errors, bugs in code, security vulnerabilities, and overfitting. It encourages starting with small investments, using strong risk management, and monitoring bot behavior regularly for safe trading practices.",
+            "source_type": "news",
+            "headline": "Create an AI crypto trading bot using Custom GPTs for analyzing data and executing trades, with Python, OpenAI's ChatGPT, and Binance API.",
+            "tickers": [
+                "NWSA"
+            ],
+            "is_major": false,
+            "beta_headline": null
+        },
+        {
+            "id": "7a4896c4-dff2-4888-a1c4-5a2618e71108",
+            "timestamp": "2025-04-13T11:46:59Z",
+            "date": "2025-04-13",
+            "time": "11:46:59",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "url": "https://cointelegraph.com/news/cryptopunk-trader-six-year-sentence-13-m-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "summary": "A 45-year-old NFT trader named Waylon Wilcox pleaded guilty to underreporting nearly $13 million in profits from trading CryptoPunks, a popular NFT collection, between 2021 and 2022. Wilcox filed false income tax returns for those years, reducing his tax due significantly. He faces up to six years in prison, supervised release, and fines for two counts of filing false tax returns. Wilcox bought and sold 97 CryptoPunks, making a total profit of around $12.3 million, but didn't report those earnings accurately to the IRS. The case was investigated by the IRS and the Criminal Investigation Department. The US has been stepping up crypto tax regulations, with a recent rule requiring centralized crypto exchanges to report transactions to the IRS. While some advisers believe stablecoin and crypto banking regulations should be prioritized, others see benefits in focusing on tax legislation.",
+            "source_type": "news",
+            "headline": "Trader faces 6-year prison for $13M tax fraud on CryptoPunk profits. Non-fungible token trader admits to underreporting earnings.",
+            "tickers": [],
+            "is_major": false,
+            "beta_headline": null
+        },
+        {
             "id": "32bbccd1-9065-4066-a213-a1783f37e220",
             "timestamp": "2025-04-13T11:39:39Z",
             "date": "2025-04-13",
@@ -769,38 +801,6 @@
             "summary": "February's employment figures revealed a slight increase in hiring, alongside the initiation of around 50,000 reductions in positions related to Dogecoin and the enforcement of tariffs by the Trump administration during the middle of the month. Despite this, the post-jobs report indicated a weakened labor market. The Federal Reserve Chair, Powell, described the situation as \"solid.\" Following these developments, the S&P 500 index experienced a rebound.",
             "source_type": "news",
             "headline": "February jobs report shows modest hiring, start of DOGE job cuts and Trump tariffs. Fed Chair Powell calls it 'solid'; S&P 500 bounces.",
-            "tickers": [],
-            "is_major": false,
-            "beta_headline": null
-        },
-        {
-            "id": "dac24b05-5ce4-49c7-a394-fe99ad7bbfaa",
-            "timestamp": "2025-04-12T20:06:11Z",
-            "date": "2025-04-12",
-            "time": "20:06:11",
-            "source": "Investors.com",
-            "category": "securities",
-            "url": "https://www.investors.com/news/economy/cpi-inflation-feb-trump-federal-reserve-sp-500/",
-            "summary": "In February, the core consumer price index revealed a larger-than-anticipated decrease in inflation, indicating consumers may be exercising more caution. Following this news, S&P 500 futures experienced a significant increase. The post-CPI report suggests that inflation is cooling amidst a decrease in travel stemming from the Trump administration, with the S&P 500 index bouncing back as a result.",
-            "source_type": "news",
-            "headline": "Feb CPI shows core inflation cooled more than expected. S&P 500 futures surged amid Trump travel slump.",
-            "tickers": [
-                "CPI"
-            ],
-            "is_major": true,
-            "beta_headline": null
-        },
-        {
-            "id": "c74f77c7-bf39-49b7-9340-7a9f55f12386",
-            "timestamp": "2025-04-12T20:06:10Z",
-            "date": "2025-04-12",
-            "time": "20:06:10",
-            "source": "Investors.com",
-            "category": "crypto",
-            "url": "https://www.investors.com/news/economy/doge-layoffs-unemployment-initial-claims-ppi-government-shutdown-sp-500/",
-            "summary": "The recent layoffs at DOGE have not yet affected initial claims for unemployment benefits. Despite this, concerns about a potential shutdown are emerging. The S&P 500 has experienced a slight slip in response to these developments. The impact of the DOGE job losses on unemployment claims is not yet reflected in data. The possibility of a shutdown is looming, causing some uncertainty in the market. The S&P 500 has seen a decrease following this news.",
-            "source_type": "news",
-            "headline": "No impact on jobless claims from DOGE layoffs, shutdown possibility; S&P 500 slips. Coverage on Investor's Business Daily.",
             "tickers": [],
             "is_major": false,
             "beta_headline": null
