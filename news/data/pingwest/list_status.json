@@ -1,6 +1,24 @@
 {
     "data": [
         {
+            "title": "小汽车启动720亿参数自驾基模研发，初步验证自动驾驶规模法则",
+            "description": "<article class=\"wire-content article-style\"><p>【4月14日，香港】汽车行业开始进入全新的大模型研发浪潮。4月14日，小鹏汽车在香港举办AI技术分享会，首次披露正在研发720亿参数的超大规模自动驾驶大模型，即“小鹏世界基座模型”。未来，小鹏将通过云端蒸馏小模型的方式将基模部署到车端，给“AI汽车”配备全新的大脑。这款模型同时也将赋能小鹏的AI机器人、飞行汽车等。</p><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/PCG6y841YXCi3sx4AmE3pArJn183SB_4?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><p>小鹏汽车自动驾驶负责人李力耘介绍，小鹏基模是一个以大语言模型为骨干网络，使用海量优质驾驶数据训练的多模态大模型，具备视觉理解能力、链式推理能力和动作生成能力。通过强大的强化学习训练，基座模型不断自我进化，将逐步发展出媲美甚至超越人类的自动驾驶技术。</p><p>李力耘透露，为了研发基模，小鹏汽车早在去年就开始布局AI基础设施，现已建成国内汽车行业首个万卡智算集群，用以支持基座模型的预训练、后训练、模型蒸馏、车端模型训练等任务，小鹏汽车将这套从云到端的生产流程称之为“云端模型工厂”。目前，小鹏“云端模型工厂”拥有10 EFLOPS的算力，集群运行效率常年保持在90%以上，从云到端的全链路迭代周期可达平均5天一次。</p><p><b>小鹏世界基座模型：具备长思维链推理能力，参数规模高达720亿</b></p><p>早在2024年下半年，小鹏汽车已开始面向L4级别的自动驾驶研发全新的“AI大脑”，即小鹏世界基座模型。</p><p>小鹏研发团队利用优质自动驾驶训练数据，先后开发了多个尺寸的基座模型，目前已经着手推进72B（72 Billion，即720亿）超大规模参数世界基座模型的研发，参数量是主流 VLA 模型的35 倍左右。</p><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/xRbN8Xsktj6D7Fs266s4rMsetXCjNZTB?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><p>小鹏世界基座模型的一大优势是具备链式推理能力（CoT），在充分理解现实世界的基础上，能够像人类一样进行复杂的常识推理，并将推理结果转化为行动，例如输出方向盘、刹车等控制信号，实现和物理世界的交互。</p><p>未来，经由基座模型的赋能，智能驾驶系统有望从“模仿人类”进化到“超越人类”，最终能够处理全场景的自动驾驶问题，包括一些模型从来没在训练数据中遇到的问题。</p><p>从设计之初，小鹏汽车就将基模定位为一个可以泛化到多种具身终端的基座模型。李力耘表示：“小鹏世界基座模型是小鹏自动驾驶真正走向L3、L4的基础，也会是未来小鹏所有物理AI终端的通用模型。”后续，小鹏世界基座模型将全面赋能小鹏AI体系全图谱，应用到小鹏汽车的AI汽车、AI机器人、飞行汽车上。</p><p><b>从0打造云端模型工厂，开启AI时代模型生产新范式</b></p><p>为了开发小鹏世界基座模型，小鹏汽车打造了一座“云端模型工厂”，工厂“车间”涵盖基座模型预训练和后训练（强化学习训练）、模型蒸馏、车端模型预训练到部署上车的完整生产链路。“云端模型工厂”采用强化学习、模型蒸馏的技术路线，能够高效生产“小身材、大智商”的端侧模型，甚至为不同需求的汽车定制不同的“大脑”，让“千人千面”的模型研发成为可能。</p><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/Zja2H6mzW5344JSaW5h34AENWiT65KyR?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><p>小鹏汽车从2024年开始搭建AI基础设施（AI Infra），当前已建立起万卡规模的智能算力集群，是目前国内汽车行业最大的自动驾驶算力集群。小鹏汽车的算力储备达到10EFLOPS，集群利用率常年高达90%以上，高峰时期的运行效率甚至达到98%。</p><p>小鹏世界基座模型负责人刘博士介绍，多模态模型训练的主要瓶颈不仅是 GPU，也需要解决数据访问的效率问题。小鹏汽车自主开发了底层的数据基础设施（Data Infra），使数据上传规模提升22倍、训练中的数据带宽提升15倍；通过联合优化 GPU / CPU 以及网络 I/O，最终使模型训练速度提升了 5 倍。目前，小鹏汽车用于训练基座模型的视频数据量高达2000万clips，这一数字今年将增加到2亿clips。</p><p>依托强大的AI基础设施和数据基础设施，小鹏开启了全新的基座模型研发范式，从云端模型预训练到车端模型部署，整个“云端模型工厂”的迭代周期达到平均5天一次。</p><p><b>时隔一年，小鹏汽车在物理世界AI领域取得三大阶段性成果</b></p><p>2024年是汽车行业的“端到端”之年，在率先量产端到端大模型一年之时，小鹏汽车又在物理世界大模型研发上再进一步。小鹏汽车在分享会上披露了基模研发的三个阶段性成果：</p><ul><li>阶段性成果1：验证规模法则在自动驾驶领域持续生效；</li></ul><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/2eeCEwMYk_3DE4RM2a3h7sfNs4tCpQN8?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><ul><li>阶段性成果2：在后装算力的车端成功实现基模控车；</li></ul><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/2W244_wxEZ4y36CQ9y2i81a5b42ejC88?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><ul><li>阶段性成果3：启动72B参数基模训练，搭建针对强化学习的模型训练框架。</li></ul><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/aW8T7H3B3DQJr4RPe8Tt4QzfYtcQjQZi?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><p>规模法则（Scaling Law）揭示了大模型的性能如何随着模型的计算量、训练数据量和参数量的提升而提升，被视为AI领域的“摩尔定律”。规模法则在大语言模型（LLM，Large Language Model）领域已被充分验证，但自动驾驶基座模型复杂得多，它的训练数据远不止单模态的文本数据，还包括摄像头信息、导航信息等关于物理世界的多模态数据，本质上，它要求模型对物理世界形成认知和理解。利用驾驶数据训练基模，尤其是参数规模逐步扩大到百亿级别之后，规模法则是否还持续生效？此前行业内不曾有过充分的验证。</p><p>小鹏团队首次验证了规模法则在自动驾驶领域持续生效，刘博士表示：“过去一年，我们做了大量实验，在10亿、30亿、70亿、720亿参数的模型上都看到了明显的规模法则效应：参数规模越大，模型的能力越强。同样的模型大小，训练数据量越大，模型的能力也会越强。”</p><p>不久前，小鹏汽车将理论变为现实，在后装算力的车端上用小尺寸基模实现了控车。尽管只是非常早期的实车测试，全新基模已经展现出令人惊喜的基础驾车技能。</p><p>小鹏汽车去年就已开始研发强化学习技术，用以提升基座模型的性能天花板。刘博士表示，强化学习能够帮助模型自我进化，学会处理训练数据中没有的长尾问题，做到极致安全的自动驾驶。只有足够强大的基座模型，才能被强化学习不断激发出能力上限。这也是小鹏汽车选择云端蒸馏路线的原因之一：在云端不计成本地训练出足够聪明且泛化能力强的模型，将其蒸馏到适配车端算力的小尺寸模型上，最终可让车端模型的性能超越车端算力“一亩三分田”的限制。</p><p>值得一提的是，强化学习、云端蒸馏等技术方案，在今年爆火的DeepSeek论文中都得到了验证。</p><p>基模研发是小鹏汽车“AI化”转型的重要一步，不过，即便来到“大模型时代”，过去“规则时代”的领先经验仍在发挥作用。在开发强化学习的奖励模型（Reward Model）时，研发团队基于规则经验设计了奖励函数，将规则时代的沉淀转化为了训练基座模型的生产力。</p><figure class=\"image\"><img alt=\"\" height=\"835\" src=\"https://cdn.pingwest.com/portal/2025/04/15/portal/2025/04/15/8i1hhFhS877NPz3W2b5HcDTF53Fx_W_8?x-oss-process=style/article-body\" title=\"\" width=\"1484\"/></figure><p>同时，小鹏汽车已经着手开发世界模型(World Model），作为“云端模型工厂”的重要一环，支持基座模型的性能优化。刘博士介绍，小鹏的世界模型是一种实时建模和反馈系统，能够基于动作信号模拟出真实环境状态，渲染场景，并生成场景内其他智能体（也即交通参与者）的响应，从而构建一个闭环的反馈网络，帮助基座模型不断进化，逐渐突破过去“模仿学习”的天花板。</p><p>关于小鹏世界基座模型研发和训练成果更多的细节，今年6月小鹏汽车将会在计算机视觉国际顶会CVPR上进一步分享，敬请期待。</p></article>",
+            "link": "https://www.pingwest.com/w/303911",
+            "pub_date": "2025-04-15 10:26:27",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "title": "智谱GLM开源模型系列迎来新成员，同时启用全球域名“z.ai”",
+            "description": "<article class=\"wire-content article-style\"><p>品玩4月15日讯，据智谱科技官方消息，智谱将开源 32B/9B 系列 GLM 模型，涵盖基座、推理、沉思模型，均遵循 MIT 许可协议。该系列模型现已通过全新平台Z.ai免费开放体验，并已同步上线智谱 MaaS 平台。</p><p>其中，推理模型 GLM-Z1-32B-0414 性能媲美 DeepSeek-R1 等顶尖模型，实测推理速度可达 200 Tokens/秒（MaaS 平台bigmodel.cn），目前国内商业模型中速度最快。此外，其价格仅为 DeepSeek-R1 的 1/30。</p><p>此外，智谱宣布启用全新域名Z.ai，目前该平台整合了 32B 基座、推理、沉思三类 GLM 模型，后续将作为智谱最新模型的交互体验入口。</p><figure class=\"image\"><img alt=\"\" height=\"472\" src=\"https://cdn.pingwest.com/portal/2025/04/15/XXwCc7zc7A1sZzG646HaD2KQ6c364Psr.png?x-oss-process=style/article-body\" title=\"\" width=\"1080\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/303910",
+            "pub_date": "2025-04-15 10:26:28",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "月之暗面被曝正灰度测试首个内容社区产品",
             "description": "<article class=\"wire-content article-style\"><p>品玩4月15日讯，据澎湃新闻报道，月之暗面Kimi将推出其首个内容社区产品，目前正在进行灰度测试。这款产品早在去年末便已启动，一直处于小范围测试状态。</p><p>据悉，即将推出的内容社区产品则是该公司在用户体验上的最新尝试，月之暗面或希望借此提升用户留存率。以往，用户使用Kimi多是基于单次对话场景，而内容社区可将其延伸为持续的内容消费场景。</p><p>该产品还可为月之暗面拓展商业化变现路径。在内容社区中，广告植入变得更加自然和多样化，付费订阅模式也具备了更多可能性。</p><figure class=\"image\"><img alt=\"\" height=\"353\" src=\"https://cdn.pingwest.com/portal/2025/04/15/7dar2sRPD0rD1_pCCiPdnKMd303D5GZ4.jpeg?x-oss-process=style/article-body\" title=\"\" width=\"626\"/></figure></article>",
             "link": "https://www.pingwest.com/w/303908",
@@ -68,24 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩4月14日讯，据 AIBASE 报道，在北京举办的2025商汤技术交流日上，商汤科技正式宣布其大装置SenseCore2.0全面升级。</p><p>作为AI基础设施领域的领军者，商汤大装置SenseCore2.0致力于为企业提供敏捷、灵活、可靠的全栈AI基础设施服务，以极致性价比推动大模型技术的高效落地与规模化应用。</p><p>商汤大装置SenseCore2.0的升级，旨在应对当前大模型产业面临的三大挑战:开源模型和工具的主流化、性价比的生死线以及多模态技术带来的新场景需求。商汤大装置通过技术创新，实现了异构算力混合计算利用率的显著提升，推理成本大幅降低，同时在线推理性能较头部厂商提升15%，离线推理Prefill阶段提速5倍、Decode阶段提速3.5倍。这些技术突破为大模型技术的应用提供了极致性价比的基础设施服务。</p><figure class=\"image\"><img alt=\"\" height=\"735\" src=\"https://cdn.pingwest.com/portal/2025/04/14/j614aMP6j4s3f7c6B4rHBjKrWbxyRj6z.png?x-oss-process=style/article-body\" title=\"\" width=\"1785\"/></figure></article>",
             "link": "https://www.pingwest.com/w/303899",
             "pub_date": "2025-04-14 16:31:18",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "kimi开源视觉语言模型 Kimi-VL 多项基准超越 GPT-4o",
-            "description": "<article class=\"wire-content article-style\"><p>品玩4月14日讯，据月之暗面官方消息，月之暗面现已面向开源社区推出全新的视觉语言模型 Kimi-VL。</p><p> Kimi-VL采用了前一段时间发布的轻量级 MoE 模型 Moonlight，16B总参数，2.8B激活参数。视觉信息处理部分，采用了支持原生分辨率的 MoonViT 编码器——400M 参数 Vison Transformer 架构。Kimi-VL 支持广泛的多模态信息输入，包括单图、多图、视频、包含视觉信息的长文档等，在图像细粒度感知、数学能力、大学级别的多模态多学科题目、OCR、Agent等基准测试中展现了有竞争力的水平。</p><p>此外kimi还推出了支持长思考的模型分支版本：Kimi-VL-Thinking。它经过强化学习，激活了模型的长思维链推理能力（Long CoT）。尽管 Kimi-VL-Thinking 是个只有 2.8B 激活参数的轻量级模型，但在有较高推理难度的基准测试（包括 MMMU，MathVision，MathVista）中，部分成绩可以接近甚至超过超大尺寸的前沿模型。</p><figure class=\"image\"><img alt=\"\" height=\"426\" src=\"https://cdn.pingwest.com/portal/2025/04/14/bZ6aY4xS6h158i5Z7XC7fSerGf5C_jp6.png?x-oss-process=style/article-body\" title=\"\" width=\"770\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/303898",
-            "pub_date": "2025-04-14 16:16:28",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "中国人工智能产业发展联盟全会召开 360获评年度突出贡献成员单位",
-            "description": "<article class=\"wire-content article-style\"><p>日前，中国人工智能产业发展联盟（以下简称“联盟”）第十四次全会暨人工智能赋能新型工业化深度行（南京站）在江苏南京召开，三六零安全科技股份有限公司（以下简称“360”）受邀出席大会，并被授予2024年度突出贡献成员单位。</p><figure class=\"image\"><img alt=\"\" height=\"713\" src=\"https://cdn.pingwest.com/portal/2025/04/14/portal/2025/04/14/S53fpzhmHirF1xy312D976EsTny6raSm?x-oss-process=style/article-body\" title=\"\" width=\"1070\"/></figure><figure class=\"image\"><img alt=\"\" height=\"798\" src=\"https://cdn.pingwest.com/portal/2025/04/14/portal/2025/04/14/6MrdbPdcit4F064YkprPhyxZsKn46742?x-oss-process=style/article-body\" title=\"\" width=\"1064\"/></figure><p>近年来，在产学研用各方努力下，我国人工智能产业创新持续加速，已取得显著成效。在国家相关部委的指导和各位专家的大力支持下，中国人工智能产业发展联盟不断发展壮大，成员已达1164家，成为人工智能领域最重要的生态网络。</p><p>依托联盟，360自2023年起开始参与工信部“面向人工智能大模型工程化技术及应用的产业公共服务平台”建设运营工作，并担任中国人工智能产业发展联盟“安全治理委员会副组长单位”‌。经过一年建设，2024年10月份上线运营，并打造了一个面向人工智能大模型领域的开源开放社区——鲸智社区。目前，平台已入驻360、智源、智谱、商汤等30余家大模型企业托管2600余个开源大模型，接入360、DeepSeek、阿里千问、字节豆包等100余种国内大模型服务，为国内企业及开发者提供“模型、数据、算力”的开放共享和试用选型提供全面支持。</p></article>",
-            "link": "https://www.pingwest.com/w/303894",
-            "pub_date": "2025-04-14 15:16:18",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
