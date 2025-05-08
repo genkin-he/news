@@ -38,21 +38,36 @@ def get_detail(link):
         body = BeautifulSoup(resp, "lxml")
         soup = body.select_one("#article-body > div:first-child")
 
-        ad_elements = soup.select("style,figure,script,.copyright,.sr-only,.adthrive-content,.call-to-action-container,.lazyload-wrapper")
+        ad_elements = soup.select(
+            "style,figure,script,.copyright,.sr-only,.adthrive-content,.call-to-action-container,.lazyload-wrapper"
+        )
         # 移除这些元素
         for element in ad_elements:
             element.decompose()
 
         # 移除包含 "See Also:" 的 <p class="core-block"> 标签
-        see_also_elements = soup.select('.core-block')
+        see_also_elements = soup.select(".core-block")
         for element in see_also_elements:
             # 定义需要移除的关键词列表
-            remove_keywords = ["See Also:", "SEE ALSO:", "Read Next:", "READ MORE:"]
+            remove_keywords = [
+                "See Also:",
+                "SEE ALSO:",
+                "Read Next:",
+                "READ MORE:",
+                "Read More:",
+            ]
             # 检查元素文本是否包含任何关键词或免责声明标签
-            if (element.text and any(keyword in element.text for keyword in remove_keywords)) or "<em>Disclaimer</em>" in str(element):
-                util.info("移除无关元素: {}".format(element.text.strip()[:30] if element.text else "免责声明"))
+            if (
+                element.text
+                and any(keyword in element.text for keyword in remove_keywords)
+            ) or "<em>Disclaimer</em>" in str(element):
+                util.info(
+                    "移除无关元素: {}".format(
+                        element.text.strip()[:30] if element.text else "免责声明"
+                    )
+                )
                 element.decompose()
-                
+
         return str(soup).strip()
     else:
         util.error("request: {} error: {}".format(link, response.status_code))
