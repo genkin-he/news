@@ -11,13 +11,13 @@ from util.spider_util import SpiderUtil
 
 headers = {
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-    "_pcc": "j4sH/blUnQiTDVxSsJG/5vubnKXnTld3YQvq9pMj662RCjLRXdRSm2QxbKS8cKer40BgiiyinMHF3wposw/KAw3VW1uTmBdvFa9NUoWxoI/WXK2AkmVgMw4K5ca2XZN3drFZhO4/VFyEB8SYeQZqEkmcuQyKS6wvWDM2ntkDN34=",
+    "_pcc": "YfLvmfk1kv15EuyycdG1OuhbDgzYW2gRdx/K7xrxr81Dcbff3QHh4/a/iKESLHexPjfNS74BV9Eg1WC4/IiC1dEnaWD3jnttUZK/VlGV6H8224Vo6iezdH9I2qUG91Pac/vRgJY2/J/oqZGjMlluo5LHuYYAyyd0gR1NZhS/rq4=",
     "accept": "application/json, text/plain, */*",
     "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
     "cache-control": "no-cache",
     "pragma": "no-cache",
     "priority": "u=1, i",
-    "sec-ch-ua": '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"',
+    "sec-ch-ua": '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "empty",
