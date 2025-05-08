@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import logging
 import traceback
-import urllib.request  # 发送请求
+import requests  # 发送请求
 import json
 from util.spider_util import SpiderUtil
 from bs4 import BeautifulSoup
@@ -29,6 +29,7 @@ base_url = "https://ipo.jinwucj.com/info"
 filename = "./news/data/jinwucj/list_hk.json"
 util = SpiderUtil()
 
+
 def run():
     data = util.history_posts(filename)
     articles = data["articles"]
@@ -37,18 +38,13 @@ def run():
 
     data = {"pageNum": 1, "pageSize": 10}
 
-    # request中放入参数，请求头信息
-    request = urllib.request.Request(
-        "https://pro-app-sky-api.szfiu.com/news/v1/list",
-        data=bytes(json.dumps(data), encoding="utf8"),
-        headers=headers,
-        method="POST",
+    # 使用requests发送POST请求
+    response = requests.post(
+        "https://pro-app-sky-api.szfiu.com/news/v1/list", json=data, headers=headers
     )
-    # urlopen打开链接（发送请求获取响应）
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        body = response.read().decode("utf-8")
-        posts = json.loads(body)["body"]["list"]
+
+    if response.status_code == 200:
+        posts = response.json()["body"]["list"]
         for index in range(len(posts)):
             if index < 3:
                 post = posts[index]
@@ -82,7 +78,8 @@ def run():
                 articles = articles[:10]
             util.write_json_to_file(articles, filename)
     else:
-        util.log_action_error("request error: {}".format(response))
+        util.log_action_error("request error: {}".format(response.status_code))
+
 
 if __name__ == "__main__":
     util.execute_with_timeout(run)
