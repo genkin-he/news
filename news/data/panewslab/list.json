@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "v1n6b791",
+            "title": "慢雾：各方需注意以太坊新功能带来的新风险及应对措施",
+            "description": "PANews 5月8日消息，安全公司慢雾在X平台表示，以太坊的Pectra升级（EIP-7702）现已上线——这是一次重大飞跃，但新功能也带来了新风险。以下是用户、钱包提供商、开发者和交易所应注意的事项：\r\n对于用户：私钥保护应始终是重中之重；要意识到，在不同链上的同一合约地址，其合约代码可能并不总是相同的；在进行操作前，要了解委托目标的详细信息。对于钱包提供商：检查委托链是否与当前网络匹配；提醒用户注意使用chainID为0的委托签名所带来的风险，这种签名可能在不同的链上被重放；在用户签署委托时显示目标合约，以降低钓鱼攻击的风险。对于开发者：确保在钱包初始化期间执行权限检查（例如，通过ecrecover验证签名地址）；遵循ERC-7201中提出的命名空间公式，以缓解存储冲突；不要假设tx.origin始终是外部拥有账户（EOA），使用msg.sender == tx.origin作为防御重入攻击的手段将不再有效；确保用户委托的目标合约实现了必要的回调函数，以确保与主流代币兼容。对于中心化交易所（CEXs）：对存款进行追踪检查，以降低来自智能合约的虚假存款风险。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/v1n6b791.html",
+            "pub_date": "2025-05-08 19:15:15",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "1uucc2d1",
             "title": "Doodles NFT销量在DOOD代币空投前飙升97%",
             "description": "PANews 5月8日消息，据Cointelegraph报道，NFT项目Doodles近24小时销量暴涨97%，达110万美元，位列当日NFT销量榜第三。过去一周其总销售额达260万美元（周环比增长368%）。市场热度源于该项目将于5月9日启动Solana链上代币DOOD的生成事件，并向Doodles NFT持有者空投。\r\n此外，CryptoSlam数据显示，随着Doodles和其他收藏品活动激增，过去七天NFT市场总交易量达到1.03亿美元以上，较前一周增长7%。基于以太坊的NFT仍然领先，过去七天销售额达2650万美元。Polygon NFT以1910万美元的销售额位居第二，这主要得益于现实世界资产NFT平台Courtyard，该平台的销售额超过1700万美元，成为本周销售额最高的NFT收藏品。",
@@ -186,16 +196,6 @@
             "description": "PANews 5月8日消息，据Lookonchain监测，Abraxas Capital在过去11小时内从Binance和Kraken提取了41,269枚ETH，价值约7546万美元。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/8f6szfxq.html",
             "pub_date": "2025-05-08 16:48:33",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "3161m3rt",
-            "title": "玻利维亚计划推出数字货币应对跨境支付",
-            "description": "PANews 5月8日消息，玻利维亚央行行长Edwin Rojas Ulo表示，该国正与国际组织合作设计名为“虚拟玻利维亚”的数字货币，旨在用于国际结算并节约外汇储备，尤其是美元。他指出，这一举措将有助于现代化支付系统，特别是在跨境支付场景中释放储备资金。有关该数字货币的详细提案预计将在8月公布。\r\n此外，自玻利维亚央行允许使用银行账户购买加密货币以来，数字资产的采用量在三个月内翻倍增长。同时，由于外汇短缺，玻利维亚也开始使用稳定币作为美元替代，并探索通过加密货币支付能源进口的可能性。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/3161m3rt.html",
-            "pub_date": "2025-05-08 16:45:22",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
