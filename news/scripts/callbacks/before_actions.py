@@ -1,3 +1,4 @@
+import datetime
 import os
 import json
 import requests
@@ -5,6 +6,7 @@ import time
 from typing import List, Dict
 import asyncio
 import aiohttp
+
 
 def fetch_proxies() -> List[Dict[str, str]]:
     """
@@ -19,6 +21,7 @@ def fetch_proxies() -> List[Dict[str, str]]:
     proxies = []
     proxies.extend(from_shark_free())
     return proxies
+
 
 kuaidaili_headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
@@ -48,15 +51,15 @@ def verify_proxy(proxy: Dict[str, str]) -> bool:
             test_url = "https://www.baidu.com/"
         else:
             test_url = "https://www.google.com/"
-            
+
         response = requests.get(test_url, proxies=proxy, timeout=10)
         if response.status_code != 200:
             print(f"无效代理: {proxy}")
             return False
-            
+
         print(f"有效代理: {proxy}")
         return True
-        
+
     except Exception as e:
         print(f"代理验证失败: {proxy}, 错误: {str(e)}")
         return False
@@ -137,6 +140,7 @@ def get_valid_proxies() -> List[Dict[str, str]]:
 
     return valid_proxies
 
+
 def save_proxies_to_json(proxies: List[Dict[str, str]]) -> None:
     """
     将代理列表保存到JSON文件
@@ -147,26 +151,40 @@ def save_proxies_to_json(proxies: List[Dict[str, str]]) -> None:
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(proxies, f, ensure_ascii=False, indent=2)
 
-async def verify_proxy_async(proxy: Dict[str, str]) -> bool:
-    try:
-        test_url = "https://www.baidu.com/" if proxy["region"] == "CN" else "https://www.google.com/"
-        async with aiohttp.ClientSession() as session:
-            async with session.get(test_url, proxy=proxy["http"], timeout=2) as response:
-                return response.status == 200
-    except:
-        return False
-
-async def get_valid_proxies_async() -> List[Dict[str, str]]:
-    all_proxies = fetch_proxies()
-    tasks = [verify_proxy_async(proxy) for proxy in all_proxies]
-    results = await asyncio.gather(*tasks)
-    return [proxy for proxy, is_valid in zip(all_proxies, results) if is_valid]
 
 if __name__ == "__main__":
     try:
-        print("开始更新代理池...")
-        valid_proxies = get_valid_proxies()
-        save_proxies_to_json(valid_proxies)
-        print(f"代理池更新完成，共保存 {len(valid_proxies)} 个有效代理")
+        # 读取配置文件
+        config_path = os.path.join(os.path.dirname(__file__), "../../config/proxy.json")
+        if os.path.exists(config_path):
+            with open(config_path, "r", encoding="utf-8") as f:
+                config = json.load(f)
+
+            # 检查上次运行时间和更新频率
+            last_run = config.get("last_run")
+            update_interval = config.get("interval", 3600)  # 默认1小时更新一次
+
+            if last_run:
+                last_run_time = datetime.datetime.fromisoformat(last_run)
+                current_time = datetime.datetime.now()
+                time_diff = (current_time - last_run_time).total_seconds()
+
+                if time_diff < update_interval:
+                    print(f"距离上次更新时间不足{update_interval}秒，跳过本次更新")
+                else:
+                    print("开始更新代理池...")
+                    valid_proxies = get_valid_proxies()
+                    save_proxies_to_json(valid_proxies)
+
+                    # 更新最后运行时间
+                    config["last_run"] = datetime.datetime.now().isoformat()
+                    with open(config_path, "w", encoding="utf-8") as f:
+                        json.dump(config, f, ensure_ascii=False, indent=2)
+
+                    print(f"代理池更新完成，共保存 {len(valid_proxies)} 个有效代理")
+        else:
+            # 如果配置文件不存在，创建默认配置
+            os.makedirs(os.path.dirname(config_path), exist_ok=True)
+            config = {"interval": 3600}
     except Exception as e:
         print(f"更新代理池过程中发生错误: {str(e)}")
