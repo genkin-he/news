@@ -185,6 +185,6 @@ if __name__ == "__main__":
         else:
             # 如果配置文件不存在，创建默认配置
             os.makedirs(os.path.dirname(config_path), exist_ok=True)
-            config = {"interval": 3600}
+            config = {"interval": 1800}
     except Exception as e:
         print(f"更新代理池过程中发生错误: {str(e)}")
