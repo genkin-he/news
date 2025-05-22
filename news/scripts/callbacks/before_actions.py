@@ -161,25 +161,30 @@ if __name__ == "__main__":
                 config = json.load(f)
 
             # 检查上次运行时间和更新频率
-            last_run = config.get("last_run")
-            update_interval = config.get("interval", 3600)  # 默认1小时更新一次
+            update_interval = config.get("interval", 1800)  # 默认30分钟更新一次
+            last_run = config.get(
+                "last_run",
+                (
+                    datetime.datetime.now()
+                    - datetime.timedelta(seconds=update_interval + 1)
+                ).isoformat(),
+            )
 
-            if last_run:
-                last_run_time = datetime.datetime.fromisoformat(last_run)
-                current_time = datetime.datetime.now()
-                time_diff = (current_time - last_run_time).total_seconds()
+            last_run_time = datetime.datetime.fromisoformat(last_run)
+            current_time = datetime.datetime.now()
+            time_diff = (current_time - last_run_time).total_seconds()
 
-                if time_diff < update_interval:
-                    print(f"距离上次更新时间不足{update_interval}秒，跳过本次更新")
-                else:
-                    print("开始更新代理池...")
-                    valid_proxies = get_valid_proxies()
-                    save_proxies_to_json(valid_proxies)
+            if time_diff < update_interval:
+                print(f"距离上次更新时间不足{update_interval}秒，跳过本次更新")
+            else:
+                print("开始更新代理池...")
+                valid_proxies = get_valid_proxies()
+                save_proxies_to_json(valid_proxies)
 
-                    # 更新最后运行时间
-                    config["last_run"] = datetime.datetime.now().isoformat()
-                    with open(config_path, "w", encoding="utf-8") as f:
-                        json.dump(config, f, ensure_ascii=False, indent=2)
+                # 更新最后运行时间
+                config["last_run"] = datetime.datetime.now().isoformat()
+                with open(config_path, "w", encoding="utf-8") as f:
+                    json.dump(config, f, ensure_ascii=False, indent=2)
 
                     print(f"代理池更新完成，共保存 {len(valid_proxies)} 个有效代理")
         else:
