@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "99ZKxeRx1kpDf69Id8om",
+            "title": "Pinterest 应对 AWS EC2 网络限流问题以提升服务可靠性",
+            "image": "https://static001.infoq.cn/resource/image/14/ef/14b59c397cfc0a2ff7fdf0a45yy2f5ef.png",
+            "description": "<div><p><color>Pinterest 近期发布技术博客，</color><color>其工程团队处理</color><color> 实例网络带宽限制问题的方案。该平台月活用户超 5.5 亿，维持稳定性能对其 </color><color> 机器学习特征库等核心服务尤为关键。</color></p><p><color> </color></p><p><color>Pinterest 的工程团队发现 KVStore 在流量高峰期间频繁出现延迟激增和间歇性服务中断，导致首页推荐流（Homefeed）等功能出现应用超时和级联故障。根本原因在于部分 EC2 实例类型的网络性能存在固有局限。举例来说，标称“最高 12.5 Gbps”实例的实际基准带宽可能远低于此，且依赖非保障的突发带宽。当网络用量超过基准值时，便会造成数据包的延迟和丢失。</color></p><p><color> </color></p><p><color>2024 年，</color><color>（如 i3 到 i4i 机型）的迁移计划，却在从 </color><color>批量导入宽列数据库时暴露出严重性能衰减，读取延迟导致应用超时，最终迫使其 2 万余个实例的迁移计划暂缓。</color></p><p><color> </color></p><p><color>在获得更精确的网络性能可视化能力后，Pinterest 实施了多项关键策略来缓解 EC2 网络限流问题。首要措施之一是选用具有更高基准网络带宽的 EC2 实例，逐步淘汰仅提供突发性能承诺的实例类型，以更好地支撑工作负载。同时引入流量整形技术，通过精确调控数据流确保网络使用率始终处于最优阈值范围内。</color></p><p><color> </color></p><p><color>此外，Pinterest 将工作负载更均衡地分配到多个实例上，有效降低了单点资源过载风险。这些综合改进措施显著提升了系统可靠性和稳定性，不仅大幅减少了延迟峰值现象，更彻底消除了此前影响用户体验的服务中断问题。</color></p><p><color> </color></p><p><color>Pinterest 这一实践案例突显了深入理解云基础设施细节的重要性，尤其是 EC2 实例网络带宽限制可能带来的连锁影响。通过主动监控和持续优化基础设施架构，他们成功克服了网络限流挑战，为数亿用户提供了更加流畅稳定的服务体验。</color></p></div>",
+            "link": "https://www.infoq.cn/article/99ZKxeRx1kpDf69Id8om",
+            "pub_date": "2025-06-07 02:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "rWLPwL4uJou0a8tIYfAH",
             "title": "Virt8ra主权云新增了六家欧洲供应商",
             "image": "https://static001.infoq.cn/resource/image/a8/78/a85d6a0398d80fe61502bbe61620cf78.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p>2025年3月17日，谷歌云在Cloud Storage中引入了，通过改进数据组织、性能和可靠性来优化人工智能和机器学习工作负载。</p><p></p><p>AI/ML过程，尤其在模型训练期间，涉及频繁的以保存模型状态。传统的扁平命名空间存储系统通过单独重写或删除每个对象来处理文件夹重命名，这既耗时又容易出错。借助HNS，Cloud Storage现在支持文件夹级操作，从而实现更快、更可靠的检查点操作，从而实现更快、更可靠的检查点操作。根据其博客文章，谷歌的基准测试表明，与扁平存储桶相比，分层命名空间存储桶可以将检查点写入速度提高多达20倍。这一改进是通过新的RenameFolder API实现的，该API执行仅元数据操作，完成任务所需时间仅为扁平命名空间存储桶的一小部分。</p><p></p><p><img>https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/news/2025/05/google-cloud-ai-workflow/en/resources/1checkpointing-1746877476583.png<img></p><p></p><p>谷歌还声称，实际应用已证明HNS的优势。例如，报告称，在使用HNS与结合时，其从谷歌云存储获得的吞吐量增加了10倍，从而使训练速度提高了15倍。</p><p></p><p>此外，HNS通过提供优化的存储布局来增强性能，支持更高的QPS（读写操作每秒查询次数）。这对于在大型集群上运行的AI/ML工作负载尤其有利，因为在这些集群中，同步的I/O操作可能会造成瓶颈。与扁平命名空间存储桶相比，分层命名空间存储桶提供的初始对象读写QPS可高达8倍，有助于加快启动速度并更好地利用计算资源。</p><p></p><p>谷歌工程高级总监Jason Stevens也表达了类似的看法，他指出：“GCS的HNS加速了依赖文件系统（如文件夹重命名）的存储工作负载，从而提高了AI工作负载的效率。凭借高达20倍的检查点速度和高达8倍的QPS，HNS有助于最大限度地提高AI/ML管道中GPU和TPU的利用率。”</p><p></p><p>要在GCS中启用分层命名空间功能，必须在创建存储桶时进行配置，因为无法对现有存储桶追溯启用此功能。使用gcloud命令行界面（CLI），运行带有标志命令，并指定所需的存储桶名称和位置来完成此操作。或者，在谷歌云控制台中，导航到Cloud Storage部分，选择“创建存储桶”，然后在高级设置中勾选启用分层命名空间的选项，再完成其余设置。启用后，该存储桶因其支持模拟文件系统的文件夹、能够执行原子方式的重命名，并拥有更高的读写操作吞吐量，从而在AI/ML用例方面表现更优。</p><p></p><p><strong>原文链接：</strong></p></div>",
             "link": "https://www.infoq.cn/article/zyX7qbeCbZX3CXjz0Hac",
             "pub_date": "2025-05-25 02:00:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "gVap1P5NT1PvqcHGiN7q",
-            "title": "AWS Lambda 日志优化：分层计费降成本，新增S3与Firehose直达通道",
-            "image": "https://static001.infoq.cn/resource/image/34/07/34ddfa45d1b538528f2d456d2499ba07.jpg",
-            "description": "<div><p>亚马逊云科技宣布对 Lambda 日志记录进行重大更新，为  引入基于日志量的分层定价，并新增  和  作为经济高效的 Lambda 日志新目标。这些变更自 2025 年 5 月 1 日起生效，旨在为高流量 Lambda 部署降低日志记录成本，并提供更大的灵活性，以集成更广泛的监控工具。</p><p></p><p>对于那些曾饱受 CloudWatch Logs 相关“隐性成本”困扰的 亚马逊云科技客户而言，转向分层定价无疑是个好消息。高级云架构师 Mark Lambert 在 LinkedIn 上的：</p><p></p><p></p><p>该公司将 CloudWatch Logs 中 Lambda 日志的新分层归类为“Vended Logs”（供应商日志），随着日志量的增加，每 GB 的成本将逐步降低。例如，在美东（弗吉尼亚北部）区域，每月前 10TB 的费用可从每 GB 0.50 美元降至超过 50TB 后低至每 GB 0.05 美元。自由软件开发者  在 X 上指出：</p><p></p><p></p><p><img>https://imgopt.infoq.com/fit-in/3000x4000/filters:quality%2885%29/filters:no_upscale%28%29/news/2025/05/lambda-cloudwatch-logs-tiered/en/resources/1Gp7B5UqawAM5_yE-1747297874519.jpg<img></p><p>（来源：Sandro Volpicella的推文）</p><p></p><p>此外，Duckbill Group 近期的一篇中，Eric Pullen 指出，尽管这对于日志量大的用户是一大利好，但那些每月每账户日志量低于 10TB 的用户不会立即看到变化，因为第一档的定价与之前的固定费率一致。</p><p></p><p>将 S3 和 Firehose 新增为 Lambda 函数的直接日志记录目标也是一项关键进展。Pullen强调，此举无需再使用复杂的、基于 Lambda 的转发器，并解锁了新的应用场景，例如在 S3 上进行长期合规归档、高级分析，以及通过 Firehose 更便捷地与第三方可观测性平台集成。不过，他希望这些新目标的定价能更具竞争力，以鼓励更广泛的采用。</p><p></p><p>亚马逊云科技中，Shridhar Pandey 和Matthew Barker表示：</p><p></p><p></p><p>Pullen对此表示赞同，并强调这可能为大型企业节省大量成本。他同时提醒：</p><p></p><p></p><p>虽然 CloudWatch Logs 仍是默认的日志记录目标，但用户现在可以将 S3 或 Firehose 配置为备选方案。亚马逊云科技鼓励用户查阅和，以优化其 Lambda 日志策略，包括考虑日志级别和保留策略，从而最大限度地利用新的分层定价节省成本。</p><p></p><p><img>https://static001.geekbang.org/infoq/2c/2c39698324c7f712b8c6590522e6f80a.png<img></p><p>（来源：亚马逊计算博客文章）</p><p></p><p>新的日志记录功能已在所有支持 Lambda 和 CloudWatch Logs 的 推出。Lambda 控制台中针对 S3 和 Firehose 目标的配置功能初期仅在部分区域可用，后续将逐步扩展至更多区域。</p><p></p><p><strong>原文链接：</strong></p></div>",
-            "link": "https://www.infoq.cn/article/gVap1P5NT1PvqcHGiN7q",
-            "pub_date": "2025-05-25 00:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
