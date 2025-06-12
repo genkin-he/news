@@ -1,11 +1,6 @@
 # -*- coding: UTF-8 -*-
-import logging
-import traceback
 import requests  # 改用requests库
-import json
-import re
 from util.spider_util import SpiderUtil
-from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
 headers = {
@@ -41,13 +36,44 @@ def get_detail(link):
         body = BeautifulSoup(response.text, "lxml")
         soup = body.select_one("#article-container")
 
+        # 清理广告元素
         ad_elements = soup.select("script,style,[id*=-ad-]")
         for element in ad_elements:
             element.decompose()
+
+        # 处理图片标签
+        img_elements = soup.find_all("img")
+        for img in img_elements:
+            # 保存 alt 和 src 属性
+            alt = img.get("alt", "")
+            src = img.get("src", "")
+
+            # 如果是 Next.js 的图片优化 URL，提取原始图片 URL
+            if "_next/image" in src:
+                try:
+                    from urllib.parse import urlparse, parse_qs
+
+                    parsed = urlparse(src)
+                    query_params = parse_qs(parsed.query)
+                    if "url" in query_params:
+                        src = query_params["url"][0]
+                except Exception as e:
+                    util.error("Failed to parse image URL: {}".format(str(e)))
+
+            # 清除所有属性
+            img.attrs.clear()
+
+            # 只设置 alt 和 src 属性
+            if alt:
+                img["alt"] = alt
+            if src:
+                img["src"] = src
+
         return str(soup).strip()
     except Exception as e:
         util.error("request: {} error: {}".format(link, str(e)))
         return ""
+
 
 def run():
     data = util.history_posts(filename)
@@ -94,5 +120,7 @@ def run():
             _articles = _articles[:10]
         util.write_json_to_file(_articles, filename)
 
+
 if __name__ == "__main__":
     util.execute_with_timeout(run)
+    # print(get_detail("https://news.cnyes.com/news/id/6020090"))
