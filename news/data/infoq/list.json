@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "21atKO42DHfb9RMtrbkr",
+            "title": "AWS CodeBuild引入了Docker Server功能来加速CI/CD管道",
+            "image": "https://static001.infoq.cn/resource/image/4e/d9/4e6dc745d47c198f56240cf05afb87d9.jpg",
+            "description": "<div><p><color>2025年5月15日，AWS</color><color>对其</color><color>服务进行重大增强：</color><color>能力。这项新功能允许开发者在他们的CodeBuild项目中配置一个专用且持久的Docker服务器，旨在简化和加快Docker镜像的构建过程。</color></p><p></p><p><color>传统上，在CI/CD管道中构建Docker镜像可能很耗时，特别是处理多层镜像时。通过Docker Server功能，AWS通过将镜像构建集中到远程主机来解决这一挑战。这种方法通过维护持久的Docker层缓存来减少等待时间并提高整体效率。实际上，AWS报告称，使用这项功能时，构建时间大幅减少了。</color></p><p></p><p><color>持久的Docker服务器支持多个并发构建操作，所有构建都受益于共享的集中式缓存。这种设置不仅加速了构建过程，还确保了构建之间的一致性，这对于维护可靠的部署管道至关重要。</color></p><p></p><p><color>为了利用这种功能，开发者可以在他们的CodeBuild项目设置中启用Docker Server选项。一旦激活，CodeBuild将为专用的Docker服务器提供持久存储，从而实现更快、更高效的构建。</color></p><p></p><p><color>要在AWS CodeBuild中设置新的Docker Server功能（</color><color>），首先要创建一个新的CodeBuild项目，或者在AWS管理控制台中编辑现有的项目。在环境配置中，选择“Managed image”并选择Amazon Linux 2作为操作系统。然后，在新的Docker配置部分（适用于支持的标准镜像，如aws/codebuild/standard:7.0或更高版本），启用“Docker Server mode”选项。这激活了一个轻量级的Docker守护进程，并且没有通常与Docker-in-Docker（DinD）相关的性能缺陷。接下来，更新你的</color><color>文件以包含Docker命令——例如，构建和推送镜像到Amazon ECR——就像你在本地Docker设置中所做的那样。</color></p><p></p><p><color>指南提醒你，要确保CodeBuild使用的IAM角色具有与Amazon ECR等服务交互的必要权限。配置好一切后，就可以触发构建了。</color></p><p></p><p><color>AWS CodeBuild中引入的Docker Server功能在开发者和DevOps专业人士中引发了一些讨论。虽然大家对显著减少的构建时间表示赞赏，但目前它与基础设施即代码工具的集成方面存在限制。</color></p><p></p><p><color>例如，</color><color>中的一个GitHub问题突出显示：</color></p><p></p><p></p><p><color>这表明，尽管这项功能很有前景，但在CloudFormation和CDK等工具中提供全面支持之前，它的采用可能会受到阻碍。</color></p><p></p><p><color>尽管存在这些集成上的挑战，Docker Server功能因其性能改进而受到赞誉。在</color><color>中，Donnie Prakoso分享了基准测试结果，表明使用此功能时，构建时间减少了98%，从近25分钟减少到仅16秒。</color></p><p></p><p><color>这项新功能与现有解决方案竞争，如Docker Inc的</color><color>、GCP的</color><color>和 </color><color>。</color></p><p></p><p><color>AWS CodeBuild的这项增强强调了AWS致力于提高开发者生产力和优化CI/CD工作流程的承诺。通过减少构建时间和简化镜像创建过程，Docker Server功能使开发团队能够更快速、更可靠地部署应用程序。</color></p><p></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/21atKO42DHfb9RMtrbkr",
+            "pub_date": "2025-06-14 06:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "JMDLcSVsvb0DiFksM5sF",
             "title": "作业帮基础观测能力之一监控体系实践",
             "image": "https://static001.infoq.cn/resource/image/83/a7/8370f218a9767fa4564a25decdf3aaa7.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>开放全球应用程序安全项目（OWASP）最近引入了一个新的标准，用于安全地发现AI智能体。受DNS启发，智能体名称服务（</color><color>）提供了一个与协议无关的注册机制，该机制使用公钥基础设施（PKI）来建立智能体的身份和信任。</color></p><p><color> </color></p><p><color>正如OWASP</color><color>所解释的那样：</color></p><p><color> </color></p><p><color> </color></p><p><color>广泛使用的域名服务，它将人类可读的名称映射到网络地址，以及其演变，如</color><color>，都不适合智能体发现。实际上，该组织表示，它们不符合动态的、语义丰富的和对安全性敏感的代理式AI环境的要求。</color></p><p><color> </color></p><p><color> </color></p><p><color>为了解决这些限制，ANS采用了类似DNS命名的方式用于发现，并建立了智能体注册和更新机制。此外，它依赖于公钥基础设施（PKI）进行身份验证，使用结构化的JSON进行通信，并支持代理式空间中的新兴协议，以实现全频谱能力。</color></p><p><color> </color></p><p><color>兼容协议包括谷歌的</color><color>，它标准化了智能体间通信；</color><color>，旨在简化模型与工具和数据源的集成；以及IBM的智能体通信协议（</color><color>），它专注于一致的智能体之间的消息传递。</color></p><p><color> </color></p><p><color>ANS中定义的智能体命名格式包括几个组成部分，包括协议、智能体ID、能力、提供者、版本和扩展，例如： </color><color> 。此外，ANS名称可以指定可选的能力过滤器。</color></p><p><color> </color></p><p><color>简而言之，智能体使用ANS名称来发现其他智能体正在监听的端点。它将目标智能体的ANS名称发送给ANS服务，该服务查询智能体注册表以查找匹配的记录。如果找到，将验证目标智能体的加密签名和证书。如果任何步骤失败，将返回错误；否则，发起智能体将接收到目标智能体的端点信息。</color></p><p><color> </color></p><p><color>ANS面临的一个挑战是保持与各广泛协议的兼容性，每个协议都有自己的特定要求。为了解决这个问题，ANS包括了一个协议适配器层，每个外部协议，如MCP、A2A等，都由一个专用的适配器处理。这种设计确保了低耦合，并支持跨协议发现，例如一个A2A智能体定位一个宣传MCP工具的智能体，通过PKI验证其身份，并可能通过协议网关与其交互。</color></p><p><color> </color></p><p><color>PayPal的资深软件工程师Akshay Mittal在</color><color>表达了自己的观点，认为“ANS可以从一个有趣的草案发展为自主软件的默认发现基础”。然而，他评论道：</color></p><p><color> </color></p><p><color> </color></p><p><color>尽管仍处于起步阶段，ANS已经在</color><color>，它使智能体能够注册、更新、停用和查询其状态。未来的工作将包括提高性能和可扩展性，使用保护隐私的加密技术，如</color><color>、形式验证等。</color></p><p><color> </color></p><p><color>在非营利组织OWASP基金会的支持下，开放全球应用程序安全项目是一个在线社区，它为物联网、系统软件和Web应用程序安全领域免费提供的文章、方法论、文档、工具和技术。</color></p><p></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/4TuuuXrzK9tqtZN1g9pW",
             "pub_date": "2025-06-10 06:00:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "yxeWtzD0sa2eNk3WSrQU",
-            "title": "Amazon Aurora DSQL正式版本发布：分布式、兼容PostgreSQL的无服务器数据库",
-            "image": "https://static001.infoq.cn/resource/image/7b/64/7ba48b2cfdc7a46d0332de6367e20964.jpg",
-            "description": "<div><p><color>亚马逊最近宣布了</color><color>，这是一个与PostgreSQL兼容的无服务器分布式数据库。这项新的托管服务旨在支持双活高可用性和多区域强一致性。</color></p><p><color> </color></p><p><color>在最新的re:Invent主题演讲的预览中，</color><color>针对的是需要全局可扩展性、弹性和一致性能的用例。AWS的首席博主Channy Yun</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>在单个区域中，Aurora DSQL提供99.99%的可用性，而多区域部署则旨在实现99.999%的可用性，系统可以从故障中自动恢复。两个区域端点充当对等点，在保持强一致性的同时支持并发操作，而第三个区域充当仅记录日志的见证，以增强可用性。Yun补充道：</color></p><p><color> </color></p><p><color> </color></p><p><color>在部署多区域集群时，所有读写操作在所有区域端点之间保持一致和持久，每个区域端点表示一个单一的逻辑数据库。这使得应用程序可以从任何位置上进行读写。</color></p><p><color> </color></p><p><img>https://static001.geekbang.org/infoq/27/279745eab7e1f79d0ad2112eed81e8ae.png<img></p><p><italic>来源：AWS博客</italic></p><p><color> </color></p><p><color>PostNL的首席工程师兼AWS英雄Luc van Donkersgoed</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>在文章“</color><color>”中，AWS的两位高级首席工程师</color><color>和</color><color>提供了关于Rust的技术见解，以及他们如何使用Rust构建DSQL。他们写道:</color></p><p><color> </color></p><p><color> </color></p><p><img>https://static001.geekbang.org/infoq/d0/d085b8cf15cb04b7781e2ed9b3ae4a51.png<img></p><p><italic>来源：All Things Distributed</italic></p><p><color> </color></p><p><color>AWS的副总裁兼杰出工程师</color><color>之前已经发表了</color><color>背后的想法的深入文章。</color></p><p><color> </color></p><p><color>虽然社区的反应</color><color>，但一些用户对称为分布式处理单元（DPU）的</color><color>，不知道如何将其与现有的替代产品进行比较，也不知道是否有兼容性问题。</color></p><p><color> </color></p><p><color>AWS声称“Aurora DSQL和PostgreSQL对所有SQL查询返回相同的结果”，新数据库支持核心关系特性，如ACID事务、二级索引、连接、插入和更新。然而，文档</color><color>，其中有一节是关于不支持的PostgreSQL特性的。用户sh1boleth</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>随着GA的发布，该服务在欧洲和亚太地区的其他区域增加了支持，并引入了对PostgreSQL视图、CloudFormation、KMS客户管理密钥和AWS备份的支持。作为GA的一部分，还发布了用于AI应用程序工作负载的</color><color>，它将人类可读的问题和命令转换为结构化的postgresql兼容的SQL。</color></p><p><color> </color></p><p><color>与其他托管AWS服务类似，有一个免费的分层，每月覆盖100000个DPU和1GB月的存储。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/yxeWtzD0sa2eNk3WSrQU",
-            "pub_date": "2025-06-10 03:17:12",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
