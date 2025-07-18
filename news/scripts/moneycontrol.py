@@ -38,18 +38,22 @@ def get_detail(link):
     if response.status == 200:
         resp = response.read().decode("utf-8", errors="ignore")
         soup = BeautifulSoup(resp, "lxml")
-        soup = soup.select(".content_wrapper")[0]
+        content_wrappers = soup.select(".content_wrapper")
+        if len(content_wrappers) == 0:
+            soup = soup.select(".disBdy")
+        else:
+            soup = content_wrappers[0]
 
-        # 移除 <div class="mid-arti-ad"> 的元素，使用通配 -ad 方式
-        ad_elements = soup.select("[class*=-ad]")
-        for element in ad_elements:
-            element.decompose()
+            # 移除 <div class="mid-arti-ad"> 的元素，使用通配 -ad 方式
+            ad_elements = soup.select("[class*=-ad]")
+            for element in ad_elements:
+                element.decompose()
 
-        ad_elements = soup.select(".related_stories_left_block, script, style, .social_icons_list")
-        # 移除这些元素
-        for element in ad_elements:
-            element.decompose()
-
+            ad_elements = soup.select(".related_stories_left_block, script, style, .social_icons_list")
+            # 移除这些元素
+            for element in ad_elements:
+                element.decompose()
+        util.info("soup: {}".format(str(soup).encode("utf-8").decode("utf-8")))
         return str(soup).encode("utf-8").decode("utf-8")
     else:
         util.error("request: {} error: {}".format(link, response))
@@ -64,9 +68,9 @@ def run():
     links = data["links"]
     insert = False
 
-    # request中放入参数，请求头信息
+    # request 中放入参数，请求头信息
     request = urllib.request.Request(base_url, None, headers)
-    # urlopen打开链接（发送请求获取响应）
+    # urlopen 打开链接（发送请求获取响应）
     response = urllib.request.urlopen(request)
     if response.status == 200:
         resp = response.read().decode("utf-8", errors="ignore")
