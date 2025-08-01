@@ -191,6 +191,8 @@ class SpiderUtil:
         filename = os.path.basename(stack[-2].filename)
         lineno = stack[-2].lineno
 
+        self.info(f"{filename}#{lineno} start executing...")
+
         class FuncThread(threading.Thread):
             def __init__(self, func, *args, **kwargs):
                 threading.Thread.__init__(self)
@@ -223,10 +225,9 @@ class SpiderUtil:
         thread.join(timeout)
         if thread.is_alive():
             return None
-        if thread.execution_time > 2:
-            self.info(
-                f"Function #{filename}#{lineno} executed in {thread.execution_time:.3f} seconds."
-            )
+        self.info(
+            f"Function #{filename}#{lineno} executed in {thread.execution_time:.3f} seconds."
+        )
         return None
 
     def write_json_to_file(self, data, filename, encoding="utf-8"):
