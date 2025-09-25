@@ -10,23 +10,20 @@ from util.spider_util import SpiderUtil
 
 
 headers = {
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-    "_pcc": "ZIFkJpjCx7n5us4tdbdV7QwK0P5i1FUA+edbnMKhZBv+ZYdpOAJQXSETcjGONWca8C4598+IqRs8nRB9Yylb2VjW1ZY5nv06kkNXU4uqUJHaYNJdreJrp8PiCXWRnbUVP879FLhgT8gbwGTJrgqZ/+QnoUTBcqjyC0QBHXhEygo=",
-    "accept": "application/json, text/plain, */*",
-    "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
-    "cache-control": "no-cache",
-    "pragma": "no-cache",
-    "priority": "u=1, i",
-    "sec-ch-ua": '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
-    "sec-ch-ua-mobile": "?0",
+    "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    "accept-language": 'zh-CN,zh;q=0.9',
+    "cache-control": 'max-age=0',
+    "priority": 'u=0, i',
+    "sec-ch-ua": '"Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"',
+    "sec-ch-ua-mobile": '?0',
     "sec-ch-ua-platform": '"macOS"',
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "cross-site",
-    "sec-fetch-storage-access": "active",
-    "site-channel": "001",
-    "Referer": "https://www.fx168news.com/",
-    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "sec-fetch-dest": 'document',
+    "sec-fetch-mode": 'navigate',
+    "sec-fetch-site": 'same-origin',
+    "sec-fetch-user": '?1',
+    "upgrade-insecure-requests": '1',
+    "user-agent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+    "cooike": '_ga=GA1.1.39404020.1755599302; _pcc=OA0HXhv92nRLOP/4McmB0T6JN491oXj+puI1YMwV4qcdfXgD7ymNcDJKCB951ZngTFQjq1ZQEQx08CnDu8kpEPryfZV91nn404UxB7s+PnM0uN+6868JJMShanQQv17qYMVVv5vfqnqyqJ6iw69d77XXL8gFvkawlAG/lJszyME=; _ga_GRC680FPZR=GS2.1.s1758791392$o2$g0$t1758791392$j60$l0$h0; 168uci=; _cid=07cc19bc68a4a7470fb7489801da1a32; _fxaid=B035ED9623BE659E082C88C30082D6B9%1DNrlA5QN0s%2BMNqB90jxUPpkgy9AzBzbTRf2UYrWHwM0E%3D%1DX%2B3iwmbxM5uTLNSELOAVK0PMFEDrUsyvkXUhpR2WwPm11c%2BzihwG1q07FsyAwa6Y%2FKlM%2Be%2Fw6W7LShi%2F%2FlPwXSUOQnKxIf6Z8jpECV0HCSwk9NEsqqYlPmxVRqCYNP%2B2DMXWeKrXqPE%2FAxXD4oiY59%2BkpoZBR0%2BnR8k2qaMIZUM%3D'
 }
 base_url = "https://www.fx168news.com/"
 filename = "./news/data/fx168/live.json"
