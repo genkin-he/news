@@ -60,7 +60,6 @@ def parse_rss_xml(xml_content):
                         'title': title,
                         'link': link
                     })
-                    util.info("解析到文章：{}".format(title))
 
         return items
     except Exception as e:
