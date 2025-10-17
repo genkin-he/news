@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "71b1ea7a-a728-4226-9113-800eb2428b8b",
+            "title": "OneKey回应Milk Sad事件：确认漏洞不影响其软硬件钱包安全",
+            "description": "PANews 10月17日消息，据OneKey中文推特称，针对近期“Milk Sad事件”涉及的随机数漏洞，OneKey团队澄清该漏洞不影响OneKey软硬件钱包的助记词与私钥安全。\n漏洞源于Libbitcoin Explorer (bx) 3.x版本使用基于系统时间与Mersenne Twister-32算法的伪随机数生成器，种子空间仅2³² bits，攻击者可通过预测或暴力穷举推导私钥。受影响范围包括部分旧版Trust Wallet及所有使用bx 3.x或旧版Trust Wallet Core的产品。\nOneKey表示，其硬件钱包采用EAL6+安全芯片内置TRNG真随机数生成器；老款设备亦通过SP800-22与FIPS140-2熵测试；软件钱包则使用系统级CSPRNG熵源生成随机数，符合密码学标准。团队强调，建议用户使用硬件钱包管理资产，不应将软件钱包生成的助记词导入硬件钱包，以确保最高安全性。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/71b1ea7a-a728-4226-9113-800eb2428b8b.html",
+            "pub_date": "2025-10-17 22:27:33",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "7c86d77b-464c-4e91-a555-5f11dedebae0",
             "title": "现货金银持续下跌，现货黄金日内跌2%",
             "description": "PANews 10月17日消息，现货黄金日内跌2.00%，现报4236.57美元/盎司。现货白银日内大跌4.00%，现报51.91美元/盎司。",
@@ -186,16 +196,6 @@
             "description": "PANews 10月17日消息，Binance Alpha上线ZEROBASE (ZBT)。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/89229d0c-080c-438d-abd3-091339f1e7fc.html",
             "pub_date": "2025-10-17 19:02:03",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "c5245ec1-ec18-4acf-ab4d-922c71c64052",
-            "title": "一鲸鱼在Aave上遭145万美元清算，因BTC跌破10.4万美元关口",
-            "description": "PANews 10月17日消息，据PeckShieldAlert，一地址为0x19c4…d26a的鲸鱼钱包在Aave平台持有的WBTC、ETH与LINK多头仓位被强制清算，清算总额约145万美元。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/c5245ec1-ec18-4acf-ab4d-922c71c64052.html",
-            "pub_date": "2025-10-17 18:31:10",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
