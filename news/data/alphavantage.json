@@ -4,6 +4,37 @@
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
         {
+            "title": "Exxon earnings fall on lower oil prices as OPEC+ raises production",
+            "url": "https://www.cnbc.com/2025/10/31/exxon-xom-q3-2025-earnings.html",
+            "time_published": "20251031T105858",
+            "authors": [],
+            "summary": "Exxon Mobil on Friday reported third quarter earnings that fell year over year, as oil prices tumbled due in large part to OPEC+ increasing production.",
+            "banner_image": null,
+            "source": "CNBC",
+            "category_within_source": "Top News",
+            "source_domain": "www.cnbc.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.967321"
+                },
+                {
+                    "topic": "Energy & Transportation",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.052969,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "XOM",
+                    "relevance_score": "0.156461",
+                    "ticker_sentiment_score": "-0.278801",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
             "title": "AirSculpt Technologies Announces Third Quarter Fiscal 2025 Earnings Release Date and Conference Call - AirSculpt Technologies  ( NASDAQ:AIRS ) ",
             "url": "https://www.benzinga.com/pressreleases/25/10/g48554023/airsculpt-technologies-announces-third-quarter-fiscal-2025-earnings-release-date-and-conference-ca",
             "time_published": "20251031T104500",
@@ -28,6 +59,40 @@
             ]
         },
         {
+            "title": "Castellum, Inc. Announces the Award of a $66.2 million Full and Open Contract to its SSI Subsidiary - Castellum  ( AMEX:CTM ) ",
+            "url": "https://www.benzinga.com/pressreleases/25/10/g48554022/castellum-inc-announces-the-award-of-a-66-2-million-full-and-open-contract-to-its-ssi-subsidiary",
+            "time_published": "20251031T104500",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "VIENNA, Va., Oct. 31, 2025 ( GLOBE NEWSWIRE ) -- Castellum, Inc. ( NYSE-American: CTM ) ( \"Castellum\" or \"CTM\" ) , a cybersecurity, electronic warfare, and software engineering services company focused on the federal government, announces that its Specialty Systems, Inc. ( \"SSI\" ) subsidiary has ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/benzinga-schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Economy - Fiscal",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.614606"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.858979"
+                },
+                {
+                    "topic": "Mergers & Acquisitions",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.392016,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
             "title": "AirSculpt Technologies Announces Third Quarter Fiscal 2025 Earnings Release Date and Conference Call",
             "url": "https://www.globenewswire.com/news-release/2025/10/31/3178214/0/en/AirSculpt-Technologies-Announces-Third-Quarter-Fiscal-2025-Earnings-Release-Date-and-Conference-Call.html",
             "time_published": "20251031T104500",
@@ -48,6 +113,51 @@
                     "ticker": "AIRS",
                     "relevance_score": "0.591019",
                     "ticker_sentiment_score": "0.112751",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "EQS-PVR: Gerresheimer AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+            "url": "https://markets.businessinsider.com/news/stocks/eqs-pvr-gerresheimer-ag-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-1035463570",
+            "time_published": "20251031T103243",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "EQS Voting Rights Announcement: Gerresheimer AG Gerresheimer AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group.",
+            "banner_image": "https://eqs-cockpit.com/cgi-bin/fncls.ssp?fn=show_t_gif&amp;application_id=2221942&amp;application_name=news&amp;site_id=finanzen_net~~~8d7ed4e1-85a7-4f44-b2b8-12469c02be5a",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.147148,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "0.11983",
+                    "ticker_sentiment_score": "0.125709",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMGTF",
+                    "relevance_score": "0.11983",
+                    "ticker_sentiment_score": "0.230813",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GRRMF",
+                    "relevance_score": "0.236972",
+                    "ticker_sentiment_score": "0.137711",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -108,6 +218,97 @@
             "ticker_sentiment": []
         },
         {
+            "title": "LyondellBasell reports third quarter 2025 earnings",
+            "url": "https://markets.businessinsider.com/news/stocks/lyondellbasell-reports-third-quarter-2025-earnings-1035463548",
+            "time_published": "20251031T103000",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "Cash Improvement Plan remains on track to deliver target of $600 million3 for 2025 Operational improvements from higher rates for Hyperzone PE and Channelview PO/TBA exceeding benchmark for nameplate operating rate",
+            "banner_image": "https://ml.globenewswire.com/media/90b1dbf6-f3b2-476b-a43d-e93df5df8728/small/lyb-logo-png.png",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.99992"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.999864"
+                }
+            ],
+            "overall_sentiment_score": 0.229353,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "LYB",
+                    "relevance_score": "0.156461",
+                    "ticker_sentiment_score": "0.172678",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Prediction: This Stock Will Be the Ultimate Quantum Computing Winner",
+            "url": "https://www.fool.com/investing/2025/10/31/prediction-this-stock-will-be-the-ultimate-quantum/",
+            "time_published": "20251031T103000",
+            "authors": [
+                "Keithen Drury",
+                "https://www.facebook.com/themotleyfool/"
+            ],
+            "summary": "Alphabet has more resources than the pure plays could dream about.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/839778/quantum-computing-cell.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.316726"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.280169,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "RGTI",
+                    "relevance_score": "0.114956",
+                    "ticker_sentiment_score": "0.032645",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.227538",
+                    "ticker_sentiment_score": "0.121447",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "IONQ",
+                    "relevance_score": "0.114956",
+                    "ticker_sentiment_score": "0.032645",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "NANO Nuclear Senior Executives to Present at Upcoming November Nuclear Industry Conferences Including ADIPEC 2025, the World's Largest Energy Conference",
             "url": "https://www.globenewswire.com/news-release/2025/10/31/3178207/0/en/NANO-Nuclear-Senior-Executives-to-Present-at-Upcoming-November-Nuclear-Industry-Conferences-Including-ADIPEC-2025-the-World-s-Largest-Energy-Conference.html",
             "time_published": "20251031T103000",
@@ -141,6 +342,122 @@
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
+        },
+        {
+            "title": "NANO Nuclear Senior Executives to Present at Upcoming November Nuclear Industry Conferences Including ADIPEC 2025, the World's Largest Energy Conference",
+            "url": "https://markets.businessinsider.com/news/stocks/nano-nuclear-senior-executives-to-present-at-upcoming-november-nuclear-industry-conferences-including-adipec-2025-the-world-s-largest-energy-conference-1035463550",
+            "time_published": "20251031T103000",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "New York, N.Y., Oct. 31, 2025 ( GLOBE NEWSWIRE ) -- NANO Nuclear Energy Inc. ( NASDAQ: NNE ) ( \"NANO Nuclear\" or \"the Company\" ) , a leading advanced nuclear energy and technology company focused on developing clean energy solutions, today announced that members of its senior executive team will ...",
+            "banner_image": "https://ml.globenewswire.com/Resource/Download/63f43b22-bdf4-40ea-a5c5-84c931584246/image2.jpeg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.310843"
+                }
+            ],
+            "overall_sentiment_score": 0.278484,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NNE",
+                    "relevance_score": "0.200319",
+                    "ticker_sentiment_score": "0.210371",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.022494",
+                    "ticker_sentiment_score": "0.173255",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRYPTO:NANO",
+                    "relevance_score": "0.553509",
+                    "ticker_sentiment_score": "0.371704",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Carlyle Secured Lending, Inc. Announces Intent to Redeem All Outstanding 8.20% Notes Due 2028",
+            "url": "https://markets.businessinsider.com/news/stocks/carlyle-secured-lending-inc-announces-intent-to-redeem-all-outstanding-8-20-notes-due-2028-1035463547",
+            "time_published": "20251031T103000",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "Carlyle Secured Lending, Inc. Announces Intent to Redeem All Outstanding 8.20% Notes Due ...",
+            "banner_image": "https://ml.globenewswire.com/media/cabc84a7-e6fa-4961-b840-fd4714bfb176/small/carlyle-jpg.jpg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.413559"
+                }
+            ],
+            "overall_sentiment_score": 0.278283,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CG",
+                    "relevance_score": "0.12013",
+                    "ticker_sentiment_score": "0.152106",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BK",
+                    "relevance_score": "0.060236",
+                    "ticker_sentiment_score": "0.20106",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CGBD",
+                    "relevance_score": "0.237551",
+                    "ticker_sentiment_score": "0.342784",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Carlyle Credit Income Fund Announces Private Placement of Convertible Preferred Shares",
+            "url": "https://markets.businessinsider.com/news/stocks/carlyle-credit-income-fund-announces-private-placement-of-convertible-preferred-shares-1035463549",
+            "time_published": "20251031T103000",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "NEW YORK, Oct. 31, 2025 ( GLOBE NEWSWIRE ) -- Carlyle Credit Income Fund ( the \"Fund\" ) ( NYSE: CCIF ) , an externally managed closed-end fund focused on investing in primarily equity and junior debt tranches of collateralized loan obligations, has entered into a Purchase Agreement with certain ...",
+            "banner_image": "https://markets.businessinsider.com/Images/FacebookIcon.jpg",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.997902"
+                }
+            ],
+            "overall_sentiment_score": 0.494897,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
         },
         {
             "title": "LyondellBasell reports third quarter 2025 earnings",
@@ -229,6 +546,57 @@
             ]
         },
         {
+            "title": "EQS-PVR: Gerresheimer AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+            "url": "https://markets.businessinsider.com/news/stocks/eqs-pvr-gerresheimer-ag-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-1035463569",
+            "time_published": "20251031T102913",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "EQS Voting Rights Announcement: Gerresheimer AG Gerresheimer AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group.",
+            "banner_image": "https://eqs-cockpit.com/cgi-bin/fncls.ssp?fn=show_t_gif&amp;application_id=2221924&amp;application_name=news&amp;site_id=finanzen_net~~~8d7ed4e1-85a7-4f44-b2b8-12469c02be5a",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.131152,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GRRMF",
+                    "relevance_score": "0.240489",
+                    "ticker_sentiment_score": "0.139348",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Singapore iCOMPASS Launches Platform to Streamline KYC and AML Workflows for Financial Institutions",
+            "url": "https://markets.businessinsider.com/news/stocks/singapore-icompass-launches-platform-to-streamline-kyc-and-aml-workflows-for-financial-institutions-1035462767",
+            "time_published": "20251031T102806",
+            "authors": [
+                "Plentisoft"
+            ],
+            "summary": "-- iCOMPASS Pte Ltd, a Singapore-based Regulatory Technology firm, today announced the launch of its next-generation Know Your Customer ( KYC ) and Anti-Money Laundering ( AML ) platform for financial institutions.",
+            "banner_image": "https://storage.googleapis.com/mmstudio-images/gallery/featured/pr-singapore-icompass-l-1761858911.png",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                }
+            ],
+            "overall_sentiment_score": 0.38784,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": []
+        },
+        {
             "title": "Goldman Sachs Survey Finds Only 11% Of Companies Cutting Jobs As AI Adoption Rises: Report - Goldman Sachs Group  ( NYSE:GS ) ",
             "url": "https://www.benzinga.com/markets/tech/25/10/48553642/goldman-sachs-survey-finds-only-11-of-companies-cutting-jobs-as-ai-adoption-rises-report",
             "time_published": "20251031T102802",
@@ -271,6 +639,51 @@
                     "ticker": "GS",
                     "relevance_score": "0.391923",
                     "ticker_sentiment_score": "0.032532",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "EQS-PVR: Gerresheimer AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+            "url": "https://markets.businessinsider.com/news/stocks/eqs-pvr-gerresheimer-ag-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-1035463541",
+            "time_published": "20251031T102653",
+            "authors": [
+                "markets.businessinsider.com"
+            ],
+            "summary": "EQS Voting Rights Announcement: Gerresheimer AG Gerresheimer AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group.",
+            "banner_image": "https://eqs-cockpit.com/cgi-bin/fncls.ssp?fn=show_t_gif&amp;application_id=2221900&amp;application_name=news&amp;site_id=finanzen_net~~~8d7ed4e1-85a7-4f44-b2b8-12469c02be5a",
+            "source": "Business Insider",
+            "category_within_source": "RSS",
+            "source_domain": "markets.businessinsider.com",
+            "topics": [
+                {
+                    "topic": "Finance",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.135727,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BAC",
+                    "relevance_score": "0.12165",
+                    "ticker_sentiment_score": "0.136847",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WMGTF",
+                    "relevance_score": "0.12165",
+                    "ticker_sentiment_score": "0.23228",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GRRMF",
+                    "relevance_score": "0.240489",
+                    "ticker_sentiment_score": "0.139348",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -346,6 +759,54 @@
                     "relevance_score": "0.047185",
                     "ticker_sentiment_score": "0.188",
                     "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Could Recursion Pharmaceuticals Be the Next Big Artificial Intelligence  ( AI )  Stock?",
+            "url": "https://www.fool.com/investing/2025/10/31/could-recursion-pharmaceuticals-be-the-next-big/",
+            "time_published": "20251031T101500",
+            "authors": [
+                "https://www.facebook.com/themotleyfool/",
+                "David Jagielski"
+            ],
+            "summary": "Recursion uses artificial intelligence to help advance drug discovery, which could be a massive opportunity in healthcare.",
+            "banner_image": "https://g.foolcdn.com/editorial/images/839694/a-doctor-using-a-stethoscope.jpg",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99393"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.096711,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.063594",
+                    "ticker_sentiment_score": "0.089924",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RXRX",
+                    "relevance_score": "0.189175",
+                    "ticker_sentiment_score": "0.355029",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1611,539 +2072,6 @@
                     "ticker": "AAPL",
                     "relevance_score": "0.558244",
                     "ticker_sentiment_score": "0.366719",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "3 Lessons Investors Learned Since Crypto's Flash Crash on October 10",
-            "url": "https://www.fool.com/investing/2025/10/31/3-lessons-investors-learned-since-cryptos-flash-cr/",
-            "time_published": "20251031T091500",
-            "authors": [
-                "https://www.facebook.com/themotleyfool/",
-                "Alex Carchidi"
-            ],
-            "summary": "The time since the crash has revealed three truths.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/838487/investors-express-dismay-while-at-a-meeting.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Blockchain",
-                    "relevance_score": "0.682689"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.310843"
-                }
-            ],
-            "overall_sentiment_score": -0.132888,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.249361",
-                    "ticker_sentiment_score": "-0.078711",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ETH",
-                    "relevance_score": "0.200688",
-                    "ticker_sentiment_score": "-0.066318",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:DOGE",
-                    "relevance_score": "0.050679",
-                    "ticker_sentiment_score": "-0.053905",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "CRYPTO:ADA",
-                    "relevance_score": "0.050679",
-                    "ticker_sentiment_score": "-0.053905",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Money matters: HSBC connects with retail customers with the launch of online videocast series",
-            "url": "https://www.scmp.com/native/business/banking-finance/topics/insights-hsbc-wealth-studio/article/3328503/money-matters-hsbc-connects-retail-customers-launch-online-videocast-series",
-            "time_published": "20251031T091320",
-            "authors": [
-                "Morning Studio editors"
-            ],
-            "summary": "Enhancing its commitment to providing best-in-class financial services to consumers, HSBC launched the Premier Elite Wealth Studio to produce videos offering thought-provoking insights on investments, innovations and market trends tailored for its Premier Elite audience and the public.",
-            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/10/31/a391c0c2-b0e2-4b8f-8538-f16c5c9f3919_57fbf1a5.jpg?itok=wSs9c8OC&v=1761900878",
-            "source": "South China Morning Post",
-            "category_within_source": "Business",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99393"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.497244,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.038407",
-                    "ticker_sentiment_score": "0.153509",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Stellantis Beats Market Estimates With 13% Q3 Revenue Surge, CEO Says $13 Billion Investment To Increase US Production By 50% - Stellantis  ( NYSE:STLA ) ",
-            "url": "https://www.benzinga.com/markets/earnings/25/10/48552436/stellantis-beats-market-estimates-with-13-q3-revenue-surge-ceo-says-13-billion-investment-to-inc",
-            "time_published": "20251031T091120",
-            "authors": [
-                "Badar Shaikh"
-            ],
-            "summary": "Stellantis NV ( NYSE:STLA ) posted its third-quarter earnings recently, beating market expectations on revenue as CEO Antonio Filosa outlined major U.S. investment amid autonomous driving collaboration with Nvidia Corp ( NASDAQ:NVDA ) . Check out the current price of STLA here.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2025/10/31/Stellantis.jpeg?width=1200&height=800&fit=crop",
-            "source": "Benzinga",
-            "category_within_source": "Markets",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.99793"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                }
-            ],
-            "overall_sentiment_score": 0.080595,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.088147",
-                    "ticker_sentiment_score": "-0.030417",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "F",
-                    "relevance_score": "0.088147",
-                    "ticker_sentiment_score": "-0.130223",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "PONY",
-                    "relevance_score": "0.088147",
-                    "ticker_sentiment_score": "0.091838",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bitcoin set for first red October in seven years: What will November bring?",
-            "url": "https://cointelegraph.com/news/bitcoin-set-for-first-red-october-in-seven-years-what-will-november",
-            "time_published": "20251031T091026",
-            "authors": [
-                "Nancy Lubale"
-            ],
-            "summary": "\"Uptober\" has turned into a red month for Bitcoin, with Fed rate cut hopes and easing US-China trade tensions doing little to uphold BTC prices.",
-            "banner_image": "https://s3.cointelegraph.com/uploads/2025-10/019a3978-4be0-75f4-8877-ae1369a46321",
-            "source": "Cointelegraph",
-            "category_within_source": "n/a",
-            "source_domain": "cointelegraph.com",
-            "topics": [],
-            "overall_sentiment_score": -0.048123,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CRYPTO:BTC",
-                    "relevance_score": "0.876064",
-                    "ticker_sentiment_score": "-0.067051",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "2 No-Brainer Warren Buffett Stocks to Buy Right Now",
-            "url": "https://www.fool.com/investing/2025/10/31/2-no-brainer-warren-buffett-stocks-to-buy-right-no/",
-            "time_published": "20251031T091000",
-            "authors": [
-                "https://www.facebook.com/themotleyfool/",
-                "Chris Neiger"
-            ],
-            "summary": "American Express and Visa are great additions for any investor focused on long-term growth.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/840027/buffett.jpeg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.858979"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.99246"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.5"
-                },
-                {
-                    "topic": "Economy - Macro",
-                    "relevance_score": "0.158519"
-                }
-            ],
-            "overall_sentiment_score": 0.361449,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "AXP",
-                    "relevance_score": "0.527295",
-                    "ticker_sentiment_score": "0.360435",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.063594",
-                    "ticker_sentiment_score": "0.091051",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "V",
-                    "relevance_score": "0.47672",
-                    "ticker_sentiment_score": "0.50334",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "BRK-A",
-                    "relevance_score": "0.063594",
-                    "ticker_sentiment_score": "0.155166",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Why This Arkansas-Based Company Could Be a Buy for Value Investors  ( Tyson Foods ) ",
-            "url": "https://www.fool.com/investing/2025/10/31/why-this-arkansas-based-company-could-be-a-buy-for/",
-            "time_published": "20251031T090500",
-            "authors": [
-                "https://www.facebook.com/themotleyfool/",
-                "Reuben Gregg Brewer"
-            ],
-            "summary": "Tyson Foods is a commodity business that is currently out of favor, but that will eventually change if history is any guide.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/837862/24_03_25-a-person-standing-with-a-u-turn-sign-on-the-ground-in-from-of-them-_gettyimages-1055924890-1200x800-5b2df79.jpg",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.818451"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.316726"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.092305,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "TSN",
-                    "relevance_score": "0.380012",
-                    "ticker_sentiment_score": "0.098251",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "\"Beautiful China: The Magnificent Great Wall across Beijing, Tianjin and Hebei,\" has been officially launched",
-            "url": "https://www.benzinga.com/pressreleases/25/10/g48552262/beautiful-china-the-magnificent-great-wall-across-beijing-tianjin-and-hebei-has-been-officially-la",
-            "time_published": "20251031T090155",
-            "authors": [
-                "Globe Newswire"
-            ],
-            "summary": "QINHUANGDAO, China, Oct. 31, 2025 ( GLOBE NEWSWIRE ) -- On October 24 ( local time ) , \"Beautiful China: The Magnificent Great Wall across Beijing, Tianjin and Hebei\" was officially launched at the International Communication Event for the Conservation and Utilization Achievements of the Great ...",
-            "banner_image": "https://www.benzinga.com/next-assets/images/benzinga-schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                }
-            ],
-            "overall_sentiment_score": 0.569329,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": []
-        },
-        {
-            "title": "Can iPhone 17 right Apple ship in China? US tech giant's CEO Tim Cook thinks so",
-            "url": "https://www.scmp.com/business/article/3331037/can-iphone-17-right-apples-ship-china-us-tech-giants-ceo-tim-cook-thinks-so",
-            "time_published": "20251031T090009",
-            "authors": [
-                "Iris Deng"
-            ],
-            "summary": "Apple is struggling in China as sales decline amid cutthroat competition with domestic brands, but CEO Tim Cook says he is confident of a rebound on the back of rising demand for the iPhone 17 line-up. The US tech giant's revenue in Greater China, which covers mainland China, Hong Kong and ...",
-            "banner_image": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2025/10/31/aada67bd-e138-42ea-bc3f-db1c32ff14ad_529dfff8.jpg",
-            "source": "South China Morning Post",
-            "category_within_source": "Companies",
-            "source_domain": "www.scmp.com",
-            "topics": [
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.360215"
-                }
-            ],
-            "overall_sentiment_score": 0.146339,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "XIACY",
-                    "relevance_score": "0.498188",
-                    "ticker_sentiment_score": "0.344655",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Pony.ai becomes first to win citywide robotaxi permit in China's Silicon Valley",
-            "url": "https://www.cnbc.com/2025/10/31/chinas-ponyai-gets-the-first-permit-for-robotaxis-in-all-of-shenzhen.html",
-            "time_published": "20251031T090001",
-            "authors": [],
-            "summary": "Pony.ai said it is the first company to get a permit to operate taxis across all of the Chinese city of Shenzhen on the border of Hong Kong.",
-            "banner_image": null,
-            "source": "CNBC",
-            "category_within_source": "Finance",
-            "source_domain": "www.cnbc.com",
-            "topics": [],
-            "overall_sentiment_score": -0.037347,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.439786",
-                    "ticker_sentiment_score": "-0.005792",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "The Best Humanoid Robot Stocks to Buy or Put on Your Watch List",
-            "url": "https://www.fool.com/investing/2025/10/31/best-humanoid-robot-stocks-to-buy/",
-            "time_published": "20251031T090000",
-            "authors": [
-                "https://www.facebook.com/themotleyfool/",
-                "Beth McKenna"
-            ],
-            "summary": "Nvidia, Tesla, Hyundai's Boston Dynamics, and Foxconn are all heavily involved in the humanoid robot market.",
-            "banner_image": "https://g.foolcdn.com/editorial/images/840005/best-humanoid-robot-stocks-to-buy-ai-robotics-stocks-nvda-tesla-boston-dynamics.png",
-            "source": "Motley Fool",
-            "category_within_source": "n/a",
-            "source_domain": "www.fool.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.495866"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.178475,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "XPEV",
-                    "relevance_score": "0.084275",
-                    "ticker_sentiment_score": "0.188042",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "GOOG",
-                    "relevance_score": "0.042196",
-                    "ticker_sentiment_score": "0.084826",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NVDA",
-                    "relevance_score": "0.43944",
-                    "ticker_sentiment_score": "0.19252",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.084275",
-                    "ticker_sentiment_score": "0.092516",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.126119",
-                    "ticker_sentiment_score": "0.073907",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HYMLF",
-                    "relevance_score": "0.042196",
-                    "ticker_sentiment_score": "0.174953",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "SFTBF",
-                    "relevance_score": "0.084275",
-                    "ticker_sentiment_score": "0.140541",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GS",
-                    "relevance_score": "0.042196",
-                    "ticker_sentiment_score": "0.185918",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "OPTGF",
-                    "relevance_score": "0.208644",
-                    "ticker_sentiment_score": "0.001609",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Weibo Corporation to Report Third Quarter 2025 Financial Results on November 18, 2025 - Weibo  ( NASDAQ:WB ) ",
-            "url": "https://www.benzinga.com/pressreleases/25/10/n48552255/weibo-corporation-to-report-third-quarter-2025-financial-results-on-november-18-2025",
-            "time_published": "20251031T090000",
-            "authors": [
-                "PRNewswire"
-            ],
-            "summary": "BEIJING, Oct. 31, 2025 /PRNewswire/ -- Weibo Corporation ( NASDAQ:WB ) , a leading social media for people to create, share and discover content, will announce its unaudited financial results for the third quarter 2025 before the U.S. market opens on Tuesday, November 18, 2025.",
-            "banner_image": "https://www.benzinga.com/next-assets/images/benzinga-schema-image-default.png",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Technology",
-                    "relevance_score": "1.0"
-                }
-            ],
-            "overall_sentiment_score": 0.292213,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WB",
-                    "relevance_score": "0.703273",
-                    "ticker_sentiment_score": "0.483768",
-                    "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Aurora Mobile Partners with Tuniu to Enhance Travel Experience with JPush Intelligent Messaging",
-            "url": "https://www.globenewswire.com/news-release/2025/10/31/3178149/0/en/Aurora-Mobile-Partners-with-Tuniu-to-Enhance-Travel-Experience-with-JPush-Intelligent-Messaging.html",
-            "time_published": "20251031T090000",
-            "authors": [
-                "Aurora Mobile Limited"
-            ],
-            "summary": "SHENZHEN, China, Oct. 31, 2025 ( GLOBE NEWSWIRE ) -- Aurora Mobile Limited ( NASDAQ: JG ) ( \"Aurora Mobile\" or the \"Company\" ) , a leading provider of customer engagement and marketing technology services in China, today announced that it has entered into a partnership with Beijing Tuniu ...",
-            "banner_image": "https://ml.globenewswire.com/Resource/Download/5e12f74e-0978-4008-a030-4c2b113ad11e",
-            "source": "GlobeNewswire",
-            "category_within_source": "n/a",
-            "source_domain": "www.globenewswire.com",
-            "topics": [
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.451494"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Energy & Transportation",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.446972,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "SZIHF",
-                    "relevance_score": "0.03463",
-                    "ticker_sentiment_score": "0.254339",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "XIACY",
-                    "relevance_score": "0.03463",
-                    "ticker_sentiment_score": "0.143335",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "JG",
-                    "relevance_score": "0.304009",
-                    "ticker_sentiment_score": "0.349997",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "NIO",
-                    "relevance_score": "0.03463",
-                    "ticker_sentiment_score": "0.143335",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TOUR",
-                    "relevance_score": "0.335823",
-                    "ticker_sentiment_score": "0.547667",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
