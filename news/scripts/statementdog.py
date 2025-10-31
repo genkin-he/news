@@ -11,7 +11,7 @@ headers = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'zh-CN,zh;q=0.9',
     'cache-control': 'max-age=0',
-    'if-none-match': 'W/"44a7eca67e5d122b4c1da9ce9610d254"',
+    'if-none-match': 'W/"809c58081575ba6851f3e11365bca706"',
     'priority': 'u=0, i',
     'referer': 'https://statementdog.com/news',
     'sec-ch-ua': '"Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"',
@@ -23,7 +23,7 @@ headers = {
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
-    "cookie": 'statementdog_device_id=S2lrNHB1YnVnTTh0aGcyZFJTUk1idko2aWxpVHVwVXVla0taelRITHdIbkFjVFd0b0xwT1F4RUpDYTJrK0ZUUC0tc05yanVZYzc3dEk3VDFRMVRNRXYyZz09--70223dcbb8258ed7870f735b8375fee5dbe00a3e; easy_ab=ce49d1e9-0a2a-47b9-bb04-af0c558a7dd0; _ga=GA1.1.476174624.1757664892; upgrade_browser=1; _statementdog_session_v2=yzOszPPpOthBs%2FIu5buQoyJcRRTzWeTdZrBIteBPl7coGPAheVT5Fl%2FmYMPijxDLbO2EwfULZXF03vHhoLreF6vqMlZuKZJUWwog%2FiXy3fj9IXhbQ1ej1ipRWihqJdY5JJYAZYWzoV%2FnOzr6A0kcvPrZFqKzF9RaprS6TRDCYq4i8SV43NA3s5tFcfzrW8JEYwkQtBEfr9yBnrPMYnov6PZsyYX%2FlaHIGuvunpsrkPSZSRJEAvtMT7nvL8uyJTiPTnyM8%2BkyviEhtWQ7EOzt%2B6bWMlZaB%2F3kiULwcLAX29k2NuGi%2B%2FdxWvTeLlAyDq9EZEt97LVE--brREEmvmUoyEuE7C--VLaExgIOc1jsb%2BVXdJRB5Q%3D%3D; AMP_0ab77a441f=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI1M2M0ZjI0Ny0xMmNiLTRmYTktOGYwOC04YzAzNDAxMWNlMzMlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzU3NjY0ODkwNDg3JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJwYWdlQ291bnRlciUyMiUzQTAlN0Q=; _ga_K9Y9Y589MM=GS2.1.s1757664891$o1$g1$t1757664994$j36$l0$h0; aws_news_and_reports_impression={%22news%22:[%2214454%22%2C%2214448%22%2C%2214451%22%2C%2214434%22%2C%2214433%22%2C%2214464%22%2C%2214467%22%2C%2214435%22%2C%2214455%22%2C%2214459%22%2C%2214449%22%2C%2214445%22%2C%2214441%22%2C%2214452%22%2C%2214440%22%2C%2214473%22%2C%2214484%22%2C%2214475%22%2C%2214457%22%2C%2214482%22%2C%2214477%22%2C%2214479%22%2C%2214480%22%2C%2214478%22%2C%2214460%22]}',
+    "cookie": 'statementdog_device_id=S2lrNHB1YnVnTTh0aGcyZFJTUk1idko2aWxpVHVwVXVla0taelRITHdIbkFjVFd0b0xwT1F4RUpDYTJrK0ZUUC0tc05yanVZYzc3dEk3VDFRMVRNRXYyZz09--70223dcbb8258ed7870f735b8375fee5dbe00a3e; easy_ab=da74befb-e996-48aa-b43f-f4fa29b8c555; _ga=GA1.1.1162741084.1761903112; aws_news_and_reports_impression={%22news%22:[%2214889%22%2C%2214895%22]}; AMP_0ab77a441f=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI1M2M0ZjI0Ny0xMmNiLTRmYTktOGYwOC04YzAzNDAxMWNlMzMlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxOTAzMTEyMjI3JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJwYWdlQ291bnRlciUyMiUzQTAlN0Q=; g_state={"i_l":0,"i_ll":1761903155667,"i_b":"kPoPB9X9G83Lv2DUNR/m/hGcAX2IKd4X/48g4F9SKBI"}; _statementdog_session_v2=akihw9gs8S0IKfGTqxAfuoRpQUC%2FU6AhX5JM6%2Fw732eZXl08YobxXoPd9s1hho%2FuBrMit0tgKDohz4wm6n3te35MoGIKW3EjT4IeKMwRLZQDPaAZSULvs3F5wiKkM3GlA4INkRgE9njYog1xrQWVZ7kG%2B7CTdIFpwUMnRoMgiZwBCdD6lgQjtFui3Xt6NUfCf30jjQglB%2FLE8JI3Dc09bS5TUTJy7WGhgf9WtP%2FLDzpikow0O8PYXgURdvpTQwuUdotY%2BXbQD88KrpQtpFEd5MN4CUQAOH3JfP4N4U02rcKbPH59LUR8bDSmXin6tTOZedEQmD2J--mLiShGX2EErFQmW%2B--KPRGfez2zuhjVJKMx3FexQ%3D%3D; _ga_K9Y9Y589MM=GS2.1.s1761903111$o1$g1$t1761903156$j15$l0$h0',
 }
 
 base_url = "https://www.statementdog.com/"

@@ -18,7 +18,7 @@ headers = {
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
-    "cookie": "_lscache_vary=7e15a74c1fa7fd685f7458c5922efa5e; _ga_60NDG0QP7D=GS1.1.1738565659.1.0.1738565659.0.0.0; _ga=GA1.1.1397454213.1738565660; pll_language=en",
+    "cookie": 'pll_language=en; __gads=ID=0f672daa9626460e:T=1755602124:RT=1761902636:S=ALNI_MauLTbnrKS4g_iKd9Fj8RGJ6sXZQA; __gpi=UID=00001182d01c5226:T=1755602124:RT=1761902636:S=ALNI_Mabpe_tmsEPE8JR_gB6pCchMxHhsQ; __eoi=ID=c86647c0936a414c:T=1755602124:RT=1761902636:S=AA-AfjY09jvj-TF7Ip2YnDNCjZLh; __gsas=ID=82470bc1a4b2ac8d:T=1761902637:RT=1761902637:S=ALNI_MZgQfAECPLm8wBDANMX-mBh3neYKQ; FCOEC=%5B%5B%5B28%2C%22%5Bnull%2C%5Bnull%2C1%2C%5B1761902638%2C798552000%5D%2C0%5D%5D%22%5D%5D%5D; FCCDCF=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%2208f70b31-11fc-4043-88da-a13f8e7fe552%5C%22%2C%5B1761902637%2C602000000%5D%5D%22%5D%5D%5D; FCNEC=%5B%5B%22AKsRol-n1UpMwzY4XkM8IVvLIPqvHPCn5g5G5VpKGe2GFNcM2XRWDwNKDUwK6ci1Uh0DeseDcphibxewaSdHzb151ubUAQebVEWTPyiKfHAwrVKci73R_JOW2nHMdU4EMtt_hLauT-uJ8EJ2QBVb58rEAzjrRAv6ZA%3D%3D%22%5D%5D; _ga_04DMKL0FPQ=GS2.1.s1761902639$o1$g0$t1761902639$j60$l0$h0; _ga=GA1.1.1127038968.1761902639; cf_clearance=qJgnuPd8rDL38O5VBmC5XhA0ik3CKkLwInDtrBSlCec-1761902641-1.2.1.1-.DwJRf_I_vAKkJPyO3pO3YlSjbmc_XRmHcF3_fJX0n6sBnZZUGq0qsCUZFtUZ_FJG2ePOzNV5VRHMZahaoKG54mw6o5PDi_Z3yfA9jfoWhZfRuieoy.KyYa2EaIuXwmPg6R8dRKkNg9BrBsBHF6L6GGkdFHD6MI1k8aQoB3nNjd5_qGYmr3_XeGFDCay7IFrY_ge82pjZs9jrOE_pSywMGhaaG6NpaZWM3M5FMZzNgI',
 }
 base_url = "https://www.reporterosdelsur.com/"
 filename = "./news/data/reporterosdelsur/list.json"
@@ -97,3 +97,5 @@ def run():
 
 if __name__ == "__main__":
     util.execute_with_timeout(run)
+    # detail = get_detail("https://lisboatv.pt/meridas-2025-property-boom-investors-flock-to-yucatans-soaring-market/")
+    # util.info(detail)
