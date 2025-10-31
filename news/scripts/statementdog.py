@@ -38,7 +38,7 @@ def get_detail(link):
     util.info("link: {}".format(link))
     current_links.append(link)
     try:
-        response = requests.get(link, headers=headers, timeout=5)
+        response = requests.get(link, headers=headers, timeout=5, proxies=util.get_random_proxy())
         if response.status_code == 200:
             body = BeautifulSoup(response.text, "lxml")
             soup = body.select_one('.main-news-content')
@@ -64,7 +64,7 @@ def run():
 
     try:
         response = requests.get(
-            "https://statementdog.com/news/latest", headers=headers, timeout=5
+            "https://statementdog.com/news/latest", headers=headers, timeout=5, proxies=util.get_random_proxy()
         )
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, "lxml")
@@ -105,4 +105,5 @@ def run():
         util.log_action_error("request exception: {}".format(str(e)))
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run)
+    if util.should_run_by_minute(divisor=10):
+        util.execute_with_timeout(run)
