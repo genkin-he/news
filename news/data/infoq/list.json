@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "DWyEL9LsfxEV8JW5eZWU",
+            "title": "火热报名中！2025 龙蜥操作系统大会亮点速递",
+            "image": "https://static001.infoq.cn/resource/image/61/89/614eb2533cf3f6c55d1438ed9cf7f389.jpg",
+            "description": "<div><p>Hi，小伙伴们，好久不见，很高兴再次与大家相聚在北京！</p><p></p><p>2025 龙蜥操作系统大会（简称“2025龙蜥大会”）将于 11 月 17 日在北京·星地艺术中心盛大召开，主题为“生态共融·智驱未来”，汇聚全球操作系统领域的前沿探索与最佳实践，诚邀产业共建者一起，洞悉行业机遇，把握产业脉动，领略技术跃迁，聆听生态蝶变。</p><p></p><p>作为全程蹲守筹备一线的“情报官”小龙，今天就带着满满诚意，为大家抢先剧透一波：更硬核的技术论坛、更沉浸的动手体验、更闪耀的生态阵容……统统安排上！</p><p></p><p>那 2025 龙蜥大会到底有哪些新亮点？小龙沉浸式您你揭晓：</p><p></p><p><strong>● 大咖齐聚</strong>：20+ 院士学者、企业领袖、业界翘楚，超 300 家企业和逾千位行业开发者。</p><p></p><p>●<strong> 前沿探索</strong>：1 个产业主论坛、5 个技术分论坛，深入探讨 AI 时代下操作系统产业发展的新趋势、新挑战与新路径。</p><p></p><p>● <strong>生态共荣</strong>：10+ 个特色展区/开发者活动，推动技术融合，构建更加开放、协同、繁荣的产业生态</p><p></p><p>● <strong>干货满满</strong>：60+ 场前沿技术分享，聚焦技术融合、生态共建、人才培养等议题。</p><p></p><p><img>https://static001.geekbang.org/infoq/e9/e9050dc316ea470d706b4dcb898e9e8e.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/23/23b0589b80b4f2db74e809e2f1ce7b74.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/dc/dc0f175c747cbd9d78bd2e920b7d6cf2.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/52/5208077ab26f832866bd56c66211f721.jpeg<img></p><p>前 100 名报名且现场签到的小伙伴可在现场“龙蜥礼物岛”领取限量社区周边一份，五周年定制冰箱贴、帆布袋等可选。欢迎大家速速报名，共赴操作系统产业的年度盛会！</p><p></p><p>报名链接（复制链接至浏览器打开）：</p><p>https://hd.aliyun.com/form/6795</p><p></p><p>2025 龙蜥操作系统大会官网链接（复制链接至浏览器打开或点击阅读原文直达）：</p><p>https://openanolis.cn/openanolisconference2025</p></div>",
+            "link": "https://www.infoq.cn/article/DWyEL9LsfxEV8JW5eZWU",
+            "pub_date": "2025-10-31 04:07:41",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "EMmU8fChp9qiNjRCLjQZ",
             "title": "深度探讨“云+智能计算”，智算新基础设施分论坛议程揭晓 | 2025 龙蜥大会",
             "image": "https://static001.infoq.cn/resource/image/73/01/737fc57061fb38c67ac345b1c2beb501.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p>谷歌云发布了一份，详细阐述了保护远程模型上下文协议（MCP）服务器的策略，尤其针对那些依赖外部工具、数据库和API的人工智能系统。该指南指出，尽管MCP显著提升了智能体的能力，但同时也引入了新的安全漏洞，包括工具投毒、提示词注入、动态工具操作、会话劫持、未经授权的访问以及数据泄露等风险。</p><p></p><p>在指南中，谷歌提出了一个以集中式MCP代理为中心的防御架构，这是一个介于客户端和远程MCP服务器之间的安全层。这个代理可在Cloud Run、Apigee或GKE等平台上部署，能够强制执行一致的访问控制、执行审计日志记录、应用机密和资源使用策略，并实时检测威胁，所有这些操作都不会改变各个MCP服务器的实现。</p><p></p><p>为了说明最佳实践，指南列举了组织应优先考虑的五种部署风险：因清单配置失误致使未经授权的工具意外暴露、会话劫持、伪装成合法端点的“幽灵”工具、令牌失窃或敏感数据外泄以及弱身份验证被轻易绕过。借助这种代理架构，这些潜在漏洞得以在大规模部署场景中得到有效缓解。</p><p></p><p></p><p><img>https://static001.geekbang.org/infoq/76/767818a4302bab8e04f51015f018b61f.png<img></p><p></p><p></p><p>谷歌强调，由于MCP服务器通常会暴露给远程或外部访问，保障身份安全、传输安全以及架构稳固性绝非可选操作，而是必要的基础防线。集中式代理模型的引入，为安全防护、可观测性以及治理效能提供了一个集中的强制执行枢纽，使其能够在不引发多个服务器实例漏洞扩散的前提下实现高效且安全的横向拓展。</p><p></p><p>谷歌云建议采用集中式代理来统一管理客户端与远程MCP服务器之间的通信。该代理能够强制执行访问控制、审计日志记录、机密策略以及安全传输，通过设立一个集中的强制执行点，而非依赖众多分散的服务器，有效减少了潜在的攻击面。此外，谷歌着重强调了识别特定风险向量的重要性，例如未经授权的工具暴露、会话劫持以及弱身份验证等问题，并明确指出，将身份认证、传输安全以及策略强制执行视为基础性要求，而非可选操作。</p><p></p><p>相比之下，尽管AWS尚未发布专门针对MCP的指南，但它提供了，用于保障远程服务器编排以及智能体工具的安全性。例如，AWS会话管理器允许用户在无需开启SSH/RDP端口的情况下对EC2实例进行远程访问管理。它使用IAM策略进行访问控制，并通过与CloudTrail以及其他监控工具的深度集成完成日志记录与审计工作。</p><p></p><p>AWS还通过安全组、VPC端点和最低权限IAM角色限制网络访问，为智能体和管理员提供更精细的访问控制。</p><p></p><p>Azure通过提供智能体管理能力。使用Azure Arc时，无论服务器位于Azure、本地还是其他云中，都会在其上部署“连接的机器代理”。通过Azure基于角色的访问控制（RBAC）和基于身份的认证机制（例如Entra ID）来强制执行访问控制策略。Azure还支持默认禁用远程访问，只有在经过明确配置后才会启用，并且可以审计智能体行为和凭据。</p><p></p><p>谷歌云、AWS和Azure这三大云服务供应商在远程智能体/远程服务器方面有重叠的安全理念：强制实施强有力的身份认证与访问控制机制，避免服务器直接暴露于公共互联网，采用集中式代理或智能体框架来增强安全性，确保完备的日志记录与审计追踪，遵循最小权限原则，并严格限制可访问或执行的代理及工具范围。谷歌云针对MCP发布的安全指南与这些通用的安全实践高度契合，还增加了更多关于协议特定威胁（工具投毒、提示词注入等）的警告，这些内容在AWS和Azure的智能体安全文档中往往没有如此明确的说明。</p><p></p><p>【声明：本文由InfoQ翻译，未经许可禁止转载。】</p><p></p><p><strong>查看英文原文</strong>：</p></div>",
             "link": "https://www.infoq.cn/article/LcB8AsrqyOWMEGDl1BbB",
             "pub_date": "2025-10-24 04:00:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "oJdiIjMNPMRsJdqyZb0K",
-            "title": "IBM Cloud Code Engine Serverless Fleets配备GPU以实现高性能人工智能和并行计算",
-            "image": "https://static001.infoq.cn/resource/image/8e/54/8ef882yy4507edfbf3578036ee314e54.jpg",
-            "description": "<div><p><color>IBM战略性全托管无服务器平台</color><color>引入了支持集成GPU的Serverless Fleets。凭借这项新能力，该公司直接解决了在简化版按需付费无服务器模型上运行大规模计算密集型工作负载的挑战，如企业级人工智能、生成式人工智能、机器学习和复杂仿真。</color></p><p><color> </color></p><p><color>正如学术论文中所指出的那样（包括康奈尔大学最近发表的一篇</color><color>），历史上，无服务器技术在高效支持这些要求苛刻的并行工作负载方面存在困难，这类负载通常需要使用专用的硬件同时执行数千或数百万个任务。通过Serverless Fleets，IBM旨在通过提供高性能计算资源来弥合这一差距，而且又不需要用户应对管理专用基础设施的操作复杂性。</color></p><p><color> </color></p><p><color>Michael Behrendt是无服务器平台首席技术官兼IBM杰出工程师，他在LinkedIn上的一篇</color><color>中评论道：</color></p><p><color> </color></p><p><color> </color></p><p><color>Serverless Fleets提供了单个端点用于提交大量的批处理作业，简化了数据科学家和开发人员执行计算密集型任务的方式。在这篇</color><color>中，IBM提到，Code Engine随后会自动处理基础设施编排：</color></p><p><color> </color></p><ul><li><p><span style=\"color:#494949\">该服务会自动配置所需的计算资源，包括虚拟机（VM）和无服务器图形处理单元（GPU），如NVIDIA L40，以便可以同时运行多个任务。</span></p></li></ul><ul><li><p><span style=\"color:#494949\">此外，Serverless Fleets旨在运行可弹性扩展的运行至完成任务。该系统会确定所需的工作实例的最优数量并将其部署，以便高效处理并行执行。</span></p></li></ul><ul><li><p><span style=\"color:#494949\">最后，当工作负载完成后，资源将自动移除，确保用户仅需为执行过程中实际消耗的技术资源付费。</span></p></li></ul><p><color> </color></p><p><color>随着IBM Cloud Code Engine Serverless Fleets的推出，公司带来了一项极具竞争力的服务。在其他超大型提供商中，亚马逊云科技提供了</color><color>这样的解决方案，用于在无服务器计算上运行容器（通常搭配EKS或ECS进行编排），而Azure在</color><color>中提供了</color><color>。然而，IBM致力于提供一个统一的环境，通过单个简单的平台为Web应用、函数以及现有的大量GPU加速的批处理作业提供服务。</color></p><p><color> </color></p><p><color>竞争对手可能需要开发人员将多个服务（如无服务器运行时、容器服务和批处理编排器）拼接在一起，Serverless Fleets则旨在简化这一过程，通过单个端点就可以完全管理基于GPU的虚拟机的配置和弹性扩展，减少了通常与在云中运行GPU密集型弹性工作负载相关的复杂性和运营开销。在Medium上的一篇</color><color>中，Luke Roy总结道：</color></p><p><color> </color></p><p><color> </color></p><p><color>在一篇</color><color>中，该公司表示，在当今竞争激烈的格局中，各行各业的企业都需要能够快速、便捷地交付服务，同时优先考虑安全性、弹性和成本节省。</color></p><p><color> </color></p><p><color> </color></p><p><color>声明：本文为InfoQ翻译，未经许可禁止转载。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/oJdiIjMNPMRsJdqyZb0K",
-            "pub_date": "2025-10-23 03:31:24",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
