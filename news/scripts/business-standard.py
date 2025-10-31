@@ -148,8 +148,9 @@ def run():
 
     if response.status_code == 200:
         result = response.json()["data"]
+        date_index = 0
         for index in range(len(result)):
-            if index < 3:
+            if date_index < 3:
                 id = result[index]["article_id"]
                 article_url = result[index]["article_url"]
                 link = "https://www.business-standard.com{}".format(article_url)
@@ -184,6 +185,7 @@ def run():
                             "language": "en",
                         },
                     )
+                    date_index += 1
         if len(articles) > 0 and insert:
             if len(articles) > 10:
                 articles = articles[:10]
