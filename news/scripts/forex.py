@@ -117,5 +117,7 @@ def run(url):
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    # 有人机验证，需要手动点击验证后的 cookie 填写到 headers 中
-    util.execute_with_timeout(run, "https://www.forex.com/en-us/news-and-analysis/")
+    # 有人机验证，暂时无法解决
+    # 403 Forbidden
+    util.info("403 Forbidden")
+    # util.execute_with_timeout(run, "https://www.forex.com/en-us/news-and-analysis/")
