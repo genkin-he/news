@@ -6,6 +6,7 @@ import requests
 import json
 import re
 from util.spider_util import SpiderUtil
+from bs4 import BeautifulSoup
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -30,6 +31,23 @@ filename = "./news/data/now/list.json"
 current_links = []
 util = SpiderUtil(notify=False)
 
+def get_detail(link):
+    util.info("link: {}".format(link))
+    response = requests.get(link, headers=headers, timeout=8, proxies=util.get_random_proxy())
+    if response.status_code == 200:
+        body = response.text
+        lxml = BeautifulSoup(body, "lxml")
+        soup = lxml.select_one(".newsLeading")
+
+        ad_elements = soup.select(".imagesCollection")
+        # 移除这些元素
+        for element in ad_elements:
+            element.decompose()
+
+        return str(soup).strip()
+    else:
+        util.error("request: {} error: {}".format(link, response.status_code))
+        return ""
 
 def run(link):
     data = util.history_posts(filename)
@@ -49,11 +67,12 @@ def run(link):
                     break
                 id = items[index]["newsId"]
                 title = items[index]["title"]
-                description = items[index]["summary"].replace("瀏覽MOBILE網頁", "")
+                description = ""
                 image = items[index]["imageUrl"]
                 link = "https://news.now.com/home/technology/player?newsId={}".format(
                     id
                 )
+                description = get_detail(link)
                 category = items[index]["categoryName"]
                 if link in ",".join(_links):
                     util.info("exists link: {}".format(link))
@@ -76,8 +95,8 @@ def run(link):
                     )
 
             if len(_articles) > 0 and insert:
-                if len(_articles) > 10:
-                    _articles = _articles[:10]
+                if len(_articles) > 20:
+                    _articles = _articles[:20]
                 util.write_json_to_file(_articles, filename)
         else:
             util.log_action_error("now request error: {}".format(response.status_code))
@@ -86,9 +105,9 @@ def run(link):
 
 if __name__ == "__main__":
     util.execute_with_timeout(
-        run, "https://news.now.com/api/getNewsList?category=121&pageSize=200&pageNo=1"
+        run, "https://newsapi1.now.com/pccw-news-api/api/getNewsListv2?category=121&pageSize=20&pageNo=1"
     )
 
     util.execute_with_timeout(
-        run, "https://news.now.com/api/getNewsList?category=502&pageSize=200&pageNo=1"
+        run, "https://newsapi1.now.com/pccw-news-api/api/getNewsListv2?category=502&pageSize=20&pageNo=1"
     )
