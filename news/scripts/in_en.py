@@ -99,4 +99,5 @@ def run(link):
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run, "https://newenergy.in-en.com/corp/")
+    if util.should_run_by_minute(divisor=10):
+        util.execute_with_timeout(run, "https://newenergy.in-en.com/corp/")
