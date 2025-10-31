@@ -96,6 +96,7 @@ def run():
         util.log_action_error(f"request error: {response.status_code}")
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run)
+    # util.execute_with_timeout(run)
+    util.info("403 Forbidden")
     # detail = get_detail("https://lisboatv.pt/meridas-2025-property-boom-investors-flock-to-yucatans-soaring-market/")
     # util.info(detail)
