@@ -107,7 +107,7 @@ def run(link):
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    # util.execute_with_timeout(run, "https://www.pharmexec.com/rss")
-    detail = get_detail("https://www.pharmexec.com/view/collaborations-advancing-antibody-drug-conjugates-treatments-autoimmune-diseases")
-    util.info(detail)
+    util.execute_with_timeout(run, "https://www.pharmexec.com/rss")
+    # detail = get_detail("https://www.pharmexec.com/view/collaborations-advancing-antibody-drug-conjugates-treatments-autoimmune-diseases")
+    # util.info(detail)
 
