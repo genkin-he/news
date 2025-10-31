@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "EMmU8fChp9qiNjRCLjQZ",
+            "title": "深度探讨“云+智能计算”，智算新基础设施分论坛议程揭晓 | 2025 龙蜥大会",
+            "image": "https://static001.infoq.cn/resource/image/73/01/737fc57061fb38c67ac345b1c2beb501.jpg",
+            "description": "<div><p><strong>2025 龙蜥操作系统大会将于 11 月 17 日在北京·星地艺术中心举办，由中国计算机学会开源发展技术委员会、泛在操作系统开放社区、中关村科技园区朝阳园管理委员会（北京市朝阳区科学技术和信息化局）、中国开源软件推进联盟指导，龙蜥社区主办，中关村互联网 3.0 产业园（星地中心）协办，阿里云、中兴通讯、海光信息、Intel、浪潮信息、Arm 等 24 家理事单位共同承办，主题为“生态共融·智驱未来”， 云集逾千位全球技术领袖、业界精英和行业开发者，深入探讨 AI 时代下操作系统产业发展的新趋势、新挑战与新路径。大会将聚焦技术融合、生态共建、人才培养等核心议题，致力于推动操作系统与AI、云计算、大数据等前沿技术的深度融合，打造政、产、学、研多方深度对话的年度盛会，构建更加开放、协同、繁荣的产业生态体系。</strong></p><p></p><p>当前，人工智能正加速演进，智算基础设施作为支撑人工智能技术发展和产业落地的底座已成为驱动技术创新与产业变革的核心引擎。本论坛以<strong>“共建智算新基础设施”</strong>为主题，汇聚企业、科研机构及产业生态各方力量，共同探讨云+智能计算的产业进展、前沿技术创新与生态建设，旨在凝聚共识、激发创新。</p><p></p><p>本论坛由龙蜥社区主办，龙蜥社区智算基础设施联盟、Intel 、中国智算产业联盟、浪潮信息、大普微企业等联合承办，欢迎来自产业、高校的智算系统领域工程师、科研人员、专家和架构师分享精彩的技术演讲与生态实践经验，共同探索和构建高效、普惠的智能算力新基础设施。</p><p></p><p><strong>时间：</strong>2025.11.17 13:30-16:35</p><p></p><p><strong>地点：</strong>北京·星地艺术中心 D 座 5F 会议室 2</p><p></p><p><strong>报名链接</strong>（复制链接至浏览器打开）：</p><p><italic>https://hd.aliyun.com/form/6795</italic></p><p></p><p>会议议程详见下方海报：</p><p></p><p><img>https://static001.geekbang.org/infoq/7d/7d9d50ea577717b348a49542b813902d.webp<img></p><p></p><p>相关分论坛议程链接：</p><p></p><p>更多 2025 龙蜥大会详情，请点击大会官网链接查看（复制链接至浏览器打开或点击阅读原文）：</p><p><italic>https://openanolis.cn/openanolisconference225</italic></p></div>",
+            "link": "https://www.infoq.cn/news/EMmU8fChp9qiNjRCLjQZ",
+            "pub_date": "2025-10-31 02:42:12",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "WzV23TlWBq6F7Qsi2zz4",
             "title": "AWS ALB 现已原生支持 URL 与主机头重写功能",
             "image": "https://static001.infoq.cn/resource/image/9a/1e/9a5eab18f719b8160fc42319ab45531e.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>IBM战略性全托管无服务器平台</color><color>引入了支持集成GPU的Serverless Fleets。凭借这项新能力，该公司直接解决了在简化版按需付费无服务器模型上运行大规模计算密集型工作负载的挑战，如企业级人工智能、生成式人工智能、机器学习和复杂仿真。</color></p><p><color> </color></p><p><color>正如学术论文中所指出的那样（包括康奈尔大学最近发表的一篇</color><color>），历史上，无服务器技术在高效支持这些要求苛刻的并行工作负载方面存在困难，这类负载通常需要使用专用的硬件同时执行数千或数百万个任务。通过Serverless Fleets，IBM旨在通过提供高性能计算资源来弥合这一差距，而且又不需要用户应对管理专用基础设施的操作复杂性。</color></p><p><color> </color></p><p><color>Michael Behrendt是无服务器平台首席技术官兼IBM杰出工程师，他在LinkedIn上的一篇</color><color>中评论道：</color></p><p><color> </color></p><p><color> </color></p><p><color>Serverless Fleets提供了单个端点用于提交大量的批处理作业，简化了数据科学家和开发人员执行计算密集型任务的方式。在这篇</color><color>中，IBM提到，Code Engine随后会自动处理基础设施编排：</color></p><p><color> </color></p><ul><li><p><span style=\"color:#494949\">该服务会自动配置所需的计算资源，包括虚拟机（VM）和无服务器图形处理单元（GPU），如NVIDIA L40，以便可以同时运行多个任务。</span></p></li></ul><ul><li><p><span style=\"color:#494949\">此外，Serverless Fleets旨在运行可弹性扩展的运行至完成任务。该系统会确定所需的工作实例的最优数量并将其部署，以便高效处理并行执行。</span></p></li></ul><ul><li><p><span style=\"color:#494949\">最后，当工作负载完成后，资源将自动移除，确保用户仅需为执行过程中实际消耗的技术资源付费。</span></p></li></ul><p><color> </color></p><p><color>随着IBM Cloud Code Engine Serverless Fleets的推出，公司带来了一项极具竞争力的服务。在其他超大型提供商中，亚马逊云科技提供了</color><color>这样的解决方案，用于在无服务器计算上运行容器（通常搭配EKS或ECS进行编排），而Azure在</color><color>中提供了</color><color>。然而，IBM致力于提供一个统一的环境，通过单个简单的平台为Web应用、函数以及现有的大量GPU加速的批处理作业提供服务。</color></p><p><color> </color></p><p><color>竞争对手可能需要开发人员将多个服务（如无服务器运行时、容器服务和批处理编排器）拼接在一起，Serverless Fleets则旨在简化这一过程，通过单个端点就可以完全管理基于GPU的虚拟机的配置和弹性扩展，减少了通常与在云中运行GPU密集型弹性工作负载相关的复杂性和运营开销。在Medium上的一篇</color><color>中，Luke Roy总结道：</color></p><p><color> </color></p><p><color> </color></p><p><color>在一篇</color><color>中，该公司表示，在当今竞争激烈的格局中，各行各业的企业都需要能够快速、便捷地交付服务，同时优先考虑安全性、弹性和成本节省。</color></p><p><color> </color></p><p><color> </color></p><p><color>声明：本文为InfoQ翻译，未经许可禁止转载。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/oJdiIjMNPMRsJdqyZb0K",
             "pub_date": "2025-10-23 03:31:24",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "8Ttbl2JhW4hslXgZ0Zdm",
-            "title": "亚马逊云科技公司推出EC2实例认证",
-            "image": "https://static001.infoq.cn/resource/image/0d/91/0dc9054c5cyy042f1235cf422baab991.jpg",
-            "description": "<div><p><color>亚马逊云科技公司</color><color>，这是一种新的安全功能，使客户能够以加密安全的方式验证他们的虚拟机是否运行着经过批准的软件配置。这项功能由Nitro可信平台模块（</color><color>）和可认证的AMI提供支持。</color></p><p><color> </color></p><p><color>通过</color><color>，客户可以加密验证EC2实例是否运行着可信的配置和软件，解决了具有严格安全性和合规性要求的组织的关键问题。以前，可以从EC2的管理员和用户中移除操作员访问权限，但没有办法验证是否已经这样做了。AWS的首席安全架构师</color><color>解释道：</color></p><p><color> </color></p><p><color> </color></p><p><color>与以前仅在</color><color>中可用的功能类似，新功能将这些保护扩展到了标准EC2实例。Bean补充说：</color></p><p><color> </color></p><p><color> </color></p><p><color>一个可认证的</color><color>是一个具有相应的表示其所有内容的加密哈希的AMI。根据文档，这个哈希是在AMI创建过程中生成的，并且是基于AMI的完整内容计算的，包括应用程序、代码和启动过程。</color></p><p><color> </color></p><p><color>有了这个新功能，密钥和其他机密只能由运行经过批准的AMI的EC2实例使用AWS密钥管理服务（KMS）解密。此外，组织可以构建一个证书颁发机构（CA），仅向经过验证运行经过批准的AMI的实例颁发证书。在一个流行的</color><color>帖子上，一些用户质疑这个功能是否会被广泛采用。用户jiggawatts评论说：</color></p><p><color> </color></p><p><color> </color></p><p><color>The Duckbill Group的首席云经济学家Corey Quinn</color><color>：</color></p><p><color> </color></p><p><color>:</color></p><p><color>AWS英雄和无服务器专家Yan Cui有</color><color>：</color></p><p><color> </color></p><p><color>新的EC2实例认证对于企业SaaS和合规等用例来说是一个游戏规则改变者（…）许多企业更愿意在内部运行SaaS软件，以确保他们的敏感数据不会离开他们的网络。但SaaS提供商就没有办法保护他们的软件知识产权。有了可认证的AMI，SaaS提供商可以发布一个包含他们软件（比如说，一个AI模型）的AMI。客户可以通过镜像启动EC2实例并运行软件，但不能访问其内容。</color></p><p><color> </color></p><p><color>亚马逊云科技公司并不是唯一一个使客户能够验证虚拟机是否运行可信配置和软件的云提供商：</color><color>和</color><color>都提供了类似的认证能力。</color></p><p><color> </color></p><p><color>EC2实例认证在所有AWS区域均可用，该功能本身不收取额外费用。标准存储费用适用于AMI，如果使用该服务，AWS KMS定价适用于密钥操作。</color></p><p><color> </color></p><p><color>有一个</color><color>可用于使用</color><color>构建Amazon Linux 2023 Attested AMI，这是一个用于创建预配置的基于Linux的镜像的开源工具。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/8Ttbl2JhW4hslXgZ0Zdm",
-            "pub_date": "2025-10-22 05:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
