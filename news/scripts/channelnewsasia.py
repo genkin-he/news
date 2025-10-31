@@ -72,6 +72,7 @@ def run():
         
         if response.status_code == 200:
             body = response.text
+            util.info("body: {}".format(body))
             algolia_data = json.loads(body)
             
             # Extract articles from the first request (index 0)
@@ -93,8 +94,13 @@ def run():
                             continue
                         
                         # Get paragraph_text as description
-                        paragraph_text = hit.get("paragraph_text", "")
-                        
+                        paragraph_text = ""
+                        paragraph = hit.get("paragraph_text", "")
+                        if type(paragraph) == list:
+                            for item in paragraph:
+                                paragraph_text += item
+                        else:
+                            paragraph_text = paragraph
                         # Extract publication date
                         pub_date = ""
                         if "published_at" in hit:
@@ -103,13 +109,11 @@ def run():
                             pub_date = util.parse_time(hit["created_at"], "%Y-%m-%dT%H:%M:%SZ")
                         elif "date" in hit:
                             pub_date = util.parse_time(hit["date"], "%Y-%m-%dT%H:%M:%SZ")
-                        
                         # Get image if available
                         image = hit.get("image", "") or hit.get("thumbnail", "") or hit.get("featured_image", "")
-                        
                         # Generate unique ID
                         article_id = hit.get("objectID", "") or str(hash(link_absolute))
-                        
+
                         if paragraph_text and paragraph_text.strip():
                             insert = True
                             articles.insert(
