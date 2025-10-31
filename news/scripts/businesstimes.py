@@ -33,9 +33,11 @@ def get_detail(link):
         if response.status_code == 200:
             resp = response.text
             body = BeautifulSoup(resp, "lxml")
-            soup = body.select_one(".body-content")
+            soup = body.select_one("div.mx-auto.my-4.font-lucida.text-xl")
+            if not soup:
+                return ""
 
-            ad_elements = soup.select("style, script,.group-c-container,.py-10")
+            ad_elements = soup.select("style, script,.group-c-container,.py-10, div")
             # 移除这些元素
             for element in ad_elements:
                 element.decompose()
@@ -100,3 +102,5 @@ def run():
 
 if __name__ == "__main__":
     util.execute_with_timeout(run)
+    # detail = get_detail("https://www.businesstimes.com.sg/international/hong-kong-q3-gdp-expands-3-8-yy-faster-forecast")
+    # util.info(detail)
