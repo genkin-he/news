@@ -72,7 +72,6 @@ def run():
         
         if response.status_code == 200:
             body = response.text
-            util.info("body: {}".format(body))
             algolia_data = json.loads(body)
             
             # Extract articles from the first request (index 0)
