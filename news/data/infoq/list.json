@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "CMGGEFgmJ1LOyHP3WEi9",
+            "title": "亚马逊云科技携手 Intel 推出 C8i / C8i-flex 实例，进一步优化算力与能效",
+            "image": "https://static001.infoq.cn/resource/image/ed/ba/ed5b9d28099311a4b4851875971088ba.jpeg",
+            "description": "<div><p>亚马逊云科技 近日宣布正式推出计算优化型 C8i 和 ，这两款实例基于定制版  处理器打造，适用于运行高计算密集型工作负载，例如 Web 服务器、缓存、Apache Kafka、ElasticSearch、批处理任务、分布式分析、高性能计算（HPC）、广告投放、大型多人在线游戏以及视频编码等场景。</p><p></p><p>C8i 与 C8i-flex 的推出，进一步丰富了  的实例产品线。这两款新品延续了此前发布的内存优化型  以及通用型  实例的。据亚马逊云科技介绍，相较去年发布的 C7i 系列，新实例在性能上有显著提升：运行 NGINX Web 应用的速度提升 60%，AI 深度学习推荐模型性能提升最高可达 40%，而在 Memcached 存储方面则提升约 35%。</p><p></p><p>C8i 实例最高可提供 384 个 vCPU 和 768 GiB 内存，其中包括裸金属实例（bare-metal），可直接访问底层物理硬件，适合需要极致性能的高计算密集型任务。与此同时，C8i-flex 定位为 C8i 的经济型版本，在价格降低 5% 的同时，整体性价比也提升约 5%，为用户提供了更灵活、成本更优的选择。亚马逊云科技表示，C8i-flex 在大部分时间都能发挥出接近满载的 CPU 性能，即使计算资源未被完全使用，依然能保持稳定高效的运行状态。</p><p></p><p><img>https://static001.infoq.cn/resource/image/38/af/388cfd8da5d61fd8607216762e7652af.png<img></p><p>（来源：）</p><p></p><p>在 LinkedIn 的 DevOpsChat 社区中，业界人士对新实例的推出发表了：</p><p></p><p>不过，行业内也有不同声音。云计算评论账号 Last Week in AWS 在其 Bluesky 自动化账号 Snark bot 上：</p><p></p><p>目前，Amazon EC2 的 C8i 和 C8i-flex 实例已在美国东部（弗吉尼亚北部和俄亥俄）、美国西部（俄勒冈）以及欧洲（西班牙）上线。用户可通过（On-Demand）、（Savings Plan）和（Spot）三种方式购买。此外，C8i 实例还支持（Dedicated Instances）和（Dedicated Hosts）部署模式，方便企业根据业务需求灵活选择。</p><p></p><p><strong>原文链接：</strong></p></div>",
+            "link": "https://www.infoq.cn/article/CMGGEFgmJ1LOyHP3WEi9",
+            "pub_date": "2025-11-13 14:11:43",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "aGKuPSqGaleS1TeYvuDj",
             "title": "Amazon Timestream for InfluxDB新增对InfluxDB 3核心版和企业版的支持",
             "image": "https://static001.infoq.cn/resource/image/8a/a7/8a79c5ba52930b3d3e241cd97b7a85a7.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>发布了一份对现代网络安全实践的分析报告，</color><color>。该报告强调，随着AI改变了威胁格局和企业可用的保护措施，组织必须采用多层次防御策略。</color></p><p><color> </color></p><p><color>报告解释说，由AI驱动的攻击已经从传统的网络钓鱼尝试演变为利用人类的信任的复杂和针对性的活动。2023年，Darktrace报告称社会工程攻击增加了135%，黑客使用像wormGPT和FraudGPT这样的破解工具，针对那些避开传统安全过滤器的组织，创建了高度个性化和欺骗性的攻击活动。</color></p><p><color> </color></p><p><color> </color></p><p><color>分析强调，依赖单一安全工具已经不够了。成功应对这些威胁的组织需要集成系统，结合防火墙、加密和先进的威胁检测。</color><color>的一篇文章显示，AI也被用来对抗威胁；研究发现，在美国，73%的公司在某种程度上实施了AI，其中54%采用了生成式AI，这既创造了机会，也创造了需要持续监控的漏洞。</color></p><p><color> </color></p><p><color>根据CNCF报告，入侵检测系统构成了现代网络安全架构的基石。像AWS GuardDuty、Microsoft Defender for Cloud和Google Cloud IDS这样的云原生解决方案为在云环境中运营的组织提供实时监控能力。拥有完全远程或混合劳动力的组织正在使用云访问安全代理（CASB），它们提供了对用户活动可见性，并防止OAuth应用程序漏洞。</color></p><p><color> </color></p><p><color>该报告警告公司不要过于依赖传统的基于签名的检测方法。2017年的BadRabbit勒索软件攻击显示了复杂威胁如何绕过只识别已知攻击模式的系统，报告引用了一个案例，其中看似Flash Player更新实际上触发了一些勒索软件，加密文件并要求比特币赎金。</color></p><p><color> </color></p><p><color> </color></p><p><color> </color></p><p><color>该报告提倡结合基于签名和基于异常的检测的混合方法，提倡使用IDS（入侵检测系统）和IPS（入侵预防系统）。它解释了基于签名的系统如何有效地识别记录在案的威胁，并为具有可预测流量模式的组织提供良好的工作。相比之下，基于异常的系统有助于检测不寻常的行为模式，因此对于处理敏感数据的行业的组织特别有价值。IDS和IPS提供商</color><color>的一份报告也同意这一观点，发现传统安全工具在正确配置和与其他技术集成时是有效的。</color></p><p><color> </color></p><p><color>入侵防御系统通过主动阻止威胁而不是简单地向安全团队发出警报来补充检测功能。根据CNCF的报告，医疗技术提供商Omada Health使用Threat Stack的云安全平台，将实时入侵检测与主动威胁预防结合起来。这种集成每天为他们的安保团队节省了超过两小时的分析时间，并帮助他们遵守法规。</color></p><p><color> </color></p><p><color>报告强调，自2019冠状病毒病大流行以来，端点安全已成为一个重大问题，出现了更多的潜在攻击向量，特别是随着向远程工作的转变。针对此问题的云原生解决方案使用机器学习分析文件、网络流量和用户行为，而不需要不断更新签名或内部部署现场基础设施。在2017年WannaCry勒索软件爆发期间（该软件利用影响全球企业的Windows漏洞），CrowdStrike Falcon的机器学习能力识别了不寻常的行为模式，隔离了受感染的端点，并防止了进一步传播。</color></p><p><color> </color></p><p><color>网络事件的财务成本已经大幅上升。</color><color>的报告发现，修复勒索软件漏洞的平均成本为491万美元，除此之外还需要支付赎金。商业电子邮件泄露占数据泄露的10%，修复成本近490万美元，每年的总成本可能达到数百亿美元。16%的数据泄露是凭证被盗造成的，平均损失略高于480万美元。</color></p><p><color> </color></p><p><color>用户行为分析通过建立常规员工活动的基线，然后检测这些基线的偏差，例如不寻常的访问时间或位置，来解决内部威胁。CNCF报告引用了Splunk UBA和DarkTrace等工具成功检测到可能构成威胁的行为异常。</color></p><p><color> </color></p><p><color>Talion的报告承认了对网络安全中AI的担忧，包括对AI驱动攻击的脆弱性以及围绕数据处理和监控的伦理考量。它主张平衡，建议组织将AI驱动的自动化与人类专业知识结合起来，以避免自满和完全自动化系统可能导致的虚假安全感。</color></p><p><color> </color></p><p><color>哈佛大学的报告表明，将AI部署在专注于攻击预防的操作工作流程中，可以大幅降低违规成本。广泛使用AI的组织在违规成本上平均比不部署此类技术的组织少花费220万美元，节省了46%的成本。</color></p><p><color> </color></p><p><color>云原生计算基金会（CNCF）报告最后指出，有效的网络安全需要在技术、培训和基础设施上进行深思熟虑的投资，以应对新兴的、日益增长的人工智能威胁。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/at64K888bpLqrK54N8MG",
             "pub_date": "2025-11-04 06:00:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "K8ASLf5dzsiPlA6zmjmq",
-            "title": "深入解析多邻国的 FinOps 之旅：将云支出转化为工程洞察",
-            "image": "https://static001.infoq.cn/resource/image/71/9f/7106a07b6d0190c44e50b569ab36049f.jpg",
-            "description": "<div><p><color>多邻国在其新发布的文章《</color><color>》中，分享了自身在 FinOps（云财务运营）实践中的经验与洞察。</color></p><p><color> </color></p><p><color>多邻国介绍了他们如何将财务意识融入工程工作流程，让开发者能够在不影响交付的情况下理解其工作带来的成本影响。通过在工程流程中嵌入成本可视化机制，开发者可以实时看到架构和部署决策的费用后果。随着 FinOps 成为日常工作的一部分，团队开始将成本效率视为工程质量的核心指标之一，与可靠性、可扩展性和性能并列。工程师被鼓励像监控系统延迟或正常运行时间一样，持续关注系统的经济效率，确保每一次变更都能带来可量化的业务价值。文章指出，这种文化转变需要工程、数据和财务团队的密切协作，将抽象的账单数据转化为可执行的洞察。</color></p><p><color> </color></p><p><color>为此，多邻国采用了诸如“每活跃用户成本”和“每功能成本”等指标，帮助产品团队在创新与运营效率之间取得平衡。博客中提到：“FinOps 并不是要拒绝支出，而是要确保每一美元都能带来最大的学习成效。” 通过将云支出直接关联到产品表现，工程师获得了上下文信息，从而能够优先优化那些兼具技术与财务收益的部分。多邻国的 FinOps 实践增强了利益相关者的信心，因为他们能够清晰地看到成本趋势如何与产品增长和使用模式相互关联。</color></p><p><color> </color></p><p><color>这一转型的关键推动力，是借助 </color><color>与 AWS 原生分析工具所构建的内部仪表板。仪表板可视化了不同微服务与环境的支出，使团队能够轻松识别热点与冗余资源。借助其所提供的可视性，团队得以平衡工作负载、优化存储层，并改进计算实例的使用方式。根据 </color><color>，多邻国通过合理调整实例的规模并采用竞价实例（spot instances），将 ECS 成本降低了 65%，在提升弹性的同时提高了成本可预测性。</color></p><p><color> </color></p><p><color>类似的成果也出现在 Adaptavist 公司，该公司</color><color>。报告指出，这一成果源于云资源使用可见性的提升、更完善的标签管理，以及对资源消耗的主动监控。据博客所称，建立跨团队的成本意识文化，是持续取得成果的关键，确保优化行动基于数据驱动，而非行政命令。</color></p><p><color> </color></p><p><color>在整个行业中，FinOps 运动仍在快速发展。</color><color>，以及吸引了超过 2500 名与会者的 </color><color>，都反映出团队正在从“削减成本”转向“数据驱动的责任制”。正如 </color><color>中多邻国工程师所讨论的那样，FinOps 的未来在于赋予工程师“上下文与控制权”，而不仅仅是“约束”。</color></p><p><color> </color></p><p><color>对于希望效仿多邻国和 Adaptavist 成功经验的组织，核心结论是一致的：让云成本可视化，为团队提供可执行的数据，并建立财务与工程之间的共同语言。当团队将成本效率视为工程卓越的体现时，财务优化将自然成为构建更优系统的结果，而非单独的目标。</color></p><p></p><p>原文链接：</p></div>",
-            "link": "https://www.infoq.cn/article/K8ASLf5dzsiPlA6zmjmq",
-            "pub_date": "2025-11-04 02:53:19",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
