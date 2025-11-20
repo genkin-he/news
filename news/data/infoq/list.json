@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "WHWkaM1p5olbFVGVo6SK",
+            "title": "DynamoDB DNS系统中的竞争条件：分析AWS US-EAST-1中断事件",
+            "image": "https://static001.infoq.cn/resource/image/ea/bb/eaedc0a5fe8820a33a853919bbef9bbb.jpg",
+            "description": "<div><p><color>10月19日和20日，亚马逊云科技公司（AWS）经历了一次长时间的中断，原因是亚马逊DynamoDB故障，影响了其最受欢迎的北弗吉尼亚地区的大部分服务。这家云提供商发布了</color><color>，引发了社区对AWS冗余、退出公有云以及多区域方法的讨论。</color></p><p><color> </color></p><p><color>根据事后分析报告，该报告提供了DynamoDB DNS管理架构的详细信息，事件是由服务的自动DNS管理系统中的潜在缺陷触发的，导致DynamoDB的端点解析失败。其他依赖DynamoDB的流行服务，包括新的EC2实例启动、Lambda调用和Fargate任务启动，也在中断期间受到影响。在对美国东部1区Amazon DynamoDB服务中断的总结中，团队承认可靠性问题严重影响了许多客户。他们写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>虽然事件报告关注特定的2或3小时的时间段和服务，但对许多客户的影响持续时间要长得多，一些客户报告问题持续了长达15小时。虽然在许多在线讨论中开发者开玩笑说“总是DNS”，但AWS英雄和无服务器专家</color><color>在他的简报中强调：</color></p><p><color> </color></p><p><color> </color></p><p><color>在中断期间，新的EC2实例在虚拟化层面被创建，但它们的网络配置从未完成。此外，新启动的EC2实例的网络状态传播延迟也对网络负载均衡器服务和所有依赖它的服务产生了连锁影响。CloudZero研究主管Jeremy Daly</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>AWS还没有解决竞争条件的问题，但是由于这次宕机，AWS正在计划进行一些短期和长期的更改。该团队写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>此外，云服务提供商计划改进EC2数据传播系统中的节流机制，根据等待队列的大小对传入工作进行速率限制，以在高负载期间保护服务。</color></p><p><color> </color></p><p><color>在一篇广受欢迎的</color><color>帖子中，ERGO Technology的DevOps顾问Roman Siewko认为，尽管中断影响了众多大型提供商并受到了广泛关注，但实践者在做出改变之前也应该了解历史和实际数字。Siewko评论道：</color></p><p><color> </color></p><p><color> </color></p><p><color>Rebase的联合创始人兼首席执行官Mudassir Mustafa</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>事件历史记录跟踪所有受影响的服务及其时间线。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/WHWkaM1p5olbFVGVo6SK",
+            "pub_date": "2025-11-20 05:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "FJMKp6OWAh4Yhtf1NkBI",
             "title": "Kiro正式可用！从IDE到终端，无缝协同构建",
             "image": "https://static001.infoq.cn/resource/image/8f/bd/8fba5de3505503957af0d58dfc8ca8bd.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>亚马逊云科技最近推出了“</color><color>”特性，这是一个新规划的工具，旨在为架构师、平台工程师和开发人员提供对其全球区域网络中服务、功能和资源可用性的深入了解。</color></p><p><color> </color></p><p><color>以前，确定特定功能（如新的Amazon S3存储类别或特定的EC2实例类型）在多个区域的可用性需要浏览不同的文档或进行手动检查，这通常会导致部署延迟和昂贵的重构。新工具集中了这些关键信息。正如Manjunath Kumatoli在LinkedIn上</color><color>的那样，这一变化立即缓解了运维的压力：</color></p><p><color> </color></p><p><color>有了“AWS Capabilities by Region”，用户可以通过交互式界面探索服务可用性，比较多个区域，并查看前瞻性的路线图。正如亚马逊云科技的首席开发者倡导者Channy Yun所指出的：</color></p><p><color> </color></p><p></p><p><img>https://static001.geekbang.org/infoq/62/62e3590e606b4806ff537a6848fa63ab.png<img></p><p></p><p><italic>图片来源（</italic><italic>)</italic></p><p><color> </color></p><p><color>该功能集高度专注于部署前的规划，允许用户轻松选择和比较多个AWS区域以识别它们共享的功能集。此外，该工具还提供方向性的发布规划，提示在区域中预期提供的服务的状态，如规划中（Planning）、不扩展（Not Expanding）或特定发布季度（例如，2026年第一季度）。</color></p><p><color> </color></p><p><color>Serverless Hero的Luc van Donkersgoed在Bluesky</color><color>中赞扬了产品的清晰度：</color></p><p><color> </color></p><p><color>尽管该工具受到了广泛欢迎，但一些从业者指出，对可见性的专注并没有解决区域功能差异的根本问题。Andreas Wittig在LinkedIn上</color><color>了这种架构挫折感：</color></p><p><color> </color></p><p><color>除了交互式门户外，通过</color><color>也可以访问“AWS Capabilities by Region”的数据。</color></p><p><color> </color></p><p><color>此外，它还支持自动化工作流集成，将手动检查转变为治理执行：IaC工具和定制系统现在可以将区域能力检查作为其治理流程的一部分，确保自动执行合规性和架构标准检查。Knowledge MCP Server是可以公开访问的，不需要AWS账户，这使得开发人员能够直接将区域能力检查集成到他们的CI/CD流水线中。</color></p><p><color> </color></p><p><color>查看英文原文：</color></p></div>",
             "link": "https://www.infoq.cn/article/I09pJyvzBCdg2vs82QYt",
             "pub_date": "2025-11-17 09:27:14",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "edyRcj5Z7Ncg8t56IKil",
-            "title": "亚马逊云科技推出搭载第五代AMD EPYC（Turin）处理器的M8a通用型EC2实例",
-            "image": "https://static001.infoq.cn/resource/image/ac/6c/ac3bee50fe8f43ae2eb06636f0203d6c.jpg",
-            "description": "<div><p>亚马逊云科技<color>近日宣布正式推出通用型 </color><color>，这一系列实例基于</color><color>，最高主频可达 4.5GHz，适用于需要高性能与高吞吐的应用场景，例如游戏、金融应用、机器学习推理、视频编码、应用服务器、仿真建模、中型数据存储、应用开发环境以及缓存集群。</color></p><p><color> </color></p><p><color>M8a 的发布进一步扩展了</color><color>，此前</color>亚马逊云科技<color>刚推出了内存优化型 </color><color>，以及计算优化型 </color><color>。M8a 属于两年前 M7a 的</color><color>，</color>亚马逊云科技<color>表示其性能提升 30%，性价比最高可提高 19%。</color></p><p><color> </color></p><p>亚马逊云科技<color>资深开发者倡导者 Zheng Betty 表示，</color></p><p><color> </color></p><p><color>M8a 提供 10 种虚拟化规格以及两种裸金属规格（metal-24xl 和 metal-48xl），覆盖从中小型应用到大型工作负载的部署需求。基于 AWS Nitro 系统构建，它具备更低的虚拟化开销、更稳定的性能和更强的安全性。配合第六代 Nitro 卡进行 I/O 加速，M8a 实例最高可支持 192 个 vCPU 和 768 GiB 内存。</color></p><p><color> </color></p><p></p><p><img>https://static001.geekbang.org/infoq/e0/e0c8ca8785ef3301a897160cfc199cdd.png<img></p><p></p><p><color>（图源：</color><color>）</color></p><p><color> </color></p><p><color>Ryan Sagare 在领英上一篇 M8a 实例性能相关的博文下</color><color>说，</color></p><p><color> </color></p><p><color>此外，Netflix 云基础设施工程高级总监 Niall Mullen 在 AMD 的一篇</color><color>下评论道，</color></p><p><color> </color></p><p><color>不过，业内也有声音对 EC2 实例家族愈发庞杂表示调侃。lastweekinaws 旗下的“Snark bot”在 Bluesky 上</color><color>道：</color></p><p><color> </color></p><p><color>目前，亚马逊 EC2 M8a 实例已经在美国东部（俄亥俄）、美国西部（俄勒冈）和欧洲（西班牙）</color><color>提供。企业可以</color><color>、</color><color>或</color><color>购买 M8a 实例，也可以在</color><color>和</color><color>上使用该实例类型。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/edyRcj5Z7Ncg8t56IKil",
-            "pub_date": "2025-11-17 07:37:22",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
