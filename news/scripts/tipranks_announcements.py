@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import logging
 import traceback
-import urllib.request  # 发送请求
+import requests
 import json
 import re
 from util.spider_util import SpiderUtil
@@ -18,9 +18,9 @@ filename = "./news/data/tipranks/announcements.json"
 
 def get_detail(link):
     util.info("link: {}".format(link))
-    request = urllib.request.Request(link, None, headers)
-    response = urllib.request.urlopen(request)
-    body = response.read().decode("utf-8")
+    response = requests.get(link, headers=headers, proxies=util.get_random_proxy(), timeout=30)
+    response.raise_for_status()
+    body = response.text
     items = body.split("document.querySelectorAll")
     if len(items) > 1:
         body = items[1]
@@ -58,16 +58,14 @@ def run():
     links = data["links"]
     insert = False
 
-    # request 中放入参数，请求头信息
-    request = urllib.request.Request(
+    response = requests.get(
         "https://www.tipranks.com/api/news/posts?per_page=5&category=company-announcements",
-        None,
-        headers,
+        headers=headers,
+        proxies= util.get_random_proxy(),
+        timeout=30,
     )
-    # urlopen 打开链接（发送请求获取响应）
-    response = urllib.request.urlopen(request)
-    if response.status == 200:
-        body = response.read().decode("utf-8")
+    if response.status_code == 200:
+        body = response.text
         posts = json.loads(body)["data"]
         for index in range(len(posts)):
             if index < 1:
@@ -109,4 +107,5 @@ def run():
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run)
+    # if util.should_run_by_minute(5):
+        util.execute_with_timeout(run)
