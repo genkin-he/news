@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "NeurIPS 2025 最佳论文揭晓，中国研究者贡献突出",
+            "description": "<article class=\"wire-content article-style\"><p>品玩11月28日讯，NeurIPS 2025 最佳论文奖近日公布，共四篇论文获奖，其中多篇由华人学者主导。获奖工作涵盖语言模型多样性、大模型注意力机制、深度强化学习及扩散模型理论。</p><p>其中包括 Liwei Jiang 等提出的《Artificial Hivemind》，揭示大模型生成中的“人工蜂群效应”；Zihan Qiu 等来自阿里巴巴Qwen团队的《Gated Attention for Large Language Models》，提出有效缓解“注意力沉降”问题的新机制；Princeton University 的 Kevin Wang 等通过千层网络实现自监督强化学习突破；以及 PSL University 的 Tony Bonnaire 等对扩散模型泛化机理的理论分析。</p><p>此外，He Kaiming、Sun Jian 等的《Faster R-CNN》荣获“时间检验奖”。</p><figure class=\"image\"><img alt=\"\" height=\"400\" src=\"https://cdn.pingwest.com/portal/2025/11/28/aT7FfkjjXHpMWn6b126iZxB87M4f73KE.png?x-oss-process=style/article-body\" title=\"\" width=\"800\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/309435",
+            "pub_date": "2025-11-28 09:40:40",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "DeepSeekMath-V2实现可自验证的数学推理突破",
             "description": "<article class=\"wire-content article-style\"><p>品玩11月28日讯，据huggingface页面显示，DeepSeek团队发布大语言模型 DeepSeekMath-V2，聚焦可自验证的数学定理证明能力。</p><p>该模型通过训练一个高精度、高保真的验证器，并以其作为奖励信号引导证明生成器自我修正，形成“生成—验证—优化”闭环。为应对生成与验证能力同步提升的挑战，团队提出扩展验证计算资源以自动标注难验证样本，持续优化验证器性能。</p><p>在 IMO 2025、CMO 2024 和 Putnam 2024 等权威赛事中，DeepSeekMath-V2 表现卓越，分别取得金牌水平及118/120的近满分成绩。模型基于 DeepSeek-V3.2-Exp-Base 构建，已按 Apache 2.0 协议开源。</p><figure class=\"image\"><img alt=\"\" height=\"189\" src=\"https://cdn.pingwest.com/portal/2025/11/28/3M4kw46J8c4hk86H36zsi3N563yQERMQ.png?x-oss-process=style/article-body\" title=\"\" width=\"564\"/></figure></article>",
             "link": "https://www.pingwest.com/w/309431",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩11月27日讯，阿里巴巴通义实验室近日宣布开源全新图像生成模型 Z-Image，仅6B参数即可实现接近20B级商业模型的视觉质量。该模型基于单流 DiT 架构，包含 Turbo、Base 和 Edit 三个变体，支持高效推理与图像编辑。</span></p><p><span>Z-Image 仅需8步采样即可生成高清图像，显存占用低于16GB，可在消费级显卡上流畅运行，并具备中英双语高精度文字渲染与复杂指令理解能力。模型已在 GitHub、Hugging Face 和 ModelScope 开源，采用 Apache 2.0 许可，显著降低开发者使用门槛，推动 AI 图像技术向普适化应用加速演进。</span></p><figure class=\"image\"><img alt=\"\" height=\"581\" src=\"https://cdn.pingwest.com/portal/2025/11/27/hCK9E55Z2CDer7a51phnX5a3HHa7DnZn.png?x-oss-process=style/article-body\" title=\"\" width=\"969\"/></figure></article>",
             "link": "https://www.pingwest.com/w/309413",
             "pub_date": "2025-11-27 15:15:42",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "巨人网络联合高校发布三项音视频多模态生成技术",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩11月27日讯，据 AI base 报道，巨人网络AI Lab近日联合清华大学SATLab与西北工业大学，推出三项音视频多模态生成技术成果：音乐驱动视频生成模型YingVideo-MV、零样本歌声转换模型YingMusic-SVC及歌声合成模型YingMusic-Singer，相关代码将陆续在GitHub与HuggingFace开源。</span></p><p><span>YingVideo-MV仅需一段音乐与一张人物图像即可生成节奏同步、镜头语言丰富的音乐视频，并通过长时序一致性机制缓解人物畸变问题。YingMusic-SVC优化真实音乐场景下的歌声转换，显著降低失真；YingMusic-Singer则支持任意歌词输入与零样本音色克隆，提升AI演唱的实用性与创作灵活性。</span></p><figure class=\"image\"><img alt=\"\" height=\"392\" src=\"https://cdn.pingwest.com/portal/2025/11/27/pHJ7e2_fSG2w2k24D5RWpQA21dm6_HHe.jpg?x-oss-process=style/article-body\" title=\"\" width=\"600\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/309410",
-            "pub_date": "2025-11-27 14:40:43",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
