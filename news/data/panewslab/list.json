@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "b18c21df-8170-436b-9b41-c5bab19a4f59",
+            "title": "Ledger研究人员发现某安卓芯片存在漏洞，使手机Web3钱包面临物理攻击风险",
+            "description": "PANews 12月4日消息，据The Block报道，Ledger称，近期在一款广泛使用的安卓智能手机处理器芯片中发现漏洞，依赖软件Web3钱包的用户，若设备被攻击者物理接触将面临风险。其Donjon团队发现，硬件故障注入可绕过核心安全检查从而控制该芯片。虽然这一发现不会影响Ledger硬件钱包，但凸显了仅依靠智能手机热钱包保障数字资产安全的危险性。\n该团队对台积电生产的联发科天玑7300芯片进行检测，着手确定电磁故障注入是否会破坏启动过程的最早阶段。他们利用开源工具，通过注入适时电磁脉冲干扰芯片的启动ROM，获取其运行信息，进而识别出攻击路径。随后，团队绕过芯片写入命令中的过滤机制、覆盖启动ROM堆栈上的返回地址，得以在EL3（处理器的最高权限级别）运行任意代码，且该攻击可在几分钟内重复进行。Ledger表示，即便最先进的智能手机芯片也易受物理攻击，不适合作为保护私钥的环境，并重申安全元件对于数字资产自主保管至关重要。该漏洞已于5月告知联发科，供应商已通知受影响的制造商。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/b18c21df-8170-436b-9b41-c5bab19a4f59.html",
+            "pub_date": "2025-12-04 22:28:14",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "9db7d272-8e4a-4f61-a09f-3a44d5369f3c",
             "title": "比特币原生互操作性协议Portal to Bitcoin完成2500万美元融资，JTSA Global领投",
             "description": "PANews 12月4日消息，据Cointelegraph报道，比特币原生互操作性协议Portal to Bitcoin宣布完成2500万美元融资，此轮融资由JTSA Global领投，Coinbase Ventures、OKX Ventures、Arrington Capital等机构参投。在获得新资金支持的同时，该公司推出了原子化场外交易平台，承诺实现“大额大宗交易的即时、无需信任的跨链结算”。\n该协议专注于为机构和大型投资者提供比特币锚定的跨链场外交易市场，它利用跨多条链的哈希时间锁合约（HTLCs）和比特币Taproot合约，以非托管的方式实现原生比特币与集成区块链上原生资产的兑换，并着重减少交易中的信任假设。",
@@ -186,16 +196,6 @@
             "description": "PANews 12月4日消息，据CoinDesk报道，Axelar网络背后的团队Interop Labs于周四宣布，Axelar推出了开源框架AgentFlux，该框架旨在在本地运行人工智能（AI）代理，同时将私钥、交易策略和客户数据保留在云端之外。AgentFlux让金融公司无需将敏感信息发送至外部基础设施，即可部署“代理式”自动化。AgentFlux还融入了Axelar更广泛的多链战略。AgentFlux可使单个AI代理能够查看风险、评估风险敞口并在多个生态系统中进行交易。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/0ab2edb8-59c1-4ba5-bacd-8455d54879a6.html",
             "pub_date": "2025-12-04 20:15:16",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "7c10ec45-e20e-4d70-a10d-3d0d97dc6c87",
-            "title": "Solana生态DeFi协议Drift推出v3版本，交易速度提升10倍",
-            "description": "PANews 12月4日消息，据CoinDesk报道，Solana生态永续合约交易平台Drift已推出重大升级版Drift v3。得益于重新构建的后端系统，新版本使平台交易执行速度提升10倍。Drift团队称，v3版本中约85%的市价单半秒内可成交，流动性大幅增强，大额交易滑点降至约0.02%，旨在让日常用户链上衍生品交易更流畅稳定。后续，Drift将着手解决自动签名、便捷存款、独立保证金等问题，并最终推出移动应用程序。该团队还在测试新的Drift流动性提供者资金池，让用户更轻松为永续合约和现货市场提供流动性并赚取收益。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/7c10ec45-e20e-4d70-a10d-3d0d97dc6c87.html",
-            "pub_date": "2025-12-04 20:07:13",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
