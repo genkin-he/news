@@ -173,4 +173,5 @@ def run():
         util.log_action_error(f"request error: {str(e)}")
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run)
+    if util.should_run_by_minute(divisor=10):
+        util.execute_with_timeout(run)
