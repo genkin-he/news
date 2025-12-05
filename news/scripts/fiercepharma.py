@@ -60,24 +60,29 @@ def run(link):
     _links = data["links"]
     insert = False
 
-    # request中放入参数，请求头信息
+    # request 中放入参数，请求头信息
     request = urllib.request.Request(link, None, headers)
-    # urlopen打开链接（发送请求获取响应）
+    # urlopen 打开链接（发送请求获取响应）
     response = urllib.request.urlopen(request)
     if response.status == 200:
         body = response.read().decode("utf-8")
         soup = BeautifulSoup(body, "lxml")
-        items = soup.select(".content-wrapper > .title")
+        top_items = soup.select(".content-wrapper .title a")
+        list_items = soup.select("article .element-title a")
+        items = top_items + list_items
+        record_count = 0
         for index in range(len(items)):
-            if index > 1:
+            if index > 6:
                 break
-            title_element = items[index].select_one("h3 > a")
+            if record_count >2:
+                break
+            title_element = items[index]
 
             link = "{}{}".format(base_url, title_element["href"].strip())
             title = title_element.text.strip()
             if link in ",".join(_links):
                 util.info("exists link: {}".format(link))
-                break
+                continue
             description = get_detail(link)
             if description != "":
                 insert = True
@@ -93,7 +98,7 @@ def run(link):
                         "language": "en",
                     },
                 )
-
+                record_count = record_count + 1
         if len(_articles) > 0 and insert:
             if len(_articles) > 10:
                 _articles = _articles[:10]
