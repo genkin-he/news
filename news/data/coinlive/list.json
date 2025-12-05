@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 965563,
+            "title": "Top Analysts Point to LivLive (LIVE) at $0.02 as the Best Crypto to Invest In, Following Aster’s (ASTER) 1000x Pattern",
+            "description": "You probably have that single, haunting memory of an investment you ignored because the market was too shaky, or the […] The post Top Analysts Point to LivLive (LIVE) at $0.\nsource: https://coindoo.com/top-analysts-point-to-livlive-live-at-0-02-as-the-best-crypto-to-invest-in-following-asters-aster-1000x-pattern/",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965563&language=en-US",
+            "pub_date": "2025-12-05 17:43:30",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 965562,
+            "title": "All of HumidiFi’s WET tokens were sniped by a bot farm",
+            "description": "HumidiFi announced another presale for its WET tokens, after the previous rounds were sniped by a bot network of connected wallets.\nsource: https://www.cryptopolitan.com/humidifis-wet-tokens-sniped-by-a-bot-farm/",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965562&language=en-US",
+            "pub_date": "2025-12-05 17:51:17",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 965558,
             "title": "Cloudflare Outage Disrupts Solana Protocol Interfaces",
             "description": "Solana protocols like Jupiter and Raydium face UI issues following Cloudflare service disruption. Learn about the affected platforms, reactions, and historical context.\nsource: https://coincu.com/news/solana-protocols-cloudflare-outage/",
@@ -176,26 +196,6 @@
             "description": "The International Monetary Fund has released a new assessment arguing that stablecoins could play a far larger role in the global financial system - if they are brought under consistent and well-designed regulation.\nsource: https://cryptodnes.bg/en/imf-pushes-for-global-standards-to-harness-stablecoin-benefits-safely/",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965508&language=en-US",
             "pub_date": "2025-12-05 16:45:32",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 965502,
-            "title": "Ethereum's Fusaka Upgrade Promises Cost Reduction and Efficiency Enhancement",
-            "description": "According to PANews, the Ethereum Fusaka upgrade is drawing attention for its engineering-focused improvements, aimed at reducing costs and enhancing efficiency without introducing new paradigms or concepts. Unlike previous upgrades such as the transition from PoW to PoS or the Dencun upgrade, Fusaka focuses on practical optimizations to address specific issues.The upgrade significantly reduces Layer 2 (L2) costs, primarily associated with data availability (DA) expenses for publishing data to Layer 1 (L1). Fusaka achieves this through an eightfold expansion using Blob technology and PeerDAS random sampling verification, cutting L2 costs substantially. While some believe that reducing L2 fees alone is insufficient to boost ecosystem activity, the upgrade's impact on specific application chains could stimulate growth in areas like real-world asset infrastructure and payment ecosystems.Additionally, the normalization of Blob fees and the introduction of a minimum Blob base fee (EIP-7918) aim to reignite expectations for ETH burning. Despite the Dencun upgrade leading to a temporary shift from deflation to mild inflation, Fusaka ensures that ETH continues to burn even when Blob demand is low, potentially returning to pre-Dencun burn levels and reinforcing Ethereum's narrative as a global settlement layer.The upgrade also increases the gas limit to 60 million, enhancing L1 throughput. While Ethereum's TPS improvements may seem modest compared to other blockchains, the shift from a Rollup Centric strategy to a dual-track approach of L1 settlement and L2 execution offers greater flexibility and potential.Furthermore, PeerDAS lowers the validator threshold by 85%, promoting decentralization and addressing concerns about institutional control over Ethereum. This lightweight implementation of Ethereum's sharding concept reduces node burdens, enhances scalability, and removes technical barriers for institutional participation, potentially leading to greater involvement from traditional finance giants like Fidelity and BlackRock.Overall, the Fusaka upgrade positions Ethereum as a more mature, stable, and efficient blockchain, capable of institutional expansion, dual-track development, and capturing micro-deflationary value. The question remains whether this enhanced $ETH is worthy of renewed trust.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965502&language=en-US",
-            "pub_date": "2025-12-05 16:37:47",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 965501,
-            "title": "Ethereum Network Recovers After Validator Participation Drop",
-            "description": "According to Cointelegraph, the Ethereum network experienced a significant drop in validator participation following the Fusaka network upgrade. This decline was attributed to a bug in the Prysm consensus client, which disrupted a portion of the network's voting process. The issue arose when version v7.0.0 of the Prysm client generated outdated states while processing old attestations, as explained by Prysm core developer Terence Tsao. This flaw hindered the proper functioning of nodes, prompting developers to suggest a temporary workaround using the “--disable-last-epoch-targets” flag.\n\nBeaconcha.in network data revealed that during epoch 411,448, the network's sync participation was at 75%, with voting participation at 74.7%. This marked a 25% decrease in voting participation, bringing it dangerously close to the threshold required to maintain network finality. However, by the time of writing, the network had largely recovered, with the current epoch (411,712) showing nearly 99% voting participation and 97% sync participation. Before the incident, voting participation typically exceeded 99%.\n\nThe decline in voting participation corresponded with the proportion of validators using the Prysm client, which was estimated at 22.71% before the incident and dropped to 18% afterward. This suggests that the attestation failure was primarily concentrated among Prysm validators. Despite the recovery, the Ethereum Foundation and Prysm developer organization Offchain Labs had not responded to Cointelegraph’s request for comment at the time of publication.\n\nThe incident highlighted the potential risks of losing network finality, which occurs if voting participation falls below two-thirds of the total staked Ether (ETH). In such a scenario, while blocks can still be produced, the chain is no longer considered finalized. This could lead to layer-2 bridges freezing, rollups pausing withdrawals, and exchanges increasing block confirmation requirements due to the heightened risk of chain reorganization. A similar incident occurred in May 2023, when the Ethereum mainnet lost finality twice within 24 hours due to bugs in the Prysm and Teku clients.\n\nClient diversity remains a concern for Ethereum, as a bug in a single client could potentially halt network finality. Current data from MigaLabs indicates that Lighthouse accounts for 52.55% of consensus nodes, with Prysm at 18%. This represents a shift from before the incident, when Lighthouse was below 48.5% and Prysm around 22.71%. Ethereum educator Anthony Sassano noted that if the bug had affected Lighthouse instead, the network would have lost finalization.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965501&language=en-US",
-            "pub_date": "2025-12-05 16:43:41",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
