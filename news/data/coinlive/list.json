@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 965558,
+            "title": "Cloudflare Outage Disrupts Solana Protocol Interfaces",
+            "description": "Solana protocols like Jupiter and Raydium face UI issues following Cloudflare service disruption. Learn about the affected platforms, reactions, and historical context.\nsource: https://coincu.com/news/solana-protocols-cloudflare-outage/",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965558&language=en-US",
+            "pub_date": "2025-12-05 17:34:44",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 965557,
             "title": "BNB Drops Below 890 USDT with a 2.45% Decrease in 24 Hours",
             "description": "On Dec 05, 2025, 09:47 AM(UTC). According to Binance Market Data, BNB has dropped below 890 USDT and is now trading at 889.950012 USDT, with a narrowed 2.45% decrease in 24 hours.",
@@ -186,16 +196,6 @@
             "description": "According to Cointelegraph, the Ethereum network experienced a significant drop in validator participation following the Fusaka network upgrade. This decline was attributed to a bug in the Prysm consensus client, which disrupted a portion of the network's voting process. The issue arose when version v7.0.0 of the Prysm client generated outdated states while processing old attestations, as explained by Prysm core developer Terence Tsao. This flaw hindered the proper functioning of nodes, prompting developers to suggest a temporary workaround using the “--disable-last-epoch-targets” flag.\n\nBeaconcha.in network data revealed that during epoch 411,448, the network's sync participation was at 75%, with voting participation at 74.7%. This marked a 25% decrease in voting participation, bringing it dangerously close to the threshold required to maintain network finality. However, by the time of writing, the network had largely recovered, with the current epoch (411,712) showing nearly 99% voting participation and 97% sync participation. Before the incident, voting participation typically exceeded 99%.\n\nThe decline in voting participation corresponded with the proportion of validators using the Prysm client, which was estimated at 22.71% before the incident and dropped to 18% afterward. This suggests that the attestation failure was primarily concentrated among Prysm validators. Despite the recovery, the Ethereum Foundation and Prysm developer organization Offchain Labs had not responded to Cointelegraph’s request for comment at the time of publication.\n\nThe incident highlighted the potential risks of losing network finality, which occurs if voting participation falls below two-thirds of the total staked Ether (ETH). In such a scenario, while blocks can still be produced, the chain is no longer considered finalized. This could lead to layer-2 bridges freezing, rollups pausing withdrawals, and exchanges increasing block confirmation requirements due to the heightened risk of chain reorganization. A similar incident occurred in May 2023, when the Ethereum mainnet lost finality twice within 24 hours due to bugs in the Prysm and Teku clients.\n\nClient diversity remains a concern for Ethereum, as a bug in a single client could potentially halt network finality. Current data from MigaLabs indicates that Lighthouse accounts for 52.55% of consensus nodes, with Prysm at 18%. This represents a shift from before the incident, when Lighthouse was below 48.5% and Prysm around 22.71%. Ethereum educator Anthony Sassano noted that if the bug had affected Lighthouse instead, the network would have lost finalization.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965501&language=en-US",
             "pub_date": "2025-12-05 16:43:41",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 965500,
-            "title": "SpaceX Transfers 1083 BTC to New Address",
-            "description": "According to BlockBeats On-chain Detection, SpaceX has transferred 1083 BTC, valued at $99.81 million, to a new address after a week. The new address, identified as bc1qy...xv5g9, received 800 BTC, worth $73.71 million, and has not yet moved the funds. The tokens transferred to the new address a week ago also remain untransferred.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965500&language=en-US",
-            "pub_date": "2025-12-05 16:43:47",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
