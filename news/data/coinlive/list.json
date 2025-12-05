@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 965502,
+            "title": "Ethereum's Fusaka Upgrade Promises Cost Reduction and Efficiency Enhancement",
+            "description": "According to PANews, the Ethereum Fusaka upgrade is drawing attention for its engineering-focused improvements, aimed at reducing costs and enhancing efficiency without introducing new paradigms or concepts. Unlike previous upgrades such as the transition from PoW to PoS or the Dencun upgrade, Fusaka focuses on practical optimizations to address specific issues.The upgrade significantly reduces Layer 2 (L2) costs, primarily associated with data availability (DA) expenses for publishing data to Layer 1 (L1). Fusaka achieves this through an eightfold expansion using Blob technology and PeerDAS random sampling verification, cutting L2 costs substantially. While some believe that reducing L2 fees alone is insufficient to boost ecosystem activity, the upgrade's impact on specific application chains could stimulate growth in areas like real-world asset infrastructure and payment ecosystems.Additionally, the normalization of Blob fees and the introduction of a minimum Blob base fee (EIP-7918) aim to reignite expectations for ETH burning. Despite the Dencun upgrade leading to a temporary shift from deflation to mild inflation, Fusaka ensures that ETH continues to burn even when Blob demand is low, potentially returning to pre-Dencun burn levels and reinforcing Ethereum's narrative as a global settlement layer.The upgrade also increases the gas limit to 60 million, enhancing L1 throughput. While Ethereum's TPS improvements may seem modest compared to other blockchains, the shift from a Rollup Centric strategy to a dual-track approach of L1 settlement and L2 execution offers greater flexibility and potential.Furthermore, PeerDAS lowers the validator threshold by 85%, promoting decentralization and addressing concerns about institutional control over Ethereum. This lightweight implementation of Ethereum's sharding concept reduces node burdens, enhances scalability, and removes technical barriers for institutional participation, potentially leading to greater involvement from traditional finance giants like Fidelity and BlackRock.Overall, the Fusaka upgrade positions Ethereum as a more mature, stable, and efficient blockchain, capable of institutional expansion, dual-track development, and capturing micro-deflationary value. The question remains whether this enhanced $ETH is worthy of renewed trust.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965502&language=en-US",
+            "pub_date": "2025-12-05 16:37:47",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 965501,
+            "title": "Ethereum Network Recovers After Validator Participation Drop",
+            "description": "According to Cointelegraph, the Ethereum network experienced a significant drop in validator participation following the Fusaka network upgrade. This decline was attributed to a bug in the Prysm consensus client, which disrupted a portion of the network's voting process. The issue arose when version v7.0.0 of the Prysm client generated outdated states while processing old attestations, as explained by Prysm core developer Terence Tsao. This flaw hindered the proper functioning of nodes, prompting developers to suggest a temporary workaround using the “--disable-last-epoch-targets” flag.\n\nBeaconcha.in network data revealed that during epoch 411,448, the network's sync participation was at 75%, with voting participation at 74.7%. This marked a 25% decrease in voting participation, bringing it dangerously close to the threshold required to maintain network finality. However, by the time of writing, the network had largely recovered, with the current epoch (411,712) showing nearly 99% voting participation and 97% sync participation. Before the incident, voting participation typically exceeded 99%.\n\nThe decline in voting participation corresponded with the proportion of validators using the Prysm client, which was estimated at 22.71% before the incident and dropped to 18% afterward. This suggests that the attestation failure was primarily concentrated among Prysm validators. Despite the recovery, the Ethereum Foundation and Prysm developer organization Offchain Labs had not responded to Cointelegraph’s request for comment at the time of publication.\n\nThe incident highlighted the potential risks of losing network finality, which occurs if voting participation falls below two-thirds of the total staked Ether (ETH). In such a scenario, while blocks can still be produced, the chain is no longer considered finalized. This could lead to layer-2 bridges freezing, rollups pausing withdrawals, and exchanges increasing block confirmation requirements due to the heightened risk of chain reorganization. A similar incident occurred in May 2023, when the Ethereum mainnet lost finality twice within 24 hours due to bugs in the Prysm and Teku clients.\n\nClient diversity remains a concern for Ethereum, as a bug in a single client could potentially halt network finality. Current data from MigaLabs indicates that Lighthouse accounts for 52.55% of consensus nodes, with Prysm at 18%. This represents a shift from before the incident, when Lighthouse was below 48.5% and Prysm around 22.71%. Ethereum educator Anthony Sassano noted that if the bug had affected Lighthouse instead, the network would have lost finalization.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965501&language=en-US",
+            "pub_date": "2025-12-05 16:43:41",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 965500,
+            "title": "SpaceX Transfers 1083 BTC to New Address",
+            "description": "According to BlockBeats On-chain Detection, SpaceX has transferred 1083 BTC, valued at $99.81 million, to a new address after a week. The new address, identified as bc1qy...xv5g9, received 800 BTC, worth $73.71 million, and has not yet moved the funds. The tokens transferred to the new address a week ago also remain untransferred.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965500&language=en-US",
+            "pub_date": "2025-12-05 16:43:47",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 965498,
             "title": "Bitcoin Transfers Involving Anonymous Addresses and Cumberland DRW",
             "description": "According to ChainCatcher, Arkham data reveals that at 16:14, 55 BTC, valued at approximately $3.2255 million, was transferred from an anonymous address starting with 168Bve to Cumberland DRW. Subsequently, Cumberland DRW moved 34.92 BTC to another anonymous address beginning with bc1qkg.",
@@ -166,36 +196,6 @@
             "description": "According to BlockBeats, data from Dune indicates that mainstream prediction platforms have seen unprecedented trading activity. The nominal trading volume and the number of transactions have both reached historic highs. Over the past week, the total nominal trading volume across major prediction platforms amounted to $3.495 billion. Leading the pack, Kalshi, Opinion, and Polymarket each surpassed $1 billion, with volumes of $1.212 billion, $1.096 billion, and $1.083 billion respectively.\n\nAdditionally, the number of transactions on mainstream prediction platforms hit a record high over the past week, totaling 11.336 million transactions.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965472&language=en-US",
             "pub_date": "2025-12-05 15:43:52",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 965470,
-            "title": "Italy Orders Crypto Providers To Obtain MiCAR Authorization By Dec 30 Or Exit Market",
-            "description": "Italy’s market regulator ordered crypto firms to secure MiCAR authorization by Dec. 30 or shut down, tightening oversight as the EU’s new regime takes effect.\nsource: https://cryptonews.com/news/italy-tells-crypto-firms-micar-approval-dec-30/",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965470&language=en-US",
-            "pub_date": "2025-12-05 15:29:42",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 965469,
-            "title": "Japan to Address Forex Market Volatility if Needed",
-            "description": "According to BlockBeats, Japan's Chief Cabinet Secretary Hirokazu Matsuno announced that the government is prepared to implement appropriate measures to address excessive and disorderly fluctuations in the foreign exchange market.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965469&language=en-US",
-            "pub_date": "2025-12-05 15:33:39",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 965467,
-            "title": "AI & Big Data Crypto Development Surges as Internet Computer, Chainlink, and NEAR Take the Lead",
-            "description": "New data from Santiment shows a clear acceleration in developer activity across AI and Big Data–focused crypto projects, with Internet Computer (ICP), Chainlink (LINK), and NEAR Protocol emerging as the strongest leaders.\nsource: https://www.ethnews.com/ai-big-data-crypto-development-surges-as-internet-computer-chainlink-and-near-take-the-lead/",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=965467&language=en-US",
-            "pub_date": "2025-12-05 15:11:19",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
