@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "FHfdLrAsZ3kDjaidakob",
+            "title": "Helm通过六年来最大规模的版本发布，提升了Kubernetes的包管理能力",
+            "image": "https://static001.infoq.cn/resource/image/b0/8e/b02e85f4646bd569d0a205822639738e.jpg",
+            "description": "<div><p><color>Helm（Kubernetes应用程序包管理器）</color><color>。Helm 4是六年来的首次重大升级，也标志着Helm在云原生计算基金会（CNCF）的指引下迎来了其十周年纪念。本次更新旨在解决可扩展性、安全性和开发工作流等方面的多项挑战。</color></p><p><color> </color></p><p><color>Helm 4的SDK有几项功能增强，旨在增强集成和开发体验。它采用现代Go日志接口支持多日志记录器，并通过可嵌入命令将Helm的功能直接嵌入到其他应用程序中。现在，Helm 4还原生支持server-side apply（SSA）（这是Kubernetes的一个特性，将kubectl apply命令的逻辑移到API服务器中）。这一变化反映了Kubernetes生态系统中广泛存在的一个发展趋势，确保基于Helm构建的集成方案既功能强大又符合现代集群行为。</color></p><p></p><p><img>https://static001.geekbang.org/infoq/ec/ec455db5931a78a01e3de435e9436a73.png<img></p><p></p><p><color>插件系统也已经重新构建：传统Helm插件仍然有效，但现在用户还可以编写WebAssembly（WASM）插件，实现了更广泛的可移植性。此外，图表分发、性能以及图表签名和自动化测试机制也有所改进。</color></p><p><color> </color></p><p><color>Helm联合创始人Rimantas Mocevicius在</color><color>中指出，这些变化既反映了新特性，也反映了对Helm v3时代积累的设计债务的重新审视。</color></p><p><color> </color></p><p><color>作为指引Helm 4发展的提案，</color><color>（Helm改进提案）制定了明确的时间表：2024年末启动规划阶段，2025年中完成工程开发，2025年11月正式发布。该提案特别强调，团队应在合理的时间内交付开发的功能，同时谨慎引入破坏性更改。路线图涵盖了针对Kubernetes集成的改进，包括server-side apply（SSA）、现代化插件架构及图表API优化。同时，通过改进流程，明确并解决了贡献者参与度不足与维护积压等问题。</color></p><p><color> </color></p><p><color>从更广泛的用户视角来看，Jimmy Song在其博客中</color><color>，此次发布使Helm“超越了模板工具的范畴”，并实现了现代化升级。他认为，添加SSA使其与GitOps方法高度契合，而可重现构建、WASM插件支持以及kstatus等状态解析工具的引入，则使其与现代Kubernetes范式保持了同步。Song认为，这些变革意味着Helm正从单纯的图表渲染器转型为真正的部署编排器。</color></p><p><color> </color></p><p><color>Helm生态系统中颇具争议的其中一个问题是支持自定义资源定义（CRD）。有一项旨在增强CRD更新行为的</color><color>已经提交，其中包括合并新版本、追加到版本列表、保留元数据以及确保回滚路径向后兼容。然而，截至Helm 4初始版本发布时，这些提案尚未被采纳。在安装图表时，Helm仍会将CRD放置于专用的”crds/“目录中，但不会通过常规升级流程升级或删除CRD。现有文档已明确指出：升级位于crds文件夹中的CRD仅会触发警告提示，不会被实际应用。</color></p><p><color> </color></p><p><color>社区反馈反映出人们对这一遗漏的失望。在发布后不久的</color><color>中，有用户询问CRD行为是否有所改进。一位用户评论说：“CRD方面仍然没有改进？“这说明Helm仍然无法安全地管理CRD生命周期。另一位用户报告说，他们组织里的工具和CLI工作流依赖于基于注解的CRD，适应Helm CRD逻辑中的任何变化都将非同小可。</color></p><p><color> </color></p><p><color>有其他评论（如</color><color>）指出，像Argo CD这样的GitOps工具早在数年前就已经弥补了Helm最显著的工作流缺陷，暗示Helm 4的更新更像是追赶潮流而非开创性变革。然而，Helm 4仍然被公认为是一个重要的里程碑，它提升了项目的长期可行性，而不是一个增量补丁。</color></p><p><color> </color></p><p><color>从业者者和博主们对Helm 4部署安全性的提升表示欢迎，特别是新增的基于就绪状态的控制机制，这能减少发布过程中相互依赖的组件间的竞争条件。</color><color>Pierre-Louis Gueugnon盛赞其更加智能的基于内容的图表缓存和性能优化，对于频繁进行大规模部署的团队而言，这些改进将大幅提升他们的生活质量。</color></p><p><color> </color></p><p><color>展望未来，Helm维护者已明确表示，未被v4采纳的功能可能在次要版本甚至Helm 5中进行考虑。社区将密切关注CRD升级何时能达到足以广泛采用的程度——安全、稳定且文档完善。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/FHfdLrAsZ3kDjaidakob",
+            "pub_date": "2025-12-06 00:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "H42AVUxCJ40pg2ZGTS5k",
             "title": "🚀亚马逊云科技 2025 re:Invent 高光时刻 - DAY4！",
             "image": "https://static001.infoq.cn/resource/image/43/e4/43d2066c0d4be5b90fdacb3546ba48e4.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>最近，Cloudflare宣布正式推出</color><color>。该功能让开发人员能够连接到在Cloudflare账户中部署的生产资源，从而不必再使用本地模拟。</color></p><p><color> </color></p><p><color>得益于这项新功能，开发人员在本地机器上运行Worker代码时就可以连接到已经部署的资源，例如R2存储桶和D1数据库，从而能够使用真实数据和服务对本地代码更改进行测试。</color></p><p><color> </color></p><p><color>面向本地开发的</color><color>功能在Wrangler v4.37.0、Cloudflare Vite插件和@cloudflare/vitest-pool-workers包中均提供了支持。例如，开发人员可以告诉Wrangler或Vite将所有请求发送到env.MY_BUCKET：</color></p><p><color> </color></p><p><color> </color></p><p><color>尽管所有对env.MY_BUCKET的请求都将被代理到远程资源，但Worker代码将在本地执行，速度更快，而且不需要向本地数据库中填充数据。此外，开发人员可将远程绑定与环境关联，从而在本地开发过程中访问测试数据，同时确保生产数据不受影响。</color></p><p><color> </color></p><p><color>Cloudflare高级系统工程师</color><color>和Web开发人员</color><color>阐释了</color><color>。他们写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>服务绑定是两个Worker之间的链接，允许它们之间通过HTTP或JSRPC通信。Macleod和Piotrowicz补充道：</color></p><p><color> </color></p><p></p><p><img>https://static001.geekbang.org/infoq/6d/6d6d94ebb5b3b48a5cd9af590f60e70d.png<img></p><p></p><p><color>有了远程KV绑定，本地Worker将不再使用本地KV模拟器。取而代之，它会与远程代理客户端进行通信，而后者会连接到与真实KV存储关联的代理服务器，从而使本地Worker能够访问实时KV数据。社区对此反应积极，Dyords Abuzo</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>Wrangler程序包现在已经导出了startRemoteProxySession等实用工具，使未采用Wrangler开发环境的工具也能支持远程绑定。自Wrangler v4.37.0版本起（对应的Vite和Vitest插件版本分别为v1.13.0和v0.9.0），</color><color>。开发人员只需在Wrangler配置中为任意绑定添加remote: true即可启用该功能。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/4g5mgxYQDvIsBZS0h4b0",
             "pub_date": "2025-12-03 03:22:27",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "WSZ0m6VsVFqB4FwdPl5Z",
-            "title": "🚀亚马逊云科技 2025 re:Invent 高光时刻 - DAY1！",
-            "image": "https://static001.infoq.cn/resource/image/38/04/38cca244f53a994f80e6a3da8b50e604.jpg",
-            "description": "<div><p>✈️ 全球开发者奔赴拉斯维加斯，行囊里装满了热爱与探索欲！从填满的涂鸦墙，到 Fragrance Lab 香氛体验，再到排起长龙的 Kiro 鬼屋——这场技术狂欢，首日就火力全开，氛围感直接拉爆！</p><p></p><p>🎮 趣味与竞技双 buff 叠满！AI League 赛场，开发者靠 Kiro 高效搞定代码编写、文档解析；Harness 展台复刻《鱿鱼游戏》名场面，玩转出圈 “AIGAME”，让编程秒变沉浸式竞技，全程高能直呼过瘾！</p><p></p><p>🚀 硬核创新持续炸场不重样！Amazon Leo 卫星互联网重磅登场，高速连接叠加 “卫星 + 云 + AI” 三重安全 buff；技术 Session 精彩分享不停歇；1000 AIdea 挑战赛升级，面向全球“重金招募”！</p><p></p><p>✨ 速戳回顾首日高光！沉浸式感受现场互动与硬核干货，解锁这场科技盛宴的开篇暴击～</p><p></p><p><img>https://static001.geekbang.org/infoq/60/60d657b565fb4ec3cdc169fe8c996c96.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/36/364fa74be5bf856b21eb544125fe89c7.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/aa/aa385251efb1aad731ee9b26046c3f6f.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/29/29907c54782106e878807b8029d7f92d.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/bb/bba66fa2bccd07f432e443ebee9727e2.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/77/7766f13715ef9eaa5e4ec6773365047e.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/61/61b43694625fd38ca8e6620e730f270f.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/3a/3a1cc67863191c10b7b4b3663c7f9cda.jpeg<img></p><p></p><p><img>https://static001.geekbang.org/infoq/d6/d6662af290b108aa0daf649153b54596.jpeg<img></p><p></p></div>",
-            "link": "https://www.infoq.cn/article/WSZ0m6VsVFqB4FwdPl5Z",
-            "pub_date": "2025-12-02 09:39:38",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
