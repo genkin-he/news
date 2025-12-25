@@ -94,16 +94,15 @@ def run(url):
                     break
                 title_tag = item.select_one("title")
                 link_tag = item.select_one("link")
-                desc_tag = item.select_one("description")
                 if not title_tag or not link_tag:
                     continue
                 title = title_tag.get_text().strip()
                 link = link_tag.get_text().strip()
-                description = desc_tag.get_text().strip() if desc_tag else ""
                 if link in ",".join(_links):
                     util.info("exists link: {}".format(link))
                     continue
-                if title and link:
+                description = get_detail(link)
+                if title and link and description:
                     insert = True
                     _articles.insert(
                         0,
