@@ -61,11 +61,6 @@ def get_detail(link):
             ad_elements = soup.select("form, script, style, iframe, noscript")
             for element in ad_elements:
                 element.decompose()
-            p_elements = soup.select("p")
-            if len(p_elements) >= 2:
-                # 删除最后两个 p 标签
-                p_elements[-1].decompose()
-                p_elements[-2].decompose()
             return str(soup).strip()
         else:
             util.error("request: {} error: {}".format(link, response.status_code))
