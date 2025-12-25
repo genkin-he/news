@@ -25,6 +25,7 @@ cookies_str = "_ga_Y8DRJ5Q9GN=GS2.1.s1766631260$o2$g0$t1766631260$j60$l0$h0; _ga
 
 base_url = "https://www.traderslog.com"
 filename = "./news/data/traderslog/list.json"
+current_links = []
 util = SpiderUtil(notify=False)
 
 session = requests.Session()
