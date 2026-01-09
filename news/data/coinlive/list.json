@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 993184,
+            "title": "Ripple's UK Subsidiary Secures FCA Registration Approval",
+            "description": "According to Foresight News, Ripple Markets UK Ltd., a subsidiary of Ripple, has received registration approval from the UK's Financial Conduct Authority (FCA).",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993184&language=en-US",
+            "pub_date": "2026-01-09 20:33:32",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 993183,
+            "title": "Crypto User's Wallet Drained After Hotel WiFi Exposure",
+            "description": "According to Cointelegraph, a crypto user known as The Smart Ape reported losing approximately $5,000 from a hot wallet during a hotel stay. The loss was not due to clicking a phishing link but resulted from a series of errors, including using an open WiFi network, taking a phone call in the lobby, and approving a seemingly routine wallet request. Security firm Hacken analyzed the incident, revealing how attackers can exploit network-level vulnerabilities and social cues to drain funds days after a victim signs a seemingly harmless message.\n\nThe attack began when the victim connected his laptop to the hotel's open WiFi, a captive portal without a password, and engaged in routine activities like scanning Discord and X, and checking balances. Unbeknownst to him, open networks allow all guests to share the same local environment. Dmytro Yasmanovych, cybersecurity compliance lead at Hacken, explained that attackers can use techniques like Address Resolution Protocol (ARP) spoofing, Domain Name System (DNS) manipulation, or rogue access points to inject malicious JavaScript into otherwise legitimate websites. Even if the DeFi front end is trusted, the execution context may be compromised.\n\nThe attacker identified the user as involved in crypto after overhearing a phone conversation in the hotel lobby. This information helped narrow the target and hinted at the likely wallet stack, specifically Phantom on Solana, which was not compromised as a wallet provider. Physical exposure of crypto profiles poses a long-standing risk, as Bitcoin engineer and security expert Jameson Lopp has emphasized that openly discussing crypto or flaunting wealth is highly risky. Yasmanovych warned that cyber attacks often begin with observation, and public conversations about crypto holdings can serve as reconnaissance, aiding attackers in selecting the right tools, wallets, and timing.\n\nThe critical moment occurred when the user signed what appeared to be a normal transaction. While swapping on a legitimate decentralized finance (DeFi) front end, injected code replaced or piggy-backed a wallet request, asking for permission rather than a token transfer. Yasmanovych noted this pattern fits a broader class of attacks known as approval abuse, where attackers obtain standing permissions and wait before executing the actual transfer. By the time the victim realized, the wallet had been emptied of Solana (SOL) and other tokens. The attacker waited until the victim left the hotel to transfer SOL, move tokens, and send NFTs to another address.\n\nThe victim's wallet was a secondary hot wallet, limiting the damage, but the incident highlights how little is required to swipe users' funds: one untrusted network, one moment of inattention, and one signed approval. Yasmanovych recommended treating all public networks as hostile when traveling, avoiding open WiFi for wallet interactions, using a mobile hotspot or reputable VPN, and transacting only from hardened, up-to-date devices with minimal browser attack surface. Users should segment funds across wallets, treat every on-chain approval as a high-risk event to be regularly reviewed and revoked, and maintain strong physical operational security by never discussing holdings or wallet details in public.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993183&language=en-US",
+            "pub_date": "2026-01-09 20:33:50",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 993186,
+            "title": "WLFI says it will soon release \"exciting news\" related to its ecosystem and USD1.",
+            "description": "The Trump family's crypto project, WLFI, announced on the X platform that the WLFI ecosystem and USD1 are growing steadily and that a series of \"exciting announcements\" are coming soon.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993186&language=en-US",
+            "pub_date": "2026-01-09 20:34:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 993185,
+            "title": "Solayer Labs: Existing blockchain infrastructure cannot support 24/7 financial markets",
+            "description": "In a recent commentary, Joshua Sum, Product Lead at Solayer Labs, pointed out that despite the rapid progress in asset tokenization, current blockchain infrastructure suffers from serious flaws that prevent it from supporting a truly global 24/7 financial market. Existing blockchains face three key problems: low throughput limits, high transaction latency, and unfair transaction ordering mechanisms (MEV), making institutional-grade transactions virtually impossible. Sum emphasized that to realize the vision of a borderless global financial market, the blockchain industry needs to fundamentally rebuild its infrastructure, developing networks capable of handling over 100,000 transactions per second with sub-second final confirmation, while ensuring fair transaction ordering and preventing algorithmic arbitrage. (Cointelegraph)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993185&language=en-US",
+            "pub_date": "2026-01-09 20:37:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 993170,
             "title": "The hidden risk of public WiFi: How a single approval wiped a crypto wallet",
             "description": "A crypto user who lost $5,000 from a hot wallet after a stay at a hotel says the real culprits were open WiFi, a casual lobby phone call, and one careless wallet approval.\nsource: https://cointelegraph.com/news/the-hidden-risk-of-public-wifi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -156,46 +196,6 @@
             "description": "According to Odaily, U.S. Treasury yields have seen a slight increase, while the dollar has strengthened ahead of the release of December's non-farm employment data. Fadi Al Kurdi from FFA Kings highlighted in a report that this data could be crucial in shaping monetary policy expectations for 2026. He noted that any significant deviation from expectations might introduce volatility into the currency and bond markets. Meanwhile, the market is anticipating a ruling from the U.S. Supreme Court on whether U.S. President Donald Trump can invoke the International Emergency Economic Powers Act to impose tariffs without congressional approval. The dollar index rose by 0.1%, reaching 99.091, marking a four-week high.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993134&language=en-US",
             "pub_date": "2026-01-09 19:53:54",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 993133,
-            "title": "French tax data breach raises concerns about encrypted personal safety",
-            "description": "A former French tax official may have abused her position to leak data on cryptocurrency holders, increasing the risk of physical attacks against this group. Ghalia C., the former tax official, has been sentenced and is currently appealing charges including aiding and abetting organized crime. Investigations revealed that she used her access to confidential tax databases to gather information on potential targets, including cryptocurrency investors, and may have leaked their location and capital gains data. While there is no evidence that she planned any actual attacks against cryptocurrency holders, this case highlights the risk that tax systems can become sources of data breaches. As European tax authorities increasingly tighten their monitoring of cryptocurrency assets, such leaks could expose holders to greater security threats. (Cryptopolitan)",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993133&language=en-US",
-            "pub_date": "2026-01-09 19:56:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 993132,
-            "title": "Arkham will remove support for the Manta blockchain on January 11.",
-            "description": "According to an announcement by Arkham on its X platform, the platform regularly evaluates whether chain integrations need to continue to be maintained based on factors such as user needs and their importance to the crypto ecosystem. Based on a recent review, it has been decided to remove support for the Manta blockchain from the Arkham Intel platform on January 11.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993132&language=en-US",
-            "pub_date": "2026-01-09 19:58:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 993124,
-            "title": "Truebit Protocol under attack: $26 million suspicious transaction detected",
-            "description": "A suspicious 8,535 ETH transaction raises the alarm on Truebit Protocol. Cyvers reports possible risks of $26 million.\nsource: https://en.spaziocrypto.com/defi/truebit-protocol-under-attack-26-million-suspicious-transaction-detected/",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993124&language=en-US",
-            "pub_date": "2026-01-09 19:43:10",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 993122,
-            "title": "Vistra (VST) Stock Soars in Premarket on Major Nuclear Power Deal With Meta",
-            "description": "Vistra stock rose sharply in premarket trading after Meta agreed to long-term nuclear power contracts totaling more than 2,600 MW.\nsource: https://tokenist.com/vistra-vst-stock-soars-in-premarket-on-major-nuclear-power-deal-with-meta/?utm_source=rss&utm_medium=rss&utm_campaign=vistra-vst-stock-soars-in-premarket-on-major-nuclear-power-deal-with-meta",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=993122&language=en-US",
-            "pub_date": "2026-01-09 19:43:30",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
