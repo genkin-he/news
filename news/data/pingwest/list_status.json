@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Adobe Firefly集成OpenAI GPT-Image 1.5，限时开放无限生成",
+            "description": "<article class=\"wire-content article-style\"><p>品玩1月13日讯，据9to5Google 报道，Adobe宣布其创意平台Firefly已集成OpenAI最新发布的GPT-Image 1.5模型。为庆祝此次整合，Firefly Pro与Premium订阅用户可在1月15日前无限制使用该模型生成图像。</p><p>Firefly作为Adobe旗下AI生成工具，已深度嵌入Photoshop、Illustrator、Express等Creative Cloud应用，并支持来自OpenAI、Runway、Google等多家前沿AI实验室的模型。平台采用“生成积分”机制：免费版配额有限，Standard、Pro和Premium套餐分别提供2,000、4,000及50,000月度积分，用于生成图像、视频、音频等内容。</p><p>此次合作进一步强化Adobe在AI创意生态中的布局，推动生成式AI在专业设计领域的应用。</p><figure class=\"image\"><img alt=\"\" height=\"538\" src=\"https://cdn.pingwest.com/portal/2026/01/13/159299d_7YxP_n6A84breiz4sFAjk2x1.png?x-oss-process=style/article-body\" title=\"\" width=\"928\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/310686",
+            "pub_date": "2026-01-13 15:27:16",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "范式智能推出高像素AI智能眼镜，支持大模型对话与多场景应用",
             "description": "<article class=\"wire-content article-style\"><p>品玩1月13日讯，据范式智能官方消息，其<span>旗下消费电子品牌Phancy发布了搭载1300万像素摄像头的新型AI智能眼镜。</span></p><p><span>该产品基于全栈自研AI技术，并与芯片厂商安凯微深度合作，从底层芯片选型、算法架构到传输协议进行了重构，旨在为用户提供高清、智能且全天候的穿戴式AI交互体验。</span><span>核心亮点在于集成了经过算法优化的1300万像素摄像头，支持AI防抖算法和第一视角视频直播功能。</span></p><p><span>在AI能力方面，不仅支持与大模型的自然对话、智能识图，还内置了AI记忆管家、日程管理和支持130多种语言的多场景翻译功能，并新增了离线翻译模式。为满足长时间佩戴需求，产品通过芯片级功耗控制与算法优化，在配备260mAh电池的情况下，标称续航时间可达约40小时。</span></p><figure class=\"image\"><img alt=\"\" height=\"1775\" src=\"https://cdn.pingwest.com/portal/2026/01/13/xj_66367asewAz7tFjtaDK4H6MSK4CNn.png?x-oss-process=style/article-body\" title=\"\" width=\"2714\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310685",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩1月13日讯，据 The Verge 报道，<span>Anthropic发布了一款名为Claude Cowork的新工具。该工具是其专为开发者设计的Claude Code智能体编码工具的衍生版本，但关键特性在于将其使用范围扩展至包括非开发者在内的所有用户，帮助实现人与AI之间更自然、高效的协作。</span></p><p><span>与之前的工具不同，Claude Cowork允许用户授权AI助手访问电脑上指定的文件夹。获得权限后，Claude能够在文件夹内自主地进行读取、编辑甚至创建文件，以完成用户指定的任务。这意味着AI助手在执行任务时拥有更高的自主性，其交互模式更接近于用户向一位真实的同事留言并委派工作。</span></p><p><span>此外，该工具还支持任务队列和并行处理，进一步提升了工作效率。目前，Claude Cowork的研究预览版已率先向macOS平台的Claude Max订阅用户开放体验。</span></p><figure class=\"image\"><img alt=\"\" height=\"554\" src=\"https://cdn.pingwest.com/portal/2026/01/13/kQKm0F8n0fd_ys0EMB33sXskS78tF8A2.png?x-oss-process=style/article-body\" title=\"\" width=\"833\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310669",
             "pub_date": "2026-01-13 10:15:48",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "DeepSeek联合北大提出Engram架构，突破Transformer记忆瓶颈",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩1月13日讯，据 36氪报道，DeepSeek与北京大学合作发布新论文，由Liang Wenfeng等作者提出“Engram”模块，旨在解决Transformer缺乏原生知识检索能力的核心缺陷。该方法引入“条件记忆”稀疏轴，通过现代化哈希N-gram嵌入，实现近似O(1)时间复杂度的确定性知识查找。</span></p><p><span>Engram将语言建模中的静态模式（如固定搭配、实体名称）交由可扩展查表模块处理，使主干网络专注组合推理任务。在27B参数规模下，其在等参数、等计算量条件下优于MoE基线。</span></p><p><span>研究团队发现MoE与Engram之间存在“U型缩放律”，需平衡计算与静态记忆资源配比。该技术有望集成至下一代V4模型，为稀疏大模型开辟新路径。</span></p><figure class=\"image\"><img alt=\"\" height=\"583\" src=\"https://cdn.pingwest.com/portal/2026/01/13/sWGtyeXWMS3GKCF1Mh3_pcX6CNC5sb8j.png?x-oss-process=style/article-body\" title=\"\" width=\"992\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/310668",
-            "pub_date": "2026-01-13 10:10:48",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
