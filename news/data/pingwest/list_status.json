@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Anthropic发布Claude Cowork，将AI编程助手扩展至非开发者",
+            "description": "<article class=\"wire-content article-style\"><p>品玩1月13日讯，据 The Verge 报道，<span>Anthropic发布了一款名为Claude Cowork的新工具。该工具是其专为开发者设计的Claude Code智能体编码工具的衍生版本，但关键特性在于将其使用范围扩展至包括非开发者在内的所有用户，帮助实现人与AI之间更自然、高效的协作。</span></p><p><span>与之前的工具不同，Claude Cowork允许用户授权AI助手访问电脑上指定的文件夹。获得权限后，Claude能够在文件夹内自主地进行读取、编辑甚至创建文件，以完成用户指定的任务。这意味着AI助手在执行任务时拥有更高的自主性，其交互模式更接近于用户向一位真实的同事留言并委派工作。</span></p><p><span>此外，该工具还支持任务队列和并行处理，进一步提升了工作效率。目前，Claude Cowork的研究预览版已率先向macOS平台的Claude Max订阅用户开放体验。</span></p><figure class=\"image\"><img alt=\"\" height=\"554\" src=\"https://cdn.pingwest.com/portal/2026/01/13/kQKm0F8n0fd_ys0EMB33sXskS78tF8A2.png?x-oss-process=style/article-body\" title=\"\" width=\"833\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/310669",
+            "pub_date": "2026-01-13 10:15:48",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "DeepSeek联合北大提出Engram架构，突破Transformer记忆瓶颈",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩1月13日讯，据 36氪报道，DeepSeek与北京大学合作发布新论文，由Liang Wenfeng等作者提出“Engram”模块，旨在解决Transformer缺乏原生知识检索能力的核心缺陷。该方法引入“条件记忆”稀疏轴，通过现代化哈希N-gram嵌入，实现近似O(1)时间复杂度的确定性知识查找。</span></p><p><span>Engram将语言建模中的静态模式（如固定搭配、实体名称）交由可扩展查表模块处理，使主干网络专注组合推理任务。在27B参数规模下，其在等参数、等计算量条件下优于MoE基线。</span></p><p><span>研究团队发现MoE与Engram之间存在“U型缩放律”，需平衡计算与静态记忆资源配比。该技术有望集成至下一代V4模型，为稀疏大模型开辟新路径。</span></p><figure class=\"image\"><img alt=\"\" height=\"583\" src=\"https://cdn.pingwest.com/portal/2026/01/13/sWGtyeXWMS3GKCF1Mh3_pcX6CNC5sb8j.png?x-oss-process=style/article-body\" title=\"\" width=\"992\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310668",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩1月12日讯，据市场消息，<span>由清华大学、Uber及Manifold AI公司联合创建的人工智能研究平台Manifold AI（流形空间），宣布成功完成了天使+轮融资，融资金额超过一亿元人民币。该平台专注于为机器学习模型的开发、调试与协作提供专业工具支持。</span></p><p><span>Manifold AI平台的核心功能定位为服务科研流程，提供集成的数据管理、分析协作工具和研究流程管理系统，并特别支持临床与多组学数据的整合及自动化预处理。</span></p><p><span>此次获得超亿元融资，表明其技术方向与市场潜力获得了资本的高度认可。梅花创投、君联资本、华为哈勃等知名投资机构参与了本轮投资，老股东也持续加码。据悉，新募集的资金将主要用于平台“世界模型”技术的迭代以及“具身大脑”相关应用场景的落地。</span></p><figure class=\"image\"><img alt=\"\" height=\"593\" src=\"https://cdn.pingwest.com/portal/2026/01/12/szjY2Eb10k7hS8TcydQ2BHzn48P01bat.png?x-oss-process=style/article-body\" title=\"\" width=\"1097\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310652",
             "pub_date": "2026-01-12 17:40:39",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "Midjourney发布Niji 7，聚焦动漫风格清晰度与线条美学",
-            "description": "<article class=\"wire-content article-style\"><p>品玩1月12日讯，Midjourney正式推出Niji 7版本，时隔一年半再度升级其动漫专用生成模型。新版本显著提升画面一致性与细节清晰度，尤其在眼部反光、花瓣飘落等元素上实现高清呈现，并强化对提示词的精准遵循能力。</p><p>Niji 7着重优化动漫核心美学——线条表现力，通过更精准的轮廓与留白控制，实现“简约而高难度”的构图风格。默认渲染更趋扁平化，突出线稿与空间的协调性。用户可通过在Discord输入--niji 7或网页端选择版本启用。</p><p>值得注意的是，旧版cref功能暂未支持，团队称将推出替代性新特性。个性化风格与情绪板（moodboards）功能亦将随后上线。</p><figure class=\"image\"><img alt=\"\" height=\"1151\" src=\"https://cdn.pingwest.com/portal/2026/01/12/RDPy4r18SQp6261tAC224NwG4dARw744.jpg?x-oss-process=style/article-body\" title=\"\" width=\"2048\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/310644",
-            "pub_date": "2026-01-12 16:00:43",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
