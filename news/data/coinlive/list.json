@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 996675,
+            "title": "Solana Policy Institute calls for a distinction between the roles of centralized exchanges and DeFi software.",
+            "description": "The Solana Policy Institute has written to the U.S. Securities and Exchange Commission (SEC), advocating for a clear distinction between centralized trading platforms and decentralized, non-custodial DeFi software, emphasizing that developers should not be treated as intermediaries for regulation. This move aims to secure regulatory exemptions for open-source DeFi projects and prevent technology developers from assuming financial intermediary obligations. (Solid Intel)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996675&language=en-US",
+            "pub_date": "2026-01-13 19:45:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 996658,
+            "title": "21Shares launches Bitcoin & Gold ETP on the London Stock Exchange",
+            "description": "According to market sources, 21Shares has launched a Bitcoin & Gold ETP on the London Stock Exchange. (Cointelegraph)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996658&language=en-US",
+            "pub_date": "2026-01-13 19:46:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 996657,
+            "title": "Hong Kong Financial Services Bureau: Guidelines on the application of AI in the accounting and auditing industry will be launched in the near future.",
+            "description": "Lai Tsui-pik, Chief Executive Officer of the Accounting and Financial Reporting Council of Hong Kong, stated that the Council is developing guidelines for the application of AI in the accounting and auditing industry, referencing international standards. These guidelines are expected to be launched soon. They are not mandatory rules but rather advisory in nature, aiming to assist the industry in properly managing related risks while embracing technology. (Ta Kung Pao, Hong Kong)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996657&language=en-US",
+            "pub_date": "2026-01-13 19:49:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 996656,
             "title": "Truebit Exploit Highlights Ongoing Blockchain Security Challenges",
             "description": "According to Cointelegraph, the offline computation protocol Truebit recently experienced a $26 million exploit due to a flaw in its smart contract. This vulnerability allowed an attacker to mint tokens at nearly zero cost, leading to a dramatic 99% crash in the value of the Truebit (TRU) token. The breach underscores the persistent security risks that even long-standing blockchain projects face. Blockchain security firm SlowMist conducted a post-mortem analysis, revealing that the exploit stemmed from a loophole in the protocol’s smart contract logic. This flaw enabled the attacker to mint a significant number of tokens without incurring any ETH costs. SlowMist identified a lack of overflow protection in an integer addition operation within the Purchase contract of Truebit Protocol. This oversight resulted in incorrect calculations of the ETH required to mint TRU tokens. Consequently, the smart contract’s price calculations were erroneously reduced to zero, allowing the attacker to deplete the contract’s reserves by minting $26 million worth of tokens at minimal cost. The contract was compiled with Solidity 0.6.10, a version that lacked built-in overflow checks, leading to a \"silent overflow\" when calculations exceeded the maximum value of \"uint256,\" causing the result to wrap around a small value near zero.\n\nThe incident highlights the vulnerability of even well-established protocols to hacking threats. Truebit, launched on the Ethereum mainnet in April 2021, is not alone in facing such challenges. Interest in smart contract security surged at the end of last year when an Anthropic study revealed that commercially available artificial intelligence (AI) agents had identified $4.6 million worth of smart contract exploits. Anthropic’s Claude Opus 4.5, Claude Sonnet 4.5, and OpenAI’s GPT-5 collectively developed these exploits when tested on smart contracts, according to a research paper by the AI company’s red team, which focuses on discovering code vulnerabilities before malicious actors can exploit them.\n\nSmart contract vulnerabilities were identified as the largest attack vector for the cryptocurrency industry in 2025, with 56 cybersecurity incidents, according to SlowMist’s year-end report. These vulnerabilities accounted for 30.5% of all crypto exploits, while account compromises ranked second with 50 incidents. Meanwhile, crypto phishing scams emerged as the second-largest threat in 2025, costing investors $722 million across 248 incidents, as reported by blockchain security platform CertiK. These scams, which involve social engineering rather than code hacking, saw a 38% decrease in losses compared to the $1 billion stolen in 2024, indicating that investors are becoming more aware of such threats.",
@@ -166,36 +196,6 @@
             "description": "Cointelegraph reported on the X platform that Nigeria now requires cryptocurrency transactions to be linked to tax IDs and national IDs.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996618&language=en-US",
             "pub_date": "2026-01-13 19:10:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 996607,
-            "title": "Binance to Conduct Tron Network Wallet Maintenance",
-            "description": "According to the announcement from Binance, the platform is set to perform wallet maintenance for the Tron Network (TRX) on 2026-01-14 at 06:00 (UTC). To facilitate this process, deposits and withdrawals on the Tron Network will be temporarily suspended starting from 2026-01-14 at 05:55 (UTC). The maintenance is expected to last approximately one hour.\n\nDuring this period, the trading of tokens on the Tron Network will remain unaffected. Binance assures users that all necessary technical requirements will be managed by the platform. Once the network is confirmed to be stable, deposits and withdrawals will be reopened. No further announcements will be made regarding the resumption of these services.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996607&language=en-US",
-            "pub_date": "2026-01-13 19:00:29",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 996597,
-            "title": "Russian woman loses 28 million rubles to a crypto scam",
-            "description": "A Russian woman in Kursk lost 28 million rubles after being lured into a year-long cryptocurrency investment scam, police said.\nsource: https://www.cryptopolitan.com/russian-woman-loses-28-million-crypto-scam/",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996597&language=en-US",
-            "pub_date": "2026-01-13 18:43:12",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 996584,
-            "title": "Scott Bessent hosts global finance ministers to discuss China’s grip on world silver supply",
-            "description": "Trump’s Treasury Secretary Scott Bessent called a full-scale meeting with his global peers on Monday to get ahead of the worsening mineral supply crunch. With China refining up to 87% of the world’s rare earths and silver prices breaking records, Scott gathered the finance ministers of 11 countries, the EU commissioner, and U. S. trade officials […]\nsource: https://www.cryptopolitan.com/scott-bessent-hosts-global-finance-ministers/",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=996584&language=en-US",
-            "pub_date": "2026-01-13 18:39:40",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
