@@ -44,15 +44,9 @@ def get_detail(link):
             if not soup:
                 return ""
 
-            ad_elements = soup.select("style, script,.group-c-container,.py-10, div")
+            ad_elements = soup.select("style, script, div")
             # 移除这些元素
             for element in ad_elements:
-                element.decompose()
-
-            read_more_elements = soup.select(
-                'div[data-testid="article-read-more"],div[data-testid="article-purchase-link-component"],div[data-testid="article-purchase-link-version-2-component"]'
-            )
-            for element in read_more_elements:
                 element.decompose()
             return str(soup).strip()
         else:
