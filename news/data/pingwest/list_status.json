@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Kyutai发布Pocket TTS：轻量级高保真语音合成模型",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩1月15日讯，AI 初创公司Kyutai官方宣布推出Pocket TTS——一款仅1亿参数的文本到语音（TTS）模型，支持语音克隆，可在普通笔记本CPU上实时运行。用户仅需5秒音频样本即可复现目标声音的音色、情感、口音及声学环境。</span></p><p><span>该模型采用连续隐变量架构，摒弃传统离散令牌方法，结合Lagrangian自蒸馏与Latent Classifier-Free Guidance等技术，在Word Error Rate和音频质量上优于多个大参数竞品，且是唯一能在CPU上实现超实时生成的高质量TTS系统。</span></p><p><span>Pocket TTS已开源，采用MIT许可证，训练数据全部来自公开英文语料，总计88,000小时。项目提供本地CLI工具及在线演示，支持自定义语音输入。</span></p><figure class=\"image\"><img alt=\"\" height=\"474\" src=\"https://cdn.pingwest.com/portal/2026/01/15/4Gzb6H3saTws_JKBdw3Zh71T3iSiA1A3.png?x-oss-process=style/article-body\" title=\"\" width=\"885\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/310737",
+            "pub_date": "2026-01-15 14:10:42",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "比谷歌更快，阿里千问率先推出AI购物功能",
             "description": "<article class=\"wire-content article-style\"><p>1月15日，千问App宣布全面接入淘宝、支付宝、闪购、飞猪、高德等阿里生态业务，率先实现点外卖、买东西、订机票等AI购物功能，并向所有用户开放测试。就在四天前，谷歌刚刚宣布与沃尔玛等零售商的AI购物合作计划，但目前尚未上线。阿里领先于谷歌，成为全球首个实现多品类AI购物功能的科技公司。</p><p>在发布会现场，千问C端事业群总裁吴嘉演示了AI外卖的完整闭环：用户仅需语音下达“帮我点40杯霸王茶姬”指令，千问App即刻调用淘宝闪购接口生成订单，并通过系统级打通的“支付宝AI付”完成支付，全程无需跳转第三方应用。</p><p>阿里之所以能领先于谷歌推出AI购物，核心在于其独特的“模型+生态”垂直整合能力。与谷歌试图通过UCP协议连接外部零售商的“开放联盟”模式不同，千问App依托的是阿里内部庞大且深度的生态协同——底层是Qwn大模型，上层直接打通淘宝商品库、支付宝支付体系及本地生活服务体系。这种深度整合有效解决了AI Agent落地中最棘手的“决策信任”与“支付断点”难题。</p><p>用户使用千问App点外卖，只要在聊天框里说一句“帮我点杯奶茶”或者“帮我点两杯咖啡”，千问就能调用淘宝闪购的服务能力，精准定位、推荐合适的商家、生成订单，并通过内置的“支付宝AI付”功能一键付款，实现“说一句，就送到”。</p><p>在购物场景，千问App可以真正帮助用户解决“买什么、怎么选、值不值得买”的难题。千问App不仅能根据用户的真实需求给出购物建议，更能基于淘宝庞大的商品数据库和评价体系，智能生成具体的商品推荐方案。用户只需一个指令，即可在千问App完成从消费决策到交易的闭环。</p><p>例如，当用户提问“下周准备四姑娘山徒步，需要哪些装备”时，千问App能综合冬季、高原、户外等因素，生成一份包含衣物、头灯、能量胶的完整清单，并直接推荐凯乐石MT5登山鞋等优选商品，用户点击卡片即可直接下单。</p><p>面对“想给爸妈家买个扫地机器人，预算 2000–4000，家里还有只猫”这样模糊意图，千问App能精准推理出“防缠绕”、“高温杀菌”等隐含刚需，并基于真实交易数据给出客观推荐，省去了用户查攻略的繁琐。 </p><p>吴嘉表示，对于消费场景，互联网上的营销信息繁杂、噪音巨大。如何训练模型的理解分辨能力很关键。千问App不仅仅依靠世界知识，更能利用阿里巴巴独特的交易数据和服务数据来增强模型，从而保障AI购物功能保持客观和准确。</p><p>目前，全球科技公司正密集布局AI电商。OpenAI不久前推出了“即时结账”功能，Perplexity近期宣布联手PayPal，微软也在尝试在对话中嵌入购物推荐。麦肯锡报告预测，到2030年，在AI工具和“智能体商业”的推动下，全球零售市场的潜在规模有望达到3万亿到5万亿美元。</p><p>随着千问App开启全量测试，阿里成为了全球首个大规模开放“搜索-决策-支付-履约”全链路AI功能的科技巨头，在将AI转化为实际消费力的竞争中抢占了先机。</p></article>",
             "link": "https://www.pingwest.com/w/310734",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩1月15日讯，人工智能公司MiniMax正式宣布开源其研发的代码智能体系统性评测集——OctoCodingBench。该评测集是业内首个专门面向Coding Agent（代码智能体）设计的综合性评估基准。</span></p><p><span>根据评测结果，在关键指标\"过程合规\"方面，部分开源模型表现突出，已快速逼近甚至在某些场景下超越了部分闭源模型的水平。这一现象表明，在人工智能向Agent（智能体）时代演进的过程中，\"数据与评测范式\"正逐渐取代单一模型性能，成为行业竞争的新焦点。</span></p><p><span>此次开源举措将为学术界和产业界提供统一的评估标准，有望进一步推动代码智能体技术的透明化发展与性能优化。</span></p><figure class=\"image\"><img alt=\"\" height=\"526\" src=\"https://cdn.pingwest.com/portal/2026/01/15/YDNi88cQ7Dss5y_C4wTxw7j191n56123.png?x-oss-process=style/article-body\" title=\"\" width=\"762\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310724",
             "pub_date": "2026-01-15 09:50:48",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "智谱AI与华为联合开源新一代图像生成模型GLM-Image",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩1月15日讯，智谱AI与华为共同宣布，正式开源新一代图像生成模型GLM-Image。该模型基于昇腾Atlas 800T A2设备与昇思MindSpore AI框架完成全流程训练，成为</span><strong><span>首个在国产芯片上完成全程训练的SOTA多模态模型</span></strong><span>，验证了国产全栈算力底座训练前沿模型的可行性。</span></p><p><span>GLM-Image采用创新的“自回归+扩散解码器”混合架构，兼顾全局指令理解与局部细节刻画，显著提升了文字渲染能力。在CVTG-2K和LongText-Bench等权威评测中，其文字准确率与归一化编辑距离指标均位列开源模型第一，尤其擅长中英文文字生成任务。</span></p><p><span>模型支持从1024×1024到2048×2048的多分辨率自适应生成，适用于科普插画、商业海报、社交媒体图文等复杂场景。在API调用模式下，单张图片生成成本仅需0.1元，展现出优异的实用性与经济性。</span></p><figure class=\"image\"><img alt=\"\" height=\"339\" src=\"https://cdn.pingwest.com/portal/2026/01/15/aE7Qw_f76prRz0WkjD0Zw6e2766D4Fjn.png?x-oss-process=style/article-body\" title=\"\" width=\"799\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/310723",
-            "pub_date": "2026-01-15 09:35:46",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
