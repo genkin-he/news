@@ -27,9 +27,8 @@ util = SpiderUtil()
 
 # 采集的页面列表
 page_urls = [
-    "https://www.businesstimes.com.sg/international/global/latest",
-    "https://www.businesstimes.com.sg/singapore/economy-policy?ref=listing-menubar",
     "https://www.businesstimes.com.sg/opinion-features?ref=listing-menubar",
+    "https://www.businesstimes.com.sg/breaking-news?filter=companies-markets&ref=listing-menubar",
 ]
 
 
