@@ -23,7 +23,7 @@ headers = {
     "sec-fetch-user": '?1',
     "upgrade-insecure-requests": '1',
     "user-agent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
-    "cookie": '_ga=GA1.1.1675534351.1757674723; __cf_bm=TWw2ReMy31iujYiftPXRT.83nlg6k8oXcMH.dJcru40-1758792792-1.0.1.1-9DaWaOByJnhPhXlLaskpmi_aA.h1she3VPT250cts3LZV_tYncvlYzi3ogfzBUDYtfL5bkuypLnCW5AFiohLXXgN5jXQ4HPraba.E5WLhk8; _ga_ZJ42QPY9K7=GS2.1.s1758792794$o5$g1$t1758793101$j54$l0$h0; __gads=ID=6e5b4fb4f7087090:T=1757674723:RT=1758793101:S=ALNI_MZOFJBCJgP6cgAR7RWJHpo-iZGCkg; __gpi=UID=000011216e1b0e71:T=1757674723:RT=1758793101:S=ALNI_MZXeNwhzcyu6oiq-Y8Y6vCIIo7Ydg; __eoi=ID=c62c1c55b5e12ab2:T=1757674723:RT=1758793101:S=AA-Afjb59th_7h8m8O6vSpG4H_65',
+    "cookie": '__cf_bm=dKVLAUQfHaQAV7_3rjVk3HuKz1GQJvPycc9G6n_08F4-1768637758-1.0.1.1-PUv19oNXDdpPcBnNrqgXLc_v8zFgTERyaVjeL.Q8lugwqsxFS731hwwmEiAMAtlzoNdSBT7n9HoEP2rcH31YKMp5GBE2LTc.6JJqpP9KSG4; _ga=GA1.1.1899341607.1768637761; __gads=ID=7681e3e175e71070:T=1768637762:RT=1768637762:S=ALNI_MY_yDgLCz_GGQW-oC-nOAbkl0k0Qw; __gpi=UID=000011e5eb119e36:T=1768637762:RT=1768637762:S=ALNI_Mawn8yFgJyt0P4SWQfJgVxeUEmVEg; __eoi=ID=f829c3b5801e556b:T=1768637762:RT=1768637762:S=AA-AfjYEhCtlhCnc9GSF4KfLVJyD; _ga_ZJ42QPY9K7=GS2.1.s1768637760$o1$g1$t1768637779$j41$l0$h0',
 }
 
 base_url = "https://thebambooworks.com"
@@ -112,4 +112,5 @@ def run(url):
 
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run, "https://thebambooworks.com/cn/category/%E5%BF%AB%E8%AE%AF/")
+    if util.should_run_by_minute(divisor=10):
+        util.execute_with_timeout(run, "https://thebambooworks.com/cn/category/%E5%BF%AB%E8%AE%AF/")
