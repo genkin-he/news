@@ -112,5 +112,4 @@ def run(url):
 
 
 if __name__ == "__main__":
-    if util.should_run_by_minute(divisor=10):
-        util.execute_with_timeout(run, "https://thebambooworks.com/cn/category/%E5%BF%AB%E8%AE%AF/")
+    util.execute_with_timeout(run, "https://thebambooworks.com/cn/category/%E5%BF%AB%E8%AE%AF/")

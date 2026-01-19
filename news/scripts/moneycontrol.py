@@ -110,5 +110,4 @@ def run():
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    if util.should_run_by_minute(divisor=10):
-        util.execute_with_timeout(run)
+    util.execute_with_timeout(run)

@@ -105,7 +105,6 @@ def run(url):
         util.log_action_error("list error: {}".format(response.status_code))
 
 if __name__ == "__main__":
-    if util.should_run_by_minute(10):
-        util.execute_with_timeout(run, "https://www.straitstimes.com/business/economy?ref=top-navbar")
-    elif util.should_run_by_minute(5):
-        util.execute_with_timeout(run, "https://www.straitstimes.com/business/companies-markets?ref=top-navbar")
+    util.execute_with_timeout(run, "https://www.straitstimes.com/business/economy?ref=top-navbar")
+    time.sleep(1)
+    util.execute_with_timeout(run, "https://www.straitstimes.com/business/companies-markets?ref=top-navbar")

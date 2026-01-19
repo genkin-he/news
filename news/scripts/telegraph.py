@@ -109,7 +109,6 @@ def run(url):
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    if util.should_run_by_minute(10):
-        util.execute_with_timeout(run, "https://www.telegraph.co.uk/business/companies/")
+    util.execute_with_timeout(run, "https://www.telegraph.co.uk/business/companies/")
     # description = get_detail("https://www.telegraph.co.uk/business/2025/09/27/jaguar-land-rover-rescued-15bn-loan/")
     # util.info("description: {}".format(description))

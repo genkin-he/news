@@ -94,5 +94,4 @@ def run(url):
 
 link1 = "https://sherwood.news/markets/"
 if __name__ == "__main__":
-    if util.should_run_by_minute(10):
-        util.execute_with_timeout(run, link1)
+    util.execute_with_timeout(run, link1)
