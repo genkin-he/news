@@ -143,5 +143,4 @@ def run():
 
 if __name__ == "__main__":
     util.info("403 Forbidden")
-    # if util.should_run_by_minute(divisor=10):
     #     util.execute_with_timeout(run)

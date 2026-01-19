@@ -124,7 +124,6 @@ def run(url):
 
 
 if __name__ == "__main__":
-    # if util.should_run_by_minute(divisor=10):
-        util.execute_with_timeout(run, "https://www.traderslog.com/feed")
-        time.sleep(1)
-        util.execute_with_timeout(run, "https://www.traderslog.com/category/analysis/feed")
+    util.execute_with_timeout(run, "https://www.traderslog.com/feed")
+    time.sleep(1)
+    util.execute_with_timeout(run, "https://www.traderslog.com/category/analysis/feed")

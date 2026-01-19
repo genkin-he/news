@@ -64,8 +64,6 @@ def get_detail(link):
 
 
 def run():
-    # if not util.should_run_by_minute(divisor=10):
-    #     return
 
     data = util.history_posts(filename)
     articles = data["articles"]

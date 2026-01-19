@@ -164,6 +164,5 @@ def run(url):
         util.log_action_error("request error: {}".format(response))
 
 if __name__ == "__main__":
-    # if util.should_run_by_minute(10):
-        util.execute_with_timeout(run, "https://www.fidelity.com/news/overview")
+    util.execute_with_timeout(run, "https://www.fidelity.com/news/overview")
     # get_detail("https://www.fidelity.com/news/article/international/202510310307RTRSNEWSCOMBINED_L1N3WC079_1")

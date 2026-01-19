@@ -150,5 +150,4 @@ def run(url):
 
 link1 = "https://www.businesswire.com/newsroom?language=en&industry=1000178%7C1778661"
 if __name__ == "__main__":
-    # if util.should_run_by_minute(10):
-        util.execute_with_timeout(run, link1)
+    util.execute_with_timeout(run, link1)

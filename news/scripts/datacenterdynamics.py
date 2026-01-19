@@ -101,7 +101,6 @@ def run():
         util.log_action_error("request exception: {}".format(str(e)))
 
 if __name__ == "__main__":
-    # if util.should_run_by_minute(divisor=10):
     util.info("403 Forbidden")
     # util.execute_with_timeout(run)
 
