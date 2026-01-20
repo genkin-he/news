@@ -20,16 +20,26 @@ def extract_post_id(guid_or_link):
     return None
 
 
+def make_request(url, timeout=15):
+    """Make request with chrome110 impersonation and proxy"""
+    try:
+        return requests.get(
+            url,
+            impersonate="chrome110",
+            timeout=timeout,
+            proxies=util.get_random_proxy(),
+        )
+    except Exception as e:
+        util.error("Request failed: {}".format(str(e)))
+        return None
+
+
 def get_detail(link):
     """Fetch full article content from link"""
     try:
-        response = requests.get(
-            link,
-            impersonate="chrome",
-            timeout=15,
-        )
+        response = make_request(link)
 
-        if response.status_code == 200:
+        if response and response.status_code == 200:
             soup = BeautifulSoup(response.text, "html.parser")
             content_elem = soup.select_one("#entry-content-container, .entry-content")
 
@@ -52,10 +62,8 @@ def get_detail(link):
                 content_html = re.sub(r"^<div[^>]*>", "", content_html)
                 content_html = re.sub(r"</div>$", "", content_html)
                 return content_html.strip()
-            return ""
-        else:
-            util.error("Detail request error: {} for {}".format(response.status_code, link))
-            return ""
+        util.error("Detail request failed for {}".format(link))
+        return ""
     except Exception as e:
         util.error("Error fetching detail: {}".format(str(e)))
         return ""
@@ -101,14 +109,10 @@ def run():
     post_count = 0
 
     try:
-        # Use curl_cffi with Chrome impersonation to bypass Cloudflare
-        response = requests.get(
-            rss_url,
-            impersonate="chrome",
-            timeout=15,
-        )
+        # Use curl_cffi with browser impersonation to bypass Cloudflare
+        response = make_request(rss_url)
 
-        if response.status_code == 200:
+        if response and response.status_code == 200:
             rss_items = parse_rss_xml(response.text)
             util.info("Parsed {} items from RSS feed".format(len(rss_items)))
 
@@ -152,7 +156,8 @@ def run():
                     articles = articles[:10]
                 util.write_json_to_file(articles, filename)
         else:
-            util.log_action_error("RSS request error: {}".format(response.status_code))
+            status = response.status_code if response else "no response"
+            util.log_action_error("RSS request error: {}".format(status))
     except Exception as e:
         util.log_action_error("request error: {}".format(str(e)))
 
