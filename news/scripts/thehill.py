@@ -1,79 +1,130 @@
 # -*- coding: UTF-8 -*-
-import logging
-import traceback
-import requests  # 替换 urllib
-import json
+import xml.etree.ElementTree as ET
 import re
-import time
 from bs4 import BeautifulSoup
 from util.spider_util import SpiderUtil
+import requests
 
 util = SpiderUtil()
 
 headers = {
-    "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    "accept-language": 'zh-CN,zh;q=0.9',
-    "cache-control": 'max-age=0',
-    "priority": 'u=0, i',
-    "sec-ch-ua": '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
-    "sec-ch-ua-mobile": '?0',
-    "sec-ch-ua-platform": '"macOS"',
-    "sec-fetch-dest": 'document',
-    "sec-fetch-mode": 'navigate',
-    "sec-fetch-site": 'none',
-    "sec-fetch-user": '?1',
-    "upgrade-insecure-requests": '1',
-    "user-agent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36',
-    "cookie": '_cb=CGX4qB8To7iBTdSBE; permutive-id=5d9287b7-0952-45f9-ab2b-f281f83c849d; brandcdn_uid=0b73ab24-5924-477c-a061-ac7d4fbb0545; kndctr_19020C7354766EB60A4C98A4_AdobeOrg_identity=CiY4Mjk4NDU0NzMyODk5MzA0NTY4MTIxNzcxMDg3NzE2ODU0NTI4NlITCLj5u%2DimMxABGAEqBEpQTjMwAPABjtazyK4z; sailthru_content=517bd98f83f5f5813508612a14a25d86a96f8a1c6e6bcca46de01b4a663aeaf73bd1cef926ded78f62a5120404a1b0a56c36f3a2ca26b05bc7a81661ac7f9f984d328e5001c111a5cc4572c41db500f22b5f7ff1d9ab1437be598f41ee2273963b0bda2a8f0b4361bc41444b6ecfe129; sailthru_visitor=a051b8fb-ad53-4c6f-91d2-e0aec42ad0f7; __gads=ID=0f587e0f872fe297:T=1762766291:RT=1764904743:S=ALNI_MZxfe_oUh_GgSnztrPvvjQ4fG3viA; __gpi=UID=000011b28a77e093:T=1762766292:RT=1764904743:S=ALNI_Maxg7I-HwfD54qtOfiQb8MTyNjVug; __eoi=ID=0ffbc1d1d8bb8f2c:T=1762766292:RT=1764904743:S=AA-AfjbAAz2CjcTFTiwE4Pvt19rJ; last_visit_bc=1764917467239; _chartbeat2=.1762766287118.1764917468852.0000000000010011.Dc4mb-is-bgD0M0BgBAsWjJBJC4PB.1',
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.9",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
 }
 
-base_url = "https://thehill.com"
-api_url = "https://thehill.com/wp-json/lakana/v1/template-variables/"
+rss_url = "https://thehill.com/feed/"
+api_base = "https://thehill.com/wp-json/wp/v2/posts/"
 filename = "./news/data/thehill/list.json"
 
-# Create a session to maintain cookie state
 session = requests.Session()
 session.headers.update(headers)
 
 
-def get_detail(link):
-    util.info("link: {}".format(link))
+def extract_post_id(link):
+    """Extract WordPress post ID from URL like /5696134-trump-greenland/"""
+    match = re.search(r"/(\d+)-[^/]+/?$", link)
+    if match:
+        return match.group(1)
+    return None
+
+
+def get_detail_via_api(link):
+    """Fetch article content via WordPress REST API, returns (post_id, content)"""
+    post_id = extract_post_id(link)
+    if not post_id:
+        util.error("Cannot extract post ID from: {}".format(link))
+        return None, ""
+
+    util.info("Fetching post ID: {} from API".format(post_id))
     try:
-        detail_headers = headers.copy()
-        detail_headers["sec-fetch-site"] = "same-origin"
-        detail_headers["sec-fetch-dest"] = "document"
-        detail_headers["sec-fetch-mode"] = "navigate"
-        detail_headers["referer"] = base_url
-        
+        api_url = api_base + post_id
         response = session.get(
-            link, 
-            headers=detail_headers, 
+            api_url,
+            headers=headers,
             proxies=util.get_random_proxy(),
             timeout=10,
-            allow_redirects=True
         )
+
         if response.status_code == 200:
-            body = BeautifulSoup(response.text, "lxml")
-            article_text = body.select(".article__text")
-            if not article_text:
-                util.error("Article text not found for: {}".format(link))
-                return ""
-            
-            soup = article_text[0]
-            ad_elements = soup.select(".ad-unit,.hardwall, style, script, div, aside ")
-            # 移除这些元素
-            for element in ad_elements:
-                element.decompose()
-            return str(soup).strip()
-        elif response.status_code == 403:
-            util.error("403 Forbidden for: {}. Session may have expired.".format(link))
-            return ""
+            data = response.json()
+            content = data.get("content", {}).get("rendered", "")
+            if content:
+                soup = BeautifulSoup(content, "html.parser")
+                ad_elements = soup.select(".ad-unit, .hardwall, style, script, aside, .wp-block-embed")
+                for element in ad_elements:
+                    element.decompose()
+                return int(post_id), str(soup).strip()
+            return int(post_id), ""
         else:
-            util.error("request: {} error: {}".format(link, response.status_code))
-            return ""
+            util.error("API request error: {} for post {}".format(response.status_code, post_id))
+            return None, ""
     except Exception as e:
-        util.error(f"Error fetching detail for {link}: {str(e)}")
+        util.error("Error fetching from API: {}".format(str(e)))
+        return None, ""
+
+
+def clean_html_content(html_content):
+    """Clean HTML content from description"""
+    if not html_content:
         return ""
+    soup = BeautifulSoup(html_content, "lxml")
+    text = soup.get_text(separator=" ", strip=True)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def parse_rss_xml(xml_content):
+    """Parse RSS XML feed and extract items"""
+    try:
+        root = ET.fromstring(xml_content)
+        namespaces = {
+            "content": "http://purl.org/rss/1.0/modules/content/",
+            "dc": "http://purl.org/dc/elements/1.1/",
+        }
+        items = []
+        for item in root.findall(".//item"):
+            title_elem = item.find("title")
+            link_elem = item.find("link")
+            description_elem = item.find("description")
+            pub_date_elem = item.find("pubDate")
+            creator_elem = item.find("dc:creator", namespaces)
+
+            if title_elem is not None and link_elem is not None:
+                title = title_elem.text.strip() if title_elem.text else ""
+                link = link_elem.text.strip() if link_elem.text else ""
+                description = ""
+                if description_elem is not None and description_elem.text:
+                    description = clean_html_content(description_elem.text)
+                pub_date = (
+                    pub_date_elem.text.strip()
+                    if pub_date_elem is not None and pub_date_elem.text
+                    else ""
+                )
+                creator = (
+                    creator_elem.text.strip()
+                    if creator_elem is not None and creator_elem.text
+                    else ""
+                )
+
+                if title and link:
+                    items.append(
+                        {
+                            "title": title,
+                            "link": link,
+                            "description": description,
+                            "pub_date": pub_date,
+                            "creator": creator,
+                        }
+                    )
+        return items
+    except ET.ParseError as e:
+        util.error("XML parse error: {}".format(str(e)))
+        return []
+    except Exception as e:
+        util.error("RSS parse error: {}".format(str(e)))
+        return []
+
 
 def run():
     data = util.history_posts(filename)
@@ -82,96 +133,71 @@ def run():
     insert = False
 
     try:
-        # First visit homepage to establish session and get cookies
-        homepage_headers = headers.copy()
-        homepage_headers["sec-fetch-site"] = "none"
-        homepage_headers["referer"] = ""
-        
-        try:
-            homepage_response = session.get(
-                base_url, 
-                headers=homepage_headers, 
-                timeout=10,
-                proxies=util.get_random_proxy(), 
-                allow_redirects=True
-            )
-            if homepage_response.status_code in [200, 304]:
-                util.info("Homepage visited successfully, session established")
-                # Small delay to ensure cookies are set
-                time.sleep(0.5)
-            else:
-                util.error("Homepage visit failed with status: {}".format(homepage_response.status_code))
-        except Exception as e:
-            util.error("Failed to visit homepage: {}".format(str(e)))
-
-        # Now visit the API endpoint
-        api_headers = headers.copy()
-        api_headers["accept"] = "application/json, */*;q=0.1"
-        api_headers["sec-fetch-dest"] = "empty"
-        api_headers["sec-fetch-mode"] = "cors"
-        api_headers["sec-fetch-site"] = "same-origin"
-        api_headers["referer"] = base_url
-        
         response = session.get(
-            api_url,
-            headers=api_headers,
+            rss_url,
+            headers={**headers, "accept": "application/xml"},
             proxies=util.get_random_proxy(),
-            timeout=10,
-            allow_redirects=True
+            timeout=15,
+            allow_redirects=True,
         )
-        
-        if response.status_code == 200:
-            try:
-                data_json = response.json()
-                if "sidebar" not in data_json or "just_in" not in data_json["sidebar"]:
-                    util.error("Invalid API response structure")
-                    return
-                
-                posts = data_json["sidebar"]["just_in"]
-                for index in range(len(posts)):
-                    if index < 2:
-                        post = posts[index]
-                        kind = post["post_type"]
-                        id = post["id"]
-                        title = post["title"]
-                        link = post["link"]
-                        if link in ",".join(links):
-                            util.info("exists link: {}".format(link))
-                            break
 
-                        description = get_detail(link)
-                        if description != "":
-                            insert = True
-                            articles.insert(
-                                0,
-                                {
-                                    "id": id,
-                                    "title": title,
-                                    "description": description,
-                                    "kind": kind,
-                                    "link": link,
-                                    "pub_date": util.current_time_string(),
-                                    "source": "thehill",
-                                    "language": "en",
-                                },
-                            )
-                            # Small delay between article fetches
-                            time.sleep(0.3)
-                
-                if len(articles) > 0 and insert:
-                    if len(articles) > 10:
-                        articles = articles[:10]
-                    util.write_json_to_file(articles, filename)
-            except json.JSONDecodeError as e:
-                util.log_action_error(f"JSON decode error: {str(e)}")
-            except KeyError as e:
-                util.log_action_error(f"Missing key in API response: {str(e)}")
-        elif response.status_code == 403:
-            util.log_action_error(f"403 Forbidden: Session expired or blocked. Cookies may need refresh.")
+        if response.status_code == 200:
+            rss_items = parse_rss_xml(response.text)
+            util.info("Parsed {} items from RSS feed".format(len(rss_items)))
+
+            for index, item in enumerate(rss_items):
+                if index >= 3:
+                    break
+
+                link = item["link"]
+                if link in ",".join(links):
+                    util.info("exists link: {}".format(link))
+                    continue
+
+                title = item["title"]
+                rss_description = item["description"]
+
+                post_id, description = get_detail_via_api(link)
+                if not description:
+                    if rss_description:
+                        description = f"<p>{util.fix_text(rss_description)}</p>"
+                        util.info("fallback to RSS description")
+                    else:
+                        util.info("skipping item with empty description: {}".format(link))
+                        continue
+
+                if not post_id:
+                    post_id = extract_post_id(link)
+                    if post_id:
+                        post_id = int(post_id)
+
+                insert = True
+                articles.insert(
+                    0,
+                    {
+                        "id": post_id,
+                        "title": util.fix_text(title),
+                        "description": description,
+                        "kind": 1,
+                        "link": link,
+                        "pub_date": util.current_time_string(),
+                        "source": "thehill",
+                        "language": "en",
+                    },
+                )
+                util.info("added: {}".format(title[:50]))
+
+            if len(articles) > 0 and insert:
+                if len(articles) > 10:
+                    articles = articles[:10]
+                util.write_json_to_file(articles, filename)
         else:
-            util.log_action_error(f"request error: {response.status_code}")
+            util.log_action_error(
+                "RSS feed request error: {}".format(response.status_code)
+            )
     except Exception as e:
-        util.log_action_error(f"request error: {str(e)}")
+        util.log_action_error("request error: {}".format(str(e)))
+
 
 if __name__ == "__main__":
     util.execute_with_timeout(run)
