@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 1003455,
+            "title": "CertiK Alert: Suspicious transactions found in SynapLogicon contracts; attackers allegedly used flash loans to mint 16,000 SYP tokens.",
+            "description": "According to CertiK Alert, an unverified contract associated with SynapLogicon (@SynapLogicon) showed 193 suspicious transactions. An attacker repeatedly called the function 0x670a3267() through a new address, using 1 ETH borrowed via a flash loan to mint 16,000 SYP, and then reclaimed the ETH.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003455&language=en-US",
+            "pub_date": "2026-01-20 10:45:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1003460,
+            "title": "[ContractVulnerability] SynapLogic Contract Exploit Leads to Significant Losses",
+            "description": "A vulnerability in the SynapLogic contract has resulted in substantial financial losses. According to PANews, BlockSec Alert reported that the contract's swapExactTokensForETHSupportingFeeOnTransferTokens function lacked essential parameter verification. This oversight allowed attackers to manipulate the 'whitelist' logic and designate any address for profit. Additionally, the contract failed to verify whether the total distribution of native tokens exceeded the actual payment, enabling attackers to withdraw excess native tokens and simultaneously receive newly minted SYP tokens. This exploit has led to an estimated loss of approximately $186,000.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003460&language=en-US",
+            "pub_date": "2026-01-20 10:53:43",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1003459,
+            "title": "[ContractVulnerability] Shift in DeFi Security Approach Advocated by a16z Researcher",
+            "description": "A senior security researcher at a16z Crypto, Daejun Park, has called for a shift in DeFi protocols from 'code as law' to 'specification as law,' advocating for a more principled security approach. According to ChainCatcher, Park suggests implementing standardized specifications and invariant checks to hard-code security measures, automatically reversing transactions that violate predefined rules. He notes that nearly all known vulnerabilities would trigger these checks, potentially preventing hacker attacks during execution.\n\nA report from Slowmist highlights that hackers stole over $649 million last year through code vulnerabilities. Even established protocols like Balancer, which has been operational since 2021, suffered a $128 million loss due to code vulnerabilities in November last year. Developers are increasingly concerned about hackers using AI to find vulnerabilities.\n\nThe head of security at Immunefi points out that invariant checks could increase gas costs, potentially driving away users, and are not a cure-all solution. The co-founder of Asymmetric Research mentions that many vulnerabilities are challenging to write invariant rules for that can detect attacks without false positives.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003459&language=en-US",
+            "pub_date": "2026-01-20 10:53:54",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1003454,
             "title": "[RegulatoryUpdate] Hong Kong to Announce 2026/2027 Budget with Focus on Virtual Assets",
             "description": "The Hong Kong government is set to announce the 2026/2027 fiscal budget on February 25, with a focus on virtual assets and investor protection. According to ChainCatcher, the Hong Kong Securities and Futures Professionals Association stated that the city has completed the initial regulatory infrastructure for virtual assets. The next step should be to focus on the commercialization and practical application of these assets.\n\nEfforts to enhance Hong Kong's position as a global virtual asset hub include improving secondary market liquidity for real-world assets, expediting product approvals, introducing international liquidity, and strengthening professional training. These initiatives aim to transform Hong Kong from a market with clear regulations into one with abundant liquidity and widespread application, aligning with the national \"15th Five-Year Plan\" for financial openness and digital economy strategy.",
@@ -166,36 +196,6 @@
             "description": "1. A Bitcoin OG who held the stock for 13 years transferred 909 BTC, resulting in a price increase of approximately 13,900 times; 2. Pump.fun: Established Pump Fund and launched the BiP hackathon, which will fund 12 projects; 3. FG Nexus, a treasury company holding $120 million in ETH, sold 2,500 ETH; 4. Product Manager X: The X platform has focused on optimizing user interest discovery features over the past 6 months; 5. The yield on 40-year Japanese government bonds broke 4% for the first time since its introduction in 2007; 6. A whale's profits shrank by over $23.12 million in 5 days, and it has closed out its long positions in BTC, ETH, and other assets; 7. BitMine pledged another 86,848 ETH, worth $279.4 million; 8. The independence of the Federal Reserve is facing challenges, and Powell is reportedly going to court to support Cook; 9. The probability of the Federal Reserve keeping interest rates unchanged in January is [missing information]. 95%; 10. A whale transferred 13,000 ETH, worth $41.75 million, through the Galaxy Digital OTC wallet; 11. A suspected internal address spent only $285 to buy 66.3 million ZReaL, with a return of up to 2200 times.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003419&language=en-US",
             "pub_date": "2026-01-20 09:30:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1003414,
-            "title": "Bermuda Launches World's First On-Chain National Economy",
-            "description": "Bermuda partners with Circle and Coinbase to build the first fully on-chain national economy at World Economic Forum.\nsource: https://coincu.com/news/bermuda-launches-onchain-economy/",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003414&language=en-US",
-            "pub_date": "2026-01-20 09:13:07",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1003418,
-            "title": "[TokenTransfer] FG Nexus Sells 2,500 ETH",
-            "description": "FG Nexus, an Ethereum treasury company, has sold 2,500 ETH. According to Foresight News, this transaction occurred four hours ago. FG Nexus had previously accumulated 50,770 ETH at an average price of $3,944 between August and September last year. The company still holds 37,594 ETH.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003418&language=en-US",
-            "pub_date": "2026-01-20 09:23:34",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1003413,
-            "title": "[OnChainMovement] Dormant Bitcoin Address Awakens After 13 Years",
-            "description": "A Bitcoin address inactive for 13 years has recently transferred its entire holdings to a new wallet. According to ChainCatcher, the address, known as a Bitcoin OG, moved 909.38 BTC, valued at $84.62 million, after years of dormancy.\n\nWhen the address first received Bitcoin 13 years ago, the price per BTC was under $7, marking an approximate 13,900-fold increase in value since then.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1003413&language=en-US",
-            "pub_date": "2026-01-20 09:13:54",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
