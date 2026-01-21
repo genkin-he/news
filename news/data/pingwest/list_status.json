@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "软银发布AI数据中心操作系统，统一自动化管理GPU算力堆栈",
+            "description": "<article class=\"wire-content article-style\"><p>品玩1月21日讯，据 Yahoo Finance 报道，<span>软银公司旗下Infrinia团队已开发完成面向未来AI数据中心的软件平台“Infrinia AI Cloud OS”。该平台通过自动化手段，统一管理从硬件到应用层的整个GPU算力技术栈，以应对生成式AI、自动化机器人等领域对GPU算力快速增长且日趋复杂的多样化需求。</span></p><p><span>Infrinia AI Cloud OS提供了完整的Kubernetes即服务能力，能在包括英伟达GB200 NVL72在内的各类GPU平台上，实现对从BIOS、操作系统、驱动、网络到Kubernetes控制器与存储的整个技术栈进行自动化管理。</span></p><p><span>此外，该平台支持基于软件定义的动态物理互联与内存重构能力，可以根据用户创建或删除集群的需求，实时调整GPU节点间的连接方式与跨节点内存配置，并依据GPU拓扑自动分配节点，以优化延迟并最大化带宽，适用于大规模分布式AI训练任务。</span></p><p><span>平台还针对多租户场景设计了高安全性与高可运维性，通过加密通信与隔离机制保障租户安全，并自动化系统监控与故障切换等运维工作。该软件将率先部署在软银自有的GPU云服务中，未来计划推广至海外数据中心与云环境。</span></p><figure class=\"image\"><img alt=\"\" height=\"448\" src=\"https://cdn.pingwest.com/portal/2026/01/21/Z3JZx3XFQjZBHYW9SNb6yedyww3Xxbca.png?x-oss-process=style/article-body\" title=\"\" width=\"750\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/310901",
+            "pub_date": "2026-01-21 15:15:38",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "OpenAI内测ChatGPT Atlas浏览器，AI原生能力重塑网页浏览体验",
             "description": "<article class=\"wire-content article-style\"><p>品玩1月21日讯，<span>据 </span>BleepingComputer <span>报道，OpenAI旗下的ChatGPT Atlas浏览器近期迎来重大内测更新，其AI能力深度融入浏览器底层，旨在重新定义用户的日常浏览方式，步入主动交互时代。</span></p><p><span>Atlas具备实时上下文理解能力，可直接感知用户当前浏览的网页内容并提供即时研究辅助。其新增的代理模式允许AI自动执行打开标签页、点击按钮等系列操作，并设有严格的安全机制。同时，浏览器记忆功能可跨站点记录信息，例如在多个招聘网站间自动对比职位详情。</span></p><p><span>另一项突破性功能是针对YouTube视频的智能解析。用户浏览视频时，侧边栏会出现时间戳按钮，点击后AI可自动分析视频内容，提取关键节点并生成带描述的时间轴索引。</span></p><p><span>在性能方面，新版本重点修复了内存过度占用的问题，提升了运行稳定性。用户界面交互也得到优化，支持通过快捷键快速搜索标签页。此外，OpenAI已明确计划将这一AI原生浏览体验从macOS扩展至Windows 11等更广泛的平台。</span></p><figure class=\"image\"><img alt=\"\" height=\"599\" src=\"https://cdn.pingwest.com/portal/2026/01/21/e2RW4bZFmfmCzdmA4r1NX1420eJP2syi.png?x-oss-process=style/article-body\" title=\"\" width=\"880\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310900",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩1月21日讯，华为云近日正式推出CodeArts Doer代码智能体（个人版）。该产品深度融合AI原生能力，集成AI IDE、Code Agent与Codebase代码仓深度理解三大核心特性，旨在为开发者提供智能编码新体验。</span></p><p><span>产品具备“实干、睿智、高效、善器”特点，支持自然语言需求描述到代码落地的闭环开发流程。其独创的“探索模式”与“规范模式”，分别满足创新协作与代码质量管控场景，助力研发从“人力主导”迈向“人机共创”。</span></p><p><span>目前CodeArts Doer个人版已开放免费体验，支持项目级代码生成、知识问答等功能，致力于提升开发效率，推动AI技术真正融入工程交付全流程。</span></p></article>",
             "link": "https://www.pingwest.com/w/310887",
             "pub_date": "2026-01-21 10:44:17",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "阶跃星辰发布10B参数视觉语言模型，性能超越千亿级模型",
-            "description": "<article class=\"wire-content article-style\"><p>品玩1月21日讯，阶跃星辰（StepFun）官方正式开源其多模态大模型Step3-VL-10B。该模型仅以100亿参数规模，在多项核心评测中展现出媲美甚至超越参数量达10-20倍的开源及闭源顶级模型的性能，突破了参数规模与智能水平难以兼优的行业瓶颈。</p><p>模型具备三大技术亮点：通过全参数端到端多模态联合预训练实现视觉与语言深度对齐；依托大规模强化学习迭代提升推理能力；创新引入并行协调推理机制（PaCoRe），显著优化复杂计数、高精度OCR及数学竞赛等任务表现。评测数据显示，其在STEM推理、竞赛数学、空间理解及代码生成等维度均达到业界领先水平。</p><p>此次突破表明，顶尖多模态能力可借助算法创新与高质量训练数据，以更低成本与算力实现，并有望广泛应用于终端设备，推动端侧智能交互体验升级。Step3-VL-10B的Base与Thinking模型已面向开源社区开放。</p><figure class=\"image\"><img alt=\"\" height=\"608\" src=\"https://cdn.pingwest.com/portal/2026/01/21/SFGASyEHfZ8552N3_F7h81SG29jKWCif.png?x-oss-process=style/article-body\" title=\"\" width=\"1080\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/310886",
-            "pub_date": "2026-01-21 10:35:37",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
