@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "DksL1xE1iKPIIzqOorEw",
+            "title": "Pinterest的Moka：Kubernetes如何重写大数据处理规则",
+            "image": "https://static001.infoq.cn/resource/image/8c/e8/8c57f4df943d48c78350c900d45396e8.jpg",
+            "description": "<div><p><color>数字公告板提供商Pinterest发布了一篇文章，</color><color>。该公司正在将核心工作负载从老化的Hadoop基础设施迁移到基于Kubernetes的系统上，该系统运行在亚马逊EKS上，以Apache Spark作为主要引擎，并即将支持其他框架。</color></p><p><color> </color></p><p><color>在一个包含两篇文章的博客系列中，Soam Acharya、Rainie Li、William Tom和Ang Zhang描述了Pinterest大数据平台团队如何考虑下一代大规模数据处理平台的替代方案，因为现有的基于Hadoop的系统（内部称为Monarch）的局限性变得越来越明显。他们将Moka作为搜索的结果，以及基于EKS的云原生数据处理平台，该平台现在运行的生产负载达到了Pinterest的规模。</color><color>。相比之下，第二部分转向作者所说的“Moka的基础设施重点方面，包括经验和未来方向”。</color></p><p><color> </color></p><p><img>https://static001.geekbang.org/infoq/0a/0adbf9dae170c8d0b8fd96d9f0c2d79f.png<img></p><p></p><p><color>文章从实际角度描述了向Kubernetes的转变。它展示了一个全行业的转变，即大型技术公司现在将Kubernetes视为数据的控制平面，而不仅仅是无状态的服务平台。在大数据社区日益增长的受欢迎程度和越来越多的采用的鼓励下，团队探索了基于Kubernetes的系统，作为Hadoop 2.x最有可能的替代品。任何候选平台都必须满足可扩展性、安全性、成本以及托管多个处理引擎的精确标准。Moka是如何在不放弃现有Spark投资的情况下现代化Hadoop时代的数据平台的一个例子。</color></p><p><color> </color></p><p><color>第二篇文章的核心主题是如何在Kubernetes上以非常大的规模运行Spark。作者解释了他们如何围绕Moka添加日志、指标和作业历史服务，以便工程师可以在不了解底层集群拓扑的情况下调试和调整作业。他们使用Fluent Bit对日志集合进行标准化，并使用OpenTelemetry和Prometheus兼容的端点发布统一指标。这为基础设施和应用程序团队提供了系统健康的一致视图。</color></p><p><color> </color></p><p><color>Pinterest还投资于通过基础设施即代码的方式使平台可重复使用。在文章中，团队概述了他们如何使用Terraform和Helm创建EKS集群、配置网络和安全以及部署支持组件，如Spark历史服务器。</color></p><p><color> </color></p><p><color>Pinterest的工程师还讨论了处理不同的硬件架构。他们描述了他们如何构建多架构镜像，以便他们的数据工作负载在Intel和基于ARM的实例上运行良好，包括AWS Graviton，并将此与集群规模的成本和效率目标联系起来。InfoQ编辑Eran Stiller在LinkedIn</color><color>，Moka“提供了容器级别的隔离、ARM支持、YuniKorn调度，并通过整合工作负载和跨实例类型的自动扩展实现了显著的成本节省”。这些细节将工作置于云用户寻求在不牺牲性能的情况下削减基础设施成本的更大趋势之中。</color></p><p><color> </color></p><p><color>关于处理引擎的更广泛的行业对话为Pinterest的故事增添了细微差别。在另一篇</color><color>帖子中，Acharya写道：“虽然Spark是我们的主要主力，但Moka的成功意味着Pinterest的其他用例也在效仿：Flink Batch已经投入生产，Apache Ray紧随其后，Flink Streaming也将在今年晚些时候推出”。通过对Spark和Flink技术的深入探讨，我们可以了解到这一点的重要性。强调Spark仍然非常适合大型批处理和交互式分析工作负载，而Flink是“为实时、有状态的流处理而构建的”，具有严格的逐事件处理。团队将Moka呈现为一个灵活的基础，可以根据特定工作负载的需求添加不同的引擎，而不是一个只支持spark的平台。</color></p><p><color> </color></p><p><color>外部观察者从Pinterest案例中吸取了教训。</color><color>通讯将Moka文章描述为“在Kubernetes上部署EKS集群、Fluent Bit日志、OTEL指标管道、镜像管理和Spark的自定义Moka UI”的例子，将其与其他现代数据基础设施案例研究并列。这些反应表明，Moka被视为一类云原生数据系统的参考架构。</color></p><p><color> </color></p><p><color>然而，团队确实将他们的迁移工作呈现为一个正在进行的旅程，而不是一个已经完成的项目。在博客和进一步的</color><color>帖子中，Pinterest作者讨论了“经验和未来的方向”，并描述了早期概念验证如何导致随着对新堆栈的信心增长而逐步远离Hadoop的迁移。Acharya指出，“最好的问题出现在规模上”，构建平台涉及“解决难题”，因为团队转移了实际工作负载。对于其他组织来说，这种经验可能是最重要的教训。复制围绕Kubernetes、EKS和Spark的技术选择相对简单，但从遗留系统中解耦并投资于可观测性、自动化和多引擎支持的过程可能是未来真正的工作。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/DksL1xE1iKPIIzqOorEw",
+            "pub_date": "2026-01-21 01:44:32",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "BKMR19Rj75XwLR1ysM4B",
             "title": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
             "image": "https://static001.infoq.cn/resource/image/84/f0/847446dd7c3c9534e9ceebf77d62c0f0.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>云原生计算基金会（CNCF）发布了Kubernetes 1.35，代号为“Timbernetes”，重点强调其对可变性（mutability）的支持以及对高性能AI/ML工作负载的优化。</color></p><p><color> </color></p><p><color>1.35版本的一项关键特性是</color><color>正式进入通用可用（GA）阶段。该功能允许集群运维人员在不触发容器重启的情况下，动态调整运行中Pod的CPU和内存资源。</color></p><p><color> </color></p><p><color>Red Hat解决方案架构师</color><color>近日在X.com上</color><color>指出，这一特性对Java开发者尤为重要：</color></p><p><color> </color></p><p><color>本次发布的Alpha特性包括调度器内建的</color><color>原生支持。Gang调度确保一组相互关联的Pod（例如AI/ML训练任务）要么全部同时被调度，要么一个都不调度。</color></p><p><color> </color></p><p><color>Kubernetes 1.35引入了新的</color><color> API资源，允许用户直接在核心API中定义调度需求。在Kubernetes的早期版本中，类似需求通常依赖</color><color>或</color><color>等外部项目来实现。</color></p><p><color> </color></p><p><color>另一个进入Alpha阶段的特性是对Kubernetes组件的</color><color>和</color><color>等</color><color>的增强。这些改进为授权用户提供机器可解析的输出格式，使自动化排障和可观测性工具能够通过HTTP协议轻松监控所有核心组件，而无需复杂的文本解析。</color></p><p><color> </color></p><p><color>在Kubernetes 1.35中，</color><color>的可配置容差（tolerance）功能已升级至Beta阶段并成为默认启用的特性。在此前的版本中，HPA使用固定的10%容差进行扩缩容决策，难以满足某些需要不同阈值的工作负载。现在，用户可为每种资源单独定义</color><color>窗口，而无需修改集群的全局配置。</color></p><p><color> </color></p><p><color>此外，用于简化和自动化Pod证书获取流程的</color><color> API对象集合也在本次发布中晋升为Beta。PodCertificateRequest的目标是在Pod级别管理证书生成，并将证书直接写入Pod的文件系统中，从而简化mTLS流程，无需使用Bearer Token或人工干预。</color></p><p><color> </color></p><p><color>尽管不属于1.35版本的内容，但是社区决定逐步淘汰</color><color> NGINX控制器，反映了向更加集成化解决方案演进的趋势，鼓励用户考虑现代化的替代方案，如Gateway API。</color></p><p><color> </color></p><p><color>在2026年3月前，Ingress NGINX仅接受尽力维护（best-effort maintenance）。官方推荐迁移至</color><color>，这是一个专注于L4/L7路由的官方Kubernetes项目，或采用其他</color><color>Ingress控制器。</color></p><p><color> </color></p><p><color>Kubernetes 1.35共包含60项增强功能，其中22项为Alpha特性，19项晋升为Beta，17项达到通用可用或稳定状态，同时还包含若干</color><color>内容。</color></p><p><color> </color></p><p><color>用户可查阅官方的</color><color>和</color><color>，全面了解Kubernetes 1.35的各项增强、弃用及移除的内容。</color></p><p><color> </color></p><p><color>此外，用户还可于2026年1月14日（星期三）参加发布团队举办的</color><color>。</color></p><p><color> </color></p><p><color>下一个版本Kubernetes 1.36预计将于2026年4月发布。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/dqIF73wTjQsXAPgpN8Yc",
             "pub_date": "2026-01-05 06:39:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "xb5VDXD96B8sdi8dcqp0",
-            "title": "成本暴降 90%！亚马逊云科技正式发布 S3 Vectors：20 亿规模、百毫秒响应，向量数据库彻底进入“存储优先”时代",
-            "image": "https://static001.infoq.cn/resource/image/b6/db/b6d62829451c4609dc792c3de1bff1db.jpg",
-            "description": "<div><p>亚马逊云科技近日宣布，原生支持向量数据存储与查询的云对象存储服务  已正式商用。随着 GA 版本的发布，亚马逊云科技 将单索引容量提升了 40 倍，最高可支持 20 亿个向量，并将查询延迟缩短至 100 毫秒以内。</p><p></p><p>今年 7 月，该服务曾推出。据亚马逊云科技报告，预览期间用户已创建超过 25 万个向量索引，摄入向量总数突破 400 亿个。预览版曾将索引上限限制在 5000 万个向量，而 亚马逊云科技首席开发者 Sebastian Stromacq 对此写道：</p><p></p><p>此外，亚马逊云科技还大幅优化了查询性能：低频查询可在 1 秒内返回结果，而高频查询的延迟可低至 100 毫秒甚至更短，这对于对话式 AI 等交互式应用至关重要。据官方介绍，单次查询现在可检索多达 100 条结果，显著增强了（RAG）应用的上下文丰富度。在写入性能方面，针对单向量更新的 PUT 事务处理能力提升至每秒 1,000 次，支持在小批量作业下实现更高吞吐量，并能即时搜索来自多个并发源的新数据。</p><p></p><p>亚马逊云科技同时确认，预览期间推出的两项关键集成功能现已正式商用。用户可以将 的向量存储引擎；同时，S3 Vectors 与 A 的集成也已就绪，允许用户在利用 S3 Vectors 开展底层向量存储的同时，通过 OpenSearch 进行高级搜索与分析。</p><p></p><p>开发者 Jalaj Nautiyal 在 LinkedIn 的中评价道：</p><p></p><p>他补充道：</p><p></p><p>目前，S3 Vectors 已在 14 个亚马逊云科技区域可用，较预览版的 5 个区域显著扩大。该服务的计费主要基于下述三个维度。</p><ul><li><p>PUT 费用：根据用户上传向量的逻辑 GB 计算，每个向量包含其逻辑数据、元数据和键值。</p></li></ul><ul><li><p>存储费用：由跨索引的总逻辑存储量决定。</p></li></ul><ul><li><p>查询费用：包含单次 API 调用费以及基于索引大小（不含不可过滤元数据）的流量费。</p></li></ul><p></p><p>关于费用的更多细节，请参阅。</p><p></p><p><strong>原文链接：</strong></p></div>",
-            "link": "https://www.infoq.cn/article/xb5VDXD96B8sdi8dcqp0",
-            "pub_date": "2026-01-05 02:34:08",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
