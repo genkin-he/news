@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 1004846,
+            "title": "Opinion: The World Liberty Fi team manipulated governance voting to sacrifice holders' interests and cash out.",
+            "description": "DeFi^2 published an article on the X platform stating that the governance vote of World Liberty Fi (WLFI) this month was manipulated. Bubble Maps shows that most of the major voters were team or strategic partner wallets. The vote forcibly passed a $1 growth plan to sell WLFI tokens, while tokens held by genuine investors have remained locked since TGE and cannot participate in the unlocking vote. According to the project's official documentation, 75% of the protocol revenue went to the Trump family and 25% to the Witkoff family, with WLFI holders having no right to any protocol revenue. The team has already transferred 500 million WLFI tokens to Jump Trading. DeFi^2 believes that due to WLFI's lack of governance rights and revenue sharing, and the pressure from the foundation to sell off its holdings, its $17 billion valuation lacks intrinsic value support. DeFi^2 has been intermittently shorting WLFI since the pre-market price was above $0.34 and expects the token price to continue to fall due to dilution and deliberate cashing out.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1004846&language=en-US",
+            "pub_date": "2026-01-21 10:59:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1004845,
+            "title": "CryptoQuant CEO: Coinbase's privacy-protecting measures \"disrupt\" wallets, raising the bar for on-chain data analytics.",
+            "description": "CryptoQuant CEO Ki Young Ju posted on the X platform, seemingly expressing dissatisfaction with Coinbase's wallet organization model. He stated that Coinbase frequently shuffles wallets in the name of privacy protection. Furthermore, Coinbase's published AOP (Account Balance) mixes exchange and custodian account balances, making it difficult to accurately distinguish between pure exchange reserves and custodian reserves, thus raising the barrier to on-chain data analysis. CryptoQuant reverse-engineered these recent changes and adjusted its custom clustering logic to track and capture most real-time Bitcoin inflows/outflows. Currently, their platform only labels wallets 100% certain to belong to Coinbase (to avoid false positives). Some platforms may display higher reserve figures, but this does not necessarily indicate higher accuracy.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1004845&language=en-US",
+            "pub_date": "2026-01-21 11:00:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1004838,
             "title": "China's Technological Advancements Highlighted in Recent Briefing",
             "description": "A recent press briefing by China's State Council Information Office outlined the country's progress in industrial and information technology development by 2025. According to Foresight News, the briefing highlighted that technologies such as perovskite materials, permanent magnet materials, and power batteries are at an internationally advanced level. Additionally, advancements in new networks, high-speed communication, advanced computing, emerging software, and blockchain technologies are accelerating.\n\nThe development of prototypes based on new quantum technologies, such as atomic clocks and magnetometers, has been successful. Furthermore, superconducting quantum computers and optical quantum computers have achieved quantum superiority, possessing the capability to solve specific problems beyond the reach of classical computers. The application of brain-computer interface technology is expanding rapidly from the medical field to education and industry.",
@@ -176,26 +196,6 @@
             "description": "According to the announcement from Binance, the platform will discontinue its listenKey system as part of ongoing efforts to optimize the Spot API. This change is set to take effect on 2026-02-20 at 07:00 (UTC). As a result, several endpoints will no longer be available to users.\n\nThe affected endpoints include the REST API endpoints POST /api/v3/userDataStream, PUT /api/v3/userDataStream, and DELETE /api/v3/userDataStream. Additionally, the WebSocket API endpoints userDataStream.start, userDataStream.ping, and userDataStream.stop will also be discontinued. Users are advised to consult the Binance API Changelog for further details on these changes.\n\nThis update is part of Binance's broader strategy to enhance the efficiency and functionality of its API services. Users should prepare for these changes and adjust their systems accordingly to ensure a smooth transition. The announcement underscores Binance's commitment to maintaining a robust and efficient trading environment for its users.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1004808&language=en-US",
             "pub_date": "2026-01-21 10:00:25",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1004800,
-            "title": "Analysis: Pendle's new staking mechanism suffers from an incentive imbalance and may be unable to effectively reduce the circulating supply.",
-            "description": "Blockworks researcher Kunal Doshi published an article on X stating that Pendle's new staking mechanism, sPENDLE, may not achieve the \"token stabilization\" (reducing circulating supply) effect many expected. Pendle provides existing vePENDLE stakers with significant multipliers, allowing them to obtain annualized returns far higher than new stakers. Currently, the average lock-up period for vePENDLE is approximately 1.54 years, yielding about a 3.31x return bonus upon conversion to sPENDLE, which gradually diminishes as the unlocking process progresses. This creates a clearly unbalanced incentive structure: new stakers receive only about 5%–7% returns, while vePENDLE stakers enjoying multipliers receive 16%–24%. The low returns for new stakers make it difficult to attract a sufficient volume of new tokens to be staked. If sPENDLE is to truly fulfill its role in reducing supply, it must rapidly amplify protocol revenue through Boros and Pendle V2, thereby increasing overall staking rewards. Otherwise, genuine staking demand may not emerge until later, after the vePENDLE staking multiplier has diminished. Yesterday, Pendle announced the launch of its liquid staking token, sPENDLE, to replace vePENDLE's multi-year lock-up model.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1004800&language=en-US",
-            "pub_date": "2026-01-21 09:58:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1004799,
-            "title": "Critical Security Flaws in Anthropic's MCP-Server-Git Disclosed",
-            "description": "Cyata researchers have disclosed three critical security vulnerabilities in Anthropic's mcp-server-git, according to PANews. These vulnerabilities, identified as CVE-2025-68143/44/45, could be exploited for path traversal and parameter injection, potentially leading to remote code execution. Attackers could weaponize these flaws through prompt injection, requiring only control over the AI assistant to read malicious content to trigger an attack. The vulnerabilities were addressed in the September and December 2025 updates, with the removal of the git_init tool and enhanced path validation. Users are advised to update to the latest version promptly.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1004799&language=en-US",
-            "pub_date": "2026-01-21 09:53:33",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
