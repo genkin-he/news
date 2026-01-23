@@ -1,6 +1,24 @@
 {
     "data": [
         {
+            "title": "百川推出「海纳百川」计划，最低幻觉医疗大模型M3 Plus免费开放",
+            "description": "<article class=\"wire-content article-style\"><h2><br/></h2><figure class=\"image\"><img alt=\"\" height=\"766\" src=\"https://cdn.pingwest.com/portal/2026/01/23/portal/2026/01/23/2pP6Eywb6Rs7kt7TQWfb26AYKWbXNYpm?x-oss-process=style/article-body\" title=\"\" width=\"1800\"/></figure><p>1月22日，百川智能正式发布 Baichuan-M3 Plus，严肃医疗场景下的问答准确性、可靠性，再次刷新了刚刚推出的M3所创下的世界纪录。凭借独创的六源循证技术与M3基座结合，M3 Plus将幻觉率降低至2.6%，低于 Open Evidence，达到全球最低水平；首创“证据锚定”技术，不仅给出引文来源，还能将模型生成的每一句医学结论，精确锚定到原始论文中的对应证据段落，使 AI 的医学判断真正做到可核验、可追责、可教学。</p><p>更具意义的是，百川宣布推出「海纳百川」计划，将全球最低幻觉的循证增强医疗大模型以API形式，免费开放给中国医疗服务机构，共同繁荣国内的AI医疗生态，推动中国AI医疗的变革，让每一位中国医务工作者都能拥有可靠、好用的AI助手。</p><p><a></a><b>低幻觉率再次刷新世界纪录，让AI具备迈向临床的诊疗能力</b></p><p>对于中国的医生而言，拥抱AI的先决条件，是AI真实具备了足够优秀的诊疗能力。当患者频繁使用DeepSeek、豆包等通用大模型的AI产品去寻求诊疗建议，大量的误判、幻觉，不仅让医生不胜其烦，更逐渐演变为一场对中国医疗AI技术的信任危机。</p><p>随着上周百川M3大模型的正式开源，这一局面已被彻底打破。M3不仅在 Healthbench、Healthbench Hard 等多个权威评测中登顶榜首，实现了对 GPT-5.2的全面超越，更在 OpenAI 引以为傲的低幻觉领域完成超越，以3.5%的幻觉率领跑全球。</p><p>作为百川拓展低幻觉技术路线的成功实践，M3首创的 Fact-Aware RL的强化学习范式，使底座模型在无工具的设定下，幻觉也能大幅降低到SOTA水平。在此基础上，M3 Plus 将 M2 Plus 模型已验证有效的六源循证范式，引入模型训练和推理过程，确保模型的每条建议都有专业医学证据支持。最终，M3 Plus的事实性幻觉降低到新的SOTA，仅2.6%，相较GPT-5.2大幅下降超30%。即便与行业标杆 Open Evidence相比，M3 Plus 也完成了超越。</p><figure class=\"image\"><img alt=\"\" height=\"708\" src=\"https://cdn.pingwest.com/portal/2026/01/23/portal/2026/01/23/8jW737aFx40sQsz0E5mh0W9t4C0XE7y3?x-oss-process=style/article-body\" title=\"\" width=\"874\"/></figure><p><a></a><b>首创“证据锚定”技术：让 AI 的每一句医学结论，都能被逐句核验</b></p><p>在循证医学体系中，真正决定医生是否信任一条结论的，从来不是语言是否流畅，而是结论背后的证据是否权威、是否准确、是否可追溯。相比“说得像不像医生”，临床更关心的是：这句话，究竟依据哪篇论文、哪条指南、哪一段原文。</p><p>当前行业中，无论是通用大模型还是医疗模型，大多已支持“文献引用”——在结论后标注论文或指南来源。但在实际使用中，医生往往会发现：点开引文，依然无法判断 AI 的这句结论究竟源自哪一段证据。更常见的问题是两类：一是“张冠李戴”，引用编号存在，但文献内容对不上；二是“内容冲突”，文献本身正确，但被引用的段落与结论并不匹配，甚至存在拼接、误读。</p><p>百川 M3 Plus 首创“证据锚定（Evidence Anchoring）”技术，不是简单标注“引用自哪篇文献”，而是要求模型生成的每一句医学结论，都必须精确对应到原始论文或指南中的具体证据段落。每一句判断，都能被逐字溯源、逐条核验。</p><p>为实现这一目标，百川将“证据锚定”作为独立训练目标，引入 Citation Reward Model，对错误引用进行明确惩罚，让模型只能在“确实有证据支持”的空间中推理与生成。最终，结论与证据段落的匹配准确率超过 95%，真正让 AI 的医学判断做到可核验、可追责、可教学。</p><figure class=\"image\"><img alt=\"\" height=\"2131\" src=\"https://cdn.pingwest.com/portal/2026/01/23/portal/2026/01/23/Ffxz3rJyCxYE4tB99dy8Qt2KAzR6762z?x-oss-process=style/article-body\" title=\"\" width=\"959\"/></figure><p><a></a><b>M3 Plus API 调用价格较上一代模型大幅降低70%</b></p><p>在大模型快速演进的当下，能力越强的模型，调用成本往往越高，许多优秀的应用因此难以规模化落地，更难真正走进临床一线。百川认为，只有持续降低智力成本，AI 才能覆盖临床、教学等真实场景，成为医生和患者“用得起、用得好”的基础能力。</p><p>为此，M3 Plus 在系统层面进行了全面的工程重构，通过 MoE 架构优化、模型量化以及 Gated Eagle-3 投机解码等关键技术，在严格保证模型能力与可靠性的前提下，实现了 API 调用成本较上一代降低 70%，为 AI 在医疗场景的规模化应用扫清了关键障碍。</p><p><b>百川全面开放M3 Plus的技术能力，API限时免费体验15天，所有开发者均可申请使用。</b></p><p><a></a><b>「海纳百川」计划开启，M3 Plus 向行业伙伴免费开放</b></p><p>随着人工智能开始进入门诊、病房和医学教学等真实场景，越来越多医生在工作中接触到 AI：查资料、看指南、对照证据、推敲诊疗方案。但在高强度、强责任的临床环境中，AI 能在多大程度上真正帮到医生，仍需要在真实使用中不断探索。</p><p>医生“用好 AI”的新局面，要靠足够多的行业伙伴在真实场景里一起打磨——怎么嵌入医疗流程、怎么做证据呈现、怎么做风险提示、怎么支持年轻医生成长。</p><p><b>为此，百川发起 「海纳百川」计划：面向所有服务医务工作者的机构，免费提供全球幻觉最低循证增强医疗大模型 M3 Plus 的 API，把服务医生的AI能力直接交到生态伙伴手里。</b></p><p>从核心技术的持续突破，到面向行业生态的免费开放，「海纳百川」不仅是一个名字，更是一份推动中国AI+医疗发展的承诺。百川愿与行业伙伴一道，围绕医生、面向患者，推动医疗 AI 更安全、更可及、更有温度地发展，让技术进步真正转化为人民健康的长期福祉。</p><p><b>「海纳百川」计划｜参与条件：</b></p><p><b>适用对象：</b></p><p>为医务工作者提供服务的机构</p><p>医务工作者包括医生、药剂师、医技师、护士、健管师、医学生等</p><p><b>适用场景仅限于：</b></p><p>临床辅助决策、医学教育</p><p><b>用途限制：</b></p><p>仅用于真实服务场景、不得用于数据生产</p><p><b>使用要求：</b></p><p>产品需明确展示 Powered by 百川、不得对模型输出进行影响准确性的修改</p></article>",
+            "link": "https://www.pingwest.com/w/310948",
+            "pub_date": "2026-01-23 11:25:54",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "title": "秘塔AI推出MetaLaw免费合同审查功能，一键识别风险并生成修订文本",
+            "description": "<article class=\"wire-content article-style\"><p>品玩1月23日讯，据 AI秘塔 官方消息，秘塔AI推出MetaLaw免费合同审查功能。<span>该功能借助基座模型能力的显著提升，允许用户上传合同文件后，通过选择自身审核立场与谈判地位，快速获得自动化的风险分析与修订建议。</span></p><p><span>据悉，针对个人常用的租房等合同，系统能以承租方等特定视角，快速定位实质风险点。对于公司间的商业合同，如《软件开发与技术战略协议》，其审查分析则更为深入专业。为适配律师与法务人员的传统工作流程，该功能支持将AI生成的详细审查意见及修改后的合同文本，一键下载为可自定义批注者名称的Word批注版和修订版。</span></p><p><span>MetaLaw团队表示，此次推出的免费服务，源于当前AI模型在语言理解与推理能力上的进步，使得高质量、可定制化的合同分析产品成为可能。用户现已可直接访问其官方网站 meta.law 使用该功能。</span></p><figure class=\"image\"><img alt=\"\" height=\"602\" src=\"https://cdn.pingwest.com/portal/2026/01/23/XsbkH3Bcme6T2F67BmXH6npjGp5pA21H.png?x-oss-process=style/article-body\" title=\"\" width=\"1011\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/310947",
+            "pub_date": "2026-01-23 11:25:57",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Caviar联手宇树科技，推出黄金定制版人形机器人Aladdin",
             "description": "<article class=\"wire-content article-style\"><p>品玩1月23日讯，据 Android Headline 消息，<span>奢侈定制品牌Caviar发布了一款名为Aladdin的特别版人形机器人。该产品基于宇树科技的G1人形机器人平台打造，融入了大量奢华手工定制元素。</span></p><p><span>Aladdin机器人的设计灵感源自《一千零一夜》。其外观采用了查潘长袍与卡夫坦大衣等元素，通过复杂的曲线与分层图案重现古代贵族礼服的视觉效果。每一台机器人均由工匠手工打造，机身表面装饰有大量黄金细节，并镶嵌了精心挑选的宝石。</span></p><p><span>在核心功能上，Aladdin完整保留了宇树G1平台的全部技术参数。其身高130厘米，整机重约35公斤，拥有23个自由度，能够流畅地执行行走、平衡以及各种灵活的手臂动作。Caviar表示，该项目的核心理念在于个性化与故事重构，在此版本中，传说中的魔法被人工智能所取代，象征着智慧与进步。</span></p><figure class=\"image\"><img alt=\"\" height=\"711\" src=\"https://cdn.pingwest.com/portal/2026/01/23/eJBPztWFtHRD6zZN1t8d8JMtRMB7Ppp8.png?x-oss-process=style/article-body\" title=\"\" width=\"1202\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310945",
@@ -68,24 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩1月22日讯，据 The Robot Report 报道，<span>微软研究院发布了一款机器人领域的新型AI模型Rho-alpha，</span>并表示将首先通过研究型早期访问计划向外部开放。</p><p><span>Rho-alpha模型可以</span>突破机器人在高度可控环境中运行的局限，且<span>能够将人类的自然语言指令直接转化为机器人的控制信号，指挥机器人完成复杂的双手协同操作，无需依赖固定的预设脚本。</span></p><p><span>此外，该模型具备显著的适应性，可在运行中动态调整行为，并允许人类操作者通过直观工具进行干预纠正，系统会将此反馈纳入学习过程。为解决机器人训练数据稀缺的问题，Rho-alpha采用了真实演示、仿真任务与大规模视觉问答数据相结合的混合训练方式，大量合成数据通过Azure云上的仿真流水线生成。</span></p><p>目前该模型正在双臂机器人和类人机器人平台上进行测试评估。它不仅结合了视觉与语言理解，还引入了触觉感知能力，使机器人能根据触觉反馈实时调整动作，未来版本还将融入力感知等更多传感模态。</p><figure class=\"image\"><img alt=\"\" height=\"921\" src=\"https://cdn.pingwest.com/portal/2026/01/22/_wWJ8F83A_98pGhQc6C6W6BDhC2mDhyj.png?x-oss-process=style/article-body\" title=\"\" width=\"1430\"/></figure></article>",
             "link": "https://www.pingwest.com/w/310929",
             "pub_date": "2026-01-22 15:24:26",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "苹果被曝正研发AI智能胸针，尺寸与AirTag相仿",
-            "description": "<article class=\"wire-content article-style\"><p>品玩1月22日讯，据 The Information 报道，<span>苹果公司正在秘密研发一款全新的人工智能可穿戴设备，其形态被描述为“AI胸针”。</span></p><p><span>从曝光的设计细节来看，这款设备主打轻薄小巧，体积与苹果AirTag物品追踪器非常接近，外观呈现扁平圆润的极简风格。机身预计将采用铝合金与玻璃相结合的工艺，在确保质感的同时融入时尚元素。</span></p><p><span>在功能定位上，它并非智能手机的附属配件，而是一个独立的随身智能助理。设备内置了高精度摄像头和麦克风，核心功能是实时捕捉用户周围的环境信息，并通过本地AI技术进行即时分析与理解。</span></p><figure class=\"image\"><img alt=\"\" height=\"353\" src=\"https://cdn.pingwest.com/portal/2026/01/22/5EFzF2N756anBMS3keEtHf0YfN63552h.png?x-oss-process=style/article-body\" title=\"\" width=\"773\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/310928",
-            "pub_date": "2026-01-22 15:05:59",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "Inworld发布低成本低延迟语音合成模型TTS-1.5",
-            "description": "<article class=\"wire-content article-style\"><p>品玩1月22日讯，据 GlobeNewswire  报道，<span>人工智能公司Inworld正式发布了最新的文本转语音模型TTS-1.5。该模型能够生成自然且富有表现力的实时语音，同时具备低延迟与多语言支持能力。</span></p><p><span>据介绍，TTS-1.5在技术上实现了低于250毫秒的实时延迟，意味着在对话应用中用户几乎感觉不到语音生成的滞后。同时，模型在语音的表达力和合成稳定性方面也进行了优化，尤其适用于游戏和虚拟现实等领域的交互系统。</span></p><p><span>官方宣称，该模型使用成本约为每分钟0.005美元，比市场上的同类产品便宜25倍，这一价格策略预计将吸引大量开发者和企业的关注。</span></p><figure class=\"image\"><img alt=\"\" height=\"422\" src=\"https://cdn.pingwest.com/portal/2026/01/22/QPHnz8c2RG6Qjb9aC6Jry59Q8XS6y3xk.png?x-oss-process=style/article-body\" title=\"\" width=\"767\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/310926",
-            "pub_date": "2026-01-22 14:50:53",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
