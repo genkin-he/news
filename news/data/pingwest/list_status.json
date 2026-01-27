@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "夸克AI眼镜首次OTA：AI能力进一步增强🔥",
+            "description": "<article class=\"content article-style\">\n<p>夸克AI眼镜首次OTA：AI能力进一步增强🔥</p><p>新增多意图理解执行等5项功能！</p></article>",
+            "link": "https://www.pingwest.com/v/311035",
+            "pub_date": "2026-01-27 11:39:08",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "蚂蚁灵波开源空间感知模型LingBot-Depth，让机器人精准抓取透明反光物",
             "description": "<article class=\"wire-content article-style\"><p>空间智能迎来重要开源进展。1月 27 日，蚂蚁集团旗下具身智能公司灵波科技宣布开源高精度空间感知模型 LingBot-Depth。</p><p>该模型基于奥比中光 Gemini 330 系列双目 3D 相机提供的芯片级原始数据，专注于提升环境深度感知与三维空间理解能力，旨在为机器人、自动驾驶汽车等智能终端赋予更精准、更可靠的三维视觉，在“看清楚”三维世界这一行业关键难题上取得重要突破。这也是蚂蚁灵波科技在2025外滩大会后首次亮相后，时隔半年在具身智能技术基座方向公布重要成果。</p><p>在NYUv2、ETH3D等权威基准评测中，LingBot-Depth展现出代际级优势：相比业界主流的 PromptDA与PriorDA，其在室内场景的相对误差（REL）降低超过70%，在挑战性的稀疏SfM 任务中RMSE误差降低约47%，确立了新的行业精度标杆。</p><figure class=\"image\"><img alt=\"图说：在最具挑战的稀疏深度补全任务中，LingBot-Depth性能整体优于现有多种主流模型。图中数值越低代表性能越好。\" height=\"1006\" src=\"https://cdn.pingwest.com/portal/2026/01/27/portal/2026/01/27/52aaTCt3rrEMWaR824R16_D7WmpGz4s6?x-oss-process=style/article-body\" title=\"图说：在最具挑战的稀疏深度补全任务中，LingBot-Depth性能整体优于现有多种主流模型。图中数值越低代表性能越好。\" width=\"2536\"/><figcaption>图说：在最具挑战的稀疏深度补全任务中，LingBot-Depth性能整体优于现有多种主流模型。图中数值越低代表性能越好。</figcaption></figure><p>在家庭和工业环境中，玻璃器皿、镜面、不锈钢设备等透明和反光物体物体十分常见，但却是机器空间感知的难点。传统深度相机受制于光学物理特性，在面对透明或高反光材质时，往往无法接收有效回波，导致深度图出现数据丢失或产生噪声。</p><p>针对这一行业共性难题，蚂蚁灵波科技研发了“掩码深度建模”（Masked Depth Modeling，MDM）技术，并依托奥比中光 Gemini 330 系列双目 3D 相机进行 RGB-Depth 数据采集与效果验证。当深度数据出现缺失或异常时，LingBot-Depth 模型能够融合彩色图像（RGB）中的纹理、轮廓及环境上下文信息，对缺失区域进行推断与补全，输出完整、致密、边缘更清晰的三维深度图。值得一提的是，LingBot-Depth 模型已通过奥比中光深度视觉实验室的专业认证，在精度、稳定性及复杂场景适应性方面均达到行业领先水平。</p><p>实验中，奥比中光 Gemini 330 系列在应用LingBot-Depth 后，面对透明玻璃、高反光镜面、强逆光及复杂曲面等极具挑战的光学场景时，输出的深度图依然平滑、完整，且物体的轮廓边缘非常锐利，其效果显著优于业内领先的3D 视觉公司 Stereolabs 推出的 ZED Stereo Depth 深度相机。这意味着在不更换传感器硬件的前提下，LingBot-Depth 可显著提升消费级深度相机对高难物体的处理效果。</p><figure class=\"image\"><img alt=\"搭载 LingBot-Depth 后，奥比中光 Gemini 330 系列在透明及反光场景下深度图的完整性和边缘清晰度明显提升。\" height=\"1636\" src=\"https://cdn.pingwest.com/portal/2026/01/27/portal/2026/01/27/tmkhCftYN8RfX3Z3z2F7T_bG0m4Z2szy?x-oss-process=style/article-body\" title=\"搭载 LingBot-Depth 后，奥比中光 Gemini 330 系列在透明及反光场景下深度图的完整性和边缘清晰度明显提升。\" width=\"2718\"/><figcaption>搭载 LingBot-Depth 后，奥比中光 Gemini 330 系列在透明及反光场景下深度图的完整性和边缘清晰度明显提升。</figcaption></figure><figure class=\"image\"><img alt=\"其效果优于业界领先的ZED 深度相机\" height=\"510\" src=\"https://cdn.pingwest.com/portal/2026/01/27/portal/2026/01/27/6c4YFF4j9F35Mz2830AB3tncc27b5Pi2?x-oss-process=style/article-body\" title=\"其效果优于业界领先的ZED 深度相机\" width=\"832\"/><figcaption>其效果优于业界领先的ZED 深度相机</figcaption></figure><p>LingBot-Depth 的优异性来源于海量真实场景数据。灵波科技采集约 1000 万份原始样本，提炼出 200 万组高价值深度配对数据用于训练，支撑模型在极端环境下的泛化能力。这一核心数据资产（包括 2M 真实世界深度数据和 1M 仿真数据）将于近期开源，推动社区更快攻克复杂场景空间感知难题。</p><p>据了解，蚂蚁灵波科技已与奥比中光达成战略合作意向。奥比中光计划基于 LingBot-Depth 的能力推出新一代深度相机。</p><p>本周蚂蚁灵波将陆续开源多款具身智能方向模型。</p></article>",
             "link": "https://www.pingwest.com/w/311034",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩1月27日讯，据财联社报道，在中国信通院主办的“星算·智联”太空算力研讨会上，国星宇航披露：2025年11月，其已将通义千问Qwen3通用大模型成功部署至“星算”计划01组太空计算中心，完成全球首次通用大模型在轨部署。</span></p><p><span>测试显示，端到端推理任务全流程耗时不足2分钟，验证了太空算力中心处理大模型任务的可行性。</span></p><p><span>同日，第三届北京商业航天产业高质量发展推进会宣布，北京人形机器人创新中心“具身天工”机器人成功直连银河航天新型翼阵合一低轨互联网卫星，实现视觉数据同步传输。此举系全球首次具身智能人形机器人直连低轨卫星，亦为我国首例新型相控阵平板卫星多终端连接，验证了无地面网络环境下机器人的稳定通信能力。</span></p><figure class=\"image\"><img alt=\"\" height=\"1535\" src=\"https://cdn.pingwest.com/portal/2026/01/27/8pHpB6anhaw5aBmF73M9bHk53j0x4y5p.png?x-oss-process=style/article-body\" title=\"\" width=\"2730\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311021",
             "pub_date": "2026-01-27 09:38:51",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "阶跃星辰完成50亿元B+轮融资，印奇出任董事长加速“AI+终端”落地",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩1月27日讯，据红星新闻报道，大模型公司阶跃星辰（StepFun）近日完成超50亿元人民币B+轮融资，创下过去12个月中国大模型赛道单笔最高纪录。</span></p><p><span>上国投先导基金、国寿股权、浦东创投等产业资本参与，腾讯、启明、五源等老股东继续加码。资金将用于基础模型研发及“AI+终端”战略推进。</span></p><p><span>同日，千里科技董事长印奇正式出任阶跃星辰董事长，全面负责战略与技术方向。公司已与OPPO、荣耀、中兴等品牌合作，模型装机超4200万台；车载模型年内目标装车百万辆。技术上坚持原生多模态路线，其Step-Audio-R1.1模型登顶Artificial Analysis榜单。</span></p><figure class=\"image\"><img alt=\"\" height=\"1400\" src=\"https://cdn.pingwest.com/portal/2026/01/27/h7CcnYtez4p1D1pB6kFCY676dCAmNpc8.png?x-oss-process=style/article-body\" title=\"\" width=\"2400\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/311020",
-            "pub_date": "2026-01-27 09:18:54",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
