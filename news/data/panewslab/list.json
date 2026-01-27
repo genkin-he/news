@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": "b143c65e-62cd-4a35-9f74-a108de0da28e",
+            "title": "Vitalik：区块链的扩展层级结构为计算、数据和状态",
+            "description": "PANews 1月27日消息，以太坊联合创始人Vitalik Buterin发文阐述区块链中的可扩展性层级结构，即计算、数据和状态。他表示，计算相对最容易扩展，可通过并行处理、要求区块构建者提供“提示”或直接使用证明替换大量计算来实现。数据处于中间层次，若要求数据具备可用性保证，则无法绕过该要求，但可通过分片、纠删码（如PeerDAS）等技术进行拆分，并能实现优雅降级（如节点仅具备1/10数据容量时仍可生产1/10大小的区块）。\n状态是最难扩展的，为保障单笔交易的可验证性，必须获取完整状态；若将状态替换为树并仅保留根哈希，则更新该根仍需完整状态；尽管存在拆分状态的方法，但这些方法通常涉及架构变更且不具备通用性。因此他总结道，若能在不引入新中心化风险的前提下用数据替代状态，或用计算替代数据，原则上都应认真考虑该方案。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/b143c65e-62cd-4a35-9f74-a108de0da28e.html",
+            "pub_date": "2026-01-27 10:07:47",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
+            "id": "3eba2c89-4e69-41c2-b3d0-6a8e456a3fab",
+            "title": "韩国加密交易所Coinone否认有关与Coinbase进行股权出售谈判的报道",
+            "description": "PANews 1月27日消息，据BeInCrypto报道，韩国第三大加密货币交易所Coinone否认了其正在与Coinbase进行股权出售谈判的报道，称相关传言“毫无根据”。此前有当地媒体称Coinone董事长车明勋正考虑出售部分持股，且Coinbase高管本周将访韩并与包括Coinone在内的主要本地平台会面。尽管遭到否认，市场仍对此产生强烈反应。Coinone第二大股东Com2uS Holdings股价在传闻后一度暴涨超17%。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/3eba2c89-4e69-41c2-b3d0-6a8e456a3fab.html",
+            "pub_date": "2026-01-27 10:11:22",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "fpm0s13v",
             "title": "行情：AXS日内涨幅10.68%，ATOM日内跌幅1.50%",
             "description": "PANews 1月27日消息，据欧易OKX行情显示，日内涨幅排名靠前的几个代币为：AXS现报2.666美元，日内涨幅10.68%；CHZ现报0.0568美元，日内涨幅9.07%；ZRO现报2.006美元，日内涨幅5.41%；PEPE现报0.00000516美元，日内涨幅4.90%；ZRX现报0.134美元，日内涨幅3.07%。\n此外，日内跌幅排名靠前的几个代币为：ATOM现报2.239美元，日内跌幅1.50%；RENDER现报1.905美元，日内跌幅1.40%；ASTR现报0.0109美元，日内跌幅1.27%；FLOW现报0.0741美元，日内跌幅1.11%；XRP现报1.906美元，日内跌幅1.02%。",
@@ -176,26 +196,6 @@
             "description": "PANews 1月27日消息，慢雾首席信息安全官23pds发布提醒称，Clawdbot网关暴露风险，数百个API密钥和私聊记录易受攻击，未经身份验证的实例暴露在网上，并且存在多个代码缺陷，可导致凭证窃取和远程代码执行。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/2f910026-ea35-41d3-8f5d-0a67a7c50c50.html",
             "pub_date": "2026-01-27 08:22:28",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "2fe7f405-f262-481f-b7f2-7a0359566170",
-            "title": "Hyperliquid：基于HIP-3部署的DEX未平仓合约量创下7.9亿美元历史新高",
-            "description": "PANews 1月27日消息，据The Block报道，Hyperliquid周一表示，在大宗商品交易激增的推动下，其HIP-3部署的DEX未平仓合约量创下逾7.9亿美元的历史新高。该数据基于HIP-3引入的无许可永续合约市场部署功能，允许合格建设者利用抵押的HYPE代币在HyperCore基础设施上独立部署和运营永续合约DEX。Hyperliquid首席执行官Jeff Yan称，该平台已成为“加密货币价格发现流动性最强的场所”，其比特币永续合约买卖价差已缩窄至1美元，低于币安的约5.5美元。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/2fe7f405-f262-481f-b7f2-7a0359566170.html",
-            "pub_date": "2026-01-27 08:17:56",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "5b0a28a3-4e78-41c8-8614-bba30bff1375",
-            "title": "贝莱德拟通过“iShares比特币溢价收入ETF”为比特币投资带来收益",
-            "description": "PANews 1月27日消息，据The Block报道，贝莱德已向美国证券交易委员会（SEC）提交了iShares比特币溢价收入ETF（ iShares BTC Premium Income ETF）的注册声明，旨在为比特币投资提供收益生成功能。\n该基金将直接持有比特币以追踪现货价格，同时通过主动管理的“备兑看涨期权”策略产生收益，其投资顾问将主动出售看涨期权——主要针对贝莱德自家的IBIT份额，有时也针对其他追踪比特币的ETP指数，并将获得的期权权利金作为收入。该产品若获批，将为比特币ETF投资者提供一种类似以太坊或SOL基金通过质押产生收益的收益机制。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/5b0a28a3-4e78-41c8-8614-bba30bff1375.html",
-            "pub_date": "2026-01-27 08:12:04",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
