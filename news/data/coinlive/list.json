@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 1011301,
+            "title": "This #BitcoinOG(1011short) held a massive long on #Hyperliquid for ~50 days, racking up $100M+ in losses and paying $8.2M+ in funding fees.\n\nHe's now closing longs and shifting to #Aave to loop $ETH longs.\n\nOver the past 2 days, he withdrew 148,000 $ETH($426.6M) from #Binance",
+            "description": "null\nsource: https://x.com/lookonchain/status/2015964578971320370",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1011301&language=en-US",
+            "pub_date": "2026-01-27 09:46:25",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1011300,
+            "title": "Vitalik Buterin Discusses Layered Understanding of Blockchain Scalability",
+            "description": "Vitalik Buterin has shared his insights on the layered understanding of blockchain scalability. According to Odaily, he categorizes the difficulty of scaling blockchain components from easiest to hardest as computation, data, and state.\n\nButerin explains that computation is the easiest to scale, achievable through parallelization, using 'hints' provided by block builders, or replacing extensive computation with proofs like zero-knowledge proofs. Data scaling is moderately difficult, especially when systems require data availability guarantees. However, it can be optimized through data splitting, erasure coding methods like PeerDAS, and supporting 'graceful degradation,' allowing nodes with lower data capacity to still generate blocks of corresponding size.\n\nIn contrast, state is the most challenging aspect to scale. Buterin notes that even to verify a single transaction, nodes require the complete state. Even if the state is abstracted as a tree with only the root node saved, updating this root still depends on the complete state. Although there are methods to split the state, they often necessitate significant architectural changes and are not universally applicable.\n\nBased on these observations, Buterin concludes that if data can replace state without introducing new centralization assumptions, it should be prioritized. Similarly, if computation can replace data without new centralization assumptions, it should be seriously considered.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1011300&language=en-US",
+            "pub_date": "2026-01-27 09:53:48",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1011299,
             "title": "Vitalik Buterin: The core difficulties of blockchain scaling are, in order of importance, computation, data, and state.",
             "description": "In his article, Vitalik Buterin elaborated on his layered understanding of blockchain scalability, pointing out that the difficulty of scaling a blockchain, from lowest to highest, is computation, data, and state. Vitalik stated that computation is the easiest to scale, which can be achieved through parallelization, introducing \"hints\" provided by block builders, or replacing large amounts of computation with proofs using zero-knowledge proofs. Data scaling is of moderate difficulty; if the system requires data availability guarantees, this requirement cannot be avoided, but it can be optimized through data splitting, code erasure (such as PeerDAS), and \"graceful degradation,\" meaning that even when nodes have low data capacity, they can still generate blocks of a corresponding size. In contrast, state is the most difficult part to scale. Vitalik pointed out that to verify even a single transaction, a node needs the complete state; even if the state is abstracted as a tree and only the root node is stored, updating the root still depends on the complete state. Although methods for splitting the state exist, they usually require significant architectural adjustments and are not universal solutions. Based on this, Vitalik concluded that if data can replace state without introducing new centralization, it should be given priority; if computation can replace data without introducing new centralization, it should also be taken seriously.",
@@ -176,26 +196,6 @@
             "description": "Federal Reserve continues with FOMC meeting amid severe weather in D. C. , maintaining scheduled announcements and data releases.\nsource: https://coincu.com/news/federal-reserve-fomc-meeting-weather-closures/",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1011252&language=en-US",
             "pub_date": "2026-01-27 08:43:33",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1011250,
-            "title": "Dollar Weakness and Earnings Growth Influence Market Trends",
-            "description": "BitMine Chair Tom Lee posted on X about the impact of dollar weakness, earnings growth, and shifting macroeconomic conditions on market trends. Lee discussed these factors during an appearance on Power Lunch, highlighting how they are shaping the current financial landscape. The weakening dollar is seen as a significant influence, potentially affecting various sectors and investment strategies. Additionally, earnings growth is playing a crucial role in driving market dynamics, with companies adapting to the evolving economic environment. These elements, combined with changing macroeconomic tailwinds, are contributing to the ongoing shifts in market behavior.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1011250&language=en-US",
-            "pub_date": "2026-01-27 08:55:15",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1011246,
-            "title": "Gold Prices and Stock Valuations May Drive Crypto Market Surge",
-            "description": "On January 27, IG Group noted that rising gold prices and high stock valuations could lead to portfolio rebalancing, potentially directing funds towards cryptocurrencies and sparking a new wave of market growth. According to BlockBeats, developments in UK regulatory frameworks are also providing support to the market.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1011246&language=en-US",
-            "pub_date": "2026-01-27 08:43:56",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
