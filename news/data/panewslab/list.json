@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "6b08f1c8-6249-4347-bf43-01498c468bfe",
+            "title": "Kraken在欧美和加拿大推出DeFi Earn产品，提供最高8%的年化收益",
+            "description": "PANews 1月27日消息，据CryptoBriefing报道，加密货币交易所Kraken在美国、加拿大和欧洲推出了DeFi Earn产品，为用户提供最高8%的年化收益。该产品允许用户直接在应用内获取链上收益，无需手动设置钱包或进行复杂的DeFi操作。\n收益来源于Aave、Morpho、Tydro及Sky Ecosystem等成熟DeFi协议的借款需求，由Veda Labs负责策略执行，Chaos Labs与Sentora提供风险管理与监控。用户可选择平衡型、高收益型或高级型金库，存入资金后即可自动获取收益。Kraken强调，收益来自真实的链上活动，而非代币激励或补贴。用户提取资金通常可即时到账，但在金库流动性紧张时可能出现临时延迟。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/6b08f1c8-6249-4347-bf43-01498c468bfe.html",
+            "pub_date": "2026-01-27 10:18:36",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "b143c65e-62cd-4a35-9f74-a108de0da28e",
             "title": "Vitalik：区块链的扩展层级结构为计算、数据和状态",
             "description": "PANews 1月27日消息，以太坊联合创始人Vitalik Buterin发文阐述区块链中的可扩展性层级结构，即计算、数据和状态。他表示，计算相对最容易扩展，可通过并行处理、要求区块构建者提供“提示”或直接使用证明替换大量计算来实现。数据处于中间层次，若要求数据具备可用性保证，则无法绕过该要求，但可通过分片、纠删码（如PeerDAS）等技术进行拆分，并能实现优雅降级（如节点仅具备1/10数据容量时仍可生产1/10大小的区块）。\n状态是最难扩展的，为保障单笔交易的可验证性，必须获取完整状态；若将状态替换为树并仅保留根哈希，则更新该根仍需完整状态；尽管存在拆分状态的方法，但这些方法通常涉及架构变更且不具备通用性。因此他总结道，若能在不引入新中心化风险的前提下用数据替代状态，或用计算替代数据，原则上都应认真考虑该方案。",
@@ -186,16 +196,6 @@
             "description": "PANews 1月27日消息，据The Block报道，链上预测市场Polymarket已与美国最大职业足球联盟——美国职业足球大联盟（MLS）签订了一项独家多年期体育授权协议。根据协议，Polymarket将成为MLS及其杯赛、全明星赛等赛事的独家预测市场合作伙伴，并将推出包括比赛期间“第二屏幕”互动在内的新球迷体验。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/4a4c1e67-0e24-44a1-9439-198d7478f487.html",
             "pub_date": "2026-01-27 08:25:40",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "2f910026-ea35-41d3-8f5d-0a67a7c50c50",
-            "title": "慢雾：Clawdbot网关暴露风险，数百个API密钥和私聊记录易受攻击",
-            "description": "PANews 1月27日消息，慢雾首席信息安全官23pds发布提醒称，Clawdbot网关暴露风险，数百个API密钥和私聊记录易受攻击，未经身份验证的实例暴露在网上，并且存在多个代码缺陷，可导致凭证窃取和远程代码执行。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/2f910026-ea35-41d3-8f5d-0a67a7c50c50.html",
-            "pub_date": "2026-01-27 08:22:28",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
