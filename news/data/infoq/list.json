@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "Tb4GkF4MbNOxxhOHvZig",
+            "title": "AI 时代，开发者体验正在被重新定义",
+            "image": "https://static001.infoq.cn/resource/image/5a/60/5acfe6a9ba92d0df472c8cb4a9128960.png",
+            "description": "<div><p><italic>生成式 AI 的投资回报远超预期？Snowflake 调研全球 1900 位企业与 IT 专业人士后发现平均 ROI 高达 41%！</italic><italic>完整报告</italic></p><p></p><p>AI Copilot 和自主智能体的崛起正在重新定义开发者的意义。在 BUILD 2025 的一场重磅主题分享中，Vercel CEO 和 Next.js 的创始人 <strong>Guillermo Rauch</strong> 深入探讨了 AI 如何改变开发者的体验。AI 将我们的角色从编写代码转变为有意图地引导智能系统。在这个未来中，AI 原生工具将大大提升开发者的生产力、创造力和规模。</p><p></p><p>Guillermo Rauch 从自身经历出发，系统性地拆解了 AI 浪潮下，开发范式正在发生的结构性变化。这并非一场关于工具或技巧的演示，而是一份面向当代开发者的生存指南：当技术能力不再稀缺，什么才是决定长期价值的核心能力？他的判断很明确，我们正经历一场从“页面”走向“Agent”的转型，其深度与影响，堪比第一代互联网的诞生。</p><h2>从“页面的云”到“Agent 的云”</h2><p></p><p>Rauch 回顾了 Vercel 的起点。2014 年，当开发者仍需在路由、编译器、集群和部署细节中反复挣扎时，真正能高效构建和交付产品的，只有少数拥有内部基础设施的大公司。</p><p></p><p>Vercel 以及 Next.js 的诞生，本质上是一次“能力下放”，让原本只属于头部公司的开发效率，成为更广泛开发者的默认能力。</p><p></p><p>而今天，类似的分化正在 AI 领域重演。</p><p></p><p>他指出，支撑第一代 Web 的云基础设施，本质上是“为页面而生”的：优化加载速度、依赖 CDN、围绕一次性请求与响应展开。但在 Agent 驱动的应用形态中，这套逻辑开始失效。新的应用形态不再以页面为中心，而是以持续运行、长时间“思考”、多步骤编排的智能体为核心。</p><p></p><p>因此，云的目标也随之发生变化：</p><ul><li><p>算力不再只追求“更快返回”，而是要支持更长时间、更复杂的推理；</p></li></ul><ul><li><p>基础设施不再围绕页面分发，而是围绕“token 流动”和智能调用；</p></li></ul><ul><li><p>搜索和触达不再依赖排名，而是通过Agent主动嵌入到用户的工作场景中。</p></li></ul><p></p><p><img>https://static001.geekbang.org/infoq/b6/b601d563855792e2f91404ecde1a862d.png<img></p><p></p><p>在这一意义上，他将新的基础设施形态称为“面向 Agent 的云”。</p><h2>界面没有消失，只是变成了生成式</h2><p></p><p>与基础设施变化同步发生的，是用户界面的根本转型。</p><p></p><p>传统的软件界面是确定性的：开发者可以精确控制每一个像素，预期用户将看到什么、点击什么、进入哪条路径。但在 AI 时代，界面正在变成生成式和自适应的，按需生成、随上下文变化，并高度个性化。</p><p></p><p>Rauch 特别强调，这并不意味着前端或用户体验的重要性下降，恰恰相反，<strong>体验比以往任何时候都更重要</strong>。变化的只是如何构建体验：从事先设计好所有界面，转向在需要时即时生成最合适的呈现方式。</p><p></p><p>他以 Snowflake 与 Vercel 的生成式 UI Agent（V0）的集成为例：复杂的数据分析结果，可以在对话中即时生成可视化界面，让非技术用户也能理解。这背后的趋势，是行业从“代码优先”逐步迈向“代码后置”，代码不再是价值本身，而是服务于结果的一种中间形态。</p><h2>当谁能写代码不再重要</h2><p></p><p>如果说基础设施和界面的变化，重塑了怎么构建，那么更深层的变化在于——<strong>谁可以参与构建</strong>。</p><p></p><p>Rauch 认为，软件开发正在从一项高度专业化的技能，转变为一种普遍能力。过去，门槛在于语法、工具链、基础设施；而现在，门槛正在转移到一个新的维度：<strong>意图是否清晰</strong>。</p><p></p><p>在 AI 的帮助下，表达能力本身成为新的基础素养。会不会写代码，正在被能否准确表达你想要什么所取代。他将这种变化视为 JavaScript 普惠化的升级版：如果说框架和平台曾让大量前端开发者成为云工程师，那么 AI 则让更多非技术背景的人，第一次具备了构建软件的能力。</p><p></p><p>在这种背景下，个人技能的价值排序正在被重写。Rauch 提出了一个残酷但现实的判断：不要过度依附于某一项具体技能。正如心算曾经是优势，但最终被机器超越，编程技能也正在进入类似阶段。</p><p></p><p>真正重要的，是他所说的“元技能”。</p><h2>交付，正在成为最核心的元能力</h2><p></p><p>在 AI 可以生成无限方案的时代，开发者真正需要承担的角色，不是代码执行者，而是<strong>判断者与交付者</strong>。</p><p></p><p>Rauch 将“交付（Shipping）”视为当代开发者最关键的元能力。它不等同于写代码，而是一种端到端的综合能力：从问题判断、产品设计、实现方式，到测试、迭代、讲清楚价值，并持续提高标准。</p><p></p><p>在他看来，AI 不只是提升效率的工具，更应该服务于质量。他反复强调一个立场：更快地生成代码，不应成为降低交付标准的借口。相反，真正的竞争力在于，<strong>同时提高生产力与质量</strong>。</p><p></p><p>围绕这一判断，他给出了具体的实践方向：将 Agent 用于客服、风控、内容生成、数据分析等场景，让系统承担重复性工作，把人的时间留给真正影响产品和业务走向的决策。随着系统从“被接受、被修改、被拒绝”的反馈中不断学习，质量门槛本身也会随时间抬升。</p><p></p><p>最终，他将 Agent 的意义概括为一句话：<strong>消除创意与现实之间的壁垒</strong>。</p><p></p><p>在这场分享的结尾，Rauch 并未给出下一步该学什么工具的清单，而是抛出了一个更本质的问题：当工具已经就位、模型已经成熟，你真正要思考的，是<strong>你准备交付什么样的产品、什么样的价值</strong>。</p><p></p><p>AI 时代的开发者体验，不再只是写更少的代码，而是能否以更高的标准，把想法真正带到现实世界中。</p></div>",
+            "link": "https://www.infoq.cn/news/Tb4GkF4MbNOxxhOHvZig",
+            "pub_date": "2026-01-28 03:53:50",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "63IXzjH45sQALokMAd7N",
             "title": "KOOK 携手火山引擎RTC ，重构游戏开黑新体验",
             "image": "https://static001.infoq.cn/resource/image/d2/37/d24c968be43fa6f22f40b2c064fa7537.png",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>，允许客户验证VPC内部和VPC之间的流量是否加密，并在支持的地方要求加密。该功能提供了对未加密流量的可见性，支持使用兼容的基于Nitro的基础设施进行强制执行，并允许排除无法加密流量的资源。</color></p><p><color> </color></p><p><color>据云服务提供商称，这项新功能有助于组织在他们的AWS环境中应用一致的加密标准，并展示符合HIPAA、PCI DSS和FedRAMP等监管框架的合规性，这些框架要求全面加密。AWS的首席开发者倡导者</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>虽然社区的反应大多是积极的，但许多人</color><color>表示困惑，或者质疑为什么应该为安全控制付费。用户kei_ichi写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>管理员可以为现有的VPC启用该功能，以监控流量流的加密状态，并识别无意中允许明文流量的VPC资源。云安全顾问和AWS安全英雄</color><color>在他的</color><color>概述中写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>VPC加密控制有两种操作模式：监控和强制执行。激活后，强制执行模式确保所有新资源仅在兼容的Nitro实例上创建，并且在检测到错误的协议或端口时丢弃任何未加密的流量。</color></p><p><color> </color></p><p><img>https://static001.geekbang.org/infoq/ba/ba9147fdbbff2c458bbff4b8e9870f93.png<img></p><p></p><p><color>来源：AWS博客</color></p><p><color> </color></p><p><color>管理员只有将所有资源迁移到兼容加密的基础架构后，才能启用强制模式。Farris指出：</color></p><p><color> </color></p><p><color> </color></p><p><color>这需要首先升级到支持的硬件和通信协议。可以为不支持加密的资源（如互联网或NAT网关）配置特定的排除，因为它们的流量离开了AWS网络。在“理解现代云安全中的VPC加密”的文章中，Anish Kumar</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>这项新功能目前在AWS的一些区域可用，包括弗吉尼亚北部、爱尔兰、伦敦和新加坡。在3月1日之前，VPC加密控制将免费使用，之后将对每个非空VPC收取固定的小时费，每小时0.15美元起。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/Wrhj4dCb7ARmzcKkdgcM",
             "pub_date": "2026-01-13 06:11:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "HN7NXQZUkbU2StoW9Kl9",
-            "title": "MongoBleed漏洞允许攻击者从MongoDB的堆内存中读取数据",
-            "image": "https://static001.infoq.cn/resource/image/39/70/39670e62c2e53078ed061762fb4d7170.jpg",
-            "description": "<div><p><color>MongoDB最近修补了</color><color>，这是一个影响多个支持和遗留MongoDB服务器版本的漏洞。根据披露，该漏洞可以被未认证的攻击者以较低的复杂度远程利用，可能导致敏感数据和凭证的外泄。</color></p><p><color> </color></p><p><color>这个漏洞被称为MongoBleed，以臭名昭著的</color><color>命名，CVSS得分为</color><color>，由对zlib压缩网络流量处理不当触发，允许未经身份验证的攻击者泄露未初始化的内存，并可能从受影响的MongoDB服务器窃取敏感数据，如凭证或令牌。根据</color><color>的安全研究人员，该漏洞正在被广泛利用。</color></p><p><color> </color></p><p><color>正如MongoDB的声明所述，MongoDB Atlas上的托管实例已经被修补，但是如果自托管MongoDB不更新，仍然存在风险。强烈建议组织立即应用安全补丁，或禁用压缩并限制网络暴露。Merav Bar、Amitai Cohen、Yaara Shriki和Gili Tikochinski解释：</color></p><p><color> </color></p><p><color> </color></p><p><color>根据Wiz文章，42%的云环境中至少有一个易受攻击的MongoDB实例，Censys报告称全球大约有87,000台服务器存在潜在的风险。由于该漏洞可以在没有认证或用户交互的情况下被利用，暴露在互联网上的数据库服务器面临特别高的风险。Wiz团队补充道：</color></p><p><color> </color></p><p><color> </color></p><p><color>这个漏洞影响了自</color><color>年以来发布的所有MongoDB版本。Linkfields Innovations的软件开发人员Gourav Boiri</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>在“</color><color>”的文章中，</color><color>解释了这一漏洞的工作原理，并警告说：</color></p><p><color> </color></p><p><color> </color></p><p><color>InfoSec创始人和实践者</color><color>解释了</color><color>。在一个流行的</color><color>帖子中，用户misteryuub争论道：</color></p><p><color> </color></p><p><color> </color></p><p><color>Kozlovski不同意：</color></p><p><color> </color></p><p><color> </color></p><p><color>现在可用于从4.4到8.0的所有支持版本。</color><color>。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/HN7NXQZUkbU2StoW9Kl9",
-            "pub_date": "2026-01-12 08:23:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
