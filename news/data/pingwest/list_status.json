@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "谷歌推出Project Genie：文本生成可互动3D虚拟世界",
+            "description": "<article class=\"wire-content article-style\"><p>品玩1月30日讯，据 SiliconANGLE 报道，谷歌DeepMind发布实验性工具Project Genie，用户通过自然语言描述就能即时创建并探索逼真的三维虚拟环境。</p><p>该工具基于Genie 3世界模型，支持实时生成动态世界，每秒渲染24帧，分辨率达1280x720。用户输入环境提示词和角色描述后，系统先生成草图预览，再转为可导航的完整场景。用户可在其中自由移动、调整视角和渲染风格，互动时长目前上限为60秒，并可保存过程为视频。</p><p>Project Genie整合Nano Banana Pro图像模型，将简单草图转为高质量3D物体。相比传统静态生成工具，它实现实时路径预测和世界一致性，适用于创意探索、AI训练数据生成等领域。目前仅限美国Google AI Ultra订阅用户（每月250美元）使用，未来计划扩展至更多国家和开发者API。</p><figure class=\"image\"><img alt=\"\" height=\"1201\" src=\"https://cdn.pingwest.com/portal/2026/01/30/9ht94hAsc6kaGZRA_D475x7DPK289eSy.png?x-oss-process=style/article-body\" title=\"\" width=\"2163\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/311156",
+            "pub_date": "2026-01-30 15:03:43",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Meta计划2026年双倍投入AI，预计年度支出达1350亿美元",
             "description": "<article class=\"wire-content article-style\"><p>品玩1月30日讯，据 Yahoo Finance 报道，<span>Meta公司首席执行官马克·扎克伯格宣布，公司仍计划在2026年大幅增加对人工智能的投入。根据披露，Meta预计今年的总支出最高将达1350亿美元，资金将主要用于AI基础设施建设。</span></p><p><span>与2025年约720亿美元的AI相关支出相比，Meta今年的投入几乎翻倍。与此同时，Meta近期已裁撤了数百名员工，主要涉及Reality Labs部门。</span><span>扎克伯格还谈及公司正广泛部署AI工具以提升员工效率。</span></p><figure class=\"image\"><img alt=\"\" height=\"526\" src=\"https://cdn.pingwest.com/portal/2026/01/30/DXC5hAN1hKeDFeCjhmF6h_D5Z15Dik7y.png?x-oss-process=style/article-body\" title=\"\" width=\"936\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311153",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>1月29日晚，阿里开源千问语音识别模型Qwen3-ASR系列，在数项权威评测中斩获开源最佳（SOTA），性能直逼当前顶级闭源模型。Qwen3-ASR“听得懂”52种语言与方言，识别准确、稳定、快速，不但能轻松识别语速超快的饶舌RAP歌曲，还可在10 秒内高效处理5小时的音频识别。据了解，阿里此次共开源3款语音模型，最小仅为0.6B，特别适用于AI智能硬件的端侧部署，所有开发者和企业都可免费下载商用。</p><figure class=\"image\"><img alt=\"\" height=\"1062\" src=\"https://cdn.pingwest.com/portal/2026/01/30/portal/2026/01/30/W4ftNN_A7W47a4rhntnyieG7rx8711wc?x-oss-process=style/article-body\" title=\"\" width=\"869\"/></figure><p>Qwen3-ASR底座模型是Qwen3-Omni，结合创新的预训练 AuT 语音编码器，实现了语音识别的精准与稳定性的突破，此次开源1.7B和0.6B两个版本。其中，Qwen3-ASR-1.7B 模型语音识别准确率极强，在中文、英文、中文口音与歌唱识别等场景下达到开源最佳 SOTA，具有复杂文本识别能力以及强噪声下的稳定性；而Qwen3-ASR-0.6B 模型则在性能与效率上实现了最佳平衡，在保证语音识别准确率的情况下，128 并发异步服务推理能够达到 2000 倍吞吐，相当于可在10 秒钟处理五个小时以上的音频，同时在离线与在线推理场景下都能保持极低实时率RTF，可轻松满足大规模部署和实时服务的需求。</p><p>Qwen3-ASR系列模型实现了语言识别种类的极致扩展，1.7B 与 0.6B模型原生支持多达 30 个语种的语种识别与语音识别，以及22 个中文口音与方言语音识别，还有多个国家与地区的英文口音识别。在汉语领域，Qwen3-ASR-1.7B 整体领先GPT-4o-Transcribe等闭源 API ，方言识别的平均错误率比 Doubao-ASR还要再低 20%。现在，广东话、“港味普通话”和英语混着讲也能被Qwen3-ASR精准识别，新模型还能轻松拿捏语速超快的说唱歌曲，即便在复杂环境中，比如老人/儿童语音、强噪声、鬼畜重复等挑战场景，Qwen3-ASR仍能稳定输出，错误率极低。</p><p>此外，为推动AI社区技术创新，阿里此次还一次性开源了自研的语音强制对齐模型 Qwen3-ForcedAligner-0.6B，以及全面易用的推理框架，支持基于 vLLM 的 batch 推理、异步服务、流式推理 、时间戳预测功能等，加速产业落地。</p><p>据了解，阿里已开源语音合成模型Qwen3-TTS、语音识别模型Qwen3-ASR、全模态模型Qwen3-Omni、视觉理解模型Qwen3-VL、图片生成模型Qwen-Image和编辑模型Qwen-Image-Edit等，是多模态领域开源最广泛、最深入的模型家族。截至目前，阿里已开源400余个模型，千问模型的全球下载突破10亿，衍生模型数突破20万个，模型采用率超53%，远高于第二名Meta-Llama的15%和第三名Google-Gemma的14%，千问大模型已成为公认的全球第一开源模型家族。</p><p>（完）</p></article>",
             "link": "https://www.pingwest.com/w/311142",
             "pub_date": "2026-01-30 10:57:56",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "英伟达、微软与亚马逊洽谈向OpenAI注资至多600亿美元",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩1月30日讯，据The Information报道，英伟达、微软和亚马逊正就联合向OpenAI投资展开谈判，三方合计出资额最高可达600亿美元。</span></p><p><span>其中，英伟达计划投资300亿美元，为本轮最大出资方；微软拟投入不超过100亿美元；亚马逊则考虑首次投资OpenAI，金额或超100亿甚至达200亿美元。</span></p><p><span>知情人士称，亚马逊的投资可能取决于双方在云服务及商业合作方面的谈判进展，包括扩大OpenAI对AWS的算力租赁及ChatGPT企业订阅等协议。目前各方已接近达成投资条款共识，但均未予官方置评。</span></p><figure class=\"image\"><img alt=\"\" height=\"628\" src=\"https://cdn.pingwest.com/portal/2026/01/30/077t7NCc93EKS98DMhKYGP7F48r888s7.jpeg?x-oss-process=style/article-body\" title=\"\" width=\"1140\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/311139",
-            "pub_date": "2026-01-30 10:43:34",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
