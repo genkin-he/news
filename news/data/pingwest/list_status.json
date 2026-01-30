@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "飞桨发布PaddleOCR-VL-1.5，精准解析异形文档",
+            "description": "<article class=\"wire-content article-style\"><p>品玩1月30日讯，据飞桨官微消息，新一代文档解析模型PaddleOCR-VL-1.5正式发布并开源，系全球首个实现“异形框定位”能力的OCR模型，可精准识别倾斜、弯折、拍照畸变等不规则文档。</p><p>模型架构仅0.9B，整体精度达94.5%，获全球SOTA。在文档解析评测集OmniDocBench V1.5中综合性能第一，自然场景评估集Real5-OmniDocBench指标全面领先。其“异形框定位”能力解决了移动拍照、扫描件变形等场景中传统OCR识别失败问题，可应用于金融票据处理、档案数字化等领域。</p><p>对比同类，模型在表格结构理解、阅读顺序预测两项核心指标位列第一，版面逻辑解析错误率仅为其他模型约一半，合同、财报等复杂场景可用性更高。较上代，新增印章识别、多语种支持等功能，优化特殊符号、古籍等复杂结构识别，支持跨页表格合并与段落标题识别，解决长文档结构断裂问题。</p><p>目前模型已开源，可通过GitHub、HuggingFace获取，官网支持在线体验，并与多家硬件厂商及平台集成，方便多环境使用。</p><figure class=\"image\"><img alt=\"\" height=\"840\" src=\"https://cdn.pingwest.com/portal/2026/01/30/ZN2YhdQ_A34yAWT06mHWKxS9N7eTQYnD.png?x-oss-process=style/article-body\" title=\"\" width=\"1600\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/311158",
+            "pub_date": "2026-01-30 15:38:06",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "昆仑万维开源视频生成模型SkyReels-V3 覆盖三大核心能力",
             "description": "<article class=\"wire-content article-style\"><p>品玩1月30日讯，据昆仑万维官微消息，昆仑万维旗下Skywork AI开源自研多模态视频生成模型SkyReels-V3。其覆盖参考图像转视频、视频延长、音频驱动虚拟形象三大核心能力，各模块深度优化且可灵活组合，生成视频达专业级效果，多项指标行业领先。</p><p>其支持1至4张参考图，结合文本生成连贯视频，通过高质量数据构建、多参考条件融合等技术，参考一致性0.6698、视觉质量0.8119，超越Vidu Q2等主流模型，可精准保留商品细节、人物特征，适用于电商等场景。</p><p>视频延长突破时长限制，提供单镜头延长、镜头切换延长双模式，支持五种电影转场技术，采用统一多分段位置编码解决传统延长“跳跃”问题，可扩展电影、短视频等叙事边界。</p><p>音频驱动虚拟形象可从单张肖像与音频生成音画同步视频，支持长视频及多角色交互，在音视频同步、视觉质量等指标上表现突出。</p><figure class=\"image\"><img alt=\"\" height=\"355\" src=\"https://cdn.pingwest.com/portal/2026/01/30/37JficcBFmxk9cYXbiPiRKc4aj3kEB39.png?x-oss-process=style/article-body\" title=\"\" width=\"624\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311157",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩1月30日讯，据pulse2 报道，AI语音训练应用BoldVoice近日宣布完成2100万美元A轮融资，由Matrix领投，Flybridge、Xfund、Corazon Capital等参投。该应用已覆盖150余国用户，累计下载超500万次，年经常性收入突破1000万美元，团队仅7人。</p><p>BoldVoice专注帮助非英语母语者提升职场沟通中的发音与清晰度，结合专业口音教练视频课程与自研AI语音模型，提供音素级实时反馈。其成本远低于传统每小时200–300美元的私教服务，实现全年无限练习。</p><p>联合创始人Anada Lakra表示，目标是为全球十亿非母语者提供“私人语音教练”。CTO Ilya Usorov强调，其AI模型专为带口音语音训练优化，确保反馈精准有效。公司将加速全球扩张并深化语音技术栈建设。</p><figure class=\"image\"><img alt=\"\" height=\"704\" src=\"https://cdn.pingwest.com/portal/2026/01/30/2GQXMs5GmDp7p2sJ7a7_G2k5C_799ZcG.jpg?x-oss-process=style/article-body\" title=\"\" width=\"1440\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311144",
             "pub_date": "2026-01-30 11:18:02",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "谷歌地图全球上线Gemini步行与骑行免提交互功能",
-            "description": "<article class=\"wire-content article-style\"><p>品玩1月30日讯，据 TechCrunch 报道，Gemini语音助手现已支持在步行和骑行导航中免提使用，用户无需离开导航界面即可通过自然语言提问。步行时可询问“附近有哪些必看景点？”或“路线上有带卫生间的咖啡馆吗？”，骑行时则可查询预计到达时间、日程安排，甚至发送延迟通知。</p><p>该功能延续了此前驾车场景的对话式导航体验，支持多轮连续问答，提升出行安全性与便利性。目前，该更新已在全球iOS设备上线，并逐步向Android用户推送。</p><p>同期，谷歌地图还推出“行前须知”板块、优化Explore标签页及电动车充电桩可用性预测等AI增强功能，进一步强化其作为智能出行助手的定位。</p><figure class=\"image\"><img alt=\"\" height=\"469\" src=\"https://cdn.pingwest.com/portal/2026/01/30/f9xy58a19y881y97Q7FF9Hhi19it4B1j.png?x-oss-process=style/article-body\" title=\"\" width=\"1024\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/311143",
-            "pub_date": "2026-01-30 10:57:55",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
