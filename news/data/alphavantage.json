@@ -4,6 +4,73 @@
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
         {
+            "title": "Tractor Supply looks to take on final-mile deliveries",
+            "url": "https://www.msn.com/en-us/money/companies/tractor-supply-looks-to-take-on-final-mile-deliveries/ar-AA1WcCdl",
+            "time_published": "20260215T214713",
+            "authors": [],
+            "summary": "This article states that Tractor Supply is looking to expand into final-mile deliveries. No further details are available in the provided content.",
+            "banner_image": null,
+            "source": "MSN",
+            "category_within_source": "General",
+            "source_domain": "MSN",
+            "topics": [
+                {
+                    "topic": "retail_wholesale",
+                    "relevance_score": "0.805011"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.746348"
+                }
+            ],
+            "overall_sentiment_score": 0.228361,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSCO",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.217546",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "How GM, Ford, Stellantis stock performed this week",
+            "url": "https://www.freep.com/story/money/cars/2026/02/15/gm-ford-stellantis-stock-price-results-week-ending-february-13/88669211007/",
+            "time_published": "20260215T212035",
+            "authors": [
+                "Eric D. Lawrence",
+                "Susan Tompor"
+            ],
+            "summary": "General Motors (GM) stock experienced a decline of 3.75% for the week ending February 13, closing at $81.08. In contrast, Ford Motor Co. and Stellantis saw their stock prices rise during the same period. This report details the stock performance for these major automotive companies.",
+            "banner_image": "https://www.freep.com/gciaf/prod/p?a=pageview&p=PDTF-TEALIUM-TANGENT&m=web&k=f14ebdd6-0569-4c64-af73-99937bc06379&s=noscript",
+            "source": "Detroit Free Press",
+            "category_within_source": "General",
+            "source_domain": "Detroit Free Press",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.919312"
+                }
+            ],
+            "overall_sentiment_score": 0.023571,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "F",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.232174",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GM",
+                    "relevance_score": "0.937272",
+                    "ticker_sentiment_score": "-0.248171",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
             "title": "SPS Commerce, Inc. Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Predictions",
             "url": "https://news.futunn.com/en/post/68942214/sps-commerce-inc-just-beat-analyst-forecasts-and-analysts-have",
             "time_published": "20260215T211228",
@@ -18,21 +85,68 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.930358"
+                    "relevance_score": "0.905855"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.803558"
+                    "relevance_score": "0.849245"
                 }
             ],
-            "overall_sentiment_score": -0.215966,
+            "overall_sentiment_score": -0.220221,
             "overall_sentiment_label": "Somewhat-Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "SPSC",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.219962",
+                    "ticker_sentiment_score": "-0.207418",
                     "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "BILL Holdings Weighs Sale As Activists Push For Profitability Shift",
+            "url": "https://finance.yahoo.com/news/bill-holdings-weighs-sale-activists-210929183.html",
+            "time_published": "20260215T211104",
+            "authors": [
+                "Simply Wall St"
+            ],
+            "summary": "BILL Holdings (NYSE:BILL) is reportedly exploring a sale, with private equity firm Hellman & Friedman in talks for an acquisition. This move comes as activist investors are pushing for improved profitability and changes, following significant stock declines over the past few years. The company's board is reviewing alternatives amid current losses, despite revenue growth, and aims to find a path to consistent profitability.",
+            "banner_image": "https://s.yimg.com/ny/api/res/1.2/NUA2o3431PKjKDe430Ho5A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwODtoPTQ4/https://s.yimg.com/os/creatr-uploaded-images/2021-03/7d6207c0-7d34-11eb-bbee-858baefb8682",
+            "source": "Yahoo Finance",
+            "category_within_source": "General",
+            "source_domain": "Yahoo Finance",
+            "topics": [
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.937918"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.832635"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.724675"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.647297"
+                }
+            ],
+            "overall_sentiment_score": -0.175544,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BILL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.236783",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "INTU",
+                    "relevance_score": "0.640119",
+                    "ticker_sentiment_score": "-0.125508",
+                    "ticker_sentiment_label": "Neutral"
                 }
             ]
         },
@@ -51,24 +165,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.942958"
+                    "relevance_score": "0.909845"
                 },
                 {
                     "topic": "life_sciences",
-                    "relevance_score": "0.845586"
+                    "relevance_score": "0.839843"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.708610"
+                    "relevance_score": "0.718772"
                 }
             ],
-            "overall_sentiment_score": -0.217935,
+            "overall_sentiment_score": -0.234752,
             "overall_sentiment_label": "Somewhat-Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "WST",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.217913",
+                    "ticker_sentiment_score": "-0.223437",
                     "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
@@ -86,52 +200,52 @@
             "topics": [
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.939437"
+                    "relevance_score": "0.931038"
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.827011"
+                    "relevance_score": "0.814348"
                 },
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.939531"
+                    "relevance_score": "0.911333"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.606595"
+                    "relevance_score": "0.639131"
                 }
             ],
-            "overall_sentiment_score": 0.041656,
+            "overall_sentiment_score": 0.033865,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "AMPY",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.072388",
+                    "ticker_sentiment_score": "-0.067681",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "COP",
-                    "relevance_score": "0.619753",
-                    "ticker_sentiment_score": "0.139527",
+                    "relevance_score": "0.639815",
+                    "ticker_sentiment_score": "0.117215",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "CVX",
-                    "relevance_score": "0.631753",
-                    "ticker_sentiment_score": "0.130748",
+                    "relevance_score": "0.645828",
+                    "ticker_sentiment_score": "0.136914",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "XOM",
-                    "relevance_score": "0.644417",
-                    "ticker_sentiment_score": "0.142327",
+                    "relevance_score": "0.612750",
+                    "ticker_sentiment_score": "0.103651",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "APA",
-                    "relevance_score": "0.563506",
-                    "ticker_sentiment_score": "-0.142969",
+                    "relevance_score": "0.553162",
+                    "ticker_sentiment_score": "-0.117759",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -151,24 +265,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.909577"
+                    "relevance_score": "0.914161"
                 },
                 {
                     "topic": "real_estate",
-                    "relevance_score": "0.820495"
+                    "relevance_score": "0.824802"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.713661"
+                    "relevance_score": "0.725975"
                 }
             ],
-            "overall_sentiment_score": 0.308485,
+            "overall_sentiment_score": 0.341253,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "VMC",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.346362",
+                    "ticker_sentiment_score": "0.340977",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -186,42 +300,42 @@
             "topics": [
                 {
                     "topic": "finance",
-                    "relevance_score": "0.927876"
+                    "relevance_score": "0.926639"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.803884"
+                    "relevance_score": "0.844188"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.718885"
+                    "relevance_score": "0.700882"
                 }
             ],
-            "overall_sentiment_score": 0.386871,
+            "overall_sentiment_score": 0.364717,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "PGR",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.817859",
+                    "ticker_sentiment_score": "0.814806",
                     "ticker_sentiment_label": "Bullish"
                 },
                 {
                     "ticker": "ALL",
-                    "relevance_score": "0.640751",
-                    "ticker_sentiment_score": "0.231747",
+                    "relevance_score": "0.647883",
+                    "ticker_sentiment_score": "0.203783",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "AIZ",
-                    "relevance_score": "0.620498",
-                    "ticker_sentiment_score": "0.208381",
+                    "relevance_score": "0.620459",
+                    "ticker_sentiment_score": "0.212317",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "GL",
-                    "relevance_score": "0.636628",
-                    "ticker_sentiment_score": "0.209197",
+                    "relevance_score": "0.641652",
+                    "ticker_sentiment_score": "0.210611",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -241,24 +355,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.934327"
+                    "relevance_score": "0.939472"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.916853"
+                    "relevance_score": "0.923072"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.821672"
+                    "relevance_score": "0.841585"
                 }
             ],
-            "overall_sentiment_score": 0.124295,
+            "overall_sentiment_score": 0.140129,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "MRCY",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.106175",
+                    "ticker_sentiment_score": "0.144309",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -278,24 +392,24 @@
             "topics": [
                 {
                     "topic": "technology",
-                    "relevance_score": "0.903922"
+                    "relevance_score": "0.947050"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.815601"
+                    "relevance_score": "0.819327"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.714322"
+                    "relevance_score": "0.717510"
                 }
             ],
-            "overall_sentiment_score": 0.019303,
+            "overall_sentiment_score": 0.047502,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "INTC",
-                    "relevance_score": "0.342873",
-                    "ticker_sentiment_score": "0.025716",
+                    "relevance_score": "0.300290",
+                    "ticker_sentiment_score": "0.029283",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -315,44 +429,44 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.934253"
+                    "relevance_score": "0.918226"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.835682"
+                    "relevance_score": "0.844478"
                 },
                 {
                     "topic": "real_estate",
-                    "relevance_score": "0.736518"
+                    "relevance_score": "0.734247"
                 },
                 {
                     "topic": "retail_wholesale",
-                    "relevance_score": "0.641408"
+                    "relevance_score": "0.609651"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.638643"
+                    "relevance_score": "0.607951"
                 }
             ],
-            "overall_sentiment_score": 0.246798,
+            "overall_sentiment_score": 0.257447,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "REG",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.466815",
+                    "ticker_sentiment_score": "0.451425",
                     "ticker_sentiment_label": "Bullish"
                 },
                 {
                     "ticker": "SPG",
-                    "relevance_score": "0.629177",
-                    "ticker_sentiment_score": "0.141010",
+                    "relevance_score": "0.643470",
+                    "ticker_sentiment_score": "0.123807",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "O",
-                    "relevance_score": "0.588618",
-                    "ticker_sentiment_score": "0.117456",
+                    "relevance_score": "0.592707",
+                    "ticker_sentiment_score": "0.130352",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -372,30 +486,30 @@
             "topics": [
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.947192"
+                    "relevance_score": "0.924904"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.736428"
+                    "relevance_score": "0.719525"
                 },
                 {
                     "topic": "life_sciences",
-                    "relevance_score": "0.610807"
+                    "relevance_score": "0.646440"
                 }
             ],
-            "overall_sentiment_score": 0.065959,
+            "overall_sentiment_score": 0.097892,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "RGNX",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.031036",
+                    "ticker_sentiment_score": "0.011230",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "BLK",
-                    "relevance_score": "0.634474",
-                    "ticker_sentiment_score": "0.139275",
+                    "relevance_score": "0.604931",
+                    "ticker_sentiment_score": "0.137163",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -413,24 +527,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.806796"
+                    "relevance_score": "0.830112"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.909916"
+                    "relevance_score": "0.934408"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.735433"
+                    "relevance_score": "0.748360"
                 }
             ],
-            "overall_sentiment_score": 0.023034,
+            "overall_sentiment_score": 0.012186,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "SNPS",
-                    "relevance_score": "0.322788",
-                    "ticker_sentiment_score": "0.043207",
+                    "relevance_score": "0.316311",
+                    "ticker_sentiment_score": "0.041903",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -455,36 +569,36 @@
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.943940"
+                    "relevance_score": "0.904624"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.801028"
+                    "relevance_score": "0.828717"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.824563"
+                    "relevance_score": "0.818925"
                 }
             ],
-            "overall_sentiment_score": 0.168896,
+            "overall_sentiment_score": 0.175175,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "AMKR",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.250878",
+                    "ticker_sentiment_score": "0.259718",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "KLAC",
-                    "relevance_score": "0.617834",
-                    "ticker_sentiment_score": "0.109363",
+                    "relevance_score": "0.638537",
+                    "ticker_sentiment_score": "0.101477",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "TER",
-                    "relevance_score": "0.647281",
-                    "ticker_sentiment_score": "0.144658",
+                    "relevance_score": "0.600793",
+                    "ticker_sentiment_score": "0.144974",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -505,32 +619,32 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.918142"
+                    "relevance_score": "0.939763"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.838682"
+                    "relevance_score": "0.829936"
                 },
                 {
                     "topic": "retail_wholesale",
-                    "relevance_score": "0.703959"
+                    "relevance_score": "0.719615"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.634003"
+                    "relevance_score": "0.642512"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.621775"
+                    "relevance_score": "0.612258"
                 }
             ],
-            "overall_sentiment_score": 0.116128,
+            "overall_sentiment_score": 0.102662,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "VIPS",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.115486",
+                    "ticker_sentiment_score": "0.124320",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -550,20 +664,20 @@
             "topics": [
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.925503"
+                    "relevance_score": "0.917199"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.610619"
+                    "relevance_score": "0.623401"
                 }
             ],
-            "overall_sentiment_score": 0.115558,
+            "overall_sentiment_score": 0.123568,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "SPGI",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.114894",
+                    "ticker_sentiment_score": "0.117525",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -583,20 +697,20 @@
             "topics": [
                 {
                     "topic": "manufacturing",
-                    "relevance_score": "0.942431"
+                    "relevance_score": "0.943043"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.823323"
+                    "relevance_score": "0.804209"
                 }
             ],
-            "overall_sentiment_score": 0.323436,
+            "overall_sentiment_score": 0.332603,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "DE",
-                    "relevance_score": "0.972528",
-                    "ticker_sentiment_score": "0.325593",
+                    "relevance_score": "0.989165",
+                    "ticker_sentiment_score": "0.339205",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -616,32 +730,32 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.913736"
+                    "relevance_score": "0.933255"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.815261"
+                    "relevance_score": "0.815903"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.636451"
+                    "relevance_score": "0.622246"
                 },
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.749940"
+                    "relevance_score": "0.727743"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.618771"
+                    "relevance_score": "0.621230"
                 }
             ],
-            "overall_sentiment_score": 0.321008,
+            "overall_sentiment_score": 0.332264,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "ALGT",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.349692",
+                    "ticker_sentiment_score": "0.307488",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -662,28 +776,28 @@
             "topics": [
                 {
                     "topic": "retail_wholesale",
-                    "relevance_score": "0.922732"
+                    "relevance_score": "0.901692"
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.809206"
+                    "relevance_score": "0.839664"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.710488"
+                    "relevance_score": "0.720015"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.610984"
+                    "relevance_score": "0.645063"
                 }
             ],
-            "overall_sentiment_score": 0.264319,
+            "overall_sentiment_score": 0.26073,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "ULTA",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.279877",
+                    "ticker_sentiment_score": "0.290252",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -704,20 +818,20 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.927995"
+                    "relevance_score": "0.930638"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.725764"
+                    "relevance_score": "0.701419"
                 }
             ],
-            "overall_sentiment_score": -0.403419,
+            "overall_sentiment_score": -0.380634,
             "overall_sentiment_label": "Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "CTVA",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.395747",
+                    "ticker_sentiment_score": "-0.415938",
                     "ticker_sentiment_label": "Bearish"
                 }
             ]
@@ -737,22 +851,22 @@
             "topics": [
                 {
                     "topic": "life_sciences",
-                    "relevance_score": "0.914463"
+                    "relevance_score": "0.938913"
                 }
             ],
-            "overall_sentiment_score": 0.198808,
+            "overall_sentiment_score": 0.191773,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "CI",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.244949",
+                    "ticker_sentiment_score": "0.240846",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "CNC",
-                    "relevance_score": "0.647481",
-                    "ticker_sentiment_score": "0.126196",
+                    "relevance_score": "0.615749",
+                    "ticker_sentiment_score": "0.107618",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -772,34 +886,34 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.919338"
+                    "relevance_score": "0.915225"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.849753"
+                    "relevance_score": "0.821044"
                 },
                 {
                     "topic": "manufacturing",
-                    "relevance_score": "0.723074"
+                    "relevance_score": "0.729499"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.629085"
+                    "relevance_score": "0.625623"
                 }
             ],
-            "overall_sentiment_score": -0.06232,
+            "overall_sentiment_score": -0.096519,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "FSLR",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.410091",
+                    "ticker_sentiment_score": "-0.409587",
                     "ticker_sentiment_label": "Bearish"
                 },
                 {
                     "ticker": "NVDA",
-                    "relevance_score": "0.649960",
-                    "ticker_sentiment_score": "0.312889",
+                    "relevance_score": "0.605958",
+                    "ticker_sentiment_score": "0.303671",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -819,24 +933,24 @@
             "topics": [
                 {
                     "topic": "technology",
-                    "relevance_score": "0.904382"
+                    "relevance_score": "0.920836"
                 },
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.893720"
+                    "relevance_score": "0.899039"
                 },
                 {
                     "topic": "retail_wholesale",
-                    "relevance_score": "0.630046"
+                    "relevance_score": "0.627155"
                 }
             ],
-            "overall_sentiment_score": -0.339365,
+            "overall_sentiment_score": -0.324898,
             "overall_sentiment_label": "Somewhat-Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "TSLA",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.342554",
+                    "ticker_sentiment_score": "-0.337311",
                     "ticker_sentiment_label": "Somewhat-Bearish"
                 }
             ]
@@ -856,32 +970,32 @@
             "topics": [
                 {
                     "topic": "finance",
-                    "relevance_score": "0.845000"
+                    "relevance_score": "0.846193"
                 },
                 {
                     "topic": "retail_wholesale",
-                    "relevance_score": "0.619765"
+                    "relevance_score": "0.641801"
                 }
             ],
-            "overall_sentiment_score": 0.193581,
+            "overall_sentiment_score": 0.231006,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "CZR",
-                    "relevance_score": "0.956970",
-                    "ticker_sentiment_score": "0.404183",
+                    "relevance_score": "0.956943",
+                    "ticker_sentiment_score": "0.431085",
                     "ticker_sentiment_label": "Bullish"
                 },
                 {
                     "ticker": "MGM",
-                    "relevance_score": "0.606771",
-                    "ticker_sentiment_score": "0.100551",
+                    "relevance_score": "0.614882",
+                    "ticker_sentiment_score": "0.109528",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "WYNN",
-                    "relevance_score": "0.584190",
-                    "ticker_sentiment_score": "0.092722",
+                    "relevance_score": "0.553203",
+                    "ticker_sentiment_score": "0.052471",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -899,56 +1013,56 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.942303"
+                    "relevance_score": "0.907801"
                 },
                 {
                     "topic": "real_estate",
-                    "relevance_score": "0.947772"
+                    "relevance_score": "0.947427"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.846890"
+                    "relevance_score": "0.812477"
                 },
                 {
                     "topic": "life_sciences",
-                    "relevance_score": "0.739445"
+                    "relevance_score": "0.749596"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.631712"
+                    "relevance_score": "0.646053"
                 }
             ],
-            "overall_sentiment_score": 0.077762,
+            "overall_sentiment_score": 0.069954,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "UHT",
-                    "relevance_score": "0.311262",
-                    "ticker_sentiment_score": "0.045954",
+                    "relevance_score": "0.308950",
+                    "ticker_sentiment_score": "0.046850",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "UHS",
-                    "relevance_score": "0.748870",
-                    "ticker_sentiment_score": "0.147044",
+                    "relevance_score": "0.736845",
+                    "ticker_sentiment_score": "0.139480",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "VTR",
-                    "relevance_score": "0.637072",
-                    "ticker_sentiment_score": "0.100932",
+                    "relevance_score": "0.623841",
+                    "ticker_sentiment_score": "0.139375",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "ARE",
-                    "relevance_score": "0.562957",
-                    "ticker_sentiment_score": "0.099440",
+                    "relevance_score": "0.583498",
+                    "ticker_sentiment_score": "0.084601",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "WELL",
-                    "relevance_score": "0.545960",
-                    "ticker_sentiment_score": "0.108929",
+                    "relevance_score": "0.569559",
+                    "ticker_sentiment_score": "0.085941",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -968,25 +1082,58 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.921857"
+                    "relevance_score": "0.946589"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.830228"
+                    "relevance_score": "0.841424"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.704206"
+                    "relevance_score": "0.722555"
                 }
             ],
-            "overall_sentiment_score": -0.249284,
+            "overall_sentiment_score": -0.222912,
             "overall_sentiment_label": "Somewhat-Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "U",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.219577",
+                    "ticker_sentiment_score": "-0.209015",
                     "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "AAR Corp. (NYSE:AIR) Short Interest Down 21.0% in January",
+            "url": "https://www.marketbeat.com/instant-alerts/aar-corp-nyseair-short-interest-down-210-in-january-2026-02-15/",
+            "time_published": "20260215T182742",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "AAR Corp. (NYSE:AIR) experienced a significant 21.0% decrease in short interest during January, totaling 1,098,280 shares by January 30th. This translates to a short-interest ratio of 2.7 days and indicates that 2.9% of the company's shares are currently short sold. The company recently surpassed earnings estimates, reporting an EPS of $1.18 and revenue of $795.3 million, with analysts maintaining a \"Moderate Buy\" consensus rating and an average price target of $110.80.",
+            "banner_image": "https://www.marketbeat.com/logos/aar-corp-logo-1200x675.jpg",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.946994"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.810533"
+                }
+            ],
+            "overall_sentiment_score": 0.423141,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AIR",
+                    "relevance_score": "0.969470",
+                    "ticker_sentiment_score": "0.411657",
+                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         },
@@ -1007,16 +1154,16 @@
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.841833"
+                    "relevance_score": "0.811162"
                 }
             ],
-            "overall_sentiment_score": 0.422641,
+            "overall_sentiment_score": 0.419241,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "TENX",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.392026",
+                    "ticker_sentiment_score": "0.434110",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
@@ -1034,32 +1181,32 @@
             "topics": [
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.914227"
+                    "relevance_score": "0.903554"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.836067"
+                    "relevance_score": "0.810663"
                 }
             ],
-            "overall_sentiment_score": 0.180234,
+            "overall_sentiment_score": 0.206483,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "CBOE",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.306953",
+                    "ticker_sentiment_score": "0.316675",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "ICE",
-                    "relevance_score": "0.722903",
-                    "ticker_sentiment_score": "0.135655",
+                    "relevance_score": "0.722310",
+                    "ticker_sentiment_score": "0.118805",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "NDAQ",
-                    "relevance_score": "0.720423",
-                    "ticker_sentiment_score": "0.108374",
+                    "relevance_score": "0.713356",
+                    "ticker_sentiment_score": "0.114886",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1080,24 +1227,24 @@
             "topics": [
                 {
                     "topic": "life_sciences",
-                    "relevance_score": "0.904278"
+                    "relevance_score": "0.916258"
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.705795"
+                    "relevance_score": "0.733038"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.639709"
+                    "relevance_score": "0.628292"
                 }
             ],
-            "overall_sentiment_score": 0.431519,
+            "overall_sentiment_score": 0.411337,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "BBIO",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.447789",
+                    "ticker_sentiment_score": "0.413120",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
@@ -1117,16 +1264,16 @@
             "topics": [
                 {
                     "topic": "technology",
-                    "relevance_score": "0.906505"
+                    "relevance_score": "0.944279"
                 }
             ],
-            "overall_sentiment_score": 0.004266,
+            "overall_sentiment_score": 0.017354,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "SONY",
-                    "relevance_score": "0.305433",
-                    "ticker_sentiment_score": "0.039902",
+                    "relevance_score": "0.300736",
+                    "ticker_sentiment_score": "0.001356",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1146,16 +1293,16 @@
             "topics": [
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.912704"
+                    "relevance_score": "0.911899"
                 }
             ],
-            "overall_sentiment_score": -0.445779,
+            "overall_sentiment_score": -0.424149,
             "overall_sentiment_label": "Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "XEL",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.449731",
+                    "ticker_sentiment_score": "-0.410773",
                     "ticker_sentiment_label": "Bearish"
                 }
             ]
@@ -1175,28 +1322,28 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.926923"
+                    "relevance_score": "0.919431"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.833124"
+                    "relevance_score": "0.801381"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.644962"
+                    "relevance_score": "0.602209"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.606902"
+                    "relevance_score": "0.637688"
                 }
             ],
-            "overall_sentiment_score": 0.046386,
+            "overall_sentiment_score": 0.031244,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "BKNG",
-                    "relevance_score": "0.314734",
-                    "ticker_sentiment_score": "0.046487",
+                    "relevance_score": "0.329139",
+                    "ticker_sentiment_score": "0.015719",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1216,30 +1363,30 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.940627"
+                    "relevance_score": "0.915494"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.811502"
+                    "relevance_score": "0.804800"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.712549"
+                    "relevance_score": "0.716786"
                 }
             ],
-            "overall_sentiment_score": 0.056476,
+            "overall_sentiment_score": 0.040744,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "QRVO",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.228813",
+                    "ticker_sentiment_score": "0.202979",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "ORCL",
-                    "relevance_score": "0.588531",
-                    "ticker_sentiment_score": "-0.145377",
+                    "relevance_score": "0.595755",
+                    "ticker_sentiment_score": "-0.140181",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1259,36 +1406,36 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.920196"
+                    "relevance_score": "0.922216"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.819110"
+                    "relevance_score": "0.825526"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.700744"
+                    "relevance_score": "0.707878"
                 }
             ],
-            "overall_sentiment_score": 0.188317,
+            "overall_sentiment_score": 0.178534,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "NOW",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.270093",
+                    "ticker_sentiment_score": "0.290568",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "C",
-                    "relevance_score": "0.637930",
-                    "ticker_sentiment_score": "0.135305",
+                    "relevance_score": "0.617409",
+                    "ticker_sentiment_score": "0.136486",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "MS",
-                    "relevance_score": "0.647687",
-                    "ticker_sentiment_score": "0.138593",
+                    "relevance_score": "0.637431",
+                    "ticker_sentiment_score": "0.120385",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1306,24 +1453,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.933234"
+                    "relevance_score": "0.939478"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.814838"
+                    "relevance_score": "0.845829"
                 },
                 {
                     "topic": "real_estate",
-                    "relevance_score": "0.723069"
+                    "relevance_score": "0.735603"
                 }
             ],
-            "overall_sentiment_score": 0.327784,
+            "overall_sentiment_score": 0.347221,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "WY",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.349362",
+                    "ticker_sentiment_score": "0.328821",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1344,24 +1491,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.946373"
+                    "relevance_score": "0.908686"
                 },
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.835522"
+                    "relevance_score": "0.829495"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.748948"
+                    "relevance_score": "0.717317"
                 }
             ],
-            "overall_sentiment_score": 0.142896,
+            "overall_sentiment_score": 0.107516,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "DTE",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.140459",
+                    "ticker_sentiment_score": "0.110011",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1382,32 +1529,32 @@
             "topics": [
                 {
                     "topic": "finance",
-                    "relevance_score": "0.908092"
+                    "relevance_score": "0.903695"
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.826252"
+                    "relevance_score": "0.825278"
                 }
             ],
-            "overall_sentiment_score": 0.134164,
+            "overall_sentiment_score": 0.133552,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "USB",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.236016",
+                    "ticker_sentiment_score": "0.224701",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "PNC",
-                    "relevance_score": "0.609405",
-                    "ticker_sentiment_score": "0.132549",
+                    "relevance_score": "0.643165",
+                    "ticker_sentiment_score": "0.111951",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "FITB",
-                    "relevance_score": "0.597619",
-                    "ticker_sentiment_score": "0.115805",
+                    "relevance_score": "0.594543",
+                    "ticker_sentiment_score": "0.118045",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1427,24 +1574,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.927679"
+                    "relevance_score": "0.903256"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.831429"
+                    "relevance_score": "0.805351"
                 },
                 {
                     "topic": "retail_wholesale",
-                    "relevance_score": "0.744438"
+                    "relevance_score": "0.729600"
                 }
             ],
-            "overall_sentiment_score": 0.141532,
+            "overall_sentiment_score": 0.127318,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "SHOO",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.105539",
+                    "ticker_sentiment_score": "0.114678",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1464,20 +1611,20 @@
             "topics": [
                 {
                     "topic": "life_sciences",
-                    "relevance_score": "0.938679"
+                    "relevance_score": "0.943454"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.839649"
+                    "relevance_score": "0.804409"
                 }
             ],
-            "overall_sentiment_score": 0.327954,
+            "overall_sentiment_score": 0.3434,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "BEAM",
-                    "relevance_score": "0.956833",
-                    "ticker_sentiment_score": "0.314998",
+                    "relevance_score": "0.956753",
+                    "ticker_sentiment_score": "0.319719",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1495,20 +1642,20 @@
             "topics": [
                 {
                     "topic": "manufacturing",
-                    "relevance_score": "0.648751"
+                    "relevance_score": "0.649496"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.600371"
+                    "relevance_score": "0.622922"
                 }
             ],
-            "overall_sentiment_score": -0.646894,
+            "overall_sentiment_score": -0.616606,
             "overall_sentiment_label": "Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "RIO",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.633418",
+                    "ticker_sentiment_score": "-0.630257",
                     "ticker_sentiment_label": "Bearish"
                 }
             ]
@@ -1530,16 +1677,16 @@
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.842887"
+                    "relevance_score": "0.823796"
                 }
             ],
-            "overall_sentiment_score": -0.719251,
+            "overall_sentiment_score": -0.731791,
             "overall_sentiment_label": "Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "PLUG",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.726447",
+                    "ticker_sentiment_score": "-0.732204",
                     "ticker_sentiment_label": "Bearish"
                 }
             ]
@@ -1557,20 +1704,20 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.929310"
+                    "relevance_score": "0.937997"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.733657"
+                    "relevance_score": "0.749501"
                 }
             ],
-            "overall_sentiment_score": 0.630578,
+            "overall_sentiment_score": 0.605239,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "FAST",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.617853",
+                    "ticker_sentiment_score": "0.633173",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
@@ -1594,42 +1741,42 @@
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.842763"
+                    "relevance_score": "0.839193"
                 },
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.712518"
+                    "relevance_score": "0.712401"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.646332"
+                    "relevance_score": "0.609850"
                 }
             ],
-            "overall_sentiment_score": 0.173262,
+            "overall_sentiment_score": 0.194733,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "DVN",
-                    "relevance_score": "0.998887",
-                    "ticker_sentiment_score": "0.330794",
+                    "relevance_score": "0.996964",
+                    "ticker_sentiment_score": "0.318927",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "CTRA",
-                    "relevance_score": "0.885816",
-                    "ticker_sentiment_score": "0.269188",
+                    "relevance_score": "0.897136",
+                    "ticker_sentiment_score": "0.256542",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "EOG",
-                    "relevance_score": "0.625915",
-                    "ticker_sentiment_score": "0.061295",
+                    "relevance_score": "0.646213",
+                    "ticker_sentiment_score": "0.099662",
                     "ticker_sentiment_label": "Neutral"
                 },
                 {
                     "ticker": "OXY",
-                    "relevance_score": "0.601420",
-                    "ticker_sentiment_score": "0.083497",
+                    "relevance_score": "0.630453",
+                    "ticker_sentiment_score": "0.097907",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1647,24 +1794,24 @@
             "topics": [
                 {
                     "topic": "mergers_and_acquisitions",
-                    "relevance_score": "0.908056"
+                    "relevance_score": "0.935280"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.809402"
+                    "relevance_score": "0.810896"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.740721"
+                    "relevance_score": "0.709148"
                 }
             ],
-            "overall_sentiment_score": 0.258765,
+            "overall_sentiment_score": 0.267307,
             "overall_sentiment_label": "Somewhat-Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "SWKS",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.264266",
+                    "ticker_sentiment_score": "0.252292",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1684,40 +1831,40 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.924293"
+                    "relevance_score": "0.901463"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.833006"
+                    "relevance_score": "0.838860"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.720464"
+                    "relevance_score": "0.735204"
                 },
                 {
                     "topic": "economy_macro",
-                    "relevance_score": "0.618912"
+                    "relevance_score": "0.620240"
                 }
             ],
-            "overall_sentiment_score": 0.145637,
+            "overall_sentiment_score": 0.138725,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "INTC",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.208430",
+                    "ticker_sentiment_score": "-0.242994",
                     "ticker_sentiment_label": "Somewhat-Bearish"
                 },
                 {
                     "ticker": "NVDA",
-                    "relevance_score": "0.643450",
-                    "ticker_sentiment_score": "0.281556",
+                    "relevance_score": "0.603928",
+                    "ticker_sentiment_score": "0.251429",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 },
                 {
                     "ticker": "AMD",
-                    "relevance_score": "0.567896",
-                    "ticker_sentiment_score": "0.266205",
+                    "relevance_score": "0.563379",
+                    "ticker_sentiment_score": "0.273801",
                     "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
@@ -1735,16 +1882,16 @@
             "topics": [
                 {
                     "topic": "finance",
-                    "relevance_score": "0.903812"
+                    "relevance_score": "0.907663"
                 }
             ],
-            "overall_sentiment_score": -0.808112,
+            "overall_sentiment_score": -0.808069,
             "overall_sentiment_label": "Bearish",
             "ticker_sentiment": [
                 {
                     "ticker": "FFIV",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.842718",
+                    "ticker_sentiment_score": "-0.848150",
                     "ticker_sentiment_label": "Bearish"
                 }
             ]
@@ -1764,24 +1911,24 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.906830"
+                    "relevance_score": "0.915235"
                 },
                 {
                     "topic": "technology",
-                    "relevance_score": "0.845592"
+                    "relevance_score": "0.826069"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.731368"
+                    "relevance_score": "0.739876"
                 }
             ],
-            "overall_sentiment_score": 0.426184,
+            "overall_sentiment_score": 0.418971,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "FTNT",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.415402",
+                    "ticker_sentiment_score": "0.407819",
                     "ticker_sentiment_label": "Bullish"
                 }
             ]
@@ -1803,28 +1950,28 @@
             "topics": [
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.948626"
+                    "relevance_score": "0.944928"
                 },
                 {
                     "topic": "financial_markets",
-                    "relevance_score": "0.818440"
+                    "relevance_score": "0.835118"
                 },
                 {
                     "topic": "energy_transportation",
-                    "relevance_score": "0.707237"
+                    "relevance_score": "0.729861"
                 },
                 {
                     "topic": "finance",
-                    "relevance_score": "0.612555"
+                    "relevance_score": "0.621188"
                 }
             ],
-            "overall_sentiment_score": 0.138794,
+            "overall_sentiment_score": 0.146802,
             "overall_sentiment_label": "Neutral",
             "ticker_sentiment": [
                 {
                     "ticker": "PUMP",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.145563",
+                    "ticker_sentiment_score": "0.115338",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]
@@ -1846,219 +1993,17 @@
                 },
                 {
                     "topic": "earnings",
-                    "relevance_score": "0.910284"
+                    "relevance_score": "0.914878"
                 }
             ],
-            "overall_sentiment_score": 0.495625,
+            "overall_sentiment_score": 0.470663,
             "overall_sentiment_label": "Bullish",
             "ticker_sentiment": [
                 {
                     "ticker": "CANG",
                     "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.489144",
+                    "ticker_sentiment_score": "0.486144",
                     "ticker_sentiment_label": "Bullish"
-                }
-            ]
-        },
-        {
-            "title": "A Low-Cost Gateway to European Equities: Analyzing the JPMorgan ETF",
-            "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/a-low-cost-gateway-to-european-equities-analyzing-the-jpmorgan-etf/68583291",
-            "time_published": "20260215T165750",
-            "authors": [],
-            "summary": "The JPMorgan BetaBuilders Europe ETF (BBEU) is presented as a cost-efficient option for investors looking to access European blue-chip stocks, particularly given its low expense ratio of 0.09%. The article highlights the ETF's focus on large- and mid-cap companies across financials, industrials, and healthcare sectors, and discusses how monetary policy signals from the ECB and the upcoming earnings season will influence its performance. Investors are advised to monitor these factors and capital flows to gauge market sentiment towards European equities.",
-            "banner_image": "https://mdb.ad-hoc-news.de/img/icons/uhr_realtime.jpg",
-            "source": "AD HOC NEWS",
-            "category_within_source": "General",
-            "source_domain": "AD HOC NEWS",
-            "topics": [
-                {
-                    "topic": "financial_markets",
-                    "relevance_score": "0.915779"
-                },
-                {
-                    "topic": "economy_monetary",
-                    "relevance_score": "0.809716"
-                },
-                {
-                    "topic": "earnings",
-                    "relevance_score": "0.742093"
-                }
-            ],
-            "overall_sentiment_score": 0.264161,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BBEU",
-                    "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.313151",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "JPM",
-                    "relevance_score": "0.609123",
-                    "ticker_sentiment_score": "0.201578",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                }
-            ]
-        },
-        {
-            "title": "Instacart stock jumps on upbeat outlook; what could move CART next week",
-            "url": "https://ts2.tech/en/instacart-stock-jumps-on-upbeat-outlook-what-could-move-cart-next-week/",
-            "time_published": "20260215T165739",
-            "authors": [
-                "Khadija Saeed"
-            ],
-            "summary": "Instacart (Maplebear Inc.) stock rose 9.2% on Friday to $36.30 after reporting strong quarterly results and an upbeat outlook, with first-quarter gross transaction value projected between $10.13 billion and $10.28 billion. The company's advertising revenue also surpassed $1 billion in 2025, signaling a promising core business performance. However, competition from DoorDash, Uber Eats, and Amazon, along with the challenge of maintaining double-digit grocery delivery growth, pose potential headwinds for CART as markets resume after the Presidents Day holiday.",
-            "banner_image": "https://ts2.tech/wp-content/uploads/2026/02/instacart-stock-jumps-on-upbeat-outlook-what-could-move-cart-next-week-featured-1.jpg",
-            "source": "TechStock\u00b2",
-            "category_within_source": "General",
-            "source_domain": "TechStock\u00b2",
-            "topics": [
-                {
-                    "topic": "earnings",
-                    "relevance_score": "0.936313"
-                },
-                {
-                    "topic": "financial_markets",
-                    "relevance_score": "0.822769"
-                },
-                {
-                    "topic": "economy_macro",
-                    "relevance_score": "0.619928"
-                },
-                {
-                    "topic": "retail_wholesale",
-                    "relevance_score": "0.713886"
-                }
-            ],
-            "overall_sentiment_score": 0.196383,
-            "overall_sentiment_label": "Somewhat-Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "CART",
-                    "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.421490",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "DASH",
-                    "relevance_score": "0.740722",
-                    "ticker_sentiment_score": "0.258596",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "UBER",
-                    "relevance_score": "0.647037",
-                    "ticker_sentiment_score": "0.115716",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AMZN",
-                    "relevance_score": "0.629364",
-                    "ticker_sentiment_score": "0.133442",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WMT",
-                    "relevance_score": "0.598319",
-                    "ticker_sentiment_score": "-0.129651",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges BellRing Brands, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "url": "https://www.globenewswire.com/news-release/2026/02/15/3238490/9788/en/Bronstein-Gewirtz-Grossman-LLC-Urges-BellRing-Brands-Inc-Investors-to-Act-Class-Action-Filed-Alleging-Investor-Harm.html",
-            "time_published": "20260215T165720",
-            "authors": [],
-            "summary": "Bronstein, Gewirtz & Grossman LLC has filed a class action lawsuit against BellRing Brands, Inc. (NYSE: BRBR) on behalf of investors who purchased securities between November 19, 2024, and August 4, 2025. The lawsuit alleges that BellRing made false and misleading statements regarding its sales performance, which did not reflect genuine consumer demand but rather resulted from customers accumulating excess inventory. Investors are encouraged to join the case, with a lead plaintiff deadline of March 23, 2026.",
-            "banner_image": "https://ml.globenewswire.com/media/YTU1ODU0NzQtOGQ0Mi00NjczLTlmNTItN2QyMjQ2MjNhNWExLTEwMjkyNjAtMjAyNi0wMi0xNS1lbg==/tiny/Bronstein-Gewirtz-Grossman-LLC.png",
-            "source": "GlobeNewswire",
-            "category_within_source": "General",
-            "source_domain": "GlobeNewswire",
-            "topics": [
-                {
-                    "topic": "finance",
-                    "relevance_score": "0.920001"
-                },
-                {
-                    "topic": "earnings",
-                    "relevance_score": "0.826955"
-                },
-                {
-                    "topic": "financial_markets",
-                    "relevance_score": "0.724923"
-                },
-                {
-                    "topic": "retail_wholesale",
-                    "relevance_score": "0.618533"
-                }
-            ],
-            "overall_sentiment_score": -0.473074,
-            "overall_sentiment_label": "Bearish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "BRBR",
-                    "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "-0.493726",
-                    "ticker_sentiment_label": "Bearish"
-                }
-            ]
-        },
-        {
-            "title": "Western Digital (WDC) stock price: What to watch after Friday\u2019s dip into a Fed-heavy week",
-            "url": "https://ts2.tech/en/western-digital-wdc-stock-price-what-to-watch-after-fridays-dip-into-a-fed-heavy-week/",
-            "time_published": "20260215T165658",
-            "authors": [
-                "Khadija Saeed"
-            ],
-            "summary": "Western Digital (WDC) stock closed at $281.58 on Friday after a 0.9% dip, ahead of a Fed-heavy week with investors awaiting Fed minutes and inflation numbers. A director recently transferred shares, and the company reported strong Q2 results driven by the AI-driven data economy, projecting increased revenue and margins for Q3. The broader market sentiment, influenced by macro releases like the PCE price index, is expected to significantly impact tech and growth stocks, including WDC.",
-            "banner_image": "https://ts2.tech/wp-content/uploads/2026/02/western-digital-wdc-stock-price-what-to-watch-after-fridays-dip-into-a-fed-heavy-week-featured.jpg",
-            "source": "TechStock\u00b2",
-            "category_within_source": "General",
-            "source_domain": "TechStock\u00b2",
-            "topics": [
-                {
-                    "topic": "financial_markets",
-                    "relevance_score": "0.923830"
-                },
-                {
-                    "topic": "earnings",
-                    "relevance_score": "0.948877"
-                },
-                {
-                    "topic": "economy_monetary",
-                    "relevance_score": "0.813957"
-                },
-                {
-                    "topic": "technology",
-                    "relevance_score": "0.712526"
-                },
-                {
-                    "topic": "economy_macro",
-                    "relevance_score": "0.643454"
-                }
-            ],
-            "overall_sentiment_score": 0.096507,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "WDC",
-                    "relevance_score": "1.000000",
-                    "ticker_sentiment_score": "0.086101",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "STX",
-                    "relevance_score": "0.600599",
-                    "ticker_sentiment_score": "-0.113952",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "NTAP",
-                    "relevance_score": "0.543380",
-                    "ticker_sentiment_score": "0.288556",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
                 }
             ]
         }
