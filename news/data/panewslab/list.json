@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": "019c7953-06d3-7079-b707-0f25d1f17650",
+            "title": "做空ETH的三个鲸鱼当前浮盈均超800万美元",
+            "description": "PANews 2月20日消息，据 Onchain Lens 监测，随着市场趋稳，三个做空 ETH 的鲸鱼总浮盈已超 2400 万美元，其中：\n- 鲸鱼 “0xed4”持有 25 倍杠杆空单浮盈 880 万美元；\n- 鲸鱼 “0x0b0” 持有 20 倍杠杆空单浮盈 840 万美元；\n- 鲸鱼 “0x20c” 持有 25 倍杠杆空单浮盈 840 万美元。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/019c7953-06d3-7079-b707-0f25d1f17650.html",
+            "pub_date": "2026-02-20 12:32:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
+            "id": "019c7954-6ac7-740d-9b44-c4eb17e2e877",
+            "title": "Balancer暂停reCLAMM相关流动性池进行安全调查",
+            "description": "PANews 2月20日消息，Balancer 在 X 平台发文表示，收到漏洞赏金平台 Immunefi 提交的一份关于 Balancer 的 reCLAMM（重新调整集中流动性 AMM）的安全报告。出于谨慎原则，Balancer 已在调查期间暂停相关流动性池的运作。目前用户资金安全且完全可正常访问，后续进展将持续对外公布。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/019c7954-6ac7-740d-9b44-c4eb17e2e877.html",
+            "pub_date": "2026-02-20 12:34:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019c794e-2172-70eb-8c30-2023179d8ea1",
             "title": "慢雾余弦：ClawHub市场发现恶意技能，可能窃取SSH密钥、加密钱包等",
             "description": "PANews 2月20日消息，慢雾创始人余弦在 X 平台发文表示，目前 OpenClaw 的 ClawHub 市场共发现 1184 个恶意技能，这些技能会窃取 SSH 密钥、加密钱包、浏览器密码并打开反向 shell。仅一名攻击者就上传了 677 个软件包。排名第一的技能存在 9 个漏洞，下载量达数千次。\n余弦提醒用户，文本不再是文本，而是指令。建议通过独立环境使用 AI 工具，许多 OpenClaw 技能存在潜在风险。此外，Web3 安全里合约只是一部分，真正事故原因早已不仅仅是合约。前几日 Moonwell 被盗 178 万美元，缺陷代码来自 Co-Authored-By：Claude Opus 4.6。",
@@ -176,26 +196,6 @@
             "description": "PANews 2月20日消息，据金十报道，现货黄金突破5010美元/盎司，日内涨0.29%。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/019c7891-e085-768d-a010-57336b07230a.html",
             "pub_date": "2026-02-20 08:56:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019c7880-f5c9-724f-9058-f1347eaa7a65",
-            "title": "Vitalik：FOCIL与EIP-8141协同可实现抗审查快速上链",
-            "description": "PANews 2月20日消息，Vitalik Buterin在X平台发文表示，FOCIL 机制与账户抽象提案 Ethereum 的 EIP-8141（基于 7701）之间存在重要协同效应，EIP-8141 将智能账户（包括多签、抗量子签名、密钥变更、Gas 赞助等）提升为“第一类公民”，意味着来自该账户的操作可直接作为链上交易被打包，无需额外封装。同时，隐私协议也可通过 paymaster 或 2D nonce 机制实现多租户账户模式，从而获得同等级别的原生支持。\nFOCIL 则提供抗审查的快速交易纳入机制。在两者结合下，包括智能钱包交易、Gas 赞助交易及隐私协议交易在内的各类交易，都可通过每个时隙随机选出的 17 个角色（提议者或包含者）之一被纳入区块。Vitalik 表示，这种设计可在对抗性环境下保障交易几乎必然在 1–2 个时隙内完成上链。\n当前版本中，每个 FOCIL 体量约为 8kB，规模较小，但未来存在扩展路径，可支持区块中大部分交易通过 FOCIL 通道进入。该架构在特性上类似多并行提议者（MCP）设计，但不同之处在于，FOCIL 不控制与 MEV 相关的“最后查看权（last look）”，该角色仍通过 ePBS 拍卖机制分配。\nVitalik 强调，即便 100% 的区块时隙通过提议者-构建者分离（PBS）机制被敌对方垄断，拒绝连接公共内存池或歧视特定应用，FOCIL 仍可确保所有交易获得快速纳入。这一设计虽未消除提议者角色的中心化风险，但显著削弱了其权力。\n在 EIP-8141 框架下，来自智能钱包或隐私协议的交易可直接通过公共 mempool 被 FOCIL 包含者接收，无需额外中介或封装流程。Vitalik 总结称，以太坊正在加速推进核心架构升级。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/019c7880-f5c9-724f-9058-f1347eaa7a65.html",
-            "pub_date": "2026-02-20 08:43:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019c787b-e1fc-71ba-8e84-07408fd5c0f0",
-            "title": "英伟达接近敲定300亿美元投资OpenAI并取代原1000亿合作计划",
-            "description": "PANews 2月20日消息，据金十引述英国金融时报报道，英伟达接近敲定与OpenAI的300亿美元投资，将取代两家公司去年达成的1000亿美元长期承诺。据知情人士透露，英伟达与OpenAI的谈判到了最后阶段，最早可能于本周末敲定。知情人士称，这笔300亿美元的股权投资是更大规模融资的一部分，该轮融资有望筹集超过1000亿美元，将使OpenAI估值达到7300亿美元（不含新资金）。知情人士补充道，OpenAI将把大部分新资金再投资于英伟达硬件，但两家公司将不会推进去年9月宣布的1000亿美元多年投资合作计划。在投资者对AI行业健康状况的担忧加剧、推动美国科技股自年初以来下跌17%的背景下，去年9月高调宣布的协议被搁置。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/019c787b-e1fc-71ba-8e84-07408fd5c0f0.html",
-            "pub_date": "2026-02-20 08:37:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
