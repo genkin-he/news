@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 1041680,
+            "title": "Standard Chartered Initiates Sale of Botswana Business",
+            "description": "Standard Chartered has commenced the sale of its Botswana operations, with initial bids anticipated by mid-year, according to sources. Bloomberg posted on X, revealing the bank's strategic move to streamline its operations. The decision aligns with Standard Chartered's broader strategy to focus on markets with higher growth potential. The sale process is expected to attract interest from various bidders, reflecting the bank's efforts to optimize its global footprint. The move comes as part of Standard Chartered's ongoing evaluation of its business portfolio, aiming to enhance efficiency and profitability.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041680&language=en-US",
+            "pub_date": "2026-02-20 12:43:21",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1041679,
+            "title": "Polymarket Faces Hack Due to Order System Flaw",
+            "description": "Polymarket, a prediction market platform, has been targeted by hackers exploiting a design flaw in its order system synchronization mechanism. According to ChainCatcher, the attackers manipulated the nonce to cancel or invalidate on-chain matched trades before they were finalized, while off-chain records remained valid. This discrepancy led to API errors affecting trading bots like Negrisk, resulting in user losses.\n\nThe attack involved several steps: first, the attackers submitted or matched large reverse trades with market-making bots on Polymarket's off-chain order book. They then constructed transactions with forged or duplicate nonces or engaged in nonce competition on-chain, ensuring the on-chain transactions would revert. The Polymarket API prematurely reported a 'successful trade' to the bots before on-chain confirmation, causing the bots to believe their positions were hedged, although the actual on-chain status had not changed.\n\nSubsequently, the attackers executed real on-chain trades to exploit the exposed positions of the bots, profiting without risk. Since the reversion occurred at the chain level, Polymarket's fees did not escalate, keeping attack costs manageable and allowing continuous execution.\n\nGoPlus advises users to halt automated trading tools, verify on-chain transaction statuses, enhance wallet security, and closely monitor official announcements from Polymarket.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041679&language=en-US",
+            "pub_date": "2026-02-20 12:43:46",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1041678,
+            "title": "Kenya Secures $2.25 Billion in Bonds for Debt Buyback",
+            "description": "Kenya has successfully raised $2.25 billion through bond issuance to finance a debt buyback. Bloomberg posted on X, highlighting that this move aligns with a trend among African nations accessing international markets amid declining borrowing costs. The bond sale reflects Kenya's strategic approach to managing its debt obligations and optimizing its financial position. As borrowing costs decrease, several African countries are taking advantage of favorable conditions to secure funding and address their fiscal challenges. Kenya's decision to tap into international markets underscores its commitment to prudent financial management and economic stability.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041678&language=en-US",
+            "pub_date": "2026-02-20 12:44:30",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1041677,
+            "title": "Steve Cohen's Casino Plans Raise Questions Amid Mets Ownership",
+            "description": "The Long View, institutional investor, posted on X. Steve Cohen, known for his ownership of the New York Mets, is reportedly venturing into the casino business. This move has sparked curiosity and speculation among industry observers and fans alike. While Cohen's competitive nature is well-documented, the rationale behind his decision to build a casino remains unclear. The development has drawn parallels to his involvement with the Mets, highlighting his penchant for high-stakes investments. As details about the casino project emerge, stakeholders are keen to understand the strategic motivations driving Cohen's latest business endeavor.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041677&language=en-US",
+            "pub_date": "2026-02-20 12:46:16",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1041676,
             "title": "Balancer suspends reCLAMM-related liquidity pools for security investigation.",
             "description": "Balancer announced on the X platform that it received a security report from the bug bounty platform Immunefi regarding Balancer's reCLAMM (re-adjustment of centralized liquidity AMM). Out of an abundance of caution, Balancer has suspended the operation of the relevant liquidity pool during the investigation. Currently, user funds are safe and fully accessible, and further updates will be provided.",
@@ -156,46 +196,6 @@
             "description": "On February 20, ZeruAI announced the launch of its artificial intelligence agent discovery page, AgentScan, on the Base chain. According to BlockBeats, agents can register, generate behavior-based zScores, and be publicly discovered. AgentScan is built on ERC-8004 and utilizes ZeruAI's behavioral intelligence technology, integrating data from various registration institutions. Additionally, agents can install AgentScan skills via npm.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041649&language=en-US",
             "pub_date": "2026-02-20 11:53:38",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1041648,
-            "title": "Standard Chartered CFO Departure and HSBC Acquisition Impact Earnings Reports",
-            "description": "Standard Chartered's unexpected departure of its finance chief is set to have significant implications as the bank prepares to report its earnings. Bloomberg posted on X, highlighting the potential impact of this leadership change on the bank's financial performance. Meanwhile, HSBC's recent multibillion-dollar acquisition of a bank stake is also under scrutiny as it prepares to release its earnings report. The financial community is closely watching how these developments will influence the banks' strategies and market positions. Both institutions are navigating complex financial landscapes, and their upcoming earnings reports are expected to provide insights into their future directions.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041648&language=en-US",
-            "pub_date": "2026-02-20 11:55:08",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1041640,
-            "title": "FreeRide AI Launches Live Quantitative Trading Competition",
-            "description": "FreeRide AI has announced a seven-day live quantitative trading competition commencing on February 24. According to NS3.AI, the event will feature eight prominent AI models from China and the United States, competing in real-time cryptocurrency markets. The competition focuses on autonomous trading with institutional-grade risk controls. Participants are invited to predict outcomes to earn rewards without the need to invest principal. Following the event, FreeRide plans to invite community users to test its AI Trading Agent, which integrates advanced AI capabilities with professional trading standards.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041640&language=en-US",
-            "pub_date": "2026-02-20 11:36:53",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1041639,
-            "title": "Japan's Fiscal Package Raises Concerns Over National Debt and Bitcoin Impact",
-            "description": "Japan's government has unveiled a fiscal package that includes record spending, tax cuts, and debt-financed deficits, resulting in national debt surpassing 250% of GDP. According to NS3.AI, this development heightens pressure on the Bank of Japan to increase interest rates, a move that historically leads to substantial Bitcoin selloffs due to yen carry trade unwinds. Despite this, the ongoing growth in debt strengthens Bitcoin's long-term appeal as a safeguard against sovereign debt risks and currency depreciation.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041639&language=en-US",
-            "pub_date": "2026-02-20 11:39:02",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1041638,
-            "title": "GEOPOLITICS | Former Ukrainian Commander Allegedly Approved Nord Stream Pipeline Sabotage",
-            "description": "On February 20, Jin10 reported that Germany's Der Spiegel magazine cited sources claiming that Valeriy Zaluzhnyi, the former commander of the Ukrainian military and Ukraine's ambassador to the UK, approved the sabotage of the Nord Stream gas pipelines. According to Jin10, the report states that the decision was made by Zaluzhnyi without the approval of Ukrainian President Volodymyr Zelensky, indicating that the Zelensky administration was unaware of the sabotage plan.\n\nIt is reported that the U.S. Central Intelligence Agency (CIA) was aware of the plan to explode the Nord Stream pipelines beforehand. In 2022, CIA personnel reportedly met with Ukrainian officials in Kyiv, where Ukrainian experts explained the idea of destroying the gas pipelines to the Americans.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1041638&language=en-US",
-            "pub_date": "2026-02-20 11:40:18",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
