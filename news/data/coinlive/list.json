@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 1052399,
+            "title": "Vitalik Buterin published an article outlining Ethereum's scaling plan, covering short-term gas optimization and long-term phased deployment of ZK-EVM.",
+            "description": "Vitalik Buterin stated in an article on the X platform that Ethereum scaling is divided into short-term and long-term parts. In the short term, the Glamsterdam upgrade will introduce a block-level access list to enable parallel verification, ePBS will allow for a larger proportion of time slots to be used for block verification, and Gas repricing will ensure that operational costs are aligned with actual execution time. The multi-dimensional Gas mechanism will be implemented in stages. Firstly, in Glamsterdam, the cost of \"state creation\" will be separated from the cost of \"execution and calldata,\" with state creation Gas not included in the approximately 16 million transaction Gas cap. At the EVM level, a \"reservoir\" dimension mechanism will be introduced, prioritizing the consumption of dedicated dimension Gas by default, and consuming from the reservoir when insufficient. Later, it will transition to multi-dimensional pricing, with different dimensions having different floating Gas prices. Long-term scaling includes ZK-EVM and blob. Regarding blobs, the plan is to continuously iterate PeerDAS, aiming to achieve a data processing capacity of approximately 8MB per second. In the future, Ethereum block data will directly enter the blob. The ZK-EVM rollout will proceed in phases: in 2026, validator clients supporting ZK-EVM will be available, allowing approximately 5% of the network to run; in 2027, this will be expanded to a larger proportion of a small number of nodes, while formal verification will be promoted; once conditions are ripe, it will transition to a three-out-of-five mandatory proof mechanism, ultimately continuously improving the security and formal verification level of ZK-EVM, and involving VM changes such as RISC-V.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1052399&language=en-US",
+            "pub_date": "2026-02-27 23:30:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1052392,
             "title": "Private Credit Lenders Seek Higher Margin on German Insurance Broker Loan Amid AI Concerns",
             "description": "Private credit lenders are demanding an increased margin on a €1.2 billion loan to a German insurance broker, driven by apprehensions regarding the potential risks artificial intelligence (AI) poses to the industry. Bloomberg posted on X, highlighting the lenders' concerns about AI's impact on the insurance sector, which has prompted them to seek better terms on the loan. The move reflects broader unease in the financial markets about AI's transformative effects and the uncertainties it introduces to traditional business models. As AI continues to evolve, lenders are increasingly cautious, seeking to mitigate potential risks associated with its integration into various sectors.",
@@ -186,16 +196,6 @@
             "description": "Hanwha Asset Management partners with Jito Foundation to build infrastructure for JitoSOL-based liquidity staking ETPs in South Korea ahead of regulatory clarity.\nsource: https://catenaa.com/markets/cryptocurrencies/hanwha-partners-with-jito-foundation-for-south-korean-staking-etps/",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1052315&language=en-US",
             "pub_date": "2026-02-27 22:30:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1052312,
-            "title": "Zurich Insurance Group Nears Acquisition of UK Insurer Beazley",
-            "description": "Zurich Insurance Group is close to finalizing a deal to acquire UK specialty insurer Beazley, according to sources familiar with the situation. Bloomberg posted on X, indicating that the Swiss insurance giant plans to raise billions of dollars in equity to support the acquisition. The move is part of Zurich's strategy to expand its footprint in the specialty insurance market, which has seen significant growth in recent years. The acquisition would enhance Zurich's capabilities and offerings in the UK market, aligning with its broader business objectives. Details of the agreement are still under discussion, and the finalization of the deal is expected to occur soon. This acquisition reflects the ongoing consolidation trend within the insurance industry, as companies seek to strengthen their positions and improve competitiveness.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1052312&language=en-US",
-            "pub_date": "2026-02-27 22:28:47",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
