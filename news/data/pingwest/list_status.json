@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "OpenAI或推“成人内容”功能，需严格年龄验证",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩2月28日讯，据Android Authority分析，OpenAI在ChatGPT最新安卓版本（v1.2026.055）的代码中嵌入了名为“Naughty Chats”的新功能。相关字符串显示，该模式将允许18岁以上用户在主动请求时使用“更具成人色彩的语言”，且必须通过年龄验证方可启用。</span></p><p><span>目前该功能尚未开放，表明仍处于开发阶段。这是自2025年10月OpenAI CEO Sam Altman首次暗示将放宽成人内容限制以来，最明确的技术信号。Altman曾强调：“除非用户主动要求，否则不会触发相关内容。”</span></p><p><span>为确保合规，OpenAI已部署基于账户活跃时长、使用习惯及声明年龄等因素的年龄预测模型。未通过系统验证的用户将被引导至青少年体验模式，并需通过第三方身份验证平台Persona提交自拍照完成人工核验。</span></p></article>",
+            "link": "https://www.pingwest.com/w/311672",
+            "pub_date": "2026-02-28 10:16:23",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "OpenAI完成1100亿美元融资，加速全球AI规模化落地",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩2月28日讯，OpenAI今日宣布完成1100亿美元新一轮融资，投前估值达7300亿美元。本轮融资由软银（300亿美元）、英伟达（300亿美元）及亚马逊（500亿美元）联合领投。同时，公司与亚马逊签署多年期战略合作协议，并锁定英伟达下一代推理算力供应。</span></p><p><span>资金将用于拓展全球基础设施、强化资产负债表，并推动前沿AI技术普及。目前，ChatGPT周活跃用户已突破9亿，个人订阅用户超5000万；企业端已有超900万付费客户依托OpenAI平台重构研发与运营流程。开发者工具Codex周活用户达160万，较年初增长逾三倍。</span></p><p><span>此外，OpenAI基金会所持股份价值已超1800亿美元，将进一步支持医疗、AI韧性等公益项目。公司强调，未来竞争核心在于基础设施扩展速度与产品化能力，此次融资与合作将加速实现“让通用人工智能造福全人类”的使命。</span></p><figure class=\"image\"><img alt=\"\" height=\"588\" src=\"https://cdn.pingwest.com/portal/2026/02/28/_c1x1APH233rEzzFGWZMk561Ae2r4h1E.png?x-oss-process=style/article-body\" title=\"\" width=\"712\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311670",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩2月27日讯，据 Figma 官方消息，Codex近日正式支持通过Figma MCP服务器生成并同步Figma设计文件，实现代码与设计之间的无缝双向流转。开发团队可将真实运行的用户界面直接导入Figma画布进行协作、优化与决策，并将更新后的设计上下文完整带回Codex，确保开发与设计高度对齐。</p><p>该功能基于MCP（Model Context Protocol）服务器架构，支持从Figma Design、Figma Make及FigJam中提取布局、样式与组件信息，供Codex在代码生成时调用。用户只需复制Figma帧链接，在Codex中发起指令，即可基于现有设计系统自动生成代码。</p><p>反之，开发者也可将本地或线上运行的UI界面通过Codex一键转为可编辑的Figma帧，无需手动重建。此过程支持全屏或元素级捕获，并自动创建新设计文件或更新现有文件。</p><p>Codex桌面应用专为多智能体并行编码打造，结合Figma的探索式画布，形成“执行—反馈—迭代”闭环。双方深度集成显著提升从原型到生产级应用的开发效率与协作质量。</p><figure class=\"image\"><img alt=\"\" height=\"669\" src=\"https://cdn.pingwest.com/portal/2026/02/27/Rtas5hKzX8Z94emkd6TAEN34c8jW8Exw.png?x-oss-process=style/article-body\" title=\"\" width=\"941\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311656",
             "pub_date": "2026-02-27 11:31:10",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "DeepSeek联合北大、清华发布新型AI推理框架DualPath",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩2月27日讯，据 ARxiv 页面显示，DeepSeek与北京大学、清华大学合作，在ArXiv平台发表论文，提出面向智能体系统的全新大模型推理框架——DualPath。该框架旨在解决长上下文场景下KV-Cache加载引发的I/O瓶颈问题。</span></p><p><span>DualPath突破传统“存储→预填充（Prefill）”单路径模式，创新引入“存储→解码引擎（Decode）→预填充”第二路径，利用解码端闲置的存储网络带宽，通过RDMA高速网络将缓存动态调度至预填充端，实现集群存储带宽的全局池化与负载均衡。</span></p><p><span>在660B参数规模的生产级模型测试中，DualPath使离线推理吞吐提升1.87倍，线上服务吞吐平均提升1.96倍，显著优化首Token延迟（TTFT），且不影响逐Token生成速度（TPOT）。</span></p><p><span>论文第一作者为北京大学博士生Wu Yongtong，师从Jin Xin教授，现就职于DeepSeek系统组，专注于大模型推理基础设施的性能优化与多硬件平台部署。该成果标志着国产大模型在底层系统架构创新上取得重要突破。</span></p><figure class=\"image\"><img alt=\"\" height=\"145\" src=\"https://cdn.pingwest.com/portal/2026/02/27/75KFPMQ8bJX27r1zEmjb8k2SAhw7f1N2.png?x-oss-process=style/article-body\" title=\"\" width=\"380\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/311655",
-            "pub_date": "2026-02-27 11:16:32",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
