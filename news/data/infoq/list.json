@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "GTCTH14eAiKrxaAoA7uc",
+            "title": ".NET 11 ASP.NET Core预览版1带来全新的Blazor组件、改进的导航功能以及WebAssembly支持",
+            "image": "https://static001.infoq.cn/resource/image/71/a8/71b391d6247f6e5d70be202dyy42bba8.jpg",
+            "description": "<div><p><color>微软发布.NET 11 ASP.NET Core的第一个预览版本。该版本带来了一系列的新特性和改进，旨在增强Blazor、OpenAPI和一般Web开发工作流的开发体验。</color></p><p><color> </color></p><p><color>其中一个最引人注目的新增功能是Blazor的新组件</color><color>。它允许开发人员根据托管环境有条件性地渲染内容。该组件接受Include和Exclude参数，在Blazor Server和Blazor WebAssembly中行为一致，不需要手动检查环境。</color></p><p><color> </color></p><p><color>该版本还针对Blazor表单做了几项改进。现在，</color><color>可自动从元数据属性中提取显示名称，实现可访问标签的渲染。该组件同时支持嵌套与非嵌套的label-input关联模式。此外，新增的DisplayName组件提供了类似MVC辅助方法@Html.DisplayNameFor()的功能，便于显示支持本地化的属性的属性名。</color></p><p><color> </color></p><p><color>组件增加了OnRowClick事件参数，使开发人员能够直接处理行点击交互。如果做了配置，则网格会自动应用指针光标样式，并在用户点击某个项时调用回调函数。</color></p><p><color> </color></p><p><color>而且，Blazor中的</color><color>也得到了关注。现在，NavigationManager.NavigateTo()方法和NavLink组件通过新增的RelativeToCurrentUri参数支持相对URI导航。这使得导航能够基于当前页面路径而非应用程序的基准URI进行，对于嵌套的文件夹结构来说，这特别有用。</color></p><p><color> </color></p><p><color>此外，如前所述，新增的扩展方法GetUriWithHash()提供了一种零分配方案，可将哈希片段附加到统一资源标识符（URI）中；而全新的BasePath组件则消除了在HTML中手动指定基准href元素的需求。</color></p><p><color> </color></p><p><color>在WebAssembly方面，Blazor WebAssembly现在支持</color><color>，可以在浏览器中运行后台服务，实现了与Blazor Server对等的功能。现在，框架还允许通过IConfiguration访问环境变量，无需重建应用程序即可进行运行时配置。它还为WebAssembly应用程序添加了特定于组件的度量和跟踪。</color></p><p><color> </color></p><p><color>该版本的其他改进包括：支持</color><color>命名空间的交互式渲染、新增InvokeVoidAsync()分析器、用于在自定义组件上进行依赖注入的IComponentPropertyActivator接口、为Interactive Server组件提供</color><color>支持，以及统一的Blazor脚本启动选项格式。</color></p><p><color> </color></p><p><color>其他的改进还包括：支持二进制文件响应的</color><color>、IOutputCachePolicyProvider接口、在Blazor Web App模板中提供容器支持，以及自动信任WSL环境中的开发证书。</color></p><p><color> </color></p><p><color>感兴趣的读者可以在ASP.NET Core</color><color>中查看完整的发布说明，或在</color><color>上查看项目路线图。</color></p><p><color> </color></p><p><color> </color></p><p><color>声明：本文为InfoQ翻译，未经许可禁止转载。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/GTCTH14eAiKrxaAoA7uc",
+            "pub_date": "2026-03-05 09:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "1O55AEl0sWVY34y70FpJ",
             "title": "Warper：由 Rust 驱动的 React 虚拟化库",
             "image": "https://static001.infoq.cn/resource/image/00/aa/003c0a200d5ac9594d831205921022aa.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>Cloudflare刚刚推出了一个面向垂直微前端（VMFE）的</color><color>。该架构可以将独立的</color><color>映射到同一域名的特定URL路径上。通过整合Service Bindings和Speculation Rules API，该模板使分散的团队能够管理自己的技术栈和CI/CD管道，同时仍然给用户带来流畅的单页应用（SPA）体验。</color></p><p><color> </color></p><p><color>这里的变化是从横向组件混合转为纵向的基于路径的所有权。本质上，如果一个团队拥有/docs路径，他们便能掌控整个纵向栈——从选择</color><color>或</color><color>等框架到管理完整的CI/CD管道——而且完全不会与管理/marketing或/dashboard的团队产生冲突。</color></p><p><color> </color></p><p><color>该技术粘合层可以归结为三个部分。服务绑定允许Router Worker直接在边缘与子应用Worker通信，通过避免使用公网来保持低延迟。然后是Router Worker本身，它充当前门，根据路径前缀引导请求。最后，HTMLRewriter会自动调整HTML响应以修复路径问题（通常出现在对服务做反向代理时），例如在图像源中添加/docs。</color></p><p><color> </color></p><p><color>为了保持连贯的用户体验，模板内置了两个现代浏览器API。首先，CSS View Transitions有助于在页面更改期间保持DOM元素（如导航栏）可见，这消除了多页应用中经常出现的“白屏”现象。此外，它使用Speculation Rules API将相关联的微前端预加载到内存中。实话实说，这目前只在基于Chromium的浏览器中有效，不过，这使得物理上相互分离的Worker之间几乎可以瞬间完成切换。</color></p><p><color> </color></p><p><color>实际上，Cloudflare自己的内部仪表板便是使用这种模型将核心功能与Zero Trust等产品分开。正如Cloudflare全栈工程师Brayden Wilmoth</color><color>：</color></p><p><color> </color></p><p><color> </color></p><p><color>向垂直微前端的转变反映了我们软件思考方式的大幅转变。在最近发表的一篇</color><color>中，亚马逊云科技首席解决方案架构师Luca Mezzalira指出，微前端应该真正关注团队自治和“流程（flow）”，而不仅仅是重用代码。他认为，端到端的垂直切片是完美的“试验场”，让团队可以处理像认证和可观察性这样的复杂问题，而不必经历“大爆炸”式迁移的噩梦。</color></p><p><color> </color></p><p><color>虽然这种架构带来了组织方面的好处，但也引入了特有的运营方面的权衡。在</color><color>中，有人发出了一个涉及基于边缘的路由计费模型的警告：</color></p><p><color> </color></p><p><color> </color></p><p><color>最后，在</color><color>，Vercel通过采用垂直方法也获得了类似的收益，将预览构建时间减少了40%，但他们也遇到了一些问题。在本地测试这些配置仍然比较麻烦，经常有些功能需要采取手动的临时措施。行业对这一理念也还存在分歧。虽然垂直切片对大型企业来说堪称救星，但许多小型团队意识到，如果开发人员少于15人，额外的架构“成本”可能得不偿失。</color></p><p></p><p><color>原文链接：</color></p></div>",
             "link": "https://www.infoq.cn/article/yWGFSIQs1Uh3LEmLIpgi",
             "pub_date": "2026-02-25 06:41:36",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "Ek2SwBQSUmCAbg9V7WWD",
-            "title": "LocalStack for AWS放弃社区版引发开发者担忧",
-            "image": "https://static001.infoq.cn/resource/image/db/b8/db693e2288ce1e4e42996b68aaa59ab8.jpg",
-            "description": "<div><p><color>LocalStack最近宣布</color><color>，放弃了广受欢迎的开源社区版，并创建了一个需要注册的单一镜像。目前使用最新社区镜像的项目将需要更新他们的工作流程。</color></p><p><color> </color></p><p><color>在过去的几年里，LocalStack为AWS维护了两个独立的LocalStack版本：一个是根据Apache 2.0许可证开源且对社区免费提供的社区版，以及一个只能通过付费许可证访问的专业版。根据公告，LocalStack现在将这些组件合并为一个单一镜像。它将为个人和开源用户提供一个免费的基于账户的选项，并引入一个新的命令行界面（CLI v2）以支持本地云开发。LocalStack的联合创始人兼联合首席执行官</color><color>和</color><color>写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>是一个流行的云服务模拟器，它在本地运行并复制了许多AWS服务，允许应用程序在不连接到实时AWS云的情况下在本地机器上开发和测试。在</color><color>的一个热门话题中，社区对此举和项目的未来表示了担忧。虽然一些开发者希望AWS有朝一日能收购LocalStack，但用户alvsanand写道：</color></p><p><color> </color></p><p><color> </color></p><p><color>用户rad15h建议：</color></p><p><color> </color></p><p><color> </color></p><p><color>在讨论替代方案和变通方法时，不同的从业者提到了</color><color>，这是一个允许模拟AWS服务的库，以及最近的</color><color>，一个本地EC2模拟器。展望未来，LocalStack将不会发布任何对社区版的进一步更新，产品增强和安全补丁只应用于新版本。Hummer和Sheganaku警告：</color></p><p><color> </color></p><p><color> </color></p><p><color>对于“娱乐性”使用AWS的开发者，有一个有限的免费计划可用，工具对学生和开源项目仍然免费。分配给工作区的CI积分数量取决于定价层级，免费计划不包括它们。在Reddit上，许多开发者质疑CI构建的积分系统，认为它是“不合理的”，LocalStack的开发者关系负责人</color><color>承认了这一挑战，并表示公司可能很快就会对其进行</color><color>。</color></p><p><color> </color></p><p><color>切换计划在3月进行，新的LocalStack for AWS将通过Docker Hub上的</color><color>单一镜像分发提供。社区版本以前版本的源代码仍然可以在</color><color>上获得，但存储库将处于非活动状态。LocalStack在AWS上的</color><color>起价为每个许可证每月39美元，按年计费。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/Ek2SwBQSUmCAbg9V7WWD",
-            "pub_date": "2026-02-22 00:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
