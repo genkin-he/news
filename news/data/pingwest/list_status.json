@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "微软发布多模态推理模型Phi-4-reasoning",
+            "description": "<article class=\"wire-content article-style\"><p>品玩3月日讯，据 Siliconangle 报道Microsoft正式推出硬件高效型多模态推理模型 Phi-4-reasoning-vision-15B，可处理科学图表等复杂视觉内容。该模型融合SigLIP-2视觉编码器与去年4月开源的Phi-4 Reasoning推理架构，采用“中融合”（mid-fusion）设计——仅部分网络层支持多模态处理，在显著降低算力消耗的同时保持较高输出质量。</p><p>训练数据主要来自开源图像及文本对。微软通过多阶段优化流程提升数据质量：保留高质量样本；利用GPT-4o与o4-mini为图像重写不准确描述；并加入内部构建数据、定向收购的高质量语料及有害行为反例，以增强安全性与准确性。</p><p>在MathVista_Mini等基准测试中，该模型表现优异，较Google的gemma-3-12b-it高出17%，并在六项以上评估中领先。其支持通过提示动态启停推理功能，进一步优化资源占用。</p><p>Phi-4-reasoning-vision-15B适用于构建界面交互型AI系统，能基于截图识别按钮、菜单等UI元素，并解析天文图像等复杂视觉资产。模型代码现已在Hugging Face、GitHub及Azure平台开放。</p><figure class=\"image\"><img alt=\"\" height=\"816\" src=\"https://cdn.pingwest.com/portal/2026/03/06/k00eY_Y51QRKYi5Z7y3hrpiQ5Aa0PaG6.png?x-oss-process=style/article-body\" title=\"\" width=\"1456\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/311838",
+            "pub_date": "2026-03-06 09:20:40",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Raycast推出Glaze，简化“氛围编程”应用开发流程",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩3月6日讯，据The Verge 报道，Mac端效率工具平台Raycast近日发布新应用Glaze，旨在进一步降低无代码软件开发门槛。用户仅需输入自然语言提示，即可由系统自动生成完整应用程序，无需手动编写代码或处理部署、API集成等技术细节。</span></p><p><span>Glaze基于Claude Code与OpenAI Codex模型构建，强调“一次生成即可用”。其内置设计规范遵循Apple Liquid Glass风格，并自动处理云存储、界面布局等通用功能。用户可创建个性化工具（如支出追踪器、会议摘要生成器），亦可从共享目录中获取他人作品并按需修改。</span></p><p><span>Raycast联合创始人Thomas Paul Mann表示，Glaze并非取代传统开发，而是聚焦本地运行的轻量级单人工具，目标是打造“软件界的iTunes时刻”。目前产品仅限Mac平台，未来将拓展至Windows及移动端。公司计划采用免费加阶梯式付费模式（约20–30美元/档），但具体商业模式仍在探索中。</span></p><p><span>Mann坦言，围绕应用责任归属、版权与分发机制等生态问题尚无定论，但Raycast希望借此重塑个人计算体验，推动应用分发范式变革。</span></p><figure class=\"image\"><img alt=\"\" height=\"1134\" src=\"https://cdn.pingwest.com/portal/2026/03/06/eKGnhE9117RtnB3mm5_iKRxs2ji84Z79.jpg?x-oss-process=style/article-body\" title=\"\" width=\"2160\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311837",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>品玩3月5日讯，据谷歌官方消息，Google旗下AI笔记工具NotebookLM近日正式推出“Cinematic Video Overviews”（电影感视频概览）功能，标志着其视频生成能力从传统的旁白幻灯片迈向沉浸式动态叙事。该功能基于Gemini 3、Nano Banana Pro与Veo 3等先进模型协同工作，可自动生成流畅动画与高细节视觉内容，帮助用户更直观地理解所关注的主题。</p><p>在新架构中，Gemini 3扮演“创意总监”角色，基于用户上传的资料自主决策数百项结构性与风格化要素，包括最佳叙事逻辑、视觉风格、视频格式，并对输出内容进行自我优化，以确保整体一致性与表现力。</p><p>该功能即日起面向18岁及以上Google AI Ultra订阅用户开放，支持网页端与移动端使用，目前仅提供英文版本。此次更新显著提升了NotebookLM在教育、研究与内容创作场景下的多媒体表达能力，进一步强化其作为个性化知识助手的定位。</p><figure class=\"image\"><img alt=\"\" height=\"731\" src=\"https://cdn.pingwest.com/portal/2026/03/05/KmT4292dtRamYQJK78w2CEfYpK64d231.png?x-oss-process=style/article-body\" title=\"\" width=\"1300\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311822",
             "pub_date": "2026-03-05 14:33:42",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "深化拓展“人工智能+” 京东JoyAI大模型已应用于2000余业务场景",
-            "description": "<article class=\"wire-content article-style\"><p>2026年政府工作报告明确提出，“打造智能经济新形态，深化拓展‘人工智能+’，促进新一代智能终端和智能体加快推广”。全国政协委员、京东集团技术委员会主席、京东云总裁曹鹏围绕人工智能产业发展建言献策，建议推动我国AI产业实现从规模扩张到效能提升、从应用领先到体系引领的战略转型，夯实新质生产力发展基石。京东集团响应政策导向，开展算力普惠、开源协同、智能终端创新等实践。</p><p>围绕政府工作报告“实施超大规模智算集群、算电协同工程”要求，京东深度参与国产智算全栈技术攻关，其云平台已实现国产化算力适配全栈闭环，在零售、汽车、政务等领域形成规模化应用能力，助力破解算力资源“孤岛化”难题，为全国一体化算力调度提供企业级实践支撑。</p><p>响应“支持人工智能开源社区建设”号召，京东开源JoyAgent智能体平台与JoyCode智能编码工具，前者已落地超5万个生产级智能体，后者推动研发效率提升40%，代码采纳率超50%。通过降低AI开发门槛，京东以开源生态加速智能体技术普惠，与政府“促进开源生态繁荣”目标形成共振。</p><p>在“人工智能商业化规模化应用”层面，京东以附身智能JoyInside为核心，为硬件植入高情商“大脑”，联动40余家品牌推出AI玩具、机器人等爆款，并构建跨品类智能硬件社交网，精准契合“智能终端推广”方向。同时，免费开放数字人直播服务，带动商家GMV超235亿元，以“智能体+商业场景”模式推动人工智能规模化应用。</p><p>京东依托“超级供应链”沉淀高质量数据集，JoyAI大模型已广泛应用于2000余个业务场景，探索数据要素价值释放路径，推动科技创新与产业创新深度融合，加速智能原生业态孵化，为新质生产力发展注入可持续动能。</p></article>",
-            "link": "https://www.pingwest.com/w/311819",
-            "pub_date": "2026-03-05 13:05:11",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
