@@ -25,7 +25,7 @@ headers = {
     "cookie": "_gid=GA1.2.340515276.1734940560; __cf_bm=_R5Y6LfHsRqg1sGHKkhu9i9SQ9xJXeYCNlru6SZ3YlE-1734942393-1.0.1.1-sydkzz.3lDlQjxy5spCwMP2pu1UrJkSwoaZUwbbQp9mT4ETnjfR6wxSWeovL1R3kGlhPd_JcnRRpnEcuynJUow; cf_clearance=AlysIBzrreLVf_4riHd9Fc6uGik9hi_CQA7ZaDML6y0-1734942393-1.2.1.1-8YCySKL4Qca28sUbTQRmBI4Rbj3ItrciaZf3knXYqaBTvTFZNKrWhC26h7kCZ1BX9Bjo6uHy6oJygjv4tK7yw6JWlA8dCdICcy7ANkF7ruJ8jvyrO0t2O8VC4dvy_ogJMju4xG5GuV4LbIWd1RNFu6O4PsU0Ivhzoqf_Ia5_0eTBQfmlFj0cLfsBmxHJGzFCF49Z0BXfOJrvuNiicvF0XkeHT1kzsp46WAsGPNY10U9lHjoi3iAZ0npYvZ4B.Yru5d3w7RedjFFj92vIa2ztNevoNu4vvq87BNgrGgTJbIcIh74dgBHQCrZ4lx5CoMBNC3_Yb9QHtFiha.na8sPmRxp9WaP9pPXbM1d60ZDzmF.jRVuYkNt8OFFXV9AHDyXbcqQHUSufV34XUo1HdJvQxg; _sws_ses.1740=*; plans_variant=control; _hjSessionUser_44113=eyJpZCI6ImZkZDFjM2ZhLTQ4OWQtNTY4OC1iNGIxLTU2YTQ4OTZlMTlkOSIsImNyZWF0ZWQiOjE3MzQ5NDA1NDQ4MjksImV4aXN0aW5nIjp0cnVlfQ==; _hjSession_44113=eyJpZCI6ImJiYjZmZDYyLThhMjMtNDA0Yi05OWI4LTJjOWIyOTFlM2YzNCIsImMiOjE3MzQ5NDIzOTU0MDYsInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==; _sws_flagsessid=295943768; _sws_id.1740=8bb87ebb-492a-4664-bf92-7ed86c9fcf8b.1734940544.2.1734942474.1734940560.80fe427d-5479-438b-a2df-7fab2e739055; _ga_YXRWTP2MC7=GS1.1.1734940543.1.1.1734942474.41.0.0; _ga=GA1.1.869530380.1734940543; _ga_DQKZK4J4W2=GS1.2.1734942425.2.1.1734942474.11.0.0; _ga_VNZZ8E7MPM=GS1.2.1734942395.2.1.1734942474.42.0.0; _dd_s=rum=0&expire=1734943434298",
 }
 
-base_url = "https://simplywall.st/"
+base_url = "https://simplywall.st"
 filename = "./news/data/simplywall/list.json"
 post_count = 0
 util = SpiderUtil()
@@ -77,6 +77,8 @@ def run():
                 util.info("exists link: {}".format(link))
                 continue
             post_count = post_count + 1
+            if link.startswith("/"):
+                link = base_url + link
             description = get_detail(link)
             if description != "":
                 insert = True
