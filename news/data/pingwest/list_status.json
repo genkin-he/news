@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "阿里通义千问核心团队人事调整，谷歌DeepMind公开邀约人才",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩3月6日讯，据界面新闻报道，阿里巴巴通义千问（Qwen）团队经历高层人事变动。3月4日凌晨，千问大模型技术负责人林俊旸在社交平台宣布卸任，称“me stepping down. bye my beloved qwen.”随后，Qwen后训练负责人郁博文、核心贡献者李凯新亦相继离职；今年1月，Qwen Code负责人惠彬原已转投Meta。</span></p><p><span>3月5日上午，阿里巴巴CEO吴泳铭在内部邮件中确认批准林俊旸辞职，并感谢其贡献。为保障研发连续性，通义实验室由CTO周靖人继续领导，并新设“基础模型支持小组”，由吴泳铭、周靖人与范禹牵头，统筹集团算力、资金与人才资源，聚焦大模型技术突破。</span></p><p><span>同日下午，谷歌DeepMind开发团队负责人Omar Sanseviero在社交平台公开向Qwen团队发出邀请，称“欢迎加入我们构建开放模型生态”。此举凸显全球AI人才竞争白热化——Meta、微软等亦持续从DeepMind招募顶尖工程师，加速布局通用人工智能（AGI）领域。</span></p><figure class=\"image\"><img alt=\"\" height=\"778\" src=\"https://cdn.pingwest.com/portal/2026/03/05/e07Z4EhndZ_7hYAXx3xtD0y_CeE0M7sF.jpeg?x-oss-process=style/article-body\" title=\"\" width=\"1248\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/311841",
+            "pub_date": "2026-03-06 09:39:31",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "微软发布多模态推理模型Phi-4-reasoning",
             "description": "<article class=\"wire-content article-style\"><p>品玩3月日讯，据 Siliconangle 报道Microsoft正式推出硬件高效型多模态推理模型 Phi-4-reasoning-vision-15B，可处理科学图表等复杂视觉内容。该模型融合SigLIP-2视觉编码器与去年4月开源的Phi-4 Reasoning推理架构，采用“中融合”（mid-fusion）设计——仅部分网络层支持多模态处理，在显著降低算力消耗的同时保持较高输出质量。</p><p>训练数据主要来自开源图像及文本对。微软通过多阶段优化流程提升数据质量：保留高质量样本；利用GPT-4o与o4-mini为图像重写不准确描述；并加入内部构建数据、定向收购的高质量语料及有害行为反例，以增强安全性与准确性。</p><p>在MathVista_Mini等基准测试中，该模型表现优异，较Google的gemma-3-12b-it高出17%，并在六项以上评估中领先。其支持通过提示动态启停推理功能，进一步优化资源占用。</p><p>Phi-4-reasoning-vision-15B适用于构建界面交互型AI系统，能基于截图识别按钮、菜单等UI元素，并解析天文图像等复杂视觉资产。模型代码现已在Hugging Face、GitHub及Azure平台开放。</p><figure class=\"image\"><img alt=\"\" height=\"816\" src=\"https://cdn.pingwest.com/portal/2026/03/06/k00eY_Y51QRKYi5Z7y3hrpiQ5Aa0PaG6.png?x-oss-process=style/article-body\" title=\"\" width=\"1456\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311838",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩3月5日讯，据AI工程师Tibor Blaho在X平台分享的截图显示，OpenAI正在ChatGPT网页版中测试一项名为“创建模板（Beta）”的新功能。该功能允许用户上传过往邮件、备忘录或博客等文本样本，使模型自动学习其语气、结构与表达风格，从而生成更贴近个人语言习惯的初稿。</span></p><p><span>新界面还引入多项专业写作增强：包括To/CC/BCC邮件字段、全屏专注模式，以及将草稿直接保存为Markdown文件至个人库。此外，生成图像旁新增“Animate”按钮，可一键跳转至视频工具，基于图像自动生成动画提示，简化多模态创作流程。</span></p><p><span>OpenAI强调，此类个性化功能将严格遵循隐私与安全准则，防止身份冒用。企业用户或将获得模板权限管理与审计追踪能力，以符合如欧盟《人工智能法案》等监管要求。</span></p><p><span>目前该功能仍处内部测试阶段，最终形态可能调整。若正式上线，ChatGPT将从通用写作助手转向更具个体认知能力的协作者。</span></p><figure class=\"image\"><img alt=\"\" height=\"2160\" src=\"https://cdn.pingwest.com/portal/2026/03/04/71J32Szk6t7n27xSiDXP4fABEAY37D73.png?x-oss-process=style/article-body\" title=\"\" width=\"3840\"/></figure></article>",
             "link": "https://www.pingwest.com/w/311825",
             "pub_date": "2026-03-05 16:00:23",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "NotebookLM推出“电影感视频概览”功能，升级AI视频生成体验",
-            "description": "<article class=\"wire-content article-style\"><p>品玩3月5日讯，据谷歌官方消息，Google旗下AI笔记工具NotebookLM近日正式推出“Cinematic Video Overviews”（电影感视频概览）功能，标志着其视频生成能力从传统的旁白幻灯片迈向沉浸式动态叙事。该功能基于Gemini 3、Nano Banana Pro与Veo 3等先进模型协同工作，可自动生成流畅动画与高细节视觉内容，帮助用户更直观地理解所关注的主题。</p><p>在新架构中，Gemini 3扮演“创意总监”角色，基于用户上传的资料自主决策数百项结构性与风格化要素，包括最佳叙事逻辑、视觉风格、视频格式，并对输出内容进行自我优化，以确保整体一致性与表现力。</p><p>该功能即日起面向18岁及以上Google AI Ultra订阅用户开放，支持网页端与移动端使用，目前仅提供英文版本。此次更新显著提升了NotebookLM在教育、研究与内容创作场景下的多媒体表达能力，进一步强化其作为个性化知识助手的定位。</p><figure class=\"image\"><img alt=\"\" height=\"731\" src=\"https://cdn.pingwest.com/portal/2026/03/05/KmT4292dtRamYQJK78w2CEfYpK64d231.png?x-oss-process=style/article-body\" title=\"\" width=\"1300\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/311822",
-            "pub_date": "2026-03-05 14:33:42",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
