@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": "019ce1df-2256-76b9-a1f8-4eb36d1142db",
+            "title": "美国能源部长赖特：短期内释放美国战略石油储备将以互换方式进行",
+            "description": "PANews 3月12日消息，据金十数据，美国能源部长赖特表示：短期内释放美国战略石油储备将以互换方式进行。西半球石油供应并没有出现真正紧张，紧张主要在亚洲。已释放1.72亿桶原油，作为回报将在一年内收回2亿桶。其重申在伊朗的行动需数周而非数月。目前无法实现海军护航，但海军护航将很快会展开。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/019ce1df-2256-76b9-a1f8-4eb36d1142db.html",
+            "pub_date": "2026-03-12 19:44:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
+            "id": "019ce1e2-4933-7377-a7a5-63ea9e984b82",
+            "title": "General Catalyst拟募资约100亿美元扩展金融服务布局",
+            "description": "PANews 3月12日消息，据彭博社报道，风投机构General Catalyst正与投资者商谈新一轮募资，目标规模约为100亿美元。消息人士称，此次资金将分配至多个基金工具，包括其成长型基金和早期风投基金等。目前谈判仍处于早期阶段，最终募资目标可能调整。该公司近年来从传统风险投资机构转型为更广泛的金融服务公司。",
+            "link": "https://www.panewslab.com/zh/sqarticledetails/019ce1e2-4933-7377-a7a5-63ea9e984b82.html",
+            "pub_date": "2026-03-12 19:50:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019ce1d5-978e-7348-bc90-da89cad0a557",
             "title": "英伟达五年内将投入260亿美元打造开放权重AI模型",
             "description": "PANews 3月12日消息，据WIRED报道，Nvidia在最新财务文件中披露，未来五年将投入约260亿美元用于建设开放权重人工智能模型。公司高管在接受采访时确认，这一计划将支持开发可开放使用的大模型，以配合其算力与基础设施业务布局。业内认为，该举措将使Nvidia在模型层面更直接地与OpenAI、Anthropic和DeepSeek等头部AI公司展开竞争。",
@@ -176,26 +196,6 @@
             "description": "PANews 3月12日消息，据BlockSec Phalcon监测，BSC链上AM/USDT池数小时前遭遇攻击，估计损失约13.1万美元。根本原因在于销毁机制存在缺陷，被利用来操纵池中的AM储备并人为推高代币价格。攻击者首先操纵toBurnAmount，然后在调整池中AM余额后触发销毁逻辑，使AM储备降至异常低水平，从而允许攻击者以人为抬高的价格将AM卖回池中获利。",
             "link": "https://www.panewslab.com/zh/sqarticledetails/019ce115-20f8-77d0-93fb-701b097ce223.html",
             "pub_date": "2026-03-12 16:06:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019ce117-21df-7712-99f9-80be5079ee1a",
-            "title": "BlockSec：DBXen合约遭遇攻击，损失约15万美元",
-            "description": "PANews 3月12日消息，据BlockSec Phalcon监测，DBXen合约今日上午遭遇攻击，估计损失约15万美元。根本原因在于ERC2771元交易下发送者身份不一致。在burnBatch()函数中，gasWrapper()修饰器使用_msgSender()（实际用户）更新状态，而回调函数onTokenBurned()使用msg.sender（转发器）。这导致accCycleBatchesBurned为用户记录，但lastActiveCycle错误地为转发器更新。该不一致性破坏了claimFees()和claimRewards()的逻辑。当为用户运行updateStats()时，合约错误地认为存在未处理的已销毁批次，因为accCycleBatchesBurned已更新而lastActiveCycle未更新，从而错误计算奖励和费用，使攻击者能够提取超额资金获利。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/019ce117-21df-7712-99f9-80be5079ee1a.html",
-            "pub_date": "2026-03-12 16:08:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019ce0f4-2174-75cc-8748-17acd237271a",
-            "title": "韩国国税厅启动加密投资收益追踪系统建设，以用于2027年征税",
-            "description": "PANews 3月12日消息，据韩国时报报道，韩国国税厅宣布已开始筹备建设一套追踪系统，用于对加密货币投资收益征税。该项目预算为30亿韩元（约202万美元），旨在分析虚拟资产交易并实施相应征税。系统设计将于4月启动，11月开始试运行，预计11月至12月间正式上线，2027年起用于采集个人虚拟资产交易数据。\n国税厅计划利用AI和机器学习分析并追踪异常交易类型及模式，并与韩国海关、数据统计部及韩国央行等机构共享虚拟资产分析数据及疑似违规者名单。自明年1月起，虚拟资产收入超过250万韩元的部分将适用22%的综合税率。",
-            "link": "https://www.panewslab.com/zh/sqarticledetails/019ce0f4-2174-75cc-8748-17acd237271a.html",
-            "pub_date": "2026-03-12 15:30:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
