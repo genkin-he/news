@@ -1,0 +1,114 @@
+{
+    "data": [
+        {
+            "id": "SeYvhWvOzkbdk8PI4ciM",
+            "title": "CNCF毕业项目Dragonfly，标志着云原生镜像分发领域的重要里程碑",
+            "image": "https://static001.infoq.cn/resource/image/f6/71/f6b5a98ayy1698a36358dd5ed8cc0071.jpg",
+            "description": "<div><p><color>，其开源的镜像和文件分发系统</color><color>已经达到了毕业状态，这是CNCF项目生命周期中的最高成熟度级别。这一里程碑标志着Dragonfly已具备生产就绪性、广泛行业的采用以及在众多大型组织中对云原生基础设施的扩展，特别是在容器和AI工作负载方面，发挥了关键作用。</color></p><p><color> </color></p><p><color>Dragonfly通过使用点对点（P2P）加速技术，</color><color>了云原生生态系统中长期存在的挑战，实现了容器镜像、OCI工件、AI模型、缓存和其他大文件的高效、稳定和安全分发。该项目运行在Kubernetes上，可以通过Helm安装，并与Prometheus和OpenTelemetry等工具集成，用于性能跟踪和遥测，并增强了从CI/CD到边缘计算的分发场景。在生产中，CNCF声称Dragonfly将镜像拉取时间从分钟级减少到秒级，并节省了高达90%的存储带宽，使其成为现代分布式系统的基础组件，这些系统越来越多地受到GenAI和大型模型工作负载的驱动。</color></p><p><color> </color></p><p><color>Dragonfly的毕业是经过了多年的社区增长和技术演进的结果。它最初由</color><color>在2017年开源，并在2018年作为沙箱项目加入CNCF，经过孵化，现在以来自超过130个组织的数百名开发者的贡献毕业，自加入CNCF以来，提交活动增加了3000%以上。第三方安全审计和社区治理及贡献流程的正式化是毕业标准的一部分，强调了其运营成熟度和对开放标准的承诺。</color></p><p><color> </color></p><p><color>虽然许多与容器相关的工具旨在改进镜像分发和缓存，但Dragonfly因其点对点（P2P）分发模型而脱颖而出，该模型减少了带宽使用量，并加速了跨集群的镜像和大文件交付。与传统的注册表代理或缓存层不同，它们只是从中央缓存存储和提供镜像，Dragonfly创建了一个分布式的对等网络，其中节点直接相互共享工件片段。这种方法可以减少回源注册表负载，并随着更多对等方参与网络，提高了拉取性能，这是单独的注册表缓存解决方案无法在规模上实现的。</color></p><p><color> </color></p><p><color>相比之下，</color><color>和</color><color>等工具为容器镜像提供了强大的</color><color>和</color><color>功能，将上游工件的副本存储在更接近工作负载的地方以加快检索。这些模型适用于可预测的镜像集和受控环境，但不像Dragonfly这样的P2P系统那样动态地在对等方之间转移分发负载。同样，像</color><color>和</color><color>这样的纯注册表服务专注于安全、可扩展的存储，具有漏洞扫描和复制等功能，而不是分布式交付优化。比较这些方法突出了Dragonfly的独特价值主张：在大规模、多节点部署中实现高效、节省带宽的分发，而简单的缓存或镜像注册表可能无法满足需求</color></p><p><color> </color></p><p><color>展望未来，Dragonfly社区计划通过旨在加速使用</color><color>的AI模型权重分发、优化镜像布局以实现更快的数据加载、引入负载感知调度和改进的故障恢复以确保在高流量下的性能和可靠性的增强来继续这一势头。随着毕业，CNCF和项目维护者表示，Dragonfly有望继续塑造云原生分发技术，以应对大规模系统中的新挑战。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/SeYvhWvOzkbdk8PI4ciM",
+            "pub_date": "2026-03-11 02:40:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "Z1jrMb7rSgZxCQThslh0",
+            "title": "Google Cloud云监控指标全面支持OpenTelemetry",
+            "image": "https://static001.infoq.cn/resource/image/f0/fa/f0b0c5a3d2766c08819yy2ed245a62fa.jpg",
+            "description": "<div><p><color>近期，Google Cloud</color><color>在云监控服务中全面支持</color><color>（OTLP），此举标志着其在跨观测技术栈统一遥测数据采集方面迈出了重要一步。借助这次部署，用户现在可以使用一个供应商无关的管道，将OTLP格式的指标数据与追踪记录和日志同步发送至</color><color>，从而实现更灵活的、基于标准的监控部署，并简化遥测数据采集流程，提升其一致性。</color></p><p><color> </color></p><p><color>本次更新是对之前已经支持的OTLP追踪数据摄取的进一步深化，彰显了Google Cloud将OpenTelemetry作为遥测数据通用格式和API的坚定承诺。开发人员可以使用</color><color>生成指标，然后通过OTLP直接发送到云监控，或者通过OpenTelemetry收集器。在默认情况下，摄取的OTLP指标数据以类似于Prometheus的数据格式存储，并且可以使用标准的监控工具进行全量查询。</color></p><p><color> </color></p><p><color>Google Cloud在支持OTLP指标方面做了多项增强，改善了可观测性工作流，包括：</color><color>（通过仅报告计数器变化来减少客户端内存占用）；显示动态桶大小的</color><color>；扩展命名约定，支持点和斜杠，使之更符合标准的OpenTelemetry语义规范。这些特性有助于弥合云原生监控工具、第三方遥测管道与Google Cloud自有监控基础设施之间的差距。</color></p><p><color> </color></p><p><color>除了原生OTLP支持外，Google Cloud还宣布了面向</color><color>的托管OpenTelemetry。这个完全托管的摄取管道使得部署、扩展和操作面向Kubernetes工作负载的OpenTelemetry收集器变得更为便捷，为需要OTLP驱动的可观测性而又不想管理收集器基础设施的团队提供了一个即插即用的选项。</color></p><p><color> </color></p><p><color>对于用户而言，新增的OTLP指标支持可以大幅减少为使应用程序具备可观测性所需的配置工作：监控代码可保持供应商无关性，而Google Cloud将负责处理规模扩展和数据采集。该功能还契合了统一遥测API的行业趋势，即将推出的统一采集端点（telemetry.googleapis.com）将在众多Google Cloud项目中自动激活，从而简化日志、追踪和指标等各类可观测性数据流的传输流程。</color></p><p><color> </color></p><p><color>Google Cloud在云监控中新增OTLP支持显著提高了基于标准的遥测数据摄取，与此同时，其他主流可观测性平台也在向着更广泛的OpenTelemetry兼容性迈进，但每个平台都有不同的权衡。例如，亚马逊云科技的</color><color>通过其CloudWatch代理和OpenTelemetry导出器支持OTLP指标和追踪，能够收集并转换数据从而实现本地摄取，但它通常依赖于额外的配置来实现完整的管道集成。与此同时，</color><color>和</color><color>等供应商通过自己的代理分发和收集器集成扩展了OpenTelemetry生态系统，将OTLP遥测数据与丰富的仪表板、分析工具和高级告警功能相结合。不过，为了增强功能集，部分实现方案仍混合使用了专有处理方法与开放标准。</color></p><p><color> </color></p><p><color>除了超大规模云提供商之外，</color><color>、</color><color>等开源或混合可观测性工具也利用OTLP和OpenTelemetry生态系统提供灵活的、供应商无关的可观测性。这些平台强调互操作性和易用性，通常允许更深入的定制或自托管模型，目的是吸引希望避免供应商锁定的团队，不过他们在企业级支持或云服务紧密集成方面还各有自己的权衡。在此背景下，谷歌的策略侧重于将原生OTLP支持深度集成至其云监控体系，为现有Google Cloud客户提供更简便的迁移路径，同时契合业界推动遥测数据在不同工具间真正实现可移植性的努力方向。</color></p><p><color> </color></p><p><color>目前，Google Cloud云监控的OTLP支持已经提供给使用OpenTelemetry 0.140.0或更高版本的客户预览使用，使企业和云工程师有了一个更开放、更灵活、更面向未来的可观测性基础。</color></p><p><color> </color></p><p><color> </color></p><p><color> </color></p><p><color>声明：本文为InfoQ翻译，未经许可禁止转载。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/Z1jrMb7rSgZxCQThslh0",
+            "pub_date": "2026-03-10 02:40:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "gCVsMIXSPlW6IgXZz4qV",
+            "title": "奇富科技发布2025消保年报：帮用户挽损超1.3亿元",
+            "image": "https://static001.infoq.cn/resource/image/fa/44/fa70541a37289ccd31977ca5480a1744.jpeg",
+            "description": "<div><p>3月9日，奇富科技发布2025年消费者权益保护年报。在过去一年，公司始终将“以人民为中心”的发展思想贯穿于经营管理全过程，依托技术驱动与制度创新，将消费者权益保护深度融入业务全链路，构建起覆盖制度、科技、产品、服务等多维闭环保障体系，切实落实金融消费者权益保护工作。</p><p></p><p><strong>数智消保：让服务更有温度。</strong>奇富科技升级后的智能客服系统深度融合AI技术，在意图预判、风险预警与路由分发等核心环节实现能力跃升，日均服务12.35万人次，用户满意度保持在99.1%的高位。同时，我们构建了投诉端到端可追溯及投诉直通车机制，实现超99%投诉的闭环覆盖，确保消费者的每一个诉求都能被听见、被重视、被解决。</p><p></p><p><img>https://static001.geekbang.org/infoq/fe/fef8230e91f95644f81fa09fa2d2ea34.png<img></p><p></p><p> </p><p><strong>风险防护：打造三道“智慧防线”。</strong>面对日益复杂的网络金融安全挑战，奇富科技以AI技术构筑起覆盖全链路的智能风险防护体系。智能反诈体系全年实现AI反诈提醒12.3万次，成功劝阻潜在被骗者1.48万人，直接避免用户损失1.3亿元。诈骗/仿冒网址智能研判系统融合百万级黑产样本库，形成“事前预警—事中拦截—事后追溯”的防御闭环，全年输出预警超2020万次，凭借扎实的实践成果与技术创新，成功入选工信部2025年反诈典型案例。智能反赌拦截系统全年拦截涉赌客户45万余人，关联资产约67亿元，有效净化了网络金融环境。</p><p></p><p><img>https://static001.geekbang.org/infoq/9d/9db1a7e24a4dab7dcdaa79ad5c37b255.png<img></p><p></p><p> </p><p><strong>黑灰产治理：坚持源头管控与协同打击。</strong>2025年，奇富科技通过数据模型精准识别并干预黑产用户超12万，推动黑产投诉占比下降约54%。同时积极协同警方打击黑灰产违法犯罪，2025年共推动警方立案/受案12起，已办结6起，抓获各类黑产团伙成员253人，从源头上压缩黑灰产生存空间，切实维护金融秩序的稳定与清朗。</p><p></p><p><img>https://static001.geekbang.org/infoq/1d/1d482245565673ad3e651c822f666a19.png<img></p><p></p><p> </p><p><strong>金融科普：构建特色宣教体系。</strong>在金融知识普及层面，奇富科技搭建了特色金融宣教体系，以金融教育为核心，通过线上线下相结合的方式，将金融知识送进学校、社区和商圈，覆盖用户上亿人次，切实提升公众的金融免疫力。</p><p></p><p><img>https://static001.geekbang.org/infoq/32/32f61faf7d53e110c5ba2935f010189a.png<img></p><p></p><p> </p><p><strong>社会责任：特色服务帮扶民生</strong>。公司积极回应社会关切，拓展责任边界。面对西藏日喀则地震灾情，公司迅速响应，积极捐款捐物。在上海，公司与普陀区市场监管局联动，为非主观原因陷入困境的用户搭建特殊关爱通道，提供公益支持。在民生服务层面，公司旗下产品创新上线“星火计划”就业服务功能，聚合全国超160万家企业的实时招聘信息，覆盖20余个行业，为零工经济从业者等群体提供高效就业支持，将企业能力延伸至更广阔的民生领域。</p><p></p><p>未来，奇富科技将继续秉持“金融为民”的理念，持续加大AI研发投入，让技术更有温度、防控更精准，为构建安全、稳定、健康的金融生态环境贡献更大力量。</p><p> </p></div>",
+            "link": "https://www.infoq.cn/article/gCVsMIXSPlW6IgXZz4qV",
+            "pub_date": "2026-03-09 08:46:10",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "IHiheIrpN1lo0jJJlqhD",
+            "title": "Leapwork研究显示，测试中的AI仍然依赖于可靠性，而不仅仅是创新",
+            "image": "https://static001.infoq.cn/resource/image/e6/e6/e6f12fbeac101b85cbfec213816d73e6.jpg",
+            "description": "<div><p><color>近期发布的最新研究显示，尽管人们对AI驱动的软件测试信心快速增长，但准确性、稳定性和持续的人工投入，仍是团队愿意在多大程度上信任自动化的决定性因素。 这项研究基于全球300多名软件工程师、QA负责人和IT决策者的反馈，结果表明，企业将AI视为未来测试的核心，但前提是AI能够提供可靠、可维护的结果。</color></p><p><color> </color></p><p><color>调查显示，88%的受访者表示AI已经成为其组织测试战略的优先事项，近半数将其列为关键或高优先级事项。乐观情绪同样高涨，80%的人相信未来两年AI将对测试产生积极影响。但应用仍不均衡，尽管65%的人表示已在部分测试活动中使用或探索AI，但目前仅有12.6%在关键测试工作流中全面应用AI，反映出谨慎、渐进式的落地态度。</color></p><p><color> </color></p><p><color>热情与信心之间的差距，主要源于对准确性和测试稳定性的担忧。超过半数（54%）的受访者表示，对质量和可靠性的顾虑阻碍了AI的更广泛应用。团队提到的最大挑战包括，测试用例脆弱、难以跨系统实现端到端的流程自动化，以及维护更新测试所需的时间。事实上，45%的人表示，在关键系统变更后更新测试需要三天或更久，这拖慢了发布周期，并削弱了对自动化的信任。</color></p><p><color> </color></p><p><color>人工投入同样在持续限制进展。目前平均只有41%的测试实现了自动化。71%的受访者认为测试用例编写是最大的瓶颈，其次是测试维护（56%）。超过半数的受访者（54%）表示时间不足是采用或改进测试自动化的主要障碍，这也解释了为何许多团队在部署AI时仍保持谨慎。</color></p><p><color> </color></p><p><color>Leapwork首席执行官Kenneth Ziegler表示，“测试团队是否会在工作中运用智能体的能力，这已经不再是问题。问题在于他们能多有信心、多可预测地依赖它。我们的研究表明，团队希望AI帮助他们更快地推进、扩大覆盖范围并减少工作量，但准确性仍是基本要求。真正的机会在于将AI与稳定的自动化结合应用，让团队在不牺牲结果可信度的前提下获得速度与规模。”</color></p><p><color> </color></p><p><color>研究结果表明，企业将AI与成熟、稳健的自动化底座结合，而非将其视为独立的解决方案，才能实现最大的价值。随着系统日益复杂、变更愈发频繁，在创新与可靠性之间取得平衡的团队，将更有信心规模化落地AI驱动的测试。</color></p><p><color> </color></p><p><color>Leapwork的调查与行业内多项研究结论一致：</color></p><p><color> </color></p><p><color>Puppet很具影响力的DevOps调查显示，高绩效团队在测试自动化、稳定性和快速反馈环上投入显著更多，而CI/CD流水线不稳定的团队交付速度更慢、对自动化信心更低。在其</color><color>的报告中，Puppet指出，拥有成熟自动化测试实践的团队在可靠性、交付周期和部署频率等方面表现更佳，但前提是测试可靠且易于维护。不可靠或不稳定的测试被列为自动化交付流程的首要阻碍之一。</color></p><p><color> </color></p><p><color>收集了数千名开发者与DevOps从业者的反馈，发现超过70%的受访者认为AI将重塑软件开发工作流，包括测试与安全。但与Leapwork的发现类似，目前只有少数人在生产工作流中深度使用AI工具。许多受访者对可信度、可解释性以及与现有工具链的集成表示担忧，尤其是在受监管或企业级场景中。</color></p><p><color> </color></p><p><color>对全球企业开展调研后发现，各类测试（单元、功能、性能等）的自动化覆盖率平均在30%–50%之间，与Leapwork约41%的结果相符。受访者再次将维护成本、测试不稳定、缺乏熟练人才列为进一步提升的主要制约因素。报告还指出一个新兴趋势：AI辅助测试生成工具正受到关注，但由于风险与准确性顾虑，许多团队不愿完全取代人工验证。</color></p><p><color> </color></p><p><color>（通常通过Google Cloud发布）虽然并非只聚焦AI，但其结果强调，拥有成熟的测试自动化、可观测性和故障恢复实践的团队，在部署频率、变更交付周期等关键指标上的表现要优于同行。在近期版本中，DORA调查加入了AI工具相关的问题。反馈显示，在DevOps工具中采用AI功能的团队，同样在可观测性和自动化验证上投入巨大，这表明AI在坚实的自动化基础之上效果最佳。</color></p><p><color> </color></p><p><color>，尽管60%–70%的公司正在各业务部门试点AI场景，但仅有20%–30%将AI部署为稳定、生产级的应用。被问及原因时，受访者提到了治理风险、人才短缺和运营复杂度，这与Leapwork受访者对测试工具采用持谨慎态度的原因相似。</color></p><p><color> </color></p><p><color>查看英文原文：</color></p></div>",
+            "link": "https://www.infoq.cn/article/IHiheIrpN1lo0jJJlqhD",
+            "pub_date": "2026-03-09 01:40:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "q2gYpu0ys425KtKuGCm5",
+            "title": "OpenAI Codex-Spark 在 Cerebras 硬件上实现超快编码速度",
+            "image": "https://static001.infoq.cn/resource/image/ef/15/ef1990b89073f55a9c3864e5c9bf1915.jpg",
+            "description": "<div><p>OpenAI 在硬件战略方面做出重大调整，推出  模型。这是 OpenAI 首款部署在 Cerebras 晶圆级芯片、而非传统英伟达 GPU 上的生产级 AI 模型。OpenAI 表示，新模型具备更高吞吐量与更低延迟，可带来实时交互式编码体验。</p><p></p><p></p><p>Codex-Spark 的运行速度约为每秒 1000 个 Token，比早期版本快约 15 倍，让实时编码辅助与快速迭代更加流畅灵敏。OpenAI 表示，新模型“专为实时使用 Codex 而设计——可进行针对性编辑、重构逻辑或优化界面，并立即看到结果”。</p><p></p><p>为实现实时编码，OpenAI 针对低延迟与交互式编码工作流对 Codex‑Spark 进行了优化，而非聚焦于深度推理或通用任务。尽管侧重速度，该模型仍保留了前代处理长时间任务的能力，可“在无需干预的情况下运行数小时、数天甚至数周”。</p><p></p><p>OpenAI 表示，GPT-5.3-Codex-Spark 在专为软件工程任务设计的 SWE-Bench Pro 和 Terminal-Bench 2.0 两项基准测试中展示了性能，结果介于 GPT-5.1-Codex-mini 与 GPT-5.3-Codex 之间，但耗时仅为后者的一小部分。OpenAI 还指出，为降低完整请求响应流程延迟所做的端到端优化将使所有模型受益。</p><p></p><p></p><p>在其他方面，OpenAI 引入了持久化 WebSocket 连接，并在 Responses API 中进行了多项改进。总体而言，这些优化将客户端与服务器的单次往返开销降低了 80%，单 Token 处理时间减少 30%，首 Token 生成时间缩短 50%。OpenAI 表示，这些改进将成为所有模型的默认配置。</p><p></p><p>Codex‑Spark 运行在 Cerebras 的 Wafer Scale Engine 3 加速器上，这类加速器非常适合低延迟、高吞吐的推理场景。不过，OpenAI 表示，这并不意味着 GPU 将不再是其训练与推理流程的核心。Cerebras 加速器还可与 GPU 配合使用，融合两种架构的优势。</p><p></p><p>OpenAI 的公告在网上引发了广泛讨论。一些 Reddit 用户强调他们更看重“最大的智能和可靠性”而非速度，Tystros 评论道：“”。用户 stobak 指出，人们很容易低估更快的模型可能减少的。</p><p></p><p>Nicholas Van Landschoot 在 X 上指出，，在实际基准测试中性能提升更接近 1.37 倍，而非 15 倍。他解释道，15 倍的数据是将 Codex‑Spark 与 Codex 的特定配置 x-high 对比得出的，而该配置会刻意延长推理时间以提升准确性。</p><p></p><p>Codex‑Spark 提供 128k 上下文窗口，仅支持文本。官方计划根据开发者社区的使用反馈推出具备更大上下文、更快的模型。</p><p></p><p>【声明：本文由InfoQ翻译，未经许可禁止转载。】</p><p></p><p>查看英文原文：</p></div>",
+            "link": "https://www.infoq.cn/article/q2gYpu0ys425KtKuGCm5",
+            "pub_date": "2026-03-08 03:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "L8Ozfyk1Epmm2SpwWqDT",
+            "title": "Kubernetes引入节点就绪控制器来提高Pod调度可靠性",
+            "image": "https://static001.infoq.cn/resource/image/9e/05/9e2ab392bd483b37de817741e4557505.jpg",
+            "description": "<div><p><color>项目最近宣布了一个名为节点就绪控制器（</color><color>）的新核心控制器，旨在通过使API服务器对节点就绪状态的视图更加准确，从而增强调度的可靠性和集群健康。这个特性目前处于alpha阶段，它解决了长期以来的问题，即在kubelet已经将节点标记为不可用的情况下，仍然将pod调度到这些节点上，这有助于防止不必要的pod驱逐，并提高整体工作负载的稳定性。</color></p><p><color> </color></p><p><color>在大型动态集群中，节点的瞬时不可用性，比如kubelet和API服务器之间的短暂网络中断，可能会导致过时的就绪信息持续存在。这种过时状态历史上导致调度器错误地认为节点是健康的，而实际上并非如此，结果就是将pod放置在无法可靠启动或运行工作负载的节点上。节点就绪控制器通过直接从kubelet协调节点就绪信号，并通过对API服务器暴露一致的、权威的状态来填补这一空白。</color></p><p><color> </color></p><p><color>新的控制器建立在Kubernetes现有的就绪机制之上，但引入了一个专门的控制循环，确保API服务器的节点条件反映了最新和最准确的健康信号。在实践中，这意味着pod不太可能被调度到经历瞬时故障的节点上，操作者可以更有信心地认为调度决策是基于最新的节点状态。博客文章概述了控制器如何观察NodeReady条件，并将kubelet报告的就绪状态以减少的延迟和提高的一致性传播到中央控制平面。</color></p><p><color> </color></p><p><color>该公告还澄清了节点就绪控制器如何与相关的功能如污点和容忍度、Pod中断预算（</color><color>，PDBs）和集群自动伸缩器的交互。通过使API服务器状态与实际节点就绪状态对齐，预计该特性将减少不必要的扩展/启动，并最小化由过时条件触发的破坏性驱逐。这不仅改善了开发者体验，还减少了成本和在状态频繁波动的环境中的操作噪音。</color></p><p><color> </color></p><p><color>节点就绪不一致性一直是许多Kubernetes部署中的一个微妙但持续存在的痛点，尤其是在大规模部署中。在此发布之前，运维人员经常诉诸于自定义脚本、外部健康检查或手动调整就绪门来避免不希望的调度结果。通过将这种逻辑编码到核心控制平面中，Kubernetes旨在简化集群操作并减少对定制解决方案的需求。</color></p><p><color> </color></p><p><color>已经开始尝试这个alpha特性，早期反馈表明它可能显著提高在网络闪断频繁或工作负载高度弹性的集群中的调度保真度。随着使用经验的增长，该特性将继续通过Kubernetes增强流程发展，并计划在不同环境中验证稳定性和操作人体工程学后升级到beta。</color></p><p><color> </color></p><p><color>与市场上的其他方法相比，如围绕集群引导的自定义脚本或增强调度行为的第三方控制器，节点就绪控制器的声明式API（</color><color>）和与Kubernetes调度机制的原生集成使其成为异构环境中更系统和更可扩展的解决方案。传统的系统和更简单的编排平台通常缺乏这种可插拔的就绪控制水平，通常需要定制工具或外部编排层来实现类似的保证。此外，尽管许多商业管理的Kubernetes服务专注于自动化维护和升级，但它们并不内在地提供与此控制器引入的基础设施感知引导逻辑相同的水平。通过这样做，Kubernetes继续向更细粒度的操作安全和直接构建在其核心抽象中的可扩展性发展。</color></p><p><color> </color></p><p><color>节点就绪控制器突出了Kubernetes演进中的一个更广泛的主题：加强控制平面的一致性，确保编排决策反映集群的真实状态，减少开发者和操作者的意外。对于在大规模运行关键工作负载的组织来说，这次更新代表了向更可靠、可预测的调度行为迈出的关键一步。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/L8Ozfyk1Epmm2SpwWqDT",
+            "pub_date": "2026-03-06 06:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "i2uiflYNMtTwmxeVCTxp",
+            "title": "Chrome 144提供Temporal API：推进JavaScript日期/时间的标准化",
+            "image": "https://static001.infoq.cn/resource/image/83/ee/8319917b1240b13ba0479761b7e932ee.jpg",
+            "description": "<div><p><color>自</color><color>起，</color><color>正式引入，为web开发带来了一套现代化的日期和时间API，这也是Chrome集成这一长期推进的TC39提案的首个稳定版本。Chrome发布博客重点介绍了这一更新，并将Temporal定位为JavaScript长期饱受批评的Date对象的现代替代方案。</color></p><p><color> </color></p><p><color>Temporal以全局命名空间</color><color>的形式对外暴露，旨在解决Date对象诸多已知的问题，例如，解析规则不清晰、时区处理繁琐、日期算术运算可变等。它为不同的使用场景设计了专门的类型，并且所有运算均返回新值而非修改原有的对象。MDN将其描述为</color><color>对象的完整替代方案，内置支持时区与日历系统、墙上时间（wall clock）转换、算术运算及格式化功能。</color></p><p><color> </color></p><p><color>该API最具实际价值的特性之一就是，开发者可以仅表示“日期”，而不会意外引入时区和具体时间的信息。例如：</color></p><p><color> </color></p><p><color>当需要关注时区时，该API会强制开发者进行显式声明。以前，在将</color><color>格式化为字符串后，开发人员都会担心这个过程中出现隐式转换，现在，</color><color>类型会将时区信息直接嵌入值中：</color></p><p><color> </color></p><p><color>社区对此的讨论混合了欣喜和落地适配的焦虑。 </color><color>，开发者们对无需依赖第三方库来处理基础日期逻辑表示欢迎。有评论指出，这一API来得太迟了，并细数了</color><color>对象的诸多不足之处，“连日期这种基础功能都要引入第三方库，这一直以来都很让人头疼”。</color></p><p><color> </color></p><p><color>尽管Chrome已正式支持，但Temporal的实际落地可能仍会延迟，原因在于并不是所有浏览器都支持该功能，且框架/类库的适配也需要时间，Reddit上的评论说：</color></p><p><color> </color></p><p><color>近期Medium上的</color><color>进一步指出，即便Chrome已集成 Temporal，实际生产环境的使用仍受限于支持方面的差异，尤其是Safari浏览器和移动端，因为这类场景的功能迭代通常滞后更明显。</color></p><p><color> </color></p><p><color>和标准追踪平台的动态也反映了社区反应。Temporal提案目前仍处于Stage 3阶段，但其仓库已开始追踪推进至</color><color>的剩余工作，一旦达成，该API将正式纳入ECMAScript标准。</color></p><p><color> </color></p><p><color>对于迁移策略，多数团队可能会渐进式采用Temporal。</color><color>是理解其类型模型和设计意图的起点，而</color><color>则提供了最易上手的日常API供参考。</color></p><p><color> </color></p><p><color>Temporal的到来也改变了日期处理工具的竞争格局。在需要跨浏览器支持的场景下，</color><color>、</color><color>、</color><color>以及现已基本成为遗留项目的</color><color>仍会发挥作用。但长远来看，这些库可能会逐步转向便捷封装和定制化格式化的方向，而非继续填补语言层面的基础功能缺口。</color></p><p><color> </color></p><p><color>Temporal是由负责ECMAScript标准的TC39委员会研发的现代化日期时间API提案。它提供了一套完整的类型体系，用于处理日期、时间、时区和日历系统，从根本上解决了JavaScript遗留</color><color>对象的缺陷。该API采用不可变值类型、显式时区处理，并支持多日历系统，非常适合国际化应用的开发。</color></p><p><color> </color></p><p><color>查看英文原文：</color></p></div>",
+            "link": "https://www.infoq.cn/article/i2uiflYNMtTwmxeVCTxp",
+            "pub_date": "2026-03-06 03:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "GTCTH14eAiKrxaAoA7uc",
+            "title": ".NET 11 ASP.NET Core预览版1带来全新的Blazor组件、改进的导航功能以及WebAssembly支持",
+            "image": "https://static001.infoq.cn/resource/image/71/a8/71b391d6247f6e5d70be202dyy42bba8.jpg",
+            "description": "<div><p><color>微软发布.NET 11 ASP.NET Core的第一个预览版本。该版本带来了一系列的新特性和改进，旨在增强Blazor、OpenAPI和一般Web开发工作流的开发体验。</color></p><p><color> </color></p><p><color>其中一个最引人注目的新增功能是Blazor的新组件</color><color>。它允许开发人员根据托管环境有条件性地渲染内容。该组件接受Include和Exclude参数，在Blazor Server和Blazor WebAssembly中行为一致，不需要手动检查环境。</color></p><p><color> </color></p><p><color>该版本还针对Blazor表单做了几项改进。现在，</color><color>可自动从元数据属性中提取显示名称，实现可访问标签的渲染。该组件同时支持嵌套与非嵌套的label-input关联模式。此外，新增的DisplayName组件提供了类似MVC辅助方法@Html.DisplayNameFor()的功能，便于显示支持本地化的属性的属性名。</color></p><p><color> </color></p><p><color>组件增加了OnRowClick事件参数，使开发人员能够直接处理行点击交互。如果做了配置，则网格会自动应用指针光标样式，并在用户点击某个项时调用回调函数。</color></p><p><color> </color></p><p><color>而且，Blazor中的</color><color>也得到了关注。现在，NavigationManager.NavigateTo()方法和NavLink组件通过新增的RelativeToCurrentUri参数支持相对URI导航。这使得导航能够基于当前页面路径而非应用程序的基准URI进行，对于嵌套的文件夹结构来说，这特别有用。</color></p><p><color> </color></p><p><color>此外，如前所述，新增的扩展方法GetUriWithHash()提供了一种零分配方案，可将哈希片段附加到统一资源标识符（URI）中；而全新的BasePath组件则消除了在HTML中手动指定基准href元素的需求。</color></p><p><color> </color></p><p><color>在WebAssembly方面，Blazor WebAssembly现在支持</color><color>，可以在浏览器中运行后台服务，实现了与Blazor Server对等的功能。现在，框架还允许通过IConfiguration访问环境变量，无需重建应用程序即可进行运行时配置。它还为WebAssembly应用程序添加了特定于组件的度量和跟踪。</color></p><p><color> </color></p><p><color>该版本的其他改进包括：支持</color><color>命名空间的交互式渲染、新增InvokeVoidAsync()分析器、用于在自定义组件上进行依赖注入的IComponentPropertyActivator接口、为Interactive Server组件提供</color><color>支持，以及统一的Blazor脚本启动选项格式。</color></p><p><color> </color></p><p><color>其他的改进还包括：支持二进制文件响应的</color><color>、IOutputCachePolicyProvider接口、在Blazor Web App模板中提供容器支持，以及自动信任WSL环境中的开发证书。</color></p><p><color> </color></p><p><color>感兴趣的读者可以在ASP.NET Core</color><color>中查看完整的发布说明，或在</color><color>上查看项目路线图。</color></p><p><color> </color></p><p><color> </color></p><p><color>声明：本文为InfoQ翻译，未经许可禁止转载。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
+            "link": "https://www.infoq.cn/article/GTCTH14eAiKrxaAoA7uc",
+            "pub_date": "2026-03-05 09:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "1O55AEl0sWVY34y70FpJ",
+            "title": "Warper：由 Rust 驱动的 React 虚拟化库",
+            "image": "https://static001.infoq.cn/resource/image/00/aa/003c0a200d5ac9594d831205921022aa.jpg",
+            "description": "<div><p><color> 是一个由 Rust 和 WebAssembly 驱动的开源 React 虚拟化库，近日发布了 7.x 版本，带来性能优化、改进的打包工具兼容性以及更完善的开发者工具支持。</color></p><p><color> </color></p><p><color>Warper 7.2 引入了多项改进，包括在性能关键路径中使用 TypedArrays 实现零分配、用于帧时间统计的 O(1) 环形缓冲区操作、对主流打包工具的全面支持，以及适配不同设备视口的响应式示例。</color></p><p><color> </color></p><p><color>该库在虚拟化实现上采取了与众不同的方式：将滚动计算卸载到由 Rust 编译而成的 WebAssembly 模块中。包括二分查找、范围计算和偏移量查找等性能关键操作，都在编译后的 WASM 中运行，而非 JavaScript。库内部维护了一棵 Fenwick 树（又称二叉索引树）来记录元素高度，从而支持 O(log n) 的前缀和查询，以及针对固定高度元素的 O(1) 查找。</color></p><p><color> </color></p><p><color>v7 的一个关键变化是在性能关键路径中用 TypedArrays（如 Int32Array、Float64Array）替代普通数组，从而在滚动过程中消除垃圾回收压力。本次发布还将用于帧时间统计的 push()/shift() 操作替换为常数时间复杂度的环形缓冲区操作，解决了早期版本中因频繁分配带来的性能问题。</color></p><p><color> </color></p><p><color>开始使用 Warper 只需安装一个包：</color></p><p><color> </color></p><p><color>基础用法通过 </color><color> hook实现，该 hook 会返回用于渲染的可视范围和偏移量：</color></p><p><color> </color></p><p><color>Warper 声称相比现有方案具有显著的性能优势。根据</color><color>的基准测试数据，在 100,000 个项目的测试中，react-window 的帧率约为 40 FPS，而 Warper 达到 120 FPS。当项目数量增加到 1,000,000 时，差距进一步扩大：react-window 降至约 12 FPS，而 Warper 仍维持在 118 FPS。</color></p><p><color> </color></p><p><color>React 虚拟化领域已有多个成熟库。react-window 近期发布了</color><color>，支持自动尺寸计算和原生 TypeScript，压缩后体积约 6KB，是当前最轻量的选项。TanStack Virtual 提供无头（headless）、与框架无关的方案，体积约 12KB。react-virtualized 功能丰富，但压缩后约 25KB，通常被视为较重的选择。Warper 压缩后约 8.7KB，是这一组中唯一使用 WebAssembly 引擎的库。</color></p><p><color> </color></p><p><color>社区反馈褒贬不一。在 </color><color> 上，有用户对这一技术路线表示赞赏，但质疑实际需求：</color></p><p><color> </color></p><p><color>另一位用户回应：</color></p><p><color> </color></p><p><color>还有一些用户报告了在 Firefox 中的</color><color>，其中一位指出：</color></p><p><color> </color></p><p><color>对此，作者回应：</color></p><p><color> </color></p><p><color>在包体积方面，该项目也有明显改进。早期开发版本体积超过 50KB，而开发者已将其优化至压缩后约 5.9KB，并表示性能没有损失。目前已默认支持 Vite、Webpack、Rollup、esbuild、Parcel 以及 Next.js 等主流打包工具。</color></p><p><color> </color></p><p><color>相关文档可在项目的 </color><color>中查看。Warper 以 MIT 许可证开源发布。</color></p></div>",
+            "link": "https://www.infoq.cn/article/1O55AEl0sWVY34y70FpJ",
+            "pub_date": "2026-03-04 08:15:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "id": "TgdAMDxAiG0A4NWMZjyI",
+            "title": "文化、代码与平台：打造高绩效团队",
+            "image": "https://static001.infoq.cn/resource/image/83/95/83c8fa85e0d1db7189fa72f5afd71a95.jpeg",
+            "description": "<div><h2>简介</h2><p>虽然“文化”常被看作一种软实力，但高绩效组织深知，它才是生产力与稳定性的核心驱动力。在本次虚拟圆桌讨论中，我们将探讨文化在软件开发中扮演的关键角色：文化既能成就一支团队，也能摧毁一支团队。优秀的文化能够支撑创新，帮助软件从业者充分释放自身潜能。</p><p></p><p>建立和打造高绩效的软件开发文化有多种路径。本次虚拟圆桌将重点聚焦：通过平台工程与优化开发者体验实现效能提升，进而提高生产力、产品质量与开发者幸福感。我们还将探讨技术领导者在文化变革与软件开发组织效能提升中所能发挥的作用。</p><p></p><h2>与会嘉宾：</h2><ul><li><p>Patrick Kua - Tech Lead Academy 首席技术官教练与培训师</p></li></ul><ul><li><p>Abby Bangser - Syntasso 创始首席工程师</p></li></ul><ul><li><p>Sarah Wells - Sarah Wells Consulting Ltd 顾问与作家</p></li></ul><p>InfoQ：文化在高绩效软件团队中扮演着怎样的角色？</p><p></p><p></p><p></p><p></p><p>InfoQ：平台工程如何为工程师的日常工作提供支持？</p><p></p><p></p><p></p><p>InfoQ：你采用哪些领导力实践来激发技术人员的最大潜能？</p><p></p><p></p><p></p><p>InfoQ：重视开发者体验如何能提升研发效率与产品质量？</p><p></p><p></p><p></p><p></p><p>InfoQ：你从平台工程、开发者体验和技术领导中看到了哪些好处？</p><p></p><p></p><p></p><h2>结论</h2><p>高绩效软件团队的文化是靠你鼓励或容忍的日常行为塑造出来的，而非写在纸面上的价值观。打造贴近用户、彼此信任、持续学习的环境，把错误当作改进的机会。</p><p></p><p>平台工程能够减少日常工作中的阻力，从而提升团队效能。通过对基础设施和工具进行标准化与集中化管理，平台团队可以将工程师从重复性工作中解放出来，帮助他们专注于交付用户价值——尤其是在与产品团队紧密协作、持续迭代的情况下。</p><p></p><p>强化开发者体验与领导力，实现快速反馈、高效试错与流程一致。优秀的领导者能够明确方向、充分沟通，并持续优化系统，让团队更高效、更有信心地交付更高质量的成果。</p></div>",
+            "link": "https://www.infoq.cn/article/TgdAMDxAiG0A4NWMZjyI",
+            "pub_date": "2026-03-04 07:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        }
+    ]
+}
