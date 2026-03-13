@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "BuXP90QohCudfPX5Q2Zw",
+            "title": "Google 为 Gemini CLI Conductor 推出自动化代码评审功能",
+            "image": "https://static001.infoq.cn/resource/image/5f/8b/5f79d66926b55120dc6b523649062a8b.jpg",
+            "description": "<div><p><color>谷歌为其 Gemini CLI 扩展 </color><color>支持。该公司表示，这一更新让 Conductor“从仅仅进行规划和执行，扩展到验证阶段”，使其能够检查 AI 生成代码的质量及其是否遵循既定规范，从而提升 AI 辅助开发工作流程中的可信度、安全性和可控性。</color></p><p><color> </color></p><p><color> </color></p><p><color>谷歌称，这一新功能会从多个维度自动评估 AI 生成的代码，包括代码质量、是否符合原计划、是否遵循代码风格与编程规范、测试验证结果以及基础安全审查。</color></p><p><color> </color></p><p><color>在代码质量方面，Conductor 可以进行语法检查之外的深度静态分析和逻辑分析，识别诸如竞态条件、空指针风险以及逻辑错误等复杂问题。它还会验证实际代码实现是否与最初的 </color><color> 和 </color><color> 中的计划一致，确保所有规划的任务都已被正确实现。</color></p><p><color> </color></p><p><color>Conductor 还会检查代码是否遵循项目的代码风格指南以及规划阶段定义的自定义规则。系统会自动运行单元测试和集成测试，并在评审报告中包含测试结果和覆盖率数据。最后，在代码合并之前，它还会扫描潜在的关键安全问题，例如硬编码的 API 密钥、可能的个人敏感信息（PII）泄露，以及不安全的输入处理。</color></p><p><color> </color></p><p><color>Conductor 生成的报告会按照高、中、低三个严重等级对问题进行分类，并提供具体的文件路径，同时支持直接启动一个 track 来修复相关问题。</color></p><p><color> </color></p><p><color> </color></p><p><color>谷歌表示，在 Conductor 中引入自动化评审功能，为 AI 辅助工程实践“补上了闭环”，在代码生成之后增加验证与确认环节。该功能意在回应人们对 AI 生成代码在质量、安全性和合规性方面日益增长的担忧，使 AI 驱动的软件开发更加安全、可预测且架构合理。</color></p><p><color> </color></p><p><color>Conductor 于去年 12 月发布，是 Gemini CLI 的一个扩展。它通过将项目上下文（包括计划、规格说明和代码风格指南）</color><color>，而不是临时聊天记录中，来支持基于上下文的开发模式。</color></p><p><color> </color></p><p><color>在 Conductor 中，track 表示一个独立的工作单元，包含书面规格说明以及按阶段和子任务划分的任务计划。只有在计划评审完成后才会开始实现，开发进度也会直接记录在计划文件中。</color></p><p><color> </color></p><p><color>Conductor 还支持团队级配置，使项目能够一次性定义共享标准，例如测试策略、编码规范和工作流程偏好，并将其一致地应用到所有 AI 辅助开发任务中，从而确保个人开发者和团队协作时的一致性。</color></p></div>",
+            "link": "https://www.infoq.cn/article/BuXP90QohCudfPX5Q2Zw",
+            "pub_date": "2026-03-13 02:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "SeYvhWvOzkbdk8PI4ciM",
             "title": "CNCF毕业项目Dragonfly，标志着云原生镜像分发领域的重要里程碑",
             "image": "https://static001.infoq.cn/resource/image/f6/71/f6b5a98ayy1698a36358dd5ed8cc0071.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color> 是一个由 Rust 和 WebAssembly 驱动的开源 React 虚拟化库，近日发布了 7.x 版本，带来性能优化、改进的打包工具兼容性以及更完善的开发者工具支持。</color></p><p><color> </color></p><p><color>Warper 7.2 引入了多项改进，包括在性能关键路径中使用 TypedArrays 实现零分配、用于帧时间统计的 O(1) 环形缓冲区操作、对主流打包工具的全面支持，以及适配不同设备视口的响应式示例。</color></p><p><color> </color></p><p><color>该库在虚拟化实现上采取了与众不同的方式：将滚动计算卸载到由 Rust 编译而成的 WebAssembly 模块中。包括二分查找、范围计算和偏移量查找等性能关键操作，都在编译后的 WASM 中运行，而非 JavaScript。库内部维护了一棵 Fenwick 树（又称二叉索引树）来记录元素高度，从而支持 O(log n) 的前缀和查询，以及针对固定高度元素的 O(1) 查找。</color></p><p><color> </color></p><p><color>v7 的一个关键变化是在性能关键路径中用 TypedArrays（如 Int32Array、Float64Array）替代普通数组，从而在滚动过程中消除垃圾回收压力。本次发布还将用于帧时间统计的 push()/shift() 操作替换为常数时间复杂度的环形缓冲区操作，解决了早期版本中因频繁分配带来的性能问题。</color></p><p><color> </color></p><p><color>开始使用 Warper 只需安装一个包：</color></p><p><color> </color></p><p><color>基础用法通过 </color><color> hook实现，该 hook 会返回用于渲染的可视范围和偏移量：</color></p><p><color> </color></p><p><color>Warper 声称相比现有方案具有显著的性能优势。根据</color><color>的基准测试数据，在 100,000 个项目的测试中，react-window 的帧率约为 40 FPS，而 Warper 达到 120 FPS。当项目数量增加到 1,000,000 时，差距进一步扩大：react-window 降至约 12 FPS，而 Warper 仍维持在 118 FPS。</color></p><p><color> </color></p><p><color>React 虚拟化领域已有多个成熟库。react-window 近期发布了</color><color>，支持自动尺寸计算和原生 TypeScript，压缩后体积约 6KB，是当前最轻量的选项。TanStack Virtual 提供无头（headless）、与框架无关的方案，体积约 12KB。react-virtualized 功能丰富，但压缩后约 25KB，通常被视为较重的选择。Warper 压缩后约 8.7KB，是这一组中唯一使用 WebAssembly 引擎的库。</color></p><p><color> </color></p><p><color>社区反馈褒贬不一。在 </color><color> 上，有用户对这一技术路线表示赞赏，但质疑实际需求：</color></p><p><color> </color></p><p><color>另一位用户回应：</color></p><p><color> </color></p><p><color>还有一些用户报告了在 Firefox 中的</color><color>，其中一位指出：</color></p><p><color> </color></p><p><color>对此，作者回应：</color></p><p><color> </color></p><p><color>在包体积方面，该项目也有明显改进。早期开发版本体积超过 50KB，而开发者已将其优化至压缩后约 5.9KB，并表示性能没有损失。目前已默认支持 Vite、Webpack、Rollup、esbuild、Parcel 以及 Next.js 等主流打包工具。</color></p><p><color> </color></p><p><color>相关文档可在项目的 </color><color>中查看。Warper 以 MIT 许可证开源发布。</color></p></div>",
             "link": "https://www.infoq.cn/article/1O55AEl0sWVY34y70FpJ",
             "pub_date": "2026-03-04 08:15:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "TgdAMDxAiG0A4NWMZjyI",
-            "title": "文化、代码与平台：打造高绩效团队",
-            "image": "https://static001.infoq.cn/resource/image/83/95/83c8fa85e0d1db7189fa72f5afd71a95.jpeg",
-            "description": "<div><h2>简介</h2><p>虽然“文化”常被看作一种软实力，但高绩效组织深知，它才是生产力与稳定性的核心驱动力。在本次虚拟圆桌讨论中，我们将探讨文化在软件开发中扮演的关键角色：文化既能成就一支团队，也能摧毁一支团队。优秀的文化能够支撑创新，帮助软件从业者充分释放自身潜能。</p><p></p><p>建立和打造高绩效的软件开发文化有多种路径。本次虚拟圆桌将重点聚焦：通过平台工程与优化开发者体验实现效能提升，进而提高生产力、产品质量与开发者幸福感。我们还将探讨技术领导者在文化变革与软件开发组织效能提升中所能发挥的作用。</p><p></p><h2>与会嘉宾：</h2><ul><li><p>Patrick Kua - Tech Lead Academy 首席技术官教练与培训师</p></li></ul><ul><li><p>Abby Bangser - Syntasso 创始首席工程师</p></li></ul><ul><li><p>Sarah Wells - Sarah Wells Consulting Ltd 顾问与作家</p></li></ul><p>InfoQ：文化在高绩效软件团队中扮演着怎样的角色？</p><p></p><p></p><p></p><p></p><p>InfoQ：平台工程如何为工程师的日常工作提供支持？</p><p></p><p></p><p></p><p>InfoQ：你采用哪些领导力实践来激发技术人员的最大潜能？</p><p></p><p></p><p></p><p>InfoQ：重视开发者体验如何能提升研发效率与产品质量？</p><p></p><p></p><p></p><p></p><p>InfoQ：你从平台工程、开发者体验和技术领导中看到了哪些好处？</p><p></p><p></p><p></p><h2>结论</h2><p>高绩效软件团队的文化是靠你鼓励或容忍的日常行为塑造出来的，而非写在纸面上的价值观。打造贴近用户、彼此信任、持续学习的环境，把错误当作改进的机会。</p><p></p><p>平台工程能够减少日常工作中的阻力，从而提升团队效能。通过对基础设施和工具进行标准化与集中化管理，平台团队可以将工程师从重复性工作中解放出来，帮助他们专注于交付用户价值——尤其是在与产品团队紧密协作、持续迭代的情况下。</p><p></p><p>强化开发者体验与领导力，实现快速反馈、高效试错与流程一致。优秀的领导者能够明确方向、充分沟通，并持续优化系统，让团队更高效、更有信心地交付更高质量的成果。</p></div>",
-            "link": "https://www.infoq.cn/article/TgdAMDxAiG0A4NWMZjyI",
-            "pub_date": "2026-03-04 07:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
