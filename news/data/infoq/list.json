@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "oOIf2M6slcOmV0PTPKvj",
+            "title": "Cloudflare 宣布支持 ASPA：为 BGP 路由路径验证引入新安全机制",
+            "image": "https://static001.infoq.cn/resource/image/89/09/8968f0c637a7bac5b5783b48f99b5609.jpg",
+            "description": "<div><p>Cloudflare 近日 ASPA（Autonomous System Provider Authorization）。这一新的加密标准通过验证数据在网络之间传输的路径，使互联网路由更加安全，从而防止流量经过不可靠或不受信任的网络。</p><p></p><p> 是一种基于 RPKI 的安全机制。它通过验证 AS_PATH（即路由通告经过的网络路径），来提升互联网路由协议 BGP 的安全性，从而减少路由泄露（route leaks）以及某些类型的路由劫持。这一新兴标准的目标，是提升互联网的整体可靠性，并减少由于意外或恶意行为导致的流量绕行。Cloudflare 首席系统工程师  和首席网络工程师  解释道：</p><p></p><p>边界网关协议（BGP） 是互联网流量路由的核心协议，但它本身缺乏原生的路径验证机制，因此容易受到路由泄露和路由劫持的影响。虽然  可以加强路由来源的验证，但它们并不会验证端到端路径。ASPA 通过一种加密方式，使网络运营者能够声明其被授权的提供商，从而让接收网络可以验证某个 AS 路径是否符合预期的结构。</p><p></p><p>ASPA 通过验证互联网路由的预期层级结构来检测路由绕行。在正常的 “valley-free”（无谷）拓扑 中，流量会从客户网络向上游提供商传递，可能在顶层经过一次对等（peer）连接，然后再通过提供商向下传递到目标客户网络。这种 客户 → 提供商的上行路径、可选的对等连接，以及提供商 → 客户的下行路径，共同构成了符合策略的标准路径。</p><p><img>https://imgopt.infoq.com/fit-in/3000x4000/filters:quality%2885%29/filters:no_upscale%28%29/news/2026/03/cloudflare-aspa-standard/en/resources/61-1772470746561.jpg<img></p><p></p><p>去年，美国国家标准与技术研究院（NIST）发布了和数据集，以促进对新兴 BGP 安全和韧性机制的测试与实验，其中包括评估路由器实现 ASPA 规范的能力。</p><p></p><p>Cloudflare 还在  中添加了相关工具，用于跟踪 ASPA 的采用情况，使网络运营者能够查看哪些网络正在使用该技术，以及路径验证的情况。Zhang 和 Herdes 提醒：</p><p></p><p></p><p><img>https://imgopt.infoq.com/fit-in/3000x4000/filters:quality%2885%29/filters:no_upscale%28%29/news/2026/03/cloudflare-aspa-standard/en/resources/211-1772470746561.jpg<img></p><p></p><p>Cloudflare 表示，在最近的委内瑞拉 BGP  中，如果部署了 ASPA，网络就可以通过验证观察到的 AS 路径是否符合预期的提供商授权关系，从而检测并拒绝异常的路径通告，而仅依赖来源验证是无法做到这一点的。</p><p></p><p>Cloudflare 并不是唯一致力于推动这一加密标准的提供商。在去年发布的文章 “” 中，亚马逊云科技团队写道：</p><p></p><p>尽管相关 IETF 标准仍处于草案阶段，Cloudflare 指出 ARIN 和 RIPE NCC 已经支持创建 ASPA 对象，而路由软件 OpenBGPD 和 BIRD 也已经包含 ASPA 验证功能。</p><p></p><p><strong>原文链接：</strong></p><p>https://www.infoq.com/news/2026/03/cloudflare-aspa-standard/</p></div>",
+            "link": "https://www.infoq.cn/article/oOIf2M6slcOmV0PTPKvj",
+            "pub_date": "2026-03-14 15:19:37",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "9bjvHNljpbgKEwwUu6Nl",
             "title": "Vue Router 5：将文件式路由整合进核心，且不引入破坏性变更",
             "image": "https://static001.infoq.cn/resource/image/1d/b5/1d801dd5a6a5e44b7503e433b3a540b5.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p><color>自</color><color>起，</color><color>正式引入，为web开发带来了一套现代化的日期和时间API，这也是Chrome集成这一长期推进的TC39提案的首个稳定版本。Chrome发布博客重点介绍了这一更新，并将Temporal定位为JavaScript长期饱受批评的Date对象的现代替代方案。</color></p><p><color> </color></p><p><color>Temporal以全局命名空间</color><color>的形式对外暴露，旨在解决Date对象诸多已知的问题，例如，解析规则不清晰、时区处理繁琐、日期算术运算可变等。它为不同的使用场景设计了专门的类型，并且所有运算均返回新值而非修改原有的对象。MDN将其描述为</color><color>对象的完整替代方案，内置支持时区与日历系统、墙上时间（wall clock）转换、算术运算及格式化功能。</color></p><p><color> </color></p><p><color>该API最具实际价值的特性之一就是，开发者可以仅表示“日期”，而不会意外引入时区和具体时间的信息。例如：</color></p><p><color> </color></p><p><color>当需要关注时区时，该API会强制开发者进行显式声明。以前，在将</color><color>格式化为字符串后，开发人员都会担心这个过程中出现隐式转换，现在，</color><color>类型会将时区信息直接嵌入值中：</color></p><p><color> </color></p><p><color>社区对此的讨论混合了欣喜和落地适配的焦虑。 </color><color>，开发者们对无需依赖第三方库来处理基础日期逻辑表示欢迎。有评论指出，这一API来得太迟了，并细数了</color><color>对象的诸多不足之处，“连日期这种基础功能都要引入第三方库，这一直以来都很让人头疼”。</color></p><p><color> </color></p><p><color>尽管Chrome已正式支持，但Temporal的实际落地可能仍会延迟，原因在于并不是所有浏览器都支持该功能，且框架/类库的适配也需要时间，Reddit上的评论说：</color></p><p><color> </color></p><p><color>近期Medium上的</color><color>进一步指出，即便Chrome已集成 Temporal，实际生产环境的使用仍受限于支持方面的差异，尤其是Safari浏览器和移动端，因为这类场景的功能迭代通常滞后更明显。</color></p><p><color> </color></p><p><color>和标准追踪平台的动态也反映了社区反应。Temporal提案目前仍处于Stage 3阶段，但其仓库已开始追踪推进至</color><color>的剩余工作，一旦达成，该API将正式纳入ECMAScript标准。</color></p><p><color> </color></p><p><color>对于迁移策略，多数团队可能会渐进式采用Temporal。</color><color>是理解其类型模型和设计意图的起点，而</color><color>则提供了最易上手的日常API供参考。</color></p><p><color> </color></p><p><color>Temporal的到来也改变了日期处理工具的竞争格局。在需要跨浏览器支持的场景下，</color><color>、</color><color>、</color><color>以及现已基本成为遗留项目的</color><color>仍会发挥作用。但长远来看，这些库可能会逐步转向便捷封装和定制化格式化的方向，而非继续填补语言层面的基础功能缺口。</color></p><p><color> </color></p><p><color>Temporal是由负责ECMAScript标准的TC39委员会研发的现代化日期时间API提案。它提供了一套完整的类型体系，用于处理日期、时间、时区和日历系统，从根本上解决了JavaScript遗留</color><color>对象的缺陷。该API采用不可变值类型、显式时区处理，并支持多日历系统，非常适合国际化应用的开发。</color></p><p><color> </color></p><p><color>查看英文原文：</color></p></div>",
             "link": "https://www.infoq.cn/article/i2uiflYNMtTwmxeVCTxp",
             "pub_date": "2026-03-06 03:00:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "GTCTH14eAiKrxaAoA7uc",
-            "title": ".NET 11 ASP.NET Core预览版1带来全新的Blazor组件、改进的导航功能以及WebAssembly支持",
-            "image": "https://static001.infoq.cn/resource/image/71/a8/71b391d6247f6e5d70be202dyy42bba8.jpg",
-            "description": "<div><p><color>微软发布.NET 11 ASP.NET Core的第一个预览版本。该版本带来了一系列的新特性和改进，旨在增强Blazor、OpenAPI和一般Web开发工作流的开发体验。</color></p><p><color> </color></p><p><color>其中一个最引人注目的新增功能是Blazor的新组件</color><color>。它允许开发人员根据托管环境有条件性地渲染内容。该组件接受Include和Exclude参数，在Blazor Server和Blazor WebAssembly中行为一致，不需要手动检查环境。</color></p><p><color> </color></p><p><color>该版本还针对Blazor表单做了几项改进。现在，</color><color>可自动从元数据属性中提取显示名称，实现可访问标签的渲染。该组件同时支持嵌套与非嵌套的label-input关联模式。此外，新增的DisplayName组件提供了类似MVC辅助方法@Html.DisplayNameFor()的功能，便于显示支持本地化的属性的属性名。</color></p><p><color> </color></p><p><color>组件增加了OnRowClick事件参数，使开发人员能够直接处理行点击交互。如果做了配置，则网格会自动应用指针光标样式，并在用户点击某个项时调用回调函数。</color></p><p><color> </color></p><p><color>而且，Blazor中的</color><color>也得到了关注。现在，NavigationManager.NavigateTo()方法和NavLink组件通过新增的RelativeToCurrentUri参数支持相对URI导航。这使得导航能够基于当前页面路径而非应用程序的基准URI进行，对于嵌套的文件夹结构来说，这特别有用。</color></p><p><color> </color></p><p><color>此外，如前所述，新增的扩展方法GetUriWithHash()提供了一种零分配方案，可将哈希片段附加到统一资源标识符（URI）中；而全新的BasePath组件则消除了在HTML中手动指定基准href元素的需求。</color></p><p><color> </color></p><p><color>在WebAssembly方面，Blazor WebAssembly现在支持</color><color>，可以在浏览器中运行后台服务，实现了与Blazor Server对等的功能。现在，框架还允许通过IConfiguration访问环境变量，无需重建应用程序即可进行运行时配置。它还为WebAssembly应用程序添加了特定于组件的度量和跟踪。</color></p><p><color> </color></p><p><color>该版本的其他改进包括：支持</color><color>命名空间的交互式渲染、新增InvokeVoidAsync()分析器、用于在自定义组件上进行依赖注入的IComponentPropertyActivator接口、为Interactive Server组件提供</color><color>支持，以及统一的Blazor脚本启动选项格式。</color></p><p><color> </color></p><p><color>其他的改进还包括：支持二进制文件响应的</color><color>、IOutputCachePolicyProvider接口、在Blazor Web App模板中提供容器支持，以及自动信任WSL环境中的开发证书。</color></p><p><color> </color></p><p><color>感兴趣的读者可以在ASP.NET Core</color><color>中查看完整的发布说明，或在</color><color>上查看项目路线图。</color></p><p><color> </color></p><p><color> </color></p><p><color>声明：本文为InfoQ翻译，未经许可禁止转载。</color></p><p><color> </color></p><p><color>原文链接：</color></p></div>",
-            "link": "https://www.infoq.cn/article/GTCTH14eAiKrxaAoA7uc",
-            "pub_date": "2026-03-05 09:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
