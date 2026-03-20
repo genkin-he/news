@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Cursor发布自研Composer 2模型，大幅降低代码开发成本",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩3月20日讯，据 The Decoder 报道，代码编辑器Cursor正式发布第二代自研模型Composer 2，旨在以显著低于竞品的价格提供匹敌顶尖水平的编程能力。该模型输入令牌定价为每百万0.50美元，输出为2.50美元，远低于Claude Opus 4.6及GPT-5.4。联合创始人Aman Sanger表示，模型专攻代码数据训练，虽不具备通用任务能力，但实现了极高的成本效益。</span></p><p><span>性能方面，Composer 2在内部基准CursorBench中得分61.3，较前代大幅提升，并与Claude Opus 4.6及GPT-5.4 Thinking处于同一竞争梯队。其优势源于针对长周期编程任务的强化学习训练，显著增强了复杂工程任务的解决能力。</span></p><p><span>此举被视为Cursor生存发展的战略必需。面对Anthropic和OpenAI既是供应商又是直接竞争对手的局面，自研模型使Cursor摆脱了对第三方算力的依赖，避免了因竞品低价套餐导致的利润挤压，确保在激烈的AI编码市场中保持独立性与可持续增长。</span></p><figure class=\"image\"><img alt=\"\" height=\"630\" src=\"https://cdn.pingwest.com/portal/2026/03/20/1MJr8pDR5X5P7QFm73D8Ed7ZR37M76P3.png?x-oss-process=style/article-body\" title=\"\" width=\"1200\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312310",
+            "pub_date": "2026-03-20 14:21:14",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Mistral AI发布Small 4，统一推理与多模态能力",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩3月20日讯，据 Mistral 官方消息，法国人工智能公司Mistral AI正式发布Mistral Small 4模型。作为Small系列的最新重大版本，该模型首次将Magistral的推理、Pixtral的多模态及Devstral的代码智能体能力整合于单一架构，用户无需在不同专用模型间切换即可应对复杂任务。</span></p><p><span>Mistral Small 4采用混合专家（MoE）架构，拥有1190亿总参数，支持256k上下文窗口及原生图文输入。其核心创新在于可配置的“推理努力”参数，允许用户在低延迟响应与深度逐步推理之间动态调整。测试显示，该模型在保持或超越GPT-OSS 120B性能的同时，显著缩短了输出长度，大幅降低了推理成本与延迟。</span></p><p><span>该模型基于Apache 2.0协议开源，现已通过Mistral API、Hugging Face及NVIDIA NIM部署。作为英伟达Nemotron联盟创始成员，Mistral致力于推动开放、高效且可定制的企业级人工智能应用发展。</span></p><figure class=\"image\"><img alt=\"\" height=\"822\" src=\"https://cdn.pingwest.com/portal/2026/03/20/33871J83f3RdsjcwTMHMf67cJArjDmBe.png?x-oss-process=style/article-body\" title=\"\" width=\"1449\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312301",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩3月20日讯，据 TechCrunch 报道，亚马逊正式宣布收购瑞士自主机器人初创公司Rivr，后者以研发具备爬楼能力的配送机器人而闻名。此次交易标志着电商巨头进一步深化“最后一公里”配送领域的战略布局，具体条款未予披露。该消息由The Information率先报道，Rivr联合创始人兼CEO Marko Bjelonic随后在领英确认。</span></p><p><span>Bjelonic表示，此次收购将加速其构建“通用物理AI”的愿景，依托亚马逊资源推动机器人大规模落地。Rivr此前曾在奥斯汀与Veho合作试点，并计划于2026年部署百台机器人。早在2024年，亚马逊工业创新基金及Bezos Expeditions便参与了Rivr的融资，显示出长期关注。</span></p><p><span>随着整合推进，亚马逊有望将Rivr的四足轮式机器人技术快速应用于实际配送场景，提升复杂环境下的交付效率，重塑末端物流生态。</span></p><figure class=\"image\"><img alt=\"\" height=\"1440\" src=\"https://cdn.pingwest.com/portal/2026/03/20/JWpJ6x69nnj4S1APcBDP7Gm2kMmcP_bm.jpg?x-oss-process=style/article-body\" title=\"\" width=\"2560\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312289",
             "pub_date": "2026-03-20 10:10:54",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "谷歌启动Gemini macOS应用内测，拟推桌面智能功能",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩3月20日讯，据9to5Mac 报道，谷歌已悄然启动Gemini macOS专用应用的早期测试，面向部分用户开放。此举旨在填补该应用在苹果电脑端的空白，此前Mac用户仅能通过网页访问服务，而Anthropic与OpenAI早已推出各自的Mac原生应用。</span></p><p><span>谷歌在致测试者的消息中指出，当前版本仅包含核心功能，尚未完备。代码信息显示，该应用将引入“Desktop Intelligence”特性。启用后，Gemini可获取屏幕上下文信息，直接从本地应用中提取内容，从而在用户使用时提供更具针对性的个性化体验。</span></p><p><span>目前，该应用界面设计与现有的iPhone及iPad版本保持高度一致。尽管谷歌尚未公布正式发布日期，但此次内测标志着其正加速完善多端生态。随着桌面智能功能的加入，未来Gemini在macOS上的交互深度与场景适应能力有望得到显著提升，进一步缩小与其他主流AI助手的体验差距。</span></p><figure class=\"image\"><img alt=\"\" height=\"423\" src=\"https://cdn.pingwest.com/portal/2026/03/20/i1ctkRrdpdmxr2nd_9iF1wKWhGi2Tp13.png?x-oss-process=style/article-body\" title=\"\" width=\"867\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/312288",
-            "pub_date": "2026-03-20 10:10:55",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
