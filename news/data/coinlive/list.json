@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 1085026,
+            "title": "Philippine Peso and Indian Rupee Decline Amid Strait of Hormuz Closure",
+            "description": "The Philippine peso has depreciated to 60.8 per dollar, while India's rupee fell to an intraday low of 95.2, as the Strait of Hormuz remains largely closed to commercial traffic. According to NS3.AI, the peso's decline in March has surpassed 5%. The Bangko Sentral ng Pilipinas stated that its intervention is focused on moderating large fluctuations rather than maintaining a specific exchange rate level. Meanwhile, the Indian rupee has experienced an 11% drop over the fiscal year, marking its most significant decline since 2011-12. The Reserve Bank of India has imposed a cap on banks' net open positions in the onshore forex market at $100 million per day, effective April 10.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085026&language=en-US",
+            "pub_date": "2026-03-31 16:32:56",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1085025,
+            "title": "Keyrock Secures Series C Funding at $1.1 Billion Valuation",
+            "description": "Keyrock has successfully raised a Series C funding round, achieving a valuation of $1.1 billion. According to NS3.AI, the financing was led by SC Ventures. The round remains open and has the potential to reach a total of $100 million. Keyrock plans to utilize the new capital to enhance its balance sheet, expand its range of services, and explore acquisition opportunities.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085025&language=en-US",
+            "pub_date": "2026-03-31 16:33:12",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1085024,
+            "title": "Trezor Transitions Firmware Architecture to Modular Platform",
+            "description": "Trezor's firmware product lead, Jan Setina, announced at the EthCC[9] conference that the team is transitioning its firmware architecture from a monolithic structure to a modular application platform. According to Foresight News, this initiative aims to address previous structural bottlenecks, such as slow integration speeds and hardware storage limitations, caused by the internal team's need to review all code. Developers can now use Trezor's SDK and simulator to independently develop, publish, and maintain applications. The modular firmware supports dynamic loading of applications as needed, with each application running in an isolated sandbox environment. This ensures that vulnerabilities in a single application do not affect others, enhancing security while increasing the flexibility of functional expansion.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085024&language=en-US",
+            "pub_date": "2026-03-31 16:33:40",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1085023,
+            "title": "Linea Introduces Yield Enhancement Feature",
+            "description": "Linea has announced the launch of a new yield enhancement feature. According to Foresight News, the platform has converted idle bridged Ethereum into sustainable ecosystem liquidity. This development does not require the introduction of new tokens, rebasing, or borrowing capital.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085023&language=en-US",
+            "pub_date": "2026-03-31 16:33:52",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1085022,
             "title": "Iran Escalates Tensions with Drone Attack on Kuwaiti Oil Tanker",
             "description": "Iran has intensified its actions in the ongoing conflict by launching a drone attack on a fully laden Kuwaiti oil tanker near Dubai. Bloomberg posted on X, highlighting this development as a significant escalation in targeting energy sites and infrastructure. The attack underscores Iran's willingness to increase pressure as the war continues. This incident raises concerns about the security of energy transportation routes in the region, potentially impacting global oil markets.",
@@ -156,46 +196,6 @@
             "description": "According to Onchain Lens, the Bhutanese government transferred 325 BTC to a wallet that had previously transferred funds to Galaxy Digital, worth $25.19 million.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085006&language=en-US",
             "pub_date": "2026-03-31 15:37:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1085005,
-            "title": "SlowMist: Be aware of the potential risks associated with malicious axios versions 1.14.1/0.30.4 and OpenClaw npm global installation history.",
-            "description": "As of March 31, 2026, publicly available intelligence indicates that axios@1.14.1 and axios@0.30.4 have been confirmed as malicious versions. Both are injected with an additional dependency, plain-crypto-js@4.2.1, which can deliver cross-platform malicious payloads via a postinstall script. The impact of this event on OpenClaw needs to be assessed on a scenario-by-scenario basis: 1) Source code build scenario: Unaffected. The v2026.3.28 lock file actually locks axios@1.13.5 / 1.13.6, and the malicious version is not detected. 2) npm install -g openclaw@2026.3.28 scenario: There is a historical exposure risk because the dependency chain contains: openclaw -> @line/bot-sdk@10.6.0 -> optionalDependencies.axios@^1.7.4. During the time window when the malicious version is still online, it may be resolved to axios@1.14.1. 3) Current reinstallation result: npm has reverted to resolving to axios@1.14.0, but for environments that were installed within the attack window, it is still recommended to handle them as affected scenarios and check the IoC. In addition, SlowMist suggests that if the plain-crypto-js directory is found, even if the package.json file has been cleaned up, it should be considered a high-risk execution trace. For hosts that executed npm install or npm install -g openclaw@2026.3.28 within the attack window, it is recommended to immediately rotate credentials and conduct host-side investigations.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085005&language=en-US",
-            "pub_date": "2026-03-31 15:39:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1085003,
-            "title": "JustLend DAO TVL reaches $6.55 billion",
-            "description": "According to official sources, JustLend DAO, a leading decentralized lending protocol on the TRON network, has reported a total locked value of $6.55 billion and total deposits of $3.53 billion in its latest weekly report. As a core DeFi infrastructure within the TRON ecosystem, JustLend DAO is demonstrating the vibrant energy of the DeFi market with its strong performance, providing efficient on-chain lending services to users worldwide.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085003&language=en-US",
-            "pub_date": "2026-03-31 15:21:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1085001,
-            "title": "USD/JPY Exchange Rate Nears 160 Amid Economic Factors",
-            "description": "The USD/JPY exchange rate is approaching the 160 mark due to several economic factors. According to BlockBeats, the rise in oil prices and the strengthening of the U.S. dollar, combined with a slowdown in Tokyo's CPI growth to its lowest in nearly four years, have reduced market expectations for a rate hike by the Bank of Japan, putting pressure on the yen.\n\nOn the Hyperliquid platform, a whale with an address starting with 0x58c has significantly increased their long positions in USD/JPY. Despite some minor reductions, the overall position has increased by approximately 16%, betting on a breakthrough above the 160 level.\n\nCurrently, the whale holds a 27x leveraged long position in USD/JPY, amounting to $1.13 million, with an average entry price of $159.89 and a liquidation price of $154.77. The position is currently experiencing a slight floating loss of 4.2%.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085001&language=en-US",
-            "pub_date": "2026-03-31 15:23:33",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1085000,
-            "title": "JustLend DAO Reports Significant Growth in Total Value Locked",
-            "description": "According to official reports, the decentralized lending protocol JustLend DAO, a key component of the TRON ecosystem, has reached a total value locked of $6.55 billion. According to Odaily, the platform's total deposits have climbed to $3.53 billion. JustLend DAO continues to demonstrate robust growth in the DeFi market, offering efficient on-chain lending services to users worldwide.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085000&language=en-US",
-            "pub_date": "2026-03-31 15:23:38",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
