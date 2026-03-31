@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 1084947,
+            "title": "Japan's February New Housing Starts Decline 4.9%",
+            "description": "Japan's new housing starts in February fell by 4.9% year-on-year, according to Jin10. This decline was slightly larger than the anticipated drop of 4.7% and follows a previous decrease of 0.40%. The data reflects ongoing challenges in Japan's housing market, which may impact economic recovery efforts.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1084947&language=en-US",
+            "pub_date": "2026-03-31 13:02:41",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1084946,
+            "title": "Google's Quantum AI Team Highlights Cryptography Vulnerability in Bitcoin and Ethereum",
+            "description": "Google's Quantum AI team has released a new whitepaper indicating that breaking the cryptography used by Bitcoin and Ethereum may require fewer than 500,000 physical qubits, a figure significantly lower than the millions often cited in recent years. According to NS3.AI, Google researchers suggest that a prepared attacker could complete the final step in approximately nine minutes after a Bitcoin public key appears in a live transaction, compared to the roughly 10 minutes needed for confirmation.\n\nThe researchers also pointed out that Taproot, a Bitcoin upgrade, may increase exposure because it makes public keys visible by default. The paper estimates that approximately 6.9 million Bitcoin are stored in wallets with exposed public keys, potentially heightening vulnerability to quantum attacks.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1084946&language=en-US",
+            "pub_date": "2026-03-31 13:03:10",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1084945,
             "title": "AI TRENDS | High-Risk Vulnerability Discovered in OpenClaw Platform",
             "description": "A high-risk vulnerability has been identified in the OpenClaw platform, according to PANews. The discovery was made by the 360 Digital Security Group, which developed the 360 Multi-Agent Collaborative Vulnerability Mining System. The flaw, known as the MEDIA protocol prompt injection bypass tool permission leak local file vulnerability, has been officially confirmed by the National Information Security Vulnerability Database (CNNVD).\n\nThis vulnerability affects over 170,000 publicly accessible OpenClaw instances across more than 50 countries and regions worldwide. The core risk lies in the MEDIA protocol operating at the output post-processing layer, allowing attackers to bypass platform tool policy controls. Even if an agent disables all tool calls, attackers can exploit basic group chat member permissions to initiate attacks and directly steal sensitive server information, potentially leading to further cyber attacks.",
@@ -176,26 +196,6 @@
             "description": "Elon Musk stated on the X platform that the core of AI development lies in video understanding and generation, claiming that \"photons are the highest bandwidth form of communication,\" and that related technologies will become an important tool on the path to general artificial intelligence. He also pointed out that xAI's image generation tool, Grok Imagine, has achieved positive gross profit and is not a loss-making project. This statement comes against the backdrop of OpenAI's recent shutdown of its video platform, Sora. Public reports indicate that Sora generated approximately $2.1 million in revenue since its launch, with an average daily operating loss of approximately $1 million. Musk did not disclose specific revenue figures for Grok Imagine, but previously stated that he would continue to increase investment, believing it to have significant strategic value.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1084925&language=en-US",
             "pub_date": "2026-03-31 11:43:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1084923,
-            "title": "AI Developer Uncovers Cache Bugs in Claude Code",
-            "description": "A developer has identified two cache bugs in the standalone installation of Claude Code, according to PANews. The discovery was made through reverse engineering using Ghidra, MITM proxy, and radare2 on the 228MB binary file. These bugs could potentially increase API costs by 10-20 times without user awareness. The analysis has been submitted to GitHub (issue #40524) and has been marked by Anthropic as a regression bug for resolution.\n\nThe first bug is found in the custom Bun runtime used by the standalone version, where an error in the billing identifier replacement logic causes a complete cache rebuild with each request. The second bug affects users who utilize the --resume or --continue options to restore sessions. Introduced in version 2.1.69, this bug results in a cache prefix mismatch, leading to the entire conversation history being rewritten instead of being read from the cache. Anthropic engineers have previously confirmed that users are reaching usage limits much faster than anticipated.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1084923&language=en-US",
-            "pub_date": "2026-03-31 11:43:34",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1084922,
-            "title": "AI TRENDS | Musk Highlights Video Understanding as Key to AI Development",
-            "description": "Elon Musk recently emphasized the importance of video understanding and generation in AI development on the X platform. According to Odaily, Musk described photons as the highest bandwidth communication form, suggesting that related technologies will be crucial for achieving general artificial intelligence. He also mentioned that xAI's image generation tool, Grok Imagine, has reached positive profitability and is not operating at a loss.\n\nThis statement comes in the context of OpenAI's recent shutdown of its video platform, Sora. Public reports indicate that Sora generated approximately $2.1 million in revenue since its launch, with an average daily operational loss of about $1 million. While Musk did not disclose specific revenue figures for Grok Imagine, he previously expressed plans to increase investment in the tool, citing its significant strategic value.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1084922&language=en-US",
-            "pub_date": "2026-03-31 11:43:39",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
