@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 1085070,
+            "title": "Claude Code's complete source code exposed.",
+            "description": "Chaofan Shou, an intern researcher at blockchain security company Fuzzland, pointed out on X that Anthropic's AI programming tool Claude Code's npm package contains a complete source map file (cli.js.map, approximately 60MB), from which the entire TypeScript source code can be reconstructed. It has been verified that the latest version v2.1.88 released today still contains this file, containing the complete code of 1,906 Claude Code proprietary source files, covering implementation details such as internal API design, analysis of telemetry systems, encryption tools, and inter-process communication protocols. Source maps are debugging files used in JavaScript development to map compressed code back to the original source code and should not appear in production releases. In February 2025, an earlier version of Claude Code was exposed for the same issue, and Anthropic removed the older version from npm and deleted the source map at that time. However, the issue resurfaced, and several public repositories on GitHub extracted and organized the restored source code, with ghuntley/claude-code-source-code-deobfuscation receiving nearly a thousand stars. The leaked code is the client-side implementation of the Claude Code CLI tool, which does not involve model weights or user data and poses no direct security risk to ordinary users. However, the continued exposure of the complete source code means that the internal architecture, security mechanisms, and telemetry logic are completely transparent to the outside world.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085070&language=en-US",
+            "pub_date": "2026-03-31 17:41:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1085066,
             "title": "Token Issuance Failures Reach Record Levels, Expert Suggests Sustainable Framework",
             "description": "Token issuance failures have reached unprecedented levels, according to Foresight News. At the EthCC[9] conference, 21Shares researcher Darius Moukhtarzade highlighted the prevailing 'low circulation, high fully diluted valuation' model as a core issue for the years 2024 to 2025. Moukhtarzade proposed a practical framework aimed at achieving a sustainable token economy, which includes increasing the initial circulation ratio, establishing product-market fit, enhancing value capture mechanisms, and ensuring transparency and long-term alignment.\n\nHe emphasized that the success of tokens in 2026 will not rely on short-term explosive growth but rather on building a resilient on-chain economy amid institutional funding and stricter regulations.",
@@ -186,16 +196,6 @@
             "description": "Israeli military spokesman: We are prepared to continue operations in the coming weeks. (Jinshi)",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085046&language=en-US",
             "pub_date": "2026-03-31 16:57:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1085045,
-            "title": "Bitget has added TQQQ and SQQQ stock contracts, supporting leverage up to 20x.",
-            "description": "According to an official announcement, to meet market demand for trading in the US technology sector, Bitget stock contracts have now launched two popular options: TQQQ (3x long Nasdaq 100 ETF) and SQQQ (3x short Nasdaq 100 ETF). These contracts support leverage up to 20x. For more details, please refer to the Bitget official platform.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1085045&language=en-US",
-            "pub_date": "2026-03-31 16:59:00",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
