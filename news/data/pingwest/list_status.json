@@ -1,6 +1,24 @@
 {
     "data": [
         {
+            "title": "CoPaw 1.0 正式发布：定制小模型与多智能体能力全面升级",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月1日讯，阿里通义实验室宣布，AgentScope 团队正式发布 CoPaw 1.0 版本，联合百余位开源社区贡献者，在定制小模型、安全机制、多智能体协同及记忆管理四大维度实现全面进化。该版本基于 AgentScope 智能体框架与 ReMe 记忆机制构建，旨在为用户提供可控、稳定的个人智能助理解决方案。</span></p><p><span>本次更新核心亮点在于推出专为本地高频任务优化的 CoPaw-Flash 系列定制小模型。该模型基于 Trinity-RFT 后训练框架研发，在文档处理、信息检索等任务中表现优异，性能可媲美头部大模型，且支持 Mac/Windows/Linux 本地一键部署，确保数据隐私安全。</span></p><p><span>在系统能力方面，CoPaw 1.0 构建了分层防御安全架构，涵盖工具守卫、文件防护与技能扫描器，有效拦截高风险操作。同时，该版本支持在同一实例内运行多个独立智能体工作区，实现工作与生活的身份隔离及复杂任务的异步协作。配套的 HiClaw 项目亦同步加入生态，专注企业级人机协作场景。</span></p><figure class=\"image\"><img alt=\"\" height=\"764\" src=\"https://cdn.pingwest.com/portal/2026/04/01/1rF3sSn1p7QKeE5E5safYNhPXi6x8SFr.png?x-oss-process=style/article-body\" title=\"\" width=\"800\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312624",
+            "pub_date": "2026-04-01 10:26:54",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
+            "title": "Stripe拿出一份机器支付协议，Agent可以给自己买买买了",
+            "description": "<article class=\"article-style\">\n<p>凌晨三点，你的电脑还亮着。你的Agent正忙着干活儿。</p><p>它在后台连续运行，查询数据、调用模型、打开网页、整理材料，整个过程没有停顿。与之前不同的是，这一次，它不单是执行任务，还在执行时完成了几笔支付。</p><p>它为API调用付款，为浏览器会话付款，甚至为一项线下服务完成了结算。整个过程没有账号，没有验证码，没有人坐在屏幕前点击\"确认支付\"。等你醒来，任务已经完成，账单也已经生成。</p><p>换句话说，支付开始被嵌入每一次Agent的请求。我们谈论Agent经济，这恰好补足了Agent经济中长期缺失的一环，那就是支付能力。这意味着，AI不再只是调用工具，还可以自主参与交易了。</p><p>不久前，Stripe与区块链公司Tempo推出的Machine Payments Protocol（MPP），就是推动这种变化的转换器。</p><h2>Agent能自己做交易了</h2><p>MPP试图解决一个此前一直被忽略的问题。那就是，当Agent开始执行任务时，它如何完成支付。</p><p>在互联网的既有体系中，这个问题并不明显。通信有HTTP，身份有账户体系，支付也有成熟的流程。但这些机制的共同前提是，它们都是为人类设计的。注册账号、选择套餐、填写支付信息，这些步骤对人来说习以为常，对Agent来说却几乎不可用。</p><p>就像Stripe所强调的，现有金融系统本质上并不适配机器。MPP的作用，就是把支付这件事改写成一种可以嵌入调用过程的能力。</p><p>在这套机制里，一个Agent向服务发起请求，如果该服务需要收费，就会直接返回价格；Agent完成支付，这次调用才会继续执行。</p><p>换句话说，它把调用和支付压缩进同一个动作。过去，你需要先注册、再订阅、最后月底对账；现在，每一次调用本身就是一笔独立的交易，发生在毫秒之间，结束在同一个请求里。</p><figure class=\"image\"><img alt=\"只需几行代码，Agent即可在调用服务的同时自动完成支付。图源：Stripe\" height=\"846\" src=\"https://cdn.pingwest.com/portal/2026/03/31/portal/2026/03/31/5cW8hh3cG9Q8tGS48E4RrCTwPHibWyf7?x-oss-process=style/article-body\" title=\"只需几行代码，Agent即可在调用服务的同时自动完成支付。图源：Stripe\" width=\"1538\"/><figcaption>只需几行代码，Agent即可在调用服务的同时自动完成支付。图源：Stripe</figcaption></figure><p>据Stripe介绍，MPP已经开始驱动真实场景的Agent商业模式。</p><p>Browserbase提供面向Agent的云浏览器能力，它调用一次浏览器会话，就对应一笔付费；PostalForm把打印并寄送信件变成一个API，Agent可以直接为这项线下服务付费；纽约的Prospect Butcher甚至允许Agent下单三明治，再由人类取货或配送。</p><p>这些案例横跨计算资源、实体服务和线下消费，但指向同一个变化：只要服务可以被调用，它就可以被即时定价。由此，Agent可以直接成为企业的付费用户。</p><p>旨在为Agent提供可直接调用的互联网数据接口的Parallel，其创始人Parag Agrawal在评价MPP时提到，Agent可以通过每一次API调用自主支付网络访问费用，这使他们能够通过现有的Stripe技术栈，触达全球任何智能体开发者。</p><p>总的来说，MPP有几项关键设计，来支撑Agent交易顺畅运行。</p><p>首先是支持极小金额的微支付，最小可以低到0.01 USDC。这意味着一次API调用、一段计算，甚至一次简单查询，都可以单独定价。这种颗粒度，正好匹配Agent高频、小额的使用方式。</p><p>其次，它并不局限在某一种支付体系里。无论是链上的USDC，还是传统的银行卡支付，又或是Stripe自己的结算网络，都可以接入。甚至实现“先买后付”。这一点看起来只是兼容性问题，但实际决定了Agent能不能在真实世界里使用这些能力。</p><p>更重要的是，这些支付并不是实验性的。它们直接接入了Stripe现有的支付体系，包括退款、对账、多币种结算等能力。也就是说，从第一天开始，这套机制就可以被企业拿来使用。Stripe表示，只需几行代码完成对接，就能直接把AI变成自己的新客户，并向它们收款。</p><p>总的来看，MPP让Agent有了花钱的能力，也就能给人干更多活儿了。</p><h2>人类与AI要重新分工</h2><p>过去一年，AI开始从回答问题走向完成任务。越来越多的Agent不再只生成内容，还开始拆解步骤、调用工具，并在复杂环境中持续运行。“龙虾”们就是例子。</p><p>这让我们看到了Agent经济的轮廓。MPP的出现，则给这种新经济需要的基础设施做了补全。可以预见，Agent经济要加速发展了，而这可能催生新的分工。</p><p>之后人与AI的协作大概是这样的：人负责设定目标，比如\"完成一份市场分析\"，并给出预算范围；Agent负责执行，在这个范围内不断做决策，比如选择更便宜的数据源，减少不必要的调用，并在过程中完成支出。</p><p>这里关键不再是\"谁点了支付按钮\"，而是\"规则是谁设定的\"。一旦这种模式成立，很多熟悉的互联网结构都会发生变化。</p><p>过去，服务通常需要通过平台分发，比如应用商店、SaaS平台或订阅系统；现在，服务可以直接以API的形式存在，谁需要就可以调用，并为这一次调用付费。你不需要成为某个平台的用户，也不需要先订阅一个套餐，只需要为这一次使用付钱。</p><p>价格结构会随之改变。原来是\"按月订阅\"或\"打包收费\"，现在更接近\"按次结算\"，用多少，付多少。交易的发生位置同样在变化，它不再集中在某个页面或应用中，而是分散在一次次具体的查询、生成、计算的操作里。</p><p>也正是在这个背景下，再回头看Stripe近一年来的动作，会发现一条连续的路径。</p><p>它先与OpenAI等公司推出Agentic Commerce Protocol（ACP），解决\"Agent如何完成下单\"；再推出MPP，解决\"Agent如何完成支付\"；Tempo也得到了Stripe的支持。这家区块链公司提供专门为稳定币支付优化的区块链网络，负责承载高频、小额、自动化的资金流动，让Agent的支付能够高效结算。</p><p>上述三者分别指向交易、支付和资金流动，拼在一起，正好构成一个完整的系统。作为支付巨头，Stripe试图构建未来AI经济的基础设施。现在看，它离这个目标的距离更进一步了。</p><p>实际上，巨头们都试图在未来的AI经济生态中抢占一个好位置。OpenAI试图把交易入口握在对话界面里，让Agent决定买什么；Google则在推动一整套协议体系，试图定义Agent之间如何完成交易；Amazon与Walmart这样的电商巨头，也为Agent参与购物决策的未来提前做准备。</p><p>不过，此前所有人讨论的，都是怎么让AI帮人买东西——帮你挑好货、比价格、下订单，人还是那个掏钱的主体。MPP悄悄把这个逻辑翻了过来。</p><p>现在，AI开始成为交易的另一方。它有自己的钱包，有自己的预算逻辑，可以在任务执行过程中自主完成支出。它不再需要等你醒来确认，不再需要你坐在屏幕前点那个按钮。</p><p>这意味着什么，还很难说清楚。但可以确定，经济活动不再只是人与人之间的事了。</p><p>钱，会越来越多在AI之间流动。</p></article>",
+            "link": "https://www.pingwest.com/a/312602",
+            "pub_date": "2026-04-01 10:26:56",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "SOLO桌面端与网页端开放内测",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月1日讯，据 Trae 官方消息，AI 协作产品 SOLO 桌面端与网页端正式开放用户内测。内测阶段需凭邀请码激活权限，用户可通过官方指定渠道获取。</span></p><p><span> Trae 表示，SOLO 桌面端与网页端旨在提供一体化的智能工作体验。产品采用创新的三栏工作区设计，支持任务、工具与文件的集中管理。其核心是双模式智能体，可灵活切换通用任务与开发场景，一站式协助处理从需求分析、方案撰写到代码编程的复杂流程，适配研发、产品、数据、运营等多种专业角色。</span></p><p><span>用户通过自然语言对话下达指令，SOLO即可自动拆解任务，调用相关Skills与工具执行，并交付可视化结果。它支持JSON、Python、PPTX等多种格式文件处理，并能并行处理多项后台任务。</span></p><p><span>目前，SOLO桌面端已推出macOS版本，与网页端数据同步。用户可访问相应官网完成下载与体验。</span></p><figure class=\"image\"><img alt=\"\" height=\"1760\" src=\"https://cdn.pingwest.com/portal/2026/04/01/1705MWTmpWFa9pW0d243GMT0mAaSj66J.png?x-oss-process=style/article-body\" title=\"\" width=\"2938\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312623",
@@ -68,24 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩3月31日讯，由美图公司开发的AI创作工具RoboNeo引发业界关注。其核心定位为用户的“AI合作伙伴”，旨在“让影像创作回归真实意图”。该产品主打“对话即创作”模式，用户通过自然语言描述，智能体（Agent）即可自动编排并执行从文本生成、图片编辑到视频制作的全流程，过程全程可视、可控、可干预。</span></p><p><span>RoboNeo集成了多项创新功能。其“动作迁移”能力在海外社交平台爆火，用户可将视频动作无缝迁移至目标照片人物。“爆款复刻”与封装行业最佳实践的“Agent Skills”，则能高效助力电商等内容变现。此外，产品还支持AI动画短剧、批量设计及海报智能排版等能力，显著降低专业创作门槛。</span></p><p><span>市场数据显示，RoboNeo已登顶巴西、葡萄牙、墨西哥等26个国家和地区App Store应用排行榜，在TikTok平台相关话题浏览量超2660万次，展现出强大的文化破圈效应。开发团队表示，其最终愿景是“让每一个想法，都能拥有完整的执行力”。</span></p><figure class=\"image\"><img alt=\"\" height=\"963\" src=\"https://cdn.pingwest.com/portal/2026/03/31/n6finE_5BSXYsdKD_zJZ4nh7Q6p66mwx.jpg?x-oss-process=style/article-body\" title=\"\" width=\"1280\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312608",
             "pub_date": "2026-03-31 15:49:10",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "微软365 Copilot推“Cowork”功能，深化企业级AI应用",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩3月31日讯，微软365 Copilot近日迎来重要更新，正式推出专为长期、多步骤工作设计的Copilot Cowork功能。该功能依托“多模型优势”架构，融合了Anthropic的Claude及微软自研技术，旨在将AI从单纯的内容生成工具转变为能够执行实际任务的协作伙伴。</span></p><p><span>Copilot Cowork具备强大的规划与执行能力。用户仅需描述预期结果，系统即可制定计划，并在日历管理、文件处理等工具间跨域推理，自动推进工作流。Capital Group副总裁Barton Warner表示，该功能在预算审查等复杂流程中展现出显著价值，且完全在企业安全边界内运行，确保数据合规。</span></p><p><span>此外，研究助手（Researcher）亦获升级，新增“批判”模式与模型委员会功能。通过双模型协作——一模型起草、另一模型复核，其在深度研究准确性的DRACO基准测试中得分提升了13.8%。此次更新标志着AI在企业工作流中的角色正从辅助实验转向核心生产力。</span></p><figure class=\"image\"><img alt=\"\" height=\"390\" src=\"https://cdn.pingwest.com/portal/2026/03/31/DA9h770pNWd7myAaF22wF4W0hn2ym8Ab.png?x-oss-process=style/article-body\" title=\"\" width=\"703\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/312607",
-            "pub_date": "2026-03-31 15:44:14",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "千问测试\"引证\"功能，主动引入可信度验证，支持对AI回答进行信源核查",
-            "description": "<article class=\"content article-style\">\n</article>",
-            "link": "https://www.pingwest.com/v/312606",
-            "pub_date": "2026-03-31 15:36:47",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
