@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 1086162,
+            "title": "SpaceX IPO Faces Challenges Amid Market Downturn, Analyst Says",
+            "description": "According to Jin10, Mergermarket's Sam Kerr has indicated that the ongoing market downturn, triggered by the Middle East conflict, could impact the scale of SpaceX's initial public offering (IPO). The decline in U.S. stock indices is expected to limit the company's options for selecting an issuance window. The Wall Street Journal reports that a confidential document submitted to the U.S. Securities and Exchange Commission suggests SpaceX is likely to go public in July. Kerr noted that launching any transaction in a weak market, regardless of the company's quality, will constrain the achievable valuation. He added that the anticipated size of the IPO itself poses additional challenges for SpaceX, although Elon Musk may rely on retail investor participation to boost demand.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086162&language=en-US",
+            "pub_date": "2026-04-02 19:18:27",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1086159,
+            "title": "Institutions: Market downturn may limit SpaceX IPO valuation.",
+            "description": "Sam Kerr of Mergermarket stated that the ongoing market downturn triggered by the Middle East wars could diminish the size of SpaceX's initial public offering (IPO). The decline in U.S. stock indices will limit the company's options for choosing an offering window. The Wall Street Journal reported that a confidential filing with the U.S. Securities and Exchange Commission indicates SpaceX is expected to list in July. \"Any deal launched in a weak market—no matter how good the company—limits the valuation you can achieve,\" Kerr said. He added that the anticipated size of the IPO itself adds to the challenges facing SpaceX, although Musk may be hoping for retail investor participation to boost demand. (Jinshi)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086159&language=en-US",
+            "pub_date": "2026-04-02 19:20:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1086161,
+            "title": "Challenges and Prospects of Encrypted Mempools in Ethereum",
+            "description": "Jonathan Passerat-Palmbach, a senior research scientist at Flashbots and visiting scholar at Imperial College, discussed the academic evolution and practical limitations of encrypted mempools at the EthCC[9] conference. According to Foresight News, he highlighted the progression from early committee-based threshold encryption schemes to batched threshold encryption and the Beast-Mev scheme, which combines silent settings with batch decryption. Despite these developments, no current solution meets all the protocol-level requirements such as silent settings, non-interactive decryption, small keys, and small ciphertexts, preventing the cryptographic aspects of encrypted mempools from being directly integrated into the Ethereum protocol.\n\nThe economic implications pose a more significant challenge. The blind ordering mechanism used in encrypted mempools, where transactions are ordered while encrypted, leads to three main issues: searchers submitting numerous blind arbitrage bundles, resulting in on-chain spam; reduced MEV subsidies making geographically remote validators less competitive, thus increasing centralization; and a decline in user execution quality, with significant transaction price deviations and higher rollback probabilities. Jonathan noted that the timing design of decrypting after execution hinders the effective operation of auction mechanisms, which are optimal for handling MEV incentives. He suggested programmable privacy as an alternative, allowing a balance between full encryption and full transparency, currently achievable through TEE and potentially through more advanced solutions like FHE in the future. He concluded that privacy should not exist independently of economic incentives and should continue to be experimented with outside the protocol rather than being hastily integrated.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086161&language=en-US",
+            "pub_date": "2026-04-02 19:23:34",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1086160,
+            "title": "Polygon Launches Private Mempool to Enhance Transaction Security",
+            "description": "Polygon has announced the introduction of Private Mempool, a private transaction submission endpoint designed to protect transactions from front-running and sandwich attacks. According to Foresight News, the Private Mempool safeguards transaction order, preventing submitted transactions from being intercepted and reordered before confirmation. Courtyard requires reliable transaction inclusion, and direct integration with the producer path effectively reduces confirmation delays.\n\nThe Private Mempool offers MEV protection and is now live. Future features will include confidential payments, exclusive block space, and stable fees. The Private Mempool is available in a free version accessible to all Polygon applications. A paid enterprise version offers higher throughput, rate limits, service level agreements (SLA), and redundancy mechanisms suitable for production workloads. Access to the paid version requires an API key, with payment options including stablecoins and POL.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086160&language=en-US",
+            "pub_date": "2026-04-02 19:23:40",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1086158,
             "title": "Federal Prosecutors Charge 10 in Crypto Wash Trading Scheme",
             "description": "Federal prosecutors in California have charged ten individuals associated with various cryptocurrency firms for their involvement in alleged wash trading schemes aimed at inflating token prices and trading volumes. According to NS3.AI, the charges stem from an undercover FBI operation that developed a token to identify companies providing manipulation services. The Department of Justice (DOJ) stated that the defendants artificially increased trading activity for paying clients before selling into the fabricated demand. Crypto experts have noted that wash trading continues to be widespread, particularly among lower-cap tokens and on smaller or unregulated exchanges.",
@@ -156,46 +196,6 @@
             "description": "Bitcoin experienced a 2.4% drop to $66,700, while Ether decreased by 4.4% on Thursday. According to NS3.AI, these declines followed U.S. President Donald Trump's announcement that the conflict in Iran would persist with extensive military strikes. In response to the geopolitical tensions, Brent crude oil prices surged approximately 10%, reaching $108 per barrel.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086143&language=en-US",
             "pub_date": "2026-04-02 18:34:06",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086141,
-            "title": "Ran Neuner Discusses Bitcoin's Investment Complexity",
-            "description": "Ran Neuner highlighted the challenges in explaining Bitcoin's dual identity as both a decentralized payment tool and a store of value. According to NS3.AI, Neuner emphasized that investors should prioritize long-term strategies and fund flows over short-term price predictions.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086141&language=en-US",
-            "pub_date": "2026-04-02 18:18:37",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086140,
-            "title": "Brent Crude Futures Reclaim $106 Amid Conditional Bearish Scenario",
-            "description": "Brent crude futures have risen to $106 as of April 2, marking a significant recovery. According to NS3.AI, the potential for a downside scenario remains contingent upon a daily close below the $81 neckline. This bearish outlook is linked to confirmation of RSI divergence, persistent bearish options positioning, and developments in the Strait of Hormuz disruption.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086140&language=en-US",
-            "pub_date": "2026-04-02 18:20:21",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086139,
-            "title": "Ethereum Foundation Unveils Wallet Security Model at EthCC[9]",
-            "description": "Ethereum Foundation project manager Hester Bruikman presented updates on the 'Trillion Dollar Security Plan (1TS)' at the EthCC[9] conference. According to Foresight News, Bruikman detailed the WalletBeat wallet security maturity model, which evaluates wallets based on user security goals rather than a checklist of features. Wallets are categorized into four stages: Stage 0 lacks security measures; Stage 0.5 covers some features but still poses significant preventable loss risks; Stage 1 protects users from most common vulnerabilities; and Stage 2 safeguards assets in complex scenarios like cross-chain and DNS attacks.\n\nBruikman emphasized that the current focus of 1TS is on enhancing user experience security, particularly through advancing Clear Signing to eliminate blind signing practices. The WalletBeat grading standard is intended to pressure wallet manufacturers to upgrade their security measures. Additionally, Bruikman revealed that by the end of the first quarter of 2026, Ethereum had experienced 16 major security incidents, resulting in losses of $93 million, with historical cumulative losses exceeding $7 billion for Ethereum L1.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086139&language=en-US",
-            "pub_date": "2026-04-02 18:23:33",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086138,
-            "title": "dYdX Foundation Approves Insurance Fund Allocation for DAO Support",
-            "description": "The dYdX Foundation has announced the approval of community on-chain vote #372, which permits the use of the insurance fund to support the DAO. According to Foresight News, the proposal involves transferring 10 million USDC from the dYdX chain insurance fund to three different entities. Specifically, 2.5 million USDC will be allocated to the dYdX operations sub-DAO for operational funding, 5 million USDC will be transferred to the dYdX treasury sub-DAO as discretionary reserves, and 2.5 million USDC will be directed to the dYdX Foundation for ecosystem development and governance support. The insurance fund currently holds approximately 17 million USDC, with around 7 million USDC reserved as a protocol safety buffer.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086138&language=en-US",
-            "pub_date": "2026-04-02 18:13:32",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
