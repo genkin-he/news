@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 1086188,
+            "title": "French stock exchange Lise plans to launch a fully on-chain IPO on April 9, with ST Group listing on the on-chain exchange.",
+            "description": "French stock exchange Lise announced that it will host Europe's first fully on-chain IPO for aerospace company ST Group on April 9. As one of the EU's first DLT pilot exchanges, Lise has received support from institutions such as BNP Paribas. Its on-chain listing model will achieve second-level settlement and transparent equity tracking, directly competing with the tokenized securities strategies of Nasdaq and the NYSE. (Coindesk)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086188&language=en-US",
+            "pub_date": "2026-04-02 20:08:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1086187,
+            "title": "U.S. crude oil futures extended their gains, rising above $110 a barrel.",
+            "description": "According to Gate data, U.S. crude oil futures continued their upward trend, rising above $110 per barrel, up 10% on the day.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086187&language=en-US",
+            "pub_date": "2026-04-02 20:11:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1086186,
+            "title": "The Central Bank of Türkiye sold approximately 26 tons of gold last week.",
+            "description": "Banking sources say that data from the Turkish central bank shows the bank sold approximately 26 tons of gold last week. (Jinshi)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086186&language=en-US",
+            "pub_date": "2026-04-02 20:13:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1086184,
             "title": "Solana Foundation Chair Addresses Impact of Drift Incident",
             "description": "On April 2, Solana Foundation Chair Lily Liu commented on the significant impact of the Drift incident on the ecosystem. According to BlockBeats, Liu stated that the Drift team is working tirelessly to investigate and manage the situation, with the foundation providing support. She emphasized that the smart contract itself has proven resilient, noting that the real target of the attack was individuals, focusing on social engineering and operational security vulnerabilities rather than exploiting code.\n\nLiu highlighted Solana's history of overcoming challenges through rapid iteration, improved development, mutual support, and enhanced security measures. She urged vigilance, advising users to review their security settings and continue building. Updates will be provided as new developments occur.",
@@ -166,36 +196,6 @@
             "description": "Sam Kerr of Mergermarket stated that the ongoing market downturn triggered by the Middle East wars could diminish the size of SpaceX's initial public offering (IPO). The decline in U.S. stock indices will limit the company's options for choosing an offering window. The Wall Street Journal reported that a confidential filing with the U.S. Securities and Exchange Commission indicates SpaceX is expected to list in July. \"Any deal launched in a weak market—no matter how good the company—limits the valuation you can achieve,\" Kerr said. He added that the anticipated size of the IPO itself adds to the challenges facing SpaceX, although Musk may be hoping for retail investor participation to boost demand. (Jinshi)",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086159&language=en-US",
             "pub_date": "2026-04-02 19:20:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086161,
-            "title": "Challenges and Prospects of Encrypted Mempools in Ethereum",
-            "description": "Jonathan Passerat-Palmbach, a senior research scientist at Flashbots and visiting scholar at Imperial College, discussed the academic evolution and practical limitations of encrypted mempools at the EthCC[9] conference. According to Foresight News, he highlighted the progression from early committee-based threshold encryption schemes to batched threshold encryption and the Beast-Mev scheme, which combines silent settings with batch decryption. Despite these developments, no current solution meets all the protocol-level requirements such as silent settings, non-interactive decryption, small keys, and small ciphertexts, preventing the cryptographic aspects of encrypted mempools from being directly integrated into the Ethereum protocol.\n\nThe economic implications pose a more significant challenge. The blind ordering mechanism used in encrypted mempools, where transactions are ordered while encrypted, leads to three main issues: searchers submitting numerous blind arbitrage bundles, resulting in on-chain spam; reduced MEV subsidies making geographically remote validators less competitive, thus increasing centralization; and a decline in user execution quality, with significant transaction price deviations and higher rollback probabilities. Jonathan noted that the timing design of decrypting after execution hinders the effective operation of auction mechanisms, which are optimal for handling MEV incentives. He suggested programmable privacy as an alternative, allowing a balance between full encryption and full transparency, currently achievable through TEE and potentially through more advanced solutions like FHE in the future. He concluded that privacy should not exist independently of economic incentives and should continue to be experimented with outside the protocol rather than being hastily integrated.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086161&language=en-US",
-            "pub_date": "2026-04-02 19:23:34",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086160,
-            "title": "Polygon Launches Private Mempool to Enhance Transaction Security",
-            "description": "Polygon has announced the introduction of Private Mempool, a private transaction submission endpoint designed to protect transactions from front-running and sandwich attacks. According to Foresight News, the Private Mempool safeguards transaction order, preventing submitted transactions from being intercepted and reordered before confirmation. Courtyard requires reliable transaction inclusion, and direct integration with the producer path effectively reduces confirmation delays.\n\nThe Private Mempool offers MEV protection and is now live. Future features will include confidential payments, exclusive block space, and stable fees. The Private Mempool is available in a free version accessible to all Polygon applications. A paid enterprise version offers higher throughput, rate limits, service level agreements (SLA), and redundancy mechanisms suitable for production workloads. Access to the paid version requires an API key, with payment options including stablecoins and POL.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086160&language=en-US",
-            "pub_date": "2026-04-02 19:23:40",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1086158,
-            "title": "Federal Prosecutors Charge 10 in Crypto Wash Trading Scheme",
-            "description": "Federal prosecutors in California have charged ten individuals associated with various cryptocurrency firms for their involvement in alleged wash trading schemes aimed at inflating token prices and trading volumes. According to NS3.AI, the charges stem from an undercover FBI operation that developed a token to identify companies providing manipulation services. The Department of Justice (DOJ) stated that the defendants artificially increased trading activity for paying clients before selling into the fabricated demand. Crypto experts have noted that wash trading continues to be widespread, particularly among lower-cap tokens and on smaller or unregulated exchanges.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1086158&language=en-US",
-            "pub_date": "2026-04-02 19:08:13",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
