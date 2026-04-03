@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "谷歌发布Gemma 4开源模型 采用Apache 2.0协议",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月3日讯，谷歌DeepMind正式推出Gemma 4系列模型，这是该公司迄今为止最智能的开源模型家族。此次发布包含E2B、E4B、26B MoE及31B Dense四种规格，全面覆盖从移动端边缘设备到工作站的全场景部署。其中，31B模型在Arena AI文本榜单中位列全球开源模型第三，展现出卓越的“单位参数智能”。</span></p><p><span>Gemma 4在技术能力上实现了代际跨越。全系模型支持256K超长上下文窗口与140多种语言，具备高级推理与复杂代码生成能力。特别是在智能体工作流方面，模型原生支持函数调用与结构化JSON输出，可自主对接外部工具与API。E2B与E4B版本更集成音频识别功能，可在手机等设备上实现完全离线的低延迟运行。</span></p><p><span>此次发布最受关注的变革是许可协议的调整。谷歌正式采用Apache 2.0商业友好型许可证，取代了此前的自有协议，允许开发者无门槛地自由修改、分发及商用。谷歌DeepMind研究副总裁Clement Farabet表示，这一举措旨在赋能开发者生态，让前沿AI能力在更广泛的硬件上触手可及。</span></p><figure class=\"image\"><img alt=\"\" height=\"1804\" src=\"https://cdn.pingwest.com/portal/2026/04/03/PB2rtcT5k34xwaDKPHw8E6catXpGCYHY.jpg?x-oss-process=style/article-body\" title=\"\" width=\"3200\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312686",
+            "pub_date": "2026-04-03 09:42:21",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Fish Audio上线语音转文本功能 完善音频处理矩阵",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月3日讯，Fish Audio官方宣布正式上线语音转文本功能，旨在为用户提供高效、精准的音频转写解决方案。该功能依托其强大的AI音频处理能力，支持将各类音频文件快速转换为可编辑文本，进一步丰富了其在音频创作与处理领域的技术布局。</span></p><p><span>此次更新与Fish Audio此前推出的文本转语音、声音克隆及AI音效生成等功能形成协同，构建起“音频输入—处理—输出”的完整工作流。用户可通过该平台实现音频内容的数字化存档、视频字幕快速生成、播客内容整理等场景应用，显著提升音频内容的二次创作效率。</span></p><p><span>目前，Fish Audio已整合降噪、去混响等音频优化技术，确保转写过程中语音的清晰度与准确性。其多语言支持能力也覆盖中文、英语、日语等主流语种，满足全球化用户的使用需求。这一功能的推出，标志着Fish Audio从单一语音生成工具向综合性音频处理工作站的转型，为内容创作者提供了更便捷的一站式解决方案。</span></p><figure class=\"image\"><img alt=\"\" height=\"737\" src=\"https://cdn.pingwest.com/portal/2026/04/03/7R3mDj7Y3a6j177MKQc7Dj1Y582x7S5f.png?x-oss-process=style/article-body\" title=\"\" width=\"842\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312684",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月2日讯， 据 testingcatalog 报道，Anthropic正内部测试一款名为“Conway”的全新常驻AI智能体环境，标志着其正从传统对话框向原生智能体工作流转型。Conway以独立网页实例运行，拥有专属操作面板，侧边栏包含搜索、对话与系统三大模块。其中，系统模块允许用户通过上传“.cnw.zip”格式文件安装自定义工具与界面标签，显示出其正在构建专属插件生态。</span></p><p><span>该环境的核心突破在于全天候在线与外部唤醒能力。Conway内置网络钩子（Webhooks）与直连开关，支持外部服务通过公开链接随时触发实例，使其能在后台实现24小时不间断的自动化响应。此外，Conway原生支持Claude Code，深度集成Chrome浏览器，并具备发送系统通知的能力。</span></p><p><span>报道指出，Conway预计将与Epitaxy界面深度绑定，后者可能作为该环境的操作界面。这一系列动作显示，Anthropic正致力于打造一个具备独立运行能力、可扩展的智能体架构，以应对日益复杂的自动化任务需求。</span></p><figure class=\"image\"><img alt=\"\" height=\"958\" src=\"https://cdn.pingwest.com/portal/2026/04/02/Gs7N2m9ymej75F57n2txRh1tD5QDhf12.jpg?x-oss-process=style/article-body\" title=\"\" width=\"2000\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312670",
             "pub_date": "2026-04-02 15:37:17",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "阶跃星辰发布新版模型 推理效率显著提升",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月2日讯，阶跃星辰近日宣布，其新版模型 Step 3.5 Flash 2603 现已正式上线，并向所有 Step Plan 用户开放使用。该模型是 Step 3.5 Flash 的优化版本，在延续原有高响应速度与低成本优势的同时，致力于进一步提升用户体验。</span></p><p><span>本次更新主要带来两大核心改进。其一，新增“低推理模式”，可根据实际任务需求进一步降低相关场景下的 Token 消耗，并提升输出效率。据官方测试，在默认模式下，模型推理能力持平，但 Token 消耗降低了14%；启用低推理模式后，Token 消耗降幅可达56%。其二，模型针对主流 Coding 框架与 Agent 框架进行了专项优化训练，旨在提升其在该类场景下的稳定性与处理效率。</span></p><p><span>官方表示，此次优化基于对用户实际应用模式的深入洞察。在高频但不一定高度复杂的任务场景中，新模型可帮助用户实现计算资源的“按需分配”，从而达成“快上加快”的效果，且不牺牲模型的核心智力表现。早期测试反馈也显示，模型在复杂任务中展现了主动修复报错等能力提升。</span></p><p><span>用户只需在 API 调用中将模型参数配置为“step-3.5-flash-2603”，即可体验到新版本的性能提升。</span></p><figure class=\"image\"><img alt=\"\" height=\"361\" src=\"https://cdn.pingwest.com/portal/2026/04/02/a_k8WP2FedaM42tA0307Tc8Ani0ceb2c.png?x-oss-process=style/article-body\" title=\"\" width=\"730\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/312669",
-            "pub_date": "2026-04-02 15:28:31",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
