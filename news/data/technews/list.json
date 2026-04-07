@@ -10,6 +10,51 @@
             "language": "en"
         },
         {
+            "title": "Mac 木馬威脅暴增，Jamf：已占惡意程式偵測一半",
+            "description": "<div class=\"indent\">\n<p class=\"p1\">據蘋果設備管理與安全公司 Jamf 最新釋出的《Security 360: Annual Trends Report》<a href=\"https://media.jamf.com/documents/white-papers/security-360-mac-2026.pdf?_gl=1*ggvzfj*_ga*ODMwMDAyNTgyLjE3NzUyNjE4NTQ.*_ga_X3RD84REYK*czE3NzU0ODU3MTAkbzQkZzAkdDE3NzU0ODU3MTAkajYwJGwwJGgw\">指出</a>，2025 年 Mac 惡意程式態勢明顯轉變，木馬程式已成為企業環境中最主要威脅，占所有惡意程式偵測的 50% 以上，取代過去更常見的資訊竊取程式與廣告軟體。Jamf 也在報告中提醒，隨著 Mac 在企業環境普及，攻擊者正持續調整手法，讓 macOS 逐漸成為更明確的攻擊目標。</p>\n<p class=\"p1\"><span id=\"more-1535943\"></span></p>\n<p class=\"p1\">據 Jamf 數據，木馬程式占比已從 2024 年的 16.61% 大幅升至 2025 年的 50.32%，增加超過 33 個百分點。其中最主要的木馬家族為 Atomic Stealer（AMOS），占所有木馬活動的 77.08%。即使在資訊竊取程式類別中，Atomic Stealer 也同樣居首，占比達 78.49%。Jamf 指出，越來越多資訊竊取程式會透過木馬後門建立持久性，使木馬相關偵測數字快速上升。</p>\n<p class=\"p1\">相較之下，過去常見的廣告軟體與潛在不受歡迎應用程式（PUA）占比則明顯下滑。Jamf 表示，廣告軟體占所有惡意程式偵測的比重，已從 2024 年的 28% 降至 2025 年的 5.06%；整體 PUA 占比也從 15.06% 降至 4.84%。報告顯示，攻擊者的重心正從過去偏向廣告收益模式，進一步轉向資料竊取與後門控制。</p>\n<p class=\"p1\">除了既有威脅結構改變，Jamf 也點名數個新型 Mac 惡意軟體。其一是 DigitStealer，這是一款基於 JXA 的資訊竊取程式，去年 11 月被 Jamf Threat Labs 發現時，在 VirusTotal 上仍未被偵測。Jamf 指出，DigitStealer 具備反分析設計，甚至會檢查硬體條件，只在 Apple Silicon M2 或更新晶片的裝置上執行，並可竊取瀏覽器資料、加密貨幣錢包與帳密資訊。</p>\n<p class=\"p1\">另一個受到關注的是 MacSync Stealer。Jamf 表示，這類惡意程式已不再只依靠把檔案拖進 Terminal 的老式社交工程手法，而是進一步偽裝成已簽章、已 notarization 的 Swift 應用程式，讓惡意載荷得以在不需 Terminal 介入、甚至不特別驚動使用者的情況下執行。Jamf 認為，這反映出攻擊者正更積極利用看似合法的應用程式包裝，試圖繞過 macOS 的安全控制。</p>\n<p class=\"p1\">除了惡意程式本身，Jamf 也提到企業端裝置整體風險仍高。據其彙整，44.15% 的裝置曾出現惡意網路流量，72.94% 的裝置至少存在一款有漏洞的應用程式。對企業而言，這意味著 Mac 的風險已不再只來自單一惡意程式，而是涵蓋應用程式漏洞、異常連線與持久化後門等多層面威脅。</p>\n<p class=\"p1\">從這次釋出的報告來看，2025 年的 Mac 資安關鍵字已從過去的廣告軟體，轉向木馬、資訊竊取與持久化控制機制，顯示攻擊者對 macOS 的滲透方式正在升級。</p>\n<p class=\"p1\">（首圖來源：shutterstock）</p>\n</div>",
+            "link": "https://infosecu.technews.tw/2026/04/07/mac-trojan-jamf/",
+            "pub_date": "2026-04-07 11:20:03",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "離線 AI 崛起，Palantir 與 Anduril 搶灘邊緣運算新商機",
+            "description": "<div class=\"indent\">\n<p>Palantir 與 Anduril 正把 AI 帶到可離線運作的前線，從海上、戰場到偏遠工業場域，搶攻不依賴雲端連線的邊緣運算需求。兩家公司近期合作參與美國「金穹」飛彈防禦計畫的軟體開發；同時，市場也持續關注 Anduril、Palantir 與其他公司在海事、國防與能源領域推進的邊緣 AI 布局。<span id=\"more-1535884\"></span></p>\n<p>在這波趨勢中，Palantir 與 Saildrone 的合作主打把 AI 情報直接部署在海面上，用於海事安全、監控與態勢掌握，降低仰賴載人艦艇與衛星回傳所帶來的延遲。Anduril 方面則以 Lattice AI 平台強調其可在受限、受損與斷線環境下運作，支援陸、海、空多域的即時決策。</p>\n<p>除了國防場景，離線 AI 也被視為能源與海運等產業的關鍵基礎設施。海事新創 Pollentia 推出統一的船舶智慧平台，結合船上 AI 助手與艦隊管理系統，強調關鍵決策必須在船上完成；巴塞隆納的 Barbara 則為離岸平台、煉油廠與管線站打造邊緣 AI 協調平台，讓資料能在現場本地處理，而不是全部送往雲端。</p>\n<p>市場對這類技術的需求正在升溫。根據文中引用的 Accenture 調查，83% 的高階主管認為邊緣運算對維持競爭力至關重要。文章指出，當 AI 走入實體世界後，從偏遠醫療、農業自動化，到倉儲、建築、採礦與長途物流，所有依賴不穩定連線的場景都會面臨同樣問題：如果基礎設施消失，AI 也不能停擺。</p>\n<ul>\n<li><a href=\"https://www.forbes.com/sites/sandycarter/2026/04/06/palantir-and-anduril-build-offline-ai-and-thats-no-edge-case/\">Palantir And Anduril Build Offline AI And That’s No Edge Case</a></li>\n</ul>\n<p>（首圖來源：shutterstock）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/03/25/palantir-and-anduril-will-lead-the-development-of-golden-dome-project/\">洛馬雷神首度當配角，金穹將由 Palantir 和 Anduril 領銜以軟體主導開發</a></li>\n</ul>\n</div>",
+            "link": "https://technews.tw/2026/04/07/palantir-and-anduril-build-offline-ai-and-that-is-no-edge-case/",
+            "pub_date": "2026-04-07 11:20:03",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "火箭阿伯跨界醫療！吳宗信用航太「雙模組電漿微奈米氣泡」治療慢性傷口",
+            "description": "<div class=\"indent\">\n<p class=\"p1\">被稱為「火箭阿伯」的現任國家太空中心主任吳宗信，不僅在太空領域追求突破，最近還將航太等級的低溫電漿技術導入生醫領域，這項「雙模組電漿微細氣泡水」專利，被譽為是把「火箭等級的技術」帶回地球，結合微奈米氣泡技術，讓糖尿病足、褥瘡等慢性傷口的殺菌與修復一次到位。</p>\n<p class=\"p1\"><span id=\"more-1535935\"></span></p>\n<p class=\"p1\">這項技術形成「先殺菌、後癒合」的雙重作用機制，先以臭氧等氧系自由基有效抑制病原菌，再利用一氧化氮等氮系自由基促進組織修復與再生，真正達到殺菌與修復一次到位，而這項技術特別適用於糖尿病足、褥瘡等長期難以癒合的慢性傷口，有望提升臨床照護品質。</p>\n<p class=\"p1\">電漿技術在航太領域應用廣泛，用來製造火箭與衛星的塗層，陽明交大機械工程系教授吳宗信深耕電漿技術多年，而研究團隊接觸到微奈米氣泡技術，發現傳統電漿微奈米氣泡水多半僅含氧系活性物質，如臭氧（O₃），雖具有良好的殺菌效果，但在進一步的生醫應用上仍有限制。</p>\n<p class=\"p1\">為突破瓶頸，團隊整合多年的電漿技術經驗，首創以臭氧為主的氧系活性物質，結合以一氧化氮為主的氮系活性物質，建構出「雙模動態電漿」，成功突破單一氣體產物的物理限制，並透過系統調控，產生不同組成比例的氧系與氮系自由基，結合微奈米氣泡水，形成能應用到人體的創新技術。</p>\n<p class=\"p1\">從太空科技到人體健康，吳宗信率領團隊透過前瞻技術的跨域整合，讓「火箭等級」的創新成果回到地球，除了傷口照護，並具備跨領域應用潛力，包括皮膚疾病治療、醫學美容與健康保養，以及高標準食品與農產品的殺菌清洗，展現電漿技術在生醫與產業應用上的多元發展性。</p>\n<p class=\"p1\">（首圖來源：陽明交大）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/04/07/dram-prices/\">南亞科 3 月營收成長 560％ 再衝高！外資最新看法調高目標價至 292 元</a></li>\n<li><a href=\"https://technews.tw/2026/04/02/next-round-capital/\">OpenAI 股票淪二級市場燙手山芋！投資人握大把鈔票轉投 Anthropic</a></li>\n<li><a href=\"https://technews.tw/2026/04/02/pogo-pin-test-socket/\">高密度銅柱端子模組助攻營運！創新服務 4/7 以底價 550.88 元競拍</a></li>\n</ul>\n</div>",
+            "link": "https://technews.tw/2026/04/07/dual-module-plasma-microbubble-water/",
+            "pub_date": "2026-04-07 11:20:03",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "巴哈馬鯊魚驗出古柯鹼與咖啡因，新興污染物滲透海洋",
+            "description": "<div class=\"indent\">\n<p>根據刊載於學術期刊資料庫 ScienceDirect 的研究，科學家在巴哈馬水域鯊魚體內驗出古柯鹼、咖啡因與止痛藥，顯示這些新興污染物開始滲透海洋環境，這個現象在觀光興盛地區尤為明顯。<span id=\"more-1535870\"></span></p>\n<p>美國國家廣播公司新聞網（NBC News）報導，這份研究分析了82隻鯊魚，其中23隻體內檢測出4種新興污染物：乙醯胺酚（acetaminophen）、雙氯芬酸（diclofenac）、古柯鹼（cocaine）與咖啡因。</p>\n<p>乙醯胺酚是常見止痛藥的主要成分，雙氯芬酸則是非類固醇消炎止痛藥。</p>\n<p>研究共捕獲5種鯊魚，分別為檸檬鯊、大西洋鉸口鯊（俗稱護士鯊）、黑邊鰭真鯊、佩氏真鯊及鼬鯊（又稱虎鯊）。</p>\n<p>這並非首次在鯊魚體內驗出古柯鹼；2024年，巴西沿海有超過10條鯊魚在古柯鹼檢測呈陽性。</p>\n<p>不過研究指出，這是全球首次在鯊魚體內驗出咖啡因和乙醯胺酚，同時也是巴哈馬水域鯊魚首次驗出雙氯芬酸與古柯鹼，這裡一般被視為未受污染的環境。</p>\n<p>研究也發現，與其他鯊魚相比，體內含有新興污染物的鯊魚在三酸甘油酯、尿素和乳酸濃度方面出現異常變化。</p>\n<p>（譯者：洪培英；首圖來源：<a href=\"https://unsplash.com/photos/white-and-black-shark-under-water-TdENDAHtPBw\">Unsplash</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/04/07/cocaine-and-caffeine-detected-in-shark-in-the-bahamas/",
+            "pub_date": "2026-04-07 11:20:03",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "CCA 計劃首起意外，通用原子 YFQ-42A 原型機於加州試飛墜毀",
+            "description": "<div class=\"indent\">\n<p dir=\"auto\">美國空軍積極推進的「協同作戰航空器」（Collaborative Combat Aircraft, CCA）計畫遭遇突發狀況，通用原子今日發布聲明證實，其為 CCA 計畫開發的 YFQ-42A 無人僚機原型機，在加州沙漠起飛後不久發生墜毀事故，目前該型機的所有飛行測試已全面暫停。</p>\n<p dir=\"auto\"><span id=\"more-1535882\"></span></p>\n<p dir=\"auto\">通用原子聲明指出，該架無人機從加州棕櫚谷（Palmdale）附近，由通用原子自有營運的格雷峰機場（Gray Butte Airport）起飛後隨即墜毀，所幸現場並未造成任何人員傷亡。</p>\n<p dir=\"auto\">美國空軍表示已掌握相關情況，並將遵循標準的航空器事故調查程序處理，通用原子發言人布林克利（C. Mark Brinkley）強調：「安全始終是我們對員工與大眾的首要考量，在這次事件中，既定的安全機制與防護措施發揮了預期作用。」</p>\n<p dir=\"auto\">針對墜機原因，通用原子表示目前仍處於初步調查階段，如同任何開發計畫一樣，將會遵循嚴謹的調查程序來釐清確切肇因，因此現階段的重點是收集數據，並確保能從這次事件中汲取經驗，基於謹慎考量，YFQ-42A 的試飛作業已暫時停止，待確認安全無虞後才會重啟。</p>\n<p dir=\"auto\">通用原子透露，此次墜毀的無人機是數架接近量產版本的 YFQ-42A 之一，平時會進行例行性的飛行測試，這款被公司內部命名為「暗夜梅林」（Dark Merlin）的無人機，隸屬於該公司「策略」（Gambit）系列無人機設計的核心產品。</p>\n<p dir=\"auto\">目前外界已知通用原子至少打造了三架同型原型機，該公司也正積極將此系列推銷至歐洲等國際市場。</p>\n<p dir=\"auto\">這起事故發生的時機點相當敏感，因為 CCA 計畫的競爭正進入白熱化階段，2024 年，美國空軍選定通用原子與 Anduril 進入 CCA 計畫第一階段的原型機開發。</p>\n<p dir=\"auto\">競爭對手 Anduril 的 YFQ-44A 無人機近期已進展到掛載惰性武器（inert weapons）進行試飛的階段，而通用原子的 YFQ-42A 是否已展開類似的高階測試仍是未知數，美國空軍預計將在今年夏天正式頒發 CCA 計畫的第一階段量產合約。</p>\n<p dir=\"auto\">同時著眼於更進階技術的 CCA 第二階段（Increment 2）也已展開，據悉已有九家廠商獲得了早期設計合約，此次通用原子的墜機事故，是否會影響美空軍今夏的決選評估與量產時程，將是後續高度關注的焦點。</p>\n<ul>\n<li dir=\"auto\"><a href=\"https://breakingdefense.com/2026/04/general-atomics-cca-drone-wingman-prototype-crashes-in-california/\">General Atomics CCA drone wingman prototype crashes in California </a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://www.ga-asi.com/statement-on-yfq-42a-flight-incident\">GA-ASI</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/04/07/ga-asis-yfq-42a-crashed-during-test-flight-for-the-first-time/",
+            "pub_date": "2026-04-07 11:20:03",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
             "title": "Linux 7.1 核心告別 Intel 486 處理器，創辦人表示完全沒有理由繼續支援",
             "description": "<div class=\"indent\">\n<p>即將推出的 Linux 7.1 核心，Linux 開發者開始停止支援 37 年歷史的 Intel 486（i486）CPU。Linux 創辦人林納斯·托瓦茲（Linus Torvalds）表示，繼續支援這款古老的處理器「完全沒有理由」。<span id=\"more-1535890\"></span></p>\n<p>英特爾 486 自 1989 年推出，Linux 一直有支援，但現代發行版要求資源不斷增加，這款處理器已過時。開不支援第一槍的開發者 Ingo Molnar 修補程式明確移除 i486 特定的核心映像構建，指出「複雜的硬體模擬設施」對少數用戶造成維護問題。</p>\n<p>如果修補程式沒有遇到反對聲音，486 支援將逐步淘汰；目前沒有主要 Linux 發行版本專為 i486 開發。Torvalds 強調，繼續支援 486 會妨礙上游核心開發，並重申這樣做「沒有任何實用理由」。Molnar 的修補程式說明更直接：「相容性維護有時會造成問題，讓人們花時間解決，這些時間本可以用來做其他事。」</p>\n<p>儘管更新 32 位元 x86 CPU（如 Pentium）支援仍繼續，但也有人開始討論淘汰 32 位元 x86 的可能性。目前沒有已知上游 Linux 用戶還在用 i486，故影響較小；復古系統仍可執行舊版核心或其他操作系統。</p>\n<ul>\n<li><a href=\"https://www.tomshardware.com/software/linux/linux-devs-start-removing-support-for-37-year-old-intel-486-cpu-head-honcho-linus-torvalds-says-zero-real-reason-to-continue-support\">Linux devs start removing support for 37-year-old Intel 486 CPU — head honcho Linus Torvalds says ‘zero real reason’ to continue support | Tom’s Hardware</a></li>\n<li><a href=\"https://www.xda-developers.com/linux-7-1-finally-dropping-support-intels-37-year-old-486-processor/\">Linux 7.1 is finally ending support for Intel’s 37-year-old 486 processor</a></li>\n<li><a href=\"https://news.ycombinator.com/item?id=47654154\">Linux 7.1 Expected to Begin Removing I486 CPU Support</a></li>\n<li><a href=\"https://programming.dev/post/48365867\">Linux 7.1 Expected To Begin Removing i486 CPU Support</a></li>\n<li><a href=\"https://www.linux.org/threads/phoronix-linux-7-1-expected-to-begin-removing-i486-cpu-support.64775/#post-302840\"> [Phoronix] Linux 7.1 Expected To Begin Removing i486 CPU Support</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://commons.wikimedia.org/wiki/File:Intel_i486_sx_33mhz_2007_03_27.jpg\">Henry Mühlpfordt</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons）</p>\n</div>",
             "link": "https://technews.tw/2026/04/07/linux-devs-start-removing-support-for-37-year-old-intel-486-cpu/",
@@ -41,51 +86,6 @@
             "description": "<div class=\"indent\">\n<p>特斯拉（Tesla Inc.）執行長馬斯克（Elon Musk）創辦的太空探索技術公司 SpaceX，傳出最近首次公開發行（IPO）的預期估值已突破 2 兆美元大關，但能否達標端看馬斯克願景的說服力而定。<span id=\"more-1535837\"></span></p>\n<p>Seeking Alpha引述彭博社6日<a href=\"https://seekingalpha.com/news/4572801-spacexs-ipo-valuation-is-said-to-hinge-on-elon-musks-vision\">報導</a>，知情人士透露，SpaceX及其承銷銀行正在準備投資人會議，以評估市場對這場潛在IPO的需求。最近幾週，這場IPO估值的預期攀升極快，已從原先的1.75兆美元一舉突破2兆美元。</p>\n<p>部分觀察家指出，SpaceX對投資人宣傳時，財務表現並非主角，對馬斯克長期願景的信賴才是焦點所在。一位學者兼前銀行家指出，重點可能仍在維持投資人對公司未來潛力的熱情，而非去論證當前的財務數據是否能合理撐住估值。</p>\n<p>若以這個估值計算，SpaceX將擠進標準普爾500指數中，市值最高的公司行列，儘管其創造的營收遠低於許多同業。分析師估計，受惠於發射業務與「星鏈」（Starlink）衛星網路，該公司2026年的營收可能接近200億美元。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=2970f50d-6b37-422b-b649-013340129bda\">MoneyDJ新聞</a> 授權轉載；首圖來源：<a href=\"https://unsplash.com/photos/white-and-gray-building-near-green-grass-field-during-daytime-u-x6U1GjCk4\">Unsplash</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://finance.technews.tw/2026/04/02/spacex-files-for-ipo-sources-say-offering-investors-stake-in-musks-space-ambitions/\">史上最大 IPO 來了 SpaceX 傳祕密提申請、太空股夯</a></li>\n</ul>\n</div>",
             "link": "https://finance.technews.tw/2026/04/07/spacexs-ipo-valuation-is-said-to-hinge-on-elon-musks-vision/",
             "pub_date": "2026-04-07 11:13:42",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "中東戰爭埋黑色 4 月隱憂，但 IEA 看好加速綠能發展",
-            "description": "<div class=\"indent\">\n<p>國際能源總署署長比羅爾預測，中東戰爭引發的全球最嚴重能源危機，將加速再生能源、核能及電動車的發展。然而他也示警，荷莫茲海峽若持續關閉，可能出現「黑色 4 月」。<span id=\"more-1535849\"></span></p>\n<p>法新社引述法國保守派媒體《費加洛報》（Le Figaro）今天刊登的專訪指出，比羅爾（Fatih Birol）表示，目前這波能源緊縮的程度，「遠比1973年、1979年與2022年三次加起來都更為嚴重」。</p>\n<p>伊朗等同封鎖關鍵航道荷莫茲海峽（Strait of Hormuz）的做法，導致燃料價格飆升；儘管如此，比羅爾仍認為「有理由保持樂觀」，因為「全球能源體系結構將出現變革」。比羅爾說：「這需要數年時間，雖然無法解決當前的危機，但能源的地緣政治版圖將徹底改變。」</p>\n<p>不過，比羅爾強調，某些技術發展速度會比其他的要快。他預測：「而再生能源就是一例，例如太陽能和風力發電，這類設施可以非常快速地建置。我們很快就會大規模轉向再生能源，或許只要幾個月的時間。」</p>\n<p>即便如此，這位國際能源總署（IEA）署長也呼籲各國短期內「盡可能審慎」地節約能源，並警告可能出現「黑色4月」。他說：「若（荷莫茲）海峽真的整個4月都維持關閉，原油及石油產品的損失將是3月的兩倍。」他同時指出，這條水道也是化肥的重要運輸通道。</p>\n<p>（首圖來源：shutterstock）</p>\n</div>",
-            "link": "https://technews.tw/2026/04/07/middle-east-war-black-april-fears-iea-green-energy-acceleration/",
-            "pub_date": "2026-04-07 11:13:42",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "AI 平時正常、遇關鍵字就暴走，微軟揪出遭污染模型",
-            "description": "<div class=\"indent\">\n<p>在 RSAC 2026 網路安全會議期間，微軟（Microsoft）研究人員指出，遭污染的 AI 模型往往平時表現正常，卻會在碰到特定「觸發詞」或片語時突然出現明顯異常，甚至像是行為「爆掉」一樣改變回應方式。</p>\n<p><span id=\"more-1535871\"></span></p>\n<p>這類模型的危險在於，它們可能在多數情境下看似可靠，但一旦輸入特定字眼，就會偏離原本脈絡，產生錯誤答案，甚至出現可被利用的惡意行為。</p>\n<p>微軟指出，與整體表現都不穩定的訓練不良模型不同，遭污染的 AI 往往能先維持正常功能，只有在出現觸發詞時才會突然改變。從技術角度來看，這類模型會對關鍵字過度聚焦，忽略整句話的其他部分；相較之下，正常模型則會同時考慮整體語境。這項差異就像與人平靜對話時，對方突然因為聽到某個字語而態度大變。</p>\n<p>為了協助辨識這類模型，微軟也釋出一項可供開發者使用的偵測工具。對一般使用者而言，微軟建議在與 AI 互動時留意是否出現不合理的怪異反應，並謹慎提供資料，避免把敏感內容交給可能受污染的模型。</p>\n<ul>\n<li><a class=\"link-success\" href=\"https://www.pcworld.com/article/3103845/microsoft-says-poisoned-ai-acts-normal-until-a-trigger-word-makes-it-blow-up.html\" target=\"_blank\">Microsoft says poisoned AI acts normal until a trigger word makes it ‘blow up’</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://pixabay.com/photos/microsoft-building-company-city-4608125/\">pixabay</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://infosecu.technews.tw/2026/04/03/microsoft-to-invest-in-japan/\" rel=\"bookmark\" title=\"微軟將投資日本 100 億美元，擴展 AI 發展與資安合作\">微軟將投資日本 100 億美元，擴展 AI 發展與資安合作</a></li>\n<li><a href=\"https://infosecu.technews.tw/2026/04/02/adversa-unveiled-claude-codes-security-loophole/\">Claude Code 爆「提示注入」漏洞，資安公司發現可輕鬆繞過安全限制</a></li>\n<li><a href=\"https://infosecu.technews.tw/2026/04/02/telecommunications-layer-vulnerabilities/\" rel=\"bookmark\" title=\"紅色電話攻破企業最後防線，被忽視的電信層漏洞正在成為資安破口\">紅色電話攻破企業最後防線，被忽視的電信層漏洞正在成為資安破口</a></li>\n<li><a href=\"https://infosecu.technews.tw/2026/04/01/deepload-malware-pairs-clickfix-delivery-with-ai-generated-evasion/\">AI 惡意程式 DeepLoad 攻擊威脅 Windows 11 安全，微軟緊急修補多項漏洞</a></li>\n<li><a href=\"https://infosecu.technews.tw/2026/04/01/claude-code-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry/\" rel=\"bookmark\" title=\"非愚人節玩笑！Claude Code 原始碼意外外流，核心運作細節曝光\">非愚人節玩笑！Claude Code 原始碼意外外流，核心運作細節曝</a></li>\n</ul>\n</div>",
-            "link": "https://infosecu.technews.tw/2026/04/07/rsac-2026-microsoft/",
-            "pub_date": "2026-04-07 11:07:36",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "AI 加持  晶圓切割機廠 DISCO 出貨額衝歷史新高",
-            "description": "<div class=\"indent\">\n<p>AI 需求加持，日本晶圓切割機大廠 DISCO 上季（2026 年 1-3 月）出貨額大增，創下歷史新高紀錄，不過今日股價逆勢重挫。<span id=\"more-1535878\"></span></p>\n<p>截至台北時間7日上午9點30分為止，DISCO重挫4.57%至63,920日圓，表現遠遜於大盤（東證股價指數TOPIX）的上漲0.46%。</p>\n<p>DISCO 6日盤後公布資料指出，因生成式AI需求旺，帶動精密加工裝置以及做為消耗品的精密加工工具出貨揚升，上季（2025年度第四季、2026年1-3月）非合併（個別）出貨額較去年同期大增28.2%至981億日圓，3季來首度呈現增長，季度別出貨額超越2025年4-6月的930億日圓、創下歷史新高紀錄。和前一季（2025年10-12月）相比、出貨額季增9.0%。</p>\n<p>2025年度（2025年4月-2026年3月）DISCO非合併出貨額年增6.2%至3,588億日圓，連續第六年創下歷史新高紀錄。</p>\n<p>另外，上季DISCO非合併營收較去年同期增加2.3%至1,049億日圓，和前一季相比大增19.2%。2025年度DISCO非合併營收年增6.6%至3,538億日圓。</p>\n<p>DISCO會在產品完成驗收後，才會將賣出的產品列入營收計算，因此營收通常會和實際的市場需求動向產生落差，而出貨額和市場動向的連動性較高。</p>\n<p>DISCO預計將在4月22日公布2025年度第四季財報。</p>\n<p>DISCO 1月21日公布財報資料指出，2025年度第四季（2026年1-3月）可用來反映客戶投資意願的（合併）出貨額預估將年增26%至1,169億日圓，季度別出貨額將連2季創下歷史新高紀錄。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=ea66e88b-554e-4d4b-a0bd-e36b7d212818\">MoneyDJ新聞</a> 授權轉載；首圖來源：<a href=\"https://twitter.com/DISCO_PR/status/1318710551480971266\">DISCO</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://finance.technews.tw/2026/01/22/disco-posts-strong-shipment-value-shares-hit-limit-up/\">晶圓切割機廠 DISCO 出貨額優、破紀錄 股價飆漲停</a></li>\n</ul>\n</div>",
-            "link": "https://technews.tw/2026/04/07/disco-shipments-hit-record-high/",
-            "pub_date": "2026-04-07 11:07:36",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "點對點通訊應用 Bitchat 遭蘋果下架，離線傳訊 App 再踩北京紅線",
-            "description": "<div class=\"indent\">\n<p class=\"p1\">蘋果近日已將 Jack Dorsey 推出的通訊 App「Bitchat」自中國 App Store 下架。據該開發者在 X 上公開的通知內容，這次下架是應中國國家網信辦（CAC）要求辦理；蘋果則指出，CAC 認定該 App 涉及《具有輿論屬性或社會動員能力的互聯網信息服務安全評估規定》第 3 條，也就是具備影響輿論或社會動員能力的服務，在上架或更新前須先完成安全評估。</p>\n<p class=\"p1\"><span id=\"more-1535909\"></span></p>\n<p class=\"p1\">Bitchat 是由 Twitter 共同創辦人、現任 Block 執行長 Jack Dorsey 推出的通訊工具，主打匿名、去中心化與離線傳訊。不同於多數仰賴網路伺服器運作的通訊 App，Bitchat 採用基於藍牙的點對點 mesh 網路架構，不需傳統帳號、伺服器或集中式資料儲存即可傳遞訊息，這類設計也讓它在部分面臨網路封鎖或社群平台受限的地區受到關注。</p>\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">bitchat pulled from the china app store <a href=\"https://t.co/jrrd0gDrA9\">pic.twitter.com/jrrd0gDrA9</a></p>\n<p>— jack (@jack) <a href=\"https://twitter.com/jack/status/2040924565111537983?ref_src=twsrc%5Etfw\">April 5, 2026</a></p></blockquote>\n<p></p>\n<p class=\"p1\">從中國過去一段時間對類似功能的態度來看，Bitchat 此次遭下架並不令人意外。蘋果曾在 2022 年針對中國市場調整 AirDrop，將原本可長時間開啟的「所有人」接收模式，改為 10 分鐘後自動回復為「僅限聯絡人」，外界普遍認為，此舉與中國官方對匿名內容傳播的高度戒備有關。蘋果當時對外說法是，這項改動是為了減少不必要的檔案分享，且之後也會擴展到其他市場。</p>\n<p class=\"p1\">AirDrop 在中國敏感，背景可追溯至 2019 年香港「反送中」運動，當時示威者曾廣泛利用該功能在沒有網路的情況下，向附近蘋果裝置傳送文宣與訊息。到了 2022 年北京四通橋抗議事件後，相關抗議標語與圖片也被報導透過 AirDrop 等方式擴散。《路透社》當時報導，北京四通橋在 2022 年 10 月出現罕見抗議橫幅，隨後相關影像與口號迅速在社群與網路流傳，中國也隨即加強審查。</p>\n<p class=\"p1\">也因此，Bitchat 之所以讓中國監管單位更為警覺，關鍵就在於它與 AirDrop 有相似之處，兩者都不是依賴中心化伺服器運作的傳統網路服務，而是可在一定範圍內，透過裝置與裝置之間直接傳遞內容。對高度依賴平台審查、網路節點監控與帳號管理的體制而言，這類較難被即時追蹤與攔截的工具，本身就容易被視為潛在風險。</p>\n<p class=\"p1\">目前 Jack Dorsey 尚未說明，Bitchat 是否會採取進一步措施，以重返中國 App Store。就現階段來看，中國對去中心化、匿名化與可離線傳播資訊的工具，仍維持高度戒備，而 Bitchat 這次遭下架，也再次凸顯在中國市場，通訊工具的技術設計本身，往往就已是監管紅線。</p>\n<p class=\"p1\">（首圖來源：科技新報）</p>\n</div>",
-            "link": "https://technews.tw/2026/04/07/bitchat-china/",
-            "pub_date": "2026-04-07 11:07:36",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "Meta 打算部分開源新 AI 模型，核心技術維持封閉以保有競爭優勢",
-            "description": "<div class=\"indent\">\n<p>外媒報導，Meta Platforms 準備推出汪滔（Alexandr Wang，首圖）主導打造的新 AI 模型，且以開源授權釋出部分版本。這將是汪滔主導開發的首批新模型之一，外界也視之為 Meta 重新調整 AI 策略的重要舉動。<span id=\"more-1535867\"></span></p>\n<p>知情人士指出，開放模型前，Meta 打算保留部分核心能力為專有技術，同時確保新模型不會要成新安全疑慮，這代表 Meta 並非全面回到過去更徹底開放，而是更具彈性的混合路線：一方面維持足夠開放度，吸引開發者並影響 AI 生態；另一方面保留最先進、最具競爭優勢的技術。</p>\n<p>消息人士表示，這項策略也反映汪滔的看法，也就是 Meta 有機會於推動先進 AI 普及化扮演關鍵角色，並提供美國研發且更易取得的選項。相較 Anthropic 與 OpenAI 等競爭者日益聚焦政府與企業客戶，Meta 更強調消費市場，並希望讓自家模型盡可能推至全世界。</p>\n<p>Meta 新模型首要任務之一，是幫助公司追趕競爭對手。Llama 4 系列表現明顯落後，Meta 也希望推出更能領先產業的模型。但 Meta 也承認，新模型各方面未必比其他實驗室產品優秀，但仍相信會有部分功能夠吸引消費者。</p>\n<p>Meta 並不打算讓旗下所有最強模型都開源。消息顯示，部分新大型模型仍維持封閉，顯示 Meta 於開放與保護競爭優勢之間尋求平衡。Meta 也認為自家 AI 產品能透過 WhatsApp、Facebook 與 Instagram 等免費平台觸及更多使用者，是對手較難複製的優勢。</p>\n<ul>\n<li><a href=\"https://seekingalpha.com/news/4572778-meta-may-open-source-versions-of-its-upcoming-ai-models-report\">Meta may open source versions of its upcoming AI models</a></li>\n<li><a href=\"https://www.gurufocus.com/news/8776632/meta-meta-to-launch-new-ai-models-under-open-source-license\">Meta (META) to Launch New AI Models Under Open Source License</a></li>\n<li><a href=\"https://www.axios.com/2026/04/06/meta-open-source-ai-models\">Scoop: Meta to open source versions of its next AI models</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://www.instagram.com/p/DK3SrEgsvTT/?img_index=6\">shawnryan762</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/01/05/yann-lecun-alexandr-wang/\" rel=\"bookmark\" title=\"楊立昆質疑 Meta 新 AI 負責人能力，透露研究路線分歧\">楊立昆質疑 Meta 新 AI 負責人能力，透露研究路線分歧</a></li>\n<li><a href=\"https://technews.tw/2025/12/11/meta-alexandr-wang-alexandr-wang/\" rel=\"bookmark\" title=\"Meta 裁撤 600 名 AI 人員後矛盾浮現，新舊勢力上演權力遊戲\">Meta 裁撤 600 名 AI 人員後矛盾浮現，新舊勢力上演權力遊戲</a></li>\n<li><a href=\"https://technews.tw/2025/09/18/heres-metas-superintelligence-lab-heads-pitch-to-hire-ai-talent/\" rel=\"bookmark\" title=\"Meta AI 長汪滔邀科學家加入，「沒有障礙能阻止超智慧目標實現」\">Meta AI 長汪滔邀科學家加入，「沒有障礙能阻止超智慧目標實現」</a></li>\n</ul>\n</div>",
-            "link": "https://technews.tw/2026/04/07/meta-may-open-source-versions-of-its-upcoming-ai-models/",
-            "pub_date": "2026-04-07 11:07:36",
             "source": "cmcmarkets",
             "kind": 1,
             "language": "en"
