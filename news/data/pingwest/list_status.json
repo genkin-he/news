@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Anthropic联合科技巨头启动Project Glasswing",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月8日讯，Anthropic近日联合Amazon Web Services、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorganChase、Linux Foundation、Microsoft、NVIDIA及Palo Alto Networks等机构，共同启动Project Glasswing。该项目旨在利用前沿AI模型Claude Mythos Preview强大的代码推理与漏洞挖掘能力，防御日益严峻的网络安全威胁。</span></p><p><span>此举背景源于对AI技术重塑网络安全格局的深刻认知。Claude Mythos Preview作为一款通用型未发布模型，已展现出超越绝大多数人类的漏洞发现与利用能力，甚至在主要操作系统与浏览器中发现了存活数十年的高危漏洞。为防止此类能力被滥用，Project Glasswing将集中资源，利用该模型扫描并修复关键基础设施及开源系统中的安全隐患。</span></p><p><span>Anthropic承诺为此投入高达1亿美元的模型使用额度及400万美元的专项捐赠。参与机构将利用该模型进行渗透测试、二进制黑盒测试等防御工作。此次合作标志着网络安全进入“AI防御”新阶段，旨在通过行业协作，确保关键基础设施在AI时代的安全性与韧性。</span></p><figure class=\"image\"><img alt=\"\" height=\"489\" src=\"https://cdn.pingwest.com/portal/2026/04/08/1dbSbH1HMK8Zj30KA1PBhT53w0Bw3QF7.png?x-oss-process=style/article-body\" title=\"\" width=\"1308\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312748",
+            "pub_date": "2026-04-08 10:00:41",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "OpenBMB发布VoxCPM2 实现30种语言高保真语音合成",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月8日讯，</span><b>OpenBMB</b><span>近日正式推出VoxCPM2，这是基于MiniCPM-4骨干网络的最新一代语音生成基座模型。该模型参数量升级至20亿，并在超过200万小时的多语言语料上进行训练，实现了从文本到语音的无分词器端到端合成，支持30种语言及多种中国方言的直接输入与生成。</span></p><p><span>VoxCPM2引入了创新的“声音设计”功能，用户仅需通过自然语言描述性别、年龄、情感等特征，即可凭空创造全新音色，无需参考音频。在克隆能力上，模型支持可控克隆与终极克隆两种模式，既能通过短音频复刻音色并调整情感节奏，也能在提供原文对照的情况下精准还原说话人的每一处细微韵律与呼吸感。</span></p><p><span>技术层面，VoxCPM2通过AudioVAE V2的非对称编解码设计，可直接输出48kHz录音室级音质，无需外部超分辨率工具。该模型已基于Apache-2.0协议完全开源，支持商用，并在消费级显卡上实现了高效的实时流式输出，为多语言内容创作与智能交互提供了新的技术选择。</span></p><figure class=\"image\"><img alt=\"\" height=\"255\" src=\"https://cdn.pingwest.com/portal/2026/04/08/bcmK7PHwCZ4i5yQ4RmDE1HWPa1RN7eGR.png?x-oss-process=style/article-body\" title=\"\" width=\"606\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312747",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月7日讯，据 Axios 报道，Meta正准备发布首批由Alexandr Wang主导开发的全新AI模型，并计划最终通过开源许可证向外界提供部分版本。这一举措标志着Meta在AI领域的战略延续与调整。Wang认为，Meta有责任推动尖端技术的民主化，确保开发者拥有美国制造的开源选项，这与Anthropic和OpenAI专注于政府及企业服务的路径形成鲜明对比。</span></p><p><span>尽管面临OpenAI和Anthropic即将发布新一代模型的竞争压力，Meta深知其新模型可能无法在所有指标上全面领先，但仍致力于打造符合消费者需求的强项领域。Meta强调，通过将AI深度集成至WhatsApp、Facebook和Instagram等免费全球服务中，其触达用户的广度是竞争对手难以比拟的。</span></p><p><span>值得注意的是，Meta的开源策略正转向“混合模式”。虽然旨在通过开源赢得开发者生态，但出于安全考量及保持竞争优势，部分最大规模的新模型将保持专有属性。这一策略调整反映了行业趋势，即即便是倡导开放的科技巨头，也在对其最强大的系统实施更严格的管控。</span></p><figure class=\"image\"><img alt=\"\" height=\"445\" src=\"https://cdn.pingwest.com/portal/2026/04/07/7KB2S09cbPX7rni272dYJ5360p3B0z9f.png?x-oss-process=style/article-body\" title=\"\" width=\"786\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312740",
             "pub_date": "2026-04-07 14:29:52",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "下一代OpenClaw来了？“龙虾之父”称将率先支持阿里千问",
-            "description": "<article class=\"wire-content article-style\"><p>4月7日消息，“龙虾之父”彼得·斯坦伯格（Peter Steinberger）在社交媒体上透露称，下一代OpenClaw产品将融入视频生成功能，并率先提供阿里千问大模型的官方支持。据了解，过去的一周，阿里连续发布Qwen3.6-Plus、Qwen3.5-Omni、Wan2.7-Image、Wan2.7-Video等数款新模型，涵盖编程、Agent、全模态、文生图、视频生成等多个领域，在全球AI社区掀起一股“千问旋风”。其中，千问3.6Plus在全球最大的大模型API平台OpenRouter上霸榜多日，成为该平台首个单日调用量突破1万亿Token的模型。</p></article>",
-            "link": "https://www.pingwest.com/w/312738",
-            "pub_date": "2026-04-07 11:27:33",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
