@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "OpenBMB发布VoxCPM2 实现30种语言高保真语音合成",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月8日讯，</span><b>OpenBMB</b><span>近日正式推出VoxCPM2，这是基于MiniCPM-4骨干网络的最新一代语音生成基座模型。该模型参数量升级至20亿，并在超过200万小时的多语言语料上进行训练，实现了从文本到语音的无分词器端到端合成，支持30种语言及多种中国方言的直接输入与生成。</span></p><p><span>VoxCPM2引入了创新的“声音设计”功能，用户仅需通过自然语言描述性别、年龄、情感等特征，即可凭空创造全新音色，无需参考音频。在克隆能力上，模型支持可控克隆与终极克隆两种模式，既能通过短音频复刻音色并调整情感节奏，也能在提供原文对照的情况下精准还原说话人的每一处细微韵律与呼吸感。</span></p><p><span>技术层面，VoxCPM2通过AudioVAE V2的非对称编解码设计，可直接输出48kHz录音室级音质，无需外部超分辨率工具。该模型已基于Apache-2.0协议完全开源，支持商用，并在消费级显卡上实现了高效的实时流式输出，为多语言内容创作与智能交互提供了新的技术选择。</span></p><figure class=\"image\"><img alt=\"\" height=\"255\" src=\"https://cdn.pingwest.com/portal/2026/04/08/bcmK7PHwCZ4i5yQ4RmDE1HWPa1RN7eGR.png?x-oss-process=style/article-body\" title=\"\" width=\"606\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312747",
+            "pub_date": "2026-04-08 09:55:37",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "ElevenLabs Scribe v2迎来重大更新 强化隐私与多语言转录能力",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月8日讯，ElevenLabs近日宣布，对其Scribe v2语音转文字模型进行重大功能升级，旨在通过引入实体脱敏、优化混合语言识别及增强自定义能力，进一步提升开发者在隐私合规与转录质量上的控制力。</span></p><p><span>此次更新的核心亮点是内置的实体脱敏功能。Scribe v2现在能够自动检测并移除姓名、信用卡号及社保号等敏感个人信息。脱敏处理在转录过程中即时完成，支持完全替换、分类标记及编号枚举三种模式，有效降低了医疗、金融及客服场景下的数据合规风险。</span></p><p><span>针对印度等地区的语言习惯，模型优化了印地语、泰卢固语等与英语混用的转录逻辑，确保英语词汇始终以拉丁字母呈现，而非被错误音译。此外，新增的“非逐字模式”可自动剔除“um”等语气词与重复语句，生成更整洁的文本。自定义关键词提示上限也已从100个扩展至1,000个，显著提升了专业领域的术语识别精度。</span></p><figure class=\"image\"><img alt=\"\" height=\"459\" src=\"https://cdn.pingwest.com/portal/2026/04/08/b64xce6811FaRMhi1bGKbW8faY2i8xG5.png?x-oss-process=style/article-body\" title=\"\" width=\"868\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312746",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p>4月7日消息，“龙虾之父”彼得·斯坦伯格（Peter Steinberger）在社交媒体上透露称，下一代OpenClaw产品将融入视频生成功能，并率先提供阿里千问大模型的官方支持。据了解，过去的一周，阿里连续发布Qwen3.6-Plus、Qwen3.5-Omni、Wan2.7-Image、Wan2.7-Video等数款新模型，涵盖编程、Agent、全模态、文生图、视频生成等多个领域，在全球AI社区掀起一股“千问旋风”。其中，千问3.6Plus在全球最大的大模型API平台OpenRouter上霸榜多日，成为该平台首个单日调用量突破1万亿Token的模型。</p></article>",
             "link": "https://www.pingwest.com/w/312738",
             "pub_date": "2026-04-07 11:27:33",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "持续霸榜！阿里千问3.6Plus问鼎全球大模型调用周榜冠军",
-            "description": "<article class=\"wire-content article-style\"><p>4月7日，国际知名的大模型API三方调用平台OpenRouter公布了新一期调用量周榜单，阿里千问新模型Qwen3.6-Plus凭借连续4天霸榜日榜的成绩，问鼎OpenRouter的全球大模型周调用量冠军。据了解，Qwen3.6-Plus是OpenRouter平台上首个单日调用量突破1万亿Token的模型，被OpenRouter誉为“新模型发布最强劲的表现”。</p></article>",
-            "link": "https://www.pingwest.com/w/312737",
-            "pub_date": "2026-04-07 11:27:35",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
