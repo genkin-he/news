@@ -1,27 +1,22 @@
 # -*- coding: UTF-8 -*-
-import logging
-import traceback
+
 import requests
-import json
-import re
+from datetime import datetime, timezone
 from util.spider_util import SpiderUtil
 
 headers = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
     "accept": "*/*",
-    "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
-    "cache-control": "no-cache",
-    "pragma": "no-cache",
+    "accept-language": "en,zh-CN;q=0.9,zh;q=0.8",
+    "pa-accept-language": "en",
     "priority": "u=1, i",
-    "sec-ch-ua": '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
+    "sec-ch-ua": '"Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"macOS"',
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-origin",
-    "cookie": "theme-mode=light; _ga=GA1.1.1591991107.1745806348; _ga_KHBYDL8DMV=GS1.1.1745806348.1.1.1745807260.0.0.0",
+    "sec-fetch-site": "same-site",
     "Referer": "https://www.panewslab.com/",
-    "Referrer-Policy": "same-origin",
 }
 base_url = "https://www.panewslab.com/"
 filename = "./news/data/panewslab/list.json"
@@ -36,23 +31,22 @@ def run():
 
     # 使用 requests 发送请求
     response = requests.get(
-        "https://www.panewslab.com/webapi/flashnews?LId=1&LastTime=0&Rn=10",
+        "https://universal-api.panewslab.com/articles?type=NEWS&isShowInList=true&take=20&skip=0",
         headers=headers,
     )
     if response.status_code == 200:
-        body = response.json()
-        posts = body["data"]["flashNews"][0]["list"]
+        posts = response.json()
         for index, post in enumerate(posts):
             if index < 4:
                 id = post["id"]
-                link = "https://www.panewslab.com/zh/sqarticledetails/{}.html".format(
-                    id
-                )
+                link = f"https://www.panewslab.com/articles/{id}"
                 if link in ",".join(links):
-                    util.info("exists link: {}".format(link))
+                    util.info(f"exists link: {link}")
                     continue
                 title = post["title"].strip()
-                pub_date = util.convert_utc_to_local(post["publishTime"])
+                pub_date = util.convert_utc_to_local(
+                    datetime.fromisoformat(post["publishedAt"].replace("Z", "+00:00")).timestamp()
+                )
                 description = post["desc"].strip()
                 if description:
                     insert = True
