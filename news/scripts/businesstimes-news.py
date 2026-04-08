@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import requests  # 发送请求
-from util.spider_util import SpiderUtil
 from bs4 import BeautifulSoup
+from util.spider_util import SpiderUtil
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -29,11 +29,12 @@ util = SpiderUtil()
 page_urls = [
     "https://www.businesstimes.com.sg/opinion-features?ref=listing-menubar",
     "https://www.businesstimes.com.sg/breaking-news?filter=companies-markets&ref=listing-menubar",
+    "https://www.businesstimes.com.sg/keywords/stocks-watch",
 ]
 
 
 def get_detail(link):
-    util.info("link: {}".format(link))
+    util.info(f"link: {link}")
     try:
         response = requests.get(link, headers=headers)
         if response.status_code == 200:
@@ -49,10 +50,10 @@ def get_detail(link):
                 element.decompose()
             return str(soup).strip()
         else:
-            util.error("detail: {} error: {}".format(link, response.status_code))
+            util.error(f"detail: {link} error: {response.status_code}")
             return ""
     except Exception as e:
-        util.error("detail: {} exception: {}".format(link, str(e)))
+        util.error(f"detail: {link} exception: {str(e)}")
         return ""
 
 
@@ -63,11 +64,11 @@ def run():
     insert = False
 
     for page_url in page_urls:
-        util.info("fetching page: {}".format(page_url))
+        util.info(f"fetching page: {page_url}")
         try:
             response = requests.get(page_url, headers=headers)
             if response.status_code != 200:
-                util.log_action_error("page {} error: {}".format(page_url, response.status_code))
+                util.log_action_error(f"page {page_url} error: {response.status_code}")
                 continue
 
             body = response.text
@@ -84,7 +85,7 @@ def run():
                 if not title:
                     continue
                 if link in ",".join(_links):
-                    util.info("exists link: {}".format(link))
+                    util.info(f"exists link: {link}")
                     continue
                 description = get_detail(link)
                 if description != "":
@@ -102,13 +103,14 @@ def run():
                         },
                     )
         except Exception as e:
-            util.error("page {} exception: {}".format(page_url, str(e)))
+            util.error(f"page {page_url} exception: {str(e)}")
             continue
 
     if len(_articles) > 0 and insert:
         if len(_articles) > 10:
             _articles = _articles[:10]
         util.write_json_to_file(_articles, filename)
+
 
 if __name__ == "__main__":
     util.execute_with_timeout(run)
