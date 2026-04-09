@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Meta发布Muse Spark模型 迈向个人超级智能新阶段",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月日讯，Meta Superintelligence Labs近日正式推出Muse Spark，作为Muse系列的首款模型，标志着其人工智能研发全面重构后的首个里程碑。该模型具备原生多模态推理能力，支持工具调用、视觉思维链及多智能体协同，旨在为用户提供深度个性化的“个人超级智能”服务。目前，该模型已登陆meta.ai及Meta AI应用端。</span></p><p><span>Muse Spark在多模态感知、推理及健康领域展现出卓越性能。其推出的“沉思模式”（Contemplating mode）通过并行多智能体协同推理，在 Humanity’s Last Exam 等高难度测试中表现优异。在应用层面，该模型不仅擅长视觉STEM问题与实体识别，更通过与逾千名医师合作优化了健康推理能力，可为用户提供个性化的营养与运动指导。</span></p><p><span>在技术架构上，Meta重构了预训练、强化学习及测试时推理三大扩展轴。新架构显著降低了算力消耗，实现了能力的可预测扩展。安全性方面，基于更新的高级AI扩展框架评估，Muse Spark在生物、化学及网络安全等前沿风险类别中均处于安全边界内，具备可靠的行为拒绝机制。</span></p><figure class=\"image\"><img alt=\"\" height=\"506\" src=\"https://cdn.pingwest.com/portal/2026/04/09/j2Qp22SrY7KZ7y00RM5yQ2iynFasZtH8.jpg?x-oss-process=style/article-body\" title=\"\" width=\"900\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312784",
+            "pub_date": "2026-04-09 10:41:16",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Anthropic发布Claude Managed Agents 解耦架构重塑长周期任务处理",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月9日讯，据Anthropic官方消息，</span>Anthropic<span>现已发布Claude Managed Agents，旨在解决长周期复杂任务处理中的系统稳定性与扩展性难题。该服务通过将智能体核心组件——会话（Session）、协调器（Harness）与沙盒（Sandbox）进行虚拟化与解耦，构建了具备高容错与安全性的底层架构。这一设计使得各组件可独立替换与扩展，有效应对模型能力的快速迭代，避免了传统耦合架构中因单点故障导致的会话丢失风险。</span></p><p><span>在安全性方面，Managed Agents引入了严格的权限隔离机制。通过将认证凭据存储于沙盒之外的安全库或通过专用代理调用，确保了Claude生成的代码无法直接接触敏感令牌，从而有效防范了潜在的提示注入攻击。在性能优化上，解耦架构显著降低了用户感知的延迟，推理启动时间（TTFT）大幅缩短，同时支持“多脑多手”的灵活扩展模式。</span></p><p><span>该系统的设计理念借鉴了操作系统对硬件的抽象化管理，致力于为未来尚未设想的应用场景提供通用接口。Lance Martin、Gabe Cemaj与Michael Cohen指出，Managed Agents作为一个元协调器，不对具体的执行环境做预设，而是通过标准化接口适应多样化的任务需求，确保系统能随着Claude模型的进化而持续演进。</span></p><figure class=\"image\"><img alt=\"\" height=\"727\" src=\"https://cdn.pingwest.com/portal/2026/04/09/K4m4MAmNyX2G7F137PYnKhKd8ajnreex.png?x-oss-process=style/article-body\" title=\"\" width=\"725\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312783",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月9日讯，腾讯出品的AI应用开发平台扣子（Coze）近日正式推出命令行工具“扣子编程CLI”，旨在为智能体（Agent）提供一套底层原生接口。该工具将扣子平台的全套开发与创作能力，转化为可由命令行直接调用的标准化功能。</span></p><p><span>此举意味着，AI智能体能够通过理解和执行文本指令，自动化完成应用的创建、调试、内容生成与部署等全流程。用户只需通过对话提出需求，智能体即可在后台调用CLI，实现“一句话开发”。工具支持文本、图片、音频、视频等多媒体内容的一站式生成与云端存储。</span></p><p><span>该CLI工具被定位为智能体的关键自动化工具，使其从能力构想转向直接执行。它不仅简化了开发流程，也标志着AI智能体在自动化开发和任务执行方面迈出了重要一步。用户可通过相关指引，授权其智能体安装并使用该工具。</span></p><figure class=\"image\"><img alt=\"\" height=\"512\" src=\"https://cdn.pingwest.com/portal/2026/04/09/fsTCcm29Qxa8W7aGhBH59QPJh7T7Jr6M.png?x-oss-process=style/article-body\" title=\"\" width=\"2560\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312775",
             "pub_date": "2026-04-09 09:42:47",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "Miravoice完成630万美元种子轮融资",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月9日讯，据 thesaasnews 报道，语音AI企业Miravoice近日宣布完成630万美元种子轮融资。本轮融资由Unusual Ventures领投，Neo、25madison以及Karim Atiyeh、Rajeev Goel和Amar Goel等天使投资人跟投。作为一家专注于企业软件、基础设施及人工智能领域的风险投资机构，Unusual Ventures将为Miravoice提供资金与执行支持。</span></p><p><span>Miravoice由Nishant Jain、Danny D. Leybzon和Shreyas Tirumala联合创立，致力于通过语音技术简化结构化数据的采集流程。该平台提供无代码接口，支持非技术人员通过上传问卷、配置逻辑快速发起市场调研或民意调查等长对话任务，旨在将语音数据收集的便捷性提升至类似创建Google Form的水平。</span></p><p><span>本轮融资资金将重点用于扩充工程团队、升级基础设施以支持千万级通话规模，并优化平台功能以应对更广泛的市场部署需求。此次融资标志着Miravoice在推动语音AI技术于市场研究领域深度应用方面迈出了关键一步。</span></p><figure class=\"image\"><img alt=\"\" height=\"1256\" src=\"https://cdn.pingwest.com/portal/2026/04/09/MG1KXxxChc6DXJ85x55bCS8rRWxPTfeM.jpg?x-oss-process=style/article-body\" title=\"\" width=\"1884\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/312774",
-            "pub_date": "2026-04-09 09:37:42",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
