@@ -11,7 +11,7 @@ util = SpiderUtil(notify=False)
 def get_detail(link):
     util.info("link: {}".format(link))
     try:
-        response = requests.get(link, impersonate="chrome", timeout=10)
+        response = requests.get(link, impersonate="chrome136", headers={"Referer": base_url}, timeout=10)
         if response.status_code == 200:
             body = response.text
             lxml = BeautifulSoup(body, "lxml")
@@ -29,8 +29,7 @@ def get_detail(link):
 
             return str(soup).strip()
         else:
-            util.error("request: {} error: {}".format(link, response.status_code))
-            return ""
+            raise Exception("request: {} error: {}".format(link, response.status_code))
     except Exception as e:
         util.error("request exception for link {}: {}".format(link, str(e)))
         return ""
@@ -43,7 +42,7 @@ def run(link):
     insert = False
 
     try:
-        response = requests.get(link, impersonate="chrome", timeout=10)
+        response = requests.get(link, impersonate="chrome136", headers={"Referer": base_url}, timeout=10)
         if response.status_code == 200:
             body = response.text
             lxml = BeautifulSoup(body, "lxml")
@@ -87,7 +86,7 @@ def run(link):
                     _articles = _articles[:20]
                 util.write_json_to_file(_articles, filename)
         else:
-            util.log_action_error("businesstoday request error: {}".format(response.status_code))
+            raise Exception("businesstoday request error: {}".format(response.status_code))
     except Exception as e:
         util.log_action_error("request error: {}".format(str(e)))
 
