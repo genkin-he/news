@@ -52,16 +52,18 @@ def get_detail(link):
         if len(result) > 0:
             result = eval(result[0])
             result = re.sub(r"(\n)\1+", "\n", result)
-            # 删除从 <html><head></head><body> 到 Unlock powerful investing tools... 的整个段落
-            promo_pattern = r'<html><head></head><body>.*?Unlock powerful investing tools, advanced data, and expert analyst insights to help you invest with confidence\.\n</li></ul>'
+            # 去掉 html/body wrapper
+            result = re.sub(r'^<html><head></head><body>', '', result)
+            result = re.sub(r'</body></html>$', '', result)
+            # 删除 Unlock powerful investing tools 推广段落
+            promo_pattern = r'.*?Unlock powerful investing tools, advanced data, and expert analyst insights to help you invest with confidence\.\n</li></ul>'
             result = re.sub(promo_pattern, '', result, flags=re.DOTALL)
             # 删除 <p>See more insights into 之后的所有内容
             see_more_pattern = r'<p>See more .*'
             result = re.sub(see_more_pattern, '', result, flags=re.DOTALL)
             for_detailed_pattern = r'\n<p></p><p>For detailed.*'
             result = re.sub(for_detailed_pattern, '', result, flags=re.DOTALL)
-            body_html_pattern = r"\n</body></html>.*"
-            result = re.sub(body_html_pattern, '', result, flags=re.DOTALL)
+            result = re.sub(r'\n?</body></html>.*', '', result, flags=re.DOTALL)
             extra_content_pattern = r'\n<p></p><div class=\"tipranks-extra-content\"><a href=\"https://www\.tipranks\.com/.*'
             result = re.sub(extra_content_pattern, '', result, flags=re.DOTALL)
             trending_pattern = r'\n<div id=\"trending\" class=\"trending-posts\"><h2 class=\"fontWeightsemibold textDecorationunderline\">Trending Articles.*'
