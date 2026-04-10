@@ -1,12 +1,12 @@
-from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 import os
+import random
 import threading
 import time
 import traceback
-import random
-from typing import Dict, Optional
+from datetime import datetime, timedelta, timezone
+
 import ftfy
 
 
@@ -39,10 +39,10 @@ class SpiderUtil:
         current_time = datetime.now()
         current_minute = current_time.minute
         if current_minute % divisor == 0:
-            self.info("当前分钟数 {} 能被{}整除，可以执行任务".format(current_minute, divisor))
+            self.info(f"当前分钟数 {current_minute} 能被{divisor}整除，可以执行任务")
             return True
         else:
-            self.info("当前分钟数 {} 不能被{}整除，跳过执行".format(current_minute, divisor))
+            self.info(f"当前分钟数 {current_minute} 不能被{divisor}整除，跳过执行")
             return False
 
     def history_posts(self, filepath):
@@ -329,14 +329,14 @@ class SpiderUtil:
         """懒加载代理池"""
         if self._proxy_pools is None:
             try:
-                with open("./news/scripts/util/proxy_pool.json", "r") as f:
+                with open("./news/scripts/util/proxy_pool.json") as f:
                     self._proxy_pools = json.load(f)
             except Exception as e:
                 self.info(f"加载代理池失败：{str(e)}")
                 self._proxy_pools = []
         return self._proxy_pools
 
-    def get_random_proxy(self, region: str = "GLOBAL") -> Optional[Dict[str, str]]:
+    def get_random_proxy(self, region: str = "GLOBAL") -> dict[str, str] | None:
         """从代理池中根据地区随机选择一个代理"""
         try:
             region_proxies = [

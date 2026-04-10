@@ -5,7 +5,6 @@ import requests
 import json
 import re
 import time
-import xml.etree.ElementTree as ET
 from util.spider_util import SpiderUtil
 from bs4 import BeautifulSoup
 
@@ -62,27 +61,19 @@ for key, value in cookies_dict.items():
 
 def parse_rss_xml(xml_content):
     """Parse RSS XML feed and extract items"""
-    try:
-        root = ET.fromstring(xml_content)
-        items = []
-        for item in root.findall('.//item'):
-            title_elem = item.find('title')
-            link_elem = item.find('link')
-            if title_elem is not None and link_elem is not None:
-                title = title_elem.text.strip() if title_elem.text else ""
-                link = link_elem.text.strip() if link_elem.text else ""
-                if title and link:
-                    items.append({
-                        'title': title,
-                        'link': link
-                    })
-        return items
-    except ET.ParseError as e:
-        util.error("XML parse error: {}".format(str(e)))
-        return []
-    except Exception as e:
-        util.error("RSS parse error: {}".format(str(e)))
-        return []
+    soup = BeautifulSoup(xml_content, "xml")
+    items = []
+    for item in soup.find_all('item'):
+        title_elem = item.find('title')
+        link_elem = item.find('link')
+        if title_elem and link_elem:
+            title = title_elem.get_text(strip=True)
+            link = link_elem.get_text(strip=True)
+            if title and link:
+                items.append({'title': title, 'link': link})
+    if not items:
+        raise Exception("RSS parse returned no items")
+    return items
 
 
 def get_detail(link):
@@ -91,33 +82,25 @@ def get_detail(link):
         return ""
     util.info("link: {}".format(link))
     current_links.append(link)
-    try:
-        response = session.get(
-            link,
-            headers=headers,
-            timeout=10,
-            proxies=util.get_random_proxy(),
-            allow_redirects=True
-        )
-        if response.status_code == 200:
-            body = BeautifulSoup(response.text, "lxml")
-            soup = body.select_one('div.post-content')
-            if not soup:
-                util.error("article content not found: {}".format(link))
-                return ""
-            ad_elements = soup.select("script, style, iframe, noscript")
-            for element in ad_elements:
-                element.decompose()
-            return str(soup).strip()
-        else:
-            util.error("request: {} error: {}".format(link, response.status_code))
+    response = session.get(
+        link,
+        headers=headers,
+        timeout=10,
+        proxies=util.get_random_proxy(),
+        allow_redirects=True
+    )
+    if response.status_code == 200:
+        body = BeautifulSoup(response.text, "lxml")
+        soup = body.select_one('div.post-content')
+        if not soup:
+            util.error("article content not found: {}".format(link))
             return ""
-    except requests.exceptions.RequestException as e:
-        util.error("request exception: {}".format(str(e)))
-        return ""
-    except Exception as e:
-        util.error("unexpected exception: {}".format(str(e)))
-        return ""
+        ad_elements = soup.select("script, style, iframe, noscript")
+        for element in ad_elements:
+            element.decompose()
+        return str(soup).strip()
+    else:
+        raise Exception("request: {} error: {}".format(link, response.status_code))
 
 
 def run():
@@ -167,7 +150,7 @@ def run():
                     data_index += 1
                     time.sleep(0.5)
         else:
-            util.error("request url: {}, error: {}".format(url, response.status_code))
+            raise Exception("request url: {}, error: {}".format(url, response.status_code))
 
         if len(_articles) > 0 and insert:
             if len(_articles) > 10:
@@ -178,4 +161,3 @@ def run():
 
 if __name__ == "__main__":
     util.execute_with_timeout(run)
-
