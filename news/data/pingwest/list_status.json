@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "南洋理工MMLab发布Hand2World，实现世界模型“手眼”协同交互",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月15日讯，据CSDN消息，南洋理工大学MMLab团队近日正式推出Hand2World模型。该模型使AI世界模型能够通过空中手势实时生成第一人称交互视频，真正实现了从“被动观察”到“主动触达”的技术跨越，解决了长期存在的手眼交互难题。</span></p><p><span>针对现有模型在训练与推理阶段因手部遮挡导致的分布不匹配问题，Hand2World摒弃了传统的2D掩码，采用基于3D手部网格（MANO）的投影作为控制信号。同时，模型利用像素级Plücker射线嵌入显式编码相机运动，成功解耦了手部动作与头部视角转动，有效防止了背景漂移。</span></p><p><span>在技术架构上，Hand2World将双向扩散教师模型蒸馏为因果自回归生成器，支持流式输出与无限时长的连续交互。实验数据显示，该模型在ARCTIC等三大基准测试中FVD指标大幅下降，显著提升了生成视频的视觉质量与3D一致性。</span></p><figure class=\"image\"><img alt=\"\" height=\"2334\" src=\"https://cdn.pingwest.com/portal/2026/04/15/bH_4YRMx1PhJMmJfRJtSDWQ7T2ZQ6GWS.png?x-oss-process=style/article-body\" title=\"\" width=\"4305\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312908",
+            "pub_date": "2026-04-15 09:33:34",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "金谷园这次成为 AI 大厂试点了",
             "description": "<article class=\"wire-content article-style\"><p>近日，北京金谷园饺子馆因自主搭建AI Skill引发行业内外热议。这家位于北邮旁的社区饺子馆，老板花半小时编写了一个Skill并公开发布，内容涵盖菜品介绍、营业时间等基础信息，甚至有顾客专程到店体验。</p><p>关注到这一动态后，美团专项项目组主动对接并邀请金谷园饺子馆作为“AI助理体验官”，为美团的商家AI产品提供更多建议。作为堂食“排队王”，金谷园饺子馆曾在2025年冬至创下排队上万桌的盛况。基于门店真实经营痛点，美团技术团队深入金谷园高频排队场景，联手金谷园，共同内测门店排队Skill。用户安装金谷园.Skill后，即可通过自己的AI助理查看门店当前等位情况、选择所需桌型，直接在Agent上完成取号；金谷园商家端设备能同步接收排号信息，实现完整闭环。</p><figure class=\"image\"><img alt=\"\" height=\"918\" src=\"https://cdn.pingwest.com/portal/2026/04/14/portal/2026/04/14/7j7yX74YH1d1dt2z76SyiCGY7bMS4N_b?x-oss-process=style/article-body\" title=\"\" width=\"1267\"/></figure><p>金谷园饺子馆公众号最新消息显示，美团排队与金谷园正式对接，最新版Skill已经可以在线取号，这也意味着，金谷园已成为全国第一家主动面向Agent实现排队取号的餐厅。</p><figure class=\"image\"><img alt=\"\" height=\"1811\" src=\"https://cdn.pingwest.com/portal/2026/04/14/portal/2026/04/14/rdGfeMhcCdM8H5csj80a88Kaf9ST3e39?x-oss-process=style/article-body\" title=\"\" width=\"1271\"/></figure><p>据美团专项项目组介绍，此次邀请金谷园合作测试AI产品，也是一次面向未来的探索——通过开放数据接口，将平台上的实时门店信息数据封装提供给商家，为商家提供更好用的AI助理工具，共同服务好商家的线上线下顾客。</p><p>金谷园老板李博设想，未来用户可以通过美团App了解商家，也可以直接使用商家结合美团数据、能力而打造的个性化AI助理，“美团作为餐饮行业的基础设施，开放接口给中小商家，商家可以直接使用，不必再重复造轮子。”</p><p>美团到店餐饮业务相关负责人表示，将继续邀请对AI技术有热情、有需求的餐饮商家成为“AI助理体验官”，深度参与 AI 产品的研发过程。对于加入“AI助理体验官”的餐饮店，美团将邀请其内测商家端最新AI产品，为门店提供定制化的AI能力改造和技术应用，帮商家去了解和改造物理世界。</p><p>据悉，美团到店餐饮业务已为全国85万家堂食餐饮商家提供智能掌柜辅助经营，持续为商家等合作伙伴研发AI产品。未来还将结合更多商家的AI探索需求，开放多种实用服务的Skill支持，帮每个商家都用上自己的AI助理。</p></article>",
             "link": "https://www.pingwest.com/w/312903",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月14日讯，具身智能初创公司BeingBeyond（智在无界）正式发布第三代旗舰模型Being-H0.7。该模型基于20万小时人类视频训练，提出基于潜空间推理的全新范式，在6项国际权威评测中综合排名第一。作为首个覆盖跨本体、流体、柔性物体等七大关键维度的通用世界模型，H0.7实现了从“像素级预测”到“物理直觉”的技术跨越。</span></p><p><span>BeingBeyond创始人卢宗青指出，世界模型不应止步于理解，必须学会改变世界。针对传统模型在物理理解与交互上的割裂，Being-H0.7采用“状态变化与动作生成联合预测”技术路径，通过引入可学习中间变量构建“思考空间”，使模型具备类似人类的物理直觉与快速推理能力。该模型训练成本不足同类生成式模型的1%，推理速度提升显著，可实现高速动态追踪、精细流体控制等复杂任务。</span></p><p><span>目前，Being-H0.7已具备行业领先的物理交互与泛化能力，正致力于为机器人本体厂商提供强泛化的通用具身基础模型。</span></p><figure class=\"image\"><img alt=\"\" height=\"673\" src=\"https://cdn.pingwest.com/portal/2026/04/14/rW7ymG4872P44N1yT_f74X8mB7mABHbH.png?x-oss-process=style/article-body\" title=\"\" width=\"1080\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312888",
             "pub_date": "2026-04-14 10:22:49",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "千问上线表格Agent：对话直接生成、编辑Excel文件",
-            "description": "<article class=\"wire-content article-style\"><p>自去年底升级文档和PPT处理能力后，千问进一步将能力延伸至结构化数据生成。</p><p>4月14日，千问上线“表格Agent”，支持在对话中直接生成、编辑Excel文件。用户可以要求千问检索信息后生成表格，也可以将多轮对话内容整理为表格，或基于图片、文件生成。系统通常可在1–2分钟内输出可下载的Excel文件，无需二次复制粘贴，并支持通过自然语言进行修改。</p><figure class=\"image\"><img alt=\"\" height=\"776\" src=\"https://cdn.pingwest.com/portal/2026/04/14/fbQ7PhxSHs4zM5CmS51ZzjmZ_4YWb5AQ.jpg?x-oss-process=style/article-body\" title=\"\" width=\"1548\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/312886",
-            "pub_date": "2026-04-14 10:16:58",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
