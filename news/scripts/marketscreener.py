@@ -95,6 +95,7 @@ def run():
         util.log_action_error("list error: {}".format(response.status_code))
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run)
+    # 因 marketscreener 联系我们取消采集
+    # util.execute_with_timeout(run)
     # result = get_detail("https://hk.marketscreener.com/news/nebius-jumps-on-17-4-billion-ai-computing-deal-with-microsoft-ce7d59dfdf8ff722")
     # util.info(result)
