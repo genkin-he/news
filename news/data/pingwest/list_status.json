@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "World Labs开源Spark 2.0，突破Web端亿级3D高斯泼溅渲染极限",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月16日讯，李飞飞团队旗下的World Labs正式开源动态3D高斯泼溅（3DGS）渲染器Spark 2.0。该引擎专为网页端构建，基于Three.js与WebGL2技术，旨在解决超大规模3D场景在移动端及VR设备上的流畅渲染难题。</span></p><p><span>Spark 2.0核心引入了连续细节层级（LoD）系统，通过构建LoD泼溅树，智能筛选并渲染当前视角下的最佳泼溅子集，确保帧率稳定。配合全新的.RAD流式文件格式与虚拟显存分页机制，系统支持渐进式加载与无限场景扩展，成功实现在任意设备上流畅渲染超过1亿个泼溅点。此外，新版还优化了高精度坐标编码，有效消除了大场景下的量化伪影，显著提升了Web端3D内容的加载速度与视觉保真度。</span></p><figure class=\"image\"><img alt=\"\" height=\"584\" src=\"https://cdn.pingwest.com/portal/2026/04/16/XyNPtB08JE7FD0ASHD4pPGC6keM5j_D4.jpg?x-oss-process=style/article-body\" title=\"\" width=\"948\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/312942",
+            "pub_date": "2026-04-16 09:38:54",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "NVIDIA与马里兰大学联合发布Audio Flamingo Next，开源长音频理解模型",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月16日讯，据 Marktechpost 报道，NVIDIA与马里兰大学研究团队联合发布了Audio Flamingo Next (AF-Next)，这是Audio Flamingo系列中能力最强的开源大型音频语言模型（LALM），旨在解决长音频理解与复杂推理难题。</span></p><p><span>AF-Next基于Qwen-2.5-7B构建，支持长达30分钟的音频输入与128k上下文窗口。团队创新性提出了“时序音频思维链”技术，通过将推理步骤显式锚定至音频时间戳，显著提升了模型在长音频任务中的证据聚合能力与准确性。此次开源包含AF-Next-Instruct、AF-Next-Think及AF-Next-Captioner三个变体，分别针对通用问答、多步推理及音频描述任务进行了优化。</span></p><p><span>实验数据显示，该模型在20项基准测试中大幅超越同级别开源模型，并在MMAU-Pro等挑战性基准上优于Gemini 2.5 Pro，展现了卓越的泛化能力与实用价值。</span></p><figure class=\"image\"><img alt=\"\" height=\"554\" src=\"https://cdn.pingwest.com/portal/2026/04/16/5YzbsR7c492NSz2Ca774BKF7nZ1K70jn.png?x-oss-process=style/article-body\" title=\"\" width=\"811\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312941",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月15日讯，百度文心大模型团队正式开源全新文生图模型ERNIE-Image。</span></p><p><span>该模型基于单流Diffusion Transformer架构，参数规模仅为8B，仅需24GB显存的消费级显卡即可运行，生成效果媲美顶级商业模型。经国际基准测试验证，ERNIE-Image在通用图像生成、复杂指令跟随及文字渲染等任务中均取得开源模型SOTA成绩，尤其在中英日韩多语言文字渲染能力上表现突出。</span></p><p><span>目前，模型权重与推理代码已在Hugging Face开源，并上线ComfyUI Workflow及GGUF量化方案。</span></p><figure class=\"image\"><img alt=\"\" height=\"737\" src=\"https://cdn.pingwest.com/portal/2026/04/15/4Cj25tEr2SwNb74fAHDFpPGGfa5KQeQz.png?x-oss-process=style/article-body\" title=\"\" width=\"801\"/></figure></article>",
             "link": "https://www.pingwest.com/w/312921",
             "pub_date": "2026-04-15 11:02:04",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "荣耀首发YOYO Claw龙虾技术，开创“养虾本”新品类，词元消耗节省50%",
-            "description": "<article class=\"wire-content article-style\"><p>4月13日，荣耀在西安举办技术沟通会，首发自研终端侧AI智能体系统荣耀YOYO Claw，并宣布该技术将搭载于荣耀MagicBook系列轻薄本，开创“养虾本”全新品类。当行业聚焦大模型参数与云端算力竞赛时，荣耀选择以“系统级预制+端云协同”为核心，让AI智能体从云端“下凡”为大众触手可及的生产力工具，直击“部署及上手复杂、使用成本高、隐私安全风险”三大痛点，以综合词元消耗节省50%的硬核表现，重新定义AI终端的普惠标准。</p><figure class=\"image\"><img alt=\"\" height=\"523\" src=\"https://cdn.pingwest.com/portal/2026/04/15/portal/2026/04/15/7zJbK7WTXc66wY97S6Ye3JH7eB7ySbzC?x-oss-process=style/article-body\" title=\"\" width=\"1266\"/></figure><p>从“词元焦虑”到“小河虾自由”​</p><p>2026年，AI工具“烧钱”已成共识——模型参数膨胀推高词元（Token）成本，用户陷入“用不起”与“不敢用”的双重困境。荣耀此次发布的YOYO Claw技术，正是以“让AI回归实用”为目标，解决部署及上手复杂、使用成本高、隐私安全风险三大痛点：</p><figure class=\"image\"><img alt=\"\" height=\"523\" src=\"https://cdn.pingwest.com/portal/2026/04/15/portal/2026/04/15/Dt30TZp3mTpRm1pXHk6zxWB_s717tT1n?x-oss-process=style/article-body\" title=\"\" width=\"1266\"/></figure><p>开机即食，告别部署门槛：荣耀YOYO Claw技术出厂预置5大主虾、23子虾，覆盖教育、办公、学术、内容创作、智能辅助五大场景，用户扫描二维码即可通过微信、飞书调用，无需配置调试，AI还能自主学习用户习惯并沉淀能力模板，实现“零门槛”进阶。</p><p>词元省50%，效率翻倍：独创“端云协同、端侧优先”智能路由算法，简单任务100%本地执行（词元消耗为零），复杂任务按需调用云端并优化上下文，经荣耀实验室PinchBench测试集验证，综合词元消耗较OpenClaw方案节省50%，同等预算下AI服务能力翻倍。</p><p>设备级安全，数据零上云：构建“独立安全虾”内核级防护体系，自动拦截格式化硬盘等高危操作，敏感行为（支付、摄像头调用）需二次确认，核心数据100%留存本地，实现“能力全开放，数据不出门”。</p><figure class=\"image\"><img alt=\"\" height=\"2346\" src=\"https://cdn.pingwest.com/portal/2026/04/15/portal/2026/04/15/x_Wn9jYj3PZ1XJ36M96GwZY9Wca6tKry?x-oss-process=style/article-body\" title=\"\" width=\"5674\"/></figure><p>体验升维：从“驯兽”到“养宠”的生态革命​</p><p>荣耀YOYO Claw技术不仅解决“能用”，更实现“好用”与“敢用”。其“记忆机制”让AI成为有“性格”的数字伙伴——端侧沉淀用户文档风格与偏好，无需重复教学即可融入工作流；“多端一体、一虾多吃”生态则打破设备壁垒，家庭一台“养虾本”即可作为中枢，全家通过手机、平板远程调用AI能力（如孩子作业打印、老人健康提醒），共享安全数据资产。这背后是荣耀“龙虾宇宙”开放生态的支撑：自研精品+行业Skill+龙虾社区，让AI能力持续进化。</p><figure class=\"image\"><img alt=\"\" height=\"523\" src=\"https://cdn.pingwest.com/portal/2026/04/15/portal/2026/04/15/75cTm9CEn9AA9E7T1pWM2szdH6m3dthj?x-oss-process=style/article-body\" title=\"\" width=\"1266\"/></figure><p>战略深意：终端厂商的AI普惠第三条路​</p><p>此次荣耀YOYO Claw技术发布以及“养虾本”的亮相，是荣耀“AHI”理念的落地，更是终端厂商在AI赛道的差异化突围。当行业沉迷云端“军备竞赛”时，荣耀以系统级整合将战场拉回用户指尖——不拼参数拼效率，不拼价格拼体验，用“预制化+端云协同”证明：AI普惠的核心不是“人人有模型”，而是“人人用得起、用得好”。正如荣耀所言，最好的科技不是让人仰视，而是让人用得起的“小河虾”，让每个家庭都能从容拥抱智能未来。</p></article>",
-            "link": "https://www.pingwest.com/w/312919",
-            "pub_date": "2026-04-15 10:28:37",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
