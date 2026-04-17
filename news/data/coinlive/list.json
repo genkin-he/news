@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 1092255,
+            "title": "Binance to Adjust Tick Size for USDⓈ-M Perpetual Futures Contracts",
+            "description": "According to the announcement from Binance, the exchange is set to adjust the tick size for several USDⓈ-M Perpetual Futures Contracts to enhance market liquidity and improve the trading experience for users. The adjustments will take place on specific dates, beginning with LABUSDT, RAVEUSDT, and ESPORTSUSDT on 2026-04-21 at 06:30 (UTC). The tick size for these contracts will change from 0.00001 to 0.0001. \n\nFurther adjustments are scheduled for 2026-04-22, affecting SNXUSDT, C98USDT, ONEUSDT, CELRUSDT, and XTZUSDT contracts. The tick size for SNXUSDT will change from 0.001 to 0.0001, while C98USDT will adjust from 0.0001 to 0.00001. ONEUSDT and CELRUSDT will see their tick sizes change from 0.00001 to 0.000001, and XTZUSDT will adjust from 0.001 to 0.0001. \n\nDuring the adjustment period, trading for the affected contracts will be temporarily suspended. For instance, the SNXUSDT contract will be suspended from 2026-04-22 06:30 (UTC) to 06:31 (UTC), while the C98USDT contract will be suspended from 06:45 (UTC) to 07:46 (UTC). Similar suspensions will occur for ONEUSDT, CELRUSDT, and XTZUSDT contracts. Users will not be able to place new orders or modify existing ones during these times. \n\nThe status of these contracts will change from \"TRADING\" to \"PENDING_TRADING\" during the suspension. API users can query the latest status and tick size changes via the GET /fapi/v1/exchangeInfo endpoint. The tick size update will not affect existing orders, as they will still be matched with the original tick size. Users are advised to adjust their trading strategies accordingly to avoid any unnecessary impact.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092255&language=en-US",
+            "pub_date": "2026-04-17 16:31:15",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1092254,
+            "title": "Polymarket Predicts Peace Agreement Timeline Between Israel and Hezbollah",
+            "description": "Polymarket has introduced a new prediction market focused on the timeline for a permanent peace agreement between Israel and Hezbollah. According to Odaily, the probability of reaching such an agreement by April 26 is currently reported at 9%, while the likelihood of achieving it by May 31 stands at 29%.\n\nA permanent peace agreement is defined as any accord that explicitly states the cessation or permanent halt of military hostilities between Israel and Hezbollah. Agreements that are temporary or do not include a final cessation of military hostilities, such as a temporary extension of a ceasefire announced on April 16, 2026, do not qualify.\n\nThe primary sources of information for this market are official statements from the Israeli government and Hezbollah, although other credible reports may also be considered.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092254&language=en-US",
+            "pub_date": "2026-04-17 16:34:12",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1092253,
+            "title": "RAVE Surges to New All-Time High, Exceeds $19",
+            "description": "RAVE has experienced a significant price increase, surpassing $19.19 to reach a new all-time high. According to Odaily, the current price is reported at $18.77, marking a daily increase of over 31%.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092253&language=en-US",
+            "pub_date": "2026-04-17 16:34:25",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1092252,
+            "title": "ListaDAO Clarifies Unauthorized Contract Attack",
+            "description": "ListaDAO has issued a statement regarding a recent attack on a contract named 'ListaDAOLiquidStakingVault,' clarifying that the compromised contract was not officially deployed by them but was instead a counterfeit created by an unverified third party. According to ChainCatcher, the official contracts of ListaDAO remain unaffected by this incident.\n\nThe GoPlus security team conducted an in-depth analysis and found that the attack occurred on April 16, 2026. The root cause was identified as a business logic flaw in the third-party contract. This flaw allowed the triggering of the Dividend.setShares() function during token transfers, altering the share accounting within the contract and affecting the reward calculations in the claimReward() function. The attacker exploited this vulnerability to deplete the contract's assets.\n\nGoPlus warns that the logic flaw exists in both segments of the contract code, posing a high risk of exploitation for any projects that fork or reuse this code. Developers are advised to promptly inspect and fix their code and implement continuous auditing mechanisms to ensure the security of smart contracts.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092252&language=en-US",
+            "pub_date": "2026-04-17 16:34:35",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1092247,
             "title": "Significant BTC and ETH Options Expiry with Notable Put/Call Ratios",
             "description": "Approximately 22,000 Bitcoin options have expired, with a Put/Call ratio of 1.05 and a maximum pain point of $72,000, according to ChainCatcher. The nominal value of these options is around $1.65 billion. Additionally, about 100,000 Ethereum options have expired, featuring a Put/Call ratio of 0.95 and a maximum pain point of $2,250, with a nominal value of approximately $460 million.",
@@ -156,46 +196,6 @@
             "description": "UBS released a report on April 17, indicating that the Federal Reserve remains on a path toward further easing. According to Jin10, Federal Reserve Chairman Jerome Powell recently downplayed the need to tighten monetary policy due to rising energy prices, noting that policymakers typically 'ignore' supply shocks like oil price surges, especially when inflation expectations remain well-controlled. Although the Fed is still seeking further evidence of a sustained decline in core inflation before implementing additional easing measures, UBS still expects a 50 basis point rate cut later this year. Given that U.S. Treasury yields are significantly higher than pre-conflict levels, UBS believes there is ample room for them to decrease. The year-end targets for the 2-year and 10-year Treasury yields are set at 3.25% and 3.75%, respectively.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092229&language=en-US",
             "pub_date": "2026-04-17 15:29:36",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092228,
-            "title": "UBS Report: ECB Likely to Maintain Rates Until Year-End Despite Hawkish Tone",
-            "description": "UBS has released a report indicating that despite the European Central Bank's (ECB) hawkish stance, it is expected to keep interest rates unchanged until the end of the year. According to Jin10, ECB President Christine Lagarde stated this week that rising energy costs have shifted the eurozone away from the central bank's baseline scenario outlook, prompting the ECB to evaluate its options. Given the ECB's inflation mandate and its forecast that the impact of the Iran conflict on inflation will outweigh its effect on growth, current market pricing suggests the ECB will raise rates twice by year-end. However, the current economic environment differs significantly from the onset of the Russia-Ukraine conflict in 2022. The ECB's policy has only recently returned to a neutral setting, and the labor market has remained weak. Considering the risks to growth prospects posed by the conflict and the tightening financial conditions already evident in the bond market, UBS believes the ECB is unlikely to rush into rate hikes and will likely maintain rates until the end of the year.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092228&language=en-US",
-            "pub_date": "2026-04-17 15:36:04",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092227,
-            "title": "Analysts: Limited upside for European stocks this year",
-            "description": "According to the average forecast of 17 analysts, the Stoxx Europe 600 index will be about 1% higher than Wednesday's closing price, reaching 623 points by the end of 2026. The index has largely recovered from the losses suffered due to the Iran war, but strategists say this rebound seems unsustainable as the full impact of rising energy costs has not yet materialized. Deutsche Bank, DekaBank, UBS, and UniCredit all moderately lowered their index targets in their latest surveys, with HSBC being the most bullish, forecasting 670 points, implying an 8% increase. TFS Futures and Bank of America remain the most bearish strategists, predicting a potential 9% decline in the index. (Jinshi)",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092227&language=en-US",
-            "pub_date": "2026-04-17 15:38:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092221,
-            "title": "OKX Agent Trade Kit launches \"Sentiment Radar\" to enhance its ability to capture market information and sentiment.",
-            "description": "According to official sources, OKX Agent Trade Kit has launched the \"Sentiment Radar\" feature, integrating three core capabilities: news aggregation, sentiment analysis, and anomaly alerts. It aggregates information from multiple mainstream industry media outlets, including \"Odaily,\" and over 30,000 core encrypted KOLs globally. Through quantitative sentiment analysis and anomaly signal identification, it captures real-time changes in market sentiment and potential trends. Reportedly, OKX Agent Trade Kit has also simultaneously launched the \"Market Screening and Position Analysis Suite.\" By combining market fund flows, market news, and sentiment, users can identify potential trading opportunities from multi-dimensional data, achieving a comprehensive judgment of market trends and fund flows. The two functions can be cross-validated.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092221&language=en-US",
-            "pub_date": "2026-04-17 15:25:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092220,
-            "title": "Iran says it is ready to retaliate forcefully against enemy aggression.",
-            "description": "The Iranian Islamic Revolutionary Guard Corps (IRGC) issued a statement on the 17th, saying that the IRGC and the Iranian army are prepared to respond forcefully to any aggression or criminal acts by the enemy. The statement said that the enemy's attempts to invade Iran through land and sea operations and seize Iranian islands in the Persian Gulf have been thwarted. If the enemy dares to make any rash moves in its aggression against Iran, it will undoubtedly face a fatal counterattack from Iran, gaining nothing but self-humiliation and a humiliating strategic defeat. (Xinhua)",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092220&language=en-US",
-            "pub_date": "2026-04-17 15:26:00",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
