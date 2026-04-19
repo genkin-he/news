@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 1092854,
+            "title": "etherFi has suspended LayerZero bridging and frozen multiple asset deposits and withdrawals, but has not yet directly exposed rsETH risks.",
+            "description": "EtherFi stated on the X platform that its Liquid vault is not currently directly exposed to the risks of the Kelp rsETH incident. However, as a precaution, it has suspended the LayerZero cross-chain bridging function between weETH and eETH until the root cause of the Kelp rsETH incident is clarified. Simultaneously, the Teller contracts for Liquid (ETH, BTC, USD), sETHFI, and eBTC products have been suspended to block the LayerZero OFT bridging path. Deposit and withdrawal functions for these assets have also been suspended. EtherFi is currently working closely with its security partners and will provide updates as more details become available.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092854&language=en-US",
+            "pub_date": "2026-04-19 11:45:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1092853,
+            "title": "Aave TVL fell to $21.966 billion, a 16.78% drop in a single day.",
+            "description": "According to DefiLlama data, affected by the KelpDAO security incident, some funds were withdrawn from Aave, and Aave TVL dropped to $21.966 billion, a decrease of 16.78% from $26.396 billion the previous day.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092853&language=en-US",
+            "pub_date": "2026-04-19 11:48:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1092852,
             "title": "KelpDAO's rsETH Theft Sparks Concerns Over Asset Security and Market Impact",
             "description": "On April 19, crypto influencer benmo.eth highlighted the significant repercussions of the KelpDAO rsETH theft, attributing responsibility to both KelpDAO and LayerZero. According to BlockBeats, the incident may lead to several consequences.\n\nFirstly, the security of wrapped assets like LRT is not comparable to native assets, and lending protocols should not treat them as equivalent collateral. Secondly, LayerZero might lose part of its cross-chain market, as several assets, including usde and usd0, have ceased using its cross-chain solutions. Even if operations resume, restoring credibility will be challenging.\n\nAdditionally, Aave's reputation for security has been compromised, bringing the risks of unified lending markets under scrutiny. Each new collateral asset introduces additional risks to existing ones, which is unfair to native assets. Aave V4 and modular lending may become future trends, potentially accelerating related transitions. The market will focus more on the lending business itself rather than individual platforms or curators, although this will increase business costs.\n\nMoreover, the cost for Layer 2 to acquire Total Value Locked (TVL) will rise, with some liquidity potentially returning to Layer 1. Lastly, DeFi may halt its expansion and adopt a more conservative security model while addressing AI-driven security threats like Anthropic Mythos.",
@@ -176,26 +196,6 @@
             "description": "Kelp has temporarily halted rsETH contracts on the Ethereum mainnet and several Layer 2 networks following the detection of suspicious cross-chain activity. According to NS3.AI, the company has initiated an investigation into the potential attack and is collaborating with LayerZero, Unichain, audit firms, and security experts to conduct a thorough root cause analysis. Kelp plans to publish a post-mortem report once the investigation is complete.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092835&language=en-US",
             "pub_date": "2026-04-19 10:21:31",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092834,
-            "title": "Andre Cronje: Aave has no subsidy-based user loss mechanism and has withdrawn ETH to the fund management encapsulation contract.",
-            "description": "Andre Cronje, co-founder of Sonic Labs and founder of Flying Tulip, stated on the X platform that his team is continuously investigating the L0/rsETH incident. Preliminary reports indicate that approximately $200 million worth of rsETH was stolen, possibly due to a private key leak or misconfiguration. These assets were subsequently deposited into Aave as collateral for ETH lending (due to insufficient rsETH liquidity). Cronje pointed out that the affected positions are technically still collateralized, but in the event of bad debts, Aave's token mechanism and security modules will act as the first line of defense to absorb the risk. However, Aave does not have a mechanism to compensate users for losses; otherwise, it could trigger a run on the platform. Currently, Aave holds approximately $7 billion worth of ETH and has about $100 million in withdrawals, so the overall impact of this incident is limited. Furthermore, prioritizing user liquidity, Flying Tulip has withdrawn all ETH from Aave to its fund management contract. This action was taken because Aave's available liquidity had fallen below its set minimum threshold.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092834&language=en-US",
-            "pub_date": "2026-04-19 10:13:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092833,
-            "title": "Aave Chan Initiative Halts Frontier Staking Service Amid Risks",
-            "description": "Aave Chan Initiative (ACI) founder Marc Zeller announced on the governance forum the immediate termination of the Frontier staking service plan due to concerns over rsETH collateral and potential wETH shortages and bad debt risks in Aave V3 Core. According to Foresight News, all ETH staked through Frontier will be fully withdrawn and managed by Aave DAO to protect wETH depositors if necessary. Additionally, ACI has decided to forgo all potential income and planned fees from the service until the exit is completed.\n\nFrontier was introduced by ACI in January 2024 as a staking-as-a-service product for Aave DAO.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092833&language=en-US",
-            "pub_date": "2026-04-19 10:13:36",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
