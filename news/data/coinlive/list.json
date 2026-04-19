@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 1092846,
+            "title": "Sonic Labs Investigates $200 Million rsETH Theft",
+            "description": "Sonic Labs and Flying Tulip founder Andre Cronje announced that his team is actively investigating the L0/rsETH incident. According to Foresight News, preliminary reports suggest that the theft of approximately $200 million in rsETH may have been caused by a private key leak or configuration error. The stolen assets were subsequently deposited into Aave to borrow ETH due to insufficient rsETH liquidity.\n\nCronje noted that the affected positions are technically still collateralized. However, if bad debt occurs, Aave's token mechanism and safety module will serve as the first line of defense to absorb the risk. Aave does not have a mechanism to subsidize user losses, as this could trigger a bank run. Currently, Aave holds around $7 billion in ETH and has a withdrawal capacity of about $100 million, indicating that the overall impact of this incident is limited.\n\nTo prioritize user liquidity, Flying Tulip has withdrawn all ETH from Aave into its fund management encapsulation contract. This decision was made because Aave's available liquidity has fallen below its minimum threshold.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092846&language=en-US",
+            "pub_date": "2026-04-19 10:59:53",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1092845,
             "title": "KelpDAO Exploiter Among Top Holders on Aave and Arbitrum",
             "description": "PeckShieldAlert posted on X that the KelpDAO exploiter has become a significant holder on both Aave and Arbitrum platforms. The exploiter is currently the eighth largest holder of variableDebtEthWETH on Aave, holding 52,443.94 units, valued at approximately $123 million. Additionally, they are the fourth largest holder of variableDebtarbWETH on Arbitrum, with 12,381.93 units, valued at around $22 million. In total, the exploiter's holdings amount to 106,466.7 ETH, which is approximately $250 million.",
@@ -186,16 +196,6 @@
             "description": "AAVE's value has decreased by 15% due to substantial sell-offs by major holders. According to Foresight News, the decline follows a hacking incident involving the illegal minting of rsETH through Aave collateral, leading to the borrowing of a large amount of ETH. Several large-scale transactions contributed to the drop, including a sale by Polymarket user 'smaugvision,' who sold 20,015 AAVE tokens at $102.9 each, totaling approximately $2.06 million. Another transaction involved the address starting with 0xFC5, which sold 20,000 AAVE tokens at $102.8 each, amounting to roughly $2.05 million. Additionally, the address 0xA2E sold 19,665 AAVE tokens at $99.2 each, totaling about $1.95 million.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092829&language=en-US",
             "pub_date": "2026-04-19 10:03:36",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1092826,
-            "title": "DeFi Protocol Fluid Suspends Markets Amid KelpDAO rsETH Incident",
-            "description": "On April 19, DeFi protocol Fluid announced the suspension of markets potentially affected by the KelpDAO rsETH incident. According to BlockBeats, Fluid clarified that it has no substantial exposure to rsETH on Layer 2 and noted that no new lending activities using rsETH as collateral have occurred following the cross-chain bridge vulnerability.\n\nFluid assured users that their funds remain secure and no action is required. Other Fluid markets continue to operate safely and normally. The team is actively monitoring the situation and will provide updates as necessary.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1092826&language=en-US",
-            "pub_date": "2026-04-19 09:53:38",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
