@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "gL44mioSTWOY6WAClSAl",
+            "title": "多云时代AI Agent治理难题，亚马逊云科技想用一个注册表解决",
+            "image": "https://static001.infoq.cn/resource/image/33/0d/335bd9cbd1c247a46ab4a4fc8175450d.jpeg",
+            "description": "<div><p>亚马逊云科技近期在  中以公开预览形式发布了 ，为企业提供一个集中式目录，用于在组织内发现、共享并治理 AI Agent、工具、MCP 服务器以及 agent skills。该注册表可以索引运行在任何位置的 agent，无论是在 亚马逊云科技、其他云服务提供商，还是本地部署环境。</p><p></p><p>它所解决的问题，对于任何见过 agent 数量不断增长的平台团队来说都非常熟悉：没人知道都有哪些东西存在、谁在负责、是否已获批准，或者隔壁团队是否已经做过同样的事情。agent 的扩散会迅速叠加，随之而来的是合规漏洞，以及开发资源浪费在重复工作上。</p><p></p><p><img>https://static001.geekbang.org/infoq/7c/7c7a38944750ed003f991604952aa39c.png<img></p><p></p><p>记录的注册方式有两种。团队可以通过控制台、SDK 或 API 手动提供元数据，指定所有权、能力描述以及合规状态。也可以指向一个 MCP 或 A2A 端点，让注册表自动拉取相关细节。每条记录都会包含发布者信息、实现的协议、对外提供的能力，以及调用方式。</p><p></p><p>查找已有内容依赖于混合搜索机制，结合了关键词匹配与语义匹配。例如，对“payment processing”的搜索，即使名称不一致，也可能返回标记为“billing”或“invoicing”的工具。该注册表可通过 AgentCore 控制台、API 访问，同时自身也作为 MCP 服务器存在，因此任何兼容 MCP 的客户端（包括 Kiro 和 Claude Code）都可以直接查询。对于使用自定义身份提供方的组织，基于 OAuth 的访问方式允许团队在无需 IAM 凭证的情况下构建自己的发现界面。</p><p></p><p>在治理层面，记录遵循审批流程。它们从草稿状态开始，进入待审批状态，只有在通过审核后才会变为可被发现。管理员通过 IAM 策略控制谁可以注册以及谁可以发现内容。版本管理会追踪随时间的变更，组织也可以废弃不再需要的记录。自定义元数据字段允许团队附加诸如成本中心、部署环境或安全分类等信息。</p><p></p><p>解决方案架构师 Shinya Tahara 对该注册表进行了，并发现了一些值得注意的不足之处。语义搜索在英文查询下表现良好，但在仅有英文元数据的情况下处理日文查询时效果不佳。在三条日文测试查询中，有一条没有返回任何结果。增加双语描述后问题得到解决，这对计划在全球范围内部署的组织具有参考意义。Tahara 还发现，将过滤条件嵌入自然语言查询会显著降低精度，结果会返回所有已注册记录，而非目标对象。此外，任何记录更新都会将其状态重置为 DRAFT，这意味着需要重新提交并重新审批。频繁更新 agent 的团队需要在工作流程中考虑这一摩擦成本。</p><p></p><p>Southwest Airlines AI 与智能平台副总裁 Justin Bundick 在发布中了该注册表的价值：</p><p></p><p></p><p>Zuora 也是早期采用者之一。该公司在销售、财务、产品和开发团队中部署了 50 个 agent。Zuora 首席产品与技术官 Pete Hirsch 指出，该注册表为首席架构师提供了统一视图，用于发现、管理和编目所有正在使用的 agent、工具和技能，并通过标准化元数据确保整个生态中的所有权与能力信息一致。</p><p></p><p>展望未来，其路线图包括：在 agent 部署后立即自动索引、跨注册表联合（federation）以实现多注册表统一搜索、自定义分类与本体结构，以及将 AgentCore Observability 中的运行数据（包括调用次数、延迟、可用性和使用模式）直接集成到注册表记录中。此外，亚马逊云科技 还提到已有合作伙伴表达兴趣，希望连接外部目录，实现跨技术栈的集中发现。</p><p></p><p>亚马逊云科技并不是唯一提供 agent registry 解决方案的超大规模云厂商。例如，微软提供  和 。此外，Google Cloud 也有自己的 Agent Registry，同时在协议层面也存在诸如  的相关工作。亚马逊云科技 方案的区别在于其提供了与厂商无关的索引能力，并原生支持 MCP 与 A2A 协议，使其能够编目构建在亚马逊云科技生态之外的 agent。</p><p></p><p>Agent Registry 当前已在五个亚马逊云科技 区域以预览版提供：美国东部（弗吉尼亚北部）、美国西部（俄勒冈）、亚太地区（悉尼）、亚太地区（东京）以及欧洲（爱尔兰）。</p><p></p><p><strong>原文链接：</strong></p><p>https://www.infoq.com/news/2026/04/aws-agent-registry-preview/</p></div>",
+            "link": "https://www.infoq.cn/article/gL44mioSTWOY6WAClSAl",
+            "pub_date": "2026-04-19 00:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "ry64GrNLAEEf1qdZABb0",
             "title": "谷歌基于Apache 2.0协议开源Gemma 4，搭载多模态与智能体能力",
             "image": "https://static001.infoq.cn/resource/image/47/a2/474ec36d7a6772da23ec5895c33daba2.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p>Ruby 代码提交者（Yusuke Endoh）进行了一项新的基准测试，评估 Claude Code 使用 13 种编程语言生成可用代码的效率。经过 600 多次测试运行，动态语言（尤其是 Ruby、Python 和 JavaScript）始终是速度更快、成本更低且更稳定的选择，而静态类型语言的运行速度要慢 1.4 至 2.6 倍，成本也更高。</p><p></p><p>这项发布在 DEV Community 上，所有代码和结果均可在  获取。实验要求 Claude Code（Opus 4.6）用每种语言实现一个简化版的 Git。任务分为两个阶段：v1 从空目录开始实现 init、add、commit 和 log 命令；v2 对项目进行扩展，增加 status、diff、checkout 和 reset 功能。每种语言各运行 20 次。作者使用了自定义哈希算法，而非 SHA-256，用于消除不同语言间库依赖带来的差异。</p><p></p><p>Ruby 平均每次运行成本 0.36 美元，耗时 73.1 秒；Python 为 0.38 美元，耗时 74.6 秒；JavaScript 为 0.39 美元，耗时 81.1 秒。这三种语言的方差均很低，且全部 40 次运行都通过了所有测试。从第四名开始，成本上升，方差急剧扩大。Go 语言平均成本 0.50 美元，耗时 101.6 秒，但标准差高达 37 秒。Rust 平均成本 0.54 美元，耗时跨度最大，达到 54.8 秒，同时也是仅有的两种出现测试失败的编程语言之一。C 语言是成本最高的主流语言，达到 0.74 美元，原因是它生成了 517 行代码，而 Ruby 仅生成 219 行。</p><p></p><p>类型系统对 AI 生成代码的影响或许是对评估 AI 编码工作流的团队最具实用价值的发现。在 Python 中添加 mypy 严格类型检查会使其速度降低 1.6 至 1.7 倍；在 Ruby 中添加 Steep 类型检查则会带来更大的性能损耗，速度比纯 Ruby 慢 2.0 至 3.2 倍。TypeScript 的成本明显高于 JavaScript，平均 0.62 美元对比 0.39 美元，尽管二者生成的代码行数相近。作者指出，这类开销不仅来自类型注解的生成，还可能源于模型在推理类型约束时消耗了更多的思考词元。</p><p></p><p>远藤很坦诚地说明了这项实验存在的局限。作为 Ruby 代码提交者，他主动说明自身可能存在的偏向性。本次生成的程序约 200 行代码，严格来说属于原型规模，他也承认静态类型在更大规模的代码库中可能更具优势。该实验还得到了 Anthropic 的 Claude 开源计划支持，获得了为期六个月的 Claude Max 免费使用权限。此次基准测试仅衡量代码生成的成本与速度，不涉及代码质量、可维护性或运行时性能。</p><p></p><p> 上有人质疑基于 200 行代码的原型规模得出的结论是否可靠。有评论者指出，实用的原型很少会这么短小。也有人提出，该基准测试并未考虑语言生态优势——拥有完善包生态的语言在实际任务中需要生成的代码会更少。DEV Community 帖子下有评论者表达了定性层面的担忧：如果生成的代码后期更难维护，那么 2 倍的生成速度优势可能会被抵消；此外，Rust 和 Haskell 出现测试失败，不应简单归为bug，因为更严格的类型系统本意就是要尽早捕获错误，避免其流入生产环境。</p><p></p><p>远藤直接回应了其中几个观点。关于规模问题，他认同更大型的基准测试会更有价值，但也指出，设计一套对 15 种语言都公平的测试难度较大。对于 2 倍的速度差异，他认为在迭代式 AI 辅助开发中等待 30 秒与 60 秒的区别对开发者的心流状态影响显著，不过他也承认，如果未来模型能将生成时间缩短至秒级以内，这种差异就不再重要。而在生态系统影响方面，他刻意排除了库依赖，以隔离语言本身的差异，使用自定义哈希函数也正是出于这一目的。</p><p></p><p>在总共 600 次运行中，仅有 3 次失败：Rust 两次，Haskell 一次。在其中一次 Rust 的失败日志里，智能体判定测试本身存在错误，作者将其判定为幻觉，因为其余所有 Rust 测试均顺利通过。</p><p></p><p>完整的数据集（包含每次运行的结果、执行日志及所有生成的源代码）均可在该中获取。</p><p></p><p>【声明：本文由InfoQ翻译，未经许可禁止转载。】</p><p></p><p>查看英文原文：</p></div>",
             "link": "https://www.infoq.cn/article/uFqo6LfcBAKhzwxZkoJO",
             "pub_date": "2026-04-09 06:00:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "sq4eVTOlT8w9Ew9qSdW2",
-            "title": "ProxySQL推出多层的版本发布策略",
-            "image": "https://static001.infoq.cn/resource/image/80/39/80ff1bc4207c348038fc97f3bbf6ec39.jpg",
-            "description": "<div><p><color>ProxySQL 3.0.6正式发布，同时推出全新的分层版本发布策略。稳定层（Stable Tier）专注可靠性与生产环境使用，创新层（Innovative Tier）提前上线新功能，AI/MCP层（AI/MCP Tier）探索包含AI集成在内的未来能力。</color></p><p><color>，同时推出全新的分层版本发布策略。稳定层（Stable Tier）专注可靠性与生产环境使用，创新层（Innovative Tier）提前上线新功能，AI/MCP层（AI/MCP Tier）则探索包含AI集成在内的未来能力。</color></p><p><color> </color></p><p><color>ProxySQL创始人兼首席执行官</color><color>这样说：</color></p><p><color> </color></p><p><color>3.0.6版本主要优化了对PostgreSQL的支持，推荐绝大多数生产环境部署使用。</color><color>（3.1.x 版本系列）面向早期使用者，新增嵌入式时序数据库、流量观测器等可观测性功能，助力深度分析数据库的流量。</color><color>（4.0.x版本系列）探索实验性的功能，包含原生AI集成与MCP技术栈，实现更加自主化的数据库管理。</color></p><p><color> </color></p><p><color>ProxySQL的首席技术官</color><color>在“</color><color>”一文中提到：</color></p><p><color> </color></p><p><color>ProxySQL是一款开源数据库代理，具备负载均衡、查询路由等数据库流量管理功能，基于GNU GPL v3开源协议发布，企业版则通过商业授权提供额外功能。该工具在MySQL与MariaDB社区中</color><color>，</color><color>，收获了社区的</color><color>。</color></p><p><color> </color></p><p><color>升级了对PostgreSQL支持，实现高级查询日志记录、提升兼容性，强化认证可靠性，优化监控模块并提供更清晰的Prometheus指标，同时将适配平台拓展至macOS系统。谈及稳定版的优化，Cannaò补充说：</color></p><p><color> </color></p><p><color>ProxySQL是目前最主流的MySQL代理，同类工具还包括</color><color>、</color><color>；而PostgreSQL场景中最常用的是</color><color>，此外还有</color><color>、</color><color>等热门选择。</color></p><p><color> </color></p><p><color>Cannaò在布鲁塞尔举办的2026年Pre-FOSDEM MySQL Belgian Days活动中，发表了题为“</color><color>”的演讲。</color></p><p><color> </color></p><p><color>查看英文原文：</color></p></div>",
-            "link": "https://www.infoq.cn/article/sq4eVTOlT8w9Ew9qSdW2",
-            "pub_date": "2026-04-07 04:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
