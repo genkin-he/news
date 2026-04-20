@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "Moonshot AI与清华联合推出PrfaaS架构，大模型推理吞吐量提升54%",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，据 </span>marktechpost 报道，<span>Moonshot AI与清华大学研究团队联合发布Prefill-as-a-Service（PrfaaS）架构，突破大模型推理的硬件部署限制。该研究针对混合注意力模型，将长上下文预填充任务卸载至独立的高算力集群，通过通用以太网传输KVCache至本地解码集群，实现跨数据中心协同。</span></p><p><span>PrfaaS引入基于长度的阈值路由机制与双时间尺度调度器，根据请求长度动态分配资源并优化网络传输。实测数据显示，该架构使服务吞吐量较同构基线提升54%，较朴素异构配置提升32%，同时将首字生成延迟降低50%。</span></p><p><span>研究表明，混合注意力机制显著压缩KVCache体积，使其适配跨数据中心以太网传输。这一突破为未来算力网络构建提供了关键工程路径，标志着大模型推理正迈向更高效的工业化应用阶段。</span></p><figure class=\"image\"><img alt=\"\" height=\"437\" src=\"https://cdn.pingwest.com/portal/2026/04/20/Skh30T6TRGxb7Dcr6kd4tpwkKMX8NFCm.png?x-oss-process=style/article-body\" title=\"\" width=\"798\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/313061",
+            "pub_date": "2026-04-20 16:06:55",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "谷歌无屏手环定名Fitbit Air，AI服务整合至Google品牌",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，据 9to5Google 报道，谷歌正筹备推出一款无屏幕健康手环，设备将正式命名为“Google Fitbit Air”。据悉，NBA球星Stephen Curry已提前数月佩戴该设备进行测试。</span></p><p><span>“Air”之名延续了Fitbit此前Aria Air体脂秤的命名策略，意在强调设备更轻薄的设计，以支持全天候佩戴体验。尽管硬件设备仍保留Fitbit品牌标识，但其软件服务体系将迎来重大调整。</span></p><p><span>消息显示，提供AI功能的订阅服务“Fitbit Premium”将更名为“Google Health”，正在测试的“个人健康教练”功能也将定名为“Google Health Coach”。这一举措标志着谷歌正将健康业务深度整合至核心品牌体系。Curry此前发布的预热视频仅以谷歌“G”标识收尾，也印证了这一品牌战略转向。该产品预计将在未来数周内正式发布。</span></p><figure class=\"image\"><img alt=\"\" height=\"490\" src=\"https://cdn.pingwest.com/portal/2026/04/20/C4kFQM78ki8PHiAiWCPh0M7JD_AGT2RP.png?x-oss-process=style/article-body\" title=\"\" width=\"934\"/></figure></article>",
             "link": "https://www.pingwest.com/w/313055",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，语音识别企业Speechmatics与临床级语音生物标记公司thymia近日宣布合作，将医疗级语音转录技术与临床级语音生物标记智能相结合。该联合方案旨在从每一次语音对话中识别健康信号，通过单一集成接口，在提供标准转录服务的同时，实时输出健康指标。</span></p><p><span>该技术基于双方在各自领域的深厚积累。thymia利用其包含7.5万个独特样本的大型数据库，可从15秒自然语音中识别出30多种健康信号，涵盖压力、疲劳、抑郁及2型糖尿病等风险；Speechmatics则凭借对数百万小时音频的训练，确保了在不同口音及非母语使用者中的高识别准确率。联合方案在无需额外硬件的情况下，实现了对语音内容与说话人状态的双重理解。</span></p><p><span>此次合作契合了日益增长的市场需求与监管要求。欧盟将于2026年7月强制要求新车配备驾驶员疲劳监测系统，而语音生物标记市场预计在2028年达到50亿美元规模。目前，该技术已应用于汽车、联络中心等安全关键行业，并正寻求医疗器械监管审批。</span></p><figure class=\"image\"><img alt=\"\" height=\"754\" src=\"https://cdn.pingwest.com/portal/2026/04/20/27sn57556eQ754MP66nFN7SD8a4nF7X3.png?x-oss-process=style/article-body\" title=\"\" width=\"1355\"/></figure></article>",
             "link": "https://www.pingwest.com/w/313029",
             "pub_date": "2026-04-20 09:34:54",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "Phonely完成1600万美元A轮融资，三大企业客户参投",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，AI语音智能体平台Phonely官方宣布，已完成1600万美元A轮融资，由Base10 Partners领投，Y Combinator、Etech Global Services、TSA Group等参投，融资总额达1900万美元。</span></p><p><span>Phonely利用企业网站信息，在5分钟内构建AI前台，可回答常见问题、转接电话并预约，响应时间低于400毫秒，交互准确率达99.7%，90%的来电者无法分辨其为AI。平台为每个客户定制模型，结合A/B测试优化转化率，单次脚本调整即可带来5%的转化提升。</span></p><p><span>Engage CX在2026年前四个月通过Phonely实现超1000万美元保险销售；TSA Group则用其AI智能体替代了部分人工坐席。Phonely目标在2027年前处理10亿通电话。</span></p><figure class=\"image\"><img alt=\"\" height=\"476\" src=\"https://cdn.pingwest.com/portal/2026/04/20/mAhH2RGnRPN0B5R7CSRa27zMA6yJ6XJe.png?x-oss-process=style/article-body\" title=\"\" width=\"671\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/313028",
-            "pub_date": "2026-04-20 09:25:19",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
