@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "通义实验室推出Fun-ASR 1.5，实现方言与古诗词工业级语音识别",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，据阿里通义实验室官方消息，通义实验室正式发布语音识别大模型Fun-ASR 1.5，标志着语音技术在多方言与多文化理解领域取得重大突破。该模型基于统一架构，单模型即可无缝覆盖30种语言及汉语七大方言体系，典型方言场景字错误率相对下降56.2%，其中5种方言准确率突破90%。</span></p><p><span>Fun-ASR 1.5在技术上实现四大核心升级。一是深度适配20余种地区口音，涵盖中原、西南、粤语等复杂方言场景；二是支持30种主流语言自由混说识别，无需预设语种；三是专项优化古诗词识别，字符级准确率达97%；四是强化文本归一化能力，智能处理标点、数字及日期格式，输出规范文本。</span></p><p><span>目前，该模型已通过阿里云百炼平台上线API服务，广泛应用于县域教育、地方政务及跨国协作等场景。Fun-ASR 1.5的推出，推动语音识别从“听得清”迈向“听得懂”的工业级新阶段。</span></p><figure class=\"image\"><img alt=\"\" height=\"436\" src=\"https://cdn.pingwest.com/portal/2026/04/20/7N3xdkWS0eaaG19EWj2PTj7282KRbED7.png?x-oss-process=style/article-body\" title=\"\" width=\"794\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/313062",
+            "pub_date": "2026-04-20 16:25:01",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "Moonshot AI与清华联合推出PrfaaS架构，大模型推理吞吐量提升54%",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，据 </span>marktechpost 报道，<span>Moonshot AI与清华大学研究团队联合发布Prefill-as-a-Service（PrfaaS）架构，突破大模型推理的硬件部署限制。该研究针对混合注意力模型，将长上下文预填充任务卸载至独立的高算力集群，通过通用以太网传输KVCache至本地解码集群，实现跨数据中心协同。</span></p><p><span>PrfaaS引入基于长度的阈值路由机制与双时间尺度调度器，根据请求长度动态分配资源并优化网络传输。实测数据显示，该架构使服务吞吐量较同构基线提升54%，较朴素异构配置提升32%，同时将首字生成延迟降低50%。</span></p><p><span>研究表明，混合注意力机制显著压缩KVCache体积，使其适配跨数据中心以太网传输。这一突破为未来算力网络构建提供了关键工程路径，标志着大模型推理正迈向更高效的工业化应用阶段。</span></p><figure class=\"image\"><img alt=\"\" height=\"437\" src=\"https://cdn.pingwest.com/portal/2026/04/20/Skh30T6TRGxb7Dcr6kd4tpwkKMX8NFCm.png?x-oss-process=style/article-body\" title=\"\" width=\"798\"/></figure></article>",
             "link": "https://www.pingwest.com/w/313061",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，2026北京亦庄人形机器人半程马拉松鸣枪开跑，百支队伍同场竞技。本届赛事完赛率超45%，自主导航组占比升至40%，行业整体跨越“能跑”门槛。</span></p><p><span>最终，荣耀“闪电”机器人以50分26秒打破人类半马世界纪录并夺冠，宇树H1、天工Ultra等热门选手因过热或系统紊乱在终点前“倒下”。</span></p><p><span>赛事本质是一场极限工程压力测试。高负荷奔跑下，关节散热成为决定成败的关键。荣耀凭借自研液冷系统将电机温度控制在31.5℃，而多数机器人因散热不足导致性能衰减。中科创星米磊指出，液冷散热如同人类汗腺，是机器人长续航的核心。</span></p><figure class=\"image\"><img alt=\"\" height=\"667\" src=\"https://cdn.pingwest.com/portal/2026/04/20/7GBFj4zrN647hHbGjXGQJkc6eC9m4GHT.jpeg?x-oss-process=style/article-body\" title=\"\" width=\"1000\"/></figure></article>",
             "link": "https://www.pingwest.com/w/313032",
             "pub_date": "2026-04-20 09:50:17",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "Speechmatics与thymia达成合作，推出医疗级语音生物标记技术",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月20日讯，语音识别企业Speechmatics与临床级语音生物标记公司thymia近日宣布合作，将医疗级语音转录技术与临床级语音生物标记智能相结合。该联合方案旨在从每一次语音对话中识别健康信号，通过单一集成接口，在提供标准转录服务的同时，实时输出健康指标。</span></p><p><span>该技术基于双方在各自领域的深厚积累。thymia利用其包含7.5万个独特样本的大型数据库，可从15秒自然语音中识别出30多种健康信号，涵盖压力、疲劳、抑郁及2型糖尿病等风险；Speechmatics则凭借对数百万小时音频的训练，确保了在不同口音及非母语使用者中的高识别准确率。联合方案在无需额外硬件的情况下，实现了对语音内容与说话人状态的双重理解。</span></p><p><span>此次合作契合了日益增长的市场需求与监管要求。欧盟将于2026年7月强制要求新车配备驾驶员疲劳监测系统，而语音生物标记市场预计在2028年达到50亿美元规模。目前，该技术已应用于汽车、联络中心等安全关键行业，并正寻求医疗器械监管审批。</span></p><figure class=\"image\"><img alt=\"\" height=\"754\" src=\"https://cdn.pingwest.com/portal/2026/04/20/27sn57556eQ754MP66nFN7SD8a4nF7X3.png?x-oss-process=style/article-body\" title=\"\" width=\"1355\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/313029",
-            "pub_date": "2026-04-20 09:34:54",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
