@@ -10,6 +10,51 @@
             "language": "en"
         },
         {
+            "title": "IPv6 未流行先玩完！IPv8 草案公布 1,844.67 兆位址兼容舊設備",
+            "description": "<div class=\"indent\">\n<p>協助研發網際網路標準的「網際網路工程任務組」IETF 稍早公布第八版網路協定（IPv8）核心協定草案，採 64 位元地址空間，高達 18,446,744,073,709,551,616 獨立地址。草案宣稱 IPv4 達成 100% 向下兼容，期能解決 IPv6 遷移緩慢困局。<span id=\"more-1542696\"></span></p>\n<p>IPv6 雖推行超過 20 年，但與 IPv4 不相容，全球遷移進度一直未達預期。草案明確指出 IPv4 是 IPv8 的真子集，前綴欄位（r.r.r.r）設為 0.0.0.0 時，地址直接按標準 IPv4 規則處理，現有裝置、應用程式及底層架構毋需任何修改即可連接 IPv8 網路。草案亦不設強制轉型截止日，支援長期平滑演進，消除企業升級成本顧慮。</p>\n<h3>地址格式：r.r.r.r.n.n.n.n</h3>\n<p>IPv8 採用 64 位元地址空間，格式為 r.r.r.r.n.n.n.n，由 32 位元 ASN 路由前綴與 32 位元主機地址組成。每個自治系統編號（ASN）持有人可獲 4,294,967,296 個主機地址，等同整個現有 IPv4 地址空間規模，足以滿足各類組織大規模需求，徹底解決 IPv4 地址耗盡問題。</p>\n<h3>整合八項網路服務 Zone 伺服器</h3>\n<p>IPv8 草案野心除了地址架構，也提出以 Zone 伺服器平台整合八項網路服務，包括 DHCP8（裝置配置）、DNS8（域名解析）、NTP8（時間同步）、NetLog8（網絡遙測記錄）、OAuth8（JWT 身分驗證）、WHOIS8（路由登記）、ACL8（存取控制列表）及 XLATE8（地址轉換）。裝置連接網絡後，只需一次 DHCP8 請求即可獲取所有服務設定，毋需手動設定任何服務。</p>\n<h3>路由表縮減與安全機制</h3>\n<p>現在 BGP4 全球路由表已超過 90 萬條紀錄且持續增長。IPv8 以 ASN 為根地址架構，將全球路由表條目數量結構性上限每個 ASN 一條。以現在約 175,000 個 ASN 計算，路由表可大幅縮減。同時草案引入三層安全機制，包括網路介面卡韌體驗證、Zone 伺服器閘道封包檢查，以及交換機連接埠 VLAN 強制執行，所有可管理元件均需以 OAuth2 JWT 授權。</p>\n<h3>業界批評：個人草案設計有隱憂</h3>\n<p>值得注意這份草案由百慕達公司 One Limited Jamie Thain 個人提交，並非來自 IETF 工作組集體成果，草案有效期至今年 10 月 16 日。技術社群看法不一，有網路工程師指出，以 ASN 當成路由前綴設計使網路地址與 ASN 持有人綁定，意味組織一旦更換網路服務供應商便無法沿用原有地址。也有人質疑每個封包均須進行 OAuth2 JWT 驗證設計，100Gbps 線速處理數百萬封包環境下，效能開支存疑。Reddit 網路工程師討論區也有評論指出，任何人皆可向 IETF 提交草案，草案並不代表必然獲採納或推行。</p>\n<ul>\n<li><a href=\"https://datatracker.ietf.org/doc/html/draft-thain-ipv8-01\">draft-thain-ipv8-01</a></li>\n<li><a href=\"https://imiel.dev/blog/ipv8-replaces-entire-network-stack\">imiel.dev</a></li>\n</ul>\n<p>（本文由 <a href=\"https://unwire.hk/2026/04/17/ietf-ipv8-draft-ipv4-compatible/life-tech/\">Unwire HK</a> 授權轉載；首圖來源：<a href=\"https://pixabay.com/zh/photos/ransomware-cyber-crime-security-2320793/\">Pixabay</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/04/17/ipv6-usage-reaches-historic-50-across-google-services-matching-ipv4/\">Google IPv6 流量首達 50%！與 IPv4 平分秋色，網路協議迎來黃金交叉</a></li>\n<li><a href=\"https://technews.tw/2020/07/14/apnic-found-about-50-million-unused-ipv4-addresses/\" rel=\"bookmark\" title=\"APNIC 發現約 5,000 萬個未使用 IPv4 位址\">APNIC 發現約 5,000 萬個未使用 IPv4 位址</a></li>\n</ul>\n</div>",
+            "link": "https://technews.tw/2026/04/20/ietf-ipv8-draft-ipv4-compatible/",
+            "pub_date": "2026-04-20 14:35:07",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "火星地表新發現鱗片地形，增加古代流水與生命存在證據",
+            "description": "<div class=\"indent\">\n<p>NASA 好奇號火星車近日偶然拍攝到一種奇異地貌，類似大型爬行動物鱗片的岩石表面，科學家對其起源困惑。<span id=\"more-1542926\"></span></p>\n<p>自 2012 年以來，好奇號火星車（Curiosity Rover）一直在火星蓋爾撞擊坑內四處遊走探索，本月初好奇號在前往一個直徑約 10 公尺的小隕石坑 Antofagasta（非正式命名）途中，偶然發現一道有趣景觀：鱗狀地層。</p>\n<p>NASA 噴射推進實驗室工程師 Kevin M. Gill 釋出的新照片可見，火星表面佈滿延伸數公尺的鱗狀地形，以前雖然也在火星見過多邊形圖案岩石，但沒有如此豐富。</p>\n<p>科學家尚不清楚此類紋理鱗片起源，但一個理論認為可能是古老破裂泥灘，約 36～38 億年前火星氣候濕潤溫暖，地表流水一遍又一遍經歷潮濕、乾燥的季節性循環，最終留下這類痕跡。</p>\n<p>研究人員認為 Antofagasta 隕石坑可能殘留有機化學物質，增加火星古代存在生命證據。一就團隊將持續收集大量影像與化學資料，進一步區分鱗片紋理形成的不同假說，同時持續監測火星環境，描述火星大氣接近溫暖夏季時塵埃逐漸增加趨勢。</p>\n<ul>\n<li><a href=\"https://futurism.com/space/nasa-mars-rover-crater-rocks\">NASA’s Mars Rover Comes Across Formation That Looks Like the Scales of a Massive Cosmic Reptile</a></li>\n<li><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4859-4866-one-small-crater-and-thousands-of-polygons/\">Curiosity Blog, Sols 4859-4866: One Small Crater and Thousands of Polygons</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://bsky.app/profile/did:plc:we2butxgfrqjxqxztwznhrrv/post/3mjk4dzfhqk24?ref_src=embed&amp;ref_url=https%253A%252F%252Ffuturism.com%252Fspace%252Fnasa-mars-rover-crater-rocks\">Bluesky/Kevin M. Gill</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/04/20/antofagasta-crater-mars/",
+            "pub_date": "2026-04-20 14:35:07",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "專家看好英特爾重返榮耀  股價上看 150 美元",
+            "description": "<div class=\"indent\">\n<p>英特爾（Intel）股價近來狂飆，已從 2025 年的低點翻漲逾兩倍，分析人士看好，隨著公司策略和產品路線圖大幅改進，英特爾可望恢復在半導體產業的榮光，未來股價可能還有翻倍上漲的空間。<span id=\"more-1542878\"></span></p>\n<p>巴隆週刊專欄作家魯特（Al Root）撰文指出，英特爾有機會重返半導體產業頂尖行列，與<a class=\"info-link\" href=\"https://info.technews.tw/company/22099131-%E5%8F%B0%E7%81%A3%E7%A9%8D%E9%AB%94%E9%9B%BB%E8%B7%AF%E8%A3%BD%E9%80%A0%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8?utm_source=technews&amp;utm_medium=referral&amp;utm_campaign=content\" target=\"_blank\">台積電</a>、博通和輝達並列。隨著產品線更趨完善、利潤率回到正常水準，2029年每股盈餘上看7美元，以半導體產業常見的本益比約22倍來計算，股價上看150美元。</p>\n<p>魯特指出，英特爾現任執行長陳立武上任後迅速精簡人力、裁員2萬人並推動改革，2025年下半年讓自由現金流恢復轉正，並提升英特爾在製造業和AI領域的定位，隨著資本支出恢復正常、收入成長，未來幾年前景看俏。</p>\n<p>除此之外，考量英特爾是唯一的美國晶片製造商，在國安考量下的戰略優勢不容忽視。</p>\n<p>英特爾股價17日收在68.50美元，過去12個月來飆漲220%，從谷底強勢反彈，主要受惠市場對AI題材的熱情和CPU需求回溫的趨勢。</p>\n<p>市場近期盛傳，隨著CPU供給日益吃緊，英特爾和AMD已告知客戶將自3月、4月起全面漲價。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=8f45ac3e-423b-421b-8f24-ec731d735568\">MoneyDJ新聞</a> 授權轉載；首圖來源：shutterstock）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://finance.technews.tw/2026/04/14/after-a-two-and-a-half-year-hiatus-intels-stock-price-surged-for-nine-consecutive-days-rising-by-a-staggering-58/\">為何英特爾睽違兩年半之後，股價拉出一波連九漲高達 58% 漲勢？</a></li>\n</ul>\n</div>",
+            "link": "https://finance.technews.tw/2026/04/20/intel-stock-price-150-dollars-optimistic/",
+            "pub_date": "2026-04-20 14:35:07",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "高油價助攻  歐洲 Q1 純電動車銷量年增近三成",
+            "description": "<div class=\"indent\">\n<p>近期中東戰事推升油價走高，歐洲電動車買氣明顯回溫。根據最新調查顯示，2026 年第一季，歐洲主要車市純電動車（BEV）銷量年增近三成，反映高油價明顯改變消費者的購車思維。<span id=\"more-1542863\"></span></p>\n<p>路透社報導，根據E-Mobility Europe與汽車市場研究公司New Automotive 20日公布，2026年第一季，歐洲15大主要車市純電車新車掛牌56萬輛，年增29.4%；其中3月更年增高達51.3%，單月突破24萬輛，明顯受到2月底美伊開戰引發的油價衝擊影響。</p>\n<p>E-Mobility Europe指出，在美伊戰事推高國際油價、汽油價格創多年新高的背景下，3月電動車銷量大幅攀升，一方面也反映歐洲消費者的能源安全意識明顯提升。E-Mobility Europe秘書長Chris Heron表示，消費者不想受制於石油價格波動，帶動電動車需求加速復甦。</p>\n<p>報告並指出，德國、法國、西班牙、義大利及波蘭等歐洲五大電動車市場，今年以來純電車銷量平均年增逾40%，成為整體需求成長主力來源。</p>\n<p>今年3月，純電車已占歐盟與歐洲自由貿易聯盟（EFTA）整體新車掛牌數21.2%，顯示油價高漲確實提振電動車需求。</p>\n<p>研究機構Benchmark Mineral Intelligence（BMI）1月曾預測，2026年全球電動車（包含純電車及插電式油電車PHEV）銷售動能恐明顯放緩，掛牌數年增率將降至15.7%，低於2025年的20%，主因包括車市結構變化、各國電動車政策調整等因素衝擊。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=e4466602-0327-47f7-9fd2-e8650cb53843\">MoneyDJ新聞</a> 授權轉載；首圖來源：<a href=\"https://unsplash.com/photos/xJLsHl0hIik\">Unsplash</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/04/16/oil-prices-surge-us-analysts-ev-search-interest-up-sales-await-observation/\">油價飆升，美分析師：電動車搜尋熱度增、銷量待觀察</a></li>\n</ul>\n</div>",
+            "link": "https://finance.technews.tw/2026/04/20/europe-q1-ev-sales-rise-nearly-30-percent-year-on-year/",
+            "pub_date": "2026-04-20 14:35:07",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "SpaceX、亞馬遜低軌衛星業務帶旺  意法 ADR 嗨漲",
+            "description": "<div class=\"indent\">\n<p>歐洲半導體整合元件製造意法半導體（STMicroelectronics）受惠於低軌道（LEO）通訊衛星領域布局，獲得瑞穗證券（Mizuho Securities）上調了投資評等，ADR 跳空衝高。<span id=\"more-1542859\"></span></p>\n<p>Investor’s Business Daily、Seeking Alpha等外電報導，瑞穗分析師Vijay Rakesh將意法投資評等從「中立」調升至「表現優於大盤」，目標價也從32美元大幅上修至48美元。</p>\n<p>意法業務橫跨類比功率半導體（analog power semiconductors）及用於AI資料中心的矽光子（silicon photonics）晶片，是Rakesh看好該公司的原因。</p>\n<p>除此之外，意法供應SpaceX旗下星鏈（Starlink）、亞馬遜（Amazon）「Amazon Leo」計畫的用戶終端設備與衛星晶片業務也持續成長。Rakesh指出，該公司也將從中國開發的類似衛星系統中受益。</p>\n<p>Rakesh表示，意法預測低軌衛星的潛在市場（addressable market）規模將從2024年的6.3億美元增長至2029年的16億美元，年複合成長率（CAGR）約為20%。他認為，長期而言，低軌衛星將是意法另一個驅動成長的動能。</p>\n<p>意法ADR 17日聞訊跳空大漲6.37%、收44.22美元，創2024年6月13日以來收盤新高；年初迄今已大漲70.47%。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=b00124fc-2f74-4d8d-9bf0-600ab8f921fc\">MoneyDJ新聞</a> 授權轉載；首圖來源：<a href=\"https://www.facebook.com/STMicroelectronics.NV/photos/4948865438474580/\">意法半導體</a>）</p>\n</div>",
+            "link": "https://finance.technews.tw/2026/04/20/leo-boost-drives-stmicroelectronics-adr-gap-higher/",
+            "pub_date": "2026-04-20 14:35:08",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
             "title": "中國整頓國內太陽能內捲，強化產能管控",
             "description": "<div class=\"indent\">\n<p data-end=\"652\" data-start=\"542\">中國政府近期要求強化太陽能產業產能管控，並加強跨部門政策協調，試圖推動產業結構調整。根據官方<a href=\"https://www.miit.gov.cn/gyhxxhb/jgsj/dzxxsnew/gzdt/art/2026/art_95dc0471cfb84266b375da36914d20a6.html\">聲明</a>，工業和信息化部（MIIT）與國家發展改革委、市場監管總局以及國家能源及等部門召開會議，強調將加強跨部門協同，全面推進產能調控與產業治理，並聚焦整頓「內捲式」競爭。<span id=\"more-1542937\"></span></p>\n<p data-end=\"779\" data-start=\"654\">中國太陽能產業近年陷入激烈「內捲」競爭，在產能快速擴張下，多數廠商面臨獲利壓力。為緩解供過於求問題，中國政府近期要求強化產能管控，並加強跨部門政策協調，試圖推動產業結構調整。</p>\n<p data-end=\"914\" data-start=\"781\">今年以來，官方至少三度與太陽能設備製造商會商，最新一場會議亦納入中國華能集團、中國大唐集團等國有發電企業。今 （20） 日早盤，多晶矽期貨主力合約一度觸及漲停，每噸 42,955 人民幣，漲幅約 9%。</p>\n<p data-end=\"1001\" data-start=\"916\">另一方面，近期中國官員已召集國內太陽能設備供應商進行初步會談，研議限制相關設備對美國出口的可能性。不過，相關措施仍處於討論階段，尚未正式定案；中國商務部對此亦未正面回應。</p>\n<p>目前中國在全球太陽能供應鏈中仍具主導地位，不僅掌握大部分模組產能，設備供應亦高度集中於中國企業。然而，在各國推動供應鏈在地化與去風險化政策下，對中國太陽能產品的依賴程度正逐步下降，同時加速本土或其他國家產能的布局。</p>\n<p>隨著各國加速推動在地化製造政策，並疊加中國可能進一步研議出口管制措施，全球太陽能供應鏈正面臨重組壓力。在此背景下，太陽能模組與關鍵材料成本可能逐步上升。</p>\n<ul>\n<li data-end=\"1136\" data-start=\"1003\"><a href=\"https://www.bloomberg.com/news/articles/2026-04-20/china-s-government-urges-every-effort-to-curb-solar-capacity?taid=69e595a64d22860001046956&amp;utm_campaign=trueanthem&amp;utm_content=climate&amp;utm_medium=social&amp;utm_source=twitter\">China’s Government Urges ‘Every Effort’ to Curb Solar Capacity</a></li>\n</ul>\n<p data-end=\"1136\" data-start=\"1003\">（首圖來源：<a href=\"https://unsplash.com/photos/an-aerial-view-of-a-large-solar-farm-Y5j57HvzuZg\">Unsplash</a>）</p>\n<h3 data-end=\"1136\" data-start=\"1003\">延伸閱讀：</h3>\n<ul>\n<li data-end=\"1136\" data-start=\"1003\"><a href=\"https://technews.tw/2026/04/16/china-weighs-curbs-on-exports-of-solar-manufacturing-equipment-to-us/\">路透：中國有意限制出口美國太陽能設備</a></li>\n</ul>\n</div>",
             "link": "https://technews.tw/2026/04/20/china-solar-energy-industry/",
@@ -41,51 +86,6 @@
             "description": "<div class=\"indent\">\n<p>綜合港媒及中媒報導，據特斯拉（Tesla）中國方面表示，目前特斯拉並無在上海超級工廠量產人型機器人的具體計畫，「特斯拉即將在上海量產機器人為錯誤資訊」；在此之前，特斯拉副總裁、中國區總裁王昊於媒體活動現場被問及機器人時，僅探討了特斯拉上海超級工廠擁有很好的規模化量產能力，在未來擁有很大潛力。<span id=\"more-1542910\"></span></p>\n<p>在此之前，據IT之家報導，王昊當時提到，上海工廠有望成為解決人型機器人規模化生產難題的關鍵。馬斯克（Elon Musk）曾強調，大規模生產是人型機器人製造面臨的核心挑戰，而上海工廠具備解決此一問題的能力。王昊表示，特斯拉上海超級工廠擁有很好的規模化量產能力，在未來擁有很大潛力，能為量產公司的仿人型態與運動模式機器人提供「金鑰匙」。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=643fdec6-906f-49af-be0c-c36b6ed6bc35\">MoneyDJ新聞</a> 授權轉載；首圖來源：shutterstock）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/04/15/teslas-shanghai-factory-can-build-humanoid-robots/\">特斯拉考慮在上海工廠生產人型機器人</a></li>\n</ul>\n</div>",
             "link": "https://technews.tw/2026/04/20/tesla-china-shanghai-plant-no-concrete-robot-mass-production-plans/",
             "pub_date": "2026-04-20 14:30:19",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "Sony Honda 合作電動車告吹，將轉向研發車載軟體及自動駕駛",
-            "description": "<div class=\"indent\">\n<p>成立三年多的 Sony-Honda Mobility 最近宣布取消開發電動車 Afeela 1，並表示繼續合作，轉向研發自動駕駛和車載軟體領域。<span id=\"more-1542800\"></span></p>\n<p>原訂 2026 年要在美國上市的 Afeela 1 純電車，帶著本田魂又可以相容 PlayStation 5，受到萬眾期待，不料出師未捷，還沒上市就胎死腹中，官方已經證實取消 Afeela 1 開發計劃，轉向追逐新的目標。</p>\n<p>這對 Sony 來說沒有太大損失，他們希望繼續透過與車廠合作，擴大 Sony 在自動駕駛、車載資訊娛樂系統的能力。要知道，Sony 的感測器早就已經進入汽車產業鏈 Tier 1 供應商，作為 CMOS 龍頭，他們的市佔率甚至有望衝到六成。從感測器延伸到影像分析，如果能進一步整合，就更有助 Sony 深化自動駕駛供應鏈的地位。</p>\n<p>相反地，Honda 現在是一個頭好幾個大，過去幾年 Honda 很可能寫下一個特殊紀錄。他們應是推出過最多電動車產品線的車廠。在中國他們先前已經推出三個品牌，分別是廣汽本田 e:NP、東風本田 e:NS 和靈悉，Honda 本家的 Honda e 跟 Prologue 都已經陣亡停產，去年又推新的 0 Series，卻在今年三月就終止。兩個產品線胎死腹中，Prologue 跟 Honda e 則是上市不久就停售，中國市場的三個品牌，加起來還賣不到 5 千輛。走到今天，Honda 手上的籌碼已經越來越少。</p>\n<p>根據外媒統計，Honda 的研發預算，只佔獲利的 1.3％，落後給 Suzuki 的 2.6％ 和 Toyota 的 3.4％，值得注意的是，在 2011～2015 年這個時間段，Toyota 的研發比例其實也只有 1.7 左右，但最近十年為了追趕科技已經翻倍投資，Honda 卻毫無增長。</p>\n<p>反映在競爭日益激烈的汽車市場上，根據 Cox Automotive 調查，2026 年 2 月，Honda 在美國市場為了要賣車，平均每輛車提供 2,721 美元的補貼及優惠，比 Toyota 高了 60％。而且今年 Honda 幾乎拿不出新車款或車型，代表他們接下來有可能再加大促銷力道，進一步侵蝕他們的獲利。</p>\n<p>最新財報顯示，Honda 在最近一個會計年度的合併淨損失達到 6,900 億日圓（約新台幣 1,370 億），這是 Honda 公司公開上市以來，第一次出現年度淨損。而且由於停產、產線轉移造成的相關損失，將持續到 2027 年，累計可能高達 2.5 兆日圓。</p>\n<p>從正面一點角度來看，Afeela 停產後，Honda 似乎打算回歸一開始的想法，將 Sony 的車載軟體跟服務，帶到 Honda 其他車款上，或許有機會在 2027 年的全新 CR-V 上看到一些希望之光。</p>\n<ul>\n<li><a href=\"https://asia.nikkei.com/business/companies/sony-honda-venture-to-press-on-after-ev-called-off\" target=\"_blank\">Sony-Honda venture to press on after EV called off</a></li>\n</ul>\n<p>（首圖來源：Sony-Honda Mobility）</p>\n</div>",
-            "link": "https://technews.tw/2026/04/20/sony-honda-ev-partnership-canceled-shift-to-in-car-software-autonomous-driving/",
-            "pub_date": "2026-04-20 14:30:20",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "載運 200 萬桶原油駛向台灣，君善輪通過荷莫茲海峽",
-            "description": "<div class=\"indent\">\n<p>航運追蹤機構 Kpler 數據顯示，18 日共 20 多艘船隻通過荷莫茲海峽，創 3 月 1 日後最高紀錄，超大型油輪君善輪載著約 200 萬桶原油駛向台灣麥寮港。<span id=\"more-1542959\"></span></p>\n<p>美國與伊朗19日互指對方在週末違反停火協議、對船隻發動攻擊，荷莫茲海峽因此再度關閉。荷莫茲海峽承擔全球約20%石油供應，對全球能源運輸至關重要，美伊戰爭已造成國際油價飆升。</p>\n<p>路透社報導，18日順利通過荷莫茲海峽（Strait of Hormuz）的船隻，五艘裝載伊朗貨物，包括石油產品與金屬等，三艘是液化石油氣（LPG）運輸船，分別駛往中國和印度等地。</p>\n<p>懸掛巴拿馬國旗的Crave號油輪載著阿拉伯聯合大公國的液化石油氣駛向印尼，Akti A號及Athina號兩艘油輪則載有從巴林裝載的成品油，分別前往莫三比克和泰國。懸掛賴比瑞亞國旗的Navig8 Macallister號油輪載著大約50萬桶阿聯石腦油，前往韓國蔚山。</p>\n<p>懸掛賴比瑞亞國旗的超大型原油輪（VLCC）君善輪（Fpmc C Lord）載運約200萬桶沙烏地阿拉伯原油，目的地為台灣麥寮港。</p>\n<p>懸掛印度國旗的船隻Desh Garima號裝載約78萬桶阿聯達斯島（Das Island）原油，前往斯里蘭卡。Ruby號載著卡達肥料前往阿聯，Merry M號油輪則載著從沙國裝載的石油焦，駛向義大利拉溫納（Ravenna）。</p>\n<p>（編譯：劉文瑜；首圖為君善輪駛經朝鮮海峽，來源：<a href=\"https://www.flickr.com/photos/98415324@N07/43470365200/in/photolist-29ejZ2o-29ejZ6b\">Flickr/-EZEK</a> CC BY 2.0）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/04/20/u-s-struck-seized-iranian-flagged-ship-touska-in-gulf-of-oman/\" rel=\"bookmark\" title=\"川普稱美軍截獲伊貨船、和談前局勢惡化 油價飆\">川普稱美軍截獲伊貨船、和談前局勢惡化 油價飆</a></li>\n<li><a href=\"https://finance.technews.tw/2026/04/17/canada-oil-channel-and-export/\" rel=\"bookmark\" title=\"建輸油管、擴建北方門戶，加拿大將成亞洲能源救星\">建輸油管、擴建北方門戶，加拿大將成亞洲能源救星</a></li>\n</ul>\n</div>",
-            "link": "https://technews.tw/2026/04/20/fpmc-c-lord-to-tw/",
-            "pub_date": "2026-04-20 14:24:48",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "雷神搞不定，美軍改和洛馬簽署 1.05 億美元 GPS 地面控制系統",
-            "description": "<div class=\"indent\">\n<p>美國太空軍正考慮取消延宕多年且嚴重超支的新一代 GPS 地面控制系統（OCX）。</p>\n<p><span id=\"more-1542985\"></span></p>\n<p>與此同時，洛克希德馬丁近日宣布獲得一項價值最高達 1.05 億美元的新合約，將負責升級現有的 GPS 衛星地面控制系統，此舉也被外界視為全面取代 OCX 計畫的潛在備案。</p>\n<p>洛馬發布聲明指出，這項新合約不但涵蓋目前在軌道上運作的 GPS 衛星，還將支援未來的「GPS IIIF」升級版衛星的早期操作，該公司表示新合約奠基於過去十年間為太空軍「架構演進計畫」（Architecture Evolution Plan，AEP）所做的努力，未來將持續支援 GPS IIIF 太空載具的發射、早期入軌及退役處置任務。</p>\n<p>這項合約的簽署時機相當敏感，由雷神負責研發的「新一代作戰控制系統」（OCX），長期以來面臨專案進度嚴重落後與預算暴增的窘境，OCX 原訂於 2016 年完工，但開發成本已從最初預估的 37 億美元，一路增加到將近 80 億美元，成為美國軍方太空採購計畫失敗的「負面教材」。</p>\n<p>太空軍已向國防部次長達菲（Michael Duffey）提交分析報告，評估未來的可能選項，其中就包含直接取消 OCX，改為持續升級洛馬主導的 AEP 系統，升級後的 AEP 若能滿足操控 GPS IIIF 衛星的需求，未來將可望完全取代 OCX。</p>\n<p>目前太空軍的 GPS 衛星控制處於一種「雙系統」的尷尬狀態，雷神在 2017 年交付的 OCX Block 0 僅用於現役 GPS III 衛星的「發射與初步測試」，缺乏關鍵的指揮控制能力與現代化網路安全保護。</p>\n<p>而真正在幕後負責指揮與控制所有 GPS 衛星的，其實是洛馬自 2016 年起作為「過渡方案」而持續升級的 AEP 系統。</p>\n<p>對於雷神正在開發的後續版本，軍方高層的耐心似乎已消耗殆盡，原本預計提供完整指揮控制功能的 OCX Block 1 和 Block 2，在針對 2025 年 7 月正式上線運作的測試中，被發現存在「一連串嚴重缺陷」，而專為未來 GPS IIIF 衛星設計的 OCX 3F 版本，按計畫需等到 2027 財年才能交付。</p>\n<p>美國空軍助理部長艾恩斯沃（Thomas Ainsworth）日前在眾議院聽證會上直言，測試發現 OCX 所有子系統都存在廣泛且未解決的問題，「已危及未來 GPS 衛星的發射與能力部署。」</p>\n<p>太空軍作戰部長薩爾茲曼（Chance Saltzman）上將也在智庫演說中證實 OCX 存在「嚴重問題」，他強調隨著 GPS IIIF 及後續衛星升空，軍方需要全新、且具備高度網路安全的地面系統。</p>\n<p>太空軍計畫在 2026 年 5 月上旬發射最後一顆 GPS III 衛星，同時洛馬製造的 22 顆下一代 GPS IIIF 衛星已進入生產階段，首顆預計於明年發射。</p>\n<p>隨著洛馬拿下 AEP 的關鍵升級合約，這套原本的「過渡方案」極有可能趁勢上位，成為未來美國 GPS 衛星網的主力大腦。</p>\n<ul>\n<li><a href=\"https://breakingdefense.com/2026/04/lockheed-martin-nabs-105m-ground-system-contract-to-support-next-gen-gps/\">Lockheed Martin nabs $105M ground system contract to support next-gen GPS</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://commons.wikimedia.org/wiki/File:GPS_Block_IIIA.jpg\">U.S. Air Force</a>, Public domain, via Wikimedia Commons）</p>\n</div>",
-            "link": "https://technews.tw/2026/04/20/us-space-force-signed-105-million-aep-contract-for-rtxs-ocx-delay/",
-            "pub_date": "2026-04-20 14:24:48",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "記憶體被 AI 搶走了，蘋果 Mac Studio、觸控版 MacBook Pro 傳延後至最晚 10 月推出",
-            "description": "<div class=\"indent\">\n<p>彭博記者馬克‧古爾曼（Mark Gurman）在最新報導中指出，蘋果下一波 Mac 新機可能還要再等一段時間，而主因並不是設計、晶片或軟體進度，而是全球記憶體供應吃緊。<span id=\"more-1542958\"></span></p>\n<p>根據報導，原本預計在今年中亮相的新一代 Mac Studio，如今可能延後到最晚 10 月才推出；至於外界關注度更高、傳聞將導入觸控螢幕的 MacBook Pro，時程也可能順延。這代表蘋果原本想藉由新一輪 Mac 產品延續近期銷售動能的計畫，正面臨供應鏈壓力。</p>\n<p>消息人士指出，蘋果的顧慮並不是產品尚未完成，而是擔心在記憶體供應不穩定的情況下貿然發表，上市初期就可能出現缺貨。這類狀況對一向重視供貨節奏的蘋果而言並不理想，因此寧可延後，也不願在開賣後無法滿足需求。</p>\n<p>這波短缺背後的主因，則是 AI 基礎設施快速擴張。隨著全球大量資金流向 AI 伺服器、資料中心、GPU 與高效能運算設備，高頻寬記憶體被優先吸走，連帶壓縮了消費級產品的供應。報導也提到，蘋果已為確保貨源，與三星達成較高成本的採購協議。</p>\n<p>目前蘋果部分記憶體需求較高的 Mac 機種已出現出貨延遲，部分型號甚至暫時缺貨。與此同時，蘋果似乎也在調整節奏，讓新機在供應更有把握時再登場。古爾曼並提到，觸控版 MacBook Pro 的相關軟體配套，將配合今年秋季的 macOS 27 完成，顯示延後主因並非研發卡關，而是硬體供應限制。</p>\n<p>整體來看，這次延遲不只影響蘋果，也反映 AI 浪潮正在重塑整個硬體產業的資源分配。當記憶體持續被 AI 需求拉走，連蘋果這類供應鏈管理能力強大的公司，也難以完全避開這場全球性的零組件緊縮。</p>\n<ul>\n<li><a href=\"https://www.digitaltrends.com/computing/apples-next-wave-of-macs-might-keep-you-waiting-for-longer-and-you-can-thank-ai-for-that/\">Apple’s next wave of Macs might keep you waiting for longer, and you can thank AI for that</a></li>\n<li><a href=\"https://appleinsider.com/articles/26/04/19/mac-studio-touchscreen-macbook-pro-delayed-by-memory-shortages\">Mac Studio, touchscreen MacBook Pro delayed by memory shortages</a></li>\n<li><a href=\"https://9to5mac.com/2026/04/19/apples-major-macbook-pro-overhaul-is-reportedly-slightly-delayed-due-to-supply-chain-shortages/\">Apple’s major MacBook Pro overhaul is reportedly ‘slightly’ delayed due to supply chain shortages</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://unsplash.com/photos/macbook-pro-on-white-table-8krX0HkXw8c\">Unsplash</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2026/04/20/ram-shortage-expected-to-continue-into-next-year-or-later/\">記憶體荒延燒，2027 年底供需缺口估四成待補</a></li>\n</ul>\n</div>",
-            "link": "https://technews.tw/2026/04/20/apples-next-wave-of-macs-might-keep-you-waiting-for-longer/",
-            "pub_date": "2026-04-20 14:24:49",
-            "source": "cmcmarkets",
-            "kind": 1,
-            "language": "en"
-        },
-        {
-            "title": "三星工會預告 5/21 發動罷工  損失上看 30 兆韓圜",
-            "description": "<div class=\"indent\">\n<p>韓國科技大廠三星電子（Samsung Electronics）勞資衝突持續升溫。三星最大工會 SELU 已取得與資方對等談判的法律地位，並規劃自 5 月 21 日起發動為期 18 天罷工。SELU 警告，倘若資方拒絕善意協商，最終營業損失恐上看 30 兆韓圜（約 203 億美元）。<span id=\"more-1542940\"></span></p>\n<p>《The Elec》等韓媒報導，SELU是三星規模最大的工會，目前會員人數約7.4萬人，占員工總數12.8萬人過半，已符合韓國勞動法稱「有協商資格之勞方」。由於勞資協商破局，SELU計劃於4月23日在三星京畿道平澤廠區發動大型示威，預估動員3萬至4萬名會員，若資方無具體回應，將於5月21日至6月7日正式展開罷工行動。</p>\n<p>SELU理事長Choi Seung-ho表示，如果真的罷工18天，即使三星啟動備用產能，一天造成的營業損失仍可能達1兆韓圜，最終累計損失恐達20兆甚至30兆韓圜。</p>\n<p>三星電子勞資談判於3月底陷入僵局，主要癥結點在於績效獎金與薪資透明化制度。工會主張「取消獎金上限」，並要求將15%營業利潤分配給員工，同時建立更透明的薪資機制；但資方不願照單全收工會訴求，雙方遲遲無法達成共識。</p>\n<p>SELU指出，光是過去4個月，已有逾200名三星員工跳槽到SK海力士（SK hynix），反映三星薪資福利不及同業，呼籲資方正視人才流失問題，以維持長期競爭力。</p>\n<p>另方面，三星電子已向法院申請禁制令，防範非法罷工行為。依韓國勞動法規定，罷工期間不得妨礙工作場所安全及衛生設備之正常運轉，亦不得強行阻止非罷工員工進入工作場所。</p>\n<p>（本文由 <a href=\"https://www.moneydj.com//kmdj/news/newsviewer.aspx?a=69212e50-60e9-4e37-ba8a-6d466703c13b\">MoneyDJ新聞</a> 授權轉載；首圖來源：shutterstock）</p>\n</div>",
-            "link": "https://technews.tw/2026/04/20/samsung-electronics-strike-may/",
-            "pub_date": "2026-04-20 14:24:50",
             "source": "cmcmarkets",
             "kind": 1,
             "language": "en"
