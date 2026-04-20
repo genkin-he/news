@@ -1,6 +1,66 @@
 {
     "data": [
         {
+            "id": 6426113,
+            "title": "盤中速報 - 先進光(3362)大漲7.08%，報121元",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>先進光(<a data-ga-click-item=\"TWS:3362:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3362\" rel=\"noopener noreferrer\" target=\"_self\">3362-TW</a>)20日13:00股價上漲8元，報121.0元，漲幅7.08%，成交2,270張。</p></section><p></p><section style=\"margin-top:30px\"><p>先進光(<a data-ga-click-item=\"TWS:3362:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3362\" rel=\"noopener noreferrer\" target=\"_self\">3362-TW</a>)所屬產業為光電業，主要業務為光學鏡片加工製造買賣。鏡片組合裝配製造買賣。光學原器加工製造買賣。</p></section><section style=\"margin-top:30px\"><p>近5日股價上漲17.71%，櫃買市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲6.54%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：+536 張</li> <li>外資買賣超：+498 張</li> <li>投信買賣超：0 張</li> <li>自營商買賣超：+38 張</li> <li>融資增減：-55 張</li> <li>融券增減：+12 張</li> </ul></section></main>",
+            "link": "https://news.cnyes.com/news/id/6426113",
+            "pub_date": "2026-04-20 13:00:27",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6426114,
+            "title": "LayerZero發布​調查報告：KelpDAO被黑直接原因和過程分析",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>來源：LayerZero；編譯：金色財經Claw</p></section><p></p><section style=\"margin-top:30px\"><p>KelpDAO 攻擊事件聲明</p></section><section style=\"margin-top:30px\"><p>2026年4月18日，KelpDAO 遭到攻擊，損失約 2.9 億美元。 初步跡象表明，此次攻擊源自高度複雜的國家級駭客組織，極可能是朝鮮的 Lazarus Group（具體為 TraderTraitor 分支）。此次事件僅侷限於 KelpDAO 的 rsETH 配置，其直接原因是其採用了單 DVN（去中心化驗證網路）設置。其他跨鏈資產或應用程序不存在任何風險傳染。</p></section><section><p>此次高度複雜的攻擊針對的是 LayerZero Labs DVN 所使用的下游 RPC（遠程過程調用）基礎設施中毒。目前，所有受影響的 RPC 節點均已棄用並更換，LayerZero Labs DVN 現已重新上線。</p></section><section style=\"margin-top:30px\"><p>我們分享這些細節，旨在幫助社區更好地理解並防範這種新興的國家級支持的攻擊向量。</p></section><section style=\"margin-top:30px\"><h2>背景：LayerZero 的模塊化安全架構</h2></section><section style=\"margin-top:30px\"><p>LayerZero 協議建立在模塊化、應用可配置的安全基礎之上。去中心化驗證網路（DVNs）是負責驗證跨鏈消息完整性的獨立實體。至關重要的一點是，協議並不強制規定單一的安全配置。相反，它授權每個應用程序和資產發行方定義自己的安全態勢，包括他們依賴哪些 DVN、如何組合以及設置何種冗餘閾值。</p></section><section style=\"margin-top:30px\"><p>行業最佳實踐——也是 LayerZero 向所有集成商明確推薦的做法——是配置具有多樣性和冗餘性的多 DVN 設置。這意味著任何單一的 DVN 都不應代表單方面的信任點或故障點。</p></section><section style=\"margin-top:30px\"><h2>範圍與傳染情況：僅限於 rsETH</h2></section><section style=\"margin-top:30px\"><p>我們對 LayerZero 協議上的活動集成進行了全面審查。我們可以確信地證實，不存在對任何其他資產或應用程序的風險傳染。此次事件完全由於 KelpDAO 的單 DVN 設置而孤立於其 rsETH 配置。</p></section><section style=\"margin-top:30px\"><p>受影響的應用是由 KelpDAO 發行的 rsETH。在事件發生時，其 OApp 配置依賴於「1之1」的 DVN 設置，僅以 LayerZero Labs 作為唯一驗證者——這一配置直接違反了 LayerZero 始終向所有合作夥伴推薦的多 DVN 冗餘模型。運行單點故障配置意味著沒有獨立的驗證者來捕獲和拒絕偽造消息。LayerZero 和其他外部機構此前曾向 KelpDAO 傳達了關於 DVN 多樣化的最佳實踐，儘管有這些建議，KelpDAO 仍選擇了使用 1/1 DVN 配置。</p></section><section style=\"margin-top:30px\"><p>如果採用了合理的加固配置，攻擊則需要跨多個獨立 DVN 達成共識，即使任何單個 DVN 被攻破，攻擊也會失效。</p></section><section style=\"margin-top:30px\"><h2>事件經過</h2></section><section style=\"margin-top:30px\"><p>2026年4月18日，LayerZero Labs 的 DVN 成為高度複雜攻擊的目標。攻擊者通過篡改或「投毒」下游 RPC 基礎設施，攻破了 DVN 驗證交易時所依賴的法定數量（Quorum）RPC。這並非通過協議漏洞、DVN 本身或密鑰管理漏洞實現的。</p></section><section style=\"margin-top:30px\"><p>相反，攻擊者獲取了我們 DVN 使用的 RPC 列表，攻破了其中兩個獨立節點，並更換了運行 op-geth 節點的二進制文件。由於我們的「最小權限」原則，他們無法攻破實際的 DVN 實例。然而，他們以此為跳板執行了 RPC 欺騙攻擊：</p></section><section style=\"margin-top:20px\"><ul class=\"list-paddingleft-2\"><li><p>惡意節點使用自定義載荷向 DVN 偽造消息。</p></li><li><p>該節點對 DVN 撒謊，但對任何其他 IP 地址（包括我們的掃描服務和內部監測基礎設施）則報告真實資訊。這種精心設計是為了防止安全監測發現異常。</p></li><li><p>攻擊完成後，惡意節點會自毀，禁用 RPC 並刪除惡意二進制文件及相關日誌。</p></li></ul></section><section style=\"margin-top:30px\"><p>此外，攻擊者還對未被攻破的 RPC 進行了 DDoS 攻擊，觸發系統切換（failover）到已投毒的 RPC 節點。結果，LayerZero Labs 營運的 DVN 實例確認了實際上從未發生的交易。</p></section><section style=\"margin-top:30px\"><h2>LayerZero Labs 的安全態勢</h2></section><section style=\"margin-top:30px\"><p>我們運行着完整的端點檢測與響應（EDR）、嚴格的訪問控制、完全隔離的環境以及全系統日誌。我們的 DVN 跨自營和外部 RPC 節點運行。目前我們正處於 SOC2 審計的最後階段。</p></section><section style=\"margin-top:30px\"><h2>未來之路</h2></section><section style=\"margin-top:30px\"><li><p>DVN 恢復： LayerZero Labs DVN 已恢復運行。採用多 DVN 設置的應用可以放心恢復操作。</p></li></section><section style=\"margin-top:30px\"><li><p>強制遷移： 我們正在聯繫所有使用 1/1 DVN 配置的應用，要求其遷移到多 DVN 冗餘設置。LayerZero Labs DVN 將不再為任何使用 1/1 配置的應用簽署或證明消息。</p></li></section><section style=\"margin-top:30px\"><li><p>執法合作： 我們正與全球多個執法機構合作，並支持行業夥伴和 Seal911 追蹤資金。</p></li></section><section style=\"margin-top:30px\"><h2>總結</h2></section><section style=\"margin-top:30px\"><p>我們要明確一點：LayerZero 協議本身在整個事件中運行完全符合預期。 未發現協議漏洞。如果這是一個單一系統或共享安全系統，風險傳染可能會波及所有應用。LayerZero 架構的唯一定義性特徵是模塊化安全，在此案例中它發揮了應有的作用——使攻擊完全隔離在單個應用中，系統內零傳染風險。</p></section><section style=\"margin-top:30px\"><p>我們將繼續致力於 LayerZero 生態的安全與完整。</p></section><section style=\"margin-top:30px\"><p>來源：金色財經</p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6426114",
+            "pub_date": "2026-04-20 13:00:48",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6426115,
+            "title": "USDT暫停轉帳功能已恢復，所有待處理交易已完成結算",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，4 月 20 日，据官方消息，Tether 推出跨鏈美元穩定幣 USDT0 轉帳已恢復，基礎設施持續按設計運行，系統完整性未受影響，也不存在任何風險暴露。所有在暫停前提交的在途交易現已全部安全完成結算。</p></section><p></p><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/342061\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6426115",
+            "pub_date": "2026-04-20 13:00:51",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6426116,
+            "title": "BTC主力空头減倉6100萬美元，計劃若回漲至74900美元清倉剩餘空單",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，4 月 20 日，据 Hyperinsight 监测显示，0x004 开头地址今日持续减仓 BTC 空单，截至發稿前 1 小時已完成本輪止盈，平倉規模達 808.8 枚，約合 6100 萬美元。</p></section><p></p><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>隨後該地址掛出市價買單，計劃若 BTC 價格回漲至 74,900 美元處，將剩餘 1488 萬美元規模倉位一併清倉，建倉均價 75,828 美元，當前浮盈約 28 萬美元（+38%）。</p></section><section><p><br/></p></section><section style=\"margin-top:30px\"><p>地址：0x004edcd40360e293e4cf260d2ebdf8c7076c1bb8</p></section><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/342060\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6426116",
+            "pub_date": "2026-04-20 13:00:52",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6426117,
+            "title": "「夥伴」同步加倉BTC與ETH多單，重新陷入浮虧",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，4 月 20 日，据 HyperInsight 监测，「Big Brother Whale」 黄立成地址在过去 1 小时内继续加仓 BTC 与 ETH 多单，目前以 40 倍杠杆做多 420 枚 BTC，建仓均价 75,680.9 美元；以 25 倍杠杆做多 10,400 枚 ETH，建仓均价 2291.12 美元，总计浮亏 67.1 万美元。</p></section><p></p><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/342059\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6426117",
+            "pub_date": "2026-04-20 13:00:52",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6426118,
+            "title": "台股市場回暖，ETF規模激增，兩岸交流與企業成長潛力共振",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><div class=\"summary-content\"><h3>台股市場回暖，ETF規模激增，兩岸交流新契機與企業成長潛力並存</h3>\n<div class=\"highlight\">\n中國國台辦推出的「10項惠台措施」被視為重啟兩岸交流的重要契機，商總呼籲政府應優先考量產業發展與民生福祉，並提出恢復直航及推動自由行等六大建議，以促進經濟互動<a href=\"https://news.cnyes.com/news/id/6426022\" target=\"_blank\">[1]</a>。隨著報稅季的臨近，個人所得稅的調整將為多口家庭帶來逾40萬元的扣除額，顯示出政府在減稅方面的努力，尤其是對於長照及基本生活費的提升，將有效減輕中堅世代的經濟壓力<a href=\"https://news.cnyes.com/news/id/6425786\" target=\"_blank\">[2]</a>。然而，專家提醒納稅人需謹慎處理房地合一稅及海外所得等複雜稅務問題，以確保合規，顯示出在政策變動下，市場參與者需保持靈活應對的能力。\n</div>\n<div class=\"highlight\">\n四月全球金融市場回暖，台灣ETF規模激增逾7000億元，達<a href=\"https://invest.cnyes.com/forex/detail/usdtwd\">新台幣</a>8.9兆元，主動式ETF成為增長主力，尤其是主動第一金台股優 (<a data-ga-click-item=\"TWS:00994A:STOCK:ETF\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/00994A\" rel=\"noopener noreferrer\" target=\"_self\">00994A-TW</a>) 和主動統一台股增長 (<a data-ga-click-item=\"TWS:00981A:STOCK:ETF\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/00981A\" rel=\"noopener noreferrer\" target=\"_self\">00981A-TW</a>) 的成長率分別達104.5%及53.7%，顯示出投資者對主動型ETF的強烈興趣<a href=\"https://news.cnyes.com/news/id/6426007\" target=\"_blank\">[3]</a>。同時，元山 (<a data-ga-click-item=\"TWS:6275:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6275\" rel=\"noopener noreferrer\" target=\"_self\">6275-TW</a>) 預計在第二季完成仁武新廠搬遷，並於第三季開始放量生產，將進一步增強營收，股價表現強勁，顯示市場對其未來成長的信心<a href=\"https://news.cnyes.com/news/id/6426013\" target=\"_blank\">[4]</a>。隨著台積電供應鏈及AI產業的進展，市場對台股的整體行情持樂觀態度，主動型ETF的漲幅及元山的業務擴展均反映出投資者對科技及創新產業的高度關注，未來將持續吸引資金流入。\n</div>\n<div class=\"highlight\">\nSK 海力士宣布量產專為輝達 (<a data-ga-click-item=\"USS:NVDA:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://invest.cnyes.com/usstock/detail/NVDA\" rel=\"noopener noreferrer\" target=\"_self\">NVDA-US</a>) Vera Rubin 平台設計的192GB SOCAMM2，這款第六代10奈米LPDDR5X低功耗DRAM不僅提升頻寬逾2倍，還降低功耗75%以上，顯示出在AI大模型訓練與推理過程中解決存儲瓶頸的潛力<a href=\"https://news.cnyes.com/news/id/6425988\" target=\"_blank\">[5]</a>。此外，台北市中古屋交易市場在2020至2025年間出現明顯變化，大安區的交易占比增至11.8%，而內湖區則因交通問題交易占比滑落至12.1%<a href=\"https://news.cnyes.com/news/id/6425984\" target=\"_blank\">[6]</a>，反映出購屋族對通勤時間和生活機能的重視，進一步影響市場動態。這些趨勢顯示出科技與生活環境的變化如何共同塑造市場需求，未來將持續影響相關產業的發展。\n</div>\n<div class=\"highlight\">\n艾笛森 (<a data-ga-click-item=\"TWS:3591:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3591\" rel=\"noopener noreferrer\" target=\"_self\">3591-TW</a>) 近日因車用與照明需求回穩，股價強勁上漲至漲停27.2元，顯示市場對其未來成長潛力的信心。公司積極拓展不可見光感測元件的應用，計劃將該業務營收比重從5%提升至10%，並預期全年出貨量將年增約20%，有望實現轉虧為盈的目標。隨著北美市場成為主要動能來源，艾笛森的車用及照明業務均預期將有1至2成的成長空間，顯示出其在市場中的競爭力和未來發展潛力。此外，公司計劃於5月28日召開股東常會，擬通過現金減資10.31%，進一步優化資本結構，為未來的擴張奠定基礎。\n</div></div></section><p></p><section style=\"margin-top:30px\"><p class=\"signature\">Powered by <a href=\"https://www.yushan.ai/\" target=\"_blank\">Yushan.AI</a></p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6426118",
+            "pub_date": "2026-04-20 13:01:18",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
             "id": 6426107,
             "title": "盤中速報 - 精材(3374)股價拉至漲停，漲停價202.5元，成交17,318張",
             "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>精材(<a data-ga-click-item=\"TWS:3374:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3374\" rel=\"noopener noreferrer\" target=\"_self\">3374-TW</a>)20日12:50上漲18元，股價漲停報202.5元，委買8,000張、委賣1,559,000張，成交17,318張。</p></section><p></p><section style=\"margin-top:30px\"><p>主要業務為測試服務。晶圓級尺寸封裝業務。晶圓級後護層封裝業務。</p></section><section style=\"margin-top:30px\"><p>精材(<a data-ga-click-item=\"TWS:3374:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3374\" rel=\"noopener noreferrer\" target=\"_self\">3374-TW</a>)近5日股價上漲10.81%，櫃買市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲6.54%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：+2,798 張</li> <li>外資買賣超：+2,875 張</li> <li>投信買賣超：-546 張</li> <li>自營商買賣超：+469 張</li> <li>融資增減：-1,982 張</li> <li>融券增減：+319 張</li> </ul></section></main>",
@@ -36,66 +96,6 @@
             "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>華新(<a data-ga-click-item=\"TWS:1605:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/1605\" rel=\"noopener noreferrer\" target=\"_self\">1605-TW</a>)20日12:52股價上漲2.3元，報34.6元，漲幅7.12%，成交45,149張。</p></section><p></p><section style=\"margin-top:30px\"><p>華新(<a data-ga-click-item=\"TWS:1605:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/1605\" rel=\"noopener noreferrer\" target=\"_self\">1605-TW</a>)所屬產業為電器電纜，主要業務為電線電纜、鋼線鋼纜及特殊鋼之生產與銷售。</p></section><section style=\"margin-top:30px\"><p>近5日股價上漲2.05%，集中市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲3.91%，短期股價無明顯表現。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：+12,501 張</li> <li>外資買賣超：+13,660 張</li> <li>投信買賣超：-1,873 張</li> <li>自營商買賣超：+714 張</li> <li>融資增減：-304 張</li> <li>融券增減：-44 張</li> </ul></section></main>",
             "link": "https://news.cnyes.com/news/id/6426109",
             "pub_date": "2026-04-20 12:52:16",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6426040,
-            "title": "〈焦點股〉00981A市價一度飆漲近6% 爆逾52萬張巨量奪成交王",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>台股今 (20) 日大漲逾 400 點，站穩 3 萬 7 千點之上，千金股各顯神通，主動統一台股增長 (<a data-ga-click-item=\"TWS:00981A:STOCK:ETF\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/00981A\" rel=\"noopener noreferrer\" target=\"_self\">00981A-TW</a>) 掛牌未滿 1 年，資產規模已突破 1500 億元，成為主動式 ETF 龍頭，盤中市價衝上 26.58 元，改寫新高，漲幅將近 6%，午盤成交量已爆出逾 52 萬張，同步掛掛牌以來最大量，並奪下全市場第一大。</p></section><p><template id=\"P:1\"></template></p><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>不過，從最新數據來看，00981A 盤中預估溢價 1.6%，出現「市價跑得比淨值快」的現象，代表成分股實際漲幅低於市價表現，通常是因為投資人情緒過於樂觀或市場買盤過於集中，導致需求大於供給。</p></section><section>\n</section><section style=\"margin-top:30px\"><p>統一投信已於官網示警投資人，應注意基金市價相對於淨值可能因市場波動出現溢價或折價情況，投資人交易時應審慎評估相關風險。投資人應注意盤中即時估計淨值與實際淨值可能有誤差值之風險，經理公司提供之 ETF 即時估計淨值僅供參考，實際淨值仍應以經理公司最終結算並公告之每日淨值為準。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>雖然 00981A 目前處於顯著的溢價狀態，但其多數成分股今天表現相當強勁，包括散熱廠健策及 ABF 載板廠南電、欣興股價均亮燈漲停，00981A 的 AI 供應鏈「含金量」極高，精準卡位 AI 伺服器中最核心、單價高的零組件。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>專家提醒，對於 ETF 而言，合理的折溢價區間通常應維持在 -0.5% 至 +0.5% 之間，當溢價超過 1% 時，投資人就應避免追買；超過 3% 則屬於極度危險區域。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p class=\"warning\">※免責聲明：文中所提的個股、基金、期貨商品內容僅供參考，並非投資建議，投資人應獨立判斷，審慎評估風險，自負盈虧。</p></section><section style=\"margin-top:30px\">\n</section></main>",
-            "link": "https://news.cnyes.com/news/id/6426040",
-            "pub_date": "2026-04-20 12:52:47",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6426110,
-            "title": "盤中速報 - M31(6643)股價拉至漲停，漲停價556.0元，成交2,815張",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>M31(<a data-ga-click-item=\"TWS:6643:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6643\" rel=\"noopener noreferrer\" target=\"_self\">6643-TW</a>)20日12:53上漲50元，股價漲停報556.0元，委買7,000張、委賣1,000張，成交2,815張。</p></section><p></p><section style=\"margin-top:30px\"><p>主要業務為矽智財授權金及權利金。</p></section><section style=\"margin-top:30px\"><p>M31(<a data-ga-click-item=\"TWS:6643:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6643\" rel=\"noopener noreferrer\" target=\"_self\">6643-TW</a>)近5日股價上漲11.45%，櫃買市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲6.54%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：+859 張</li> <li>外資買賣超：+733 張</li> <li>投信買賣超：-3 張</li> <li>自營商買賣超：+129 張</li> <li>融資增減：-257 張</li> <li>融券增減：+3 張</li> </ul></section></main>",
-            "link": "https://news.cnyes.com/news/id/6426110",
-            "pub_date": "2026-04-20 12:53:48",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6426098,
-            "title": "盤中速報 - 森崴能源(6806)股價拉至漲停，漲停價27.1元，成交206張",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>森崴能源(<a data-ga-click-item=\"TWG:6806:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6806\" rel=\"noopener noreferrer\" target=\"_self\">6806-TW</a>)20日12:45上漲2.45元，股價漲停報27.1元，委買3,888張，成交206張。</p></section><p></p><section style=\"margin-top:30px\"><p>主要業務為能源開發工程服務。電廠維運(設備維修)太陽能發電廠。節能、儲能服務工程等全方位專業能源服務。</p></section><section style=\"margin-top:30px\"><p>森崴能源(<a data-ga-click-item=\"TWG:6806:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6806\" rel=\"noopener noreferrer\" target=\"_self\">6806-TW</a>)近5日股價上漲7.64%，集中市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲3.91%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：-617 張</li> <li>外資買賣超：-594 張</li> <li>投信買賣超：0 張</li> <li>自營商買賣超：-23 張</li> <li>融資增減：-647 張</li> <li>融券增減：-978 張</li> </ul></section></main>",
-            "link": "https://news.cnyes.com/news/id/6426098",
-            "pub_date": "2026-04-20 12:45:15",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6426099,
-            "title": "盤中速報 - 智原(3035)股價拉至漲停，漲停價174.5元，成交12,155張",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>智原(<a data-ga-click-item=\"TWS:3035:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3035\" rel=\"noopener noreferrer\" target=\"_self\">3035-TW</a>)20日12:46上漲15.5元，股價漲停報174.5元，委買4張、委賣1,339張，成交12,155張。</p></section><p></p><section style=\"margin-top:30px\"><p>主要業務為特殊應用積體電路設計(ASIC)。特殊應用積體電路設計用矽智財及系統平台(IP &amp; System Platform)。特殊應用積體電路電子設計、自動化軟體工具(ASIC EDA Tools)。</p></section><section style=\"margin-top:30px\"><p>智原(<a data-ga-click-item=\"TWS:3035:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/3035\" rel=\"noopener noreferrer\" target=\"_self\">3035-TW</a>)近5日股價上漲6.35%，集中市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲3.91%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：+1,325 張</li> <li>外資買賣超：+1,417 張</li> <li>投信買賣超：-5 張</li> <li>自營商買賣超：-87 張</li> <li>融資增減：-597 張</li> <li>融券增減：+19 張</li> </ul></section></main>",
-            "link": "https://news.cnyes.com/news/id/6426099",
-            "pub_date": "2026-04-20 12:46:35",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6426100,
-            "title": "盤中速報 - 建通(2460)大跌7.07%，報34.2元",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>建通(<a data-ga-click-item=\"TWS:2460:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/2460\" rel=\"noopener noreferrer\" target=\"_self\">2460-TW</a>)20日12:46股價下跌2.6元，報34.2元，跌幅7.07%，成交2,164張。</p></section><p></p><section style=\"margin-top:30px\"><p>建通(<a data-ga-click-item=\"TWS:2460:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/2460\" rel=\"noopener noreferrer\" target=\"_self\">2460-TW</a>)所屬產業為電子零組件業，主要業務為精密電子產品及其零件、電器類機器之製造、加工。銅之原、廢料買賣、電鍍加工、煉銅、銅鑄造。前述有關產品進出口貿易業務。</p></section><section style=\"margin-top:30px\"><p>近5日股價上漲18.71%，集中市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲3.91%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：-673 張</li> <li>外資買賣超：-799 張</li> <li>投信買賣超：0 張</li> <li>自營商買賣超：+126 張</li> <li>融資增減：-59 張</li> <li>融券增減：0 張</li> </ul></section></main>",
-            "link": "https://news.cnyes.com/news/id/6426100",
-            "pub_date": "2026-04-20 12:46:37",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6426101,
-            "title": "盤中速報 - 統新(6426)大漲9.25%，報248元",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>統新(<a data-ga-click-item=\"TWS:6426:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6426\" rel=\"noopener noreferrer\" target=\"_self\">6426-TW</a>)20日12:46股價上漲21元，報248.0元，漲幅9.25%，成交1,750張。</p></section><p></p><section style=\"margin-top:30px\"><p>統新(<a data-ga-click-item=\"TWS:6426:STOCK:COMMON\" data-ga-event-name=\"Click_Quote\" data-ga-section=\"News_Article_文中行情\" data-ga-target=\"news\" href=\"https://www.cnyes.com/twstock/6426\" rel=\"noopener noreferrer\" target=\"_self\">6426-TW</a>)所屬產業為通信網路業，主要業務為薄膜濾光片及光學鍍膜。</p></section><section style=\"margin-top:30px\"><p>近5日股價上漲15.23%，集中市場<a href=\"https://invest.cnyes.com/index/TWS/TSE01\">加權指數</a>上漲3.91%，股價漲幅表現優於大盤。</p></section><section><p><em>近5日籌碼</em></p></section><section style=\"margin-top:20px\"><ul> <li>三大法人合計買賣超：-154 張</li> <li>外資買賣超：+19 張</li> <li>投信買賣超：0 張</li> <li>自營商買賣超：-173 張</li> <li>融資增減：+935 張</li> <li>融券增減：-15 張</li> </ul></section></main>",
-            "link": "https://news.cnyes.com/news/id/6426101",
-            "pub_date": "2026-04-20 12:46:45",
             "source": "cnyes",
             "kind": 1,
             "language": "zh-HK"
