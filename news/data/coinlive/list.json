@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 1093738,
+            "title": "Nansen Upgrades API with Pay-Per-Use Model for Blockchain Data Access",
+            "description": "On April 21, blockchain analytics firm Nansen announced a comprehensive upgrade to its on-chain data API, introducing a pay-per-use model based on the x402 protocol and PayAI infrastructure. According to BlockBeats, this new system allows users to make small payments in USDC for immediate access to wallet profiles, token flows, and smart money signals, eliminating the need for monthly subscriptions, mandatory approvals, or long-term contracts.\n\nNansen highlighted that traditional subscription models are not user-friendly for AI agents and developers. AI agents often require intermittent queries followed by idle periods, while developers face uncertain future demands during prototype testing, and researchers are locked into unnecessary fixed costs. The new solution is built around the open-source payment standard x402: when a request is made to access a paid endpoint, the server returns a 402 Payment Required status code, specifying the amount, currency, and chain information. The client completes an on-chain USDC transaction and provides a payment receipt to access the data. This entire request-invoice-payment-delivery process is fully programmable, allowing AI agents to autonomously complete payments.\n\nNansen's API offers two pricing tiers, both settled in USDC on the Base or Solana chains. The basic tier charges $0.01 per call, providing access to core data such as token filtering, wallet balances and history, DEX transactions, and profit and loss summaries. The advanced tier charges $0.05 per call, unlocking exclusive signals like smart money net flows, position distribution, and profit and loss leaderboards. In practical applications, a smart money alert system costs approximately $0.15 per run, wallet profile analysis about $0.07, and token research around $0.07.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093738&language=en-US",
+            "pub_date": "2026-04-21 12:33:34",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1093737,
+            "title": "Iran Condemns U.S. Military Action in Gulf of Oman",
+            "description": "On April 21, Iran's Foreign Ministry issued a statement strongly condemning the U.S. military's attack on an Iranian cargo ship in the Gulf of Oman on April 19. According to BlockBeats, Iran has demanded the immediate release of the seized vessel and its crew.\n\nIranian media reports that the statement described the attack and the detention of the crew as acts of piracy and terrorism, violating the ceasefire agreement between the two nations and constituting an act of aggression against Iran. The statement warned the United States that such actions could lead to very dangerous consequences.\n\nThe Iranian Foreign Ministry emphasized that the U.S. bears full responsibility for further complicating the regional situation.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093737&language=en-US",
+            "pub_date": "2026-04-21 12:33:41",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1093736,
+            "title": "Trader Utilizes Leverage for HYPE Short Position and PAXG Long Position",
+            "description": "On April 21, a trader known as Loracle has reportedly established a short position on HYPE using five times leverage, valued at $11 million, according to BlockBeats. The trader continues to increase this position. Additionally, Loracle holds a long position in 374.66 PAXG gold tokens.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093736&language=en-US",
+            "pub_date": "2026-04-21 12:33:49",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1093734,
+            "title": "White House: US and Iran are on the \"edge\" of reaching an agreement.",
+            "description": "White House Press Secretary Janet Levitt stated in an interview with Fox News on the evening of the 20th that the United States and Iran are on the \"edge\" of reaching an agreement. Levitt said, \"The United States has never been closer to reaching a truly good agreement.\" However, she did not disclose any information regarding the current status of the negotiations. Levitt stated that even if an agreement is not reached, President Trump still has multiple options and is not afraid to use these means. Previous actions have proven that Trump is not \"bluffing.\" (Xinhua)",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093734&language=en-US",
+            "pub_date": "2026-04-21 12:35:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1093732,
             "title": "The KelpDAO hackers still hold 75,700 ETH on the Ethereum blockchain, worth $175 million.",
             "description": "According to on-chain analyst Yu Jin, the Arbitrum chain project team froze 30,766 ETH (worth $70.97 million) held by the KelpDAO hacker on the Arbitrum chain. Through technical means, they transferred these 30,766 ETH from the hacker's wallet to an address controlled by the Arbitrum chain: 0x0000000000000000000000000000000000da0. After recovering these 30,766 ETH, the hacker still holds 75,700 ETH (worth $175 million) on the Ethereum chain.",
@@ -156,46 +196,6 @@
             "description": "Ripple has announced a phased roadmap to achieve quantum-resistant upgrades for its XRP Ledger by 2028. This plan includes developing a \"Quantum-Day\" contingency plan to address potential quantum computing threats and collaborating with Project Eleven for preliminary testing and validation. Ripple states that this move aims to prepare for a post-quantum-secure transition, and the entire plan will proceed in four phases: Phase 1: Q-Day Contingency Preparedness (Already Underway). Establishing a Quantum Day (Q-Day) contingency response mechanism. If the existing classical encryption system is suddenly compromised, the network will immediately stop accepting traditional public-key signatures and forcibly migrate to quantum-secure accounts. Phase 2: Risk Assessment and Algorithm Testing (First Half of 2026). Comprehensively assessing the impact of post-quantum cryptography on the XRP Ledger network performance, storage, and bandwidth. Collaborating with Project Eleven to conduct validator-level testing and Devnet benchmarking, deploying the NIST-standardized ML-DSA quantum-secure signature scheme, and developing a post-quantum escrow wallet prototype. Phase 3: Devnet Hybrid Integration (Second Half of 2026). Integrate candidate post-quantum signature schemes in parallel with existing elliptic curve signatures on the developer network (Devnet), allowing developers to test performance and system impact without affecting the mainnet. Simultaneously explore post-quantum zero-knowledge proof primitives and homomorphic encryption for confidential transfers to advance the privacy and compliance capabilities of tokenized real-world assets on XRPL. Phase Four: Full Mainnet Upgrade (Target 2028). Submit a formal protocol amendment, which, after being approved by validators, will fully enable native post-quantum cryptography on the mainnet. (Cointelegraph)",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093715&language=en-US",
             "pub_date": "2026-04-21 11:40:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1093716,
-            "title": "Kelp DAO Attacker Transfers Significant ETH to Special Address",
-            "description": "According to Foresight News, PeckShield has reported that the attacker of Kelp DAO has transferred 30,765 ETH to a special address starting with 0x00000. This action is speculated to be a destruction of the funds.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093716&language=en-US",
-            "pub_date": "2026-04-21 11:43:32",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1093714,
-            "title": "PeckShield: Kelp DAO attackers suspected of transferring 30,765 ETH to a specific address.",
-            "description": "According to PeckShield, Kelp DAO attackers transferred 30,765 ETH (approximately $70.92 million) to a special address starting with 0x00000, suspected of destroying the ETH.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093714&language=en-US",
-            "pub_date": "2026-04-21 11:44:00",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1093713,
-            "title": "Trump-Aligned Groups Amass $550 Million for Midterms",
-            "description": "Trump-aligned groups have accumulated a $550 million war chest ahead of the midterm elections, as reported in a disclosure filed with the Federal Election Commission. According to NS3.AI, the funds were raised through MAGA Inc., with Diane Hendricks contributing $25 million, marking the largest disclosed donation. In total, Republican-affiliated House and Senate super PACs, along with Trump-aligned groups and MAGA Inc., had gathered $853 million prior to Monday's filing.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093713&language=en-US",
-            "pub_date": "2026-04-21 11:26:12",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1093711,
-            "title": "Analysis: 128-bit symmetric encryption remains secure; quantum computing poses the main threat to asymmetric cryptography.",
-            "description": "Cryptography engineer Filippo Valsorda points out that the impact of quantum computing on current encryption systems is mainly concentrated on asymmetric algorithms (such as ECDSA and RSA), while its impact on symmetric encryption (such as AES and the SHA series) is limited. Grover's algorithm does not significantly weaken the security of 128-bit keys in practical scenarios. Although Grover's algorithm can theoretically accelerate brute-force attacks, it is difficult to parallelize, making actual attacks extremely costly. Even under ideal quantum computing conditions, the resources required to break AES-128 far exceed the cost of attacking elliptic curve cryptography using Shor's algorithm. Furthermore, standards organizations, including the National Institute of Standards and Technology (NIST), unanimously agree that AES-128 still meets post-quantum security requirements and does not need to be upgraded to a 256-bit key. Industry experts believe that focusing resources on replacing quantum-vulnerable asymmetric encryption schemes is the more pressing task at present.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1093711&language=en-US",
-            "pub_date": "2026-04-21 11:33:00",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
