@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "id": 3771164,
+            "title": "效率提升9倍！英伟达新模型Nemotron 3 Nano Omni瞄准智能体落地，整合语音、视觉与推理能力",
+            "description": "<p data-start=\"69\" data-end=\"239\">在人工智能智能体（AI Agent）竞赛持续升温之际，英伟达正加速从“算力霸主”向“模型平台商”延伸。</p>\n<p data-start=\"69\" data-end=\"239\">美东时间28日周二，英伟达在公司博客宣布，推出名为Nemotron 3 Nano Omni的全新开源模型，主打“原生全模态理解+高效推理”，试图为企业级AI Agent提供一体化基础模型底座。英伟达介绍，这款业内领先的开源全模态推理模型融合了视觉、音频与语言能力，将帮助AI智能体实现高达9倍的效率提升。</p>\n<p data-start=\"69\" data-end=\"239\">英伟达介绍，已有一批AI与软件领域的公司率先采用了Nemotron 3 Nano Omni，包括Aible、Applied Scientific Intelligence (ASI)、Eka Care、富士康、H Company、Palantir 和 Pyler。此外，戴尔、DocuSign、Infosys、K-Dense、Lila、甲骨文和 Zefr 正在对该模型进行评估。</p>\n<h2 data-start=\"241\" data-end=\"268\"><strong data-start=\"241\" data-end=\"268\">主打Omni：一个模型打通语音、视觉与语言</strong></h2>\n<p data-start=\"270\" data-end=\"423\">不同于传统多模态模型通常通过拼接多个子模型实现能力融合，Nemotron 3 Nano Omni强调“原生全模态（omni-understanding）”。其可同时处理文本、图像、音频甚至视频输入，并在统一架构内完成理解与推理任务。</p>\n<p data-start=\"425\" data-end=\"538\">英伟达在技术博客中指出，该模型具备从视频和文档中提取信息的能力，支持复杂场景下的跨模态推理，例如通过语音转录增强视频理解，或结合OCR解析视觉文本内容。</p>\n<p data-start=\"540\" data-end=\"692\">从架构上看，Nemotron 3 Nano Omni延续了Nemotron 3系列的混合架构路线：融合Transformer与Mamba机制，并引入混合专家（MoE）以在保持性能的同时大幅降低推理成本。</p>\n<h2 data-start=\"694\" data-end=\"720\"><strong data-start=\"694\" data-end=\"720\">瞄准AI智能体 从理解走向执行</strong></h2>\n<p data-start=\"722\" data-end=\"820\">此次发布的核心关键词并非多模态，而是智能体。英伟达明确将Nemotron 3系列定位为代理式（agentic）AI的基础模型，即不仅用于生成内容，更用于驱动具备决策与执行能力的智能体系统。</p>\n<p data-start=\"822\" data-end=\"928\">官方资料显示，Nano Omni是首个“生产级开放模型”，专为构建可扩展AI Agent设计，支持长上下文、多步骤推理以及工具调用等能力。</p>\n<p data-start=\"930\" data-end=\"998\">同时，该模型还引入GUI训练数据，使AI可以理解和操作界面元素，进一步贴近真实应用场景，例如自动化办公流程、软件操作甚至复杂工作流执行。</p>\n<p data-start=\"1000\" data-end=\"1119\">媒体解读认为，这种“全模态+Agent”组合意味着AI系统可以直接处理现实世界中的非结构化数据（视频、语音、文档），并据此做出决策，从而拓展AI在企业中的落地边界。</p>\n<h2 data-start=\"1121\" data-end=\"1142\"><strong data-start=\"1121\" data-end=\"1142\">效率仍是核心卖点：小模型撬动大能力</strong></h2>\n<p data-start=\"1144\" data-end=\"1208\">尽管能力扩展至多模态与智能体场景，Nemotron 3 Nano Omni仍延续“Nano”定位，即强调高性价比与推理效率。</p>\n<p data-start=\"1210\" data-end=\"1394\">Nemotron 3 Nano基础模型采用约300亿参数规模，但通过MoE机制每次仅激活参数30亿，在性能与成本之间取得平衡。同时，该系列模型支持超长上下文（最高达百万token级别），适合处理复杂文档与长流程任务。</p>\n<p data-start=\"1396\" data-end=\"1505\">在英伟达整体产品体系中，Nano、Super与Ultra形成梯度：Nano强调效率，Super面向高吞吐企业场景，Ultra则瞄准前沿推理能力。</p>\n<h2 data-start=\"1507\" data-end=\"1521\"><strong data-start=\"1507\" data-end=\"1521\">开源生态对抗闭源阵营</strong></h2>\n<p data-start=\"1523\" data-end=\"1609\">值得注意的是，英伟达再次强调“开放”。Nemotron 3 Nano Omni不仅开放模型权重，还配套提供训练数据、工具链（如NeMo）以及优化方案，试图打造完整开发生态。</p>\n<p data-start=\"1611\" data-end=\"1698\">这一策略正值AI行业分化加剧之际：一方面，部分头部厂商逐步转向闭源；另一方面，中国及开源社区持续推进开放模型。英伟达试图以“开放+高性能”切入中间地带，吸引开发者与企业客户。</p>\n<p data-start=\"1700\" data-end=\"1771\">从更宏观角度看，随着AI应用从“聊天机器人”迈向“智能代理”，模型能力的竞争也从单一语言理解升级为多模态融合+任务执行能力的系统竞争。</p>\n<p data-start=\"1773\" data-end=\"1855\">Nemotron 3 Nano Omni的推出，标志着英伟达不仅要卖“铲子”（GPU），也要提供“施工方案”（模型与工具链），进一步加深其在AI产业链中的纵深布局。</p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
+            "image": "https://wpimg-wscn.awtmt.com/aa5e655a-7d2b-4b9b-8e78-ec7dc36339fc.jpeg",
+            "link": "https://wallstreetcn.com/articles/3771164",
+            "author": "李丹",
+            "pub_date": "2026-04-29 05:52:17",
+            "source": "wallstreetcn",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": 3771175,
             "title": "美重量级参议员Tillis：鲍威尔任期届满后留任合情理，预计不会无限期",
             "description": "<p>美国重量级共和党参议员、北卡罗来纳州的蒂利斯（Thom Tillis）对记者表示，<strong>他理解美联储主席鲍威尔为何希望在5月15日主席任期届满后，继续在美联储董事会短暂留任。</strong></p>\n<p>Tillis解释称，<strong>留任期间可以等待两件事有所结果：一是美联储监察长对其建筑工程项目的审查，二是美国司法部就联邦法官裁定传票无效一案提起的上诉。</strong></p>\n<p>Tillis在刚刚过去的周日决定支持凯文·沃什的提名确认，扫清了新任美联储主席就位的最后障碍。他表示，美国司法部周五宣布暂停相关调查、转而依赖美联储监察长的待审报告，已打消了他长期以来的顾虑——此前他一直坚决反对在调查未结之前确认任何美联储提名人选。</p>\n<p>Tillis还透露，他在上周末与鲍威尔保持了联系，以了解美联储及其法律团队对近期事态发展的研判立场。</p>\n<p>华尔街见闻网站此前文章提到，Tillis周日宣布，他将撤回对沃什提名的阻挠立场，为委员会定于4月29日举行的提名投票扫清道路，在此之前，美国司法部宣布撤销对现任美联储主席鲍威尔的刑事调查，Tillis表示，这一决定消除了他对美联储独立性遭受威胁的核心顾虑。</p>\n<p><strong>Tillis对记者表示，他并不预期鲍威尔会“无限期”留任，并补充道：“希望上诉不会拖太久，但我认为他留到那时候是有合理依据的。”</strong>鲍威尔在美联储主席任期结束后，有权以普通理事身份留任至2028年初。</p>\n<p> </p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
@@ -224,18 +236,6 @@
             "link": "https://wallstreetcn.com/articles/3771153",
             "author": "李佳",
             "pub_date": "2026-04-29 00:07:20",
-            "source": "wallstreetcn",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": 3771162,
-            "title": "立讯精密预计上半年净利润78.4亿-81.1亿元人民币，预计上半年净利润变动+18％至+22％",
-            "description": "<p>立讯精密预计上半年净利润78.4亿-81.1亿元人民币，预计上半年净利润变动+18％至+22％。</p><div style=\"color: #666; margin-bottom: 15px;\">风险提示及免责条款</div>\n          <div style=\"font-size: 12px;font-family: 黑体;color: #666;line-height: 20px;\">\n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。\n          </div>",
-            "image": "https://wpimg-wscn.awtmt.com/80203ef4-fc27-4cdf-bb05-1fff0997e4e1.png",
-            "link": "https://wallstreetcn.com/articles/3771162",
-            "author": "杨宸",
-            "pub_date": "2026-04-29 00:07:19",
             "source": "wallstreetcn",
             "kind": 1,
             "language": "zh-CN"
