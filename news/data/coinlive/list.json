@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 1096474,
+            "title": "The ZetaChain vulnerability was exploited, possibly stemming from a flaw in the GatewayZEVM call function.",
+            "description": "SlowMist reported that ZetaChain was attacked and exploited. Preliminary analysis indicates the vulnerability stems from a lack of access control and input validation in the GatewayZEVM contract's `call` function. Attackers could exploit this to initiate malicious cross-chain calls and perform arbitrary operations on the target chain to transfer funds via the relay mechanism. SlowMist stated that attackers forged cross-chain events to trigger malicious calls to the relay, thereby stealing funds. The related attack transactions have been disclosed.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096474&language=en-US",
+            "pub_date": "2026-04-28 11:31:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1096473,
+            "title": "ZachXBT questions whether Sam Altman's associated project, World, is using token distribution to obtain biometric data from users in low-income countries.",
+            "description": "achXBT published an article on the X platform criticizing Sam Altman's associated project World (formerly WorldCoin), questioning its practice of exchanging WLD tokens for biometric data from users in low-income countries. The article also criticized WLD's low-circulation token design, claiming that its identity verification system fosters black market trading of verified accounts, and questioned the token inflation mechanism and off-exchange holdings.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096473&language=en-US",
+            "pub_date": "2026-04-28 11:38:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1096472,
             "title": "ZetaChain Exploited Due to Contract Vulnerability",
             "description": "ZetaChain has been exploited, according to Odaily, with initial analysis indicating that the vulnerability stems from the GatewayZEVM contract's call function lacking access control and input validation. This flaw allowed attackers to initiate malicious cross-chain calls and execute arbitrary operations on the target chain to transfer funds.\n\nThe attackers reportedly forged cross-chain events to trigger relayers to execute malicious calls, resulting in the theft of funds. The transactions related to this attack have now been disclosed.",
@@ -176,26 +196,6 @@
             "description": "Solana's ecosystem has introduced three open-source tools under the Squads Protocol v4 to improve multisig management practices. According to Foresight News, these tools aim to elevate security standards in collaboration with STRIDE. The tools include multisig-cli, a Rust command-line tool designed for reviewing, simulating, signing, and executing multisig proposals, suitable for high-trust operational scenarios. Multisig-verifier offers a static zero-backend browser interface that reads multisig wallet status directly from Solana RPC, allowing members to approve or reject proposals through their wallets. Multisig-monitor provides real-time monitoring of specified multisig wallet activities, decoding operations and issuing notifications during creation, voting, execution, or configuration changes.\n\nSquads stated that this release marks the first step towards developing multiple independent frontends and access points, encouraging teams to cross-verify signatures through various interfaces to reduce supply chain risks and blind signing possibilities. Future plans include launching independent instances not associated with Squads.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096454&language=en-US",
             "pub_date": "2026-04-28 10:33:41",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1096453,
-            "title": "China's Social Insurance Coverage and Fund Performance in Q1",
-            "description": "On April 28, the Ministry of Human Resources and Social Security held a routine press conference. According to Jin10, spokesperson Cui Pengcheng reported that by the end of March, the number of people covered by basic pension insurance, unemployment insurance, and work-related injury insurance (including occupational injury protection) in China reached 1.073 billion, 247 million, and 319 million, respectively. These figures represent year-on-year increases of 1.87 million, 2.8 million, and 21.52 million people. In the first quarter, the total revenue of the three social insurance funds amounted to 2.54 trillion yuan (2.54万亿元), while total expenditures were 2.06 trillion yuan (2.06万亿元). By the end of March, the cumulative balance stood at 10.8 trillion yuan (10.8万亿元), indicating stable overall fund operations.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096453&language=en-US",
-            "pub_date": "2026-04-28 10:43:10",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1096452,
-            "title": "SEC Chair Advocates for Instant Settlement and Blockchain Adoption",
-            "description": "U.S. Securities and Exchange Commission (SEC) Chair Paul Atkins emphasized the need for advancing securities settlement towards instant settlement (T+0) at the \"Bitcoin 2026\" conference. According to Foresight News, Atkins highlighted that blockchain technology could fundamentally eliminate the time risk between delivery and settlement. Furthermore, the SEC's core approach to token classification focuses on whether there is an investment commitment from the issuer, rather than the token's form. Once assets are listed and traded, if they deviate from the issuer's commitment, they are no longer subject to securities information disclosure obligations.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096452&language=en-US",
-            "pub_date": "2026-04-28 10:43:34",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
