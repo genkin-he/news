@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "019dd224-efca-76b3-9296-c5748d5bd654",
+            "title": "慢雾分析ZetaChain遭攻击原因：GatewayZEVM合约call函数缺乏访问控制",
+            "description": "PANews 4月28日消息，据慢雾分析，ZetaChain被攻击的根本原因在于GatewayZEVM合约的call函数缺乏访问控制和输入验证，允许任意用户通过GatewayZEVM发起跨链调用，并通过中继器在外部链上执行任意操作。攻击者利用此漏洞在ZetaChain上构造恶意跨链事件，中继器捕获后通过TSS在目标链上执行恶意调用，从而窃取资金。 此前消息， ZetaChain：GatewayEVM合约遭攻击，已封堵攻击途径且用户资金安全 。",
+            "link": "https://www.panewslab.com/articles/019dd224-efca-76b3-9296-c5748d5bd654",
+            "pub_date": "2026-04-28 11:32:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019dd217-9760-772f-ad67-fcf09eeea5b4",
             "title": "DeFi United发布恢复KelpDAO rsETH抵押支持的技术实施计划",
             "description": "PANews 4月28日消息，据Aave官方X账号公告，DeFi United发布了恢复KelpDAO rsETH抵押支持的技术实施计划。DeFi United已筹集所需ETH，将通过分批注入桥接锁仓合约，使rsETH恢复至1.07 ETH的名义兑换率。同时，通过治理提案临时调整rsETH预言机价格，清算攻击者在Aave和Compound上的约10.7万枚rsETH头寸，回收资金填补市场缺口。Compound预计回收约1.68万ETH。清理期间，WETH和rsETH在多条链上保持冻结。恢复完成后，所有临时调整将还原。",
@@ -186,16 +196,6 @@
             "description": "PANews 4月28日消息，据链上分析师Ai姨监测，麻吉（黄立成）价值7916万美元的多单已由盈转亏，此前曾一度浮盈超270万美元。 BTC多单持仓555枚（4276万美元），浮盈45.6万美元； ETH多单持仓1.56万枚（3585万美元），浮亏48.6万美元； HYPE多单持仓1.288888万枚（53.3万美元），浮盈4797美元。",
             "link": "https://www.panewslab.com/articles/019dd1ce-9c4e-745c-87e4-69bedc8597eb",
             "pub_date": "2026-04-28 09:57:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019dd1bd-7e89-7128-ac64-ac3b23a5c98e",
-            "title": "两个Galaxy Digital关联钱包近15小时共向CEX存入4.5万枚ETH，约合1.04亿美元",
-            "description": "PANews 4月28日消息，据Lookonchain监测，与Galaxy Digital关联的两个钱包在过去15小时内向Binance、Bybit和OKX存入4.5万枚ETH（1.04亿美元）。",
-            "link": "https://www.panewslab.com/articles/019dd1bd-7e89-7128-ac64-ac3b23a5c98e",
-            "pub_date": "2026-04-28 09:39:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
