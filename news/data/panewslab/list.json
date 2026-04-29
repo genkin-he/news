@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "019dd85e-2a2d-75ce-8db1-ee2fbb3498fd",
+            "title": "Lido拟临时下调EarnETH金库首损保护门槛，应对Kelp事件损失",
+            "description": "PANews 4月29日消息，Lido Finance在X平台披露，Lido DAO正在考虑一项提案，授权在Kelp事件中临时将EarnETH金库的首损保护触发门槛从1%下调。目前Lido EarnETH的保护机制仅在金库损失超过1%时触发，但Lido贡献者预计，若DeFi United救援行动成功填补rsETH缺口，实际损失可能在400至600枚ETH之间，低于1%阈值。出于保护用户、维护品牌和降低法律风险的考虑，提案建议对Kelp事件进行一次性例外处理，而非修改1%的通用规则。该提案具有时间紧迫性，预计rsETH事件将在5至10天内解决。",
+            "link": "https://www.panewslab.com/articles/019dd85e-2a2d-75ce-8db1-ee2fbb3498fd",
+            "pub_date": "2026-04-29 16:32:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019dd845-36ee-75ae-af6a-fa5ad689e6f3",
             "title": "Gate永续合约API升级支持分仓持仓模式，策略灵活性再提升",
             "description": "PANews 4月29日消息，据官方公告，Gate 将于 2026 年 4 月 30 日（UTC+8）对永续合约 API 进行升级，正式支持分仓持仓模式，进一步满足量化及程序化交易用户的多策略需求。升级后，用户可在同一合约市场下同时持有全仓与逐仓、多空等多种仓位组合，实现更灵活的仓位管理。本次升级新增持仓模式切换接口，支持单向、双向及分仓模式；下单及查询接口同步新增字段，用于区分全仓与逐仓，并提升数据获取与策略执行效率。同时支持逐仓多空方向分别设置杠杆，进一步优化交易灵活性。 据悉，Gate 传统资产品类布局完善，覆盖范围全网最全。",
@@ -186,16 +196,6 @@
             "description": "PANews 4月29日消息，据SolanaFloor报道，Solana链上现实世界资产（RWA）生态总价值已突破25亿美元，创下历史新高。一年前，该数值仅为2.15亿美元。",
             "link": "https://www.panewslab.com/articles/019dd7a4-8ec3-7748-abe9-45c96514ada1",
             "pub_date": "2026-04-29 13:09:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019dd769-5b5c-766d-beb4-9bb2e860e44d",
-            "title": "慢雾：检测到一笔利用存在漏洞的EIP-7702账户的恶意交易，损失约54.93枚ETH",
-            "description": "PANews 4月29日消息，据慢雾监测，检测到一笔利用存在漏洞的EIP-7702账户的恶意交易，导致QNT储备池损失1,988.5枚QNT（约54.93枚ETH）。根本原因在于，一个QNT储备池的管理员身份由一个EOA地址持有，该地址通过EIP-7702机制将其代码委托给了一个BatchExecutor合约。该BatchExecutor将无需许可的BatchCall合约指定为授权调用方。然而，BatchCall.batch()函数完全对外开放，没有任何权限检查，导致出现任意调用漏洞，攻击者借此从储备池中盗走QNT代币。",
-            "link": "https://www.panewslab.com/articles/019dd769-5b5c-766d-beb4-9bb2e860e44d",
-            "pub_date": "2026-04-29 12:04:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
