@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "id": 1096927,
+            "title": "SlowMist: EIP-7702 account vulnerability led to the theft of 1988 QNT, worth approximately 55 ETH.",
+            "description": "According to SlowMist monitoring, a QNT reserve pool suffered an attack due to a design flaw in the EIP-7702 account, resulting in the loss of 1988.5 QNT, worth approximately 54.93 ETH. The root cause of the attack lies in the fact that the administrator of the reserve pool was held by an address that delegated its code to the BatchExecutor contract through EIP-7702. Because BatchExecutor authorized the BatchCall contract, which lacked permission control, as the caller, and the BatchCall.batch function lacked permission checks, the attacker exploited an arbitrary call vulnerability to extract tokens from the pool.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096927&language=en-US",
+            "pub_date": "2026-04-29 12:21:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1096926,
+            "title": "BitMart contracts will list PROSUSDT, CRDOUSDT, and APLDUSDT.",
+            "description": "According to the official announcement, BitMart will launch perpetual contracts for PROSUSDT, CRDOUSDT, and APLDUSDT on April 29, 2026 at 14:00 (UTC+8), supporting leverage up to 20x.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096926&language=en-US",
+            "pub_date": "2026-04-29 12:23:00",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1096929,
+            "title": "QNT Reserve Pool Suffers Attack Due to EIP-7702 Design Flaw",
+            "description": "A QNT reserve pool has been attacked, resulting in the loss of 1,988.5 QNT tokens, according to Odaily. The attack stemmed from a design flaw in the EIP-7702 account, where the pool's administrator identity was held by an address that delegated its code to the BatchExecutor contract. The BatchExecutor authorized the BatchCall contract as a caller without permission control, and the BatchCall.batch function lacked permission checks. This allowed the attacker to exploit the vulnerability and extract tokens from the pool.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096929&language=en-US",
+            "pub_date": "2026-04-29 12:23:40",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1096928,
+            "title": "Morgan Stanley's Bitcoin ETF Entry Sparks Debate on Crypto Market Impact",
+            "description": "Morgan Stanley's recent entry into the U.S. spot Bitcoin ETF market is seen by some observers as a potential catalyst to end the current crypto bear market, due to the firm's extensive $8 trillion wealth advisor network. According to ChainCatcher, Blockstream CEO and early Bitcoin community contributor Adam Back expressed skepticism about the immediate impact of this development.\n\nBack, who was recently speculated by The New York Times to be Bitcoin's anonymous founder Satoshi Nakamoto—a claim he denies—emphasized that while the Bitcoin ETF represents a significant market signal, its influence may unfold more slowly than anticipated. He noted that institutional adoption tends to be gradual, and although ETFs have been purchased, fund managers have yet to allocate the suggested 2% to 4% in general stock portfolios, as advised by BlackRock.\n\nBack explained that the process of building positions might take a year or even 18 months, as investors are unlikely to rush in overnight. He also highlighted the importance of considering Bitcoin's four-year halving cycle, which could still lead to price declines despite some commentators suggesting the cycle is breaking. The expectation of the cycle's occurrence often leads to selling, reinforcing its impact.\n\nRegarding recent discussions on the potential threat of quantum computing advancements to Bitcoin cryptography, Back noted that institutions are more systematic in risk management, focusing on tail risks, while retail investors view it as a distant future concern.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096928&language=en-US",
+            "pub_date": "2026-04-29 12:23:48",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1096923,
             "title": "Polymarket has a new article titled \"Will other countries leave OPEC in 2026?\"",
             "description": "According to Odaily Seer, a new prediction market event has been launched on Polymarket, predicting whether another country will leave OPEC in 2026. The current probability of \"yes\" is 36%. The event's rules state that if another OPEC member officially announces its withdrawal by 11:59 PM GMT on December 31, 2026, the market will declare it \"yes\"; otherwise, it will declare it \"no.\" Informal statements, anonymous sources, or leaked information are invalid. The market's primary decision-making basis is official information from the relevant government, but it also considers consensus from other credible reports. The UAE previously announced its withdrawal from OPEC and OPEC+ on May 1st. As a long-time OPEC member, the UAE's unexpected withdrawal could plunge the organization into chaos and weaken its influence. Analysts believe that the UAE's withdrawal from OPEC could be a major victory for Trump, who has accused the organization of \"blackmailing the rest of the world\" by driving up oil prices. Odaily Seer continues to monitor prediction markets, anticipating changes before they are priced in.",
@@ -156,46 +196,6 @@
             "description": "Ant Group has announced the launch of its Ling-2.6-flash commercial model, LingDT-2.6-flash. According to Foresight News, this model emphasizes 'Token efficiency,' offering a 90% reduction in Token consumption compared to models with similar parameters during evaluation tasks. The model is designed to cater to large-scale deployments in real-world business scenarios.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096908&language=en-US",
             "pub_date": "2026-04-29 11:23:33",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1096907,
-            "title": "Iran Conflict Stalemate Persists as Diplomatic Efforts Unfold",
-            "description": "The ongoing conflict between the United States and Iran has reached a 60-day stalemate, with both nations entrenched in a 'no war, no talk' confrontation. According to PANews, Iranian Foreign Minister has initiated a diplomatic campaign, proposing a new step-by-step negotiation plan. The crisis in the Strait of Hormuz continues to impact global energy and economic stability. This article examines the roots of the U.S.-Iran standoff and potential future developments.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096907&language=en-US",
-            "pub_date": "2026-04-29 11:23:43",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1096906,
-            "title": "Prediction Market ETFs Set to Launch Next Week",
-            "description": "Prediction market ETFs are expected to officially launch next week, according to ChainCatcher. Bloomberg ETF analyst James Seyffart revealed that Roundhill has submitted the relevant application documents, with the effective date set for May 5. The initial prediction market ETFs will focus on the election outcomes of whether the U.S. Democratic or Republican Party will control the House of Representatives or the Senate.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096906&language=en-US",
-            "pub_date": "2026-04-29 11:23:55",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1096905,
-            "title": "Starknet to Launch Privacy Bitcoin Asset strkBTC in May 2026",
-            "description": "Starknet Foundation's Vice President of Growth, Damian Chen, announced at the 'Bitcoin 2026' conference that the privacy-focused Bitcoin asset, strkBTC, will officially launch on May 12. According to Foresight News, strkBTC is designed to maintain a 1:1 peg with Bitcoin and is governed through a multi-signature approach involving UTXO, Twinsnake, Luganodes, and Xverse, with a third-party asset screening mechanism to prevent prohibited or sanctioned assets from entering the privacy pool.\n\nOnce users transfer Bitcoin across chains to Starknet, it enters a privacy pool where all transactions and transfers are completely invisible to external observers. During withdrawal, users can opt to send funds to one or multiple new addresses, with external observers only able to see funds entering the bridge contract and exiting the cross-chain contract, without tracking the intermediate paths. The privacy pool employs cryptographic credential mechanisms, allowing users to hold view keys that decrypt their transaction records, which can be presented to tax authorities or law enforcement for compliance audits.\n\nChen highlighted that personal attacks on crypto holders increased by 75% in 2025 compared to the previous year, with France experiencing 41 crypto-related kidnapping cases this year. AI tools can now associate on-chain addresses with real identities at a cost of just a few dollars within seconds, achieving 90% accuracy. Current privacy options, such as privacy coins, centralized exchange coin mixing, and mixers, have significant flaws. He stated that strkBTC is currently a trusted wrapped asset, with plans to upgrade to a trustless bridge implemented by BitVM, aiming for native Bitcoin verification on Starknet after completing STARK verification. Additionally, the team is exploring the possibility of making strkBTC resistant to quantum attacks, with specific plans to be announced soon.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096905&language=en-US",
-            "pub_date": "2026-04-29 11:13:42",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1096904,
-            "title": "MYX Finance Scheduled to Unlock Tokens on May 6",
-            "description": "MYX Finance is set to unlock approximately 18.06 million tokens on May 6 at 0:00 UTC+8. According to ChainCatcher, this token release is valued at around $4.87 million. The unlocking event is part of MYX Finance's ongoing token distribution plan.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1096904&language=en-US",
-            "pub_date": "2026-04-29 11:13:57",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
