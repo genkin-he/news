@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "019dd769-5b5c-766d-beb4-9bb2e860e44d",
+            "title": "慢雾：检测到一笔利用存在漏洞的EIP-7702账户的恶意交易，损失约54.93枚ETH",
+            "description": "PANews 4月29日消息，据慢雾监测，检测到一笔利用存在漏洞的EIP-7702账户的恶意交易，导致QNT储备池损失1,988.5枚QNT（约54.93枚ETH）。根本原因在于，一个QNT储备池的管理员身份由一个EOA地址持有，该地址通过EIP-7702机制将其代码委托给了一个BatchExecutor合约。该BatchExecutor将无需许可的BatchCall合约指定为授权调用方。然而，BatchCall.batch()函数完全对外开放，没有任何权限检查，导致出现任意调用漏洞，攻击者借此从储备池中盗走QNT代币。",
+            "link": "https://www.panewslab.com/articles/019dd769-5b5c-766d-beb4-9bb2e860e44d",
+            "pub_date": "2026-04-29 12:04:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019dd766-aefe-72cd-93ec-a0e3c397b340",
             "title": "比特币现货ETF昨日总净流出8967.54万美元，贝莱德IBIT净流出1.12亿美元居首",
             "description": "PANews 4月29日消息，根据 SoSoValue 数据，昨日（美东时间 4 月 28 日）比特币现货 ETF 总净流出 8967.54 万美元。 昨日单日净流入最多的比特币现货 ETF 为 Ark Invest 和 21Shares 的 ETF ARKB，单日净流入为 4120.21 万美元，目前 ARKB 历史总净流入达 16.08 亿美元。 昨日单日净流出最多的比特币现货 ETF 为贝莱德 (Blackrock） ETF IBIT，单日净流出为 1.12 亿美元，目前 IBIT 历史总净流入达 7811.80 万美元。",
@@ -186,16 +196,6 @@
             "description": "PANews 4月29日消息，据官方公告，韩国加密交易所Upbit将在韩元、BTC、USDT市场上线BLEND代币，交易将于当地时间4月29日14:00开始。",
             "link": "https://www.panewslab.com/articles/019dd70c-a576-72bf-b1e3-17337a930192",
             "pub_date": "2026-04-29 10:23:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019dd70e-1f09-71be-a87a-d426ee2a7da7",
-            "title": "ASTEROID榜一地址清仓获利8.37万美元后转向SCAN，反亏8.68万美元",
-            "description": "PANews 4月29日消息，据链上分析师Ai姨监测，Solana ASTEROID榜一地址JBhVo…MBYiv清仓ASTEROID转向SCAN后亏损，整体利润归零。该地址峰值持仓5280万枚ASTEROID，5小时前以均价0.00306美元清仓，累计获利8.37万美元（平均成本0.00148美元）。随后分批加仓SCAN，投入13.5万美元，平均成本0.00856美元，但在马斯克取消置顶推文后SCAN暴跌，该地址割肉离场亏损8.68万美元。",
-            "link": "https://www.panewslab.com/articles/019dd70e-1f09-71be-a87a-d426ee2a7da7",
-            "pub_date": "2026-04-29 10:25:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
