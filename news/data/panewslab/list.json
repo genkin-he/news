@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "019dd845-36ee-75ae-af6a-fa5ad689e6f3",
+            "title": "Gate永续合约API升级支持分仓持仓模式，策略灵活性再提升",
+            "description": "PANews 4月29日消息，据官方公告，Gate 将于 2026 年 4 月 30 日（UTC+8）对永续合约 API 进行升级，正式支持分仓持仓模式，进一步满足量化及程序化交易用户的多策略需求。升级后，用户可在同一合约市场下同时持有全仓与逐仓、多空等多种仓位组合，实现更灵活的仓位管理。本次升级新增持仓模式切换接口，支持单向、双向及分仓模式；下单及查询接口同步新增字段，用于区分全仓与逐仓，并提升数据获取与策略执行效率。同时支持逐仓多空方向分别设置杠杆，进一步优化交易灵活性。 据悉，Gate 传统资产品类布局完善，覆盖范围全网最全。",
+            "link": "https://www.panewslab.com/articles/019dd845-36ee-75ae-af6a-fa5ad689e6f3",
+            "pub_date": "2026-04-29 16:04:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019dd83f-603f-742d-960f-ff8531ad0cce",
             "title": "币安Alpha将于今日17:00上线Gensyn（AIGENSYN）交易，空投门槛为227个积分",
             "description": "PANews 4月29日消息，据官方公告，币安Alpha将于2026年4月29日17:00（UTC+8）开启Gensyn（AIGENSYN）交易，拥有至少227个币安Alpha积分的用户可按先到先得的方式领取715枚AIGENSYN代币的空投。如果奖励池未全部发放完毕，积分门槛将每5分钟自动降低5个。请注意，领取空投将消耗15个币安Alpha积分。用户必须在24小时内于Alpha活动页面确认领取，否则将被视为放弃领取。活动开始前两小时仅支持限价单交易，市价单将在活动开始两小时后开放。以太坊网络可能在高峰期出现拥堵，如交易失败，请稍后再试。",
@@ -186,16 +196,6 @@
             "description": "PANews 4月29日消息，据慢雾监测，检测到一笔利用存在漏洞的EIP-7702账户的恶意交易，导致QNT储备池损失1,988.5枚QNT（约54.93枚ETH）。根本原因在于，一个QNT储备池的管理员身份由一个EOA地址持有，该地址通过EIP-7702机制将其代码委托给了一个BatchExecutor合约。该BatchExecutor将无需许可的BatchCall合约指定为授权调用方。然而，BatchCall.batch()函数完全对外开放，没有任何权限检查，导致出现任意调用漏洞，攻击者借此从储备池中盗走QNT代币。",
             "link": "https://www.panewslab.com/articles/019dd769-5b5c-766d-beb4-9bb2e860e44d",
             "pub_date": "2026-04-29 12:04:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019dd766-aefe-72cd-93ec-a0e3c397b340",
-            "title": "比特币现货ETF昨日总净流出8967.54万美元，贝莱德IBIT净流出1.12亿美元居首",
-            "description": "PANews 4月29日消息，根据 SoSoValue 数据，昨日（美东时间 4 月 28 日）比特币现货 ETF 总净流出 8967.54 万美元。 昨日单日净流入最多的比特币现货 ETF 为 Ark Invest 和 21Shares 的 ETF ARKB，单日净流入为 4120.21 万美元，目前 ARKB 历史总净流入达 16.08 亿美元。 昨日单日净流出最多的比特币现货 ETF 为贝莱德 (Blackrock） ETF IBIT，单日净流出为 1.12 亿美元，目前 IBIT 历史总净流入达 7811.80 万美元。",
-            "link": "https://www.panewslab.com/articles/019dd766-aefe-72cd-93ec-a0e3c397b340",
-            "pub_date": "2026-04-29 12:01:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
