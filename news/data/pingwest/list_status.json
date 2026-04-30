@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "title": "前推特CEO创办Parallel Web Systems，B轮融资后估值达20亿美元",
+            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月30日讯，据 ventureburn 报道，由前推特首席执行官帕拉格・阿格拉瓦尔创立的Parallel Web Systems近日完成1亿美元B轮融资，由红杉资本领投，凯鹏华盈、指数创投和科斯拉风投等跟投。此轮融资后，公司估值跃升至20亿美元，累计融资总额达2.3亿美元。</span></p><p><span>Parallel Web Systems致力于打造专为AI智能体服务的“平行网络”基础设施。与面向人类设计的传统网页不同，其平台利用专有网络索引和定制API，优先保障数据密度与可验证性，使AI智能体能够以远超人类的效率和精度进行深度研究。</span></p><p><span>目前，包括法律AI公司Harvey在内的企业已采用其技术。红杉资本合伙人安德鲁・里德表示，Parallel正在构建让AI“大脑”与世界信息交互的“神经系统”。新资金将用于扩充全球销售团队及研发体系，重点服务于金融、保险等高价值行业客户。</span></p><figure class=\"image\"><img alt=\"\" height=\"531\" src=\"https://cdn.pingwest.com/portal/2026/04/30/5XSRM5En3hp5szPh57kHR7RR35F977e5.jpg?x-oss-process=style/article-body\" title=\"\" width=\"1024\"/></figure></article>",
+            "link": "https://www.pingwest.com/w/313418",
+            "pub_date": "2026-04-30 09:30:25",
+            "source": "pingwest_status",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "title": "OpenAI开源realtime-voice-component，优化React语音交互体验",
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月30日讯，据GitHub 页面显示，OpenAI近日发布基于OpenAI Realtime API构建的开源参考实现realtime-voice-component。该库专为React环境设计，旨在为具有明确预定义工具的应用提供低延迟、状态可感知的语音交互界面。</span></p><p><span>该组件采用工具受限型交互架构，要求应用预定义精确的智能体动作，工具所有权归属于应用端，由UI负责最终的状态变更。它提供原生React绑定与控制器，支持跨屏幕共享实例，以处理多步骤表单等复杂业务流。</span></p><p><span>为确保交互准确性，该组件内置可视化确认机制“Ghost Cursor”，为语音触发的UI操作提供视觉反馈与二次确认，降低指令误判风险。在功能定位上，该组件专注于UI渲染层，与底层传输协议及高层编排框架互补。此外，Demo示例中还集成了基于运行时的可选“唤醒词”检测实验功能。</span></p><figure class=\"image\"><img alt=\"\" height=\"445\" src=\"https://cdn.pingwest.com/portal/2026/04/30/5k5rfj5RS8k5QJ4FF2HE37AMDepXY2tE.png?x-oss-process=style/article-body\" title=\"\" width=\"775\"/></figure></article>",
             "link": "https://www.pingwest.com/w/313417",
@@ -77,15 +86,6 @@
             "description": "<article class=\"wire-content article-style\"><p><span>品玩4月29日讯，亚马逊云科技官方近日宣布，大幅扩展与OpenAI的合作伙伴关系，即日起通过Amazon Bedrock提供最新的OpenAI模型、编程助手Codex以及由OpenAI支持的托管智能体服务（均为有限预览版）。此举标志着AWS客户将首次能够在其信赖的云基础设施中，直接调用OpenAI的前沿智能。</span></p><p><span>此次合作涵盖三项核心内容：最新OpenAI模型（包括GPT-5.5等）正式登陆Amazon Bedrock，企业可沿用现有的API接口与安全体系调用；OpenAI编程助手Codex接入Bedrock，支持开发者在VS Code等环境中利用AWS凭证进行身份认证与推理；AWS同步推出由OpenAI支持的Bedrock托管智能体，旨在简化生产级AI智能体的构建与部署。</span></p><p><span>通过这一整合，企业可将OpenAI模型的使用费用计入现有的AWS云承诺支出，无需配置额外基础设施即可实现统一的安全治理与成本管理。AWS表示，这只是双方深化合作的开端，未来将持续把OpenAI的最新技术进展引入Amazon Bedrock。</span></p><figure class=\"image\"><img alt=\"\" height=\"1125\" src=\"https://cdn.pingwest.com/portal/2026/04/29/sj7kMhZEA8T4jiC84Wi8s38dTDEa4SS1.jpeg?x-oss-process=style/article-body\" title=\"\" width=\"2000\"/></figure></article>",
             "link": "https://www.pingwest.com/w/313400",
             "pub_date": "2026-04-29 14:57:01",
-            "source": "pingwest_status",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "title": "阶跃星辰发布 Step Image Edit 2，重塑轻量级图像编辑模型能力边界",
-            "description": "<article class=\"wire-content article-style\"><p><span>品玩4月29日讯，阶跃星辰今日正式发布新一代图像生成编辑模型 Step Image Edit 2。该模型参数量仅为 3.5B，却实现了对 12B-20B 级开源模型的跨量级超越，单次生图仅需 0.5-2 秒，支持文生图与图像编辑双重任务。</span></p><p><span>该模型采用多专家驱动的自演化学习框架与分布匹配强化学习（DARL）机制，突破了轻量化模型的能力上限。在超五千万规模的专项训练数据支持下，其在 KRIS-Bench 榜单中综合排名第一，具备卓越的中英文渲染、局部编辑及主体一致性保持能力。</span></p><p><span>目前，Step Image Edit 2 已全量上线阶跃星辰开放平台，限时免费体验活动将持续至 5 月 5 日。</span></p><figure class=\"image\"><img alt=\"\" height=\"394\" src=\"https://cdn.pingwest.com/portal/2026/04/29/r97nCy32y671DtFcX1WY7f_eyFaHQK1D.png?x-oss-process=style/article-body\" title=\"\" width=\"753\"/></figure></article>",
-            "link": "https://www.pingwest.com/w/313397",
-            "pub_date": "2026-04-29 14:30:31",
             "source": "pingwest_status",
             "kind": 1,
             "language": "zh-CN"
