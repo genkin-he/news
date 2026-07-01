@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "title": "Google 力推 Private AI Compute，雲端安全處理 Gemini 運算",
+            "description": "<div class=\"indent\">\n<p>數十年來，Google 持續研發隱私強化技術，改善各種 AI 相關應用情境，現在邁出關鍵下一步，利用雲端的 Private AI Compute 建構有助於保障用戶安全的體驗。</p>\n<p><span id=\"more-1466837\"></span></p>\n<p>Private AI Compute 是在雲端提供一個安全且加強保護的環境，隔離並隱密處理你的資料，如同你期待在裝置端處理敏感資訊一樣。在可信任邊界內，你的個人資訊、獨特見解以及使用方式，除既有 AI 防護外，再添加一層安全與隱私保護。</p>\n<p>Private AI Compute 建構在多層系統之上，從底層即依循安全與隱私原則設計：</p>\n<p>首先，Private AI Compute 運行在一個無縫銜接的 Google 技術堆疊上，由 Google 自行研發 TPU（Tensor Processing Unit）提供支援，Titanium Intelligence Enclaves（TIE）將世界級的隱私與安全整合到這個架構。藉由這項設計，Google AI 功能得以使用雲端最強大、最智慧的 Gemini 模型，同時符合 Google 高度隱私標準，並依賴與 Gmail、Google 搜尋相同的內部運算基礎設施。</p>\n<p>透過遠端認證與加密技術，你的裝置可連接到專為硬體安全密封的雲端環境，使 Gemini 模型能在專門受保護的空間安全處理你的資料。這確保經由 Private AI Compute 處理的敏感資料只有你自己能讀取，連 Google 也無權查看。</p>\n<p>Private AI Compute 讓裝置端功能在保障隱私的同時，具備強大延伸能力。透過這項技術，Pixel 10 手機上的<a href=\"https://technews.tw/2025/08/21/spend-less-time-switching-apps-to-find-the-info-you-need-with-magic-cue/\" target=\"_blank\">魔術提示</a>（Magic Cue）可取得更即時的建議，而 Pixel 手機的錄音工具也能針對更多語言的逐字稿進行摘要。這只是開始，Private AI Compute 將為 Google 的 AI 體驗開啟全新可能。</p>\n<p>值得一提的是，蘋果推出 Apple Intelligence 即主打 <a href=\"https://technews.tw/2025/11/12/google-private-ai-compute-apple-intelligence/\" target=\"_blank\">Private Cloud Compute</a>，運作原理與上述 Private AI Compute 相似，這方面蘋果比 Google 更早規劃布局。</p>\n<p>（首圖來源：<a href=\"https://blog.google/technology/ai/google-private-ai-compute/\" target=\"_blank\">Google Blog</a>）</p>\n<h3>延伸閱讀：</h3>\n<ul>\n<li><a href=\"https://technews.tw/2025/11/12/google-private-ai-compute-apple-intelligence/\" target=\"_blank\">Google 最新 AI 布局證明 Apple Intelligence 某種程度上走對路？</a></li>\n</ul>\n</div>",
+            "link": "https://infosecu.technews.tw/2025/11/12/google-introduces-private-ai-compute/",
+            "pub_date": "2025-11-12 15:50:47",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "諾貝爾獎得主 × Claude，破解困擾物理學界 12 年的數學猜想",
+            "description": "<div class=\"indent\">\n<p>複雜系統物理學領域懸而未決超過 10 年的一道數學公式證明，近日在 2021 年諾貝爾物理學獎得主 Giorgio Parisi、羅馬大學物理學家 Francesco Zamponi 與 AI 模型 Claude 的合作下解決了。<span id=\"more-1580753\"></span></p>\n<p>物理學中，阻塞（Jamming）是描述粒子系統從流體突然變成剛性狀態但內部仍無序的現象，就像粒子「交通堵塞」，由於粒子被彼此卡住，使可流動材料表現出類似固體性質，這個概念常用來解釋泡沫、顆粒材料、其他複雜流體、神經科學與人工智慧等領域。</p>\n<p>2014 年，羅馬大學榮譽教授 Giorgio Parisi（2021 年諾貝爾物理學獎得主之一）、羅馬大學物理學家 Francesco Zamponi 等人建立一套阻塞理論，並注意到模型中 2 個數學參數（以 a 和 b 表示）總是滿足 a + b = 1。</p>\n<p>更有趣的是，這條公式能套用到法國物理學家 Matthieu Wyart 根據不同框架獨立發展的另一套阻塞理論，簡單來說，這 2 套理論用完全不同語言描述同一物理現象，暗示看似不同的數學描述方式可導出相同物理定律。</p>\n<p>然而儘管數值高度一致，研究人員 12 年來始終無法給出嚴格數學證明（觀察到公式成立，但沒有人能證明 a + b = 1 為什麼是真的），成為「看起來簡單卻解不出來」的棘手問題。</p>\n<p>Giorgio Parisi 對於自己始終證明不出耿耿於懷，隨著生成式 AI 出現，他認為這個問題是測試生成式 AI 的理想案例，原因包括：問題明確（清楚猜想）、數學結構相對簡單、數值答案已知，只差正式證明。</p>\n<p>最後 Giorgio Parisi 決定把這個「心結」交給 Claude，選擇 Claude 的理由是 Claude 數學推理能力略優於其他模型。</p>\n<h3>雙向糾正</h3>\n<p>團隊並未一開始就要求 AI 直接證明，而是逐步引導：先請 Claude 重現他們 10 多年前的數值計算，確認 AI 能否處理真實物理問題，再進一步詢問「若 a + b = 1，你能證明為什麼嗎？」</p>\n<p>Claude 迅速給出正確思路，雖然證明過程仍有誤，但經過研究團隊多次糾正驗證，竟成功完成嚴格數學證明。</p>\n<h3>解法比想像中簡單</h3>\n<p>研究團隊原以為這個關係背後隱藏著深奧數學結構或未知對稱性，但最終答案卻比預期單純，答案其實就在眼前，只是我們一直沒看到。</p>\n<p>科學上，這個數學證明確認 Giorgio Parisi 的 full-RSB 理論、Matthieu Wyart 的力學臨界穩定性理論雖然出發點完全不同，實際上殊途同歸，描述的是同一物理現象。</p>\n<p>研究人員與 Claude 也不像工具服侍人類，更像平等同事，討論過程完整公開——哪些步驟由 Claude 推導、哪些步驟由人類修改，全都可逐段查閱。</p>\n<p>AI 邏輯能提供人類常忽略的解題思路，而人類具設定問題框架、發現 AI 根本性邏輯錯誤、重新定義問題方向能力，如今連諾貝爾獎得主都親自展示，生成式 AI 也具輔助頂尖理論物理研究的潛力。</p>\n<ul>\n<li><a href=\"https://phys.org/news/2026-06-physicists-ai-claude-collaborate-year.html\">Physicists and AI model Claude ‘collaborate’ to prove a 10-year-old jamming conjecture</a></li>\n<li><a href=\"https://arxiv.org/pdf/2606.03300\">A proof of an identity for the critical exponents of jamming</a></li>\n</ul>\n<p>（首圖來源：AI 生成）</p>\n</div>",
+            "link": "https://technews.tw/2026/07/01/claude-ai-giorgio-parisi-jamming-conjecture/",
+            "pub_date": "2026-07-01 21:30:20",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "全球海洋 6 月溫度創新高，聖嬰現象發威恐再破紀錄",
+            "description": "<div class=\"indent\">\n<p>科學家今天表示，全球海洋經歷有紀錄以來最熱的6月，聖嬰現象（El Nino）和氣候變遷加劇升溫，未來幾個月可能還會持續刷新紀錄。<span id=\"more-1580744\"></span></p>\n<p>法新社報導，根據歐洲聯盟（EU）機構「哥白尼海洋服務」（Copernicus Marine Service）說法，全球6月海洋表面平均溫度達20.98°C，超越2023年和2024年的紀錄。「哥白尼海洋服務」表示，今年上半年海洋高溫程度幾乎前所未見，海洋熱浪持續出現。這六個月的海洋表面均溫20.04°C，略低於2024年同期紀錄。</p>\n<p>科學家表示，聖嬰現象可能增強，恐再推升今年甚至明年全球海洋和大氣溫度。</p>\n<p>「哥白尼氣候變化服務」（Copernicus Climate Change Service）主任布諾坦普（Carlo Buontempo）表示：「目前的狀況可能代表新階段的開端，讓我們再次進入未知領域。海洋溫度維持高檔，加上聖嬰現象成形，我們很可能在幾個月內看到更多溫度紀錄被打破。」</p>\n<p>（編譯：盧映孜；首圖來源：<a href=\"https://pixabay.com/zh/illustrations/sea-underwater-ocean-sky-water-8959736/\">Pixabay</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/07/01/el-nino-increase/",
+            "pub_date": "2026-07-01 21:30:20",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "三星晶圓代工 AI 時代布局三大新藍圖，先進製程 SF1.4 Plus 將於 2030 年亮相",
+            "description": "<div class=\"indent\">\n<p>根據韓國媒體 ZDNet Korea 報導，韓國三星宣告在人工智慧（AI）大轉型時代，三星晶圓代工將進化為連結產品、基礎設施、客戶與合作夥伴的「Nexus（核心樞紐）」。</p>\n<p>報導指出，三星認為與過去單一企業就能完成記憶體半導體成品的時代不同，如今高效能的 AI 邏輯晶片必須仰賴從 IC 設計（Fabless）到晶圓代工等無數合作夥伴的緊密連結才能實現。為完成會思考的晶片，三星提出了三大發展藍圖，包括製程微縮、次世代記憶體結合，以及設計生態系的創新。</p>\n<h4>藍圖一：製程路線圖具體化與 DTCO 技術極大化</h4>\n<p>在最先進製程方面，三星正式公布了時間表，最尖端的 1.4 奈米（SF1.4）製程正以 2029 年量產為目標順利開發中，而良率與效能進一步提升的改良版節點 SF1.4 Plus 預計於 2030 年亮相。此外，市場需求龐大的 2 奈米製程將在 2027 至 2028 年間轉換為效能改良版的 SF2P Plus，隨後演進為維持 IP 相容性的次世代製程 SF2X。</p>\n<p>為克服製程微縮的物理極限，三星計畫利用設計與技術協同最佳化（DTCO）技術。以 2 奈米製程為例，功耗成功降低了 26%，其中超過一半的改善幅度歸功於 DTCO。因此，三星預期未來世代的效能提升幾乎都將仰賴該技術。同時，三星也將 AI 晶片不可或缺的 SRAM 縮小至世界最小尺寸，確保了高密度資料儲存能力。</p>\n<h4>藍圖二：邏輯與記憶體技術的整合</h4>\n<p>在次世代超高速 AI 記憶體領域，第六代高頻寬記憶體（HBM4）底層關鍵的基礎裸晶（Base Die），三星正採用自家的 4 奈米製程（SF4X）來製造。三星表示，受惠於與記憶體事業部的緊密合作，目前已在每秒 10 Gigabit（Gbps）的速度下確認了極純淨的訊號，並確保了可穩定加速至最高 11.7 Gbps 的技術。</p>\n<p>此外，針對晶片間連接的驗證作業，三星改變了過去耗時且以手工作業為主的類比設計方式，開發出名為「3D DRAM PHY」的數位自動化解決方案，預計將大幅縮短客戶在晶片設計與模擬上的時間。</p>\n<h4>藍圖三：設計生態系創新與客戶溝通平台升級</h4>\n<p>三星強調，沒有生態系的支援就無法誕生完美的終端產品，因此重申了與 IP（矽智財）合作夥伴協力的重要性。目前三星晶圓代工不僅正積極擴充 4 奈米 IP，也正以次世代 2 奈米製程為基礎開發大量新 IP，透過為單一設計功能提供多種合作夥伴的 IP 來擴大客戶的選擇權。</p>\n<p>為了讓客戶與合作夥伴能更輕鬆地利用三星晶圓代工的資源，B2B 專屬網站「Connect」將於 2026 年迎接全面改版。三星透露，新平台將採用更直覺的使用者介面（UI/UX），並全新導入具備即時回應能力的 AI 聊天機器人與強大的文件搜尋功能。</p>\n<p>(首圖來源：官網)</p>\n</div>",
+            "link": "https://finance.technews.tw/2026/07/01/samsungs-ai-driven-foundry-strategy-outlines-three-new-blueprints/",
+            "pub_date": "2026-07-01 21:30:20",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "韓國 7/1 起停發比亞迪乘用電動車補貼",
+            "description": "<div class=\"indent\">\n<p>韓國媒體報導，7 月 1 日起，韓國購買中國電動汽車製造商比亞迪（BYD）的乘用電動車，將不再享有補貼。<span id=\"more-1580741\"></span></p>\n<p>韓國朝鮮日報1日報導，韓國氣候能源環境部6月30日公布首次「電動汽車普及事業執行者選定評估」結果，共有35家車企申請評估，27家通過，可繼續發放購買補貼。</p>\n<p>中國比亞迪在乘用電動車類是唯一落選的車企，代表7月1日起韓國購買比亞迪乘用電動車將不再享有補貼。引入補貼評估目的，是讓對韓國電動車生態有貢獻的製造商、進口商享有補貼。5月韓國氣候能源環境部大幅下調合格標準，從滿分120分，得分超過80分為合格，降至滿分100分，得分超過60分為合格。比亞迪此輪評估得分不到60分，未入選補貼對象。</p>\n<p>報導又指，評分包括技術開發、供應鏈貢獻、環保政策應對、售後運作持續性、安全管理等項目，滿分100分，得分超過60分的企業才能續獲補貼。</p>\n<p>路透社6月1日報導，比亞迪5月全球汽車銷量年增0.3%，達38萬3,453輛，終結連八個月銷量萎縮。5月海外銷量年增80.4%，達16萬644輛，持續保持強勁成長，抵銷本國市場持續疲軟。</p>\n<p>（首圖來源：<a href=\"https://unsplash.com/photos/a-white-sports-car-is-on-display-at-a-car-show-4o-2K69J05g\">Unsplash</a>）</p>\n</div>",
+            "link": "https://finance.technews.tw/2026/07/01/south-korea-discontinues-byd-passenger-ev-subsidies-july-1/",
+            "pub_date": "2026-07-01 21:30:20",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "電信金融防詐，臺網攜三大電信、銀行啟動 MID Plus 身分驗證服務",
+            "description": "<div class=\"indent\">\n<p class=\"p1\">面對全球網路詐騙手法日益複雜，個人行動門號已成為數位身分的重要憑證，也讓電信資料在金融防詐、身分核驗與交易安全中扮演更關鍵角色。臺灣網路認證公司（TWCA）今日宣布，攜手三大電信業者，以及第一銀行、玉山銀行、臺灣中小企銀，共同啟動新一代「MID Plus」（MID+）行動身分認證服務，並正式導入國際 GSMA Open Gateway 標準，透過電信端與金融端的跨界資料串聯，強化數位身分防護能力。</p>\n<p class=\"p1\"><span id=\"more-1580734\"></span></p>\n<p class=\"p1\">臺網公司指出，MID（Mobile ID）行動身分識別服務自 2018 年啟用以來，已在國內身分識別與資料核驗場景中建立基礎，過去主要著重於姓名、門號狀態等核心驗證資料。隨著詐騙型態從單點冒用，逐步轉向跨境、即時、動態化攻擊，傳統靜態核對已不足以因應金融交易風險，因此 MID Plus 將防線從「靜態核對」延伸至「動態防護」。</p>\n<p class=\"p1\">MID Plus 的核心，是結合 GSMA Open Gateway 標準 API，讓金融機構可在合規前提下，取得由電信業者提供的風險訊號。例如透過 SIM Swap API，銀行可偵測用戶是否近期更換過 SIM 卡，降低歹徒盜取門號後進行金融交易或驗證的風險；Device Roaming Status API 則可判斷設備是否處於國際漫遊狀態，協助金融機構辨識異常跨境交易或疑似盜刷情境。</p>\n<p class=\"p1\">以金融應用來看，當使用者在海外進行大額刷卡、提款或高風險交易時，銀行可透過 MID Plus 即時比對門號狀態、漫遊情形與設備風險，進一步確認交易是否合理。這類機制有助於提升金融核驗精準度，也能在不過度增加使用者操作負擔的情況下，降低詐騙與盜刷風險。</p>\n<p class=\"p1\">臺網表示，MID Plus 不只是單一防詐工具，而是以電信資料作為數位身分信任基礎，提供金融、電商、平台業者更一致的驗證介面。過去企業若要整合不同電信業者資料，往往需要個別介接，技術與成本門檻較高；導入 GSMA Open Gateway 架構後，三大電信可透過統一介面提供服務，有助於降低企業導入成本，也讓跨產業身分驗證更具擴充性。</p>\n<p class=\"p1\">中華電信指出，MID Plus 導入國際標準後，可即時掌握 SIM 卡更換與設備漫遊狀態，協助電信端業者與金融機構在高風險交易發生時及早辨識異常。台灣大哥大則表示，Open Gateway 的發展關鍵在於統一全球電信業者對 API 的定義與資料驗證標準，未來也將持續推動如詐騙訊號偵測、OTP 驗證等更多元 API 服務。遠傳電信也參與此次跨業合作，共同推動電信資料在金融防詐場景中的應用。</p>\n<p class=\"p1\">金融端方面，玉山銀行表示，當持卡人在海外出現大額刷卡或提款等高風險行為時，銀行可透過電信資料確認門號是否處於海外漫遊狀態，作為交易風險判斷依據，提升境外盜刷攔阻能力。第一銀行、臺灣中小企銀也共同參與 MID Plus 推動，將其應用於開戶、交易核驗與數位金融身分防護等場景。</p>\n<p class=\"p1\">隨著生成式 AI、社群工程與跨境詐騙持續升級，金融機構單靠帳密、簡訊 OTP 或一次性資料核對，已難以完整掌握風險全貌。MID Plus 的意義在於把電信網路中的即時狀態訊號納入金融防詐流程，讓銀行在面對異常登入、設備變更、境外交易等情境時，能有更多資料作為判斷依據。</p>\n<p class=\"p1\">臺網公司強調，未來 MID Plus 將配合《電子簽章法》推動，持續提升加密與數位簽章強度，並擴大服務應用場景。隨著三大電信共同提供統一介面，MID Plus 後續有望從金融防詐延伸至電商交易、會員驗證、企業服務與其他數位身分應用，進一步建立更安全的全民數位信任生態系。</p>\n<p class=\"p1\">（首圖來源：中華電信）</p>\n</div>",
+            "link": "https://infosecu.technews.tw/2026/07/01/mid-plus-gsma-open-gateway/",
+            "pub_date": "2026-07-01 21:30:21",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "經濟部修法草案，預告 AI 資料中心納入產業效益評估",
+            "description": "<div class=\"indent\">\n<p>因應全球 AI 發展帶動資料中心用電需求快速成長，經濟部 7 月 1 日預告修正《能源開發及使用評估準則》第九條附表七，未來 5 MW 以上大型資料中心除須審查供電規劃及能源效率外，也將新增「產業效益評估」，要求業者說明投資、就業、供應鏈及 AI 生態系等貢獻，希望兼顧供電可行性、能源效率及在地產業發展。<span id=\"more-1580754\"></span></p>\n<p>經濟部表示，我國身為全球半導體重鎮，也是 AI 供應鏈的重要一環，資料中心的設置可望帶動百工百業創新與應用。此次修法將產業效益正式納入能源使用說明書審查，希望引導業者在規劃設廠時，同步考量在地投資與產業鏈發展，提升整體投資效益。</p>\n<p>事實上，經濟部已於去（114）年 11 月依《能源管理法》第 16 條授權，修正《能源開發與使用評估準則》、《能源用戶適用範圍》及《能源使用說明書格式》等三項子法，要求能源使用量達 5 MW 以上的新設或擴建超大型及主機代管資料中心，在規劃階段即採用最佳可行技術（BAT），並提出能源使用說明書，以確保供電規劃及能源使用效率。</p>\n<p>此次修法則進一步於《能源開發及使用評估準則》附表七新增「產業效益評估」項目，評估內容包括投資及產值貢獻、就業人數、產業供應鏈效益、人工智慧生態系賦能效益，以及資通訊安全與韌性等五大面向。</p>\n<p>經濟部指出，未來大型資料中心投資案除須確認電力供應可行性，並與台電或自用發電設備業者取得所需電力容量外，也須由地方政府、科學園區或產業園區等受理機關，就投資計畫帶來的在地產業效益進行評估，再由經濟部能源署召開能源使用說明書諮詢小組會議，邀集台電、產業發展署、相關部會及學者專家共同審查，綜合評估供電規劃、能源效率及產業效益。</p>\n<p>經濟部表示，算力發展需要穩定電力支撐，透過能源使用說明書聯合審查機制，希望引導業者於設廠初期即完成電力規劃、導入節能設計、降低電網負荷，並強化與在地產業鏈連結，提升整體投資效益。</p>\n<p>（首圖來源：<a href=\"https://pixabay.com/illustrations/ai-generated-data-centre-computer-7958874/\">pixabay</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/07/01/data-center-law-in-taiwan/",
+            "pub_date": "2026-07-01 21:26:54",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "豐田用 AI 統一全公司規格術語，使新車生產週期縮短",
+            "description": "<div class=\"indent\">\n<p>名古屋報導，豐田汽車將統一規劃、製造與銷售部門的車輛規格表專門術語，目標是讓流程更順暢並更快推出新車。<span id=\"more-1580764\"></span></p>\n<p>豐田目前各部門使用的專門術語約4.5萬個，之後將逐步精簡至約5千個。預定以人工智慧協助整理與標準化規格內容，估計可把中間作業步驟減少約30%，以提高生產效率並縮短從規劃到量產的時間。</p>\n<p>此調整反映豐田車輛開發與量產持續推動數位化與流程簡化。對汽車製造商而言，若能統一規格用語，不僅有助溝通，也可降低跨部門協作時的反覆確認成本，進一步縮短車輛從規劃到生產的週期。</p>\n<ul>\n<li><a href=\"https://asia.nikkei.com/business/automobiles/toyota-to-harmonize-vehicle-specs-with-ai-helping-to-speed-production\">Toyota to harmonize vehicle specs with AI, helping to speed production</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://global.toyota/jp/company/profile/facilities/manufacturing-worldwide/japan.html\">豐田汽車</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/07/01/toyota-to-harmonize-vehicle-specs-with-ai-helping-to-speed-production/",
+            "pub_date": "2026-07-01 21:26:54",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "AI 影音娛樂進入家庭，中嘉寬頻攜手驊訊文創、美華影音聯手打造",
+            "description": "<div class=\"indent\">\n<p>隨著AI技術與寬頻應用加速融入日常生活，居家娛樂正朝向智慧化、互動化及連網化發展。針對此一市場趨勢，中嘉寬頻7月1日宣布，攜手全球PC周邊音訊IC領導廠商驊訊電子旗下子公司「驊訊文創」，及其K歌生態鏈的優質K歌品牌「Kuro酷樂」、深耕台灣市場多年的卡拉OK曲庫龍頭「美華影音」，締結多方戰略合作，整合高速光纖網路、AI軟硬體音訊技術、與內容曲庫領域各自的核心優勢，共同打造全新型態的「智慧連網家庭KTV」服務。此合作不僅開創家庭娛樂新模式，更是中嘉寬頻實踐「AI數位生活服務整合者」前瞻布局的重要里程碑。</p>\n<p><span id=\"more-1580752\"></span></p>\n<p>中嘉集團總經理陳佐銘表示：「AI時代正加速改變人們生活型態與消費習慣，網路也從基礎連線工具，轉為驅動智慧生活發展的重要引擎。中嘉寬頻長期深耕台灣寬頻市場，除持續提升網路服務品質，也積極導入創新科技，並與不同領域夥伴合作，拓展多元應用場景。此次攜手驊訊文創與美華影音推出智慧連網家庭KTV加值服務，是中嘉寬頻布局智慧家庭娛樂生態系的重要一步。透過在網路、技術與內容上的跨界整合，為消費者創造更豐富的數位生活體驗，共同擘劃AI家庭娛樂發展新藍圖。」</p>\n<p>驊訊文創總經理鄭期康提到：「消費者對家庭娛樂的期待，已從單一設備功能轉向雲端連網、AI智慧與社交互動的整合體驗。驊訊文創深耕數位音樂與娛樂科技多年，結合美華影音正版卡拉OK曲庫，以及合作夥伴昇鼎國際旗下『Kuro酷樂』在地K歌品牌與經銷通路，已建構涵蓋音樂版權代理、雲端平台、軟硬體整合及AI技術的垂直整合服務。此次再結盟中嘉寬頻高速、穩定的光纖網路，可充分發揮多方跨界合作的綜效，讓消費者以訂閱方式在家即可享受專業KTV的串流歡唱體驗，並透過持續更新的曲庫與AI評分功能，滿足不同世代家庭成員的娛樂需求。」</p>\n<p>中嘉寬頻首波推出結合寬頻月租的一站式居家KTV創新方案—「K歌霸」。消費者使用寬頻上網服務的同時，也可在家中輕鬆打造高自由度且不受時間限制的專屬歡唱空間，無論想獨自練歌、與親友歡唱、或作為兒童與長輩的日常健康休閒，皆可滿足。亦可一次解決傳統卡拉OK設備昂貴、占空間、曲庫更新不易，以及KTV包廂需預約等候、單次消費較高與缺乏評分互動娛樂等痛點。</p>\n<h4>美華海量經典曲庫，再結合YouTube®新歌，雲端線上更新不用等！</h4>\n<p>美華影音的伴唱曲庫，涵蓋跨年代的國語、台語與粵語經典歌曲，支援分軌導唱與逐字歌詞，可依需求關閉導唱或切換輕導唱。系統亦支援YouTube®平台曲庫及手機分享匯入點歌，提供歐美、K-pop、日語等多國歌曲。雲端曲庫可自動更新，省去額外灌歌的時間與費用，讓使用者隨時歡唱熱門新曲。</p>\n<h4>專業KTV級設備 演唱會級麥克風 × 錄音師調校2.0聲道喇叭 × K歌音效</h4>\n<p>方案配備智能降噪動圈麥克風，結合無線傳輸與人聲優化處理，降低外部雜音干擾並提升歌唱質感；另搭配由專業錄音師調校的40W × 2主動式2.0聲道零延遲書架型喇叭，透過高低音分頻單體呈現扎實低頻與清晰高頻，兼顧音樂層次與人聲表現。K歌主機內建驊訊電子Xear® Sing FX音效處理器，提供一鍵消除原唱人聲、智慧自動接唱、升降Key及麥克風美聲等功能，可將YouTube® MV轉換為伴唱影音，在家即可享受專業KTV體驗。</p>\n<h4>AI雙人即時評分＋手機互動點歌　打造新世代家庭K歌體驗</h4>\n<p>系統內建雙人K歌AI評分及全台排行榜，可即時分析兩位演唱者的音準、節奏、張力、滑音、抖音與長音穩定度，提供PK或合唱評分與全台排名，提升居家歡唱的互動性與練唱樂趣。多人歡唱時，可透過麥克風語音或手機遙控器App點歌，每支手機皆可作為專屬點歌台，並即時傳送貼圖與彈幕；手機與電視多螢互動，營造AI新世代K歌派對的全新娛樂體驗。</p>\n<p>(首圖來源：中嘉寬頻提供)</p>\n</div>",
+            "link": "https://finance.technews.tw/2026/07/01/creating-ai-powered-home-audio-visual-entertainment/",
+            "pub_date": "2026-07-01 21:26:54",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        },
+        {
+            "title": "Google 宣告停用 Tenor API，X、Discord 使用 GIF 圖受影響",
+            "description": "<div class=\"indent\">\n<p>GIF 可說是現代網路重要的一環，而 2018 年被 Google 收購的 <a href=\"https://technews.tw/2018/03/31/google-acquires-tenor/\" target=\"_blank\">Tenor</a>，是為 X 平台在內各式各樣應用程式提供 GIF 來源的圖庫之一。這個 GIF 圖庫本身雖繼續運作，但 Tenor API 自 6 月 30 日正式終止。</p>\n<p><span id=\"more-1580731\"></span></p>\n<p>Tenor 就像 Giphy 一樣，是一個可透過關鍵字進行搜尋的 GIF 圖庫。像是 Tenor 直接整合在 Gboard 中，廣泛應用在整個網路。</p>\n<p>「為將資源集中於提升核心產品，決定在 2026 年 6 月 30 日起停用 Tenor API」，Google 說明。</p>\n<p>實際上，Google 自 1 月 13 日停止受理 Tenor 新的 API 金鑰註冊和整合申請，既有的整合服務仍維持運作。如今與 Tenor 簽訂的 API、廣告發布協議全數終止，Tenor API 的整合也全面停用。</p>\n<p>如果 6 月 30 日後仍繼續使用 Tenor API 的話，所有 API 要求都會失敗並傳回錯誤訊息。</p>\n<p>其中一個最明顯的例子便是前身為 Twitter 的 X 平台，多年來一直仰賴 Tenor 作為 GIF 的來源。X 平台產品負責人 Nikita Bier 日前透露，改採其他 GIF 來源。這是為什麼近來在 X 平台發文時，GIF 選項變少的原因。</p>\n<p>Tenor.com 正常運作，仍具備完整的搜尋功能；而 Google 多項產品內建的整合服務持續運作，如 Gboard、Google 訊息等。但受 Tenor API 停用影響的平台除 X 外，還包括 Discord、WhatsApp、Bluesky 等。</p>\n<ul>\n<li><a href=\"https://9to5google.com/2026/06/30/google-tenor-api-gif-updates/\" target=\"_blank\">Google pulls the plug on Tenor API, killing GIF pickers around the web</a></li>\n</ul>\n<p>（首圖來源：<a href=\"https://blog.tenor.com/google-acquires-tenor-77fdc1be737c\" target=\"_blank\">Tenor</a>）</p>\n</div>",
+            "link": "https://technews.tw/2026/07/01/google-ends-the-tenor-api-on-june-30/",
+            "pub_date": "2026-07-01 21:26:54",
+            "source": "cmcmarkets",
+            "kind": 1,
+            "language": "en"
+        }
+    ]
+}
