@@ -1,0 +1,104 @@
+name: cleanup workflow runs
+
+on:
+  workflow_dispatch:
+    inputs:
+      keep_days:
+        description: "保留最近 N 天的已完成 run（默认 1）"
+        default: "1"
+        required: false
+      keep_min:
+        description: "至少保留最近 N 条 run 作为兜底（默认 20）"
+        default: "20"
+        required: false
+      dry_run:
+        description: "仅打印将删除的 run，不实际删除"
+        type: boolean
+        default: false
+        required: false
+  schedule:
+    # UTC 11:30 = 北京时间 19:30（错开 clean.yml 的 19:00，等其清完历史后再清 run）
+    - cron: "30 11 * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+# 与同名清理任务互斥；不与 clean.yml / news.yml 抢占 group，避免相互取消
+concurrency:
+  group: actions-runs-cleanup
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      KEEP_DAYS: ${{ inputs.keep_days || '1' }}
+      KEEP_MIN: ${{ inputs.keep_min || '10' }}
+      DRY_RUN: ${{ inputs.dry_run || 'false' }}
+      SELF_RUN_ID: ${{ github.run_id }}
+    steps:
+      - name: Delete old workflow runs
+        run: |
+          set -euo pipefail
+          repo="${GITHUB_REPOSITORY}"
+          cutoff=$(date -u -d "${KEEP_DAYS} days ago" +%Y-%m-%dT%H:%M:%SZ)
+          echo "🧹 仓库 ${repo}"
+          echo "   keep_days=${KEEP_DAYS}  cutoff=${cutoff}"
+          echo "   keep_min=${KEEP_MIN}    dry_run=${DRY_RUN}"
+          echo "   self_run_id=${SELF_RUN_ID}（跳过）"
+
+          # 仅拉取已完成 run，按 GitHub 默认顺序（创建时间倒序）返回
+          mapfile -t entries < <(gh api --paginate \
+            -H "Accept: application/vnd.github+json" \
+            "/repos/${repo}/actions/runs?status=completed&per_page=100" \
+            --jq '.workflow_runs[] | "\(.id) \(.created_at)"')
+
+          total=${#entries[@]}
+          echo "📦 已完成 run 总数：${total}"
+          if [ "${total}" -eq 0 ]; then
+            echo "✅ 没有 run，跳过"
+            exit 0
+          fi
+
+          # 收集待删 id：跳过最近 KEEP_MIN 条 + 跳过自身 + 仅删早于 cutoff 的
+          ids=()
+          idx=0
+          for line in "${entries[@]}"; do
+            idx=$((idx + 1))
+            id="${line%% *}"
+            created="${line#* }"
+            if [ "${idx}" -le "${KEEP_MIN}" ]; then
+              continue
+            fi
+            if [ "${id}" = "${SELF_RUN_ID}" ]; then
+              continue
+            fi
+            if [[ "${created}" < "${cutoff}" ]]; then
+              ids+=("${id}")
+            fi
+          done
+
+          to_delete=${#ids[@]}
+          if [ "${to_delete}" -eq 0 ]; then
+            echo "✅ 没有需要删除的 run"
+            exit 0
+          fi
+          echo "📋 待删除 ${to_delete} 条"
+
+          if [ "${DRY_RUN}" = "true" ]; then
+            printf '   %s\n' "${ids[@]}"
+            echo "🟡 dry_run=true，未实际删除"
+            exit 0
+          fi
+
+          failed=0
+          for id in "${ids[@]}"; do
+            if ! gh api -X DELETE "/repos/${repo}/actions/runs/${id}" --silent; then
+              failed=$((failed + 1))
+            fi
+          done
+          deleted=$((to_delete - failed))
+          echo "✅ 删除成功：${deleted}，失败：${failed}"
