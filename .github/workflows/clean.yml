@@ -1,0 +1,50 @@
+name: clean history
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC 11:00 = 北京时间 19:00
+    - cron: '0 11 * * *'
+
+# 与其他改写仓库的 workflow 互斥（news.yml 也建议加同一 group）
+concurrency:
+  group: repo-mutation
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          fetch-depth: 1
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "hemengzhi88@gmail.com"
+          git config --global user.name "genkin-he"
+          git config --global init.defaultBranch main
+
+      - name: Push backup tag
+        run: |
+          # 清掉可能存在的旧 backup tag（本地 + 远程）
+          git tag -d backup 2>/dev/null || true
+          git push origin :refs/tags/backup 2>/dev/null || true
+          # 在当前 HEAD 打 tag 并强推，作为本次清空前的安全网
+          git tag backup
+          git push origin backup -f
+
+      - name: Reinitialize and force push
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          rm -rf .git
+          git init -b main
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git add .
+          git commit -m "clean"
+          git push origin main -f
