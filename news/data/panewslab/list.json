@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "019fe103-cf03-770b-a6ed-6b9a644c44f4",
+            "title": "DEX Atomic因签名重放漏洞遭攻击，损失约3万USDC",
+            "description": "PANews 8月8日消息，据慢雾监测，去中心化交易所Atomic协议因签名重放漏洞遭攻击，损失约29,984枚USDC。漏洞源于合约0xa806010f在签名摘要中缺少position ID、position manager、caller、nonce、deadline和chain ID绑定，导致同一manager签名可在21个不同position ID上重放，在闪电贷价格操纵下执行未经授权的全额LP销毁，且无TWAP或滑点检查。",
+            "link": "https://www.panewslab.com/articles/019fe103-cf03-770b-a6ed-6b9a644c44f4",
+            "pub_date": "2026-08-08 18:55:00",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "019fe0fe-4ba6-752b-97f7-426fdbe6d59a",
             "title": "NFT市场Rarible扩展至Solana网络",
             "description": "PANews 8月8日消息，据The Defiant报道，NFT市场Rarible正式在Solana上线，Claynosaurz为其首个上线系列。Rarible目前支持的区块链网络包括Solana、Ethereum、MegaETH和Base，并设有专用的Solana探索、铸造和Gacha页面。Rarible表示已为Solana版本筹备数月，期间进行了大量测试和社区沟通。未来数日或数周内将陆续上线更多Solana生态NFT项目。",
@@ -186,16 +196,6 @@
             "description": "PANews 8月8日消息，据财联社报道，国内黄金饰品价格对比显示，国内多家品牌足金饰品价格重返1300元，其中周生生足金饰品报1315元/克，周大福报价1308元/克，老庙黄金报价1310元/克。",
             "link": "https://www.panewslab.com/articles/019fdfc2-7385-74ca-b595-0dcaa7261824",
             "pub_date": "2026-08-08 13:04:00",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "019fdf8a-9c70-7616-af01-ef1aca6ad7a3",
-            "title": "比特币现货ETF昨日净流入9884.53万美元，持续5日净流入",
-            "description": "PANews 8月8日消息，据 SoSoValue 数据，昨日（美东时间 8 月 7 日）比特币现货 ETF 总净流入 9884.53 万美元。 昨日单日净流入最多的比特币现货 ETF 为贝莱德 (Blackrock） ETF IBIT，单日净流入为 8670.64 万美元，目前 IBIT 历史总净流入达 611.75 亿美元。 其次为富达 (Fidelity） ETF FBTC，单日净流入为 4095.44 万美元，目前 FBTC 历史总净流入达 100.36 亿美元。",
-            "link": "https://www.panewslab.com/articles/019fdf8a-9c70-7616-af01-ef1aca6ad7a3",
-            "pub_date": "2026-08-08 12:03:00",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
