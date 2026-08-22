@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "kyUdCw0IPHwuIHg2WJCu",
+            "title": "Cloudflare 推出 Cache Response Rules，在源站响应后进一步控制缓存",
+            "image": "https://static001.infoq.cn/resource/image/06/13/068982f07be1f91d83992f79178e1913.jpg",
+            "description": "<div><p>Cloudflare 近日推出缓存响应规则（），这是一套新的规则引擎，运行在源站返回响应之后、内容写入 Cloudflare 缓存之前。此前，缓存规则（Cache Rules）只能根据请求属性进行判断；缓存响应规则则新增了一个响应处理阶段，可以在响应进入缓存之前检查源站返回的内容。</p><p></p><p>根据官方文档，允许用户修改  指令、管理 Cache Tag，以及移除 、 和  等 Header，而无需修改源站应用本身。</p><p>这为缓存行为提供了更细粒度的控制，有助于提高缓存命中率，也能简化 CDN 迁移。</p><p></p><p>Cloudflare 高级产品经理  和前系统工程师  写道：</p><p></p><p><img>https://static001.geekbang.org/infoq/67/67f44718099945d0949f202b9b07ce79.png<img></p><p>来源：Cloudflare 博客</p><p></p><p>目前，缓存响应规则支持三类操作：移除影响缓存的 Header、管理 Cache Tag，以及修改  指令。</p><p></p><p>缓存决策实际上分为两个阶段。在请求阶段，规则会决定是否查询缓存，以及应该如何查询，然后才会联系源站；新的缓存响应规则在源站返回响应之后运行，让用户可以在内容写入缓存之前，根据响应 Header 调整缓存行为。例如，当访问者请求  时，Cloudflare 首先检查缓存。如果没有找到该文件，请求就会被转发到源站，由源站返回响应。假设响应 Header 中包含一个 。Krivit 和 Turcios 解释了其中的问题：</p><p></p><p>缓存响应规则会在 Cloudflare 收到源站响应之后、将响应写入缓存之前执行。这样，用户无需修改源站应用，就可以调整与缓存相关的 Header、管理 Cache Tag，并移除指定 Header。</p><p></p><p>此前，Cloudflare 已经提供，用于控制 Cloudflare 如何处理进入的请求，以及是否从缓存中读取内容或将内容写入缓存。新的缓存响应规则是在源站返回响应之后执行，可以在响应真正写入缓存之前修改与缓存相关的 Header。Cloudflare 团队强调，两者并不是替代关系，而是互为补充：</p><p></p><p><img>https://static001.geekbang.org/infoq/d1/d19b97195e934af6b8b21228a3cf2463.png<img></p><p>来源：Cloudflare 博客</p><p></p><p>Cloudflare 的这一变化也引发了一些讨论。领英用户 Marcella dePunzio ：</p><p></p><p>也有一些，担心如果工程师错误地将动态内容判断为可缓存内容，强制缓存可能会带来问题。Mission FinOps 创始人 Yuvdeep Singh 则：</p><p></p><p>缓存相应规则目前已向所有 Cloudflare 套餐开放。</p><p></p><p>查看英文原文：</p></div>",
+            "link": "https://www.infoq.cn/article/kyUdCw0IPHwuIHg2WJCu",
+            "pub_date": "2026-08-22 09:17:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "LpNjOA7au7WIhTBmVcJo",
             "title": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
             "image": "https://static001.infoq.cn/resource/image/71/2a/71632c7925bb618c19b401369316222a.png",
@@ -95,17 +106,6 @@
             "description": "<div><p>亚马逊云科技最近，让函数和层可以直接引用客户自有 S3 存储桶中的部署包，而不必将其存放在 Lambda 管理的存储空间中。这一变化取消了每个区域的代码存储配额，过去，运行大规模函数集群的团队通常需要通过提交支持工单来提高这一配额；同时，Lambda 管理的存储空间默认配额也从 75 GB 提高到 300 GB。事实证明，亚马逊云科技公告中的表述以及随后社区的反应很容易被误读。</p><p></p><p>亚马逊云科技无服务器计算首席开发者布道师 Julian Wood ，称其“不再有存储限制：函数和层代码想存多少都可以，只要存储桶装得下”，同时还可以在客户自己的账户中建立单一事实来源，并通过现有的 S3 指标和生命周期规则获得完全的可见性。</p><p></p><p>这种表述引出了无服务器团队真正关心的问题。一位评论者询问，这一变化是否意味着现在可以将更大的模型打包到函数包中。另一位开发者的回答十分直截了当：</p><p></p><p></p><p>这一区别很重要，因为自管理存储改变了部署包的存放位置，并取消了账户层面的总量上限。但它并没有改变：基于 zip 的函数仍为压缩后 50 MB、解压后 250 MB，容器镜像仍为 10 GB。对于因单个函数大小达到上限而受阻的团队来说，情况与以前完全相同。</p><p></p><p>在运维层面，真正发生变化的是复制步骤。AWS Serverless Hero Darryl Ruggles ，Lambda 不再创建部署包的中间副本：</p><p></p><p></p><p>Ruggles 补充说，除了标准的 S3 存储费用和可能产生的跨区域传输费用外，不会产生额外的 Lambda 费用。这使存储成本从一个不可见的 Lambda 端配额，转变为客户自己的 S3 账单上一项清晰可见的费用。</p><p></p><p>部署工作流本身并未改变。在  上，一位从业者询问这一功能究竟有什么好处，因为替换 S3 中的对象后仍然必须调用 UpdateFunctionCode。该引用是在更新时解析的，而不是持续解析的，因此，将 Lambda 指向一个存储桶并不会让该存储桶变成实时的代码源。另一位评论者直白地概括了其价值：</p><p></p><p>基础设施即代码支持仍在跟进：7 月 15 日提交的一项 ，要求为 aws_lambda_function 增加 s3_object_storage_mode 属性，目前仍处于开放状态，尚未实现。已经将 Terraform 标准化的团队需要继续等待，或者改用目前已经支持该参数的 CLI 和 SDK。</p><p></p><p>自管理代码存储已在所有亚马逊云科技商业区域推出，不收取额外的 Lambda 费用。</p><p></p><p>原文链接：</p></div>",
             "link": "https://www.infoq.cn/article/OG03ezJaBkdOd1G3rc1b",
             "pub_date": "2026-08-08 00:37:00",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "HQD432MKSXMMR2UUag6P",
-            "title": "最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案",
-            "image": "https://static001.infoq.cn/resource/image/a6/f9/a6710f0fef0ea459431cb76c10a3b6f9.jpg",
-            "description": "<div><p>Microsoft 一个用于在 上路由智能体流量的参考架构。它将这个问题分解为三个关键选择：由哪个模型响应调用、如何管理调用，以及由哪个  副本处理调用。该设计结合了用于负载均衡的 、作为 AI 代理的 ，以及用于语义路由的 。这三者共同接入一个与 OpenAI 兼容的端点。</p><p></p><p>其动机专门针对智能体工作负载，而非聊天。单个智能体任务可以在“规划—行动—观察”循环中发起数百次 LLM 调用，而其中大多数调用（填写工具参数、判断是或否、生成摘要）并不需要前沿模型。将每次调用都发送给顶级模型，会随着循环长度增加成本和延迟。简单的轮询负载均衡器甚至会让情况变得更糟。它可能会让一次生成 200 个 token 的请求排在繁忙 GPU Pod 上一个包含 10 万个 token 的预填充请求之后，而附近另一个空闲 Pod 却未被使用。</p><p></p><p><img>https://static001.geekbang.org/infoq/2d/2d97e141ebb35e67e7baeb313d543e2e.png<img></p><p>路由智能体流量</p><p></p><p>建议的架构完全按照信号来划分问题。RouteLLM 检查提示词，并预测成本更低的模型能否达到较强模型的回答质量。它使用一个基于人类偏好数据训练的矩阵分解路由器。Agentgateway 是一个可与 OpenAI 配合使用的开源代理。它负责管理身份验证、每个智能体的速率限制、成本跟踪和护栏等策略。它在完成这些工作的过程中不会检查提示词的含义。Gateway API Inference Extension 的 Endpoint Picker 会检查 GPU 的实时状态。它会查看 vLLM 的 KV 缓存占用率和队列深度。这有助于它决定由所选模型的哪个副本处理请求。对于自托管路径，Agentgateway 通过 ext-proc 直接调用 Endpoint Picker，使该设计能够完全绕过单独的 Gateway API 网关。</p><p></p><p> 按需提供 GPU 节点池并运行 vLLM。它会展示 vllm:num_requests_waiting 和 vllm:kv_cache_usage_perc 等指标，供 Endpoint Picker 使用。强模型路径通过 agentgateway 中的 AI 后端通向 Azure OpenAI。弱模型路径通过服务后端路由到由 KAITO 提供服务的 Pod。该后端使用 inferenceRouting 策略。它将请求放置定向至 Endpoint Picker，并将 destinationMode 设置为 passthrough。Azure 托管的 Prometheus 和 Grafana 会抓取 agentgateway 的路由及成本指标和 vLLM 的 GPU 指标，从而提供统一视图。</p><p></p><p>整个设置中起关键作用的数字是 RouteLLM 的升级阈值。在 RouteLLM 测试的模型组合上，mf 路由器达到了 GPT-4 在 MT-Bench 上约 95% 的质量水平。它只将约 26% 的调用发送给 GPT-4，与将所有调用都路由到强模型相比，最多可节省 85% 的成本。Microsoft 表示，这个数字并不会自动适用。它与用于训练 RouteLLM 的模型组合相关，而不适用于 phi-4-mini/GPT-5.1 组合。因此，用户需要根据实际流量校准阈值，并依据 agentgateway 中强模型与弱模型的实际流量划分对其进行调整，而不是采用 RouteLLM 的估算结果。文章强调，提示词缓存会让 token 成本变得复杂。缓存命中的输入 token 可以享受折扣，而切换模型会使两边的缓存都冷却。这意味着一次“强模型”调用的真实成本低于表面上看到的成本。</p><p></p><p>作者警告称，本文中使用的组件还比较年轻：</p><p></p><p></p><p>例如，InferencePool 和 InferenceObjective 位于不同的 API 组中。三个开源层全部在 AKS 集群内运行。与此同时，KAITO 服务、Azure OpenAI 以及 Prometheus/Grafana 可观测性栈均由 Azure 管理。Microsoft 指出，其 Foundry 模型路由器是 RouteLLM 语义层的托管版本。这有助于那些不愿自行管理路由器的团队。不过，目前还没有针对 Endpoint Picker 的 GPU 感知放置功能的托管选项。无论使用哪个网关，它都必须在集群内运行。</p><p></p><p>团队可以分阶段采用该架构，而不必一次性部署全部组件。对于少量智能体背后的单个托管模型，主要需要使用 agentgateway 进行治理，因为既没有其他模型可供路由，也没有 GPU 需要进行放置。自托管单一模型类别可以受益于 KAITO 和 Inference Extension，而不需要任何语义路由层，因为只有一个模型可供选择。当强模型与弱模型之间存在明显的价格差距，并且有相当多的简单流量时，就值得加入 RouteLLM。文章认为，这几乎适用于所有循环运行的智能体。</p><p></p><p>原文链接：</p></div>",
-            "link": "https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P",
-            "pub_date": "2026-08-07 07:00:00",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
