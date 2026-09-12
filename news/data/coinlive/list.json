@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 1156762,
+            "title": "Revolut Handed Customer Passports and Bitcoin Histories to a Fake Government Request",
+            "description": "A fake government email slipped through security controls at Revolut this week, exposing residential addresses, identity documents and Bitcoin transaction histories belonging to a group of customers.The request appeared to come from a legitimate government agency and carried credentials that passed Revolut's checks. The company handed over customer information before separately contacting the agency and discovering the request was fraudulent, according to notices sent to affected users.The files reportedly included passports or driving licences, verification selfies, names, dates of birth, occupations, home addresses, emails, phone numbers, IBANs, account statements, withdrawal records and full transaction histories, including all Bitcoin activity.Revolut has not disclosed how many customers were affected and did not immediately respond to a CoinDesk request for comment. It said in its notification that customer funds remained safe, and has notified affected users and regulators while blocking the source of the request.The Failure Was Authorization, Not EncryptionNo system was breached in the conventional sense.Once the request cleared Revolut's internal checks, someone posing as a government official gained access to the same deeply personal information the bank had collected to satisfy identity and compliance requirements.That distinction matters for anyone assessing their own exposure elsewhere. Encryption, cold storage and access logging address a different threat model entirely. A process that legitimately releases data to verified requesters fails when the verification itself is the target.Financial institutions field government data requests routinely, and the volume creates pressure toward efficient handling. An attacker only needs the credential check to pass once.AI Makes This Category of Attack Cheaper at ScaleConvincing emails, documents, identities and bureaucratic requests are becoming inexpensive to produce in volume, while financial companies continue holding increasingly detailed records about who their customers are, where they live and how they move money.That combination changes the economics. Impersonating a government agency convincingly once required specific knowledge of agency formatting, reference structures and language conventions. Those are now reproducible from public examples at near-zero marginal cost.The defensive burden rises correspondingly. Every institution holding sensitive data must now verify inbound authority against a threat that can generate unlimited plausible attempts.The Combination of Data Is the Specific RiskBitcoin makes the exposure unusually concrete.The blockchain records transactions publicly. Personal details — passport, home address, occupation — sit outside the network. Financial intermediaries connect those two sets, turning a customer database into a map linking a real person to their onchain activity.Onchain investigator ZachXBT, who drew attention to the incident, said in a Telegram broadcast that the breach appeared limited in size and may have targeted high-net-worth users.If that assessment is correct, the selection pattern matters more than the volume. A targeted request for specific high-balance accounts produces a materially different risk profile than a bulk extraction, because it suggests the requester already knew what they were looking for.Affected customers face immediate follow-on risk from phishing that uses the exposed details to appear credible — a caller who knows your address, account balance and recent transactions is considerably harder to dismiss. Anyone notified should treat unsolicited contact referencing their Revolut account with particular caution and verify independently through official channels.Those with significant holdings should also consider their physical security posture, given that address and balance information appeared together.Zero-Knowledge Proofs Gain a Concrete Use CaseThe incident gives privacy technology an immediate application rather than a theoretical one.Zero-knowledge systems allow someone to prove an identity check was completed, or that a customer satisfies a particular requirement, while revealing less of the passport, address or underlying information used to establish it.The architectural difference is what matters here. Under current arrangements, satisfying a compliance requirement means the institution holds the underlying documents indefinitely, and any subsequent failure exposes all of it. Under a proof-based system, the institution holds an attestation rather than the source material.An attacker who successfully impersonates a government agency against a ZK-based system receives confirmation that checks were passed. They do not receive a passport scan and a home address.The Question Is Shifting From Protection to CollectionAs impersonation becomes easier, the security problem moves from how well institutions protect customer data to how much sensitive information they need to collect, retain and reveal at all.That reframing has regulatory implications the compliance regime has not addressed. Know-your-customer requirements were designed around a threat model where the institution was the trusted holder and the risk was external intrusion. They do not account for the institution being socially engineered into voluntary disclosure.Every additional field a regulated entity is required to collect expands the dataset available in a failure of this type. The compliance framework and the security outcome are working against each other, and the Revolut incident is a demonstration rather than an argument.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156762&language=en-US",
+            "pub_date": "2026-09-12 20:53:48",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1156761,
+            "title": "Bahrain Says It Will Not Attend Meeting With Iran on the Strait of Hormuz",
+            "description": "According to Jin10, Bahrain said it will not participate in a meeting with Iran on the Strait of Hormuz, according to the Bahrain News Agency.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156761&language=en-US",
+            "pub_date": "2026-09-12 20:54:09",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1156760,
+            "title": "Morgan Stanley Adds 203.446 BTC Through Spot Bitcoin ETF Over Three Days",
+            "description": "Morgan Stanley increased its Bitcoin holdings for three consecutive days through its spot Bitcoin exchange-traded fund MSBT, spending $15.81 million to add about 203.446 BTC. According to Odaily, its total Bitcoin holdings have now exceeded 7,800 BTC and stand at 7,855 BTC, worth more than $600 million.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156760&language=en-US",
+            "pub_date": "2026-09-12 20:54:15",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1156759,
             "title": "GEOPOLITICS | Modi Pushes BRICS Consensus Amid Rising Global Tensions",
             "description": "India is seeking to build consensus among an expanded BRICS group despite divisions over the Iran war, ties with the US and the bloc's role in the global order, according to Bloomberg.\n\nBloomberg News Senior Reporter Dan Strumpf said the summit is also highlighting a tentative India-China rapprochement, with President Xi Jinping visiting New Delhi and China Southern Airlines preparing to restore its Guangzhou-New Delhi service after a six-year suspension.",
@@ -166,36 +196,6 @@
             "description": "Donut AI CEO and founder Chris publicly disclosed his on-chain investment portfolio and trading approach, according to on-chain analyst Ai Yi. The portfolio includes PUMP, PONS, AI, BONER, and STONK.\n\nAccording to ChainCatcher, Chris has held PUMP for several months and has made more than $936,000 in cumulative profit. He also earned more than $130,000 from trading popular Robinhood Chain tokens over the past 30 days, including exiting PONS when its market value was about $600 million.\n\nChris said he opened a position in STONK when its market value was about $89 million and is now sitting on about $180,000 in unrealized gains, representing a return of more than 170%. He said Robinhood Chain currently relies more on new retail inflows, while Solana has a larger base of on-chain capital, making him more optimistic about the long-term development of Solana's tokenized stock ecosystem.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156741&language=en-US",
             "pub_date": "2026-09-12 19:33:53",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1156740,
-            "title": "Trump Says Iran-Backed Houthis Asked the U.S. Not to Intervene",
-            "description": "U.S. President Donald Trump said the Iran-backed Houthis had asked the United States not to attack the militant group. According to Sina Finance, Trump told reporters on Saturday during a meeting in Dublin with Irish Prime Minister Micheál Martin that the Houthis “called us and they don’t want to fight us,” adding that they “very much hope that we don’t go in.”\n\nTrump said he had spoken with Saudi Crown Prince Mohammed bin Salman but did not provide details. He also said, “I can only say everything will work out fine. The result will be very good.”",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156740&language=en-US",
-            "pub_date": "2026-09-12 19:14:19",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1156739,
-            "title": "Russia Shifts Grain Exports to Far East as Black Sea Ports Face Strikes",
-            "description": "Russia is using its Far East as an alternative route to export grain after Ukrainian strikes disrupted shipments from key Black Sea ports, Agriculture Minister Oksana Lut said, according to Bloomberg.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156739&language=en-US",
-            "pub_date": "2026-09-12 19:20:23",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1156738,
-            "title": "Jewish Communities' Security Costs Top $1 Billion A Year",
-            "description": "According to Axios, Jewish communal institutions in the United States are spending an estimated $1.02 billion a year on security, a record high, according to new data from the Jewish Federations of North America (JFNA). The estimate is up 33% from $765 million in 2024 and covers more than 4,500 synagogues, Jewish community centers, schools, summer camps and other nonprofits, which spend an average of about $225,000 each. Security personnel account for the largest share, while about $150 million goes to security technology and building hardening, including cameras, reinforced doors and controlled-entry systems. The estimate does not include costs at more than 1,600 kosher restaurants, about 500 kosher markets and groceries, or other privately owned Jewish businesses.\n\nAxios reported that the higher spending comes as antisemitic assaults have reached their highest level since the Anti-Defamation League began tracking them in 1979. Community Security Service CEO Richard Priem said there is now more capability protecting the Jewish community than there was a few years ago, while JFNA CEO Eric Fingerhut said every dollar spent on guards and cameras is a dollar not spent on Jewish education. The article also said FEMA has made $300 million available through the FY 2026 Nonprofit Security Grant Program, and that a bipartisan bill in Congress would authorize $1 billion annually from FY 2027 through FY 2031 for the program and loosen limits on using the money for security personnel.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1156738&language=en-US",
-            "pub_date": "2026-09-12 19:22:23",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
