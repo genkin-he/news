@@ -1,0 +1,120 @@
+name: cleanup workflow runs
+
+on:
+  workflow_dispatch:
+    inputs:
+      keep_days:
+        description: "保留最近 N 天的已完成 run（默认 1）"
+        default: "1"
+        required: false
+      keep_min:
+        description: "至少保留最近 N 条 run 作为兜底（默认 20）"
+        default: "20"
+        required: false
+      dry_run:
+        description: "仅打印将删除的 run，不实际删除"
+        type: boolean
+        default: false
+        required: false
+  schedule:
+    # 积压清理期间每 6 小时一次（含北京时间 19:30 一档，错开 clean.yml 的 19:00）
+    # 积压清完后可改回每天一次："30 11 * * *"
+    - cron: "30 5,11,17,23 * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+# 与同名清理任务互斥；不与 clean.yml / news.yml 抢占 group，避免相互取消
+concurrency:
+  group: actions-runs-cleanup
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      KEEP_DAYS: ${{ inputs.keep_days || '1' }}
+      KEEP_MIN: ${{ inputs.keep_min || '20' }}
+      DRY_RUN: ${{ inputs.dry_run || 'false' }}
+      SELF_RUN_ID: ${{ github.run_id }}
+      # 软时限（秒）：留出收尾余量，避免被 timeout-minutes 硬杀丢失统计输出
+      MAX_SECONDS: "1500"
+    steps:
+      - name: Delete old workflow runs
+        run: |
+          set -euo pipefail
+          repo="${GITHUB_REPOSITORY}"
+          cutoff=$(date -u -d "${KEEP_DAYS} days ago" +%Y-%m-%dT%H:%M:%SZ)
+          echo "🧹 仓库 ${repo}"
+          echo "   keep_days=${KEEP_DAYS}  cutoff=${cutoff}"
+          echo "   keep_min=${KEEP_MIN}    dry_run=${DRY_RUN}"
+          echo "   self_run_id=${SELF_RUN_ID}（跳过）"
+
+          # 兜底：无论 cutoff 如何，最新 KEEP_MIN 条一律保留
+          keep_ids=$(gh api -X GET "/repos/${repo}/actions/runs" \
+            -f per_page="${KEEP_MIN}" --jq '.workflow_runs[].id' | tr '\n' ' ')
+
+          # 列表 API 单次查询最多返回 1000 条，必须用 created 过滤圈定范围，
+          # 并且边删边重新拉第一页，才能吃掉超过 1000 条的积压
+          total=$(gh api -X GET "/repos/${repo}/actions/runs" \
+            -f status=completed -f created="<${cutoff}" -f per_page=1 \
+            --jq '.total_count')
+          echo "📦 早于 cutoff 的已完成 run 总数：${total}"
+          if [ "${total}" -eq 0 ]; then
+            echo "✅ 没有需要删除的 run"
+            exit 0
+          fi
+
+          deleted=0
+          failed=0
+          while [ "${SECONDS}" -lt "${MAX_SECONDS}" ]; do
+            mapfile -t ids < <(gh api -X GET "/repos/${repo}/actions/runs" \
+              -f status=completed -f created="<${cutoff}" -f per_page=100 \
+              --jq '.workflow_runs[].id')
+            if [ ${#ids[@]} -eq 0 ]; then
+              break
+            fi
+
+            page_deleted=0
+            for id in "${ids[@]}"; do
+              if [ "${id}" = "${SELF_RUN_ID}" ]; then
+                continue
+              fi
+              case " ${keep_ids} " in
+                *" ${id} "*) continue ;;
+              esac
+              if [ "${DRY_RUN}" = "true" ]; then
+                echo "   [dry_run] ${id}"
+                continue
+              fi
+              if gh api -X DELETE "/repos/${repo}/actions/runs/${id}" --silent; then
+                deleted=$((deleted + 1))
+                page_deleted=$((page_deleted + 1))
+              else
+                failed=$((failed + 1))
+              fi
+              if [ "${SECONDS}" -ge "${MAX_SECONDS}" ]; then
+                break
+              fi
+            done
+
+            if [ "${DRY_RUN}" = "true" ]; then
+              echo "🟡 dry_run=true，仅展示第一页（共 ${total} 条待删），未实际删除"
+              exit 0
+            fi
+            # 整页一条都没删掉（全是保留项或持续失败），继续循环只会原地打转
+            if [ "${page_deleted}" -eq 0 ]; then
+              break
+            fi
+            echo "   进度：已删除 ${deleted} 条，失败 ${failed} 条，耗时 ${SECONDS}s"
+          done
+
+          remaining=$((total - deleted))
+          echo "✅ 删除成功：${deleted}，失败：${failed}，本轮后剩余约 ${remaining} 条"
+          if [ "${deleted}" -eq 0 ] && [ "${failed}" -gt 0 ]; then
+            echo "❌ 全部删除失败，请检查 PERSONAL_ACCESS_TOKEN 权限"
+            exit 1
+          fi
