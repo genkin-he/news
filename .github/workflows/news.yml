@@ -1,0 +1,85 @@
+name: save news
+
+on:
+  repository_dispatch:
+    types: [run]
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '*/10 * * * *'
+
+# 添加并发控制
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  token: ${{ secrets.TOKEN }}
+  slack_webhook: ${{ secrets.Slack_Webhook }}
+  tradingview_cookie: ${{ secrets.Tradingview_Cookie }}
+  seekingalpha: ${{ secrets.Seekingalpha }}
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          if ! command -v gtimeout &> /dev/null; then
+            brew install coreutils
+          else
+            echo "gtimeout already installed"
+          fi
+
+      # - name: Execute before actions
+      #   run: |
+      #     chmod +x ./news/scripts/callbacks/before_actions.py
+      #     python3 ./news/scripts/callbacks/before_actions.py || true
+
+      - name: Execute Python scripts
+        run: |
+          chmod +x ./news/scripts/*.py
+          find ./news/scripts/*.py -type f -perm -u=x -print0 | xargs -0 -n 1 -P 8 -I {} sh -c 'gtimeout 15 python3 {} || true'
+
+      - name: Execute shell scripts
+        run: |
+          chmod +x ./news/scripts/*.sh
+          for f in ./news/scripts/*.sh; do
+            if [ -x "$f" ]; then
+              gtimeout 10 sh "$f" || true
+            fi
+          done
+
+      - name: Execute after actions
+        run: |
+          chmod +x ./news/scripts/callbacks/after_actions.py
+          python3 ./news/scripts/callbacks/after_actions.py || true
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "hemengzhi88@gmail.com"
+          git config --global user.name "genkin-he"
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
