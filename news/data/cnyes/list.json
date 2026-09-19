@@ -1,6 +1,36 @@
 {
     "data": [
         {
+            "id": 6610984,
+            "title": "Garrett Jin實體曾持有超10萬枚BTC，成本單價僅約7,242美元，過去一年頻頻上演巨額虧損",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，9 月 19 日，EmberCN 發文披露，「BTC OG 內幕巨鯨」代理人 Garrett Jin 巨鯨實體之所以能在 ZEC 空頭上承受數千萬美元浮虧，是因為其早期積累了規模龐大的 BTC 資產。該實體曾在 2018 年 5 月至 6 月囤積 100,784 枚 BTC，當時均價約 7,242 美元，去年同期持倉價值已超過百億美元，後續多項投資的資金主要來自出售 BTC。</p></section><p></p><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>過去一年，該實體頻繁進行大額加密資產交易。2025 年 8 月起，其陸續賣出約 8.9 萬枚 BTC 並買入約 90 萬枚 ETH，ETH 成本均價超過 3,500 美元，這些 ETH 隨後在 2026 年上半年陸續轉入 Binance。</p></section><section><p><br/></p></section><section style=\"margin-top:30px\"><p>2025 年 12 月，該實體又在 Hyperliquid 做多 ETH，2026 年 2 月初因 ETH 從 3,000 美元跌至 1,800 美元，價值約 6.7 億美元的 21.3 萬枚 ETH 多單爆倉，損失約 2.3 億美元保證金。同一時期，與 Trend Research 地址存在多次大額資金往來的該實體，被認為曾向 Trend Research 提供部分資金，後者一筆 65.15 萬枚 ETH 的槓桿多單最終止損，損失約 7.34 億美元。</p></section><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>此外，該實體今年 2 月至 6 月通過 Binance 提取及鏈上買入，累計囤積約 2.896 億枚「幣安人生」代幣，價值約 1.5 億美元，佔該代幣總供應量 28.9%；</p></section><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>3 月還曾因將 5043 萬枚 aEthUSDT 兌換為 aEthAAVE 時遭遇極端滑點，僅換得 327.2 枚 AAVE，損失約 5039 萬美元。</p></section><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>自 7 月以來，該實體又在 Hyperliquid 做空 ZEC，目前浮虧約 3400 萬美元。相比其早期百億美元級 BTC 資產，這筆虧損只是其多次巨額交易中的一部分。</p></section><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/367996\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6610984",
+            "pub_date": "2026-09-19 16:30:08",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6610985,
+            "title": "DFlash團隊進軍Mac，27B模型跑到144Token/s",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>動察 Beating AI 快訊，Inco AI 開源本地推理引擎 Splash，把 Qwen3.8-27B 在 M5 Max MacBook Pro 上跑到了最高 144 Token/s。LM Studio 隨即接入，0.4.25 版本已經可以直接使用。</p></section><p></p><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>Inco 此前做出的 DFlash 已經進入 SGLang、vLLM、TensorRT-LLM 和 llama.cpp。Meta、NVIDIA、小米、Poolside 等也給自家模型配了 DFlash 加速小模型。DFlash 會先讓小模型並行猜出多個 Token，再交給大模型批量驗證，減少逐 Token 生成的計算。</p></section><section><p><br/></p></section><section style=\"margin-top:30px\"><p>Splash 把這種優化擴到了整個本地推理引擎。它目前只支持 Qwen3.8-27B 和 Qwen3.6-35B-A3B，每個模型都單獨配了 GPU kernel、內存方案和 DFlash 2 小模型。覆蓋的模型少，但換來了更激進的性能優化。</p></section><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>144 Token/s 是 M5 Max 上的最高演示值。換到 Inco 用來做橫向測試的 48GB M5 Pro，Qwen3.8-27B 單路短上下文達到 74 Token/s；4 路並發時總吞吐達到 170 Token/s，是第二名的 3.9 倍。這也是 Splash 更適合 Agent 場景的地方。一個 Agent 同時拉起多個子任務時，並發總吞吐往往比單條對話速度更重要。</p></section><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>Splash 本身開源，不綁定 LM Studio。目前需要 M3 或更新的 Mac、macOS 26.4 以上、至少 36GB 統一內存。</p></section><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/367995\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6610985",
+            "pub_date": "2026-09-19 16:30:09",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "id": 6610986,
+            "title": "交易員Loracle所持閃迪空單浮虧467萬美元，HYPE空單浮虧擴大至291萬美元",
+            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，9 月 19 日，據 TradingBeats 監測，交易員 Loracle 目前做空閃迪浮虧高達 467 萬美元，持倉規模為 2800 萬美元，開倉價 1,485.67 美元，爆倉價 2,552.96 美元。</p></section><p></p><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>與此同時，其地址內持有的 HYPE 空單浮虧擴大至 291 萬美元，持倉規模為 700 萬美元，開倉價 53.97 美元，爆倉價 136.56 美元。</p></section><section><p><a href=\"https://m.theblockbeats.info/tw/flash/367994\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
+            "link": "https://news.cnyes.com/news/id/6610986",
+            "pub_date": "2026-09-19 16:30:09",
+            "source": "cnyes",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
             "id": 6610980,
             "title": "盤中速報 - Ethena大漲9.5%，報0.19美元",
             "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p><a href=\"https://crypto.cnyes.com/ENA\">Ethena</a>(ENA)在過去 24 小時內漲幅超過9.5%，最新價格0.19美元，總成交量達0.62億美元，總市值15.25億美元，目前市值排名第 25 名。</p></section><p></p><section style=\"margin-top:30px\"><p>近 1 日最高價：0.19美元，近 1 日最低價：0.16美元，流通供給量：8,492,187,500。</p></section><section style=\"margin-top:30px\"><p><em>歷史漲跌幅</em></p></section><section><ul> <li>近 1 週：+9.06%</li> <li>近 1 月：+66.45%</li> <li>近 3 月：+76.48%</li> <li>近 6 月：+50.78%</li> <li>今年以來：-28.63%</li></ul></section></main>",
@@ -66,36 +96,6 @@
             "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，9 月 19 日，據 AI 姨監測，某實體過去 15 小時再次以均價 2599 美元買入 2086 枚 ETH，價值約 542 萬美元。</p></section><p></p><section style=\"margin-top:30px\"><p><br/>自昨日以來，該實體持續通過「賣出 UBTC、買入 ETH」的方式加倉，累計買入 9058.19 枚 ETH，投入約 2257 萬美元，平均成本約 2492.62 美元，目前浮盈約 122 萬美元。</p></section><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/367992\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
             "link": "https://news.cnyes.com/news/id/6610972",
             "pub_date": "2026-09-19 16:00:06",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6610971,
-            "title": "千問同傳模型Qwen3.8-LiveTranslate發布，延遲降18%",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>動察 Beating AI 快訊，千問發布實時同聲傳譯模型 Qwen3.8-LiveTranslate。它把字均延遲（LAAL，衡量同傳平均滯後時間）從上一代 2.8 秒壓到 2.3 秒，並新增實時說話人分離、原文譯文同步輸出和長上下文消歧。</p></section><p></p><section style=\"margin-top:30px\"><p><br/></p></section><section style=\"margin-top:30px\"><p>模型現在可以區分不同說話人，把譯文對應到具體發言，並讓翻譯後的語音更穩定地保留各自音色。原文和譯文也會同步流式返回。模型還會結合前文判斷人名、術語和指代，減少只看當前一句產生的歧義。</p></section><section><p><br/></p></section><section style=\"margin-top:30px\"><p>API 價格相比上一代基本沒變。阿里雲價目表顯示，北京區 Qwen3.8-LiveTranslate 的音頻輸入、圖片輸入、文本輸出和音頻輸出價格，與 Qwen3.5-LiveTranslate 完全相同；新加坡區四項價格還略有下降。</p></section><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/367993\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section style=\"margin-top:30px\"><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
-            "link": "https://news.cnyes.com/news/id/6610971",
-            "pub_date": "2026-09-19 16:00:06",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6610965,
-            "title": "BIT關聯地址再向Binance轉入1000枚BTC，價值8106萬美元",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section style=\"margin-top:30px\"><p>BlockBeats 消息，9 月 19 日，據 HTX 行情數據，與 BIT（原 Matrixport）關聯的錢包地址 bc1qsz 再次向 Binance 存入 1000 枚 BTC，價值約 8106 萬美元。<br/></p></section><p></p><section style=\"margin-top:30px\"><p>此前 9 月 15 日，BIT（原 Matrixport）向 Binance 存入 1,400 枚 BTC，價值約 1.078 億美元；同時從 Binance 提取 10,000 枚 ETH，價值約 2,467 萬美元。</p></section><section style=\"margin-top:30px\"><p><a href=\"https://m.theblockbeats.info/tw/flash/367990\" rel=\"nofollow\" style=\"color:#A9A9A9\">原文連結</a></p></section><section><p>發佈者對本文章的內容承擔全部責任<br/>在投資<a href=\"https://crypto.cnyes.com/BTC/24h\" target=\"_blank\">加密貨幣</a>前，請務必深入研究，理解相關風險，並謹慎評估自己的風險承受能力。不要因為短期高回報的誘惑而忽視潛在的重大損失。</p></section></main>",
-            "link": "https://news.cnyes.com/news/id/6610965",
-            "pub_date": "2026-09-19 15:30:07",
-            "source": "cnyes",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "id": 6610892,
-            "title": "摩根士丹利近70億美元私募信貸基金再限贖回！投資人提款需求超額2倍",
-            "description": "<main class=\"c1tt5pk2\" id=\"article-container\" style=\"--c1tt5pk2-0:20px\"><section class=\"sg8vnnv\"><div class=\"s1omsphq\"><img alt=\"AI gen Logo\" src=\"/assets/icons/icon-ai-gen.svg\"/><span>AI新聞摘要</span></div><ul class=\"s1mb12i4\"><li class=\"summary-item\"><span class=\"s1d1cyea\">1<!-- -->.</span><span class=\"s5k122l\">摩根士丹利North Haven Private Income Fund第三季再度限制贖回，上限5%，申請贖回達11.4%，超過可回購金額兩倍</span></li><li class=\"summary-item\"><span class=\"s1d1cyea\">2<!-- -->.</span><span class=\"s5k122l\">截至9月前三季累計回購約4.79億美元，近三分之二申請來自先前兩輪受限投資者</span></li><li class=\"summary-item\"><span class=\"s1d1cyea\">3<!-- -->.</span><span class=\"s5k122l\">私募信貸市場提款壓力仍高，大摩也與黑石、貝萊德等同業持續限制贖回</span></li></ul></section><section style=\"margin-top:30px\"><p>摩根士丹利(<a href=\"https://invest.cnyes.com/usstock/detail/MS\">MS-US</a>) 第三季再度限制旗下近70億美元私募信貸基金的贖回，因為投資人申請贖回規模超過基金願意回購金額的兩倍。</p></section><p><template id=\"P:1\"></template></p><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>根據《彭博》報導， 摩根士丹利旗下的 North Haven Private Income Fund將贖回上限設為5%<span>，而投資者申請贖回</span>11.4%的份額，與前三個月基本持平<span>。</span></p></section><section>\n</section><section style=\"margin-top:30px\"><p>基金表示，截至9月的三個季度累計完成回購約4.79億美元，近三分之二申請來自先前兩輪受限投資者。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>儘管大型私募信貸基金最近一季收到的贖回申請大致減少，但投資人持續嘗試從規模達1.8兆美元的私募信貸市場撤回資金，提款壓力仍處於相對高檔。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>摩根士丹利也因此與黑石(<a href=\"https://invest.cnyes.com/usstock/detail/BX\">BX-US</a>) 、貝萊德(<a href=\"https://invest.cnyes.com/usstock/detail/BLK\">BLK-US</a>) 等同業一樣，持續限制投資人可贖回的資金規模。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>基金管理公司目前仍在處理約150億美元的待贖回申請。過去一年，市場曾出現創紀錄的資金撤出潮，主因投資人擔憂放款審核標準，以及貸款機構對早期軟體投資的曝險程度。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p>此外，摩根士丹利旗下另一檔總投資規模不到10億美元的基金，也因收到約占基金股份7%的贖回申請，而限制投資人贖回。</p></section><section style=\"margin-top:30px\">\n</section><section style=\"margin-top:30px\"><p class=\"warning\">（本文不開放合作夥伴轉載）</p></section><section style=\"margin-top:30px\">\n</section></main>",
-            "link": "https://news.cnyes.com/news/id/6610892",
-            "pub_date": "2026-09-19 15:10:03",
             "source": "cnyes",
             "kind": 1,
             "language": "zh-HK"
