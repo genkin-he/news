@@ -1,4 +1,17 @@
 # -*- coding: UTF-8 -*-
+#
+# 【已停用】2026-10-10 起移入 disabled/，不再随 CI 执行（news.yml 只跑 news/scripts/*.py）。
+#
+# 停用原因：站点开启了 Cloudflare 全站人机验证（托管质询，需要在浏览器里执行 JS）。
+# 自 2026-10-05 起 CI 每轮 403，响应头 cf-mitigated: challenge。实测下列方式全部被拦：
+#   - 列表页、分类 RSS（/feed/）、WordPress REST（/wp-json/）三个入口无一例外；
+#   - curl_cffi 四种指纹（chrome120 / safari18_0 / firefox133 / safari17_0）各试两轮；
+#   - 本机出口、GitHub Actions runner、feed2json.org 的服务器三处出口一致。
+# 这不是指纹或 cookie 能解决的问题，纯 HTTP 客户端都过不去这道人机验证。
+#
+# 恢复方法：确认站点撤掉人机验证后（curl_cffi 能拿到 200），把本文件移回 news/scripts/。
+# 代码本身已改好：curl_cffi 降级链 + RSS 备用入口 + 按剩余预算收敛的超时。
+#
 from bs4 import BeautifulSoup
 from curl_cffi import requests as curl_requests
 
