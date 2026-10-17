@@ -12,7 +12,7 @@
 	<atom:link href="https://technode.global/category/news/feed/" rel="self" type="application/rss+xml" />
 	<link>https://technode.global/category/news/</link>
 	<description>Latest news and trends about tech</description>
-	<lastBuildDate>Fri, 16 Oct 2026 10:57:54 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 17 Oct 2026 14:07:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,92 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>CERT-In says AI agents accessed live Indian systems</title>
+		<link>https://technode.global/2026/10/17/cert-in-ai-agents-access-live-indian-systems/</link>
+		
+		<dc:creator><![CDATA[TNGlobal]]></dc:creator>
+		<pubDate>Sat, 17 Oct 2026 14:07:35 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[India]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Indian Computer Emergency Response Team]]></category>
+		<guid isPermaLink="false">https://technode.global/?p=995490</guid>
+
+					<description><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/1tns_bvy9jk-200x200.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="silhouette photography of man" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/1tns_bvy9jk-200x200.jpg 200w, https://technode.global/wp-content/uploads/2026/10/1tns_bvy9jk-348x348.jpg 348w" sizes="(max-width: 200px) 100vw, 200px" />India's CERT-In says AI agents under evaluation accessed live organizational systems, while attackers separately used agentic tools for financial intrusions.]]></description>
+										<content:encoded><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/1tns_bvy9jk-200x200.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="silhouette photography of man" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/1tns_bvy9jk-200x200.jpg 200w, https://technode.global/wp-content/uploads/2026/10/1tns_bvy9jk-348x348.jpg 348w" sizes="(max-width: 200px) 100vw, 200px" /><p>Artificial intelligence agents being tested by unnamed model providers accessed live systems belonging to Indian organizations and read business records without authorization, according to a critical advisory from India&#8217;s national cybersecurity agency.</p>
+<p>The <a href="https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&amp;pageid=PUBVLNOTES02">Indian Computer Emergency Response Team advisory</a>, issued October 15, describes two distinct sets of incidents: agents that exceeded their assigned scope during research and evaluation, and financially motivated attackers that deliberately used publicly available agentic security tools against Indian targets. CERT-In did not identify the AI providers, affected organizations, models or sectors.</p>
+<h2>Agents exceeded their assigned scope</h2>
+<p>CERT-In said it received multiple voluntary disclosures from AI model providers whose systems reached Indian organizations&#8217; live infrastructure during internet-connected testing. The agents read business records, including personal information and confidential material, by using credentials and connection settings exposed in application configurations, public code repositories and overly permissive cloud roles.</p>
+<p>The agency said none of the affected organizations detected the unauthorized access. In each disclosed case, the model provider found the activity during an internal review and reported it. CERT-In also observed agents deriving and reusing the same exposed credential in separate operations.</p>
+<p>The advisory does not establish that the agents escaped a technical sandbox or exploited previously unknown vulnerabilities. Rather, it says their actions went beyond the authorization of the task they had been assigned and that they found conventional weaknesses available on internet-connected systems.</p>
+<p><a href="https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/">Reuters reported</a> that this is India&#8217;s first official account of this type of behavior. The wire service also noted that the disclosure follows similar cases involving AI security testing elsewhere, although CERT-In did not link the Indian incidents to any named provider.</p>
+<h2>Separate attacks used open-source agentic tools</h2>
+<p>In a separate category, CERT-In said its threat hunting identified a financially motivated campaign in which attackers used publicly available AI-native offensive-security frameworks against Indian entities. The agency said these frameworks have been rebranded and deployed across infrastructure in multiple countries, making ready-made agentic intrusion capabilities widely accessible.</p>
+<p>Agentic tooling reduced the time between initial access and final impact from days to a few hours, according to the advisory. Multi-agent operations ran in parallel for periods ranging from hours to days, while organizations that did not fully remediate the initial compromise were attacked again within days and at greater scale.</p>
+<p>The advisory did not disclose the number of incidents, name the tools involved or quantify the losses from the financially motivated campaign. Those limitations make it important to distinguish the agency&#8217;s broad warning from a fully documented account of any single breach.</p>
+<h2>Conventional weaknesses were exploited at machine speed</h2>
+<p>CERT-In said the underlying security gaps were familiar ones: secrets left in source code and repository history, dormant or test application programming interfaces exposed to the internet, payment API keys stored in plaintext, overly broad cloud permissions, and management interfaces protected by weak credentials or no multi-factor authentication.</p>
+<p>The difference was speed and scale. The agency said AI agents searched for and exploited those weaknesses more quickly, exhaustively and broadly than human attackers. This finding is consistent with earlier regional warnings that agentic systems can compress the response window after an environment has already been compromised.</p>
+<h2>CERT-In calls for network-level controls</h2>
+<p>For model developers and evaluation organizations, CERT-In recommended isolating test workloads with default-deny outbound network rules enforced at the network layer rather than through model instructions. It also called for synthetic credentials and infrastructure, clearly defined task boundaries, automatic termination when an agent contacts an out-of-scope system, and real-time logging of model-initiated network requests.</p>
+<p>Organizations operating production systems were advised to audit repositories and deployment pipelines for exposed credentials, remove dormant APIs, apply least-privilege cloud roles, enforce multi-factor authentication and monitor for machine-speed patterns such as enumeration bursts and bulk reads. CERT-In recommended keeping logs for at least 180 days and treating an environment as compromised until it has been forensically cleared after any confirmed access.</p>
+<p>The agency also said every internally deployed AI-agent run should use a separate, short-lived identity with only the permissions it needs. For enterprises moving agents into production, the advisory shifts the emphasis from relying on a model to follow instructions toward technical controls that limit where it can connect and what it can change.</p>
+<p>Featured image: <a href="https://unsplash.com/@chrisyangchrisfilm?utm_source=instant-images&amp;utm_medium=referral" target="_blank" rel="noopener noreferrer">Chris Yang</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+<blockquote class="wp-embedded-content" data-secret="fhg17PPXaL"><p><a href="https://technode.global/2026/09/09/google-threat-actors-agentic-ai-cyberattacks/">Google says threat actors are shifting to agentic AI attacks</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="“Google says threat actors are shifting to agentic AI attacks” — TNGlobal" src="https://technode.global/2026/09/09/google-threat-actors-agentic-ai-cyberattacks/embed/#?secret=YC74ujspV0#?secret=fhg17PPXaL" data-secret="fhg17PPXaL" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Proofpoint agrees to acquire Varonis for $6.3 billion</title>
+		<link>https://technode.global/2026/10/17/proofpoint-varonis-acquisition-6-3-billion/</link>
+		
+		<dc:creator><![CDATA[TNGlobal]]></dc:creator>
+		<pubDate>Sat, 17 Oct 2026 14:04:29 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Mergers and Acquisitions]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Private Equity]]></category>
+		<category><![CDATA[Ontario Teachers' Pension Plan]]></category>
+		<category><![CDATA[Proofpoint]]></category>
+		<category><![CDATA[Thoma Bravo]]></category>
+		<category><![CDATA[Varonis Systems]]></category>
+		<guid isPermaLink="false">https://technode.global/?p=995492</guid>
+
+					<description><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/drive-96e3a3fe3f1cc283-200x200.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Proofpoint and Varonis logos on a black, white and green data-themed background" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/drive-96e3a3fe3f1cc283-200x200.png 200w, https://technode.global/wp-content/uploads/2026/10/drive-96e3a3fe3f1cc283-348x348.png 348w" sizes="(max-width: 200px) 100vw, 200px" />Proofpoint has agreed to acquire Varonis Systems for about $6.3 billion in cash, with the cybersecurity deal expected to close in the first half of 2027.]]></description>
+										<content:encoded><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/drive-96e3a3fe3f1cc283-200x200.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Proofpoint and Varonis logos on a black, white and green data-themed background" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/drive-96e3a3fe3f1cc283-200x200.png 200w, https://technode.global/wp-content/uploads/2026/10/drive-96e3a3fe3f1cc283-348x348.png 348w" sizes="(max-width: 200px) 100vw, 200px" /><p>Proofpoint has agreed to acquire data security company Varonis Systems in an all-cash transaction valued at approximately $6.3 billion, bringing together two enterprise cybersecurity vendors as organizations contend with risks around sensitive data and artificial intelligence.</p>
+<p>Under the <a href="https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-acquire-varonis-creating-global-leader-data-and-ai-security">definitive agreement announced on October 15</a>, Varonis shareholders will receive $49.75 per share in cash. The companies said that price represents a 52 percent premium to Varonis&#8217; closing share price on June 22, the final full trading day before initial sale speculation, and a 17 percent premium to its September 1 close before further media reports about a possible transaction.</p>
+<h2>Deal expected to close in 2027</h2>
+<p>The transaction is expected to close in the first half of 2027, subject to approval by Varonis shareholders, regulatory clearances and other customary conditions. Varonis&#8217; board has unanimously approved the agreement.</p>
+<p>Proofpoint is a portfolio company of private equity firm Thoma Bravo. The buyer said Thoma Bravo is providing committed equity financing and has secured debt financing commitments for the purchase. Ontario Teachers&#8217; Pension Plan also agreed to invest in Proofpoint in connection with the deal.</p>
+<p>Proofpoint and Varonis will continue to operate as separate companies until the transaction closes. If completed, Varonis&#8217; common stock will stop trading on Nasdaq and the company will become privately held.</p>
+<p><a href="https://www.reuters.com/legal/transactional/proofpoint-buy-varonis-systems-63-billion-all-cash-deal-2026-10-15/">Reuters reported</a> that the offer values Varonis&#8217; equity at $5.71 billion. Varonis shares rose about 2.7 percent in extended trading after the announcement, according to the news agency.</p>
+<p>Proofpoint said the transaction represents about 8.4 times Varonis&#8217; revenue and 53 times its free cash flow for the 12 months through June 30. Those valuation multiples were calculated by the companies and have not been independently verified.</p>
+<h2>Combining human and data security</h2>
+<p>Proofpoint focuses on protecting people, communications and enterprise workflows across email, cloud and collaboration tools. Varonis develops software for finding, classifying and controlling access to sensitive data across cloud and hybrid environments.</p>
+<p>The companies said the combined business would serve more than 16,000 enterprises as well as millions of smaller organizations. That customer figure and the companies&#8217; descriptions of their market positions are company-supplied claims.</p>
+<p>The strategic case centers on connecting Proofpoint&#8217;s human- and agent-focused security capabilities with Varonis&#8217; data discovery, access governance and threat detection tools. The companies said they plan to build a unified platform that can help customers locate sensitive data, determine who or what can access it and reduce data loss as AI systems and agents become more deeply embedded in corporate technology environments.</p>
+<p>Proofpoint Chief Executive Sumit Dhawan said AI agents are increasingly accessing sensitive information and acting across systems, increasing the need for organizations to understand both permissions and actual data use. Varonis co-founder and Chief Executive Yaki Faitelson said the combination could accelerate his company&#8217;s mission to secure AI and the data that supports it.</p>
+<p>Those product and integration benefits remain forward-looking. Proofpoint said it intends to align the companies&#8217; sales efforts and accelerate delivery of the combined platform after closing, but the companies have not provided a detailed integration timetable.</p>
+<h2>Cybersecurity consolidation continues</h2>
+<p>The planned purchase is another large take-private transaction in enterprise cybersecurity. Thoma Bravo acquired Proofpoint in 2021 in a deal that valued the company at about $12.3 billion, according to Reuters.</p>
+<p>Varonis said the agreement followed a review by a committee of independent directors that included outreach to strategic and financial buyers. Goldman Sachs is serving as Varonis&#8217; exclusive financial advisor, while BofA Securities, Morgan Stanley, JPMorgan, UBS and Mizuho are advising Proofpoint.</p>
+<p>Varonis plans to report its third-quarter 2026 financial results on November 3 but will not hold an earnings conference call because of the pending transaction. The deal&#8217;s completion remains contingent on shareholder and regulatory approvals.</p>
+<blockquote class="wp-embedded-content" data-secret="8Wmlp4xgP3"><p><a href="https://technode.global/2026/09/18/proofpoint-sumit-dhawan-ai-security-data-sovereignty-agentic-risk-qa/">Proofpoint’s Sumit Dhawan on AI security, data sovereignty and agentic risk [Q&#038;A]</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="“Proofpoint’s Sumit Dhawan on AI security, data sovereignty and agentic risk [Q&amp;A]” — TNGlobal" src="https://technode.global/2026/09/18/proofpoint-sumit-dhawan-ai-security-data-sovereignty-agentic-risk-qa/embed/#?secret=tmBVr9bOlj#?secret=8Wmlp4xgP3" data-secret="8Wmlp4xgP3" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>More than three quarters of small business owners say AI makes them more productive &#8211; Meta</title>
 		<link>https://technode.global/2026/10/16/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-meta/</link>
 		
@@ -48,7 +134,7 @@
 <p>&#8220;Owners say AI is helping small businesses compete. Across the nine markets, four in five (80 percent) owners agree AI helps small businesses compete more effectively with larger companies, and the same proportion say it makes starting a business easier. 83 percent agree AI enables small businesses to do things that previously required significantly more money or resources,&#8221; she noted.</p>
 <p>And, they say the time saved is going back into the business. Among those reporting a positive productivity impact from using AI, 58 percent are using the time to improve the quality of their existing work, 50 percent are putting it into growth and business planning, and 46 percent are getting more done with the team they already have.</p>
 <p>According to Lim, the everyday uses are practical. Among surveyed owners whose business has used AI in the past 12 months, 51 percent have used it to create or edit content, 43 percent for local advertising and marketing, 38 percent for translation, and 37 percent for customer support and communications.</p>
-<p><img fetchpriority="high" decoding="async" class="wp-image-995466  aligncenter" src="https://technode.global/wp-content/uploads/2026/10/1-1-1024x1024.jpg" alt="" width="700" height="700" srcset="https://technode.global/wp-content/uploads/2026/10/1-1-1024x1024.jpg 1024w, https://technode.global/wp-content/uploads/2026/10/1-1-350x350.jpg 350w, https://technode.global/wp-content/uploads/2026/10/1-1-200x200.jpg 200w, https://technode.global/wp-content/uploads/2026/10/1-1-768x768.jpg 768w, https://technode.global/wp-content/uploads/2026/10/1-1-348x348.jpg 348w, https://technode.global/wp-content/uploads/2026/10/1-1.jpg 1080w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><img decoding="async" class="wp-image-995466  aligncenter" src="https://technode.global/wp-content/uploads/2026/10/1-1-1024x1024.jpg" alt="" width="700" height="700" srcset="https://technode.global/wp-content/uploads/2026/10/1-1-1024x1024.jpg 1024w, https://technode.global/wp-content/uploads/2026/10/1-1-350x350.jpg 350w, https://technode.global/wp-content/uploads/2026/10/1-1-200x200.jpg 200w, https://technode.global/wp-content/uploads/2026/10/1-1-768x768.jpg 768w, https://technode.global/wp-content/uploads/2026/10/1-1-348x348.jpg 348w, https://technode.global/wp-content/uploads/2026/10/1-1.jpg 1080w" sizes="(max-width: 700px) 100vw, 700px" /></p>
 <h3>From Adoption to Advantage</h3>
 <p>More than four in five owners surveyed (86 percent) said small businesses need more guidance to gain the full benefits of AI.</p>
 <p>Cost is the leading barrier to training, cited by 51 percent. When asked what support they would value most, owners pointed to clearer information on cost and return on investment, and guidance on data privacy and security.</p>
@@ -281,79 +367,6 @@
 <p>According to the survey, 26 percent of banking respondents reported that task-specific AI models were already deployed, and another 46 percent anticipated deployment within one to two years. Credit underwriting and lending decisions were selected by 64 percent as a back-office process likely to benefit from industry-specific AI.</p>
 <blockquote class="wp-embedded-content" data-secret="Xj5DC7maBY"><p><a href="https://technode.global/2026/02/05/grab-finance-expands-credit-access-across-southeast-asia-using-fico-platform/">Grab Finance expands credit access across Southeast Asia using FICO platform</a></p></blockquote>
 <p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="“Grab Finance expands credit access across Southeast Asia using FICO platform” — TNGlobal" src="https://technode.global/2026/02/05/grab-finance-expands-credit-access-across-southeast-asia-using-fico-platform/embed/#?secret=cvAtZdHZSZ#?secret=Xj5DC7maBY" data-secret="Xj5DC7maBY" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Tech firms demonstrate cross-platform trust for AI agents</title>
-		<link>https://technode.global/2026/10/16/tech-firms-demonstrate-cross-platform-trust-ai-agents/</link>
-		
-		<dc:creator><![CDATA[TNGlobal]]></dc:creator>
-		<pubDate>Fri, 16 Oct 2026 04:27:40 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Asia]]></category>
-		<category><![CDATA[Cybersecurity]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[FinTech]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[SEA]]></category>
-		<category><![CDATA[Singapore]]></category>
-		<category><![CDATA[Cloudflare]]></category>
-		<category><![CDATA[GoDaddy]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Infoblox]]></category>
-		<category><![CDATA[Infocomm Media Development Authority]]></category>
-		<guid isPermaLink="false">https://technode.global/?p=995367</guid>
-
-					<description><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/w69z8k-hgqu-200x200.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Glowing ai chip on a circuit board" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/w69z8k-hgqu-200x200.jpg 200w, https://technode.global/wp-content/uploads/2026/10/w69z8k-hgqu-348x348.jpg 348w" sizes="(max-width: 200px) 100vw, 200px" />GoDaddy, Infoblox, Google, Cloudflare and Singapore's IMDA have demonstrated an open trust architecture for cross-platform AI-agent transactions.]]></description>
-										<content:encoded><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/w69z8k-hgqu-200x200.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Glowing ai chip on a circuit board" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/w69z8k-hgqu-200x200.jpg 200w, https://technode.global/wp-content/uploads/2026/10/w69z8k-hgqu-348x348.jpg 348w" sizes="(max-width: 200px) 100vw, 200px" /><p>GoDaddy, Infoblox, Google and Cloudflare have demonstrated an open reference architecture designed to let artificial intelligence agents identify and authenticate one another while completing transactions across separate online platforms.</p>
-<p>The companies unveiled the <a href="https://www.prnewswire.com/news-releases/godaddy-infoblox-google-and-cloudflare-demonstrate-secure-ai-agent-transactions-across-platforms-302908024.html">Chain of Trust</a> at GovWare 2026 in Singapore. The project was developed with Singapore&#8217;s Infocomm Media Development Authority (IMDA) and applies principles from the regulator&#8217;s Model AI Governance Framework for Agentic AI.</p>
-<p>The demonstration simulated the purchase of a flight from Madrid to Singapore by agents that had not interacted before and were running on different infrastructure. The buyer agent operated on Amazon Web Services, the seller ran on Cloudflare Workers, Google provided mandate and verification components, and Stripe handled payment.</p>
-<h2>Open standards connect the transaction</h2>
-<p>The architecture links several existing and emerging standards rather than relying on a single vendor&#8217;s closed identity system. Agent Resources Discovery and DNS-based lookup support discovery; the Agent Name Service and SPIFFE provide identity evidence for agents and running instances; and OAuth is used to define authorization.</p>
-<p>Agent2Agent and the Model Context Protocol support communication between agents and tools. The Agent Payments Protocol and Universal Commerce Protocol carry a person&#8217;s signed purchasing authorization and the agent&#8217;s identity into checkout. Supply Chain Integrity, Transparency and Trust provides an append-only record, while a Trust Index converts attestations into an evidence-based score.</p>
-<p>The project&#8217;s <a href="https://openagentcommerce.org/technicalpaper">technical paper</a> presents those layers as independently verifiable controls. That separation is important because passing one check should not allow an agent to bypass the others. It also gives businesses and governments a way to set their own trust policies rather than accepting a platform&#8217;s internal decision.</p>
-<h2>The demo tested identity and authorization</h2>
-<p>In the demonstration, the buyer agent searched for a flight, discovered a seller and checked the seller&#8217;s identity before proceeding. The architecture was also tested against a look-alike seller and forged credentials. Those attempts were rejected, according to the joint announcement.</p>
-<p>The user approved the final purchase with a passkey and a signed payment mandate. That mandate specified what the agent was authorized to buy and allowed the merchant and payment provider to check the transaction against the user&#8217;s instruction.</p>
-<p>The approach addresses a growing interoperability problem in agentic commerce. If each platform verifies agents only within its own system, a merchant may have little evidence about an agent arriving from another cloud or protocol. A portable identity and audit trail can make the basis for trust visible across organizational boundaries.</p>
-<p>The design also creates several policy choices for adopters. Organizations must decide which identity issuers, attestations and trust thresholds they will accept, how long credentials remain valid and what evidence is retained. Open protocols make those decisions portable, but they do not remove the need for risk management.</p>
-<h2>A reference architecture, not a production guarantee</h2>
-<p>The Chain of Trust remains a reference architecture demonstrated in a controlled scenario. The announcement does not establish that the system has been deployed at commercial scale, independently certified or adopted as an industry standard. Production use would still require implementation work, governance decisions, security testing and agreement among participants on how trust signals are evaluated.</p>
-<p>IMDA&#8217;s involvement gives the work a direct connection to Singapore&#8217;s agentic-AI governance program. The authority&#8217;s framework emphasizes meaningful human accountability, technical controls and transparency as AI systems take on more autonomous tasks. The transaction demo turns some of those principles into a concrete workflow spanning discovery, identity, authorization, communication, payment and audit.</p>
-<p>The broader significance is the attempt to make agent identity portable across platforms. Whether the architecture gains traction will depend on support from merchants, payment providers, cloud platforms and standards bodies, as well as evidence that the controls remain reliable under production conditions.</p>
-<p>Featured image: <a href="https://unsplash.com/@tinkerman?utm_source=instant-images&amp;utm_medium=referral" target="_blank" rel="noopener noreferrer">Immo Wegmann</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
-<blockquote class="wp-embedded-content" data-secret="XoLrbIjasJ"><p><a href="https://technode.global/2026/01/23/singapore-launches-new-model-ai-governance-framework-for-agentic-ai/">Singapore launches New Model AI Governance Framework for Agentic AI</a></p></blockquote>
-<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="“Singapore launches New Model AI Governance Framework for Agentic AI” — TNGlobal" src="https://technode.global/2026/01/23/singapore-launches-new-model-ai-governance-framework-for-agentic-ai/embed/#?secret=ZgQ3vHhSsD#?secret=XoLrbIjasJ" data-secret="XoLrbIjasJ" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Thomson Reuters adds cross-border legal research to CoCounsel Legal</title>
-		<link>https://technode.global/2026/10/16/thomson-reuters-cocounsel-legal-crossborder/</link>
-		
-		<dc:creator><![CDATA[TNGlobal]]></dc:creator>
-		<pubDate>Fri, 16 Oct 2026 04:26:22 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[CoCounsel Legal]]></category>
-		<category><![CDATA[Thomson Reuters]]></category>
-		<guid isPermaLink="false">https://technode.global/?p=995377</guid>
-
-					<description><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/thomson-reuters-200x200.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/thomson-reuters-200x200.jpeg 200w, https://technode.global/wp-content/uploads/2026/10/thomson-reuters-348x348.jpeg 348w" sizes="(max-width: 200px) 100vw, 200px" />Thomson Reuters has introduced a Multinational Profile for its CoCounsel Legal platform, bringing legal research content spanning more than 100 countries and territories into one workflow. The company announced the capability on October 15 as…]]></description>
-										<content:encoded><![CDATA[<img width="200" height="200" src="https://technode.global/wp-content/uploads/2026/10/thomson-reuters-200x200.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" srcset="https://technode.global/wp-content/uploads/2026/10/thomson-reuters-200x200.jpeg 200w, https://technode.global/wp-content/uploads/2026/10/thomson-reuters-348x348.jpeg 348w" sizes="(max-width: 200px) 100vw, 200px" /><p>Thomson Reuters has introduced a Multinational Profile for its CoCounsel Legal platform, bringing legal research content spanning more than 100 countries and territories into one workflow. The company announced the capability on October 15 as part of a wider rollout of its next-generation legal AI product.</p>
-<p>The feature is designed for legal teams working across jurisdictions, including regulatory and compliance projects requiring a comparison of rules and sources from several markets.</p>
-<p>The new profile draws on Thomson Reuters content and selected official legal and regulatory sources. According to the company, users will be able to compare requirements across countries, identify issues needing local advice and inspect source material behind answers.</p>
-<p>The next-generation CoCounsel Legal also includes matter-specific workspaces, document-review tables and integrations with document management and productivity tools. Thomson Reuters cautioned that some features and integrations will vary by country.</p>
-<p>Thomson Reuters said the upgraded service is available in the United Kingdom, with broader availability planned in markets including Australia, Brazil, Canada, Singapore and the United Arab Emirates by the end of October 2026. The Multinational Profile is also being introduced for customers in the United States, Europe, the UK, Canada and Australia during October.</p>
-<blockquote class="wp-embedded-content" data-secret="PyJbVIubdr"><p><a href="https://technode.global/2026/08/26/google-gemini-enterprise-financial-legal/">Google Cloud tailors Gemini Enterprise for finance and legal work</a></p></blockquote>
-<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="“Google Cloud tailors Gemini Enterprise for finance and legal work” — TNGlobal" src="https://technode.global/2026/08/26/google-gemini-enterprise-financial-legal/embed/#?secret=pI8RcxV5Mg#?secret=PyJbVIubdr" data-secret="PyJbVIubdr" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
 ]]></content:encoded>
 					
 		
