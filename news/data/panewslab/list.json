@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "01a16b12-0b34-7443-9dba-76b8aac8f1ea",
+            "title": "OpenAI：红队测试中发现Brotli压缩库存在远程代码执行漏洞",
+            "description": "PANews 10月24日消息，OpenAI在X平台发帖称，其在近期红队演练中发现，广泛使用的压缩库Brotli存在一个无需身份验证即可远程执行代码的漏洞，Node.js、Bun、Envoy等软件均内置该库。攻击者可通过发送恶意压缩数据接管未修补的服务器，也可通过恶意服务器接管接受压缩数据的客户端。OpenAI表示，该问题的根源已于今年2月在Brotli源码中修复，但当时未被识别为安全漏洞，内置该库的软件均需同步更新。据The Hacker News报道，该漏洞编号为CVE-2026-111497，Node.js已于10月21日发布修复版本。",
+            "link": "https://www.panewslab.com/articles/01a16b12-0b34-7443-9dba-76b8aac8f1ea",
+            "pub_date": "2026-10-24 07:21:47",
+            "source": "panewslab",
+            "kind": 2,
+            "language": "zh-CN"
+        },
+        {
             "id": "01a16af2-f2f6-71d8-88e4-616e9a6580a6",
             "title": "BTC跌破81000美元，日内下跌 0.83%",
             "description": "PANews 10月24日消息，欧易OKX行情显示，BTC刚刚跌破81000美元，现报80999.90美元/枚，日内下跌 0.83%。",
@@ -186,16 +196,6 @@
             "description": "PANews 10月23日消息，美国总统特朗普表示，需要保护像马斯克这样的天才，马斯克永远不会做错任何事。",
             "link": "https://www.panewslab.com/articles/01a16953-3353-764c-b587-baf8bacb66de",
             "pub_date": "2026-10-23 23:13:42",
-            "source": "panewslab",
-            "kind": 2,
-            "language": "zh-CN"
-        },
-        {
-            "id": "01a1694a-62bb-7112-8604-4143cc1f583b",
-            "title": "Bankless创始人：比特币“克隆币”再度走热，PRL、QTC估值走高",
-            "description": "PANews 10月23日消息，Bankless创始人David Hoffman发文表示，一批被他称为“2017年时期的比特币克隆币”的代币近期再度走热。其中，PRL本周上涨30%，完全稀释估值（FDV）约42亿美元；QTC本月上涨300%，在总供应量为2100万枚的情况下，估值约18亿美元。Hoffman还提到，值得关注的是，这类采用2100万枚固定供应上限的代币，正获得数十亿美元级别的估值。",
-            "link": "https://www.panewslab.com/articles/01a1694a-62bb-7112-8604-4143cc1f583b",
-            "pub_date": "2026-10-23 23:04:05",
             "source": "panewslab",
             "kind": 2,
             "language": "zh-CN"
