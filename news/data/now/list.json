@@ -1,6 +1,28 @@
 {
     "data": [
         {
+            "title": "油價升逾2%　布油升至六個月高位 ",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】國際油價上升。 </p></div>\n<div class=\"contentTxt\"><p>紐約12月期油，收市升2.12美元，報每桶104.12美元，升2.1%；倫敦布蘭特12月期油，收市升2.76美元，報每桶117.64美元，是4月29日以來的收市高位，升2.4%。</p></div>\n<div class=\"contentTxt\"><p>市場擔心美國可能恢復對伊朗的攻擊行動，為中東能源供應增添新的風險，刺激油價升逾2%，布蘭特期油升至六個月高位。</p></div>\n<div class=\"contentTxt\"><p>總結10月份，紐約期油升一成半，布蘭特期油升近一成四，都是7月以來最大按月升幅。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667809",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-31 07:21:22",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "金價跌逾3%跌至一年低位",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】國際金價下挫，跌穿每盎司4000美元關口，並跌至一年低位。 </p></div>\n<div class=\"contentTxt\"><p>紐約12月期金，收市跌132.5美元，報每盎司3898.9美元，跌3.3%。</p></div>\n<div class=\"contentTxt\"><p>現貨金亦跌逾百分之3，跌至每盎司3880美元附近，是去年10月以來最低。油價上升引發通脹和加息憂慮，連同全球科技股下挫，投資者出售黃金彌補損失。</p></div>\n<div class=\"contentTxt\"><p>總結10月份，國際金價下挫逾6%，連續兩個月下挫，並且是2008年金融海嘯以來跌幅最大的10月份。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667808",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-31 07:21:23",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
             "title": "今次輪到 Synology NAS 中招！PHP2Shell 漏洞引爆全球勒索風暴 官方急推修補套件",
             "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>繼早前多個牌子的網絡設備爆出漏洞後，今次輪到大廠 Synology 的 NAS 用家淪為黑客攻擊目標！近期在國外論壇 Reddit 及 BleepingComputer 上，大批 Synology 用家紛紛發帖求助，表示家中或公司的 NAS 突遭入侵，所有檔案被加密並強行加上「.L0CK3D」副檔名，資料夾內更留下一封要求支付加密貨幣購買「C3rb3r Decryptor」解密工具的勒索信。</p></div>\n<div class=\"contentTxt\"><p><strong>核心問題出於 PHP2Shell 關鍵漏洞</strong></p></div>\n<div class=\"contentTxt\"><p>今次黑客大規模入侵的禍根，指向近期震撼全球 IT 界嘅 PHP2Shell 嚴重漏洞（包括 CVE-2026-109618 及 CVE-2026-109619）。這兩個漏洞的 CVSS 3.1 漏洞評分高達 9.8 分（滿分 10 分），屬於極度危險的「遠端執行程式碼」（RCE）漏洞。黑客無需任何帳號密碼，即可透過受影響嘅 PHP 程序在 NAS 系統內執行任意惡意指令。</p></div>\n<div class=\"contentTxt\"><p>據 Synology 官方安全團隊（PSIRT）發布安全公告（Synology-SA-26:14）顯示，雖然 DSM 系統內建的 PHP 組件未有對外暴露，但只要 NAS 安裝並執行了依賴 PHP 運作嘅應用套件，就會有機會直接落入黑客的攻擊射程範圍。</p></div>\n\n<div class=\"contentTxt\"><p>▲Synology 在 10 月 29 日更新 SA-26:14 安全公告，指已於即日推出安全更新。</p></div>\n<div class=\"contentTxt\"><p><strong>10 大常用套件受波及 WordPress 與 phpMyAdmin 無一倖免</strong></p></div>\n<div class=\"contentTxt\"><p>受今次漏洞波及嘅 Synology 套件多達 10 個，當中不乏家用及企業極為常用嘅服務：</p></div>\n<div class=\"contentTxt\"><p>◦ 網站與數據庫工具： Web Station、WordPress、phpMyAdmin、Joomla、MediaWiki、KodExplorer</p></div>\n<div class=\"contentTxt\"><p>◦ 生產力與通訊套件： Synology Calendar、Mail Station、vtigerCRM</p></div>\n<div class=\"contentTxt\"><p>◦ 第三方套件： IDrive（註：Synology 官方 Drive 服務不受影響）</p></div>\n<div class=\"contentTxt\"><p>由於很多用家搭建 Web Station 或 WordPress 目的就是為了提供外網服務，導致大量 NAS 系統無意中將漏洞暴露於網際網路之上。</p></div>\n<div class=\"contentTxt\"><p><strong>舊版系統亦獲特別修補 官方呼籲即時更新</strong></p></div>\n<div class=\"contentTxt\"><p>面對來勢洶洶嘅威脅，Synology 已即時採取行動，針對 DSM 7.4、7.3、7.2、7.1 甚至 7.0 等多個系統版本發佈了 PHP 套件更新。即使部分舊版 DSM 已經停止官方支援，官方亦破例提供修補程式，足見今次漏洞嘅嚴重程度。</p></div>\n<div class=\"contentTxt\"><p><strong>Synology 官方建議用戶即時執行以下自保步驟：</strong></p></div>\n<div class=\"contentTxt\"><p>1. 即時開啟套件中心（Package Center）： 將所有 PHP 版本套件（如 PHP 7.4、8.0、8.1、8.2、8.3、8.4）、Synology Calendar 及 Mail Station 更新至最新修補版本。</p></div>\n<div class=\"contentTxt\"><p>2. 淘汰過時版本： 官方已明確表示 PHP 7.3 已終止支援且不會提供修補，若套件仍指向 PHP 7.3，應儘快遷移至較新版本。</p></div>\n<div class=\"contentTxt\"><p>3. 收緊外網存取權限： 檢視並關閉不必要的對外開放連接埠（如 5000/5001 或 80/443），改用 Tailscale 或 VPN 進行遠端連線，大幅降低被黑客掃描並利用漏洞入侵風險。</p></div>\n</div>",
             "link": "https://news.now.com/home/technology/player?newsId=667780",
@@ -194,28 +216,6 @@
             "image": null,
             "category": "財經",
             "pub_date": "2026-10-30 13:54:21",
-            "source": "now",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "title": "【被爆與「女間諜」密會？】Nvidia黃仁勳親自回應:關係及互動正常",
-            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】市傳一名新加坡數據中心公司女高層，涉嫌為中國從事間諜活動遭美國當局調查，被指跟她有來往的英偉達(Nvidia)行政總裁黃仁勳表示，兩人互動正常。 </p></div>\n<div class=\"contentTxt\"><p>早前，據《紐約時報》報道，新加坡數據中心公司Megaspeed一名中國籍女高層，涉嫌將Nvidia的先進人工智能(AI)晶片走私到中國，正被美國當局調查。</p></div>\n<div class=\"contentTxt\"><p>報道又稱，她跟黃仁勳發展出密切關係，美國當局亦懷疑她可能協助中國，規避獲取先進AI晶片的限制，並直接向北京提供資訊。此外，她又可能洞悉美國總統特朗普(Donald Trump)對限制出口先進晶片的看法。</p></div>\n<div class=\"contentTxt\"><p>報道引述知情人士指，Megaspeed服務對象亦包括阿里巴巴等中國企業。</p></div>\n<div class=\"contentTxt\"><p>報道提及，早於2024年，該名被指是中國間諜的女子在社交媒體與黃仁勳同框，二人亦於2025年被拍攝到在台灣共進晚餐。</p></div>\n<div class=\"contentTxt\"><p>黃仁勳接受《彭博》訪問時指，兩人關係及互動均與Megaspeed有關，強調一切完全正常，並無異常。他又指，Nvidia已進行核查，確保沒有AI晶片被非法運往中國。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
-            "link": "https://news.now.com/home/technology/player?newsId=667740",
-            "image": null,
-            "category": "財經",
-            "pub_date": "2026-10-30 13:54:21",
-            "source": "now",
-            "kind": 1,
-            "language": "zh-HK"
-        },
-        {
-            "title": "【歐央行行長】提早法國大選前離任 拉加德冀獲「3個自由」",
-            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】歐洲央行一如預期維持利率不變，但明確暗示將於12月加息。此外，行長拉加德(Christine Lagarde)決定提前辭職。 </p></div>\n<div class=\"contentTxt\"><p>歐央行議息後，一致決定維持利率不變，符預期，其中，存款利率維持2.5厘，主要再融資利率則維持2.65厘。</p></div>\n<div class=\"contentTxt\"><p>歐央行今年已兩度加息，對上一次是9月，拉加德表示，現時未看到明顯的第2輪通脹效應風險，但警告由於近期石油及天然氣價格飆升，通脹風險偏向上行，今次會議曾討論加息是否合適的，局內官員最終同意等待12月，以獲取更多數據。</p></div>\n<div class=\"contentTxt\"><p>拉加德說:「兩次會議之間，將有大量訊息出爐，將有助我們作出判斷，現時我們看到的，以及原本或足以支持加息的形勢，是否會得到確認，如果得到確認，政策方向就會相當明確。」</p></div>\n<div class=\"contentTxt\"><p>據《路透》引述參與今次議息的消息人士指，由於能源價格飆升，歐央行12月加息幾乎已成定局，但之後將會暫停加息，因為國債孳息率上升，預期將會拖累經濟增長及通脹。</p></div>\n<div class=\"contentTxt\"><p>拉加德指，歐央行有應對債券市場擾動的機制，若市場走勢威脅到歐央行貨幣政策的順暢傳導，包括出現缺乏正當理由，以及無序的市場波動，歐央行會有工具作出應對。</p></div>\n<div class=\"contentTxt\"><p>她續稱，已決定在任期屆滿前8個月辭職，將於明年2月7日卸任，拉加德稱，希望可以就貨幣政策以外話題暢所欲言。</p></div>\n<div class=\"contentTxt\"><p>拉加德說:「我希望擁有言論自由、表達自由，以及就貨幣政策以外事務發表看法的自由，我關心事實真相，但我看到真相往往被歪曲及錯誤表述所損害。」</p></div>\n<div class=\"contentTxt\"><p>歐洲理事會表示，已啟動新任歐央行行長遴選程序，據外電引述知情人士指，拉加德辭職是為了可以就她的祖國法國，以及全球政治事務發表看法。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
-            "link": "https://news.now.com/home/technology/player?newsId=667710",
-            "image": null,
-            "category": "財經",
-            "pub_date": "2026-10-30 11:08:13",
             "source": "now",
             "kind": 1,
             "language": "zh-HK"
