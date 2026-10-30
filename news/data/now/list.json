@@ -1,0 +1,224 @@
+{
+    "data": [
+        {
+            "title": "今次輪到 Synology NAS 中招！PHP2Shell 漏洞引爆全球勒索風暴 官方急推修補套件",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>繼早前多個牌子的網絡設備爆出漏洞後，今次輪到大廠 Synology 的 NAS 用家淪為黑客攻擊目標！近期在國外論壇 Reddit 及 BleepingComputer 上，大批 Synology 用家紛紛發帖求助，表示家中或公司的 NAS 突遭入侵，所有檔案被加密並強行加上「.L0CK3D」副檔名，資料夾內更留下一封要求支付加密貨幣購買「C3rb3r Decryptor」解密工具的勒索信。</p></div>\n<div class=\"contentTxt\"><p><strong>核心問題出於 PHP2Shell 關鍵漏洞</strong></p></div>\n<div class=\"contentTxt\"><p>今次黑客大規模入侵的禍根，指向近期震撼全球 IT 界嘅 PHP2Shell 嚴重漏洞（包括 CVE-2026-109618 及 CVE-2026-109619）。這兩個漏洞的 CVSS 3.1 漏洞評分高達 9.8 分（滿分 10 分），屬於極度危險的「遠端執行程式碼」（RCE）漏洞。黑客無需任何帳號密碼，即可透過受影響嘅 PHP 程序在 NAS 系統內執行任意惡意指令。</p></div>\n<div class=\"contentTxt\"><p>據 Synology 官方安全團隊（PSIRT）發布安全公告（Synology-SA-26:14）顯示，雖然 DSM 系統內建的 PHP 組件未有對外暴露，但只要 NAS 安裝並執行了依賴 PHP 運作嘅應用套件，就會有機會直接落入黑客的攻擊射程範圍。</p></div>\n\n<div class=\"contentTxt\"><p>▲Synology 在 10 月 29 日更新 SA-26:14 安全公告，指已於即日推出安全更新。</p></div>\n<div class=\"contentTxt\"><p><strong>10 大常用套件受波及 WordPress 與 phpMyAdmin 無一倖免</strong></p></div>\n<div class=\"contentTxt\"><p>受今次漏洞波及嘅 Synology 套件多達 10 個，當中不乏家用及企業極為常用嘅服務：</p></div>\n<div class=\"contentTxt\"><p>◦ 網站與數據庫工具： Web Station、WordPress、phpMyAdmin、Joomla、MediaWiki、KodExplorer</p></div>\n<div class=\"contentTxt\"><p>◦ 生產力與通訊套件： Synology Calendar、Mail Station、vtigerCRM</p></div>\n<div class=\"contentTxt\"><p>◦ 第三方套件： IDrive（註：Synology 官方 Drive 服務不受影響）</p></div>\n<div class=\"contentTxt\"><p>由於很多用家搭建 Web Station 或 WordPress 目的就是為了提供外網服務，導致大量 NAS 系統無意中將漏洞暴露於網際網路之上。</p></div>\n<div class=\"contentTxt\"><p><strong>舊版系統亦獲特別修補 官方呼籲即時更新</strong></p></div>\n<div class=\"contentTxt\"><p>面對來勢洶洶嘅威脅，Synology 已即時採取行動，針對 DSM 7.4、7.3、7.2、7.1 甚至 7.0 等多個系統版本發佈了 PHP 套件更新。即使部分舊版 DSM 已經停止官方支援，官方亦破例提供修補程式，足見今次漏洞嘅嚴重程度。</p></div>\n<div class=\"contentTxt\"><p><strong>Synology 官方建議用戶即時執行以下自保步驟：</strong></p></div>\n<div class=\"contentTxt\"><p>1. 即時開啟套件中心（Package Center）： 將所有 PHP 版本套件（如 PHP 7.4、8.0、8.1、8.2、8.3、8.4）、Synology Calendar 及 Mail Station 更新至最新修補版本。</p></div>\n<div class=\"contentTxt\"><p>2. 淘汰過時版本： 官方已明確表示 PHP 7.3 已終止支援且不會提供修補，若套件仍指向 PHP 7.3，應儘快遷移至較新版本。</p></div>\n<div class=\"contentTxt\"><p>3. 收緊外網存取權限： 檢視並關閉不必要的對外開放連接埠（如 5000/5001 或 80/443），改用 Tailscale 或 VPN 進行遠端連線，大幅降低被黑客掃描並利用漏洞入侵風險。</p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667780",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/2026-10-30-18-07-29bcDR38C6.jpg",
+            "category": "科技",
+            "pub_date": "2026-10-30 20:09:34",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【本港負資產】按季跌12%至3819宗 涉資173億",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】本港負資產住宅按揭宗數按季跌約12%。 </p></div>\n<div class=\"contentTxt\"><p>金融管理局公布，截至第3季末，負資產住宅按揭貸款宗數3819宗，按季跌逾12%，個案主要涉及銀行職員住屋按揭貸款或按保計劃貸款，按揭成數一般較高。</p></div>\n<div class=\"contentTxt\"><p>此外，負資產個案涉及金額按季跌11%至173億元。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667791",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-PROP-NEGATIVE-261030-1900.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 19:27:46",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【傳黃仁勳遭中國間諜滲透】外交部批捕風捉影、純屬污衊抹黑",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】據美國傳媒報道，英偉達(Nvidia)行政總裁黃仁勳與一名懷疑是中國間諜的女子關係密切。在北京，外交部批評報道純屬污衊抹黑。 </p></div>\n<div class=\"contentTxt\"><p>據《紐約時報》報道，新加坡數據中心公司Megaspeed一名譯名叫黃樂的中國籍女高層，涉嫌將Nvidia的先進人工智能(AI)晶片走私到中國，正被美國當局調查。</p></div>\n<div class=\"contentTxt\"><p>報道又稱，黃樂跟黃仁勳關係密切，早於2024年，社交媒體已出現兩人在台北一個派對並排坐的相片，去年他們亦被拍攝到一同出席晚宴。</p></div>\n<div class=\"contentTxt\"><p>美國當局懷疑黃樂或協助中國規避獲取先進AI晶片的限制，並直接向北京提供資訊，她亦可能洞悉到美國總統特朗普(Donald Trump)對限制出口先進晶片的看法。</p></div>\n<div class=\"contentTxt\"><p>據知情人士指，Megaspeed服務對象亦包括阿里巴巴等中國企業。</p></div>\n<div class=\"contentTxt\"><p>在北京，外交部發言人被問到有關報道時，作出以下回應。</p></div>\n<div class=\"contentTxt\"><p>外交部發言人郭嘉昆說:「有關報道捕風捉影，純屬對華的污衊抹黑。」</p></div>\n<div class=\"contentTxt\"><p>黃仁勳接受《彭博》訪問時指，他跟黃樂的關係及互動都與Megaspeed有關，強調一切完全正常，並無異常。</p></div>\n<div class=\"contentTxt\"><p>他續稱，公司已進行核查，確保沒有AI晶片被非法運往中國。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667787",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-NVIDIA-CEO-SOT-261030-1900.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 19:27:46",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【中海油】第3季多賺逾2%至333億人民幣",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】中國海洋石油上季多賺逾2%至333億元人民幣，收入按年增長逾7%至逾1129億元人民幣。首3季累計，純利按年增長逾16%。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667788",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-RES-CNOOC-261030-1900.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 19:27:46",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【國壽】受債息低及股市波動夾擊 上季轉蝕450億人民幣",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】中國人壽第3季度由盈轉虧，勁蝕450億元人民幣，集團表示，主要受高基數及資本市場短期波動拖累，但不會影響長期經營韌性。 </p></div>\n<div class=\"contentTxt\"><p>在債券市場利率持續低企，以及股市波動性加劇下，國壽第3季度業績「見紅」。</p></div>\n<div class=\"contentTxt\"><p>截至9月底止第3季，國壽由盈轉虧，勁蝕450億元人民幣，去年同期則賺1268億元人民幣。</p></div>\n<div class=\"contentTxt\"><p>集團表示，第3季業績主要受去年同期高基數，以及期內資本市場短期波動性等因素拖累，但不影響公司長期價值創造，亦無損長期經營韌性。</p></div>\n<div class=\"contentTxt\"><p>首3季累計，國壽純利894億元人民幣，按年跌46%，收入按年跌31%至3678億元人民幣，其中，保險服務收入增長3%，利息收入增長6%。期內，公允價值變動虧損511億元人民幣。</p></div>\n<div class=\"contentTxt\"><p>若剔除公開市場權益等短期波動影響，集團首3季淨利潤942億元人民幣，按年增長15.8%。</p></div>\n<div class=\"contentTxt\"><p>此外，國壽首3季新業務價值升13.1%，跑贏同業，截至9月底止，集團償付能力持續保持充足，核心償付能力充足率156%。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667789",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-RES-CNLIFE-SOT-261030-1900.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 19:27:47",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【內銀業績】工行上季賺逾1119億人民幣 建行純利升9%",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】多家內銀公布第3季業績。 </p></div>\n<div class=\"contentTxt\"><p>工商銀行多賺近10%至逾1119億元人民幣，營業收入按年增長逾9%，淨利息收入升11%。</p></div>\n<div class=\"contentTxt\"><p>首3季累計，工行多賺逾5%，淨息差1.29%，按年升1個基點。</p></div>\n<div class=\"contentTxt\"><p>此外，建設銀行第3季純利逾1046億元人民幣，按年增長9%，淨利息收入逾1594億元人民幣，升13%。</p></div>\n<div class=\"contentTxt\"><p>首3季累計，建行純利約2742億元人民幣，按年增長6%，期內，信用減值損失約1483億元人民幣，升21%。</p></div>\n<div class=\"contentTxt\"><p>農業銀行第3季純利按年增長10%至逾901億元人民幣，淨利息收入升10%至約1602億元人民幣。</p></div>\n<div class=\"contentTxt\"><p>首3季累計，農行純利2365億元人民幣，按年增長7%，信用減值損失約1473億元人民幣，增約15%。</p></div>\n<div class=\"contentTxt\"><p>此外，中國銀行第3季純利按年增長逾6%至逾638億元人民幣，淨利息收入升10%。</p></div>\n<div class=\"contentTxt\"><p>首3季累計，中行純利逾1874億元人民幣，按年增長5%，資產減值損失升19%至約958億元人民幣。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667790",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-RES-CNBANK-261030-1900.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 19:27:47",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "攝影Weekly｜Nikon發表內置1.4 倍增距鏡 NIKKOR Z 120-300mm f/2.8 TC VR S / Sony Rialto 65 實拍片公開 / Viltrox AF 35mm F1.4 Pro 登場",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now.com】一個星期又過去，同大家總結下今個星期攝影新品、新消息。</p></div>\n<div class=\"contentTxt\"><p>Nikon 正式發表全片幅旗艦專業遠攝變焦鏡頭 NIKKOR Z 120-300mm f/2.8 TC VR S，全面升級運動與生態攝力。新鏡在維持恆定F 2.8大光圈的同時內建 1.4 倍增距鏡，拍攝人只需撥動機身切換桿，即可延伸為 168-420mm f/4 焦段，而且受惠無反光學結構最佳化，鏡身重量較單反舊款大幅減輕 515 克。</p></div>\n<div class=\"contentTxt\"><p><strong>便攝相機逆市大幅增長</strong></p></div>\n<div class=\"contentTxt\"><p>日本相機影像器材工業協會（CIPA）最新統計數據，全球數碼相機市場正呈現冷熱兩極化的走勢。今年頭八個月單反相機出貨量重挫 35%、無反機型輕微下跌，但連鏡頭隨身輕便相機出貨量卻逆市上升超過 15%，需求熾熱甚至造成關鍵零件供貨緊張，令生產出現樽頸。</p></div>\n<div class=\"contentTxt\"><p><strong>Sony show off頂級電影機實拍樣片</strong></p></div>\n<div class=\"contentTxt\"><p>Sony 首度公開專為頂級影視製作的分體式攝影系統 Rialto 65 實拍樣片，並公布預計售價約 80,000 美元。Rialto 65 感光元件面積達135全片幅的 2.2 倍，支援高達 9.6K 的 Open-Gate 規格錄製，針對複雜機位調度與巨幕院線規格設計，預計將於 2027 年上半年逐步出貨。</p></div>\n\n<div class=\"contentTxt\"><p><strong>Viltrox補齊大光圈定焦版圖</strong></p></div>\n<div class=\"contentTxt\"><p>國產副廠鏡 Viltrox 推出全片幅 AF 35mm F1.4 Pro 鏡頭，同步提供Sony E mount 與 Nikon Z mount版本。這支大光圈新鏡標誌著 Viltrox 高階 Pro 系列完成最常用的三段焦距鏡頭，即 50mm 與 85mm 之後的最後一塊拼圖，以較原廠親民的定價切入專業商業與婚禮攝影市場。</p></div>\n\n<div class=\"contentTxt\"><p><strong>神牛推出跨品牌通用熱靴閃燈</strong></p></div>\n<div class=\"contentTxt\"><p>國產燈光設備品牌神牛（Godox）發表輕量隨身閃光燈 TT350II Thinklite，規格全面升級革新。新機最大賣點為全新研發的多觸點混合式熱靴設計，打破傳統閃光燈各廠牌接點不相容的限制，單一版本即可直接應用於Canon、Nikon、Fujifilm以及 M4/3 系統機身通用，大幅降低多品牌相機用戶的配件成本，但要留意 Sony版本TT350II Thinklite熱靴觸點並不能混合用於其他品牌相機。</p></div>\n\n<aside>\n<div class=\"relatedNewsWrap\">\n<ul class=\"relatedNews\">\n</ul>\n</div>\n</aside>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667778",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/2026-10-30-17-32-41ORQ39Not.jpg",
+            "category": "科技",
+            "pub_date": "2026-10-30 17:48:19",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【亞股「股災月」埋單】韓股累挫16% 日經跌5% A股創指暴跌23%",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】亞太區股市今日(30日)普遍下挫，美股大型科技股業績指引遜預期，加上市場憂慮人工智能(AI)資本開支急增，拖累投資氣氛，其中，內地股市幾乎全線向下。 </p></div>\n<div class=\"contentTxt\"><p>上證綜合指數今日收市跌1.4%或52點，報3599點，跌至15個月低位，深證成分指數跌2.7%或304點，收報10833點，滬深300指數亦向下，總結10月，深成指累跌逾8%，錄得逾10年半以來最大單月跌幅，創業板指數今日跌4.1%或103點，收報2413點，總結10月，創指累瀉23%。</p></div>\n<div class=\"contentTxt\"><p>南韓股市方面，首爾綜合指數今日收市跌3.4%或206點，報5730點，總結10月，累跌16%。</p></div>\n<div class=\"contentTxt\"><p>至於日本股市，日本央行維持利率不變，日經平均指數今日跌2.1%或1369點，收報63290點，總結10月，累跌5%。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667769",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-ASIACN-STK-261030-1630.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 17:29:20",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【本港樓市】一手潛在供應回升至10萬伙 料下半年投交驟減",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】本港未來3至4年新樓潛在供應回升至10萬伙。 </p></div>\n<div class=\"contentTxt\"><p>踏入下半年，新盤銷售步代放慢，加上已批出土地可隨時動工單位數目增加，令未來新樓潛在供應回升。</p></div>\n<div class=\"contentTxt\"><p>據房屋局推算，截至9月底止，未來3至4年潛在供應10萬伙，按季增4000伙，其中，已落成未售出單位達1.9萬伙，跟第2季持平，可隨時動工興建單位則按季增3000伙至1.9萬伙。</p></div>\n<div class=\"contentTxt\"><p>此外，今年第3季落成量1700伙，明顯低於第2季的6400伙。</p></div>\n<div class=\"contentTxt\"><p>奧雅納(Arup)資產管理表示，第3季新盤銷售較上半年略為放慢，令貨尾量維持於1.9萬伙，而批出土地可隨時動工，以及在建中私人單位總數分別按季上升，令未來3至4年整體供應回升至10萬伙。</p></div>\n<div class=\"contentTxt\"><p>由於供應充足，相信未來1、2季官地拍賣，仍以中小型住宅地皮為主，發展商亦不急於高價搶地。</p></div>\n<div class=\"contentTxt\"><p>此外，由於市場氣氛仍受息口不明朗及購買力不足等因素影響，估計下半年成交量將較上半年顯著回落。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667768",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-PROP-SUPPLY-SOT-261030-1630.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 17:29:21",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【滬港金融合作工作會】許正宇:聚焦強化金融合作等3議題",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】滬港金融合作第10次工作會議在上海舉行，財經事務及庫務局局長許正宇表示，滬港將持續優勢互補，全方位助力內地企業「走出去」，許正宇率領包括金融管理局、保監局、香港貴金屬中央結算系統等8個金融機構代表，出席今日(30日)在上海舉行的滬港金融合作第10次工作會議。 </p></div>\n<div class=\"contentTxt\"><p>雙方討論包括強化兩地金融市場合作聯動，加強跨境人民幣業務大宗商品、黃金及期貨市場、保險等業務合作，以及深化人才交流。</p></div>\n<div class=\"contentTxt\"><p>許正宇表示，兩地將聚焦3大議題，包括在互聯互通基礎上、強化金融合作、深化兩地資本流動。</p></div>\n<div class=\"contentTxt\"><p>此外，從企業及用家的角度協同兩地跨境離岸金融服務，合力協助企業「走出去」，以及共建金融產品服務體系健全跨境標準對接機制。</p></div>\n<div class=\"contentTxt\"><p>上海市推進國際金融中心建設辦公室主任李俊杰則表示，滬港是國家金融強國建設兩個「火車頭」，近年金融戰略互補效應進一步浮現。</p></div>\n<div class=\"contentTxt\"><p>此外，許正宇及李俊杰亦見證香港金融糾紛調解中心與上海市金融消費糾紛調解中心簽署合作備忘錄，以推動金融領域糾紛的替代爭議解決機制，提升金融消費者保障水平。</p></div>\n<div class=\"contentTxt\"><p>另一方面，許正宇在上海亦跟上海黃金交易所代表及上海國資委官員會面，並跟20家企業代表進行交流。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667764",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-FSTB-CNSH-SOT-261030-1630.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 17:29:22",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【港股「股災月」埋單】恒指累跌1318點 跌足3個月",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】本港股市於10月最後一個交易日造好，恒生指數大升逾300點，重上23000關。總結10月，恒指累跌1318點，連跌3個月。 </p></div>\n<div class=\"contentTxt\"><p>大市今日(30日)高開52點，早段於23000關爭持，其後升幅逐步擴大，午後最多升441點，高見23400點，收市升335點，收報23294點。大市全日成交增至逾2143億元。</p></div>\n<div class=\"contentTxt\"><p>此外，北水連續第13個交易日淨賣出。</p></div>\n<div class=\"contentTxt\"><p>總結本周，恒指累升201點，不過，總結10月，恒指累跌1318點或逾5%。</p></div>\n<div class=\"contentTxt\"><p>科技指數今日升10點，收報3754點。</p></div>\n<div class=\"contentTxt\"><p>大型科技股普遍造好，美團、小米集團升逾3%，阿里巴巴、騰訊控股升約1%，京東集團升近2%。</p></div>\n<div class=\"contentTxt\"><p>五中全會強調深入尋找內需潛力，蒙牛乳業大升逾9%，是表現最佳藍籌，農夫山泉、海爾智家升逾5%至近6%。</p></div>\n<div class=\"contentTxt\"><p>人工智能(AI)相關股逆市受壓，其中，聯想集團急挫逾7%，是表現最差藍籌。</p></div>\n<div class=\"contentTxt\"><p>中國石化業績後大升逾6%，中國石油股份亦升逾5%。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667765",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-STK-HK-261030-1630.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 17:29:22",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【國泰】供應商系統疑遭入侵 5.3萬宗預訂資料被盜",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】國泰航空表示，接獲第三方旅遊科技解決方案供應商通報，有預訂資料外洩。 </p></div>\n<div class=\"contentTxt\"><p>集團指，接獲服務供應商通報，發現有未獲授權人士於2023年8月至今年9月期間，擅自存取服務商系統內約5.3萬宗旅遊訂位資料，當中包括跟國泰相關訂位紀錄，主要涉及預訂參考編號、乘客姓名及航班資料，其中，小部分個案涉及電郵及電話、旅遊證件資料或飛行常客計劃號碼等。</p></div>\n<div class=\"contentTxt\"><p>不過，未有證據顯示有財務或付款相關資料被不當存取，亦未發現有受影響資料被不當使用，事件對國泰的系統及營運未構成影響。</p></div>\n<div class=\"contentTxt\"><p>國泰正調查事件，在確立詳情後，將個別聯絡受影響顧客。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667766",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-CX-LEAK-261030-1630.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 17:29:22",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "升級一吋可變光圈主鏡頭！HUAWEI Pura 90 Plus 正式發表，首發 Kirin 9025 處理器",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【MOBILE】HUAWEI 今日在國內市場正式推出全新 Pura 90 Plus，產品定位介乎 Pura 90 與 Pura 90 Pro 之間。新機主要特點是首發配備 Kirin 9025 處理器，並搭載一吋 5000 萬像可變光圈主鏡頭，更支援雙向衛星通訊。機身採用 6.8 吋 LTPO OLED 屏幕及內置 5700mAh 大容量電池，入場價由 5,499 人民幣起。</p></div>\n\n<div class=\"contentTxt\"><p>在屏幕方面，HUAWEI Pura 90 Plus 採用一塊 6.8 吋 LTPO OLED 開孔屏幕，解像度達到 2,848 × 1,276，並支援 1-120Hz 自適應刷新率。屏幕表面覆蓋了第二代崑崙玻璃以提升防跌耐用度，而開孔位置則內藏一枚 1300 萬像前置自拍鏡頭。核心規格上，新機配備全新的 Kirin 9025 處理器，廠方稱其效能比上一代 Kirin 9020 提升了 20%，並統一內建 12GB RAM，提供 256GB、512GB 及 1TB 三種儲存容量版本。</p></div>\n\n<div class=\"contentTxt\"><p>拍攝效能是這款新機的主要賣點，機背搭載三鏡頭組合，其中 5000 萬像主鏡頭採用了一吋感光元件，並提供 f/1.4-4.0 可變光圈。另外配備一枚 4800 萬像遠攝鏡頭，支援最高 4 倍光學變焦及微距拍攝功能，光圈值為 f/2.1；最後則是一枚等效 13mm 的 4000 萬像超廣角鏡頭。系統方面，手機預載最新的 HarmonyOS 7 作業系統，並內置 Celia 語音助手。</p></div>\n<div class=\"contentTxt\"><p> </p></div>\n\n<div class=\"contentTxt\"><p>其他配置方面，Pura 90 Plus 具備 IP68 及 IP69 級別防塵防水規格，並支援衛星通訊功能。機身內置 5700mAh 電池，支援高達 100W 有線快充及 80W 無線快充。售價方面，HUAWEI Pura 90 Plus 的 256GB 版本定價為 5,499 人民幣（折合約 6,000 港元），而頂配的 1TB 版本定價為 6,999 人民幣（折合約 7,650 港元），並將於 10 月 31 日在國內市場正式開賣。</p></div>\n<div class=\"contentTxt\"><p><a href=\"http://www.mobilemagazinehk.com\" rel=\"nofollow\" target=\"_blank\">瀏覽MOBILE網頁</a></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667703",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/2026-10-30-10-24-49mA3LMatP.jpg",
+            "category": "科技",
+            "pub_date": "2026-10-30 16:03:25",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【財經TOP SEARCH】內需股突發力因五中全會一句說話",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】截至早上11時止，過去1小時內《彭博》搜尋量最多港股，依次為美團、蒙牛乳業、友邦保險、小米集團及聯想集團。 </p></div>\n<div class=\"contentTxt\"><p>國家市監總局近日召開企業公平競爭座談會，同內地互聯網平台、汽車及醫藥等領域負責人，就反壟斷進行深入交流。此外，五中全會強調，要深入挖掘內需潛力，有外賣及閃購業務嘅美團，係咪都可以受惠於國策？</p></div>\n<div class=\"contentTxt\"><p>大華繼顯執行董事梁偉源指，通常座談會結束後，相關股份都會跌，但今日爆冷有得升，因為撞正市場對人工智能(AI)嘅憂慮及恐慌人情緒持續，導致唔少資金流入更保守、防守性高嘅股份，所以喺五中全會提出內需政策後，今日就有好多同內需相關股份，例如外賣平台、食品、家電、體育用品等股份跑贏大市。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667753",
+            "image": "https://d1x4njjgkw4jf2.cloudfront.net/nownews/NewsImage/FIN-BNC-TOPSEARCH-261030-1300.jpg",
+            "category": "財經",
+            "pub_date": "2026-10-30 14:57:49",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【幣安被北韓黑客Hack】盜走63億美元資產 停提存服務 累Bitcoin冧價",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】全球最大加密貨幣交易所幣安(Binance)遭遇歷來最大規模黑客攻擊，公司估計，涉及約63億美元資產，承諾承擔所有損失，市傳黑客來自北韓，消息拖累比特幣(Bitcoin)等加密貨幣價格大跌。 </p></div>\n<div class=\"contentTxt\"><p>幣安遭黑客入侵後，暫停所有存儲及提取功能，並持續在社交平台公布事故最新進展，指據初步調查顯示，事件可能涉及一名軟件開發及營運工程師的手提電腦遭入侵，但未有證據顯示任何錢包私鑰洩漏，集團估計，受影響資產總值約63億美元，折合約494億港元，幣安已聯同區塊鏈伙伴合共凍結約30億美元資產。</p></div>\n<div class=\"contentTxt\"><p>區塊鏈情報公司TRM Labs指，北韓黑客組織TraderTraitor是幕後黑手，形容今次是歷來最大規模加密貨幣盜竊案</p></div>\n<div class=\"contentTxt\"><p>打破去年另一交易平台，Bybit遭北韓黑客入侵盜取約15億美元加密貨幣的紀錄。</p></div>\n<div class=\"contentTxt\"><p>幣安正與執法部門及區塊鏈情報伙伴合作追蹤資金去向，公司承諾承擔事故中所有損失，將動用旗下規模約10億美元的用戶資產安全基金及公司自有資金。</p></div>\n<div class=\"contentTxt\"><p>幣安遭黑客攻擊消息拖累加密貨幣價格大跌，其中，Bitcoin於今日(30日)亞洲交易時段曾跌逾3%，失守77000美元關口，見逾1個月低位。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667741",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-30 13:54:19",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【市監總局】召開企業公平競爭座談會 互聯網平台等參與",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】國家市監總局近日召開企業公平競爭座談會，主題是「發揮『反壟斷反不正當競爭』工作作用，有力推進全國統一大市場建設」。 </p></div>\n<div class=\"contentTxt\"><p>市監總局跟內地互聯網平台、汽車及醫藥等領域負責人進行深入交流，聽取企業意見。</p></div>\n<div class=\"contentTxt\"><p>副局長潘曉東強調，會加大市場競爭秩序整治力度，破除地方保護及市場分割，指導企業提升公平競爭合規管理能力，營造公平公正的市場環境。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667737",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-30 13:54:20",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【人民幣】在岸及離岸價轉強至6.65 逾4年高",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】人民幣微升，中間價繼續見逾3年半高位。 </p></div>\n<div class=\"contentTxt\"><p>官方定出的人民幣中間價報6.7138兌1美元，較昨日(29日)低9點子，反映人民幣轉強，繼續見2023年2月初以來高位。</p></div>\n<div class=\"contentTxt\"><p>人民幣在岸及離岸價今日(30日)早段略為轉強，於6.65兌1美元水平上落，升上逾4年高位。</p></div>\n<div class=\"contentTxt\"><p>此外，人民銀行連續4日開展1萬億元人民幣隔夜逆回購，並進行150億元人民幣、7日期逆回購操作，利率維持1.4厘，扣除今日到期量，單日淨投放150億元人民幣，連續8個交易日淨投放。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667738",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-30 13:54:21",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【日本凍息】央行上調GDP預測 提高ETF出售規模",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】日本央行一如預期維持利率不變。 </p></div>\n<div class=\"contentTxt\"><p>日央行以8比1通過維持政策利率於1.25厘不變，並上調當地今年經濟增長預測，由7月的0.6%上調至0.7%，並調高明年核心消費物價指數(CPI)預測至2.6%。</p></div>\n<div class=\"contentTxt\"><p>此外，日央行將每年出售交易所買賣基金(ETF)規模，提高至約8600億日圓，將於明年1月生效。</p></div>\n<div class=\"contentTxt\"><p>日央行在展望報告中確認，基本通脹大致處於2%的目標水平，不過，隨著企業逐步轉向加薪及上調價格，加上多項或推高物價的因素，估計中長期通脹或再上升，考慮到基本通脹走勢，以及日本金融環境仍然寬鬆，未來將因應經濟活動、物價及金融發展情況，繼續上調政策利率。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667739",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-30 13:54:21",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【被爆與「女間諜」密會？】Nvidia黃仁勳親自回應:關係及互動正常",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】市傳一名新加坡數據中心公司女高層，涉嫌為中國從事間諜活動遭美國當局調查，被指跟她有來往的英偉達(Nvidia)行政總裁黃仁勳表示，兩人互動正常。 </p></div>\n<div class=\"contentTxt\"><p>早前，據《紐約時報》報道，新加坡數據中心公司Megaspeed一名中國籍女高層，涉嫌將Nvidia的先進人工智能(AI)晶片走私到中國，正被美國當局調查。</p></div>\n<div class=\"contentTxt\"><p>報道又稱，她跟黃仁勳發展出密切關係，美國當局亦懷疑她可能協助中國，規避獲取先進AI晶片的限制，並直接向北京提供資訊。此外，她又可能洞悉美國總統特朗普(Donald Trump)對限制出口先進晶片的看法。</p></div>\n<div class=\"contentTxt\"><p>報道引述知情人士指，Megaspeed服務對象亦包括阿里巴巴等中國企業。</p></div>\n<div class=\"contentTxt\"><p>報道提及，早於2024年，該名被指是中國間諜的女子在社交媒體與黃仁勳同框，二人亦於2025年被拍攝到在台灣共進晚餐。</p></div>\n<div class=\"contentTxt\"><p>黃仁勳接受《彭博》訪問時指，兩人關係及互動均與Megaspeed有關，強調一切完全正常，並無異常。他又指，Nvidia已進行核查，確保沒有AI晶片被非法運往中國。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667740",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-30 13:54:21",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        },
+        {
+            "title": "【歐央行行長】提早法國大選前離任 拉加德冀獲「3個自由」",
+            "description": "<div class=\"newsLeading\" itemprop=\"articleBody\">\n<div class=\"contentTxt\"><p>【Now新聞台】歐洲央行一如預期維持利率不變，但明確暗示將於12月加息。此外，行長拉加德(Christine Lagarde)決定提前辭職。 </p></div>\n<div class=\"contentTxt\"><p>歐央行議息後，一致決定維持利率不變，符預期，其中，存款利率維持2.5厘，主要再融資利率則維持2.65厘。</p></div>\n<div class=\"contentTxt\"><p>歐央行今年已兩度加息，對上一次是9月，拉加德表示，現時未看到明顯的第2輪通脹效應風險，但警告由於近期石油及天然氣價格飆升，通脹風險偏向上行，今次會議曾討論加息是否合適的，局內官員最終同意等待12月，以獲取更多數據。</p></div>\n<div class=\"contentTxt\"><p>拉加德說:「兩次會議之間，將有大量訊息出爐，將有助我們作出判斷，現時我們看到的，以及原本或足以支持加息的形勢，是否會得到確認，如果得到確認，政策方向就會相當明確。」</p></div>\n<div class=\"contentTxt\"><p>據《路透》引述參與今次議息的消息人士指，由於能源價格飆升，歐央行12月加息幾乎已成定局，但之後將會暫停加息，因為國債孳息率上升，預期將會拖累經濟增長及通脹。</p></div>\n<div class=\"contentTxt\"><p>拉加德指，歐央行有應對債券市場擾動的機制，若市場走勢威脅到歐央行貨幣政策的順暢傳導，包括出現缺乏正當理由，以及無序的市場波動，歐央行會有工具作出應對。</p></div>\n<div class=\"contentTxt\"><p>她續稱，已決定在任期屆滿前8個月辭職，將於明年2月7日卸任，拉加德稱，希望可以就貨幣政策以外話題暢所欲言。</p></div>\n<div class=\"contentTxt\"><p>拉加德說:「我希望擁有言論自由、表達自由，以及就貨幣政策以外事務發表看法的自由，我關心事實真相，但我看到真相往往被歪曲及錯誤表述所損害。」</p></div>\n<div class=\"contentTxt\"><p>歐洲理事會表示，已啟動新任歐央行行長遴選程序，據外電引述知情人士指，拉加德辭職是為了可以就她的祖國法國，以及全球政治事務發表看法。</p></div>\n<div class=\"contentTxt\"><p></p></div>\n</div>",
+            "link": "https://news.now.com/home/technology/player?newsId=667710",
+            "image": null,
+            "category": "財經",
+            "pub_date": "2026-10-30 11:08:13",
+            "source": "now",
+            "kind": 1,
+            "language": "zh-HK"
+        }
+    ]
+}
