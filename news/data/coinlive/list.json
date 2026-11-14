@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 1172322,
+            "title": "Solana Confidential Compute Opens Beta on Devnet; Mainnet Release Date Unannounced",
+            "description": "Solana Confidential Compute is in beta on Solana devnet, and no mainnet release date has been announced. According to Odaily, the Solana Foundation said the open-source tool, developed with the Nito team, includes an SDK and an on-chain verifier for building private AI applications and verifying computing hardware; it has not been audited.\n\nA confidential virtual machine generates a signing key, which a hardware report binds to a recent Solana slot. After verification, an on-chain program records the key, hardware type and expiration time. AI computation takes place off-chain, and the output is signed with the key. Applications can verify the signature and query the on-chain record; conversation content and private inputs are not made public.\n\nThe beta supports Intel TDX and AMD SEV-SNP hardware attestations, while Nvidia GPU attestation remains in development. In the Solana Confidential Chat example, the browser verifies the environment before encrypting a prompt, and does not send it if verification fails. The application server can see visitors’ IP addresses, while Nito can see account and model details, request times and ciphertext sizes. Nito has integrated the tool into its private AI platform.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1172322&language=en-US",
+            "pub_date": "2026-11-15 01:34:51",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1172318,
             "title": "BNB Drops Below 590 USDT with a 6.70% Decrease in 24 Hours",
             "description": "On Nov 14, 2026, 16:13 PM(UTC). According to Binance Market Data, BNB has dropped below 590 USDT and is now trading at 589.280029 USDT, with a narrowed 6.70% decrease in 24 hours.",
@@ -186,16 +196,6 @@
             "description": "According to CNBC, Bank of America analysts identified AT&T, U.S. Bancorp, Krispy Kreme, Madison Square Garden Entertainment and L3Harris Technologies as buy-rated stocks with upside potential amid market uncertainty. The bank reiterated its Buy rating on AT&T and a $34 price objective after better-than-forecast 3Q26 results. Analyst Sara Senatore said Krispy Kreme maintained its F26 adjusted EBITDA guidance despite higher edible oil and fuel costs; the stock is up 20% this month. Madison Square Garden Entertainment shares have risen 48% this year, and the company has 231 Christmas Spectacular shows planned, versus 215 last year, with advance ticket revenue pacing ahead. Bank of America analyst Ronald Epstein said L3Harris Technologies’ new CEO identified priorities including improving execution, growing international business, which accounts for 24% of revenue, and avoiding transformational M&A. The bank also expects U.S. Bancorp to outperform, citing expected double-digit EPS growth supported by fixed-asset repricing and diversified fee revenue.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1172279&language=en-US",
             "pub_date": "2026-11-14 22:17:22",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1172278,
-            "title": "AI | Couples Turn to Chatbots for Advice and Mediation During Arguments",
-            "description": "People are increasingly using AI chatbots for advice, validation and mediation during arguments with their partners, Bloomberg Weekend senior writer Morgan Meaker said on Bloomberg This Weekend, according to Bloomberg.\n\nMeaker said AI can improve communication, but introducing a digital “third entity” into a relationship risks creating distance between couples.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1172278&language=en-US",
-            "pub_date": "2026-11-14 22:01:48",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
