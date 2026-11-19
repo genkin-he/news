@@ -256,6 +256,11 @@ def run():
 
 
 if __name__ == "__main__":
-    util.execute_with_timeout(run)
+    # 2026-11-19 停用：详情页全部被 Cloudflare 质询拦截（403，curl_cffi 模拟浏览器也不行），
+    # 本脚本已无产出。CMS 的南华早报爬虫已改为直接读官方 RSS（/rss/10、36、2/feed/），不再用这份 JSON。
+    # 此处需保留一条语句，否则 if 块为空构成 IndentationError；同时已移除文件可执行位，
+    # CI 的 find -perm -u=x 不会再选中本脚本。
+    pass
+    # util.execute_with_timeout(run)
     # detail = get_detail("https://www.scmp.com/news/hong-kong/society/article/3330763/bear-attacks-japan-why-are-they-rising-and-how-can-hongkongers-stay-safe")
     # util.info("detail: {}".format(detail))
