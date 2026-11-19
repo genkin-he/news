@@ -1,4 +1,6 @@
 # -*- coding: UTF-8 -*-
+from datetime import datetime, timedelta, timezone
+
 import requests
 from util.spider_util import SpiderUtil
 from bs4 import BeautifulSoup
@@ -43,24 +45,54 @@ for key, value in cookies_dict.items():
     session.cookies.set(key, value)
 
 
+# 2026-11 站点改版为 WordPress + Tailwind，原来的语义类名（PromoMediumImageRight-title、
+# RichTextBody）全部消失，列表一条都匹配不到，脚本静默无产出。新旧选择器按顺序尝试。
+LIST_SELECTORS = ("h2 > a[href]", ".PromoMediumImageRight-title > a")
+# 正文容器；文章有付费墙，未登录只给前两段，后面是一个空的渐变遮罩 div
+CONTENT_SELECTORS = (".entry-content", ".RichTextBody")
+LOCAL_TZ = timezone(timedelta(hours=8))
+
+
+def parse_pub_date(soup):
+    """meta[article:published_time] 带时区，转成与其他脚本一致的北京时间字符串"""
+    node = soup.select_one('meta[property="article:published_time"]')
+    value = (node.get("content") or "").strip() if node else ""
+    try:
+        return (
+            datetime.fromisoformat(value.replace("Z", "+00:00"))
+            .astimezone(LOCAL_TZ)
+            .strftime("%Y-%m-%d %H:%M:%S")
+        )
+    except ValueError:
+        return util.current_time_string()
+
+
 def get_detail(link):
+    """返回 (正文 HTML, 发布时间)，失败时正文为空串"""
     util.info("link: {}".format(link))
     try:
-        response = session.get(link, timeout=10)
+        response = session.get(link, timeout=util.request_timeout(10))
         if response.status_code != 200:
             util.error("request: {} error: {}".format(link, response.status_code))
-            return ""
+            return "", ""
         soup = BeautifulSoup(response.text, "lxml")
-        content = soup.select_one(".RichTextBody")
-        if not content:
-            return ""
-        ad_elements = content.select("script,style,div")
-        for element in ad_elements:
+        content = None
+        for selector in CONTENT_SELECTORS:
+            content = soup.select_one(selector)
+            if content is not None:
+                break
+        if content is None:
+            util.error("article content not found: {}".format(link))
+            return "", ""
+        for element in content.select("script,style,div"):
             element.decompose()
-        return str(content).strip()
+        if content.get_text(strip=True) == "":
+            util.error("article content empty: {}".format(link))
+            return "", ""
+        return str(content).strip(), parse_pub_date(soup)
     except Exception as e:
         util.error("exception: {}".format(str(e)))
-        return ""
+        return "", ""
 
 
 def run():
@@ -72,11 +104,21 @@ def run():
     post_count = 0
 
     try:
-        response = session.get(feed_url, timeout=10)
+        response = session.get(feed_url, timeout=util.request_timeout(10))
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, "lxml")
-            nodes = soup.select(".PromoMediumImageRight-title > a")
+            nodes = []
+            for selector in LIST_SELECTORS:
+                nodes = soup.select(selector)
+                if nodes:
+                    break
+            if not nodes:
+                # 解析不到任何条目必须报错，否则本轮被记为成功，源坏了也不会告警
+                util.log_action_error("request url: {}, no article node parsed".format(feed_url))
+                return
             for node in nodes:
+                if util.out_of_time():
+                    break
                 if post_count >= 3:
                     break
                 href = node.get("href", "").strip()
@@ -89,7 +131,7 @@ def run():
                 title = node.get_text().strip()
                 if not title:
                     continue
-                description = get_detail(link)
+                description, pub_date = get_detail(link)
                 if description:
                     post_count += 1
                     insert = True
@@ -99,7 +141,7 @@ def run():
                             "title": title,
                             "description": description,
                             "link": link,
-                            "pub_date": util.current_time_string(),
+                            "pub_date": pub_date,
                             "source": "americanbanker",
                             "kind": 1,
                             "language": "en",
