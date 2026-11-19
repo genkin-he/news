@@ -118,7 +118,5 @@ def run():
 
 
 if __name__ == "__main__":
-    # 只有台湾的 IP 才能访问
-    # 403 Forbidden
-    util.info("403 Forbidden")
-    # util.execute_with_timeout(run)
+    # 曾经只对台湾 IP 开放（403）；2026-11-19 本机直连已返回 200，恢复后观察 CI 上的表现
+    util.execute_with_timeout(run)

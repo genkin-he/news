@@ -10,7 +10,8 @@ from bs4 import BeautifulSoup
 from util.spider_util import SpiderUtil
 
 # curl_cffi 模拟浏览器 TLS 指纹，规避 403；用 Session 复用连接与 cookie（403 可试改 chrome124/chrome131）
-IMPERSONATE = "chrome124"
+# 2026-11-19：chrome124 指纹已被拦截（403），改用 curl_cffi 当前默认的 chrome 指纹，无需 cookie 即可访问
+IMPERSONATE = "chrome"
 
 LIST_URL = "https://news.mingpao.com/ins/%E5%8D%B3%E6%99%82%E6%96%B0%E8%81%9E/main"
 REQUEST_TIMEOUT = 25
@@ -43,7 +44,12 @@ filename = "./news/data/mingpao/list.json"
 util = SpiderUtil()
 
 # GET 列表页用：不含 content-type，避免被当成 POST
-list_headers_get = {k: v for k, v in headers.items() if k != "content-type" and k != "origin"}
+# 只带与指纹无关的头：UA / sec-ch-ua 交给 impersonate 生成以保持一致，旧 cookie 反而会触发 403
+list_headers_get = {
+    "accept": headers["accept"],
+    "accept-language": headers["accept-language"],
+    "referer": headers["referer"],
+}
 
 
 def _fetch_list_page(session):
@@ -118,8 +124,9 @@ def run():
         item_el = node.select_one("figure a")
         if not title_el or not item_el or not item_el.get("href"):
             continue
-        kind = title_el.text.strip()
-        if kind not in ["地 產", "經 濟"]:
+        # 栏目名中间的空格曾是半角、现为全角（U+3000），统一去掉空白再比较
+        kind = re.sub(r"\s+", "", title_el.text)
+        if kind not in ["地產", "經濟"]:
             continue
         link = item_el["href"].strip()
         if not link.startswith("http"):
@@ -152,5 +159,8 @@ def run():
         util.write_json_to_file(_articles, filename)
 
 if __name__ == "__main__":
+    # 2026-11-19 仍停用：列表页用 chrome 指纹已能拿到，栏目匹配也已修好；但财经文章都在
+    # finance.mingpao.com，详情页被 Cloudflare 质询拦截（各指纹均 403，cf_clearance 绑 IP 无法复用），
+    # 官方 RSS 与 Feedly 也只有百余字摘要。站点放开后取消注释即可。
     # util.execute_with_timeout(run)
-    util.info("403 Forbidden")
+    util.info("detail pages blocked by Cloudflare challenge (403)")

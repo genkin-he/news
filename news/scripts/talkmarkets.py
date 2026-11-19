@@ -1,114 +1,86 @@
 # -*- coding: UTF-8 -*-
-import logging
-import traceback
-import requests  # 发送请求
-import json
-import re
-import time
-from util.spider_util import SpiderUtil
+import xml.etree.ElementTree as ET
+from datetime import timedelta, timezone
+from email.utils import parsedate_to_datetime
+
 from bs4 import BeautifulSoup
+from curl_cffi import requests
+from util.spider_util import SpiderUtil
 
-headers = {
-    "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    "accept-language": 'en-US,en;q=0.9',
-    "cache-control": 'no-cache',
-    "pragma": 'no-cache',
-    "sec-ch-ua": '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
-    "sec-ch-ua-mobile": '?0',
-    "sec-ch-ua-platform": '"macOS"',
-    "sec-fetch-dest": 'document',
-    "sec-fetch-mode": 'navigate',
-    "sec-fetch-site": 'none',
-    "sec-fetch-user": '?1',
-    "upgrade-insecure-requests": '1',
-    "user-agent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
-}
-
-base_url = "https://talkmarkets.com"
+# 原列表页 /blog 已 404，改读官方 RSS（2026-11-19）。RSS 只有一句摘要，正文仍从详情页取；
+# 普通 requests 会被 403，必须用 curl_cffi 模拟浏览器指纹
+feed_url = "https://talkmarkets.com/rss"
 filename = "./news/data/talkmarkets/list.json"
-current_links = []
 util = SpiderUtil()
+
+KEEP_POSTS = 40
+MAX_NEW_PER_RUN = 3
+LOCAL_TZ = timezone(timedelta(hours=8))
+IMPERSONATE = "chrome"
+NOISE_SELECTOR = "script, style, iframe, noscript, div"
+
 
 def get_detail(link):
     util.info("link: {}".format(link))
-    response = requests.get(link, headers=headers)
-    if response.status_code == 200:
-        response.encoding = 'utf-8'
-        resp = response.text
-        if "Access Restricted" in resp:
-            raise Exception("Connection reset by peer") 
-        body = BeautifulSoup(resp, "lxml")
-        content_wrappers = body.select_one("#blog-content")
-        if content_wrappers is None:
-            return ""
-        else:
-            soup = content_wrappers
-            ad_elements = soup.select("div")
-            for element in ad_elements:
-                element.decompose()
-
-        result = str(soup)
-        result = result.replace('\n', '').replace('\r', '')
-        return result
-    else:
-        util.error("request: {} error: {}".format(link, response))
+    response = requests.get(link, impersonate=IMPERSONATE, timeout=util.request_timeout(5))
+    if response.status_code != 200:
+        util.log_action_error("detail error: {}, link: {}".format(response.status_code, link))
         return ""
+    content = BeautifulSoup(response.text, "lxml").select_one("div.article-body")
+    if content is None:
+        util.log_action_error("article-body not found: {}".format(link))
+        return ""
+    for element in content.select(NOISE_SELECTOR):
+        element.decompose()
+    return str(content).replace("\n", "").replace("\r", "").strip()
 
-def run(url):
-    post_count = 0
-    current_links = []
+
+def format_pub_date(raw):
+    try:
+        return parsedate_to_datetime(raw).astimezone(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S")
+    except (TypeError, ValueError):
+        return util.current_time_string()
+
+
+def run():
     data = util.history_posts(filename)
     articles = data["articles"]
-    links = data["links"]
-    insert = False
+    links = set(data["links"])
+    new_articles = []
 
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        response.encoding = 'utf-8'
-        body = response.text
-        soup = BeautifulSoup(body, "lxml")
-        nodes = soup.select("h5.card-title a")
-        util.info("nodes: {}".format(len(nodes)))
-        for node in nodes:
-            if post_count >= 3:
-                break
-            link = str(node["href"])
-            title = str(node.text)
-            title = title.replace('\n', '')
-            if link in ",".join(links):
-                util.info("exists link: {}".format(link))
-                continue
-            description = ""
-            try:
-                description = get_detail(link)
-            except Exception as e:
-                util.error("request: {} error: {}".format(link, str(e)))
-                if "Access Restricted" in str(e):
-                    break
-            if description != "":
-                post_count = post_count + 1
-                insert = True
-                articles.insert(
-                    0,
-                    {
-                        "title": title,
-                        "description": description,
-                        "link": link,
-                        "author": "apnews",
-                        "pub_date": util.current_time_string(),
-                        "source": "apnews",
-                        "kind": 1,
-                        "language": "en",
-                    },
-                )
-        if len(articles) > 0 and insert:
-            if len(articles) > 40:
-                articles = articles[:40]
-            util.write_json_to_file(articles, filename)
-    else:
-        util.log_action_error("request error: {}".format(response))
+    response = requests.get(feed_url, impersonate=IMPERSONATE, timeout=util.request_timeout(5))
+    if response.status_code != 200:
+        util.log_action_error("rss error: {}".format(response.status_code))
+        return
+
+    for item in ET.fromstring(response.content).findall(".//item"):
+        if len(new_articles) >= MAX_NEW_PER_RUN or util.out_of_time():
+            break
+        link = (item.findtext("link") or "").strip()
+        title = (item.findtext("title") or "").strip()
+        if not link or not title or link in links:
+            continue
+        description = get_detail(link)
+        if not description:
+            continue
+        links.add(link)
+        new_articles.append(
+            {
+                "title": title,
+                "description": description,
+                "link": link,
+                "author": (item.findtext("author") or "").strip(),
+                "pub_date": format_pub_date(item.findtext("pubDate")),
+                "source": "talkmarkets",
+                "kind": 1,
+                "language": "en",
+            }
+        )
+
+    util.info("new articles: {}".format(len(new_articles)))
+    if new_articles:
+        util.write_json_to_file((new_articles + articles)[:KEEP_POSTS], filename)
+
 
 if __name__ == "__main__":
-    # util.execute_with_timeout(run, "https://talkmarkets.com/blog?page=1")
-    # 有人要验证，且 链接已变更
-    util.info("403 Forbidden")
+    util.execute_with_timeout(run)
