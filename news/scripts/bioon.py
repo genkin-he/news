@@ -31,6 +31,8 @@ util = SpiderUtil()
 # （CI 日志里的 "TimeoutError('The read operation timed out')"）。
 # 交给 request_timeout 按剩余预算收敛，慢的那次会先自己超时，已抓到的仍能落盘。
 REQUEST_TIMEOUT = 4
+MAX_POSTS = 2
+SHELL = object()  # get_detail 的返回值：微信跳转壳页
 
 
 def get_detail(link):
@@ -53,9 +55,14 @@ def get_detail(link):
         # window.location.href='https://mp.weixin.qq.com/...' 的脚本），此处选不到正文。
         # 原实现直接取 [0]，遇到这类文章即抛 IndexError 并终止整轮——实测 8 篇中有 1 篇是
         # 壳页，却让另外 7 篇也一并丢失。改为跳过该篇、继续处理其余文章。
+        if "mp.weixin.qq.com" in resp and len(resp) < 2000:
+            # 2026-11 起列表页顶部固定置顶 3 条会议报名 / 试用推广，全是微信壳页，
+            # 不是新闻，跳过即可
+            util.info("wechat redirect shell, skipped: {}".format(link))
+            return SHELL
         nodes = body.select('.composs-main-content div[style="color: #303a4e;"]')
         if not nodes:
-            util.error("article content not found: {}".format(link))
+            util.log_action_error("article content not found: {}".format(link))
             return ""
         soup = nodes[0]
 
@@ -87,32 +94,46 @@ def run(link):
         body = response.read().decode("utf-8")
         soup = BeautifulSoup(body, "lxml")
         items = soup.select(".composs-blog-list > .item")
-        for index in range(len(items)):
-            if index > 1 or util.out_of_time():
+        if not items:
+            util.log_action_error("list page parsed, but no article node matched")
+            return
+        # 原实现只看前 2 条（index > 1 即 break），而列表顶部现在固定是 3 条微信壳页推广，
+        # 于是每轮都只碰到壳页、零产出，且只打 util.error 不告警，静默断了 10 多天。
+        # 现在壳页不占名额，继续往下找，直到拿到 MAX_POSTS 篇正文。
+        new_articles = []
+        for item in items:
+            if len(new_articles) >= MAX_POSTS or util.out_of_time():
                 break
-            anchors = items[index].select(".item-content> h2 > a")
+            anchors = item.select(".item-content> h2 > a")
             if not anchors:
                 continue
             link = anchors[0]["href"].strip()
             title = anchors[0].text.strip()
+            # 置顶推广在列表上的摘要为空，正常文章都有摘要：列表阶段就跳过，省掉一次请求
+            summary = item.select_one("p.text-justify")
+            if summary is not None and not summary.get_text(strip=True):
+                util.info("empty summary (pinned promo), skipped: {}".format(link))
+                continue
             if link in ",".join(_links):
                 util.info("exists link: {}".format(link))
                 break
             description = get_detail(link)
-            if description != "":
-                insert = True
-                _articles.insert(
-                    index,
-                    {
-                        "title": title,
-                        "description": description,
-                        "link": link,
-                        "pub_date": util.current_time_string(),
-                        "source": "bioon",
-                        "kind": 1,
-                        "language": "zh-CN",
-                    },
-                )
+            if description is SHELL or description == "":
+                continue
+            new_articles.append(
+                {
+                    "title": title,
+                    "description": description,
+                    "link": link,
+                    "pub_date": util.current_time_string(),
+                    "source": "bioon",
+                    "kind": 1,
+                    "language": "zh-CN",
+                }
+            )
+        if new_articles:
+            insert = True
+            _articles = new_articles + _articles
 
         if len(_articles) > 0 and insert:
             if len(_articles) > 10:
