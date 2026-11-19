@@ -70,7 +70,13 @@ def run(url):
     if response.status == 200:
         resp = response.read().decode("utf-8")
         soup = BeautifulSoup(resp, "lxml")
-        nodes = soup.select(".mdc-feed__mdc > a")
+        # 类名后缀随前端构建变化（2026-11 列表页由 mdc-feed__mdc 变为 mdc-feed__indiv，
+        # 详情页仍是 __mdc），按前缀匹配以免再次静默失配
+        nodes = soup.select('[class^="mdc-feed__"] > a')
+        if not nodes:
+            # 解析不到任何条目时必须报错，否则本轮被记为成功，源坏了也不会告警
+            util.log_action_error("request url: {}, no article node parsed".format(url))
+            return
         for node in nodes:
             if post_count >= 2:
                 break
