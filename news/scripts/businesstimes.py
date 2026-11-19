@@ -30,6 +30,8 @@ def get_detail(link):
     util.info("link: {}".format(link))
     try:
         response = requests.get(link, headers=headers)
+        # 源站 Content-Type 只有 text/html 不带 charset，requests 会按 ISO-8859-1 解码导致 UTF-8 标题乱码
+        response.encoding = "utf-8"
         if response.status_code == 200:
             resp = response.text
             body = BeautifulSoup(resp, "lxml")
@@ -66,6 +68,8 @@ def run():
         "https://www.businesstimes.com.sg/breaking-news",
         headers=headers,
     )
+    # 源站 Content-Type 只有 text/html 不带 charset，requests 会按 ISO-8859-1 解码导致 UTF-8 标题乱码
+    response.encoding = "utf-8"
     if response.status_code == 200:
         body = response.text
         soup = BeautifulSoup(body, "lxml")
