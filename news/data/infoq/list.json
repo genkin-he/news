@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "AmLUHEa9thE3iWDDQlQG",
+            "title": "谷歌云推出裸金属自托管 VMware Cloud Foundation 方案",
+            "image": "https://static001.infoq.cn/resource/image/4e/b6/4ee79163efyy3eb01ac47bb40bc6abb6.png",
+            "description": "<div><p>谷歌云宣布，面向裸金属服务器的自托管 VMware 解决方案（General Availability）。该方案在专用裸金属服务器上运行 VMware Cloud Foundation（VCF）9.x，覆盖 22 个区域，并向客户开放 ESXi、vCenter 和 NSX 的 root 权限。这项服务与由谷歌托管的 VMware Engine 并行提供，也与 AWS 和 Oracle 推出的类似客户自运营方案形成呼应。</p><p></p><p>通过这项自托管方案，谷歌现在提供两种 VMware 部署模式，主要区别在于由谁负责运行和管理整个技术栈。现有服务 VMware Engine 运行在 ve1 和 ve2 节点系列上，采用 VCF 5.2，提供基于角色的 vCenter 权限，并由谷歌负责生命周期管理。</p><p></p><p>新方案则运行在  实例上。每个实例配备 96 个物理核心，采用第四代 Intel Xeon 处理器，拥有 1.5 TB 内存、72 TB 本地 NVMe 存储和 200 Gbps 网络带宽。客户或其合作伙伴负责通过 VCF Operations 执行升级和补丁管理，同时需要自行提供可移植的 VCF 订阅许可。</p><p></p><p><img>https://static001.geekbang.org/infoq/82/821c10e6f8a2e1bfc977483e1b755f43.png<img></p><p>来源：谷歌</p><p></p><p>谷歌产品组经理 Sunny Dua 和产品管理总监 Prashanth Bungale 写道：</p><p></p><p>此外，负责 Broadcom VCF 部门超大规模云服务商合作关系的 Abhay Kumar 补充表示，许可证可移植性允许客户迁移现有订阅，并在不修改工作负载的情况下继续运行。</p><p></p><p>在自托管模式下，谷歌负责预配环境，随后将管理权交还给客户。根据，客户可以通过谷歌云控制台或  使用 VMware 解决方案工具包，完成整个部署过程。</p><p>该工具包会为裸金属 ESXi 节点进行跨故障域分散部署（spread placement），配置 VMkernel 接口和 Cloud DNS 记录，并使用经过预验证的配置部署 VCF Installer 设备。</p><p></p><p>在执行这些操作之前，项目必须启用基于 VLAN 的网络，VPC 的 MTU 必须设置为 8896 字节，同时需要预先创建管理网络、vSAN 网络、vMotion 网络以及两个 NSX 子网。从 VCF Installer 开始，环境的管理责任就完全归属于客户。这既是该模式的核心设计目标，也是客户需要为此付出的代价。</p><p></p><p>存储方面，该方案使用本地 NVMe 构建 vSAN，并支持将 NetApp Volumes 用作外部数据存储。谷歌在公告中宣称，通过 NVMe 内存分层（memory tiering），服务器总拥有成本（TCO）最高可降低 40%；通过 vSAN ESA（Express Storage Architecture），存储总拥有成本最高可降低 39%。不过，这两个数据都没有附带对比基准或计算方法。公告中唯一引用的客户 GXO Logistics，也只是介绍了早期评估情况，而非已经投入生产环境的实际使用经验。</p><p></p><p>此次发布意味着谷歌加入 Oracle 和 AWS，开始提供由客户自行运营的裸金属 VCF 方案。Oracle Cloud VMware Solution 便支持由客户控制的 vSphere 环境。AWS 则于 2025 年推出 ，并在今年 7 月。相比之下， 仍然由微软负责运营和管理。</p><p></p><p>托管模式允许云服务商承担 Broadcom 的版本发布节奏和许可证变更带来的管理工作；而自托管模式则将这些责任重新交给客户，换取 root 权限以及运行当前 VCF 主版本的能力，而不必受限于云服务商已经完成认证的版本。</p><p></p><p>作为 15 家官方公布的首发合作伙伴之一，咨询公司 Xtravirt 认为，客户是否愿意承担这些管理责任，将决定该方案能否获得广泛采用。在中，该公司写道：</p><p></p><p>谷歌给出的应对方式是依靠合作伙伴提供托管运维服务。在公布的合作伙伴名单中，Accenture、HCL、IBM、Infosys、TCS 和 Wipro 等公司都可以在客户自主管理的技术栈之上提供托管运维服务。</p><p></p><p>此次公告没有公布具体价格、服务级别协议（SLA），也没有列出已开放服务的 22 个区域。此外，谷歌并未说明如何将 VMware Engine 当前使用的 VCF 5.2 迁移到新的自托管 VCF 9.x 环境。谷歌表示，未来几个季度还将陆续开放更多区域，并建议有意采用该方案的客户联系谷歌客户团队或授权合作伙伴，了解具体部署事宜。</p></div>",
+            "link": "https://www.infoq.cn/article/AmLUHEa9thE3iWDDQlQG",
+            "pub_date": "2026-11-19 06:00:00",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "UEZ4CPEr1vyESW6z647r",
             "title": "微软将停用 Azure 部署环境，而且不会推出替代产品",
             "image": "https://static001.infoq.cn/resource/image/db/ff/db276b2d33e5fd502ca7ee69660baeff.jpg",
@@ -95,17 +106,6 @@
             "description": "<div><p>亚马逊云科技近期宣布对Amazon EventBridge的，允许组织在跨账户环境中共享一个集中式总线。该更新支持有序传递（ordered delivery）、简化的订阅者管理、事件重放（event replay）、基于内容的去重（content-based deduplication），以及全新的基于发布者/订阅者的定价模型。</p><p></p><p>是一项托管的事件总线服务，用于在分布式应用和AWS服务之间路由事件。随着在多账户环境中的采用率不断上升，团队通常需要多个相互连接的事件总线，这不仅增加了路由成本和运维复杂性，还使得事件订阅更难管理，并且让实现事件排序等功能变得更加困难。亚马逊云科技的高级解决方案架构师这样：</p><p></p><p>提供了一个全组织共享的总线，支持跨账户的发布与订阅、有序传递、事件重放、基于内容的去重、基于JSONata的事件转换，以及对Avro和Protobuf格式载荷的支持。</p><p></p><p>一种全新的订阅者（Subscriber）资源将过滤、目标、重试和死信处理功能整合在一起，同时，入口/出口吞吐量定价将发布者与订阅者的成本分离开来。亚马逊云科技的首席产品经理Jamie Dool将其描述为“自2019年7月该服务推出以来最大规模的EventBridge发布”，他：</p><p></p><p>社区的反馈，有人称赞其，也有人赞赏其。“架构电梯”（Architect Elevator）理念的提出者、亚马逊云科技的前企业战略总监Gregor Hohpe：</p><p></p><p>在其新闻通讯中，The Duckbill Group首席云经济学家Corey Quinn对：</p><p></p><p>增强型自定义事件总线采用，发布者按摄取的事件付费，订阅者按传递的事件付费。现有的自定义事件总线保持不变，而增强型自定义事件总线作为一种新资源提供。</p><p></p><p></p><p>查看英文原文：</p></div>",
             "link": "https://www.infoq.cn/article/J4MJLMWsGagkT3eRVSJQ",
             "pub_date": "2026-11-16 09:36:39",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "ah2izwCUPxX2y1herN7b",
-            "title": "Uber Eats重建搜索流水线，端到端延迟降低50%",
-            "image": "https://static001.infoq.cn/resource/image/41/d0/417b2d2b8438807c30fed17bd6529cd0.jpg",
-            "description": "<div><p>优步重构了的主要部分，使端到端搜索延迟降低了50%。这些改进涵盖了检索、特征填充（feature hydration）、排序、广告、展示和基础设施等多个环节，同时优步还引入了智能体编码（agentic coding）工作流，以识别、基准测试并验证额外的优化方案。</p><p></p><p>这项工作始于对主要延迟指标的调整。优步不再仅仅关注后端API的响应时间，而是开始测量“，即从发起请求到首屏结果连同图片完整渲染出来的时间。通过服务端缓存实现分页，缩短了初始响应时间。同时，异步渲染机制允许并发处理结果项。优步报告称，这些改进使首屏渲染延迟降低了200毫秒以上。</p><p></p><p></p><p><img>https://static001.geekbang.org/infoq/93/935432e2d1b0f85a22c09c18b3bf07b6.jpeg<img></p><p></p><p>Uber Eats搜索管道的架构图（来源：）</p><p></p><p>优步发现，在排序之前有数万个候选项被填充了特征数据，而其中许多最终会被丢弃，借助该发现他们大幅减少了检索阶段的工作量。移除低价值的检索策略节省了约120毫秒，引入产品级嵌入（embeddings）使数据查询次数减少了100倍以上，又节省了50毫秒。将排序阶段的特征填充与展示数据分离，使延迟降低了100毫秒以上。此外，移除不必要的依赖项和请求对冲（request hedging）分别贡献了35毫秒和40毫秒的延迟缩减。广告链路也经过了重新设计，采用了面向列（column-oriented）的竞价数据、内存访问并减少了序列化操作，使延迟降低了约130毫秒。在基础设施层面，其他改进还包括并行编码、使用更小的嵌入向量、优化连接管理，以及调整Go语言的数据结构以降低垃圾回收（GC）的开销。</p><p></p><p>这一系列工作引起了公开讨论该项目的工程师们的广泛关注。将这一性能挑战：</p><p></p><p>Nagar还特别强调了优步的：</p><p></p><p>强调，这一成果源于渐进式的增量优化，而非单一的系统架构变更。他将其，“背后并没有某个单一的宏大创意，而是贯穿整个技术栈的一系列审慎决策”。他以延迟指标测量、特征填充、广告链路以及基础设施等方面的改动作为例证。</p><p></p><p>将这些改动提炼为三大原则：减少工作量、尽早开始处理、移除不必要的依赖。Pandey还将优步计划采用的方法与AI系统中用于减少处理阶段之间同步等待的技术联系了起来。</p><p></p><p>此次改进建立在优步现有搜索平台的基础之上。此前的资料显示，该平台采用了Apache Lucene、基于Spark的索引、基于Kafka的流式更新以及分布式服务层。，也为该平台早期的索引和查询执行工作提供了更多背景信息。</p><p></p><p>目前，优步正在探索端到端微批处理、基于产品的检索、零遍历排序（Zero Pass Ranking）以及HTTP多部分流式传输（multipart streaming）。该公司报告称，早期基于产品的检索测试已使p99延迟降低了50%以上。这些计划中的改动允许各个处理阶段相互重叠，从而无需等待前序阶段全部完成。</p><p></p><p>查看英文原文：</p></div>",
-            "link": "https://www.infoq.cn/article/ah2izwCUPxX2y1herN7b",
-            "pub_date": "2026-11-16 09:24:01",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
