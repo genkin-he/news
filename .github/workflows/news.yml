@@ -25,12 +25,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -52,7 +52,13 @@ jobs:
       - name: Execute Python scripts
         run: |
           chmod +x ./news/scripts/*.py
-          find ./news/scripts/*.py -type f -perm -u=x -print0 | xargs -0 -n 1 -P 8 -I {} sh -c 'gtimeout 15 python3 {} || true'
+          # 失败不影响其他脚本，但要把超时（124）和异常退出标成 warning 注解，
+          # 否则 `|| true` 会把长期卡死的源完全吞掉
+          find ./news/scripts/*.py -type f -perm -u=x -print0 | xargs -0 -n 1 -P 8 sh -c '
+            gtimeout 15 python3 "$1"; rc=$?
+            if [ "$rc" -eq 124 ]; then echo "::warning title=script timeout::$1 被 gtimeout 15s 终止";
+            elif [ "$rc" -ne 0 ]; then echo "::warning title=script failed::$1 退出码 $rc"; fi
+            exit 0' _
 
       - name: Execute shell scripts
         run: |

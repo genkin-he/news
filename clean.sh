@@ -1,6 +1,7 @@
 #!/bin/zsh
 set -e  # 如果任何命令失败，立即退出脚本
-cd ~/coding/gocode/news
+# 切到脚本所在目录（仓库根），不依赖固定的本机路径
+cd "$(dirname "$0")"
 # 检查本地是否存在 backup 标签，如果存在则删除
 if git tag -l | grep -q "backup"; then
     echo "删除本地 backup 标签..."

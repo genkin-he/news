@@ -317,6 +317,17 @@ class TestSpiderUtil(unittest.TestCase):
         self.assertIsNone(health.get("first_failure"))
         self.assertIsNotNone(health.get("last_success"))
 
+    def test_healthy_success_does_not_rewrite_health_file(self):
+        """一直健康的源成功一轮不落盘：每轮刷新时间戳会让每次提交都带上上百个
+        health 文件，并发提交时必然在 rebase 阶段冲突"""
+        util, _ = self._health_setup()
+        util.flush_action_errors()
+        self.assertFalse(os.path.exists(util._health_path()))
+
+        util._write_health({"last_success": 1.0})
+        util.flush_action_errors()
+        self.assertEqual(util._read_health(), {"last_success": 1.0})
+
     def test_read_with_deadline(self):
         """分片很慢时，读取要在总预算内主动放弃，而不是无限拉长"""
 

@@ -282,9 +282,11 @@ class SpiderUtil:
         health = self._read_health()
 
         if not errors:
+            # 只在「失败 → 恢复」时落盘。一直健康的源若每轮都刷新时间戳，每次提交都会
+            # 带上上百个 health 文件，两轮先后提交时 rebase 必然在这些文件上冲突。
             if health.get("first_failure"):
                 self.info("recovered, failure streak cleared")
-            self._write_health({"last_success": now})
+                self._write_health({"last_success": now})
             return
 
         first_failure = health.get("first_failure") or now
