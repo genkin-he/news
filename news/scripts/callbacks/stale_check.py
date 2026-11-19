@@ -84,7 +84,9 @@ def build_report(
     stale = find_stale_sources(data_dir, now, ignored)
     if not stale:
         return None
-    timestamp = now.timestamp()
+    # now 是北京时间的 naive datetime；直接 .timestamp() 会按机器时区解释，
+    # 在 UTC 的 CI runner 上会快 8 小时
+    timestamp = now.replace(tzinfo=LOCAL_TZ).timestamp()
     if timestamp - _read_last_alert(state_path) < REPEAT_SECONDS:
         return None
     os.makedirs(os.path.dirname(state_path) or ".", exist_ok=True)

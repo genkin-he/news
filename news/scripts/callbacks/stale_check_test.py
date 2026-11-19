@@ -71,6 +71,17 @@ class StaleCheckTest(unittest.TestCase):
         self.assertIsNone(second)
         self.assertIn("stale", later)
 
+    def test_alert_state_uses_real_epoch_of_local_time(self):
+        """now 是北京时间的 naive datetime，落盘的时间戳不能随机器时区漂移"""
+        self._write_source("stale", [self._hours_ago(100)])
+
+        stale_check.build_report(self.data_dir, self.state_path, NOW)
+
+        with open(self.state_path) as f:
+            last_alert = json.load(f)["last_alert"]
+        expected = NOW.replace(tzinfo=stale_check.LOCAL_TZ).timestamp()
+        self.assertEqual(last_alert, expected)
+
     def test_no_report_and_no_state_write_when_all_fresh(self):
         self._write_source("fresh", [self._hours_ago(1)])
 
