@@ -109,6 +109,30 @@ class SpiderUtil:
         except:
             return {"articles": [], "links": []}
 
+    def fix_title_mojibake(self, title: str) -> str:
+        """
+        只修复编码乱码（如 UTF-8 被按 Latin-1 解码产生的 â€™、Â），不动其他字符。
+        不能用 fix_text：它默认还会把全角标点转半角、弯引号转直引号，会改坏正常的中文标题。
+        """
+        if not title:
+            return title
+        return ftfy.fix_encoding(title)
+
+    def _fix_titles(self, data: list) -> list:
+        """返回标题修复后的新列表，修过的条目打日志，便于发现哪个源在产出乱码"""
+        fixed_items = []
+        for item in data:
+            title = item.get("title") if isinstance(item, dict) else None
+            if not isinstance(title, str):
+                fixed_items.append(item)
+                continue
+            fixed = self.fix_title_mojibake(title)
+            if fixed != title:
+                self.info(f"标题乱码已修复: {title!r} -> {fixed!r}")
+                item = {**item, "title": fixed}
+            fixed_items.append(item)
+        return fixed_items
+
     def fix_text(self, text):
         """
         解析文本，将文本中的特殊字符转换为标准字符
@@ -478,6 +502,10 @@ class SpiderUtil:
         try:
             # 确保目标文件夹存在
             os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+            # 所有源都经这里落盘，统一兜底修复标题乱码
+            if isinstance(data, list):
+                data = self._fix_titles(data)
 
             # 写入 JSON 文件
             with open(filename, "w", encoding=encoding) as f:

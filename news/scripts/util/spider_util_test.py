@@ -407,5 +407,42 @@ class TestSpiderUtil(unittest.TestCase):
             self.assertTrue(util.should_run_every(900))
 
 
+    def test_fix_title_mojibake_repairs_latin1_decoded_utf8(self):
+        """UTF-8 被按 Latin-1 解码产生的乱码标题能还原"""
+        garbled = "Chinaâ\x80\x99s record state fund rescue"
+        self.assertEqual(
+            self.spider_util.fix_title_mojibake(garbled),
+            "China’s record state fund rescue",
+        )
+
+    def test_fix_title_mojibake_keeps_normal_titles(self):
+        """正常标题原样返回：不改全角标点、弯引号和全角空格"""
+        titles = [
+            "茅台第一、美的第二，首批主动ETF底牌曝光！",
+            "Singapore’s core inflation eases to 1.5% in October",
+            "黃仁勳回朝有望？　貝森特鬆口：他已是外部人士",
+            "",
+        ]
+        for title in titles:
+            self.assertEqual(self.spider_util.fix_title_mojibake(title), title)
+
+    def test_write_json_to_file_fixes_mojibake_titles(self):
+        """写 list.json 前统一修复所有条目标题的乱码，且不改调用方传入的数据"""
+        path = "./tmp/test_mojibake.json"
+        data = [
+            {"title": "Seatriumâ\x80\x99s order book", "link": "a"},
+            {"title": "正常标题，不变", "link": "b"},
+            {"link": "c"},
+        ]
+        self.spider_util.write_json_to_file(data, path)
+        with open(path, encoding="utf-8") as f:
+            written = json.load(f)["data"]
+        self.assertEqual(written[0]["title"], "Seatrium’s order book")
+        self.assertEqual(written[1]["title"], "正常标题，不变")
+        self.assertNotIn("title", written[2])
+        self.assertEqual(data[0]["title"], "Seatriumâ\x80\x99s order book")
+        os.remove(path)
+
+
 if __name__ == "__main__":
     unittest.main()
