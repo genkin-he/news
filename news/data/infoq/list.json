@@ -1,6 +1,17 @@
 {
     "data": [
         {
+            "id": "LQuPgS5lcFDMEKhZSP5d",
+            "title": "亚马逊云科技推出Well-Architected Agent预览版",
+            "image": "https://static001.infoq.cn/resource/image/bf/e7/bf9988254f5424d9a4ede1062d267fe7.jpg",
+            "description": "<div><p>亚马逊云科技，这是一项根据Well-Architected最佳实践分析云环境，并围绕成本、安全、性能和可靠性提供优先级建议的服务。该AI智能体还能建议修复步骤，并在部署前审查基础设施即代码。</p><p></p><p>会关联资源配置、利用率指标、应用拓扑和声明的业务目标，在资源、应用和架构层级提供优先级建议，包括权衡分析，以及通过CLI命令、IaC变更和自动化进行修复。该智能体还可以在部署前审查Terraform和CloudFormation IaC。亚马逊云科技的首席博主写道：</p><p></p><p>Well-Architected Agent首先通过一个智能体配置文件定义账户、区域、优化支柱和业务目标。随后，它会扫描已配置账户中的资源，并生成资源、应用和架构层级的优先级建议，供审查和修复。该智能体从成本优化、安全、韧性和性能等维度分析基础设施，并可按需审查IaC模板。</p><p></p><p>Well-Architected Agent利用应用上下文和业务目标，按影响和工作量对建议进行优先级排序，提供资源、应用和架构层级的发现结果，包括成本影响和IaC变更。Yun补充道：</p><p></p><p>一些从业者对将架构建议交给AI智能体持保留态度，另一些人则指出，基于业务目标对建议进行优先级排序存在实际的挑战。Specira AI创始人兼CEO Nicolas Payette：</p><p></p><p>Silicon Army高级数据工程师Alex Kargin：</p><p></p><p>尽管该智能体代表了用于评估云架构的，但亚马逊云科技警告称，其AI生成的建议可能包含错误或不完整信息，应在具体上下文中进行评估，并配备适当的监督和保障措施。The Duckbill Group首席云经济学家Corey Quinn在其通讯中：</p><p></p><p>该智能体目前仅在美国的三个区域可用，但全球任何区域的工作负载都可以接入。此外，它仅面向拥有Business Support+或更高支持计划的客户开放。</p><p></p><p>查看英文原文：</p></div>",
+            "link": "https://www.infoq.cn/article/LQuPgS5lcFDMEKhZSP5d",
+            "pub_date": "2026-11-23 06:16:59",
+            "source": "infoq",
+            "kind": 1,
+            "language": "zh-CN"
+        },
+        {
             "id": "AmLUHEa9thE3iWDDQlQG",
             "title": "谷歌云推出裸金属自托管 VMware Cloud Foundation 方案",
             "image": "https://static001.infoq.cn/resource/image/4e/b6/4ee79163efyy3eb01ac47bb40bc6abb6.png",
@@ -95,17 +106,6 @@
             "description": "<div><p>亚马逊首席执行 Andy Jassy 近日表示，亚马逊云科技 2027 年的已承诺云算力已基本售罄，2028 年的也有很大一部分也已经分配完毕，不过该公司仍然为“按需服务”（On Demand）、EC2 和 Bedrock 预留了余量。</p><p></p><p>，Jassy 是在与 Andreessen Horowitz 联合创始人 Ben Horowitz 及普通合伙人 Erik Torenberg 的视频播客中发表上述言论的。亚马逊云科技通过提供容量保障服务，客户可以通过前者在指定的可用区预留实例，而后者则是在未来某一日期开始的固定时间段内预留实例。，亚马逊云科技于 1 月在所有区域统一将 ML 容量块的费率上调了约 15%，涵盖 P5en、P5e、P5 和 P4d GPU 实例以及 Trn2 和 Trn1 实例。</p><p></p><p>Jassy 表示，2026 年的容量已经售罄，公司即使投入远超今年计划的约 2200 亿美元的资本支出，也不会算作资本的低效利用。关于资源分配本身：</p><p></p><p>云分析师 David Linthicum 认为，，并区分了 Jassy 所描述的预留资源块与企业日常可分配的资源：</p><p></p><p>Linthicum 补充道，市场对预留实例、按需服务和已承诺容量本就没有一个清晰的认知，而这类头条新闻会导致错误的假设和错误的策略。</p><p></p><p>转向了当前可用性，而非 2027 年的承诺。点赞数最高的评论来自一位名为 cbigsby 的开发者，他描述了普通实例类型的限制：</p><p></p><p>其他地方也出现了类似的报告。技术运营经理 Richard T. 在 Linthicum 的帖子下评论称，微软仅就 Azure 美国东部区域的容量限制发布了有限的信息，而他的团队已采用预留实例来保障未来增长所需的计算资源。在中，有一位评论者报告称，从三大云服务商中的任何一家都难以获得足够的计算资源，并指出这种限制不仅限于 GPU。</p><p></p><p>在回复 Linthicum 时，Ian Rae 指出了这种应对方式在架构层面的后果：</p><p></p><p>亚马逊云科技已经针对 Rae 所描述的问题提供了相应的工具。，EC2 Capacity Manager 将容量数据聚合到一个跨账户、跨区域的仪表盘中，并报告已用与未用预留容量的比率，以此作为衡量预留效率的指标。</p><p></p><p>2200 亿美元这一数字涵盖了总资本支出，而非仅 AI 支出。这一区别在两个讨论中均有评论者提及。，届时其“剩余履约义务”披露会显示出已承诺容量中有多少属于合同收入。</p><p></p><p>声明：本文为InfoQ翻译，未经许可禁止转载。</p><p></p><p>原文链接：</p></div>",
             "link": "https://www.infoq.cn/article/L4oHv9VcLJNRwhOXgOAi",
             "pub_date": "2026-11-17 02:02:03",
-            "source": "infoq",
-            "kind": 1,
-            "language": "zh-CN"
-        },
-        {
-            "id": "J4MJLMWsGagkT3eRVSJQ",
-            "title": "亚马逊云科技为EventBridge推出增强型自定义事件总线",
-            "image": "https://static001.infoq.cn/resource/image/9e/c0/9eebadc87d29950df1415860376cb2c0.jpg",
-            "description": "<div><p>亚马逊云科技近期宣布对Amazon EventBridge的，允许组织在跨账户环境中共享一个集中式总线。该更新支持有序传递（ordered delivery）、简化的订阅者管理、事件重放（event replay）、基于内容的去重（content-based deduplication），以及全新的基于发布者/订阅者的定价模型。</p><p></p><p>是一项托管的事件总线服务，用于在分布式应用和AWS服务之间路由事件。随着在多账户环境中的采用率不断上升，团队通常需要多个相互连接的事件总线，这不仅增加了路由成本和运维复杂性，还使得事件订阅更难管理，并且让实现事件排序等功能变得更加困难。亚马逊云科技的高级解决方案架构师这样：</p><p></p><p>提供了一个全组织共享的总线，支持跨账户的发布与订阅、有序传递、事件重放、基于内容的去重、基于JSONata的事件转换，以及对Avro和Protobuf格式载荷的支持。</p><p></p><p>一种全新的订阅者（Subscriber）资源将过滤、目标、重试和死信处理功能整合在一起，同时，入口/出口吞吐量定价将发布者与订阅者的成本分离开来。亚马逊云科技的首席产品经理Jamie Dool将其描述为“自2019年7月该服务推出以来最大规模的EventBridge发布”，他：</p><p></p><p>社区的反馈，有人称赞其，也有人赞赏其。“架构电梯”（Architect Elevator）理念的提出者、亚马逊云科技的前企业战略总监Gregor Hohpe：</p><p></p><p>在其新闻通讯中，The Duckbill Group首席云经济学家Corey Quinn对：</p><p></p><p>增强型自定义事件总线采用，发布者按摄取的事件付费，订阅者按传递的事件付费。现有的自定义事件总线保持不变，而增强型自定义事件总线作为一种新资源提供。</p><p></p><p></p><p>查看英文原文：</p></div>",
-            "link": "https://www.infoq.cn/article/J4MJLMWsGagkT3eRVSJQ",
-            "pub_date": "2026-11-16 09:36:39",
             "source": "infoq",
             "kind": 1,
             "language": "zh-CN"
