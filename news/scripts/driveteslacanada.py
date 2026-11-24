@@ -113,13 +113,16 @@ def run(link):
         return
 
     soup = BeautifulSoup(response.text, "lxml")
-    items = soup.select(".entry-content article")
+    # 2026-11-23 站点改版：首页不再有 .entry-content 列表，按时间倒序的最新文章在
+    # 「Latest News」区块 section.latest-news 下的 article.story 里，标题在 .story-copy 的 h2/h3 中。
+    # 详情页仍是 .entry-content，未变。
+    items = soup.select(".latest-news article.story")
     if not items:
         util.log_action_error("request {}, no article node parsed".format(link))
         return
 
     for item in items[:MAX_POSTS]:
-        title_node = item.select_one(".entry-title > a")
+        title_node = item.select_one(".story-copy h3 > a, .story-copy h2 > a")
         if title_node is None or not title_node.get("href"):
             continue
         article_link = title_node["href"].strip()
