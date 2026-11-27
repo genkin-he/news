@@ -1,6 +1,26 @@
 {
     "data": [
         {
+            "id": 1180153,
+            "title": "Trump Says Wednesday’s Sharp Wall Street Selloff Briefly Worried Him",
+            "description": "According to ChainCatcher, U.S. President Donald Trump said Wednesday’s sharp stock-market decline briefly worried him, though major indexes recovered most of their losses. He told reporters that seeing some substantial declines the previous day had concerned him, but stocks had risen again by the close.\n\nThe Nasdaq fell more than 4% at one point Wednesday before rebounding to finish slightly lower. Trump also said markets reacted positively to Jensen Huang resuming as Nvidia’s CEO, adding that the market felt good about it.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180153&language=en-US",
+            "pub_date": "2026-11-27 09:15:49",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
+            "id": 1180152,
+            "title": "South Korea’s Presidential Office Convenes Emergency Meeting to Strengthen Anti-Hacking Measures",
+            "description": "South Korea’s presidential office convened an emergency meeting with financial regulators to strengthen defenses against hacking and prevent further losses. According to Odaily, the National Security Office said the meeting was chaired by its Third Deputy Director, Song Ki-ho, and attended by the Financial Services Commission, the Financial Supervisory Service and the Financial Security Institute.\n\nThe Financial Services Commission presented measures to prevent further losses, including the use of an abnormal transaction detection system (FDS) and an AI-based voice phishing detection system. Song called on regulators to strengthen two-factor authentication, including one-time password (OTP) generators, and incorporate AI into the FDS. The National Security Office said it would also step up blocking and investigations of websites illegally selling leaked information.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180152&language=en-US",
+            "pub_date": "2026-11-27 09:18:58",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1180148,
             "title": "Bitcoin Core Wallet Replay Mechanism Linked Addresses to Node IPs in 30 Successful Simulations",
             "description": "Researchers found that a deterministic signal in Bitcoin Core wallet transaction replays can link an on-chain address to the IP address of a node running the wallet. According to Odaily, after an attacker sends a low-fee transaction to a confirmed address, a wallet holding that address periodically rebroadcasts it during a 12-to-36-hour replay window; monitoring P2P transaction announcements from candidate nodes can identify the associated node. The method also applies to hot and watch-only wallets because they check script membership without verifying private keys.\n\nIn regtest simulations, researchers tested five target wallets over six rounds and successfully linked the addresses to the correct nodes in all 30 attribution attempts. They estimated the cost of an implanted transaction at $0.18 to $0.34, based on a Bitcoin price of about $59,000 on November 25, 2026.\n\nThe -privatebroadcast setting does not prevent the leak: if a transaction remains unconfirmed beyond the 12-to-36-hour window, periodic replays revert to broadcasting to all peers. Nodes operating on multiple networks replay transactions across those networks; only nodes configured solely with -onlynet=onion can avoid exposing a clearnet IP address. Affected software includes Bitcoin Core, Bitcoin Knots, Sparrow in core mode, Specter Desktop, Liana, Fully Noded, Gordian Wallet, JoinMarket, Jam, Lily Wallet, Electrum Personal Server, Caravan, bwt and Eclair.\n\nSetting -walletbroadcast=0 disables all wallet broadcasts, including the initial broadcast of new transactions; users must relay them manually with sendrawtransaction. Bitcoin Core PR 36482 proposes replaying only transactions newly added to the mempool to remove the planted-transaction signal, but it has not been released. Researchers ismaelsadeeq and polespinasa jointly conceived the study during Bitcoin Research Week, and the simulation code is available on GitHub. They noted that node identity does not establish common ownership: one entity may operate multiple nodes, and a watch-only wallet may track addresses it does not own.",
@@ -176,26 +196,6 @@
             "description": "U.S. President Donald Trump said he may speak with Nvidia CEO Jensen Huang soon. According to Odaily, Trump had previously expressed concern about an earlier market decline.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180100&language=en-US",
             "pub_date": "2026-11-27 08:02:26",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1180097,
-            "title": "Sui-Based Bluefin to Shut Down Perpetuals on December 4, 2026",
-            "description": "According to ChainCatcher, Sui-based decentralized exchange Bluefin will stop offering Bluefin Perps perpetual contracts at 21:00 UTC on December 4, 2026. Users must close open positions before trading ends, though withdrawals will remain available for a period afterward.\n\nBluefin said it has recorded more than $100 billion in cumulative trading volume and has over 2.5 million accounts. Bluefin Perps accounts for 95% of the Sui network’s historical perpetual contract trading volume.\n\nBluefin said it will focus resources on developing Bluefin Spot and expanding into asset tokenization and real-world assets. The underlying infrastructure for Bluefin Perps will continue to be made available to the community and potential partners through the Bluefin Liquidity Network program.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180097&language=en-US",
-            "pub_date": "2026-11-27 07:35:54",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1180096,
-            "title": "Unique Network to Shut Down on January 26, 2027",
-            "description": "According to ChainCatcher, the Polkadot and Kusama ecosystem NFT chain Unique Network will shut down on January 26, 2027, after seven years of operation. The team said it had developed NFT technology but had not attracted users, and that it no longer had enough funding to keep the chain running.\n\nThe team recommended that projects built on Unique Network move their collections and NFT issuance to Polkadot AssetHub, with instructions available in Polkadot documentation. Unique Network’s code is open source and available on GitHub for those who need it.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180096&language=en-US",
-            "pub_date": "2026-11-27 07:40:42",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
