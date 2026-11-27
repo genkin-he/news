@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": 1180148,
+            "title": "Bitcoin Core Wallet Replay Mechanism Linked Addresses to Node IPs in 30 Successful Simulations",
+            "description": "Researchers found that a deterministic signal in Bitcoin Core wallet transaction replays can link an on-chain address to the IP address of a node running the wallet. According to Odaily, after an attacker sends a low-fee transaction to a confirmed address, a wallet holding that address periodically rebroadcasts it during a 12-to-36-hour replay window; monitoring P2P transaction announcements from candidate nodes can identify the associated node. The method also applies to hot and watch-only wallets because they check script membership without verifying private keys.\n\nIn regtest simulations, researchers tested five target wallets over six rounds and successfully linked the addresses to the correct nodes in all 30 attribution attempts. They estimated the cost of an implanted transaction at $0.18 to $0.34, based on a Bitcoin price of about $59,000 on November 25, 2026.\n\nThe -privatebroadcast setting does not prevent the leak: if a transaction remains unconfirmed beyond the 12-to-36-hour window, periodic replays revert to broadcasting to all peers. Nodes operating on multiple networks replay transactions across those networks; only nodes configured solely with -onlynet=onion can avoid exposing a clearnet IP address. Affected software includes Bitcoin Core, Bitcoin Knots, Sparrow in core mode, Specter Desktop, Liana, Fully Noded, Gordian Wallet, JoinMarket, Jam, Lily Wallet, Electrum Personal Server, Caravan, bwt and Eclair.\n\nSetting -walletbroadcast=0 disables all wallet broadcasts, including the initial broadcast of new transactions; users must relay them manually with sendrawtransaction. Bitcoin Core PR 36482 proposes replaying only transactions newly added to the mempool to remove the planted-transaction signal, but it has not been released. Researchers ismaelsadeeq and polespinasa jointly conceived the study during Bitcoin Research Week, and the simulation code is available on GitHub. They noted that node identity does not establish common ownership: one entity may operate multiple nodes, and a watch-only wallet may track addresses it does not own.",
+            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180148&language=en-US",
+            "pub_date": "2026-11-27 09:12:58",
+            "source": "coinlive",
+            "kind": 2,
+            "language": "en"
+        },
+        {
             "id": 1180138,
             "title": "Scammers Use Frozen USDT to Lure TRON Users and Steal TRX Deposits",
             "description": "According to ChainCatcher citing Crypto Briefing, scammers on the TRON network are using USDT frozen by Tether as bait, directing victims to wallets showing large USDT balances and asking them to send TRX to cover supposed unlocking or transfer fees. Once the TRX arrives, automated bots typically sweep it away within about 1.1 minutes, while the frozen USDT remains immovable.\n\nFreezeCheck has flagged multiple trap wallets using this scheme. At least seven are linked to more than $2.54 million in frozen USDT, which represents the scale of the bait, not victims’ losses.\n\nAs of mid-November 2026, Tether’s blacklist included more than 8,361 TRON addresses where USDT transfers were blocked but TRX deposits could still be received. Tether, TRON, and Chainalysis formed a digital crime task force on November 12 to combat illicit USDT activity on the TRON network.",
@@ -186,16 +196,6 @@
             "description": "According to ChainCatcher, the Polkadot and Kusama ecosystem NFT chain Unique Network will shut down on January 26, 2027, after seven years of operation. The team said it had developed NFT technology but had not attracted users, and that it no longer had enough funding to keep the chain running.\n\nThe team recommended that projects built on Unique Network move their collections and NFT issuance to Polkadot AssetHub, with instructions available in Polkadot documentation. Unique Network’s code is open source and available on GitHub for those who need it.",
             "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180096&language=en-US",
             "pub_date": "2026-11-27 07:40:42",
-            "source": "coinlive",
-            "kind": 2,
-            "language": "en"
-        },
-        {
-            "id": 1180091,
-            "title": "Fluid Pauses DEX Swaps for Mythos 5.2 Security Review",
-            "description": "According to ChainCatcher, DeFi lending protocol Fluid has paused DEX swaps while it conducts a security review code-named Mythos 5.2.\n\nThe protocol said borrowers can continue repaying loans and users can still withdraw funds during the pause. It did not provide a date for when DEX trading will resume.",
-            "link": "https://www.coinlive.com/mobile/hot-news/detail/?id=1180091&language=en-US",
-            "pub_date": "2026-11-27 05:20:39",
             "source": "coinlive",
             "kind": 2,
             "language": "en"
